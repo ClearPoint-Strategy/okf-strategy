@@ -29,7 +29,8 @@ scripts/validate.mjs  Conformance gate (the survivor of cps-parse's validator, e
 docs/
   mapping.md          ClearPoint element ↔ OKF concept mapping (the outbound mirror of field-mapping).
   adr/                Why the format is shaped this way.
-examples/bundles/     Upward Airlines — a worked bundle demonstrating all five axes with real fields.
+examples/bundles/     upward-airlines-corporate — a real bundle (49 concepts) emitted from the live
+                      Upward Airlines account via GET /okf; demonstrates all five axes.
 ```
 
 The `cps` block is grounded in the real ClearPoint OpenAPI (`cps-lucee/api/v1/doc/schema`) and is the

@@ -1,0 +1,357 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/initiative/308980",
+  "object": "initiative",
+  "objectId": 308980,
+  "series": [
+    {
+      "name": "Design Costs To Date",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Construction Costs To Date",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Total Spending To Date",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Project Budget",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Actual % Complete",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Planned % Complete",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Budget based on % complete",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Variance from Target",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "% Variance",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 443020,
+      "Total Spending To Date": 493020,
+      "Project Budget": 1000000,
+      "Actual % Complete": 40,
+      "Planned % Complete": 40,
+      "Budget based on % complete": 400000,
+      "Variance from Target": 93020,
+      "% Variance": 23.255
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 490000,
+      "Total Spending To Date": 540000,
+      "Project Budget": 1000000,
+      "Actual % Complete": 43,
+      "Planned % Complete": 45,
+      "Budget based on % complete": 430000,
+      "Variance from Target": 110000,
+      "% Variance": 25.58139535
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 530912,
+      "Total Spending To Date": 580912,
+      "Project Budget": 1000000,
+      "Actual % Complete": 50,
+      "Planned % Complete": 50,
+      "Budget based on % complete": 500000,
+      "Variance from Target": 80912,
+      "% Variance": 16.1824
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 598186,
+      "Total Spending To Date": 648186,
+      "Project Budget": 1000000,
+      "Actual % Complete": 55,
+      "Planned % Complete": 55,
+      "Budget based on % complete": 550000,
+      "Variance from Target": 98186,
+      "% Variance": 17.852
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 620948,
+      "Total Spending To Date": 670948,
+      "Project Budget": 1000000,
+      "Actual % Complete": 60,
+      "Planned % Complete": 60,
+      "Budget based on % complete": 600000,
+      "Variance from Target": 70948,
+      "% Variance": 11.82466667
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 650981,
+      "Total Spending To Date": 700981,
+      "Project Budget": 1000000,
+      "Actual % Complete": 65,
+      "Planned % Complete": 65,
+      "Budget based on % complete": 650000,
+      "Variance from Target": 50981,
+      "% Variance": 7.84323077
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 689234,
+      "Total Spending To Date": 739234,
+      "Project Budget": 1000000,
+      "Actual % Complete": 65,
+      "Planned % Complete": 70,
+      "Budget based on % complete": 650000,
+      "Variance from Target": 89234,
+      "% Variance": 13.72830769
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 710985,
+      "Total Spending To Date": 760985,
+      "Project Budget": 1000000,
+      "Actual % Complete": 74,
+      "Planned % Complete": 75,
+      "Budget based on % complete": 740000,
+      "Variance from Target": 20985,
+      "% Variance": 2.83581081
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 740943,
+      "Total Spending To Date": 790943,
+      "Project Budget": 1000000,
+      "Actual % Complete": 80,
+      "Planned % Complete": 80,
+      "Budget based on % complete": 800000,
+      "Variance from Target": -9057,
+      "% Variance": -1.132125
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 790875,
+      "Total Spending To Date": 840875,
+      "Project Budget": 1000000,
+      "Actual % Complete": 86,
+      "Planned % Complete": 85,
+      "Budget based on % complete": 860000,
+      "Variance from Target": -19125,
+      "% Variance": -2.22383721
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 812354,
+      "Total Spending To Date": 862354,
+      "Project Budget": 1000000,
+      "Actual % Complete": 88,
+      "Planned % Complete": 90,
+      "Budget based on % complete": 880000,
+      "Variance from Target": -17646,
+      "% Variance": -2.00522727
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Design Costs To Date": 50000,
+      "Construction Costs To Date": 910000,
+      "Total Spending To Date": 960000,
+      "Project Budget": 1000000,
+      "Actual % Complete": 94,
+      "Planned % Complete": 94,
+      "Budget based on % complete": 940000,
+      "Variance from Target": 20000,
+      "% Variance": 2.12765957
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Design Costs To Date": null,
+      "Construction Costs To Date": null,
+      "Total Spending To Date": null,
+      "Project Budget": null,
+      "Actual % Complete": null,
+      "Planned % Complete": null,
+      "Budget based on % complete": null,
+      "Variance from Target": null,
+      "% Variance": null
+    }
+  ]
+}

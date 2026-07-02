@@ -1,0 +1,273 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423483",
+  "object": "measure",
+  "objectId": 423483,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 5
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 5
+    },
+    {
+      "name": "% of Target",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168170,
+      "period": "Jan-24",
+      "Actual": 5.4000001,
+      "Target": 7,
+      "% of Target": 77.1429
+    },
+    {
+      "periodId": 168173,
+      "period": "Feb-24",
+      "Actual": 6.7,
+      "Target": 7,
+      "% of Target": 95.7143
+    },
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Actual": 6.6,
+      "Target": 7,
+      "% of Target": 94.2857
+    },
+    {
+      "periodId": 149074,
+      "period": "Apr-24",
+      "Actual": 7.0999999,
+      "Target": 7,
+      "% of Target": 101.4286
+    },
+    {
+      "periodId": 189837,
+      "period": "May-24",
+      "Actual": 7.3,
+      "Target": 7,
+      "% of Target": 104.2857
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Actual": 7.5,
+      "Target": 7,
+      "% of Target": 107.1429
+    },
+    {
+      "periodId": 189839,
+      "period": "Jul-24",
+      "Actual": 6,
+      "Target": 7,
+      "% of Target": 85.7143
+    },
+    {
+      "periodId": 189838,
+      "period": "Aug-24",
+      "Actual": 6.2,
+      "Target": 7,
+      "% of Target": 88.5714
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Actual": 6.6,
+      "Target": 7,
+      "% of Target": 94.2857
+    },
+    {
+      "periodId": 189845,
+      "period": "Oct-24",
+      "Actual": 7,
+      "Target": 7,
+      "% of Target": 100
+    },
+    {
+      "periodId": 189841,
+      "period": "Nov-24",
+      "Actual": 7.3,
+      "Target": 7,
+      "% of Target": 104.2857
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": 6.9,
+      "Target": 7,
+      "% of Target": 98.5714
+    },
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Actual": 5.4000001,
+      "Target": 7,
+      "% of Target": 77.1429
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Actual": 6.7,
+      "Target": 7,
+      "% of Target": 95.7143
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Actual": 6.6,
+      "Target": 7,
+      "% of Target": 94.2857
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Actual": 7.0999999,
+      "Target": 7,
+      "% of Target": 101.4286
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Actual": 7.3,
+      "Target": 7,
+      "% of Target": 104.2857
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Actual": 7.5,
+      "Target": 7,
+      "% of Target": 107.1429
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Actual": 6,
+      "Target": 7,
+      "% of Target": 85.7143
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Actual": 6.2,
+      "Target": 7,
+      "% of Target": 88.5714
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Actual": 6.6,
+      "Target": 7,
+      "% of Target": 94.2857
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Actual": 7,
+      "Target": 7,
+      "% of Target": 100
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Actual": 7.3,
+      "Target": 7,
+      "% of Target": 104.2857
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 7.5,
+      "Target": 7,
+      "% of Target": 107.1429
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Actual": null,
+      "Target": null,
+      "% of Target": null
+    }
+  ]
+}

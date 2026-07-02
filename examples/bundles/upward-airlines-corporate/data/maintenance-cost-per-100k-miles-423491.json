@@ -1,0 +1,273 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423491",
+  "object": "measure",
+  "objectId": 423491,
+  "series": [
+    {
+      "name": "Maintenance Cost",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "% of Target",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168170,
+      "period": "Jan-24",
+      "Maintenance Cost": 14900,
+      "Target": 14500,
+      "% of Target": 102.75862069
+    },
+    {
+      "periodId": 168173,
+      "period": "Feb-24",
+      "Maintenance Cost": 14950,
+      "Target": 14500,
+      "% of Target": 103.10344828
+    },
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Maintenance Cost": 14878,
+      "Target": 14500,
+      "% of Target": 102.60689655
+    },
+    {
+      "periodId": 149074,
+      "period": "Apr-24",
+      "Maintenance Cost": 14570,
+      "Target": 14500,
+      "% of Target": 100.48275862
+    },
+    {
+      "periodId": 189837,
+      "period": "May-24",
+      "Maintenance Cost": 17350,
+      "Target": 15000,
+      "% of Target": 115.66666667
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Maintenance Cost": 17005,
+      "Target": 15000,
+      "% of Target": 113.36666667
+    },
+    {
+      "periodId": 189839,
+      "period": "Jul-24",
+      "Maintenance Cost": 16660,
+      "Target": 15000,
+      "% of Target": 111.06666667
+    },
+    {
+      "periodId": 189838,
+      "period": "Aug-24",
+      "Maintenance Cost": 16200,
+      "Target": 15000,
+      "% of Target": 108
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Maintenance Cost": 15500,
+      "Target": 15000,
+      "% of Target": 103.33333333
+    },
+    {
+      "periodId": 189845,
+      "period": "Oct-24",
+      "Maintenance Cost": 15680,
+      "Target": 15000,
+      "% of Target": 104.53333333
+    },
+    {
+      "periodId": 189841,
+      "period": "Nov-24",
+      "Maintenance Cost": 15730,
+      "Target": 15000,
+      "% of Target": 104.86666667
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Maintenance Cost": 15690,
+      "Target": 15000,
+      "% of Target": 104.6
+    },
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Maintenance Cost": 14900,
+      "Target": 14500,
+      "% of Target": 102.75862069
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Maintenance Cost": 14950,
+      "Target": 14500,
+      "% of Target": 103.10344828
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Maintenance Cost": 14878,
+      "Target": 14500,
+      "% of Target": 102.60689655
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Maintenance Cost": 14570,
+      "Target": 14500,
+      "% of Target": 100.48275862
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Maintenance Cost": 17350,
+      "Target": 15000,
+      "% of Target": 115.66666667
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Maintenance Cost": 17005,
+      "Target": 15000,
+      "% of Target": 113.36666667
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Maintenance Cost": 16660,
+      "Target": 15000,
+      "% of Target": 111.06666667
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Maintenance Cost": 16200,
+      "Target": 15000,
+      "% of Target": 108
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Maintenance Cost": 15500,
+      "Target": 15000,
+      "% of Target": 103.33333333
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Maintenance Cost": 15680,
+      "Target": 15000,
+      "% of Target": 104.53333333
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Maintenance Cost": 17550,
+      "Target": 15000,
+      "% of Target": 117
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Maintenance Cost": 17220,
+      "Target": 15000,
+      "% of Target": 114.8
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Maintenance Cost": null,
+      "Target": 15000,
+      "% of Target": null
+    }
+  ]
+}

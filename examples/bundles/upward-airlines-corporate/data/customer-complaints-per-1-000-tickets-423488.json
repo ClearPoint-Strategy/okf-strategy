@@ -1,0 +1,53 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423488",
+  "object": "measure",
+  "objectId": 423488,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 5
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 5
+    }
+  ],
+  "data": [
+    {
+      "periodId": 149093,
+      "period": "2022",
+      "Actual": 6,
+      "Target": 10
+    },
+    {
+      "periodId": 168168,
+      "period": "2023",
+      "Actual": 9,
+      "Target": 10
+    },
+    {
+      "periodId": 189846,
+      "period": "2025",
+      "Actual": 8,
+      "Target": 10
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "Actual": 9,
+      "Target": 10
+    },
+    {
+      "periodId": 256623,
+      "period": "2026",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 313381,
+      "period": "2027",
+      "Actual": null,
+      "Target": null
+    }
+  ]
+}

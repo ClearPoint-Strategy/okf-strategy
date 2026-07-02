@@ -1,0 +1,78 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/initiative/163370",
+  "object": "initiative",
+  "objectId": 163370,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189836,
+      "period": "Q2-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189840,
+      "period": "Q3-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Q1-25",
+      "Actual": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "Actual": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Q2-25",
+      "Actual": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "Actual": null
+    },
+    {
+      "periodId": 256354,
+      "period": "Q4-24",
+      "Actual": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Q1-26",
+      "Actual": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Q2-26",
+      "Actual": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Q3-26",
+      "Actual": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Q4-26",
+      "Actual": null
+    },
+    {
+      "periodId": 313372,
+      "period": "q1-27",
+      "Actual": null
+    }
+  ]
+}

@@ -31,6 +31,12 @@ first is safe to delete.
 environment, their frontier model drives the same tools through the ClearPoint MCP. See
 [docs/api.md](../api.md).
 
+**The endpoints live in the cps-lucee REST API** (`cps-lucee/api/v1/okf*`), beside `/scorecards` and
+`/mcp/*` — ClearPoint-owned server endpoints. cps-okf owns the *contract*; cps-lucee owns the
+*implementation*. `GET /okf` is the deterministic emitter (reference logic prototyped in this repo's
+`local/emit-okf.mjs`, validated end-to-end against a live Upward Airlines pull); `POST /okf/validate` is
+the safety oracle (ADR-0006).
+
 The write gate is non-negotiable: a model may draft freely but may not land a change unreviewed — every
 mutation passes `/okf/validate` and routes through review/approval (in-app) or explicit human
 confirmation (MCP). This makes closing the `access-control.ts` MCP-bypass (`if (!action) return true`) a

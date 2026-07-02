@@ -1,0 +1,146 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/533944",
+  "object": "measure",
+  "objectId": 533944,
+  "series": [
+    {
+      "name": "Above Target Strategic Projects",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Caution Strategic Projects",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Below Target Strategic Projects",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Total",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "% Green",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 1,
+      "Below Target Strategic Projects": 0,
+      "Total": 2,
+      "% Green": 50
+    },
+    {
+      "periodId": 189836,
+      "period": "Q2-24",
+      "Above Target Strategic Projects": 6,
+      "Caution Strategic Projects": 2,
+      "Below Target Strategic Projects": 1,
+      "Total": 9,
+      "% Green": 66.66666667
+    },
+    {
+      "periodId": 189840,
+      "period": "Q3-24",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 189843,
+      "period": "Q1-25",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "Above Target Strategic Projects": 5,
+      "Caution Strategic Projects": 3,
+      "Below Target Strategic Projects": 1,
+      "Total": 9,
+      "% Green": 55.55555556
+    },
+    {
+      "periodId": 256348,
+      "period": "Q2-25",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256354,
+      "period": "Q4-24",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256612,
+      "period": "Q1-26",
+      "Above Target Strategic Projects": 0,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 0,
+      "% Green": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Q2-26",
+      "Above Target Strategic Projects": 0,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 0,
+      "% Green": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Q3-26",
+      "Above Target Strategic Projects": 0,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 0,
+      "% Green": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Q4-26",
+      "Above Target Strategic Projects": 0,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 0,
+      "% Green": null
+    },
+    {
+      "periodId": 313372,
+      "period": "q1-27",
+      "Above Target Strategic Projects": null,
+      "Caution Strategic Projects": null,
+      "Below Target Strategic Projects": null,
+      "Total": null,
+      "% Green": null
+    }
+  ]
+}

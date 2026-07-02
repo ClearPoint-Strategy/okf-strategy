@@ -1,0 +1,95 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423492",
+  "object": "measure",
+  "objectId": 423492,
+  "series": [
+    {
+      "name": "Utilization Percentage",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "Utilization Percentage": 42,
+      "Target": 40
+    },
+    {
+      "periodId": 189836,
+      "period": "Q2-24",
+      "Utilization Percentage": 40,
+      "Target": 40
+    },
+    {
+      "periodId": 189840,
+      "period": "Q3-24",
+      "Utilization Percentage": 39,
+      "Target": 40
+    },
+    {
+      "periodId": 189843,
+      "period": "Q1-25",
+      "Utilization Percentage": 39,
+      "Target": 40
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "Utilization Percentage": 40,
+      "Target": 40
+    },
+    {
+      "periodId": 256348,
+      "period": "Q2-25",
+      "Utilization Percentage": 30,
+      "Target": 40
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "Utilization Percentage": 42,
+      "Target": 40
+    },
+    {
+      "periodId": 256354,
+      "period": "Q4-24",
+      "Utilization Percentage": 41,
+      "Target": 40
+    },
+    {
+      "periodId": 256612,
+      "period": "Q1-26",
+      "Utilization Percentage": null,
+      "Target": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Q2-26",
+      "Utilization Percentage": null,
+      "Target": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Q3-26",
+      "Utilization Percentage": null,
+      "Target": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Q4-26",
+      "Utilization Percentage": null,
+      "Target": null
+    },
+    {
+      "periodId": 313372,
+      "period": "q1-27",
+      "Utilization Percentage": null,
+      "Target": null
+    }
+  ]
+}

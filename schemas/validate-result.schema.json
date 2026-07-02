@@ -1,0 +1,70 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://clearpointstrategy.com/cps-okf/validate-result.schema.json",
+    "title": "cps-okf — /okf/validate result (the safety plan)",
+    "description": "The deterministic response of POST /okf/validate. Takes the OKF as presented by an LLM and returns, per concept, WHAT IS SAFE to do and HOW — create / update / edit, or review / reject. The model reads this plan and executes the safe items via the MCP write tools / in-app actions. The plan is an advisory pre-flight + linter, NOT the security boundary: the real write endpoints re-check access server-side, and review/reject items require a human. See docs/api.md and ADR-0006.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["conformant", "plan"],
+    "properties": {
+        "okfCpsProfile": { "type": "string" },
+        "conformant": { "type": "boolean", "description": "Schema-level conformance of the whole payload." },
+        "summary": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Counts by verdict.",
+            "properties": {
+                "create": { "type": "integer" },
+                "update": { "type": "integer" },
+                "edit": { "type": "integer" },
+                "review": { "type": "integer" },
+                "reject": { "type": "integer" }
+            }
+        },
+        "plan": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["concept", "verdict", "reasons"],
+                "properties": {
+                    "concept": { "type": "string", "description": "Bundle-relative path of the concept this verdict is for." },
+                    "resource": { "type": "string" },
+                    "object": { "$ref": "common.schema.json#/$defs/objectType" },
+                    "objectId": { "type": ["integer", "null"], "description": "Resolved existing id (→ update/edit) or null (→ create)." },
+                    "verdict": {
+                        "type": "string",
+                        "enum": ["create", "update", "edit", "review", "reject"],
+                        "description": "create = safe new insert. update = safe period-scoped change (status/analysis/recommendations/data/period customField). edit = safe definitional change (name/links/dates/edit customField). review = ambiguous identity, sub-threshold confidence, referential gap, or insufficient capability — human required. reject = schema-invalid or forbidden (no access / marking / locked)."
+                    },
+                    "action": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "description": "How the model should apply a safe (create/update/edit) item. Grounded in the real ClearPoint write surface.",
+                        "properties": {
+                            "method": { "type": "string", "enum": ["POST", "PUT", "PATCH", "DELETE"] },
+                            "endpoint": { "type": "string", "description": "REST path, e.g. /scorecards/7/objectives." },
+                            "mcpTool": {
+                                "type": "string",
+                                "enum": ["mcpAdd", "mcpEdit", "mcpEditLinks", "mcpUpdate", "mcpUpdateData"],
+                                "description": "Real MCP write tool: mcpAdd=create, mcpEdit=edit definition, mcpEditLinks=links, mcpUpdate=status/period, mcpUpdateData=measure data."
+                            }
+                        }
+                    },
+                    "requiredCapability": { "$ref": "concept.schema.json#/$defs/capability" },
+                    "callerCapability": { "$ref": "concept.schema.json#/$defs/capability" },
+                    "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "cps.provenance.resolved.confidence if this node was derived; drives review below threshold." },
+                    "reasons": { "type": "array", "items": { "type": "string" }, "description": "Why this verdict — e.g. 'objectId matches; period-scoped status change', 'confidence 0.62 < 0.80', 'element locked', 'no Editor access on scorecard 7'." },
+                    "errors": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": { "path": { "type": "string" }, "message": { "type": "string" } }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

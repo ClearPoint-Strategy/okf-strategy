@@ -151,7 +151,7 @@
             "properties": {
                 "fieldId": { "type": ["string", "integer"] },
                 "name": { "type": "string", "description": "Org's field label (vocabulary)." },
-                "fieldType": { "type": "string", "enum": ["edit", "update", "readOnly", "link", "initiative"], "description": "_field.fieldType." },
+                "fieldType": { "type": "string", "description": "Value type as ClearPoint projects it (e.g. 'html', 'kanban', 'text', 'number', 'date'). The edit-vs-update MODE (element-level vs period-scoped) is carried by WHERE the field lives: cps.customFields = element-level; period sections / history sidecar = period-scoped." },
                 "value": { "type": "string", "description": "Always a string (serialize non-strings)." }
             }
         },

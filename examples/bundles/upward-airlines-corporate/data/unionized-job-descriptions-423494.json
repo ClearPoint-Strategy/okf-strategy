@@ -1,0 +1,233 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423494",
+  "object": "measure",
+  "objectId": 423494,
+  "series": [
+    {
+      "name": "Job Descriptions",
+      "seriesDataTypeId": 5
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 5
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168170,
+      "period": "Jan-24",
+      "Job Descriptions": 135,
+      "Target": 110
+    },
+    {
+      "periodId": 168173,
+      "period": "Feb-24",
+      "Job Descriptions": 130,
+      "Target": 110
+    },
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Job Descriptions": 128,
+      "Target": 110
+    },
+    {
+      "periodId": 149074,
+      "period": "Apr-24",
+      "Job Descriptions": 135,
+      "Target": 110
+    },
+    {
+      "periodId": 189837,
+      "period": "May-24",
+      "Job Descriptions": 87,
+      "Target": 110
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Job Descriptions": 95,
+      "Target": 110
+    },
+    {
+      "periodId": 189839,
+      "period": "Jul-24",
+      "Job Descriptions": 100,
+      "Target": 110
+    },
+    {
+      "periodId": 189838,
+      "period": "Aug-24",
+      "Job Descriptions": 106,
+      "Target": 110
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Job Descriptions": 111,
+      "Target": 110
+    },
+    {
+      "periodId": 189845,
+      "period": "Oct-24",
+      "Job Descriptions": 120,
+      "Target": 110
+    },
+    {
+      "periodId": 189841,
+      "period": "Nov-24",
+      "Job Descriptions": 125,
+      "Target": 110
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Job Descriptions": 131,
+      "Target": 110
+    },
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Job Descriptions": 135,
+      "Target": 110
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Job Descriptions": 130,
+      "Target": 110
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Job Descriptions": 128,
+      "Target": 110
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Job Descriptions": 135,
+      "Target": 110
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Job Descriptions": 87,
+      "Target": 110
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Job Descriptions": 101,
+      "Target": 110
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Job Descriptions": 100,
+      "Target": 110
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Job Descriptions": 106,
+      "Target": 110
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Job Descriptions": 111,
+      "Target": 110
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Job Descriptions": 120,
+      "Target": 110
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Job Descriptions": 126,
+      "Target": 110
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Job Descriptions": 125,
+      "Target": 110
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Job Descriptions": null,
+      "Target": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Job Descriptions": null,
+      "Target": null
+    }
+  ]
+}

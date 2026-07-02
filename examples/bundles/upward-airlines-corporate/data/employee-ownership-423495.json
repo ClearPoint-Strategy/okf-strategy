@@ -1,0 +1,112 @@
+{
+  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423495",
+  "object": "measure",
+  "objectId": 423495,
+  "series": [
+    {
+      "name": "Employee Ownership",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Outside Investors",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "Employee Ownership": 27,
+      "Target": 30,
+      "Outside Investors": 73
+    },
+    {
+      "periodId": 189836,
+      "period": "Q2-24",
+      "Employee Ownership": 29,
+      "Target": 30,
+      "Outside Investors": 71
+    },
+    {
+      "periodId": 189840,
+      "period": "Q3-24",
+      "Employee Ownership": 29,
+      "Target": 30,
+      "Outside Investors": 71
+    },
+    {
+      "periodId": 189843,
+      "period": "Q1-25",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "Employee Ownership": 30,
+      "Target": 30,
+      "Outside Investors": 70
+    },
+    {
+      "periodId": 256348,
+      "period": "Q2-25",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 256354,
+      "period": "Q4-24",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Q1-26",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Q2-26",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Q3-26",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Q4-26",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    },
+    {
+      "periodId": 313372,
+      "period": "q1-27",
+      "Employee Ownership": null,
+      "Target": null,
+      "Outside Investors": null
+    }
+  ]
+}

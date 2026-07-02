@@ -1,0 +1,110 @@
+---
+type: Initiative
+title: Purchase 5 new planes
+description: We need to increase the inventory of planes to increase our supply.
+  Our inventory specialists and strategic advisors are working closely to
+  address this shortfall by identifying manufacturers, looking at different
+  models, and reporting to t
+resource: clearpoint://district/cps-air/scorecard/77146/initiative/211889
+timestamp: 2025-11-17T17:19:12.477Z
+cps:
+  object: initiative
+  objectId: 211889
+  scorecardId: 77146
+  scorecard: Upward Airlines Corporate
+  alias: Program
+  access:
+    minCapability: Administrator
+    markings:
+      - scorecard:77146
+  edges:
+    - fieldId: measures
+      to: /measures/total-amount-of-time-at-gate-423485.md
+      object: measure
+      objectId: 423485
+      name: Total amount of time at gate
+      scorecard: Upward Airlines Corporate
+      access: Administrator
+    - fieldId: measures
+      to: /measures/expenses-423497.md
+      object: measure
+      objectId: 423497
+      name: Expenses
+      scorecard: Upward Airlines Corporate
+      access: Administrator
+    - fieldId: initiatives
+      to: clearpoint://district/cps-air/scorecard/77149/initiative/211897
+      object: initiative
+      objectId: 211897
+      name: Implement wifi on all planes
+      scorecard: 🏜️ Western Division
+      access: Administrator
+  time:
+    cadence: default
+    periodGroupId: -1
+    currentPeriod:
+      periodId: 256614
+      period: May 2026
+      periodDate: 2026-05-31
+  provenance:
+    scorecard:
+      id: 77146
+      name: Upward Airlines Corporate
+    owner:
+      name: James Crockett
+      userId: 24960
+    lastEditedBy:
+      name: Clarice Strong
+      userId: 24944
+      at: 2025-11-17T17:19:12.477Z
+  customFields:
+    - fieldId: custom49307
+      name: Budget
+      fieldType: text
+      value: $400,000,000
+    - fieldId: custom107496
+      name: Level of Effort
+      fieldType: picklist
+      value: 1. Low
+    - fieldId: custom107497
+      name: Level of Impact
+      fieldType: picklist
+      value: 3. High
+    - fieldId: custom107498
+      name: Priority
+      fieldType: picklist
+      value: 3. High
+    - fieldId: custom136389
+      name: Project Request Status
+      fieldType: picklist
+      value: " Denied"
+    - fieldId: custom136390
+      name: Requester
+      fieldType: user
+      value: "33823.0000"
+    - fieldId: custom166733
+      name: Budget
+      fieldType: currency
+      value: "80000000.0000"
+    - fieldId: custom197620
+      name: Initiative Review
+      fieldType: kanban
+      value: rejected
+  measure:
+    series:
+      - name: Actual
+        seriesDataTypeId: 4
+        numberFormat:
+          precision: 2
+          symbol: $
+          decimal: .
+          thousand: ","
+    dataResource: /data/purchase-5-new-planes-211889.json
+---
+
+We need to increase the inventory of planes to increase our supply. Our inventory specialists and strategic advisors are working closely to address this shortfall by identifying manufacturers, looking at different models, and reporting to t
+
+## Related
+
+- [Total amount of time at gate](/measures/total-amount-of-time-at-gate-423485.md)
+- [Expenses](/measures/expenses-423497.md)

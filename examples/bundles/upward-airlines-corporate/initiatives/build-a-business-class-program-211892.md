@@ -1,0 +1,103 @@
+---
+type: Initiative
+title: Build a business class program
+resource: clearpoint://district/cps-air/scorecard/77146/initiative/211892
+timestamp: 2025-03-10T20:51:21.450Z
+cps:
+  object: initiative
+  objectId: 211892
+  scorecardId: 77146
+  scorecard: Upward Airlines Corporate
+  alias: Program
+  access:
+    minCapability: Administrator
+    markings:
+      - scorecard:77146
+  edges:
+    - fieldId: measures
+      to: /measures/net-profit-423481.md
+      object: measure
+      objectId: 423481
+      name: Net Profit
+      scorecard: Upward Airlines Corporate
+      access: Administrator
+    - fieldId: initiatives
+      to: clearpoint://district/cps-air/scorecard/77147/initiative/163375
+      object: initiative
+      objectId: 163375
+      name: Expand to serve two new locations
+      scorecard: 🌐 Eastern Division
+      access: Administrator
+    - fieldId: initiatives
+      to: clearpoint://district/cps-air/scorecard/77149/initiative/211897
+      object: initiative
+      objectId: 211897
+      name: Implement wifi on all planes
+      scorecard: 🏜️ Western Division
+      access: Administrator
+  time:
+    cadence: quarterly
+    periodGroupId: 9723
+    currentPeriod:
+      periodId: 256614
+      period: May 2026
+      periodDate: 2026-05-31
+  provenance:
+    scorecard:
+      id: 77146
+      name: Upward Airlines Corporate
+    owner:
+      name: Steve Smith
+      userId: 24973
+    lastEditedBy:
+      name: Clarice Strong
+      userId: 24944
+      at: 2025-03-10T20:51:21.450Z
+  customFields:
+    - fieldId: custom49307
+      name: Budget
+      fieldType: text
+      value: $300,000
+    - fieldId: custom107496
+      name: Level of Effort
+      fieldType: picklist
+      value: 3. High
+    - fieldId: custom107497
+      name: Level of Impact
+      fieldType: picklist
+      value: 1. Low
+    - fieldId: custom107498
+      name: Priority
+      fieldType: picklist
+      value: 1. Low
+    - fieldId: custom136389
+      name: Project Request Status
+      fieldType: picklist
+      value: " Need Additional Information "
+    - fieldId: custom136390
+      name: Requester
+      fieldType: user
+      value: "24965.0000"
+    - fieldId: custom166733
+      name: Budget
+      fieldType: currency
+      value: "300000.0000"
+    - fieldId: custom197620
+      name: Initiative Review
+      fieldType: kanban
+      value: approved
+  measure:
+    series:
+      - name: Actual
+        seriesDataTypeId: 4
+        numberFormat:
+          precision: 2
+          symbol: $
+          decimal: .
+          thousand: ","
+    dataResource: /data/build-a-business-class-program-211892.json
+---
+
+## Related
+
+- [Net Profit](/measures/net-profit-423481.md)
