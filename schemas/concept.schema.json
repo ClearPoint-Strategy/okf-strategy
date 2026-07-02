@@ -78,7 +78,7 @@
                     "additionalProperties": false,
                     "description": "AXIS 3 — Time/Status. The element's current reporting status + cadence. Bitemporal: grounding reads VALID time (reporting period); 'current' is PER-ELEMENT at its own cadence.",
                     "properties": {
-                        "cadence": { "type": "string", "description": "Reporting periodicity (elementStatus.periodicity / periodGroup), e.g. 'monthly', 'quarterly'." },
+                        "periodicity": { "type": "string", "description": "Reporting periodicity — the periodGroup NAME (e.g. 'Monthly', 'Quarterly', 'Annual'), resolved from periodGroupId. Its periods are grouped in the root periodicities.md lookup." },
                         "periodGroupId": { "type": ["integer", "null"] },
                         "currentPeriod": { "anyOf": [{ "$ref": "#/$defs/periodRef" }, { "type": "null" }], "description": "Latest relevant reporting period (element.displayPeriodId / elementStatus.period), with its status snapshot. Narrative (analysis/recommendations) stays in the body period section." },
                         "statusResource": { "type": "string", "description": "Bundle-relative path of the status-history sidecar (<object>-<id>-status.json): structured per-period status, analysis, recommendations, period-scoped custom fields. Body period sections are the grounding view; this is the query view." }

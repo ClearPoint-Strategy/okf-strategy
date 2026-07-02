@@ -18,8 +18,7 @@ cps:
   endDate: 2026-06-28
   completed: false
   status:
-    cadence: default
-    periodGroupId: -1
+    periodicity: Default
     currentPeriod:
       periodId: 189846
       period: Dec-25

@@ -18,7 +18,7 @@ those existing MCP endpoints: they already resolve owner id→name, tags id→st
 | `element.parentId` / `initiativeId` | directory nesting + a body link (milestone→`## Parent Initiative`) | derived; not in `_mcpLink` |
 | `_mcpLink` (via `/mcp/.../links`) | **body** markdown links grouped under real-`fieldId` headings (`## Parents`, `## Children`, `## Measures`, …) | edges live in the body, not frontmatter |
 | `element.access` (caller's access) | *not embedded* — compartment is `cps.scorecardId`; who-can-access is a lookup | axis 2; caller access ≠ minimum required |
-| `element.periodGroupId` / status `periodicity` | `cps.status.cadence` + `periodGroupId` | axis 3 |
+| `element.periodGroupId` / status `periodicity` | `cps.status.periodicity` + `periodGroupId` | axis 3 |
 | `element.displayPeriodId` / status `period`,`periodDate` | `cps.status.currentPeriod` | per-element "current" |
 | `elementStatus` (per period) | body section under a period heading | each carries its own editorial stamp |
 | `elementStatus.status` / `analysis` / `recommendations` | body prose (period-scoped) | OKF's strongest fit |

@@ -10,8 +10,7 @@ cps:
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
   status:
-    cadence: monthly
-    periodGroupId: 0
+    periodicity: Monthly
     currentPeriod:
       periodId: 189846
       period: Dec-25

@@ -13,7 +13,7 @@ cps:
   completed: true
   completedDate: 2025-03-01
   status:
-    cadence: quarterly
+    periodicity: Quarterly
     periodGroupId: 9723
     currentPeriod:
       periodId: 189846

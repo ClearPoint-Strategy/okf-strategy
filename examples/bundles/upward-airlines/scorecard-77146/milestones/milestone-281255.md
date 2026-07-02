@@ -12,8 +12,7 @@ cps:
   endDate: 2026-04-02
   completed: false
   status:
-    cadence: quarterly
-    periodGroupId: 0
+    periodicity: Quarterly
     currentPeriod:
       periodId: 189846
       period: Dec-25

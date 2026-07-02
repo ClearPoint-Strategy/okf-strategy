@@ -118,7 +118,7 @@ paraphrased, so filtering must happen before the node enters context.
 
 - **Valid time** (reporting period) is primary for grounding: "December 2025" vs "January 2026".
 - **System time** (`timestamp`, and `provenance.*.at`) is for audit.
-- Elements report on **different cadences** (`cps.status.cadence`), so **"current" is per-element**: a
+- Elements report on **different cadences** (`cps.status.periodicity`), so **"current" is per-element**: a
   monthly measure and a quarterly objective are both current at different grains. `cps.status.currentPeriod`
   is resolved against the element's own cadence.
 - Period-scoped facts (status/analysis/measure values) live in the body under period headings and carry

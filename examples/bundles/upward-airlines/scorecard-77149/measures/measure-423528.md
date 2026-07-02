@@ -13,7 +13,7 @@ cps:
   scorecardId: 77149
   scorecard: 🏜️ Western Division
   status:
-    cadence: quarterly
+    periodicity: Quarterly
     periodGroupId: 9723
     currentPeriod:
       periodId: 189846

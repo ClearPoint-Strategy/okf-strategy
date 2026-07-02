@@ -12,7 +12,7 @@ cps:
   scorecardId: 77148
   scorecard: 🎯 Central Division
   status:
-    cadence: monthly
+    periodicity: Monthly
     periodGroupId: 9722
     currentPeriod:
       periodId: 189846

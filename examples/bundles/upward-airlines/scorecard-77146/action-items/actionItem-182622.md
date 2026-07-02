@@ -12,7 +12,6 @@ cps:
   endDate: 2023-02-28
   completed: false
   status:
-    periodGroupId: -1
     currentPeriod:
       periodId: 189846
       period: Dec-25

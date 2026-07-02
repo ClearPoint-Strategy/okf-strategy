@@ -9,7 +9,7 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   status:
-    cadence: quarterly
+    periodicity: Quarterly
     periodGroupId: 9723
     currentPeriod:
       periodId: 189846

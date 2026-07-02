@@ -13,7 +13,6 @@ cps:
   completed: true
   completedDate: 2021-09-21
   status:
-    periodGroupId: -1
     currentPeriod:
       periodId: 189846
       period: Dec-25

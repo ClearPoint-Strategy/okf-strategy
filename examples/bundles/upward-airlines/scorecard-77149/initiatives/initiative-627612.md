@@ -13,7 +13,7 @@ cps:
   endDate: 2026-08-21
   completed: false
   status:
-    cadence: monthly
+    periodicity: Monthly
     periodGroupId: 9722
     currentPeriod:
       periodId: 189846
