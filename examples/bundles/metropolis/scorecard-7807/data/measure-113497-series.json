@@ -1,0 +1,89 @@
+{
+  "resource": "clearpoint://scorecard/7807/measure/113497",
+  "object": "measure",
+  "objectId": 113497,
+  "series": [
+    {
+      "name": "Paid Staff",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Volunteers",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Paid Staff": 52,
+      "Volunteers": 48
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Paid Staff": 51,
+      "Volunteers": 49
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Paid Staff": 50,
+      "Volunteers": 50
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Paid Staff": 49,
+      "Volunteers": 51
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Paid Staff": 48,
+      "Volunteers": 52
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Paid Staff": 49,
+      "Volunteers": 51
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Paid Staff": 49,
+      "Volunteers": 51
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Paid Staff": 50,
+      "Volunteers": 50
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Paid Staff": null,
+      "Volunteers": null
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Paid Staff": null,
+      "Volunteers": null
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Paid Staff": null,
+      "Volunteers": null
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Paid Staff": null,
+      "Volunteers": null
+    }
+  ]
+}

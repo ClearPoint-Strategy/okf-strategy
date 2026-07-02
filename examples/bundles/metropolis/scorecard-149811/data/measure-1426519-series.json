@@ -1,0 +1,329 @@
+{
+  "resource": "clearpoint://scorecard/149811/measure/1426519",
+  "object": "measure",
+  "objectId": 1426519,
+  "series": [
+    {
+      "name": "Metropolis - Actual",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Metropolis - Target",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33176,
+      "period": "Nov-19",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 18786,
+      "period": "Dec-19",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 33171,
+      "period": "Jun-20",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 33178,
+      "period": "Jan-21",
+      "Metropolis - Actual": 17.54068716,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 33179,
+      "period": "Feb-21",
+      "Metropolis - Actual": 12.53241141,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Metropolis - Actual": 14.11911703,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 18799,
+      "period": "Apr-21",
+      "Metropolis - Actual": 15.72016461,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168152,
+      "period": "May-21",
+      "Metropolis - Actual": 9.67032967,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Metropolis - Actual": 7.05263158,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168151,
+      "period": "Jul-21",
+      "Metropolis - Actual": 4.54545455,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168154,
+      "period": "Aug-21",
+      "Metropolis - Actual": 11.7,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Metropolis - Actual": 13.34002006,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168155,
+      "period": "Oct-21",
+      "Metropolis - Actual": 9.04761905,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168156,
+      "period": "Nov-21",
+      "Metropolis - Actual": 4.27927928,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 168157,
+      "period": "Jan-22",
+      "Metropolis - Actual": 4.16666667,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168159,
+      "period": "Feb-22",
+      "Metropolis - Actual": 6.72131148,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Metropolis - Actual": 9.6,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 18800,
+      "period": "Apr-22",
+      "Metropolis - Actual": 13.75404531,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192046,
+      "period": "May-22",
+      "Metropolis - Actual": 5.45454545,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Metropolis - Actual": 1.01694915,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192044,
+      "period": "Jul-22",
+      "Metropolis - Actual": -0.06664445,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192050,
+      "period": "Aug-22",
+      "Metropolis - Actual": -13.24884793,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Metropolis - Actual": 8.85714286,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192047,
+      "period": "Oct-22",
+      "Metropolis - Actual": 6.85314685,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192049,
+      "period": "Nov-22",
+      "Metropolis - Actual": -3.79825654,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Metropolis - Actual": 4.37828371,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192051,
+      "period": "Jan-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192052,
+      "period": "Feb-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 192053,
+      "period": "Apr-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 243631,
+      "period": "May-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 256641,
+      "period": "Jul-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 256642,
+      "period": "Aug-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 256644,
+      "period": "Oct-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 256645,
+      "period": "Nov-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": 5.26315789
+    },
+    {
+      "periodId": 313447,
+      "period": "Jan-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313448,
+      "period": "Feb-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313449,
+      "period": "Mar-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313450,
+      "period": "Apr-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313451,
+      "period": "May-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313452,
+      "period": "Jun-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313453,
+      "period": "Jul-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313454,
+      "period": "Aug-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313455,
+      "period": "Sep-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313456,
+      "period": "Oct-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313457,
+      "period": "Nov-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    },
+    {
+      "periodId": 313458,
+      "period": "Dec-24",
+      "Metropolis - Actual": null,
+      "Metropolis - Target": null
+    }
+  ]
+}

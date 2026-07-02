@@ -1,0 +1,294 @@
+{
+  "resource": "clearpoint://scorecard/7612/milestone/270085",
+  "object": "milestone",
+  "objectId": 270085,
+  "series": [
+    {
+      "name": "Budget",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Elapsed Days",
+      "seriesDataTypeId": 5
+    },
+    {
+      "name": "Milestone Percent Complete",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33176,
+      "period": "Nov-19",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 33171,
+      "period": "Jun-20",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 0
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 33178,
+      "period": "Jan-21",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 2
+    },
+    {
+      "periodId": 33179,
+      "period": "Feb-21",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 28
+    },
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 29
+    },
+    {
+      "periodId": 18799,
+      "period": "Apr-21",
+      "Budget": null,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 25
+    },
+    {
+      "periodId": 168152,
+      "period": "May-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 28
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 33
+    },
+    {
+      "periodId": 168151,
+      "period": "Jul-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 36
+    },
+    {
+      "periodId": 168154,
+      "period": "Aug-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 37
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 16
+    },
+    {
+      "periodId": 168155,
+      "period": "Oct-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 17
+    },
+    {
+      "periodId": 168156,
+      "period": "Nov-21",
+      "Budget": 5000,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 18
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Budget": 5000,
+      "Elapsed Days": 5,
+      "Milestone Percent Complete": 19
+    },
+    {
+      "periodId": 168157,
+      "period": "Jan-22",
+      "Budget": 5000,
+      "Elapsed Days": 36,
+      "Milestone Percent Complete": 44
+    },
+    {
+      "periodId": 168159,
+      "period": "Feb-22",
+      "Budget": 5000,
+      "Elapsed Days": 64,
+      "Milestone Percent Complete": 21
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Budget": 5000,
+      "Elapsed Days": 95,
+      "Milestone Percent Complete": 22
+    },
+    {
+      "periodId": 18800,
+      "period": "Apr-22",
+      "Budget": 5000,
+      "Elapsed Days": 125,
+      "Milestone Percent Complete": 23
+    },
+    {
+      "periodId": 192046,
+      "period": "May-22",
+      "Budget": 5000,
+      "Elapsed Days": 156,
+      "Milestone Percent Complete": 24
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Budget": 5000,
+      "Elapsed Days": 186,
+      "Milestone Percent Complete": 29
+    },
+    {
+      "periodId": 192044,
+      "period": "Jul-22",
+      "Budget": null,
+      "Elapsed Days": 217,
+      "Milestone Percent Complete": 30
+    },
+    {
+      "periodId": 192050,
+      "period": "Aug-22",
+      "Budget": null,
+      "Elapsed Days": 248,
+      "Milestone Percent Complete": 31
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Budget": null,
+      "Elapsed Days": 278,
+      "Milestone Percent Complete": 32
+    },
+    {
+      "periodId": 192047,
+      "period": "Oct-22",
+      "Budget": null,
+      "Elapsed Days": 309,
+      "Milestone Percent Complete": 33
+    },
+    {
+      "periodId": 192049,
+      "period": "Nov-22",
+      "Budget": null,
+      "Elapsed Days": 339,
+      "Milestone Percent Complete": 34
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Budget": null,
+      "Elapsed Days": 370,
+      "Milestone Percent Complete": 53
+    },
+    {
+      "periodId": 192051,
+      "period": "Jan-23",
+      "Budget": null,
+      "Elapsed Days": 401,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 192052,
+      "period": "Feb-23",
+      "Budget": null,
+      "Elapsed Days": 429,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Budget": null,
+      "Elapsed Days": 460,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 192053,
+      "period": "Apr-23",
+      "Budget": null,
+      "Elapsed Days": 490,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 243631,
+      "period": "May-23",
+      "Budget": null,
+      "Elapsed Days": 521,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Budget": null,
+      "Elapsed Days": 551,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 256641,
+      "period": "Jul-23",
+      "Budget": null,
+      "Elapsed Days": 582,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 256642,
+      "period": "Aug-23",
+      "Budget": null,
+      "Elapsed Days": 613,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Budget": null,
+      "Elapsed Days": 643,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 256644,
+      "period": "Oct-23",
+      "Budget": null,
+      "Elapsed Days": 674,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 256645,
+      "period": "Nov-23",
+      "Budget": null,
+      "Elapsed Days": 704,
+      "Milestone Percent Complete": null
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Budget": null,
+      "Elapsed Days": 735,
+      "Milestone Percent Complete": null
+    }
+  ]
+}

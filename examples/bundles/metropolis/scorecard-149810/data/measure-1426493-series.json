@@ -1,0 +1,380 @@
+{
+  "resource": "clearpoint://scorecard/149810/measure/1426493",
+  "object": "measure",
+  "objectId": 1426493,
+  "series": [
+    {
+      "name": "On track",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Slightly behind schedule",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Behind Schedule",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Total",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "% Green",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33176,
+      "period": "Nov-19",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 33171,
+      "period": "Jun-20",
+      "On track": 3,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 1,
+      "Total": 6,
+      "% Green": 50
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 33178,
+      "period": "Jan-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 33179,
+      "period": "Feb-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "On track": 1,
+      "Slightly behind schedule": 1,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 18799,
+      "period": "Apr-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168152,
+      "period": "May-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "On track": 4,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 1,
+      "Total": 7,
+      "% Green": 57.14285714
+    },
+    {
+      "periodId": 168151,
+      "period": "Jul-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168154,
+      "period": "Aug-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168155,
+      "period": "Oct-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168156,
+      "period": "Nov-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "On track": 2,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168157,
+      "period": "Jan-22",
+      "On track": 2,
+      "Slightly behind schedule": 1,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 168159,
+      "period": "Feb-22",
+      "On track": 1,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "On track": 1,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 18800,
+      "period": "Apr-22",
+      "On track": 1,
+      "Slightly behind schedule": 1,
+      "Behind Schedule": 1,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 192046,
+      "period": "May-22",
+      "On track": 3,
+      "Slightly behind schedule": 4,
+      "Behind Schedule": 0,
+      "Total": 7,
+      "% Green": 42.85714285
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "On track": 4,
+      "Slightly behind schedule": 3,
+      "Behind Schedule": 0,
+      "Total": 7,
+      "% Green": 57.14285714
+    },
+    {
+      "periodId": 192044,
+      "period": "Jul-22",
+      "On track": 2,
+      "Slightly behind schedule": 1,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 192050,
+      "period": "Aug-22",
+      "On track": 1,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "On track": 2,
+      "Slightly behind schedule": 1,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 66.66666666
+    },
+    {
+      "periodId": 192047,
+      "period": "Oct-22",
+      "On track": 1,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 192049,
+      "period": "Nov-22",
+      "On track": 1,
+      "Slightly behind schedule": 2,
+      "Behind Schedule": 0,
+      "Total": 3,
+      "% Green": 33.33333333
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "On track": 4,
+      "Slightly behind schedule": 3,
+      "Behind Schedule": 0,
+      "Total": 7,
+      "% Green": 57.14285714
+    },
+    {
+      "periodId": 192051,
+      "period": "Jan-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 192052,
+      "period": "Feb-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 192053,
+      "period": "Apr-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 243631,
+      "period": "May-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256641,
+      "period": "Jul-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256642,
+      "period": "Aug-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256644,
+      "period": "Oct-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256645,
+      "period": "Nov-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "On track": 1,
+      "Slightly behind schedule": 0,
+      "Behind Schedule": 0,
+      "Total": 1,
+      "% Green": 100
+    }
+  ]
+}

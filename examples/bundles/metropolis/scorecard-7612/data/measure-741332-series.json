@@ -1,0 +1,423 @@
+{
+  "resource": "clearpoint://scorecard/7612/measure/741332",
+  "object": "measure",
+  "objectId": 741332,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "YTD",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Airport",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Police",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Fire",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33176,
+      "period": "Nov-19",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 33171,
+      "period": "Jun-20",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 33178,
+      "period": "Jan-21",
+      "Actual": 22800,
+      "Target": 22500,
+      "YTD": 22800,
+      "Airport": 7150,
+      "Police": 7150,
+      "Fire": 8500
+    },
+    {
+      "periodId": 33179,
+      "period": "Feb-21",
+      "Actual": 23400,
+      "Target": 22500,
+      "YTD": 46200,
+      "Airport": 7200,
+      "Police": 7200,
+      "Fire": 9000
+    },
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Actual": 22075,
+      "Target": 22500,
+      "YTD": 68275,
+      "Airport": 7350,
+      "Police": 7225,
+      "Fire": 7500
+    },
+    {
+      "periodId": 18799,
+      "period": "Apr-21",
+      "Actual": 23155,
+      "Target": 22500,
+      "YTD": 91430,
+      "Airport": 7400,
+      "Police": 7255,
+      "Fire": 8500
+    },
+    {
+      "periodId": 168152,
+      "period": "May-21",
+      "Actual": 22830,
+      "Target": 22500,
+      "YTD": 114260,
+      "Airport": 7500,
+      "Police": 7300,
+      "Fire": 8030
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Actual": 23230,
+      "Target": 22500,
+      "YTD": 137490,
+      "Airport": 7630,
+      "Police": 7400,
+      "Fire": 8200
+    },
+    {
+      "periodId": 168151,
+      "period": "Jul-21",
+      "Actual": 23550,
+      "Target": 22500,
+      "YTD": 161040,
+      "Airport": 7900,
+      "Police": 7650,
+      "Fire": 8000
+    },
+    {
+      "periodId": 168154,
+      "period": "Aug-21",
+      "Actual": 23025,
+      "Target": 22500,
+      "YTD": 184065,
+      "Airport": 7725,
+      "Police": 7360,
+      "Fire": 7940
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Actual": 22905,
+      "Target": 22500,
+      "YTD": 206970,
+      "Airport": 7680,
+      "Police": 7100,
+      "Fire": 8125
+    },
+    {
+      "periodId": 168155,
+      "period": "Oct-21",
+      "Actual": 22615,
+      "Target": 22500,
+      "YTD": 229585,
+      "Airport": 7480,
+      "Police": 7275,
+      "Fire": 7860
+    },
+    {
+      "periodId": 168156,
+      "period": "Nov-21",
+      "Actual": 23085,
+      "Target": 22500,
+      "YTD": 252670,
+      "Airport": 7525,
+      "Police": 7640,
+      "Fire": 7920
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Actual": 23490,
+      "Target": 22500,
+      "YTD": 276160,
+      "Airport": 7710,
+      "Police": 7550,
+      "Fire": 8230
+    },
+    {
+      "periodId": 168157,
+      "period": "Jan-22",
+      "Actual": 22525,
+      "Target": 22500,
+      "YTD": 22525,
+      "Airport": 7460,
+      "Police": 7390,
+      "Fire": 7675
+    },
+    {
+      "periodId": 168159,
+      "period": "Feb-22",
+      "Actual": 23380,
+      "Target": 21000,
+      "YTD": 45905,
+      "Airport": 8000,
+      "Police": 7600,
+      "Fire": 7780
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Actual": 23880,
+      "Target": 23000,
+      "YTD": 69785,
+      "Airport": 8300,
+      "Police": 7450,
+      "Fire": 8130
+    },
+    {
+      "periodId": 18800,
+      "period": "Apr-22",
+      "Actual": 23750,
+      "Target": 23000,
+      "YTD": 93535,
+      "Airport": 8300,
+      "Police": 7250,
+      "Fire": 8200
+    },
+    {
+      "periodId": 192046,
+      "period": "May-22",
+      "Actual": 24050,
+      "Target": 23000,
+      "YTD": 117585,
+      "Airport": 8300,
+      "Police": 7500,
+      "Fire": 8250
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Actual": 23745,
+      "Target": 23000,
+      "YTD": 141330,
+      "Airport": 8300,
+      "Police": 7450,
+      "Fire": 7995
+    },
+    {
+      "periodId": 192044,
+      "period": "Jul-22",
+      "Actual": 23800,
+      "Target": 23000,
+      "YTD": 165130,
+      "Airport": 8300,
+      "Police": 7600,
+      "Fire": 7900
+    },
+    {
+      "periodId": 192050,
+      "period": "Aug-22",
+      "Actual": 23970,
+      "Target": 23000,
+      "YTD": 189100,
+      "Airport": 8300,
+      "Police": 7525,
+      "Fire": 8145
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Actual": 24525,
+      "Target": 23000,
+      "YTD": 213625,
+      "Airport": 8900,
+      "Police": 7425,
+      "Fire": 8200
+    },
+    {
+      "periodId": 192047,
+      "period": "Oct-22",
+      "Actual": 24450,
+      "Target": 23000,
+      "YTD": 238075,
+      "Airport": 8900,
+      "Police": 7400,
+      "Fire": 8150
+    },
+    {
+      "periodId": 192049,
+      "period": "Nov-22",
+      "Actual": 23950,
+      "Target": 23000,
+      "YTD": 262025,
+      "Airport": 8900,
+      "Police": 7300,
+      "Fire": 7750
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Actual": 24050,
+      "Target": 23000,
+      "YTD": 286075,
+      "Airport": 8900,
+      "Police": 7350,
+      "Fire": 7800
+    },
+    {
+      "periodId": 192051,
+      "period": "Jan-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 192052,
+      "period": "Feb-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 192053,
+      "period": "Apr-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 243631,
+      "period": "May-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 256641,
+      "period": "Jul-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 256642,
+      "period": "Aug-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 256644,
+      "period": "Oct-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 256645,
+      "period": "Nov-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Actual": null,
+      "Target": null,
+      "YTD": null,
+      "Airport": null,
+      "Police": null,
+      "Fire": null
+    }
+  ]
+}

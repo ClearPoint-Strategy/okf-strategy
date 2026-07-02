@@ -1,0 +1,56 @@
+{
+  "resource": "clearpoint://scorecard/7631/measure/1416167",
+  "object": "measure",
+  "objectId": 1416167,
+  "series": [
+    {
+      "name": "On Track",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Behind Schedule",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "At Risk",
+      "seriesDataTypeId": 9
+    }
+  ],
+  "data": [
+    {
+      "periodId": 18786,
+      "period": "Dec-19",
+      "On Track": 0,
+      "Behind Schedule": 0,
+      "At Risk": 1
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "On Track": 0,
+      "Behind Schedule": 0,
+      "At Risk": 1
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "On Track": 0,
+      "Behind Schedule": 0,
+      "At Risk": 1
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "On Track": 3,
+      "Behind Schedule": 1,
+      "At Risk": 3
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "On Track": 0,
+      "Behind Schedule": 0,
+      "At Risk": 0
+    }
+  ]
+}

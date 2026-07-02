@@ -1,0 +1,294 @@
+{
+  "resource": "clearpoint://scorecard/7807/measure/111293",
+  "object": "measure",
+  "objectId": 111293,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Trend",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33176,
+      "period": "Nov-19",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 33171,
+      "period": "Jun-20",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 33178,
+      "period": "Jan-21",
+      "Actual": 17.54,
+      "Target": 8.11,
+      "Trend": 17.54
+    },
+    {
+      "periodId": 33179,
+      "period": "Feb-21",
+      "Actual": 12.53,
+      "Target": 8.11,
+      "Trend": 15.035
+    },
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Actual": 14.12,
+      "Target": 8.11,
+      "Trend": 14.73
+    },
+    {
+      "periodId": 18799,
+      "period": "Apr-21",
+      "Actual": 15.72,
+      "Target": 8.11,
+      "Trend": 14.1233
+    },
+    {
+      "periodId": 168152,
+      "period": "May-21",
+      "Actual": 13.9,
+      "Target": 8.11,
+      "Trend": 14.58
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Actual": 4.51,
+      "Target": 8.11,
+      "Trend": 11.3767
+    },
+    {
+      "periodId": 168151,
+      "period": "Jul-21",
+      "Actual": 1.41,
+      "Target": 8.11,
+      "Trend": 6.6067
+    },
+    {
+      "periodId": 168154,
+      "period": "Aug-21",
+      "Actual": 2.48,
+      "Target": 8.11,
+      "Trend": 2.8
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Actual": 4.15,
+      "Target": 8.11,
+      "Trend": 2.68
+    },
+    {
+      "periodId": 168155,
+      "period": "Oct-21",
+      "Actual": 6.51,
+      "Target": 8.11,
+      "Trend": 4.38
+    },
+    {
+      "periodId": 168156,
+      "period": "Nov-21",
+      "Actual": 7.67,
+      "Target": 8.11,
+      "Trend": 6.11
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Actual": 14.08,
+      "Target": 8.11,
+      "Trend": 9.42
+    },
+    {
+      "periodId": 168157,
+      "period": "Jan-22",
+      "Actual": 17.54,
+      "Target": 8.11,
+      "Trend": 13.0967
+    },
+    {
+      "periodId": 168159,
+      "period": "Feb-22",
+      "Actual": 12.53,
+      "Target": 8.11,
+      "Trend": 14.7167
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Actual": 14.12,
+      "Target": 8.11,
+      "Trend": 14.73
+    },
+    {
+      "periodId": 18800,
+      "period": "Apr-22",
+      "Actual": 15.72,
+      "Target": 8.11,
+      "Trend": 14.1233
+    },
+    {
+      "periodId": 192046,
+      "period": "May-22",
+      "Actual": 13.9,
+      "Target": 8.11,
+      "Trend": 14.58
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Actual": 8,
+      "Target": 8.11,
+      "Trend": 12.54
+    },
+    {
+      "periodId": 192044,
+      "period": "Jul-22",
+      "Actual": 6.32,
+      "Target": 8.11,
+      "Trend": 9.4067
+    },
+    {
+      "periodId": 192050,
+      "period": "Aug-22",
+      "Actual": 4.47,
+      "Target": 8.11,
+      "Trend": 6.2633
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Actual": 2.13,
+      "Target": 8.11,
+      "Trend": 4.3067
+    },
+    {
+      "periodId": 192047,
+      "period": "Oct-22",
+      "Actual": 4.7,
+      "Target": 8.11,
+      "Trend": 3.7667
+    },
+    {
+      "periodId": 192049,
+      "period": "Nov-22",
+      "Actual": 6.83,
+      "Target": 8.11,
+      "Trend": 4.5533
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Actual": 8.05,
+      "Target": 8.11,
+      "Trend": 6.5267
+    },
+    {
+      "periodId": 192051,
+      "period": "Jan-23",
+      "Actual": null,
+      "Target": 8.11,
+      "Trend": 7.44
+    },
+    {
+      "periodId": 192052,
+      "period": "Feb-23",
+      "Actual": null,
+      "Target": 8.11,
+      "Trend": 8.05
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Actual": null,
+      "Target": 8.11,
+      "Trend": null
+    },
+    {
+      "periodId": 192053,
+      "period": "Apr-23",
+      "Actual": null,
+      "Target": 8.11,
+      "Trend": null
+    },
+    {
+      "periodId": 243631,
+      "period": "May-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 256641,
+      "period": "Jul-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 256642,
+      "period": "Aug-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 256644,
+      "period": "Oct-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 256645,
+      "period": "Nov-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Actual": null,
+      "Target": null,
+      "Trend": null
+    }
+  ]
+}

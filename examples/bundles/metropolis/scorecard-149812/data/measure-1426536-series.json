@@ -1,0 +1,251 @@
+{
+  "resource": "clearpoint://scorecard/149812/measure/1426536",
+  "object": "measure",
+  "objectId": 1426536,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33176,
+      "period": "Nov-19",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 33171,
+      "period": "Jun-20",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 33177,
+      "period": "Dec-20",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 33178,
+      "period": "Jan-21",
+      "Actual": 7150,
+      "Target": 7500
+    },
+    {
+      "periodId": 33179,
+      "period": "Feb-21",
+      "Actual": 7200,
+      "Target": 7500
+    },
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Actual": 7225,
+      "Target": 7500
+    },
+    {
+      "periodId": 18799,
+      "period": "Apr-21",
+      "Actual": 7255,
+      "Target": 7500
+    },
+    {
+      "periodId": 168152,
+      "period": "May-21",
+      "Actual": 7300,
+      "Target": 7500
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Actual": 7400,
+      "Target": 7500
+    },
+    {
+      "periodId": 168151,
+      "period": "Jul-21",
+      "Actual": 7650,
+      "Target": 7500
+    },
+    {
+      "periodId": 168154,
+      "period": "Aug-21",
+      "Actual": 7360,
+      "Target": 7500
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Actual": 7100,
+      "Target": 7500
+    },
+    {
+      "periodId": 168155,
+      "period": "Oct-21",
+      "Actual": 7275,
+      "Target": 7500
+    },
+    {
+      "periodId": 168156,
+      "period": "Nov-21",
+      "Actual": 7640,
+      "Target": 7500
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Actual": 7550,
+      "Target": 7500
+    },
+    {
+      "periodId": 168157,
+      "period": "Jan-22",
+      "Actual": 7390,
+      "Target": 7500
+    },
+    {
+      "periodId": 168159,
+      "period": "Feb-22",
+      "Actual": 7600,
+      "Target": 7500
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Actual": 7450,
+      "Target": 7500
+    },
+    {
+      "periodId": 18800,
+      "period": "Apr-22",
+      "Actual": 7250,
+      "Target": 7500
+    },
+    {
+      "periodId": 192046,
+      "period": "May-22",
+      "Actual": 7500,
+      "Target": 7500
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Actual": 7450,
+      "Target": 7500
+    },
+    {
+      "periodId": 192044,
+      "period": "Jul-22",
+      "Actual": 7600,
+      "Target": 7500
+    },
+    {
+      "periodId": 192050,
+      "period": "Aug-22",
+      "Actual": 7525,
+      "Target": 7500
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Actual": 7425,
+      "Target": 7500
+    },
+    {
+      "periodId": 192047,
+      "period": "Oct-22",
+      "Actual": 7400,
+      "Target": 7500
+    },
+    {
+      "periodId": 192049,
+      "period": "Nov-22",
+      "Actual": 7300,
+      "Target": 7500
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Actual": 7350,
+      "Target": 7500
+    },
+    {
+      "periodId": 192051,
+      "period": "Jan-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 192052,
+      "period": "Feb-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 192053,
+      "period": "Apr-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 243631,
+      "period": "May-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 256641,
+      "period": "Jul-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 256642,
+      "period": "Aug-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 256644,
+      "period": "Oct-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 256645,
+      "period": "Nov-23",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Actual": null,
+      "Target": null
+    }
+  ]
+}

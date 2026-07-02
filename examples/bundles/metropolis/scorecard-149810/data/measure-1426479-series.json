@@ -1,0 +1,89 @@
+{
+  "resource": "clearpoint://scorecard/149810/measure/1426479",
+  "object": "measure",
+  "objectId": 1426479,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Goal",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 33180,
+      "period": "Mar-21",
+      "Actual": 90,
+      "Goal": 80
+    },
+    {
+      "periodId": 168150,
+      "period": "Jun-21",
+      "Actual": 71,
+      "Goal": 80
+    },
+    {
+      "periodId": 168153,
+      "period": "Sep-21",
+      "Actual": 78,
+      "Goal": 80
+    },
+    {
+      "periodId": 168158,
+      "period": "Dec-21",
+      "Actual": 82,
+      "Goal": 80
+    },
+    {
+      "periodId": 168160,
+      "period": "Mar-22",
+      "Actual": 83,
+      "Goal": 80
+    },
+    {
+      "periodId": 192043,
+      "period": "Jun-22",
+      "Actual": 86,
+      "Goal": 80
+    },
+    {
+      "periodId": 192045,
+      "period": "Sep-22",
+      "Actual": 83,
+      "Goal": 80
+    },
+    {
+      "periodId": 192048,
+      "period": "Dec-22",
+      "Actual": 80,
+      "Goal": 80
+    },
+    {
+      "periodId": 192054,
+      "period": "Mar-23",
+      "Actual": null,
+      "Goal": 80
+    },
+    {
+      "periodId": 243632,
+      "period": "Jun-23",
+      "Actual": null,
+      "Goal": 80
+    },
+    {
+      "periodId": 256643,
+      "period": "Sep-23",
+      "Actual": null,
+      "Goal": null
+    },
+    {
+      "periodId": 256646,
+      "period": "Dec-23",
+      "Actual": null,
+      "Goal": null
+    }
+  ]
+}
