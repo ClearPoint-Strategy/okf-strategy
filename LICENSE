@@ -1,24 +1,22 @@
-Copyright © 2026 ClearPoint Strategy, LLC. All rights reserved.
+OKF-Strategy — an open format for organizational strategy.
 
-PROPRIETARY AND CONFIDENTIAL.
+Copyright © 2026 ClearPoint Strategy, LLC.
 
-This repository and its contents (the "Materials") are the confidential and
-proprietary property of ClearPoint Strategy, LLC ("ClearPoint"). The Materials
-define OKF-CPS, the ClearPoint Strategy profile of the Open Knowledge Format,
-together with its schemas and tooling.
+This repository is offered as an open format:
 
-The public/private boundary of this repository is not yet settled: some parts
-(the profile specification and its conventions) are candidates for release as an
-open format, while others (the emitter, the diff→apply compiler, marking
-enforcement, and the MCP) are intended to remain proprietary. Until that split
-is formally decided and recorded, treat the entire repository as proprietary and
-confidential.
+- The **specification** (SPEC.md, docs) is licensed under the Creative Commons
+  Attribution 4.0 International License (CC-BY-4.0):
+  https://creativecommons.org/licenses/by/4.0/
+- The **JSON Schemas and the validator** (schemas/, scripts/) are licensed under
+  the Apache License, Version 2.0:
+  https://www.apache.org/licenses/LICENSE-2.0
 
-No license is granted, expressly or by implication. Without ClearPoint's prior
-written consent you may not copy, modify, distribute, publish, sublicense, sell,
-disclose, or otherwise use the Materials, in whole or in part. All other rights
-are reserved by ClearPoint.
+The example bundles under examples/ are generated from ClearPoint demonstration
+accounts (Upward Airlines, Metropolis) and contain no real customer data.
 
-THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED. ClearPoint shall not be liable for any claim, damages, or other
-liability arising from or in connection with the Materials or their use.
+The reference implementation that produces and consumes these bundles (the
+emitter, validator, and resolver) is maintained separately in the ClearPoint
+platform and is not covered by this license.
+
+NOTE: Public release and the final license selection are subject to ClearPoint
+Strategy's confirmation.

@@ -1,65 +1,79 @@
-# cps-okf
+# OKF-Strategy
 
-> **Proprietary & confidential.** © 2026 ClearPoint Strategy, LLC. Public/private split is deferred —
-> see [LICENSE](LICENSE) and [SPEC §9](SPEC.md#9-versioning--the-openprivate-split-deferred).
+**An open format for an organization's strategy graph — a profile of the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).**
 
-**OKF-CPS is the ClearPoint Strategy profile of the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).**
-It is the format and contract for the **ClearPoint Strategy Knowledge Graph** — a portable, LLM-legible
-projection of an organization's strategy that carries structure, access, time, provenance, and
-vocabulary as first-class data.
+OKF-Strategy represents strategy — objectives, measures, initiatives, milestones, risks, their
+relationships, status over time, and the people and vocabulary around them — as a portable bundle of
+Markdown + YAML that is **human-readable, machine-parseable, version-control friendly, and legible to an
+LLM**. It extends Google's OKF v0.1: every OKF-Strategy bundle is a valid OKF bundle, and all extensions
+live under a single producer-defined `cps:` frontmatter key, so a base-OKF consumer ignores them and
+still parses, links, and indexes the bundle.
 
-The thesis: the customer owns the *content*; the product is the **governed substrate**. OKF-CPS carries
-that substrate across the wire so any AI — ClearPoint's own or anything plugged into the ClearPoint MCP —
-gets exceptional, grounded, permission-safe answers anywhere.
+The point: your strategy becomes a **portable, groundable, migratable artifact** — not rows locked in one
+app. You can ground any AI on it, export it, diff it in Git, template it, or move it between accounts.
 
-## What's here (and what isn't yet)
+## Why
 
-**Current state — spec + schemas + validator.** This repo holds the *format*, not the runtime. The
-emitter (ClearPoint → bundle), the diff→apply compiler (bundle → ClearPoint), and the MCP live
-elsewhere; this repo is the stable contract they target.
+The customer owns the *content*; the value is a **governed substrate** — a strategy graph that carries
+five things as first-class, portable data:
+
+| Axis | Carries |
+| ---- | ------- |
+| **Structure** | nodes (elements), typed relationships, hierarchy, rollups |
+| **Access** | compartment membership; enforced pre-retrieval, per principal |
+| **Time / Status** | reporting periods, per-element periodicity, current status + history |
+| **Provenance** | editorial audit (who/when) + resolution confidence |
+| **Vocabulary** | the organization's own terms bound to canonical types (a glossary) |
+
+## Layout
 
 ```
-SPEC.md              The OKF-CPS profile (the five axes, tags, metrics, round-trip). START HERE.
-schemas/
-  concept.schema.json   Concept frontmatter — the extension (all five axes under `cps:`).
-  bundle.schema.json    Root index.md — okf_version + the organizational glossary.
-  common | element | linked-elements | element-status | measure-series | measure-data |
-  customfield-data      Migrated node/edge/period-fact substrate an OKF concept projects from.
-scripts/validate.mjs  Conformance gate (the survivor of cps-parse's validator, elevated).
-docs/
-  mapping.md          ClearPoint element ↔ OKF concept mapping (the outbound mirror of field-mapping).
-  adr/                Why the format is shaped this way.
-examples/bundles/     upward-airlines-corporate — a real bundle (49 concepts) emitted from the live
-                      Upward Airlines account via GET /okf; demonstrates all five axes.
+bundle/
+  index.md            # okf_version only (base OKF §6)
+  glossary.md         # the organization's vocabulary (Glossary concept)
+  users.md · statuses.md · periods.md · periodicities.md · custom-fields.md   # reference lookups
+  log.md              # change history, newest-first
+  scorecard-<id>/
+    index.md
+    objectives/objective-<id>.md      # one Concept per element; ID = path minus .md
+    measures/measure-<id>.md
+    data/measure-<id>-series.json      # numeric series (columnar sidecar)
+    data/objective-<id>-status.json    # per-period status/analysis history
 ```
 
-The `cps` block is grounded in the real ClearPoint OpenAPI (`cps-lucee/api/v1/doc/schema`) and is the
-on-disk **superset of ClearPoint's own AI-grounding projection** (`_mcpElement` / `_mcpElementStatus` /
-`_mcpLink`) — see [ADR-0004](docs/adr/0004-grounded-in-openapi-mirrors-mcp-projection.md).
+A concept's **frontmatter** is the machine spine (identity, status, provenance, series); its **body** is
+the readable document (overview, custom fields, current status, and relationships as grouped Markdown
+links). See **[SPEC.md](SPEC.md)** for the normative profile and **[schemas/](schemas/)** for the JSON
+Schemas.
 
-## The five axes
+## What it enables
 
-| Axis | Carries | Source |
-| ---- | ------- | ------ |
-| Structure | nodes, typed edges (`cps.edges`), hierarchy, rollups | ClearPoint element model |
-| Access | capability + compartment markings, propagated (∩ on rollups/edges) | cps-next `use-access` |
-| Time | valid-time reporting period, per-element cadence, system-time | periods / periodGroups |
-| Provenance | editorial audit (who/when/where) + resolution (confidence/evidence) | ClearPoint audit + parse `_map` |
-| Vocabulary | org term ↔ canonical type/status/field | organizational glossary |
+- **AI grounding** — the bundle is the shape an LLM consumes best; point any model or MCP at it.
+- **Portability & anti-lock-in** — your strategy as an open, diffable, self-contained export.
+- **Migration & templating** — because ids don't travel but names + structure + the glossary do, a bundle
+  can be **resolved into another account** (a reference template instantiates anywhere).
 
-## Relationship to the other repos
+## Conformance & validation
 
-- **cps-parse** — the inbound document parser. OKF-CPS is the outbound mirror; per
-  [ADR-0002](docs/adr/0002-llm-authors-okf-compiler-applies.md) it also becomes the single interchange
-  format, and the parser's envelope-authoring is superseded by "LLM authors a bundle → deterministic
-  compiler applies it." The validation/confidence/ordering discipline relocates here + into the compiler.
-- **cps-next** — provides the effective-access model (axis 2) and hosts the review/approval gate + the MCP.
-- **Sources are organizational only** — the ClearPoint DB (structured) and org RAG/Pinecone (unstructured).
-  Personal sources (email/calendar) enrich a *local* personal graph and are never org-served.
-
-## Validate
+A bundle conforms when every non-reserved `.md` has parseable frontmatter with a non-empty `type`, and the
+reserved files (`index.md`, `log.md`) follow base OKF. The included validator checks the profile:
 
 ```bash
-npm install        # ajv, ajv-formats, yaml
-npm run validate   # checks examples/ bundles against the profile
+npm install
+npm run validate    # validates the example bundles against the schemas
 ```
+
+Two worked bundles live in [`examples/bundles/`](examples/bundles/) (Upward Airlines and a larger,
+multi-scorecard Metropolis account), both generated from a real strategy platform.
+
+## Relationship to base OKF
+
+OKF-Strategy is a **conservative extension**: it adds a strategy type taxonomy, an access-marking
+vocabulary, a temporal/status model, a glossary convention, and typed relationships — all as producer
+extensions. Base OKF's non-goal of a fixed type taxonomy is exactly the seam this profile fills.
+
+## License
+
+The specification and schemas are offered as an open format. See [LICENSE](LICENSE). The reference
+implementation (the emitter, validator, and resolver that produce and consume these bundles) lives in the
+strategy platform, not this repository.

@@ -2,7 +2,7 @@
 
 > **Status:** Draft, converging toward lock. Additive-only within the `0.x` line.
 > **Base:** Extends [Google OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).
-> **Proprietary & confidential** — © 2026 ClearPoint Strategy, LLC. Public/private split is deferred (see §9).
+> **Open format** — © 2026 ClearPoint Strategy, LLC, offered under CC-BY-4.0 (spec) / Apache-2.0 (schemas). See [LICENSE](LICENSE) and §9.
 
 OKF-CPS is a **conservative extension** of base OKF. Every OKF-CPS bundle is a valid OKF bundle:
 the only hard requirement is a non-empty `type`, and **every ClearPoint extension lives under the
@@ -87,8 +87,7 @@ Two relationships aren't in ClearPoint's link graph and are derived: a **milesto
 (from `element.initiativeId`, rendered `## Parent Initiative`) and its inverse (an initiative's
 `## Milestones`). Overlapping rollup views (`childMeasures`/`initiativeMeasures`/…) are omitted to avoid
 noise. The rest of the `cps` block (identity, access, time, provenance, series) is the on-disk superset
-of ClearPoint's own AI-grounding projection (`_mcpElement`/`_mcpElementStatus`) — see
-[ADR-0004](docs/adr/0004-grounded-in-openapi-mirrors-mcp-projection.md).
+of ClearPoint's own AI-grounding projection (`_mcpElement`/`_mcpElementStatus`).
 
 ### 4.2 Access — compartment, not the caller's access
 
@@ -148,7 +147,7 @@ The time-varying layer uses the **same split as metrics** (§6): inline-for-grou
 - **Selector:** `GET /okf?…&periodId=<id>` returns the bundle **as-of** that period; default = current.
 
 So a numeric series is `inline summary + data sidecar`; a qualitative series is `body narrative +
-history sidecar`. One pattern, applied to both. See [docs/api.md](docs/api.md).
+history sidecar`. One pattern, applied to both. (See the reference implementation.)
 
 ### 4.4 Provenance — `cps.provenance` (two kinds)
 
@@ -254,10 +253,16 @@ compiler**, not the model. Identity for the diff comes from `cps.objectId` / `re
 contractor-authored bespoke parser can retire; the validation/ordering/confidence guarantees cannot, and
 do not.
 
-## 9. Versioning & the open/private split (deferred)
+## 9. Versioning & the open/implementation split
 
 `<major>.<minor>`; minor = additive (new optional `cps` keys, new conventions), major = breaking.
-The **open** surface (candidate): the profile spec, the strategy type taxonomy, the period/glossary/
-tag conventions, and the access-marking *vocabulary*. The **proprietary** surface: the emitter, the
-diff→apply compiler, the confidence engine, marking *enforcement*, and the MCP. Decision recorded when
-we lock — see [`docs/adr`](docs/adr).
+
+- **Open (this repository):** the profile specification, the strategy type taxonomy, the JSON Schemas,
+  the period / glossary / tag conventions, the access-marking *vocabulary*, and the conformance
+  validator + example bundles.
+- **Reference implementation (private, in the strategy platform):** the emitter (`GET /okf`), the
+  validator/resolver and diff→apply compiler (`POST /okf/validate`, `/okf/parse`), marking *enforcement*,
+  the reference-resolution engine, and the architecture decision records (ADRs) that motivate them.
+
+The ADRs and the field-level mapping to the source system are implementation concerns and live with the
+implementation, not in this open repository.
