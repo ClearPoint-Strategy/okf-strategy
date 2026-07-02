@@ -39,7 +39,6 @@
                 "objectId": { "type": ["integer", "null"], "description": "AXIS 1. element.objectId; null before creation. Round-trip identity." },
                 "scorecardId": { "type": ["integer", "null"], "description": "AXIS 1. Owning scorecard id." },
                 "scorecard": { "type": "string", "description": "AXIS 1. Owning scorecard NAME (grounding; _mcpElement.scorecard)." },
-                "parent": { "type": ["string", "null"], "description": "AXIS 1. Bundle-relative path of the hierarchical parent." },
                 "measureId": { "type": ["integer", "null"], "description": "AXIS 1. For measures / shadow-linked elements." },
                 "initiativeId": { "type": ["integer", "null"], "description": "AXIS 1. Parent initiative for a milestone." },
                 "startDate": { "type": "string", "format": "date" },
@@ -50,10 +49,16 @@
                 "sortOrder": { "type": ["number", "null"] },
                 "weight": { "type": ["integer", "null"], "description": "Rollup weight (element.weight / link weight)." },
                 "score": { "type": ["number", "null"], "description": "Current roll-up score (read-only)." },
-                "edges": {
-                    "type": "array",
-                    "description": "AXIS 1. TYPED edges (superset of the portable markdown links in the body). Mirrors element.links / _mcpLink.",
-                    "items": { "$ref": "#/$defs/edge" }
+                "glossary": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "description": "AXIS 5 — Vocabulary (bundle-level; lives on the Glossary concept, not in index frontmatter). Org nomenclature bound to canonical vocabulary, built from /language.",
+                    "properties": {
+                        "types": { "type": "object", "additionalProperties": { "$ref": "common.schema.json#/$defs/objectType" } },
+                        "labels": { "type": "object", "additionalProperties": { "type": "string" } },
+                        "statuses": { "type": "object", "additionalProperties": { "type": "string" } },
+                        "fields": { "type": "object", "additionalProperties": { "type": "string" } }
+                    }
                 },
                 "access": {
                     "type": "object",
@@ -119,30 +124,6 @@
             "type": "string",
             "enum": ["No Access", "Browser", "Updater", "Editor", "Scorecard Admin", "Administrator"],
             "description": "Verb ladder (ascending). Mirrors _mcpElement.access / cps-next use-access. (_elementAccess also carries 'Limited', which projects to Browser-level here.)"
-        },
-        "edge": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["fieldId", "to"],
-            "properties": {
-                "fieldId": {
-                    "type": "string",
-                    "description": "Linkage type. Real ClearPoint vocabulary (_mcpLink.fieldId).",
-                    "enum": [
-                        "objectives", "risks", "parentMilestone", "categories", "actionItems",
-                        "subMilestones", "initiatives", "goals", "children", "initiativeMeasures",
-                        "parents", "measureInitiatives", "measures", "milestones",
-                        "childInitiatives", "childMeasures"
-                    ]
-                },
-                "to": { "type": "string", "description": "Bundle-relative path of the target concept." },
-                "object": { "$ref": "common.schema.json#/$defs/objectType" },
-                "objectId": { "type": ["integer", "null"] },
-                "name": { "type": "string" },
-                "scorecard": { "type": "string" },
-                "access": { "$ref": "#/$defs/capability", "description": "Per-link access (_mcpLink.access). Edge visible iff BOTH endpoints are." },
-                "weight": { "type": ["integer", "null"] }
-            }
         },
         "customField": {
             "type": "object",

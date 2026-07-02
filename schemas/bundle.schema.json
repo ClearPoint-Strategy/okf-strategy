@@ -1,51 +1,15 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://clearpointstrategy.com/cps-okf/bundle.schema.json",
-    "title": "cps-okf — Bundle root frontmatter (OKF-CPS profile v0.1)",
-    "description": "Frontmatter of the ROOT index.md — the only place base OKF permits index frontmatter. Declares the format version and carries the organizational GLOSSARY (axis 5), which binds the org's vocabulary to canonical types/statuses/fields for the whole bundle.",
+    "title": "cps-okf — Bundle root index.md frontmatter (OKF-CPS profile v0.1)",
+    "description": "Frontmatter of the ROOT index.md. Per base OKF §6 the ONLY field permitted in an index.md frontmatter is okf_version, so that is all this carries. The organizational glossary (axis 5) does NOT live here — it lives on a Glossary concept (glossary.md), where arbitrary frontmatter is allowed. See concept.schema.json#/properties/cps/properties/glossary.",
     "type": "object",
     "required": ["okf_version"],
+    "additionalProperties": false,
     "properties": {
         "okf_version": {
             "type": "string",
-            "description": "Base-OKF version this bundle targets, e.g. '0.1'."
-        },
-        "okf_cps_profile": {
-            "type": "string",
-            "description": "OKF-CPS profile version, e.g. '0.1-cps'. Additive-only within a 0.x line."
-        },
-        "cps": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "glossary": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "description": "AXIS 5 — Vocabulary. Bidirectional binding of org nomenclature to canonical vocabulary, built from the account's real labels (ClearPoint /scorecards/{id}/language + /menu). Used on INGEST (understand the org's words) and on PROJECTION (speak the org's words back).",
-                    "properties": {
-                        "types": {
-                            "type": "object",
-                            "description": "org term -> canonical objectType, e.g. { \"OKR\": \"objective\", \"KPI\": \"measure\" }. Sourced from the language overrides for each element type.",
-                            "additionalProperties": { "$ref": "common.schema.json#/$defs/objectType" }
-                        },
-                        "labels": {
-                            "type": "object",
-                            "description": "General term overrides that aren't element types — e.g. { \"children\": \"Divisions\", \"goals\": \"OKRs\" }. The org's word for a concept/relationship, from /language.",
-                            "additionalProperties": { "type": "string" }
-                        },
-                        "statuses": {
-                            "type": "object",
-                            "description": "org status label -> canonical status, e.g. { \"Green\": \"On Track\", \"Red\": \"Off Track\" }.",
-                            "additionalProperties": { "type": "string" }
-                        },
-                        "fields": {
-                            "type": "object",
-                            "description": "org field/period label -> canonical name.",
-                            "additionalProperties": { "type": "string" }
-                        }
-                    }
-                }
-            }
+            "description": "Base-OKF version this bundle targets, e.g. '0.1'. The only frontmatter key allowed in a root index.md."
         }
     }
 }

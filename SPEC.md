@@ -34,14 +34,19 @@ MCP — gets **exceptional, grounded, permission-safe answers anywhere**.
 
 ```
 bundle/
-  index.md                         # ROOT: okf_version + glossary (axis 5). See bundle.schema.json.
-  log.md                           # change history, newest-first (axis 3, delta view)
-  objectives/thriving-economy.md   # a Concept (one element). Concept ID = path minus .md
-  measures/median-household-income.md
-  initiatives/downtown-revitalization.md
-  data/median-household-income.<parquet|json>   # metric sidecar (§6)
+  index.md                              # ROOT: frontmatter is okf_version ONLY (base OKF §6)
+  glossary.md                           # a Concept (type: Glossary) carrying the glossary (axis 5)
+  log.md                                # change history, newest-first (axis 3, delta view)
+  scorecard-<id>/                       # one folder per scorecard (stable id, not name)
+    index.md                            # plain listing, no frontmatter
+    objectives/objective-<objectId>.md  # a Concept. Concept ID = path minus .md
+    measures/measure-<objectId>.md
+    data/measure-<objectId>-series.json    # numeric metric series (§6)
+    data/objective-<objectId>-status.json  # per-period qualitative status history (§4.3.1)
 ```
 
+The **glossary lives on a `glossary.md` concept**, not in `index.md` frontmatter: base OKF §6 permits
+*only* `okf_version` in an index.md frontmatter, whereas a concept may carry arbitrary producer keys.
 Reserved files (`index.md`, `log.md`) follow base OKF. Every other `.md` is a concept whose
 frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.json).
 
@@ -64,22 +69,26 @@ frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.j
 
 ## 4. The five axes (normative)
 
-### 4.1 Structure — `cps.object`, `cps.parent`, `cps.edges`
+### 4.1 Structure — `cps.object` + relationships in the body
 
-Hierarchy via `cps.parent` (+ directory nesting). Relationships are emitted **twice**, on purpose:
+**Frontmatter carries the concept's own attributes; the body carries its relationships.** This is the
+clean split (and it avoids duplicating edges): a base-OKF consumer reads the body links; a
+ClearPoint-aware consumer reads `cps.*` for typed attributes.
 
-- **Portable, untyped** — standard markdown links in the body, **grouped under type headings**
-  (`## Measures`, `## Initiatives`, …). Base OKF derives relationship semantics from surrounding prose,
-  not link structure, so the heading is how a base-OKF consumer recovers the edge type. Any OKF consumer
-  traverses the links.
-- **Typed, machine** — `cps.edges: [{ fieldId, to, access, weight }]`, mirroring `element.links` /
-  `_mcpLink` where `fieldId` *is* the relationship type (real vocabulary: `objectives`, `measures`,
-  `initiatives`, `categories`, `parents`, `children`, `milestones`, …). Each edge carries the target's
-  `access`, so the "edge visible iff both endpoints visible" rule (§4.2) is computable directly.
+Relationships are **standard markdown links in the body, grouped under headings named by the real
+relationship type** — sourced from ClearPoint's typed links endpoint (`/mcp/fetch/.../links`, i.e.
+`_mcpLink.fieldId`): `## Parents`, `## Children`, `## Measures`, `## Milestones`, `## Categories`, ….
+Base OKF derives relationship semantics from surrounding prose, not link structure, so the heading *is*
+how any consumer recovers the edge type. Links use the stable, recommended bundle-relative form
+(`/scorecard-<id>/<type>/<object>-<objectId>.md`). This is exactly OKF-idiomatic — edges are not
+duplicated into frontmatter.
 
-We **superset** the standard losslessly: conform to OKF (untyped links) and exceed it (typed edges) in
-the same file. The whole `cps` block is the on-disk superset of ClearPoint's own AI-grounding
-projection (`_mcpElement`/`_mcpElementStatus`/`_mcpLink`) — see [ADR-0004](docs/adr/0004-grounded-in-openapi-mirrors-mcp-projection.md).
+Two relationships aren't in ClearPoint's link graph and are derived: a **milestone → parent initiative**
+(from `element.initiativeId`, rendered `## Parent Initiative`) and its inverse (an initiative's
+`## Milestones`). Overlapping rollup views (`childMeasures`/`initiativeMeasures`/…) are omitted to avoid
+noise. The rest of the `cps` block (identity, access, time, provenance, series) is the on-disk superset
+of ClearPoint's own AI-grounding projection (`_mcpElement`/`_mcpElementStatus`) — see
+[ADR-0004](docs/adr/0004-grounded-in-openapi-mirrors-mcp-projection.md).
 
 ### 4.2 Access — `cps.access` (first-class, propagating)
 
@@ -132,7 +141,7 @@ The time-varying layer uses the **same split as metrics** (§6): inline-for-grou
 - **Grounding (normative):** one `## <Period>` body section per reporting period, carrying status,
   analysis, recommendations, and that period's `update`-field values. Narrative, git-diffable,
   LLM-native. The current period's short status also rides in `cps.time.currentPeriod`.
-- **Query (optional):** a period-history **sidecar** `data/<object>-<id>-history.json`, referenced by
+- **Query (optional):** a status-history **sidecar** `data/<object>-<id>-status.json`, referenced by
   `cps.time.historyResource` — an array of `_mcpElementStatus`-shaped records (`periodId`, `period`,
   `statusId`, `status`, `analysis`, `recommendations`, `customFields[]`) — for "value of field X across N
   periods" queries. Written only when a period has real qualitative content (label-only status is fully
@@ -158,9 +167,11 @@ history sidecar`. One pattern, applied to both. See [docs/api.md](docs/api.md).
 
 ### 4.5 Vocabulary — glossary + `cps.alias`
 
-The **glossary** (root `index.md` frontmatter, see [`schemas/bundle.schema.json`](schemas/bundle.schema.json))
-binds org nomenclature to canonical vocabulary — `types` (Goal→objective, KPI→measure), `statuses`
-(Green→On Track), `fields`. It is **bidirectional**: used on **ingest** to understand the org's words
+The **glossary** lives on a `glossary.md` concept (`type: Glossary`) under `cps.glossary` — *not* in
+`index.md` frontmatter, since base OKF §6 allows only `okf_version` there. It binds org nomenclature to
+canonical vocabulary — `types` (Goal→objective, KPI→measure), `labels` (children→Divisions,
+goals→OKRs), `statuses`, `fields` — built from the account's real `/language` labels. It is
+**bidirectional**: used on **ingest** to understand the org's words
 (seeding the resolver's synonyms) and on **projection** so the MCP **speaks the org's words back**.
 `type` stays canonical for interop; per-concept `cps.alias` is the rendered org term.
 
@@ -199,7 +210,7 @@ Two consumers, two representations (never one binary blob for both):
   diffable tree.
 
 The two `data/` sidecars are distinct: **`-series.json`** holds the numeric measure series
-(`dataResource`); **`-history.json`** holds the per-period qualitative status/analysis/recommendations
+(`dataResource`); **`-status.json`** holds the per-period qualitative status/analysis/recommendations
 (`historyResource`). Any element type may have either or both.
 
 ---
