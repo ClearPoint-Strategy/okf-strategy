@@ -6,19 +6,19 @@ periodicities:
     name: Annual
     periods:
       - periodId: 18786
-        name: Dec-19
+        name: "2019"
         date: 2019-12-31
       - periodId: 33177
-        name: Dec-20
+        name: "2020"
         date: 2020-12-31
       - periodId: 168158
-        name: Dec-21
+        name: "2021"
         date: 2021-12-31
       - periodId: 192048
-        name: Dec-22
+        name: "2022"
         date: 2022-12-31
       - periodId: 256646
-        name: Dec-23
+        name: "2023"
         date: 2023-12-31
   - name: Default
     periods:
@@ -302,43 +302,43 @@ periodicities:
     name: Quarterly
     periods:
       - periodId: 33180
-        name: Mar-21
+        name: Q1-21
         date: 2021-03-31
       - periodId: 168150
-        name: Jun-21
+        name: Q2-21
         date: 2021-06-30
       - periodId: 168153
-        name: Sep-21
+        name: Q3-21
         date: 2021-09-30
       - periodId: 168158
-        name: Dec-21
+        name: Q4-21
         date: 2021-12-31
       - periodId: 168160
-        name: Mar-22
+        name: Q1-22
         date: 2022-03-31
       - periodId: 192043
-        name: Jun-22
+        name: Q2-22
         date: 2022-06-30
       - periodId: 192045
-        name: Sep-22
+        name: Q3-22
         date: 2022-09-30
       - periodId: 192048
-        name: Dec-22
+        name: Q4-22
         date: 2022-12-31
       - periodId: 192054
-        name: Mar-23
+        name: Q1-23
         date: 2023-03-31
       - periodId: 243632
-        name: Jun-23
+        name: Q2-23
         date: 2023-06-30
       - periodId: 256643
-        name: Sep-23
+        name: Q3-23
         date: 2023-09-30
       - periodId: 256646
-        name: Dec-23
+        name: Q4-23
         date: 2023-12-31
 ---
 
 # Periodicities
 
-Reporting periods grouped by periodicity (resolve periodId; matches cps.status.periodicity).
+Reporting periods grouped by periodicity, using each group's custom (scorecard) period name (e.g. Q1-21) — resolve periodId; matches cps.status.periodicity.

@@ -6,22 +6,22 @@ periodicities:
     name: Annual
     periods:
       - periodId: 149093
-        name: Dec-22
+        name: "2022"
         date: 2022-12-31
       - periodId: 168168
-        name: Dec-23
+        name: "2023"
         date: 2023-12-31
       - periodId: 256354
-        name: Dec-24
+        name: "2024"
         date: 2024-12-31
       - periodId: 189846
-        name: Dec-25
+        name: "2025"
         date: 2025-12-31
       - periodId: 256623
-        name: Dec-26
+        name: "2026"
         date: 2026-12-31
       - periodId: 313381
-        name: Dec-27
+        name: "2027"
         date: 2027-12-31
   - name: Default
     periods:
@@ -368,46 +368,46 @@ periodicities:
     name: Quarterly
     periods:
       - periodId: 168172
-        name: Mar-24
+        name: Q1-24
         date: 2024-03-31
       - periodId: 189836
-        name: Jun-24
+        name: Q2-24
         date: 2024-06-30
       - periodId: 189840
-        name: Sep-24
+        name: Q3-24
         date: 2024-09-30
       - periodId: 256354
-        name: Dec-24
+        name: Q4-24
         date: 2024-12-31
       - periodId: 189843
-        name: Mar-25
+        name: Q1-25
         date: 2025-03-31
       - periodId: 256348
-        name: Jun-25
+        name: Q2-25
         date: 2025-06-30
       - periodId: 256351
-        name: Sep-25
+        name: Q3-25
         date: 2025-09-30
       - periodId: 189846
-        name: Dec-25
+        name: Q4-25
         date: 2025-12-31
       - periodId: 256612
-        name: Mar-26
+        name: Q1-26
         date: 2026-03-31
       - periodId: 256615
-        name: Jun-26
+        name: Q2-26
         date: 2026-06-30
       - periodId: 256620
-        name: Sep-26
+        name: Q3-26
         date: 2026-09-30
       - periodId: 256623
-        name: Dec-26
+        name: Q4-26
         date: 2026-12-31
       - periodId: 313372
-        name: Mar-27
+        name: q1-27
         date: 2027-03-31
 ---
 
 # Periodicities
 
-Reporting periods grouped by periodicity (resolve periodId; matches cps.status.periodicity).
+Reporting periods grouped by periodicity, using each group's custom (scorecard) period name (e.g. Q1-21) — resolve periodId; matches cps.status.periodicity.
