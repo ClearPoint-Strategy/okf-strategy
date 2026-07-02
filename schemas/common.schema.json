@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://clearpointstrategy.com/cps-okf/common.schema.json",
-    "title": "cps-okf — Common Definitions",
+    "$id": "https://clearpointstrategy.com/okf-strategy/common.schema.json",
+    "title": "okf-strategy — Common Definitions",
     "description": "Shared building blocks. Payload bodies are arrays of native ClearPoint shapes (element, elementStatus, linkedElements, measureSeries) using ClearPoint's own field names (object, objectId, scorecardId, periodId, ...). Parsing provenance — how each id was resolved and with what confidence — lives in a sibling `_map` keyed by field name, so a body is a drop-in ClearPoint shape once `_map` and `ref`s are resolved away.",
     "$defs": {
         "objectType": {

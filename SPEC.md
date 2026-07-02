@@ -1,13 +1,13 @@
-# Open Knowledge Format — ClearPoint Strategy Profile (OKF-CPS) v0.1
+# OKF-Strategy — an Open Knowledge Format profile for organizational strategy (v0.1)
 
 > **Status:** Draft, converging toward lock. Additive-only within the `0.x` line.
 > **Base:** Extends [Google OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).
 > **Open format** — © 2026 ClearPoint Strategy, LLC, offered under CC-BY-4.0 (spec) / Apache-2.0 (schemas). See [LICENSE](LICENSE) and §9.
 
-OKF-CPS is a **conservative extension** of base OKF. Every OKF-CPS bundle is a valid OKF bundle:
-the only hard requirement is a non-empty `type`, and **every ClearPoint extension lives under the
+OKF-Strategy is a **conservative extension** of base OKF. Every OKF-Strategy bundle is a valid OKF bundle:
+the only hard requirement is a non-empty `type`, and **every OKF-Strategy extension lives under the
 producer-defined `cps:` frontmatter key** (or under namespaced conventions). A base-OKF consumer
-ignores `cps:` and still parses, links, and indexes the bundle. A ClearPoint-aware consumer gets the
+ignores `cps:` and still parses, links, and indexes the bundle. A strategy-aware consumer gets the
 full governed graph.
 
 ---
@@ -16,16 +16,15 @@ full governed graph.
 
 The customer already owns the *content*. The product is the **governed substrate**: a strategy graph
 that is structured, access-carrying, temporal, provenance-tracked, and vocabulary-bound — portable as
-plain text and legible to an LLM. Five axes make that substrate first-class, and OKF-CPS's job is to
-carry all five across the wire so any AI — ClearPoint's own, or anything plugged into the ClearPoint
-MCP — gets **exceptional, grounded, permission-safe answers anywhere**.
+plain text and legible to an LLM. Five axes make that substrate first-class, and OKF-Strategy's job is to
+carry all five across the wire so any AI gets **exceptional, grounded, permission-safe answers anywhere**.
 
 | Axis | Carries | Sourced from |
 | ---- | ------- | ------------ |
-| **1 Structure** | nodes, typed edges, hierarchy, rollups | ClearPoint element model |
-| **2 Access** | element-carried capability + compartments, propagated | cps-next `use-access` effective access |
+| **1 Structure** | nodes, typed edges, hierarchy, rollups | the source strategy model |
+| **2 Access** | element-carried capability + compartments, propagated | the source system access model |
 | **3 Time** | valid-time reporting period, per-element cadence, system-time | periods / periodGroups |
-| **4 Provenance** | editorial audit (who/when/where) + resolution (confidence/evidence) | ClearPoint audit + parse `_map` |
+| **4 Provenance** | editorial audit (who/when/where) + resolution (confidence/evidence) | source-system audit + resolution |
 | **5 Vocabulary** | org term ↔ canonical type/status/field | organizational glossary |
 
 ---
@@ -54,7 +53,7 @@ frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.j
 
 ## 3. Concept model
 
-- **Concept = one ClearPoint element** (scorecard, category, objective, measure, initiative, milestone,
+- **Concept = one strategy element** (scorecard, category, objective, measure, initiative, milestone,
   actionItem, risk). One shape covers all types; `cps.object` selects the machine-canonical type while
   base-OKF `type` carries the human/canonical label.
 - **Concept ID** = bundle-relative path minus `.md`. File name is **`<object>-<objectId>`** (e.g.
@@ -73,31 +72,30 @@ frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.j
 
 **Frontmatter carries the concept's own attributes; the body carries its relationships.** This is the
 clean split (and it avoids duplicating edges): a base-OKF consumer reads the body links; a
-ClearPoint-aware consumer reads `cps.*` for typed attributes.
+strategy-aware consumer reads `cps.*` for typed attributes.
 
 Relationships are **standard markdown links in the body, grouped under headings named by the real
-relationship type** — sourced from ClearPoint's typed links endpoint (`/mcp/fetch/.../links`, i.e.
-`_mcpLink.fieldId`): `## Parents`, `## Children`, `## Measures`, `## Milestones`, `## Categories`, ….
+relationship type** — sourced from the source system's typed-links relation: `## Parents`, `## Children`, `## Measures`, `## Milestones`, `## Categories`, ….
 Base OKF derives relationship semantics from surrounding prose, not link structure, so the heading *is*
 how any consumer recovers the edge type. Links use the stable, recommended bundle-relative form
 (`/scorecard-<id>/<type>/<object>-<objectId>.md`). This is exactly OKF-idiomatic — edges are not
 duplicated into frontmatter.
 
-Two relationships aren't in ClearPoint's link graph and are derived: a **milestone → parent initiative**
+Two relationships aren't in the link graph and are derived: a **milestone → parent initiative**
 (from `element.initiativeId`, rendered `## Parent Initiative`) and its inverse (an initiative's
 `## Milestones`). Overlapping rollup views (`childMeasures`/`initiativeMeasures`/…) are omitted to avoid
 noise. The rest of the `cps` block (identity, access, time, provenance, series) is the on-disk superset
-of ClearPoint's own AI-grounding projection (`_mcpElement`/`_mcpElementStatus`).
+of the source system's projection.
 
 ### 4.2 Access — compartment, not the caller's access
 
 The access axis is **who may see a concept** — and it is *not* the requesting user's access.
-`_mcpElement.access` is the CALLER's effective access to the element (always "Administrator" when an
+the projection's per-element access is the CALLER's effective access to the element (always "Administrator" when an
 admin key made the request), so it is deliberately **not embedded**: it is neither a "minimum required"
 nor a portable property.
 
 - **Compartment = `cps.scorecardId`.** Access is governed by that scorecard's membership rules, so a plain
-  ClearPoint concept carries **no** separate access block. `cps.access.markings` appears only on
+  concept carries **no** separate access block. `cps.access.markings` appears only on
   derived/enriched/personal nodes — `personal:<userId>` (never org-served), `domain:<name>`, or the
   UNION of source markings on a fused node.
 - **Who-can-access** (which users/groups hold what level on a scorecard) is a separate **access-rules**
@@ -140,7 +138,7 @@ The time-varying layer uses the **same split as metrics** (§6): inline-for-grou
   analysis, recommendations, and that period's `update`-field values. Narrative, git-diffable,
   LLM-native. The current period's short status also rides in `cps.status.currentPeriod`.
 - **Query (optional):** a status-history **sidecar** `data/<object>-<id>-status.json`, referenced by
-  `cps.status.statusResource` — an array of `_mcpElementStatus`-shaped records (`periodId`, `period`,
+  `cps.status.statusResource` — an array of status records (`periodId`, `period`,
   `statusId`, `status`, `analysis`, `recommendations`, `customFields[]`) — for "value of field X across N
   periods" queries. Written only when a period has real qualitative content (label-only status is fully
   carried by `currentPeriod` + a compact body line).
@@ -151,7 +149,7 @@ history sidecar`. One pattern, applied to both. (See the reference implementatio
 
 ### 4.4 Provenance — `cps.provenance` (two kinds)
 
-1. **Editorial** (native ClearPoint audit — the real field pair): `lastEditedBy` (from
+1. **Editorial** (native source-system audit — the real field pair): `lastEditedBy` (from
    `element.lastEdited`/`lastEditedBy` — definition/structure changes) vs `lastUpdatedBy` (from
    `element.lastUpdated`/`lastUpdatedBy` — period-scoped status/data changes; deliberately distinct),
    plus `owner`/`ownerType`/`collaborators` and home `scorecard`. Period facts each carry their own
@@ -186,7 +184,7 @@ It is **bidirectional**: used on **ingest** to understand the org's words
 
 ## 5. Tags — the cross-cutting facet layer
 
-Base-OKF `tags` are a flat string list. OKF-CPS keeps them valid but adds a **namespacing convention**:
+Base-OKF `tags` are a flat string list. OKF-Strategy keeps them valid but adds a **namespacing convention**:
 `<dimension>:<value>` (`theme:equity`, `pillar:economy`, `priority:high`). Tags are a distinct graph
 construct from edges and markings:
 
@@ -224,7 +222,7 @@ The two `data/` sidecars are distinct: **`-series.json`** holds the numeric meas
 
 ## 7. Conformance & the validator
 
-A bundle conforms to OKF-CPS v0.1 when:
+A bundle conforms to OKF-Strategy v0.1 when:
 
 1. It conforms to base OKF (every non-reserved `.md` has parseable frontmatter with a non-empty `type`).
 2. Root `index.md` frontmatter validates against `bundle.schema.json`.
@@ -233,17 +231,17 @@ A bundle conforms to OKF-CPS v0.1 when:
 
 Consumption stays **permissive** (base-OKF rule): unknown types/keys and broken links are tolerated.
 [`scripts/validate.mjs`](scripts/validate.mjs) is the conformance gate — it is the survivor of
-cps-parse's validator, elevated from "does this envelope match" to "does this bundle conform to the
+the reference validator, elevated from "does this envelope match" to "does this bundle conform to the
 open profile."
 
 ## 8. Round-trip / apply — LLM authors, a compiler applies
 
-OKF-CPS is the **interchange and emission** format, and it is deliberately permissive — which is correct
+OKF-Strategy is the **interchange and emission** format, and it is deliberately permissive — which is correct
 for interchange and **wrong for mutating a system of record.** So writes never flow from a permissive
-bundle straight into ClearPoint. Instead:
+bundle straight into the system of record. Instead:
 
 ```
-sources → LLM authors an updated OKF-CPS bundle → deterministic diff→apply COMPILER → importer → ClearPoint
+sources → LLM authors an updated OKF-Strategy bundle → deterministic diff→apply COMPILER → importer → system of record
                                                    (confidence gate, ref ordering, HITL, validator)
 ```
 

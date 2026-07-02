@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://clearpointstrategy.com/cps-okf/bundle.schema.json",
-    "title": "cps-okf — Bundle root index.md frontmatter (OKF-CPS profile v0.1)",
+    "$id": "https://clearpointstrategy.com/okf-strategy/bundle.schema.json",
+    "title": "okf-strategy — Bundle root index.md frontmatter (OKF-Strategy profile v0.1)",
     "description": "Frontmatter of the ROOT index.md. Per base OKF §6 the ONLY field permitted in an index.md frontmatter is okf_version, so that is all this carries. The organizational glossary (axis 5) does NOT live here — it lives on a Glossary concept (glossary.md), where arbitrary frontmatter is allowed. See concept.schema.json#/properties/cps/properties/glossary.",
     "type": "object",
     "required": ["okf_version"],

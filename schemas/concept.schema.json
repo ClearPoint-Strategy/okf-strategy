@@ -1,8 +1,8 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://clearpointstrategy.com/cps-okf/concept.schema.json",
-    "title": "cps-okf — Concept frontmatter (OKF-CPS profile v0.1)",
-    "description": "The YAML frontmatter of a single OKF concept, extended for ClearPoint Strategy. Grounded in the real ClearPoint OpenAPI (cps-lucee/api/v1/doc/schema): the `cps` block is the portable, on-disk superset of ClearPoint's own AI-grounding projection (_mcpElement / _mcpElementStatus / _mcpLink). A conforming concept is ALSO a valid base-OKF concept — the only hard requirement is a non-empty `type`, and every extension lives under `cps`, so a base-OKF consumer ignores it. The five axes (structure, access, time, provenance, vocabulary) all live under `cps`.",
+    "$id": "https://clearpointstrategy.com/okf-strategy/concept.schema.json",
+    "title": "okf-strategy — Concept frontmatter (OKF-Strategy profile v0.1)",
+    "description": "The YAML frontmatter of a single OKF concept, for OKF-Strategy. Grounded in the real ClearPoint OpenAPI (cps-lucee/api/v1/doc/schema): the `cps` block is the portable, on-disk superset of ClearPoint's own AI-grounding projection (_mcpElement / _mcpElementStatus / _mcpLink). A conforming concept is ALSO a valid base-OKF concept — the only hard requirement is a non-empty `type`, and every extension lives under `cps`, so a base-OKF consumer ignores it. The five axes (structure, access, time, provenance, vocabulary) all live under `cps`.",
     "type": "object",
     "required": ["type"],
     "properties": {
@@ -20,7 +20,7 @@
         "tags": {
             "type": "array",
             "items": { "type": "string" },
-            "description": "Base-OKF tags. ClearPoint tags project to STRINGS (see _mcpElement.tags). OKF-CPS convention: namespace as '<dimension>:<value>' (e.g. 'theme:on-time', 'perspective:customer'). Tags are facets, NOT access."
+            "description": "Base-OKF tags. ClearPoint tags project to STRINGS (see _mcpElement.tags). OKF-Strategy convention: namespace as '<dimension>:<value>' (e.g. 'theme:on-time', 'perspective:customer'). Tags are facets, NOT access."
         },
         "timestamp": {
             "type": "string",
@@ -30,7 +30,7 @@
         "cps": {
             "type": "object",
             "additionalProperties": false,
-            "description": "ClearPoint Strategy extension — superset of _mcpElement. A base-OKF consumer ignores this whole key.",
+            "description": "OKF-Strategy extension — superset of _mcpElement. A base-OKF consumer ignores this whole key.",
             "properties": {
                 "object": {
                     "$ref": "common.schema.json#/$defs/objectType",

@@ -23,7 +23,7 @@ addFormats(ajv);
 for (const f of readdirSync(schemaDir).filter((f) => f.endsWith(".json"))) {
     ajv.addSchema(JSON.parse(readFileSync(join(schemaDir, f), "utf8")));
 }
-const byId = (id) => ajv.getSchema(`https://clearpointstrategy.com/cps-okf/${id}`);
+const byId = (id) => ajv.getSchema(`https://clearpointstrategy.com/okf-strategy/${id}`);
 const conceptSchema = byId("concept.schema.json");
 const bundleSchema = byId("bundle.schema.json");
 
