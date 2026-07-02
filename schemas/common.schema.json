@@ -1,0 +1,147 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://clearpointstrategy.com/cps-okf/common.schema.json",
+    "title": "cps-okf — Common Definitions",
+    "description": "Shared building blocks. Payload bodies are arrays of native ClearPoint shapes (element, elementStatus, linkedElements, measureSeries) using ClearPoint's own field names (object, objectId, scorecardId, periodId, ...). Parsing provenance — how each id was resolved and with what confidence — lives in a sibling `_map` keyed by field name, so a body is a drop-in ClearPoint shape once `_map` and `ref`s are resolved away.",
+    "$defs": {
+        "objectType": {
+            "type": "string",
+            "description": "ClearPoint element type. Mirrors the `object` enum in api/v1/doc/schema/element.json.",
+            "enum": [
+                "scorecard",
+                "category",
+                "objective",
+                "measure",
+                "initiative",
+                "milestone",
+                "actionItem",
+                "risk"
+            ]
+        },
+
+        "elementHandle": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Points to an element: `ref` (created earlier in this batch) OR {object, objectId} (existing). scorecardId aids routing/disambiguation.",
+            "properties": {
+                "ref": { "type": "string" },
+                "object": { "$ref": "#/$defs/objectType" },
+                "objectId": { "type": ["integer", "null"] },
+                "scorecardId": { "type": ["integer", "null"] },
+                "_map": { "$ref": "#/$defs/map" }
+            }
+        },
+
+        "customFieldData": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "A custom field value write. Mirrors api/v1/doc/schema/customFieldData.json: {object, objectId, customFieldId, periodId?, value}. `value` is ALWAYS a string (displayValue is read-only and never written; serialize numbers/dates/bools to their string form). Include `periodId` for period-scoped UPDATE values (status pass); omit/empty it for non-period EDIT-field values (element-level custom fields).",
+            "required": ["object", "customFieldId", "value"],
+            "properties": {
+                "object": { "$ref": "#/$defs/objectType" },
+                "objectId": {
+                    "type": ["integer", "null"],
+                    "description": "Target element id (existing). Omit/null when using `ref`."
+                },
+                "ref": {
+                    "type": "string",
+                    "description": "Target element created earlier in this run."
+                },
+                "customFieldId": {
+                    "type": ["integer", "null"],
+                    "description": "Resolved from manifest enumerations.customFields."
+                },
+                "fieldRef": {
+                    "type": "string",
+                    "description": "ref of a custom field defined earlier in this batch."
+                },
+                "periodId": {
+                    "type": ["integer", "null"],
+                    "description": "Present for period-scoped update-field values; omit/null for edit-field (non-period) values."
+                },
+                "value": {
+                    "type": "string",
+                    "description": "Always a string. HTML for rich-text fields; serialized form for numeric/date/boolean fields."
+                },
+                "_map": { "$ref": "#/$defs/map" }
+            }
+        },
+
+        "evidence": {
+            "type": "object",
+            "description": "Where in the source document a value or mapping came from. Required on every resolved reference for audit.",
+            "additionalProperties": false,
+            "properties": {
+                "page": { "type": ["integer", "string"] },
+                "quote": { "type": "string" },
+                "locator": {
+                    "type": "string",
+                    "description": "Finer locator: spreadsheet cell, heading path, char offset."
+                }
+            }
+        },
+
+        "selector": {
+            "type": "object",
+            "description": "Human-readable description of WHICH existing object was meant. Both the matching input and the audit record of what was matched against the lookup manifest.",
+            "minProperties": 1,
+            "properties": {
+                "name": { "type": "string" },
+                "scorecardPath": {
+                    "type": "string",
+                    "description": "Breadcrumb to disambiguate, e.g. 'Finance > Improve cash flow'."
+                },
+                "email": { "type": "string" },
+                "measureName": { "type": "string" },
+                "seriesName": { "type": "string" }
+            }
+        },
+
+        "resolution": {
+            "type": "object",
+            "description": "How a single id-bearing field was resolved. Either `ref` -> an object minted earlier in this batch, or `selector`+`confidence` -> matched against the lookup manifest. Below the confidence threshold the id field MUST be null and a record added to envelope.unresolved. NEVER invent an id.",
+            "additionalProperties": false,
+            "properties": {
+                "ref": { "type": "string" },
+                "selector": { "$ref": "#/$defs/selector" },
+                "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+                "evidence": { "$ref": "#/$defs/evidence" }
+            }
+        },
+
+        "map": {
+            "type": "object",
+            "description": "Provenance sidecar. Keys are field names in the same object (e.g. 'objectId', 'periodId', 'statusId', 'scorecardId'); values describe how each was resolved. Stripped before the body is sent to ClearPoint.",
+            "additionalProperties": { "$ref": "#/$defs/resolution" }
+        },
+
+        "unresolvedItem": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["expectedType", "selector", "reason"],
+            "properties": {
+                "expectedType": { "type": "string" },
+                "selector": { "$ref": "#/$defs/selector" },
+                "candidates": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "objectId": { "type": "integer" },
+                            "name": { "type": "string" },
+                            "path": { "type": "string" },
+                            "confidence": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                            }
+                        }
+                    }
+                },
+                "reason": { "type": "string" },
+                "evidence": { "$ref": "#/$defs/evidence" }
+            }
+        }
+    }
+}

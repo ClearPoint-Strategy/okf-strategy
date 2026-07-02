@@ -1,0 +1,16 @@
+{
+    "resource": "clearpoint://district/42/scorecard/7/measure/2210",
+    "unit": "percent",
+    "series": [
+        { "name": "Actual", "seriesDataTypeId": 6 },
+        { "name": "Target", "seriesDataTypeId": 6 }
+    ],
+    "data": [
+        { "periodId": 9900, "period": "Dec 2025", "periodDate": "2025-12-31", "actual": 78.2, "target": 85.0 },
+        { "periodId": 9901, "period": "Jan 2026", "periodDate": "2026-01-31", "actual": 80.1, "target": 85.0 },
+        { "periodId": 9902, "period": "Feb 2026", "periodDate": "2026-02-28", "actual": 79.5, "target": 85.0 },
+        { "periodId": 9903, "period": "Mar 2026", "periodDate": "2026-03-31", "actual": 82.3, "target": 85.0 },
+        { "periodId": 9904, "period": "Apr 2026", "periodDate": "2026-04-30", "actual": 84.0, "target": 85.0 },
+        { "periodId": 9905, "period": "May 2026", "periodDate": "2026-05-31", "actual": 85.6, "target": 85.0 }
+    ]
+}

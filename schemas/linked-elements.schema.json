@@ -1,0 +1,64 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://clearpointstrategy.com/cps-okf/linked-elements.schema.json",
+    "title": "cps-okf — Linked elements payload",
+    "description": "Linkages between elements (the 'linkages' in MVP setup). Mirrors the ClearPoint element-links shape exactly: for one source element {object, objectId}, a `links` array of targets {object, objectId, fieldId}. The `fieldId` on each target is the linkage-type slot — it names the field that holds the relationship — so the SAME element can carry several kinds of links. Example: an objective linked to a measure is {object:'objective', objectId, links:[{object:'measure', objectId, fieldId:'measures'}]}. Each side may instead be a `ref` (created earlier in this run).",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["links"],
+    "properties": {
+        "links": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["object", "links"],
+                "properties": {
+                    "object": {
+                        "$ref": "common.schema.json#/$defs/objectType"
+                    },
+                    "objectId": {
+                        "type": ["integer", "null"],
+                        "description": "Source element id (existing). Omit/null when using `ref`."
+                    },
+                    "ref": {
+                        "type": "string",
+                        "description": "Source element created earlier in this run."
+                    },
+                    "scorecardId": { "type": ["integer", "null"] },
+                    "links": {
+                        "type": "array",
+                        "minItems": 1,
+                        "description": "Targets to link to this source. `fieldId` names the linkage type (the field that holds the relationship), e.g. 'measures', 'objectives', 'initiatives'.",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": ["object", "fieldId"],
+                            "properties": {
+                                "object": {
+                                    "$ref": "common.schema.json#/$defs/objectType"
+                                },
+                                "objectId": {
+                                    "type": ["integer", "null"],
+                                    "description": "Target element id (existing). Omit/null when using `ref`."
+                                },
+                                "ref": {
+                                    "type": "string",
+                                    "description": "Target element created earlier in this run."
+                                },
+                                "fieldId": {
+                                    "type": "string",
+                                    "description": "Linkage-type slot: the field on the source that holds this relationship (e.g. 'measures', 'objectives')."
+                                },
+                                "_map": {
+                                    "$ref": "common.schema.json#/$defs/map"
+                                }
+                            }
+                        }
+                    },
+                    "_map": { "$ref": "common.schema.json#/$defs/map" }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://clearpointstrategy.com/cps-okf/measure-data.schema.json",
+    "title": "cps-okf — Measure data payload",
+    "description": "Numeric time-series values, grouped by measure (the REST measureData endpoint is keyed by scorecardId + measureId). Each data point names its series and period. Field names match ClearPoint; `_map` carries resolution provenance.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["measures"],
+    "properties": {
+        "measures": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["data"],
+                "properties": {
+                    "measureId": { "type": ["integer", "null"] },
+                    "measureRef": {
+                        "type": "string",
+                        "description": "Measure created in this run."
+                    },
+                    "scorecardId": {
+                        "type": ["integer", "null"],
+                        "description": "Owning scorecard (needed by the REST measureData path)."
+                    },
+                    "data": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": ["periodId", "value"],
+                            "properties": {
+                                "measureSeriesId": {
+                                    "type": ["integer", "null"]
+                                },
+                                "seriesRef": {
+                                    "type": "string",
+                                    "description": "Series created in this run."
+                                },
+                                "periodId": { "type": ["integer", "null"] },
+                                "value": {
+                                    "type": ["number", "null"],
+                                    "description": "null clears the cell."
+                                },
+                                "status": { "type": ["integer", "null"] },
+                                "_map": {
+                                    "$ref": "common.schema.json#/$defs/map"
+                                }
+                            }
+                        }
+                    },
+                    "_map": { "$ref": "common.schema.json#/$defs/map" }
+                }
+            }
+        }
+    }
+}

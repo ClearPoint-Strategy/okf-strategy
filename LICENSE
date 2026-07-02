@@ -1,0 +1,24 @@
+Copyright © 2026 ClearPoint Strategy, LLC. All rights reserved.
+
+PROPRIETARY AND CONFIDENTIAL.
+
+This repository and its contents (the "Materials") are the confidential and
+proprietary property of ClearPoint Strategy, LLC ("ClearPoint"). The Materials
+define OKF-CPS, the ClearPoint Strategy profile of the Open Knowledge Format,
+together with its schemas and tooling.
+
+The public/private boundary of this repository is not yet settled: some parts
+(the profile specification and its conventions) are candidates for release as an
+open format, while others (the emitter, the diff→apply compiler, marking
+enforcement, and the MCP) are intended to remain proprietary. Until that split
+is formally decided and recorded, treat the entire repository as proprietary and
+confidential.
+
+No license is granted, expressly or by implication. Without ClearPoint's prior
+written consent you may not copy, modify, distribute, publish, sublicense, sell,
+disclose, or otherwise use the Materials, in whole or in part. All other rights
+are reserved by ClearPoint.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. ClearPoint shall not be liable for any claim, damages, or other
+liability arising from or in connection with the Materials or their use.

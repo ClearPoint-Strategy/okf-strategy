@@ -1,0 +1,225 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://clearpointstrategy.com/cps-okf/concept.schema.json",
+    "title": "cps-okf — Concept frontmatter (OKF-CPS profile v0.1)",
+    "description": "The YAML frontmatter of a single OKF concept, extended for ClearPoint Strategy. Grounded in the real ClearPoint OpenAPI (cps-lucee/api/v1/doc/schema): the `cps` block is the portable, on-disk superset of ClearPoint's own AI-grounding projection (_mcpElement / _mcpElementStatus / _mcpLink). A conforming concept is ALSO a valid base-OKF concept — the only hard requirement is a non-empty `type`, and every extension lives under `cps`, so a base-OKF consumer ignores it. The five axes (structure, access, time, provenance, vocabulary) all live under `cps`.",
+    "type": "object",
+    "required": ["type"],
+    "properties": {
+        "type": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Base-OKF required field. Human/canonical kind, e.g. 'Objective'. May be glossary-aliased via cps.alias. Machine-canonical type is cps.object."
+        },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "resource": {
+            "type": "string",
+            "description": "Canonical URI: clearpoint://district/<id>/scorecard/<id>/<object>/<objectId>. Round-trip identity anchor."
+        },
+        "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Base-OKF tags. ClearPoint tags project to STRINGS (see _mcpElement.tags). OKF-CPS convention: namespace as '<dimension>:<value>' (e.g. 'theme:on-time', 'perspective:customer'). Tags are facets, NOT access."
+        },
+        "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Base-OKF last-modified (SYSTEM time; maps to element.lastEdited/lastUpdated max). Reporting-period (VALID time) is in cps.time + body period sections."
+        },
+        "cps": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "ClearPoint Strategy extension — superset of _mcpElement. A base-OKF consumer ignores this whole key.",
+            "properties": {
+                "object": {
+                    "$ref": "common.schema.json#/$defs/objectType",
+                    "description": "AXIS 1 — Structure. Machine-canonical element type (element.object)."
+                },
+                "objectId": { "type": ["integer", "null"], "description": "AXIS 1. element.objectId; null before creation. Round-trip identity." },
+                "scorecardId": { "type": ["integer", "null"], "description": "AXIS 1. Owning scorecard id." },
+                "scorecard": { "type": "string", "description": "AXIS 1. Owning scorecard NAME (grounding; _mcpElement.scorecard)." },
+                "parent": { "type": ["string", "null"], "description": "AXIS 1. Bundle-relative path of the hierarchical parent." },
+                "measureId": { "type": ["integer", "null"], "description": "AXIS 1. For measures / shadow-linked elements." },
+                "initiativeId": { "type": ["integer", "null"], "description": "AXIS 1. Parent initiative for a milestone." },
+                "startDate": { "type": "string", "format": "date" },
+                "endDate": { "type": "string", "format": "date" },
+                "completed": { "type": "boolean" },
+                "completedDate": { "type": "string", "format": "date" },
+                "priority": { "type": "integer", "minimum": 1, "maximum": 1000 },
+                "sortOrder": { "type": ["number", "null"] },
+                "weight": { "type": ["integer", "null"], "description": "Rollup weight (element.weight / link weight)." },
+                "score": { "type": ["number", "null"], "description": "Current roll-up score (read-only)." },
+                "edges": {
+                    "type": "array",
+                    "description": "AXIS 1. TYPED edges (superset of the portable markdown links in the body). Mirrors element.links / _mcpLink.",
+                    "items": { "$ref": "#/$defs/edge" }
+                },
+                "access": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "description": "AXIS 2 — Access. Sourced from element.access (_elementAccess) + cps-next effective access; propagates on rollups/edges (intersection). COMPUTED audit trail, NOT the enforcement point — enforcement is pre-retrieval, server-side, per principal. Default-deny.",
+                    "properties": {
+                        "minCapability": { "$ref": "#/$defs/capability" },
+                        "markings": {
+                            "type": "array",
+                            "items": { "type": "string" },
+                            "description": "Compartments: 'scorecard:<id>' (inherits that scorecard's effective-access set), 'personal:<userId>' (never org-served), optional 'domain:<name>'. Derived nodes carry the UNION."
+                        },
+                        "derivedFrom": { "type": "array", "items": { "type": "string" }, "description": "Paths whose markings were unioned into this node." }
+                    }
+                },
+                "time": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "description": "AXIS 3 — Time. Bitemporal. Grounding reads VALID time (reporting period). 'current' is PER-ELEMENT at its own cadence.",
+                    "properties": {
+                        "cadence": { "type": "string", "description": "Reporting periodicity (elementStatus.periodicity / periodGroup), e.g. 'monthly', 'quarterly'." },
+                        "periodGroupId": { "type": ["integer", "null"] },
+                        "currentPeriod": { "anyOf": [{ "$ref": "#/$defs/periodRef" }, { "type": "null" }], "description": "Latest relevant reporting period (element.displayPeriodId / elementStatus.period), with its status snapshot. Narrative (analysis/recommendations) stays in the body period section." },
+                        "historyResource": { "type": "string", "description": "Bundle-relative path/URI of the period-history sidecar (structured per-period qualitative: status, analysis, recommendations, period-scoped custom fields). Mirrors the metric sidecar. The body period sections are the grounding view; this is the query view." }
+                    }
+                },
+                "provenance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "description": "AXIS 4 — Provenance. EDITORIAL (native ClearPoint audit) + RESOLUTION (parse confidence).",
+                    "properties": {
+                        "scorecard": { "$ref": "#/$defs/scorecardRef", "description": "Editorial: home scorecard (also origin of the primary access marking)." },
+                        "owner": { "$ref": "#/$defs/personStamp" },
+                        "ownerType": { "type": "string", "description": "element.ownerType (e.g. user, group)." },
+                        "collaborators": { "type": "array", "items": { "type": "integer" } },
+                        "lastEditedBy": { "$ref": "#/$defs/personStamp", "description": "element.lastEdited / lastEditedBy — DEFINITION/structure change." },
+                        "lastUpdatedBy": { "$ref": "#/$defs/personStamp", "description": "element.lastUpdated / lastUpdatedBy — period-scoped STATUS/DATA update. Distinct from lastEditedBy." },
+                        "lastCalculated": { "type": "string", "format": "date-time" },
+                        "resolved": { "$ref": "common.schema.json#/$defs/resolution", "description": "Resolution: only on parsed/derived nodes — selector + confidence + evidence, or a ref." }
+                    }
+                },
+                "alias": { "type": "string", "description": "AXIS 5 — Vocabulary. The org's own word for this concept (glossary). `type` stays canonical for interop; `alias` is what the MCP speaks back." },
+                "customFields": {
+                    "type": "array",
+                    "description": "AXIS 5 — Vocabulary. ELEMENT-LEVEL custom fields only (fieldType 'edit'/'readOnly' — one value, non-varying). Period-scoped ('update') custom fields vary over time and live in the body period sections + the history sidecar (cps.time.historyResource), NOT here. Each `name` is the org's own field label — glossary material.",
+                    "items": { "$ref": "#/$defs/customField" }
+                },
+                "measure": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "description": "Metric detail (measures only). The GROUNDING projection lives inline in the body; this carries series definitions + evaluation rules + the analytical sidecar pointer (§6).",
+                    "properties": {
+                        "series": { "type": "array", "items": { "$ref": "#/$defs/series" } },
+                        "evaluation": { "type": "array", "items": { "$ref": "#/$defs/evaluationRule" }, "description": "Rules that turn a series value into a status (objectiveEvaluation). Carries direction-of-good / thresholds." },
+                        "dataResource": { "type": "string", "description": "Bundle-relative path or URI of the full series sidecar (data/*)." }
+                    }
+                }
+            }
+        }
+    },
+    "$defs": {
+        "capability": {
+            "type": "string",
+            "enum": ["No Access", "Browser", "Updater", "Editor", "Scorecard Admin", "Administrator"],
+            "description": "Verb ladder (ascending). Mirrors _mcpElement.access / cps-next use-access. (_elementAccess also carries 'Limited', which projects to Browser-level here.)"
+        },
+        "edge": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["fieldId", "to"],
+            "properties": {
+                "fieldId": {
+                    "type": "string",
+                    "description": "Linkage type. Real ClearPoint vocabulary (_mcpLink.fieldId).",
+                    "enum": [
+                        "objectives", "risks", "parentMilestone", "categories", "actionItems",
+                        "subMilestones", "initiatives", "goals", "children", "initiativeMeasures",
+                        "parents", "measureInitiatives", "measures", "milestones",
+                        "childInitiatives", "childMeasures"
+                    ]
+                },
+                "to": { "type": "string", "description": "Bundle-relative path of the target concept." },
+                "object": { "$ref": "common.schema.json#/$defs/objectType" },
+                "objectId": { "type": ["integer", "null"] },
+                "name": { "type": "string" },
+                "scorecard": { "type": "string" },
+                "access": { "$ref": "#/$defs/capability", "description": "Per-link access (_mcpLink.access). Edge visible iff BOTH endpoints are." },
+                "weight": { "type": ["integer", "null"] }
+            }
+        },
+        "customField": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "value"],
+            "properties": {
+                "fieldId": { "type": ["string", "integer"] },
+                "name": { "type": "string", "description": "Org's field label (vocabulary)." },
+                "fieldType": { "type": "string", "enum": ["edit", "update", "readOnly", "link", "initiative"], "description": "_field.fieldType." },
+                "value": { "type": "string", "description": "Always a string (serialize non-strings)." }
+            }
+        },
+        "series": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+                "name": { "type": "string" },
+                "seriesDataTypeId": { "type": "integer", "enum": [4, 5, 6, 8, 9, 10, 11], "description": "4=Currency 5=Number 6=Percentage 8=Accounting 9=Integer 10=Custom 11=Text." },
+                "currency": { "type": "string" },
+                "aggregateType": { "type": "string", "enum": ["STDEV", "AVERAGE", "SUM", "COUNT"] },
+                "calculation": { "type": "string" },
+                "numberFormat": { "$ref": "#/$defs/numberFormat" }
+            }
+        },
+        "numberFormat": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Mirrors _numberFormat.",
+            "properties": {
+                "precision": { "type": "integer" },
+                "decimal": { "type": "string" },
+                "symbol": { "type": "string" },
+                "thousand": { "type": "string" }
+            }
+        },
+        "evaluationRule": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Mirrors objectiveEvaluation item — the rule that yields a status from a series.",
+            "properties": {
+                "compare": { "type": "string" },
+                "calculation": { "type": "string" },
+                "statusId": { "type": "integer" },
+                "statusName": { "type": "string" },
+                "measureSeries": { "type": "string" }
+            }
+        },
+        "periodRef": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "periodId": { "type": ["integer", "null"] },
+                "period": { "type": "string" },
+                "periodDate": { "type": "string", "format": "date" },
+                "statusId": { "type": ["integer", "null"] },
+                "status": { "type": "string", "description": "Resolved status name for this period (short; full narrative in the body)." },
+                "percentComplete": { "type": ["integer", "null"] }
+            }
+        },
+        "scorecardRef": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": { "type": ["integer", "null"] },
+                "name": { "type": "string" }
+            }
+        },
+        "personStamp": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Who + when. `name` is the grounding-facing string (ClearPoint stores a userId; the emitter resolves it, as _mcpElement resolves owner).",
+            "properties": {
+                "name": { "type": "string" },
+                "userId": { "type": ["integer", "null"] },
+                "at": { "type": "string", "format": "date-time" }
+            }
+        }
+    }
+}

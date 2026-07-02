@@ -1,0 +1,16 @@
+{
+    "name": "cps-okf",
+    "version": "0.1.0",
+    "private": true,
+    "license": "UNLICENSED",
+    "type": "module",
+    "description": "OKF-CPS: the ClearPoint Strategy profile of the Open Knowledge Format — the extended-OKF spec, schemas, and conformance validator for the organizational strategy knowledge graph.",
+    "scripts": {
+        "validate": "node scripts/validate.mjs"
+    },
+    "devDependencies": {
+        "ajv": "^8.17.1",
+        "ajv-formats": "^3.0.1",
+        "yaml": "^2.5.0"
+    }
+}
