@@ -68,6 +68,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/high-employee-ownership-207723-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -89,3 +90,7 @@ We want our employees to feel an equal amount of intrinsic and extrinsic value w
 - [Create new HR hiring process](/initiatives/create-new-hr-hiring-process-211890.md)
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** Employee ownership is an integral part of our business model. Providing a sense of ownership has greatly increased the buy-in from out employees from the front line through executives.
+
+**Recommendations.** Keep the percentage of employee ownership a priority.

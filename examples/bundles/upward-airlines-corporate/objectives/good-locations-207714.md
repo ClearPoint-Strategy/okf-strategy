@@ -61,6 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/good-locations-207714-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -86,3 +87,7 @@ We want to establish relationships with prominent cities, and offer our customer
 - [% of population served within 25 miles](/measures/of-population-served-within-25-miles-423486.md)
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** We have established relationships with some cities already.
+
+**Recommendations.** Communicate more with the prominent cities in order to establish these good relationships.

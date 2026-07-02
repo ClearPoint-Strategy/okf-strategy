@@ -54,6 +54,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/create-new-employee-training-163369-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -117,4 +118,8 @@ Our current employee training program only covered one type of aircraft. Now tha
 - [Customer Experience Survey](/measures/customer-experience-survey-423482.md)
 - [Total amount of time at gate](/measures/total-amount-of-time-at-gate-423485.md)
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
+
+**Analysis.** Planning and development is well underway and going smoothly.
+
+**Recommendations.** I recommend looping in our HR reps. They probably have some format in mind that will make this easier on our end.

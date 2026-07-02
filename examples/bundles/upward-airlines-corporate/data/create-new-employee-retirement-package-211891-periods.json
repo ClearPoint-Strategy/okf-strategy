@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77146/initiative/211891",
+  "object": "initiative",
+  "objectId": 211891,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18580,
+      "status": "Below Plan",
+      "analysis": "Our current employee retirement package is subpar with our competitors. We need to increase our benefits to improve our employee satisfaction and retention rates.",
+      "recommendations": "Work with the research committee to explore different package options and bring them to the board for our quarterly meeting."
+    }
+  ]
+}

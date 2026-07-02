@@ -49,6 +49,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/very-low-ticket-prices-207712-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -74,6 +75,10 @@ Research indicates that price is the key factor that consumers consider when pur
 - [Ticket price differential](/measures/ticket-price-differential-423484.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** Ticket prices are competitive with the industry and the time of purchase.
+
+**Recommendations.** We need to educate our consumers about the great deals they can get by purchasing early. We can beat customer prices pretty easy by selling out our planes 1 week in advance.
 
 ## Status — Nov-25 (No Information)
 

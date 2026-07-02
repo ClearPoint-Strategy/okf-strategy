@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77146/objective/207719",
+  "object": "objective",
+  "objectId": 207719,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "Our maintenance costs per 100k miles are dropping significantly due to increased standards of mechanics.",
+      "recommendations": "Continue with creating measures to hold mechanics accountable, and provide cost-effective fixes to planes."
+    }
+  ]
+}

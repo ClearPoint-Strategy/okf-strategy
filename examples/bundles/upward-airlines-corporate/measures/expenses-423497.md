@@ -47,6 +47,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/expenses-423497-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -106,6 +107,10 @@ Tracks the total amount of money spent within a defined period.
 **Actual** — 2855 (Dec-25) · trend [3001, 3472, 2800, 2860, 3212, 2855]
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** Over the past 8 months we have done an exceptional job of meeting our goal of keeping our expenses below target. I added the "Actual as % of Target" series to understand this better. We are doing well overall!
+
+**Recommendations.** We must continue on our current course of managing our expenses closely. This policy is currently paying off in our bottom line and will continue to pay off, especially if we occasionally miss our revenue targets.
 
 ## Status — Nov-25 (Below Plan)
 

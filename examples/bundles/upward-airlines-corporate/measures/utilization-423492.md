@@ -22,6 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/utilization-423492-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -54,10 +55,14 @@ cps:
 
 **Utilization Percentage** — 40 (Dec-25) · trend [39, 41, 39, 30, 42, 40]
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
 
-## Status — Nov-25 (Above Target)
+**Analysis.** We saw high utilization this month; let's keep it up.
 
-## Status — Oct-25 (Above Target)
+**Recommendations.** Meet with the committee to discuss next steps.
 
-## Status — Sep-25 (Above Target)
+## Status — Q3-25 (Above Target)
+
+## Status — Q3-25 (Above Target)
+
+## Status — Q3-25 (Above Target)

@@ -38,6 +38,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/high-utilization-207720-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -58,5 +59,9 @@ Our assets should be performing to their full capacity so that we know we are ac
 - [% utilization](/measures/utilization-423492.md)
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** We are doing well in utilizing our resources wisely. Due to outside consultants, we have created a very good process.
+
+**Recommendations.** Continue with practicing our utilization process as best we can. Focus on using resources wisely in all regions.
 
 ## Status — Oct-25 (Caution)

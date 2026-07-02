@@ -50,6 +50,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/construct-new-airplane-seats-data-charts-308980-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -171,6 +172,8 @@ Detailed project management is possible by leveraging project evaluations to tra
 **Actual % Complete** — 94 (Dec-25) · trend [65, 74, 80, 86, 88, 94]
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** While the initiative hit some bumps with the online bill payment integration, we have since recovered and are wrapping up the initiative by reaching out to our teams. We have several different marketing campaigns to promote our new seats.
 
 ## Status — Nov-25 (Caution)
 

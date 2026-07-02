@@ -47,6 +47,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/revenue-423496-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -102,6 +103,12 @@ We are measuring our total revenues for the company.
 **Actual** — 2850 (Dec-25) · trend [2800, 3100, 3048, 3056, 3090, 2850]
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** Revenue is decreasing this month...
+
+**Recommendations.** We should find ways to increase our revenue.
+
+- Complete?: 0
 
 ## Status — Nov-25 (Caution)
 

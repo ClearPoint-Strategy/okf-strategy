@@ -48,6 +48,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/purchase-5-new-planes-211889-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -112,3 +113,7 @@ We need to increase the inventory of planes to increase our supply. Our inventor
 - [Expenses](/measures/expenses-423497.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** These new planes will be incremental to our expansion; we've hit a few delays.
+
+**Recommendations.** Connect with manufacturer to consider new models and look at pricing for the planes. This should be done sooner rather than later.

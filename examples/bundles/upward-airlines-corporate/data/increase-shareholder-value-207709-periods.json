@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77146/objective/207709",
+  "object": "objective",
+  "objectId": 207709,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "In December 2025, Upward Airlines faced a revenue shortfall, achieving only 90.48% of its target, attributed to potential seasonal fluctuations or operational issues. However, expenses were well-managed, staying below target, which positively impacted the bottom line. Initiatives to create new revenue streams, like expanding ancillary services and loyalty programs, showed promising progress. Despite some divisions facing challenges, overall profitability was trending positively, with strategic cost management and successful sales initiatives contributing to shareholder value.",
+      "recommendations": "Continue to focus on cost reduction strategies, exploring new ways to minimize expenses without compromising service quality. Pursue avenues for revenue growth, such as expanding routes or improving in-flight services. Maintain operational efficiency, ensuring all processes are streamlined and effective."
+    }
+  ]
+}

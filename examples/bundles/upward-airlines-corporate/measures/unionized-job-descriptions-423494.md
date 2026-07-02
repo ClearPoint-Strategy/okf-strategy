@@ -22,6 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/unionized-job-descriptions-423494-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -53,6 +54,10 @@ cps:
 **Job Descriptions** — 125 (Dec-25) · trend [100, 106, 111, 120, 126, 125]
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** With our recent expansion, we are increasing the number of unionized job descriptions posted on a steady basis.
+
+**Recommendations.** Continue hiring and pushing the urgency within our HR department.
 
 ## Status — Nov-25 (Above Target)
 

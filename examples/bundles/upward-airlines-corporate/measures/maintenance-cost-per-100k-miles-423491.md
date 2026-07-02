@@ -22,6 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/maintenance-cost-per-100k-miles-423491-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -68,6 +69,10 @@ cps:
 **Maintenance Cost** — 17220 (Dec-25) · trend [16660, 16200, 15500, 15680, 17550, 17220]
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** Our cost has increased dramatically over the last month, due to the problems of our old planes. We need to purchase new planes, in order to drop this cost in the long term.
+
+**Recommendations.** If we continue to be below plan on cost of maintenance, we need to get to the root of the problem.
 
 ## Status — Nov-25 (Below Plan)
 

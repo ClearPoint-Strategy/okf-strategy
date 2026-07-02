@@ -30,6 +30,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/ticket-price-differential-423484-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -83,10 +84,10 @@ cps:
 
 **Actual** — 94 (Dec-25) · trend [95, 81, 82, 86, 96, 94]
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
 
-## Status — Nov-25 (Below Plan)
+## Status — Q3-25 (Below Plan)
 
-## Status — Oct-25 (Below Plan)
+## Status — Q3-25 (Below Plan)
 
-## Status — Sep-25 (Below Plan)
+## Status — Q3-25 (Below Plan)

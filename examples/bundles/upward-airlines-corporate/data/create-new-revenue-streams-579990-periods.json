@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77146/initiative/579990",
+  "object": "initiative",
+  "objectId": 579990,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "As of Q2, the initiative is progressing as planned and is currently 50% complete. Key progress this quarter includes: Ancillary Services Expansion: Upward Airlines successfully launched a premium in-flight Wi-Fi package and redesigned its &agrave; la carte menu to include high-margin, locally sourced items on long-haul flights. These changes have already generated a 12% increase in per-passenger ancillary revenue compared to Q1. Loyalty Program Monetization: A partnership agreement was signed with two major hotel chains and a credit card provider, allowing customers to earn and redeem miles across a broader network. Early engagement data suggests a strong uptick in new loyalty program sign-ups (up 18% MoM). Cargo Services Pilot: A pilot program for regional cargo transport was launched in the Midwest, repurposing underutilized aircraft capacity on less-than-full routes. While still in early stages, preliminary results are promising with average load rates hitting 65% of goal.",
+      "recommendations": "It will make sense to invest a little more now so as not to miss the timing during our corporate calendar."
+    }
+  ]
+}

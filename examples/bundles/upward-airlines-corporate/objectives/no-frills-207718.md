@@ -61,6 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/no-frills-207718-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -82,6 +83,10 @@ Part of the reason we are able to offer such low prices is because we keep our c
 - [Find new food service provider](/initiatives/find-new-food-service-provider-163371.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** While our overall performance does not look great, the real problem seems to be in the East Region. We should start bench marking some performance from the Central region to see if we can bring some best practices to the east.
+
+**Recommendations.** Assign a task force to create a bench marking measure to better understand the differences between the Eastern Region and the Central Region.
 
 ## Status — Nov-25 (Caution)
 

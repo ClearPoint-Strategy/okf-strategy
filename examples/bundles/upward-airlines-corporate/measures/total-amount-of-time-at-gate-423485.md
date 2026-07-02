@@ -44,6 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/total-amount-of-time-at-gate-423485-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -80,6 +81,10 @@ cps:
 **Actual** — 148 (Dec-25) · trend [151, 155, 147, 143, 147, 148]
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** Time at gate is a measure that slightly out of our control due to airport traffic. However, we can still improve by expediting our processes.
+
+**Recommendations.** We need to continue to do everything we can to make sure our guests are comfortable when waiting for our planes.
 
 ## Status — Nov-25 (Caution)
 

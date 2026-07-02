@@ -40,6 +40,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/find-new-food-service-provider-163371-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -102,4 +103,8 @@ Our biggest customer complaint is the quality of our food. Our current food serv
 
 - [Internal cost per flight (Department aggregate/MM)](/measures/internal-cost-per-flight-department-aggregate-mm-423490.md)
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
+
+**Analysis.** To find new food providers in our service hubs, we must first release on RFP. The RFP is drafted and ready to be sent out.
+
+**Recommendations.** Those who submit an RFP must be measured against high quality standards and expectations.

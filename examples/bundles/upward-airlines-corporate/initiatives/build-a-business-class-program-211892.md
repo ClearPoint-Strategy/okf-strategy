@@ -44,6 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/build-a-business-class-program-211892-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -104,4 +105,8 @@ cps:
 
 - [Net Profit](/measures/net-profit-423481.md)
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
+
+**Analysis.** We are on track to launching a great business class, and our rewards program is performing as good as we hoped it would
+
+**Recommendations.** It would be helpful to reach out to a Professor at Georgetown to be the leader on the sessions. They have a lot of expertise that will be helpful to this project.

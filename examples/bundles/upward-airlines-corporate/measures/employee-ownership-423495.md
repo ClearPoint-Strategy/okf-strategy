@@ -44,6 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/employee-ownership-423495-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -83,4 +84,4 @@ cps:
 
 **Employee Ownership** — 30 (Dec-25) · trend [27, 29, 29, 30]
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)

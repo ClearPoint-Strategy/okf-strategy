@@ -49,6 +49,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/fun-experience-207716-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -74,3 +75,7 @@ Not everyone likes to fly. In fact, flying is often seen as one of the more daun
 - [# customer complaints per 1,000 tickets](/measures/customer-complaints-per-1-000-tickets-423488.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** Complaints have been lower than in the past but there are limited raving reviews for Upward Airlines.
+
+**Recommendations.** To increase raving reviews Upward Airlines should come up with new practices that make the overall flying experience more enjoyable.

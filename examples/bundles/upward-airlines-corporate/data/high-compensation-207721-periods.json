@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77146/objective/207721",
+  "object": "objective",
+  "objectId": 207721,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18580,
+      "status": "Below Plan",
+      "analysis": "Our compensation program is one of the best in the nation. Employees are very happy with the way we provide benefits.",
+      "recommendations": "Boost compensation package even more for employees who have been here for 20+ years. This will inspire employee trust."
+    }
+  ]
+}

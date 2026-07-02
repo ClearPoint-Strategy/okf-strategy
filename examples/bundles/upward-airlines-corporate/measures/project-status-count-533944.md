@@ -22,6 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/project-status-count-533944-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -71,10 +72,14 @@ cps:
 
 **Above Target Strategic Projects** — 5 (Dec-25) · trend [1, 1, 1, 1, 1, 5]
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
 
-## Status — Nov-25 (Above Target)
+**Analysis.** We are above 40% for green measures and have been improving which is great!
 
-## Status — Oct-25 (Above Target)
+**Recommendations.** Focus on reaching the 75% green measures target in the few months.
 
-## Status — Sep-25 (Above Target)
+## Status — Q3-25 (Above Target)
+
+## Status — Q3-25 (Above Target)
+
+## Status — Q3-25 (Above Target)

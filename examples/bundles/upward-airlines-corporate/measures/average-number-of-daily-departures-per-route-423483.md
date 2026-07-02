@@ -37,6 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/average-number-of-daily-departures-per-route-423483-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -80,6 +81,10 @@ cps:
 **Actual** — 7.5 (Dec-25) · trend [6, 6.2, 6.6, 7, 7.3, 7.5]
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** We're trending upwards and above target here.
+
+**Recommendations.** Let's meet as a team to ensure the trend continues.
 
 ## Status — Nov-25 (Above Target)
 

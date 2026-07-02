@@ -37,6 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/average-wage-423493-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -69,10 +70,10 @@ cps:
 
 **Avg. Wage / Hr** — 54 (Dec-25) · trend [55, 52, 53, 51, 53, 54]
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
 
-## Status — Nov-25 (Above Target)
+## Status — Q3-25 (Above Target)
 
-## Status — Oct-25 (Above Target)
+## Status — Q3-25 (Above Target)
 
-## Status — Sep-25 (Above Target)
+## Status — Q3-25 (Above Target)

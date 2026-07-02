@@ -37,6 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/of-population-served-within-25-miles-423486-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -81,10 +82,10 @@ cps:
 
 **Actual** — 35 (Dec-25) · trend [35, 34, 36, 37, 36, 35]
 
-## Status — Dec-25 (Above Target)
+## Status — Q4-25 (Above Target)
 
-## Status — Nov-25 (Above Target)
+## Status — Q3-25 (Above Target)
 
-## Status — Oct-25 (Above Target)
+## Status — Q3-25 (Above Target)
 
-## Status — Sep-25 (Above Target)
+## Status — Q3-25 (Above Target)

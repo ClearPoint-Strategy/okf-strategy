@@ -38,6 +38,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/flexible-union-contracts-207722-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -59,3 +60,7 @@ Flexible union contracts enable us to hire from various outlets, allowing us to 
 - [Create new Employee Training](/initiatives/create-new-employee-training-163369.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** Due to the fact that we've increased the flexibility of our union contracts, we have been able to expand our hiring capacity and speed.
+
+**Recommendations.** Continue increasing the flexibility of contracts.

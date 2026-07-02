@@ -37,6 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/create-new-employee-retirement-package-211891-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -94,3 +95,7 @@ cps:
 - [# Unionized job descriptions](/measures/unionized-job-descriptions-423494.md)
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** Our current employee retirement package is subpar with our competitors. We need to increase our benefits to improve our employee satisfaction and retention rates.
+
+**Recommendations.** Work with the research committee to explore different package options and bring them to the board for our quarterly meeting.

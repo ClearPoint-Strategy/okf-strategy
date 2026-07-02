@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77146/objective/207716",
+  "object": "objective",
+  "objectId": 207716,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "Complaints have been lower than in the past but there are limited raving reviews for Upward Airlines.",
+      "recommendations": "To increase raving reviews Upward Airlines should come up with new practices that make the overall flying experience more enjoyable."
+    }
+  ]
+}

@@ -62,6 +62,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/frequent-reliable-departures-automatic-eval-207710-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -87,6 +88,10 @@ One negative flight experience can have a major impact on customer brand loyalty
 - [Average Number of Daily departures per route](/measures/average-number-of-daily-departures-per-route-423483.md)
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** We are meeting our objective of having frequent reliable departures. There are two key components of this objective: Reliable (on-time) departures Frequent departures While we have been doing excellent on the turnaround time/frequent departure aspect of this, we need to do better on the reliability side. We are still missing too many departure times. We are doing well overall because we have so many departures now, that this part of the calculation is swamping the reliability part.
+
+**Recommendations.** If we continue to be below plan on the reliability side, we need to get to the root of the problem. Either we must re-look at the process to see what is causing all of our delays or we must examine whether we are just scheduling too tightly.
 
 ## Status — Nov-25 (Below Plan)
 

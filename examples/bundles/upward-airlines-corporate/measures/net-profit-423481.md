@@ -61,6 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/net-profit-423481-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -107,6 +108,10 @@ Great job team! Keep it up for next quarter.
 **Actual** — -0.17513135 (Dec-25) · trend [-6.69776741, -10.71428571, 8.85714286, 6.85314685, -3.79825654, -0.17513135]
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** Due to slightly lower revenue and slightly higher expenses than projected, our net profit was below where we'd hoped to be.
+
+**Recommendations.** We'll need to more tightly control expenses and increase efforts to up revenue.
 
 ## Status — Nov-25 (Below Plan)
 

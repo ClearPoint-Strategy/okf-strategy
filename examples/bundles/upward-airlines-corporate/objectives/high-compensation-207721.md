@@ -66,6 +66,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/high-compensation-207721-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -87,3 +88,7 @@ We want our employees to love where they work, and to feel as if they are being 
 - [Redesign Employee Satisfaction Survey](/initiatives/redesign-employee-satisfaction-survey-163370.md)
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** Our compensation program is one of the best in the nation. Employees are very happy with the way we provide benefits.
+
+**Recommendations.** Boost compensation package even more for employees who have been here for 20+ years. This will inspire employee trust.

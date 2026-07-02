@@ -61,6 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/fast-ground-turnaround-207713-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -82,3 +83,7 @@ Fast Ground Turnaround will allow us to increase the number of flights we schedu
 - [Create new Employee Training](/initiatives/create-new-employee-training-163369.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** Our time at gate has risen recently due to changes in TSA regulations.
+
+**Recommendations.** Our time at gate has risen recently due to changes in TSA regulations.

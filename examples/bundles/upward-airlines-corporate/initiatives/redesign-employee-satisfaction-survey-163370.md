@@ -64,6 +64,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/redesign-employee-satisfaction-survey-163370-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -128,4 +129,8 @@ We need to be engaged with our employees as Satisfaction and Turnover are closel
 - [# Unionized job descriptions](/measures/unionized-job-descriptions-423494.md)
 - [% employee ownership](/measures/employee-ownership-423495.md)
 
-## Status — Dec-25 (Caution)
+## Status — Q4-25 (Caution)
+
+**Analysis.** Our employee satisfaction survey was out of date and we were not capturing the information we intended. We decided we would do a complete redesign. We are very behind on our test project, and we have had to change our consultant team. Thus, we haven't started the key parts of this project and we are at risk of missing our annual review process.
+
+**Recommendations.** It will make sense to invest a little more now so as not to miss the timing during our corporate calendar.

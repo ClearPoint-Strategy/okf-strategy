@@ -39,6 +39,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/no-elites-207717-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -60,3 +61,7 @@ As opposed to our competitors, who have an overwhelming amount of status groups,
 - [Construct new airplane seats (Data & Charts)](/initiatives/construct-new-airplane-seats-data-charts-308980.md)
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** We need to improve vastly on our elite status. Studies have shown that all regions are failing in this obbjective.
+
+**Recommendations.** Create new marketing drives to show that our airline is inclusive for all demographics.

@@ -44,6 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/of-customer-airline-travel-with-us-423489-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -76,10 +77,14 @@ cps:
 
 **Actual** — 13 (Dec-25) · trend [17, 12, 15, 13]
 
-## Status — Dec-25 (Below Plan)
+## Status — 2025 (Below Plan)
 
-## Status — Nov-25 (Below Plan)
+**Analysis.** We need to do a better job differentiating from our competitors to help our numbers here.
 
-## Status — Oct-25 (Below Plan)
+**Recommendations.** Increase the number of airports our airline services.
 
-## Status — Sep-25 (Below Plan)
+## Status — 2024 (Below Plan)
+
+## Status — 2024 (Below Plan)
+
+## Status — 2024 (Below Plan)

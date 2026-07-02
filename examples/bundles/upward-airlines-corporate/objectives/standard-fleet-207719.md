@@ -31,6 +31,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/standard-fleet-207719-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -51,3 +52,7 @@ We want to standardize our plane sizes to keep our manufacturing processes as ef
 - [Maintenance cost per 100K miles](/measures/maintenance-cost-per-100k-miles-423491.md)
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** Our maintenance costs per 100k miles are dropping significantly due to increased standards of mechanics.
+
+**Recommendations.** Continue with creating measures to hold mechanics accountable, and provide cost-effective fixes to planes.

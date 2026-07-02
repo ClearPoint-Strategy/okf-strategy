@@ -37,6 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/of-tickets-with-direct-routes-423487-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -76,6 +77,10 @@ cps:
 **Actual** — 54 (Dec-25) · trend [72, 68, 67, 66, 63, 54]
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** We were above our target this summer, but now that vacation season is over, we are well below the target with our business travelers. We either need to look at new routes or look at adjusting our target throughout the year!
+
+**Recommendations.** We need to contract with more airports to provide direct routes. This involves reaching out to airport officials.
 
 ## Status — Nov-25 (Caution)
 

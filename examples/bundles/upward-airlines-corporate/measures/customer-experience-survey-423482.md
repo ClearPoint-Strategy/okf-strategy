@@ -30,6 +30,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/customer-experience-survey-423482-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -62,10 +63,10 @@ cps:
 
 **Actual** — 76 (Dec-25) · trend [67, 71, 72, 76]
 
-## Status — Dec-25 (Above Target)
+## Status — 2025 (Above Target)
 
-## Status — Nov-25 (Above Target)
+## Status — 2024 (Above Target)
 
-## Status — Oct-25 (Above Target)
+## Status — 2024 (Above Target)
 
-## Status — Sep-25 (Above Target)
+## Status — 2024 (Above Target)

@@ -74,6 +74,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
+    historyResource: /data/direct-routes-207715-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -95,3 +96,7 @@ When possible, we want to provide as many direct flights as we can, improving ou
 - [Purchase 5 new planes](/initiatives/purchase-5-new-planes-211889.md)
 
 ## Status — Dec-25 (Below Plan)
+
+**Analysis.** Direct routes are already in place establishing a good reputation for Upward Airlines. Based on the data, there has been a significant increase in direct routes recently. This has resulted in reduced travel times and increased efficiency. The most popular direct routes are between major cities, indicating a high demand for these services.
+
+**Recommendations.** Set and meet goals for increasing the number of direct route flights available through Upward Airlines.

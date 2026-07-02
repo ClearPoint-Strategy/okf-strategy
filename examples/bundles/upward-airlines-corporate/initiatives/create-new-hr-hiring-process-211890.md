@@ -41,6 +41,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/create-new-hr-hiring-process-211890-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -104,3 +105,7 @@ In order to increase our team's talent, we our updating our hiring outreach to r
 - [% employee ownership](/measures/employee-ownership-423495.md)
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** We're reaching out to others to gather best practices before As of December 2025, the initiative "Create new HR hiring process" at Upward Airlines is in "Caution" status with only 5% completion. Despite being 51.34% through the timeline, progress has been slow. This may be due to the current strategy of gathering best practices, which could be delaying implementation.
+
+**Recommendations.** Colleges are a great source for new hires. Those employees tend to come in with high motivation that will help our organization succeed.

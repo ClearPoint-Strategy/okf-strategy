@@ -55,6 +55,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
+    historyResource: /data/comparable-to-other-travel-207711-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -81,3 +82,7 @@ Customers have a number of airlines to choose from when they travel. We must del
 - [Build a business class program](/initiatives/build-a-business-class-program-211892.md)
 
 ## Status — Dec-25 (Above Target)
+
+**Analysis.** While our customer experience is trending down, we feel like it is because of the dramatic winter weather and not because of any action or lack thereof from within the company. We are still comparing well against other modes of transportation.
+
+**Recommendations.** Watch this information closely to see if we can improve dramatically against our competition.

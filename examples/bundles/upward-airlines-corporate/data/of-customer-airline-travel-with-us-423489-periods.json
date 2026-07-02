@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77146/measure/423489",
+  "object": "measure",
+  "objectId": 423489,
+  "history": [
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 189846,
+      "period": "2025",
+      "periodDate": "2025-12-31",
+      "statusId": 18580,
+      "status": "Below Plan",
+      "analysis": "We need to do a better job differentiating from our competitors to help our numbers here.",
+      "recommendations": "Increase the number of airports our airline services."
+    }
+  ]
+}

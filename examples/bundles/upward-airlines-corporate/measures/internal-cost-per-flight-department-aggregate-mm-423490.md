@@ -46,6 +46,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
+    historyResource: /data/internal-cost-per-flight-department-aggregate-mm-423490-periods.json
   provenance:
     scorecard:
       id: 77146
@@ -116,6 +117,12 @@ cps:
 **Actual** — 24050 (Dec-25) · trend [23800, 23970, 24525, 24450, 23950, 24050]
 
 ## Status — Dec-25 (Caution)
+
+**Analysis.** The internal cost per flight has increased dramatically in the past two quarters. As you can see from the child metrics, this is primarily due to the costs in the eastern division, which have been driven up by inclement weather this winter. We are hoping to get these under control in time for the busy summer travel season. My info is updated and looking good
+
+**Recommendations.** We need to continue closely monitoring theses costs and mitigate where possible. Potentially, cutting back on flights in the eastern region until weather improves might save us some money.
+
+- Complete?: 0
 
 ## Status — Nov-25 (Caution)
 
