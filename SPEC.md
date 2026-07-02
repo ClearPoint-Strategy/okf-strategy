@@ -52,7 +52,10 @@ frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.j
 - **Concept = one ClearPoint element** (scorecard, category, objective, measure, initiative, milestone,
   actionItem, risk). One shape covers all types; `cps.object` selects the machine-canonical type while
   base-OKF `type` carries the human/canonical label.
-- **Concept ID** = bundle-relative path minus `.md`.
+- **Concept ID** = bundle-relative path minus `.md`. File name is **`<object>-<objectId>`** (e.g.
+  `milestones/milestone-281261`), not the element name: an id-based path is **stable across renames** so
+  the Concept ID and every inbound link survive an element being retitled. The human name is never lost —
+  it lives in `title`, in each edge's `name`, and in link text.
 - **`resource`** = stable canonical URI: `clearpoint://scorecard/<scorecardId>/<object>/<objectId>`.
   The round-trip identity anchor (§8). No tenant/district segment — a bundle is already district-scoped
   by the key that produced it.
