@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/measure-533944-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-533944-history.json
   provenance:
     owner:
       name: Joseph Lucco
@@ -54,7 +54,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-533944.json
+    dataResource: /upward-airlines-corporate/data/measure-533944-series.json
 ---
 
 **Above Target Strategic Projects** — 5 (Dec-25) · trend [1, 1, 1, 1, 1, 5]

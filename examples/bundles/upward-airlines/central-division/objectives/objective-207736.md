@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /central-division/data/objective-207736-periods.json
+    historyResource: /central-division/data/objective-207736-history.json
   provenance:
     owner:
       name: Kimberly Kupcha
@@ -54,10 +54,13 @@ cps:
       at: 2016-07-27T22:04:09.297Z
 ---
 
-## Related
+## Measures
 
 - [Time planes wait at gate](/central-division/measures/measure-423513.md)
 - [Flight Cancellations](/central-division/measures/measure-542407.md)
+
+## Initiatives
+
 - [Create New Training Program for Employees](/central-division/initiatives/initiative-163377.md)
 
 ## Status — Dec-25 (Caution)

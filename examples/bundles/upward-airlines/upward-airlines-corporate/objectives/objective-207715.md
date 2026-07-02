@@ -74,7 +74,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/objective-207715-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207715-history.json
   provenance:
     owner:
       name: Ashley Caper
@@ -87,14 +87,20 @@ cps:
 
 When possible, we want to provide as many direct flights as we can, improving our flight times and maintaining a reputation as a sought after airline.
 
-## Related
+## Objectives
 
 - [Direct Routes](/eastern-division/objectives/objective-207727.md)
 - [Shuttle Flights to Major Cities](/eastern-division/objectives/objective-207732.md)
 - [Direct Routes](/central-division/objectives/objective-207737.md)
 - [Direct Routes](/western-division/objectives/objective-207746.md)
 - [Relationship with Eastern U.S. airports](/western-division/objectives/objective-271313.md)
+
+## Measures
+
 - [% of tickets with direct routes](/upward-airlines-corporate/measures/measure-423487.md)
+
+## Initiatives
+
 - [Purchase 5 new planes](/upward-airlines-corporate/initiatives/initiative-211889.md)
 
 ## Status — Dec-25 (Below Plan)

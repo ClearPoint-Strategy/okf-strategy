@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/objective-207727-periods.json
+    historyResource: /eastern-division/data/objective-207727-history.json
   provenance:
     owner:
       name: Janice Jones
@@ -47,9 +47,12 @@ cps:
       at: 2021-11-12T18:41:00.617Z
 ---
 
-## Related
+## Objectives
 
 - [Shuttle Flights to Major Cities](/eastern-division/objectives/objective-207732.md)
+
+## Measures
+
 - [% of tickets with direct routes](/eastern-division/measures/measure-423501.md)
 
 ## Status — Dec-25 (Above Target)

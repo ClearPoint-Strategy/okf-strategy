@@ -34,7 +34,7 @@ cps:
       periodDate: 2025-12-31
 ---
 
-## Related
+## Objectives
 
 - [Employee Satisfaction](/eastern-division/objectives/objective-207728.md)
 - [Employee Compensation](/eastern-division/objectives/objective-207729.md)

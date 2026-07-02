@@ -49,7 +49,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423517.json
+    dataResource: /central-division/data/measure-423517-series.json
 ---
 
 We want to ensure we are providing our employees with competitive wages and rewarding them appropriately for their hard work.

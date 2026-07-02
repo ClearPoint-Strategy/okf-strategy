@@ -38,7 +38,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/objective-207720-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207720-history.json
   provenance:
     owner:
       name: Ashley Caper
@@ -51,9 +51,12 @@ cps:
 
 Our assets should be performing to their full capacity so that we know we are achieving efficiency.
 
-## Related
+## Measures
 
 - [% utilization](/upward-airlines-corporate/measures/measure-423492.md)
+
+## Initiatives
+
 - [Airport Traffic Study (Milestone Roll Up)](/eastern-division/initiatives/initiative-163374.md)
 
 ## Status — Dec-25 (Above Target)

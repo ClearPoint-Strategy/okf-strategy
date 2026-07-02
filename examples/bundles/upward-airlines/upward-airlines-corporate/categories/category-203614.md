@@ -46,7 +46,7 @@ cps:
       at: 2024-03-29T21:27:42.033Z
 ---
 
-## Related
+## Objectives
 
 - [High Compensation](/upward-airlines-corporate/objectives/objective-207721.md)
 - [Flexible Union Contracts](/upward-airlines-corporate/objectives/objective-207722.md)

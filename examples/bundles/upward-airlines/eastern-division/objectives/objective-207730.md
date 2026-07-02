@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/objective-207730-periods.json
+    historyResource: /eastern-division/data/objective-207730-history.json
   provenance:
     owner:
       name: Lawrence Sito
@@ -47,9 +47,12 @@ cps:
       at: 2021-11-12T18:38:23.507Z
 ---
 
-## Related
+## Measures
 
 - [% of population served within 25 miles](/eastern-division/measures/measure-423506.md)
+
+## Initiatives
+
 - [Expand to serve two new locations](/eastern-division/initiatives/initiative-163375.md)
 
 ## Status — Dec-25 (Above Target)

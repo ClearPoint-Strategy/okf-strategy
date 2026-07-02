@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /central-division/data/measure-423513-periods.json
+    historyResource: /central-division/data/measure-423513-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -44,7 +44,7 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /central-division/data/measure-423513.json
+    dataResource: /central-division/data/measure-423513-series.json
 ---
 
 We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. We want to see that time be 30 minutes or less.

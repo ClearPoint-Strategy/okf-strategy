@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/measure-423494-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423494-history.json
   provenance:
     owner:
       name: Ashley Caper
@@ -41,7 +41,7 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /upward-airlines-corporate/data/measure-423494.json
+    dataResource: /upward-airlines-corporate/data/measure-423494-series.json
 ---
 
 **Job Descriptions** — 125 (Dec-25) · trend [100, 106, 111, 120, 126, 125]

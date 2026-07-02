@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/initiative-163377-periods.json
+    historyResource: /central-division/data/initiative-163377-history.json
   provenance:
     owner:
       name: Lawrence Sito

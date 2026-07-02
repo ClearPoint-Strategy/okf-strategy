@@ -47,7 +47,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/measure-423497-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423497-history.json
   provenance:
     owner:
       name: James Crockett
@@ -88,12 +88,12 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423497.json
+    dataResource: /upward-airlines-corporate/data/measure-423497-series.json
 ---
 
 Tracks the total amount of money spent within a defined period.
 
-## Related
+## Measures
 
 - [Expenses](/eastern-division/measures/measure-423508.md)
 - [Expenses](/central-division/measures/measure-423521.md)

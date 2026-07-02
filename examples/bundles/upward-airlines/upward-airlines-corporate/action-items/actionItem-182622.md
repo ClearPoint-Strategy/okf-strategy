@@ -50,7 +50,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/actionItem-182622-periods.json
+    historyResource: /upward-airlines-corporate/data/actionItem-182622-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -61,9 +61,12 @@ cps:
       at: 2023-01-10T22:28:54.210Z
 ---
 
-## Related
+## Measures
 
 - [Expenses](/upward-airlines-corporate/measures/measure-423497.md)
+
+## Initiatives
+
 - [Create new Employee Training](/upward-airlines-corporate/initiatives/initiative-163369.md)
 - [Redesign Employee Satisfaction Survey](/upward-airlines-corporate/initiatives/initiative-163370.md)
 - [Create new employee retirement package](/upward-airlines-corporate/initiatives/initiative-211891.md)

@@ -32,6 +32,6 @@ cps:
       at: 2024-03-29T21:25:47.230Z
 ---
 
-## Related
+## Objectives
 
 - [Increase Shareholder Value](/upward-airlines-corporate/objectives/objective-207709.md)

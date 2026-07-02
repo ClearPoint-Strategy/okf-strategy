@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/objective-207746-periods.json
+    historyResource: /western-division/data/objective-207746-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -40,7 +40,7 @@ cps:
       at: 2016-07-27T22:12:19.720Z
 ---
 
-## Related
+## Measures
 
 - [% of tickets with direct routes](/western-division/measures/measure-423526.md)
 

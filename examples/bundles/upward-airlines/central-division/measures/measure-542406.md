@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-542406-periods.json
+    historyResource: /central-division/data/measure-542406-history.json
   provenance:
     owner:
       name: Janice Jones
@@ -42,7 +42,7 @@ cps:
         seriesDataTypeId: 9
         numberFormat:
           precision: 0
-    dataResource: /central-division/data/measure-542406.json
+    dataResource: /central-division/data/measure-542406-series.json
 ---
 
 **Actual** — 16300 (Dec-25) · trend [16000, 15800, 16200, 16100, 15900, 16300]

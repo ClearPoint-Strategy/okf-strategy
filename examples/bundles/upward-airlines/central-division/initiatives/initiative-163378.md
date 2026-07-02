@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /central-division/data/initiative-163378-periods.json
+    historyResource: /central-division/data/initiative-163378-history.json
   provenance:
     owner:
       name: Greg Garcia

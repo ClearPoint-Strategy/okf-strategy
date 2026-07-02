@@ -66,7 +66,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/objective-207721-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207721-history.json
   provenance:
     owner:
       name: Lawrence Sito
@@ -79,13 +79,19 @@ cps:
 
 We want our employees to love where they work, and to feel as if they are being properly compensated for their hardwork.
 
-## Related
+## Objectives
 
 - [Employee Compensation](/eastern-division/objectives/objective-207729.md)
 - [Employee Compensation](/central-division/objectives/objective-207739.md)
 - [Retirement Benefits](/central-division/objectives/objective-271190.md)
 - [Employee Compensation](/western-division/objectives/objective-207748.md)
+
+## Measures
+
 - [Average Wage](/upward-airlines-corporate/measures/measure-423493.md)
+
+## Initiatives
+
 - [Redesign Employee Satisfaction Survey](/upward-airlines-corporate/initiatives/initiative-163370.md)
 
 ## Status — Dec-25 (Below Plan)

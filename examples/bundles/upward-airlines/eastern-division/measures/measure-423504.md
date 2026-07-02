@@ -24,7 +24,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423504-periods.json
+    historyResource: /eastern-division/data/measure-423504-history.json
   provenance:
     owner:
       name: Lawrence Sito
@@ -45,7 +45,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423504.json
+    dataResource: /eastern-division/data/measure-423504-series.json
 ---
 
 We want to ensure we are providing our employees with competitive wages and rewarding them appropriately for their hard work.

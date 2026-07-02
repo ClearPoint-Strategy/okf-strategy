@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423510-periods.json
+    historyResource: /eastern-division/data/measure-423510-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -41,7 +41,7 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /eastern-division/data/measure-423510.json
+    dataResource: /eastern-division/data/measure-423510-series.json
 ---
 
 **Actual** — 34 (Dec-25) · trend [30, 34, 25, 24, 22, 34]

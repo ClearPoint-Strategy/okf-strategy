@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/objective-207748-periods.json
+    historyResource: /western-division/data/objective-207748-history.json
   provenance:
     owner:
       name: Ted Jackson
@@ -40,7 +40,7 @@ cps:
       at: 2024-05-23T14:30:47.657Z
 ---
 
-## Related
+## Measures
 
 - [% of employees who see themselves at Upward for 10+ years](/western-division/measures/measure-423528.md)
 

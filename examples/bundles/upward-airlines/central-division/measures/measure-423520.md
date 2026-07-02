@@ -20,7 +20,7 @@ cps:
       periodId: 189846
       period: Dec-25
       periodDate: 2025-12-31
-    historyResource: /central-division/data/measure-423520-periods.json
+    historyResource: /central-division/data/measure-423520-history.json
   provenance:
     owner:
       name: Ashley Caper
@@ -51,7 +51,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423520.json
+    dataResource: /central-division/data/measure-423520-series.json
 ---
 
 **Actual** — 3000 (Nov-25) · trend [8000, 7000, 6000, 5000, 4000, 3000]

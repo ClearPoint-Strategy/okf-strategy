@@ -50,7 +50,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/actionItem-182626-periods.json
+    historyResource: /upward-airlines-corporate/data/actionItem-182626-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -61,11 +61,17 @@ cps:
       at: 2024-02-29T14:04:30.117Z
 ---
 
-## Related
+## Measures
 
 - [Net Profit](/upward-airlines-corporate/measures/measure-423481.md)
 - [Revenue](/upward-airlines-corporate/measures/measure-423496.md)
+
+## Initiatives
+
 - [Find new food service provider](/upward-airlines-corporate/initiatives/initiative-163371.md)
+
+## Milestones
+
 - [Hire consultants](/upward-airlines-corporate/milestones/milestone-281244.md)
 
 ## Status — Dec-25 (Above Target)

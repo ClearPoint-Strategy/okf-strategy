@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/initiative-579990-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-579990-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -82,7 +82,7 @@ cps:
 
 We need to be engaged with our employees as Satisfaction and Turnover are closely correlated. Our current survey wasn't giving us the information we needed to stay on top of our employee happiness. We are redesigning the satisfaction survey
 
-## Related
+## Measures
 
 - [Revenue](/upward-airlines-corporate/measures/measure-423496.md)
 

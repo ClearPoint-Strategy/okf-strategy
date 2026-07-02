@@ -37,7 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/measure-423487-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423487-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -64,10 +64,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423487.json
+    dataResource: /upward-airlines-corporate/data/measure-423487-series.json
 ---
 
-## Related
+## Measures
 
 - [Major cities with direct flights 3+ times per day](/eastern-division/measures/measure-423510.md)
 - [% of tickets with direct routes](/central-division/measures/measure-423514.md)

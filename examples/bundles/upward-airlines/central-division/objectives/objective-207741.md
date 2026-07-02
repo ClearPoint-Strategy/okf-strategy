@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/objective-207741-periods.json
+    historyResource: /central-division/data/objective-207741-history.json
   provenance:
     owner:
       name: Steve Smith
@@ -40,7 +40,7 @@ cps:
       at: 2020-12-15T20:30:06.593Z
 ---
 
-## Related
+## Measures
 
 - [Internal cost per flight](/central-division/measures/measure-423522.md)
 

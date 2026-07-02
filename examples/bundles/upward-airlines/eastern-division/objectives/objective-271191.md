@@ -21,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/objective-271191-periods.json
+    historyResource: /eastern-division/data/objective-271191-history.json
   provenance:
     owner:
       name: Steve Smith

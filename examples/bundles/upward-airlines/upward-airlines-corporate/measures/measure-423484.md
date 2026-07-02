@@ -65,10 +65,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /upward-airlines-corporate/data/measure-423484.json
+    dataResource: /upward-airlines-corporate/data/measure-423484-series.json
 ---
 
-## Related
+## Measures
 
 - [Ticket price differential](/eastern-division/measures/measure-423499.md)
 

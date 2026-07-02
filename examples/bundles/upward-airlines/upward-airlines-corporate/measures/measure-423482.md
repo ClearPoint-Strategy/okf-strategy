@@ -50,10 +50,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423482.json
+    dataResource: /upward-airlines-corporate/data/measure-423482-series.json
 ---
 
-## Related
+## Measures
 
 - [# of A-list priority customers](/central-division/measures/measure-542406.md)
 

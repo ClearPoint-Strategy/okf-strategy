@@ -50,7 +50,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/milestone-281266.json
+    dataResource: /eastern-division/data/milestone-281266-series.json
 ---
 
 **Budget** — 1000 (Dec-25) · trend [1000]

@@ -37,7 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/measure-423483-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423483-history.json
   provenance:
     owner:
       name: Trudy Joplin
@@ -66,10 +66,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423483.json
+    dataResource: /upward-airlines-corporate/data/measure-423483-series.json
 ---
 
-## Related
+## Measures
 
 - [# of new planes purchased](/eastern-division/measures/measure-542405.md)
 - [# of new planes purchased](/western-division/measures/measure-542536.md)

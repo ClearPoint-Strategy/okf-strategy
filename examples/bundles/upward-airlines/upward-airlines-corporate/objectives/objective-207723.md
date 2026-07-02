@@ -68,7 +68,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/objective-207723-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207723-history.json
   provenance:
     owner:
       name: Janice Jones
@@ -81,13 +81,19 @@ cps:
 
 We want our employees to feel an equal amount of intrinsic and extrinsic value when being a member of the Upward Airlines' team. To do so, we must track compensation, ownership, and overall satisfaction to ensure our employees feel as if we
 
-## Related
+## Objectives
 
 - [Employee Satisfaction](/eastern-division/objectives/objective-207728.md)
 - [Employee Satisfaction](/central-division/objectives/objective-207738.md)
 - [Employee Satisfaction](/western-division/objectives/objective-207747.md)
 - [Leadership Training Program](/western-division/objectives/objective-207751.md)
+
+## Measures
+
 - [% employee ownership](/upward-airlines-corporate/measures/measure-423495.md)
+
+## Initiatives
+
 - [Create new HR hiring process](/upward-airlines-corporate/initiatives/initiative-211890.md)
 
 ## Status — Dec-25 (Above Target)

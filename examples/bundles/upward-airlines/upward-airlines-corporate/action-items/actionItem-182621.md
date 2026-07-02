@@ -44,7 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/actionItem-182621-periods.json
+    historyResource: /upward-airlines-corporate/data/actionItem-182621-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -55,10 +55,16 @@ cps:
       at: 2024-02-29T14:04:50.690Z
 ---
 
-## Related
+## Measures
 
 - [Net Profit](/upward-airlines-corporate/measures/measure-423481.md)
+
+## Initiatives
+
 - [Airport Traffic Study (Milestone Roll Up)](/eastern-division/initiatives/initiative-163374.md)
+
+## Milestones
+
 - [Hire consultants](/eastern-division/milestones/milestone-281264.md)
 
 ## Status — Dec-25 (Above Target)

@@ -49,7 +49,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/objective-207712-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207712-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -67,10 +67,13 @@ cps:
 
 Research indicates that price is the key factor that consumers consider when purchasing airline tickets. We want to not only remain competitive, but want our brand to be associated with delivering more for less.
 
-## Related
+## Objectives
 
 - [Competitive Ticket Prices](/central-division/objectives/objective-207735.md)
 - [Competitive Ticket Prices](/western-division/objectives/objective-207744.md)
+
+## Measures
+
 - [Ticket price differential](/upward-airlines-corporate/measures/measure-423484.md)
 
 ## Status — Dec-25 (Caution)

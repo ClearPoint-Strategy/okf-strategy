@@ -44,7 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/initiative-211892-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-211892-history.json
   provenance:
     owner:
       name: Steve Smith
@@ -88,9 +88,12 @@ cps:
       value: approved
 ---
 
-## Related
+## Measures
 
 - [Net Profit](/upward-airlines-corporate/measures/measure-423481.md)
+
+## Initiatives
+
 - [Expand to serve two new locations](/eastern-division/initiatives/initiative-163375.md)
 - [Implement wifi on all planes](/western-division/initiatives/initiative-211897.md)
 

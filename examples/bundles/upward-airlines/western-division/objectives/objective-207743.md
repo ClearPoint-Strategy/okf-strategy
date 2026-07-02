@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /western-division/data/objective-207743-periods.json
+    historyResource: /western-division/data/objective-207743-history.json
   provenance:
     owner:
       name: James Crockett
@@ -47,9 +47,12 @@ cps:
       at: 2016-07-27T22:11:20.347Z
 ---
 
-## Related
+## Measures
 
 - [Rate of departures that leave on time](/western-division/measures/measure-423523.md)
+
+## Initiatives
+
 - [Build Employee Upskilling](/western-division/initiatives/initiative-163380.md)
 
 ## Status — Dec-25 (Below Plan)

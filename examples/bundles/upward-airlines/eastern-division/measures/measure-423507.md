@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /eastern-division/data/measure-423507-periods.json
+    historyResource: /eastern-division/data/measure-423507-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -53,7 +53,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423507.json
+    dataResource: /eastern-division/data/measure-423507-series.json
 ---
 
 **Actual** — 3400 (Dec-25) · trend [3100, 2430, 3000, 3200, 3400, 3400]

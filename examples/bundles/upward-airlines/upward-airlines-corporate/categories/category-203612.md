@@ -46,7 +46,7 @@ cps:
       at: 2024-03-29T21:26:19.510Z
 ---
 
-## Related
+## Objectives
 
 - [Frequent Reliable Departures (Automatic Eval)](/upward-airlines-corporate/objectives/objective-207710.md)
 - [Comparable To Other Travel](/upward-airlines-corporate/objectives/objective-207711.md)

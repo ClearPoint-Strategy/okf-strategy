@@ -48,7 +48,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/initiative-211889-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-211889-history.json
   provenance:
     owner:
       name: James Crockett
@@ -94,10 +94,13 @@ cps:
 
 We need to increase the inventory of planes to increase our supply. Our inventory specialists and strategic advisors are working closely to address this shortfall by identifying manufacturers, looking at different models, and reporting to t
 
-## Related
+## Measures
 
 - [Total amount of time at gate](/upward-airlines-corporate/measures/measure-423485.md)
 - [Expenses](/upward-airlines-corporate/measures/measure-423497.md)
+
+## Initiatives
+
 - [Implement wifi on all planes](/western-division/initiatives/initiative-211897.md)
 
 ## Status — Dec-25 (Caution)

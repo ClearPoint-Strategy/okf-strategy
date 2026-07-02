@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423508-periods.json
+    historyResource: /eastern-division/data/measure-423508-history.json
   provenance:
     owner:
       name: Kimberly Kupcha
@@ -53,7 +53,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423508.json
+    dataResource: /eastern-division/data/measure-423508-series.json
 ---
 
 **Actual** — 2430 (Dec-25) · trend [2260, 2430, 2400, 2400, 2400, 2430]

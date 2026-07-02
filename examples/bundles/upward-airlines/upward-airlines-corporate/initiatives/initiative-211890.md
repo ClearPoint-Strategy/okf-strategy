@@ -41,7 +41,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/initiative-211890-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-211890-history.json
   provenance:
     owner:
       name: James Crockett
@@ -87,9 +87,12 @@ cps:
 
 In order to increase our team's talent, we our updating our hiring outreach to reflect best practices in the industry. Our goal is to attract and retain talented individuals that will help grow the company. We see future employees as key fa
 
-## Related
+## Measures
 
 - [% employee ownership](/upward-airlines-corporate/measures/measure-423495.md)
+
+## Initiatives
+
 - [Create New Training Program for Employees](/central-division/initiatives/initiative-163377.md)
 
 ## Status — Dec-25 (Caution)

@@ -21,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/milestone-281209-periods.json
+    historyResource: /eastern-division/data/milestone-281209-history.json
   provenance:
     owner:
       name: Ashley Caper

@@ -61,7 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/objective-207714-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207714-history.json
   provenance:
     owner:
       name: Kimberly Kupcha
@@ -79,12 +79,15 @@ cps:
 
 We want to establish relationships with prominent cities, and offer our customers the chance to fly with us wherever they go.
 
-## Related
+## Objectives
 
 - [Good Locations](/eastern-division/objectives/objective-207730.md)
 - [Good locations](/central-division/objectives/objective-207740.md)
 - [Good locations](/western-division/objectives/objective-207749.md)
 - [Relationship with Eastern U.S. airports](/western-division/objectives/objective-271313.md)
+
+## Measures
+
 - [% of population served within 25 miles](/upward-airlines-corporate/measures/measure-423486.md)
 
 ## Status — Dec-25 (Above Target)

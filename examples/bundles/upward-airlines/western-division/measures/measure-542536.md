@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /western-division/data/measure-542536-periods.json
+    historyResource: /western-division/data/measure-542536-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -45,7 +45,7 @@ cps:
         seriesDataTypeId: 9
         numberFormat:
           precision: 0
-    dataResource: /western-division/data/measure-542536.json
+    dataResource: /western-division/data/measure-542536-series.json
 ---
 
 **Actual** — 12 (Dec-25) · trend [15, 20, 12]

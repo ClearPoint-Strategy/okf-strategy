@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18581
       status: No Information
-    historyResource: /upward-airlines-corporate/data/milestone-599467-periods.json
+    historyResource: /upward-airlines-corporate/data/milestone-599467-history.json
   provenance:
     owner:
       name: Ashley Caper

@@ -26,7 +26,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/measure-423528-periods.json
+    historyResource: /western-division/data/measure-423528-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -47,7 +47,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423528.json
+    dataResource: /western-division/data/measure-423528-series.json
 ---
 
 We want to create an environment where employees are excited to come to work and see themselves at Upward Air for a long time. If staff stay longer, then we will have less turnover and a more skilled, experienced workforce.

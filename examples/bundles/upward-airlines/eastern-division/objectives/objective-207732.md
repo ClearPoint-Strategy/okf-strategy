@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/objective-207732-periods.json
+    historyResource: /eastern-division/data/objective-207732-history.json
   provenance:
     owner:
       name: James Crockett
@@ -47,9 +47,12 @@ cps:
       at: 2021-11-12T19:02:01.657Z
 ---
 
-## Related
+## Measures
 
 - [Major cities with direct flights 3+ times per day](/eastern-division/measures/measure-423510.md)
+
+## Initiatives
+
 - [Expand to serve two new locations](/eastern-division/initiatives/initiative-163375.md)
 
 ## Status — Dec-25 (Above Target)

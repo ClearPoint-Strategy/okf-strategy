@@ -34,7 +34,7 @@ cps:
       periodDate: 2025-12-31
 ---
 
-## Related
+## Objectives
 
 - [Reliable Departures](/western-division/objectives/objective-207743.md)
 - [Competitive Ticket Prices](/western-division/objectives/objective-207744.md)

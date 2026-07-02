@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/objective-207731-periods.json
+    historyResource: /eastern-division/data/objective-207731-history.json
   provenance:
     owner:
       name: Steve Smith
@@ -40,7 +40,7 @@ cps:
       at: 2021-11-12T18:39:20.737Z
 ---
 
-## Related
+## Measures
 
 - [Cost per plane trip](/eastern-division/measures/measure-423509.md)
 

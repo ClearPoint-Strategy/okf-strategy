@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/initiative-163373-periods.json
+    historyResource: /eastern-division/data/initiative-163373-history.json
   provenance:
     owner:
       name: Janice Jones

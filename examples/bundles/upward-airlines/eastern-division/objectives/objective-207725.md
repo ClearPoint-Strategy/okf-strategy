@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/objective-207725-periods.json
+    historyResource: /eastern-division/data/objective-207725-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -54,9 +54,12 @@ cps:
       at: 2021-11-12T18:36:18.690Z
 ---
 
-## Related
+## Measures
 
 - [% of on time departures](/eastern-division/measures/measure-423498.md)
+
+## Initiatives
+
 - [Create Upskilling for Employees](/eastern-division/initiatives/initiative-163373.md)
 - [Airport Traffic Study (Milestone Roll Up)](/eastern-division/initiatives/initiative-163374.md)
 

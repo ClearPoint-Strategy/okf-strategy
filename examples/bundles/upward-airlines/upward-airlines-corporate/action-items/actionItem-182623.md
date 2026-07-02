@@ -44,7 +44,10 @@ cps:
       at: 2024-02-29T14:05:09.237Z
 ---
 
-## Related
+## Measures
 
 - [Expenses](/upward-airlines-corporate/measures/measure-423497.md)
+
+## Initiatives
+
 - [Create new Employee Training](/upward-airlines-corporate/initiatives/initiative-163369.md)

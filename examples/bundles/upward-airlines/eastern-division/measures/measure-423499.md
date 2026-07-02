@@ -24,7 +24,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423499-periods.json
+    historyResource: /eastern-division/data/measure-423499-history.json
   provenance:
     owner:
       name: Janice Jones
@@ -50,7 +50,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /eastern-division/data/measure-423499.json
+    dataResource: /eastern-division/data/measure-423499-series.json
 ---
 
 We want to measure our ticket prices compared to the industry average and our target prices.

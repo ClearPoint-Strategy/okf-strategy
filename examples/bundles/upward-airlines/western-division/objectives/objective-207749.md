@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/objective-207749-periods.json
+    historyResource: /western-division/data/objective-207749-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -40,7 +40,7 @@ cps:
       at: 2016-07-27T22:12:01.373Z
 ---
 
-## Related
+## Measures
 
 - [% of population served within 20 miles](/western-division/measures/measure-423530.md)
 

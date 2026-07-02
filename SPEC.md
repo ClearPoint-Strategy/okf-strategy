@@ -68,7 +68,10 @@ frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.j
 
 Hierarchy via `cps.parent` (+ directory nesting). Relationships are emitted **twice**, on purpose:
 
-- **Portable, untyped** — a standard markdown link in the body. Any OKF consumer traverses it.
+- **Portable, untyped** — standard markdown links in the body, **grouped under type headings**
+  (`## Measures`, `## Initiatives`, …). Base OKF derives relationship semantics from surrounding prose,
+  not link structure, so the heading is how a base-OKF consumer recovers the edge type. Any OKF consumer
+  traverses the links.
 - **Typed, machine** — `cps.edges: [{ fieldId, to, access, weight }]`, mirroring `element.links` /
   `_mcpLink` where `fieldId` *is* the relationship type (real vocabulary: `objectives`, `measures`,
   `initiatives`, `categories`, `parents`, `children`, `milestones`, …). Each edge carries the target's
@@ -129,9 +132,11 @@ The time-varying layer uses the **same split as metrics** (§6): inline-for-grou
 - **Grounding (normative):** one `## <Period>` body section per reporting period, carrying status,
   analysis, recommendations, and that period's `update`-field values. Narrative, git-diffable,
   LLM-native. The current period's short status also rides in `cps.time.currentPeriod`.
-- **Query (optional):** a period-history **sidecar** referenced by `cps.time.historyResource` — an array
-  of `_mcpElementStatus`-shaped records (`periodId`, `period`, `statusId`, `status`, `analysis`,
-  `recommendations`, `customFields[]`) — for "value of field X across N periods" queries.
+- **Query (optional):** a period-history **sidecar** `data/<object>-<id>-history.json`, referenced by
+  `cps.time.historyResource` — an array of `_mcpElementStatus`-shaped records (`periodId`, `period`,
+  `statusId`, `status`, `analysis`, `recommendations`, `customFields[]`) — for "value of field X across N
+  periods" queries. Written only when a period has real qualitative content (label-only status is fully
+  carried by `currentPeriod` + a compact body line).
 - **Selector:** `GET /okf?…&periodId=<id>` returns the bundle **as-of** that period; default = current.
 
 So a numeric series is `inline summary + data sidecar`; a qualitative series is `body narrative +
@@ -187,10 +192,15 @@ Two consumers, two representations (never one binary blob for both):
 - **Grounding projection (inline, in the concept body):** the number *with its meaning and judgment* —
   latest value, target, direction-of-good, status, a short trend window. This is what makes answers
   exceptional, is token-cheap, git-diffable, and needs zero tool calls.
-- **Analytical sidecar (`data/*`, referenced by `resource`):** the full typed series. At current scale
-  **JSON/Arrow is sufficient; parquet is reserved for the analytical/warehouse boundary** (BigQuery,
-  Snowflake) where columnar actually pays. The qualitative layer diffs in git; the quantitative sidecar
-  is versioned by pointer/snapshot, not inlined into the diffable tree.
+- **Analytical sidecar `data/<object>-<id>-series.json`, referenced by `cps.measure.dataResource`:** the
+  full typed series. At current scale **JSON/Arrow is sufficient; parquet is reserved for the
+  analytical/warehouse boundary** (BigQuery, Snowflake) where columnar actually pays. The qualitative
+  layer diffs in git; the quantitative sidecar is versioned by pointer/snapshot, not inlined into the
+  diffable tree.
+
+The two `data/` sidecars are distinct: **`-series.json`** holds the numeric measure series
+(`dataResource`); **`-history.json`** holds the per-period qualitative status/analysis/recommendations
+(`historyResource`). Any element type may have either or both.
 
 ---
 

@@ -62,7 +62,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/objective-207710-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207710-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -80,12 +80,15 @@ cps:
 
 One negative flight experience can have a major impact on customer brand loyalty. As such, we need to ensure that we are providing our customers with multiple daily flight options and these flights must be prompt.
 
-## Related
+## Objectives
 
 - [Reliable Departures](/eastern-division/objectives/objective-207725.md)
 - [Morning Departures](/eastern-division/objectives/objective-271191.md)
 - [Reliable Departures](/central-division/objectives/objective-207734.md)
 - [Reliable Departures](/western-division/objectives/objective-207743.md)
+
+## Measures
+
 - [Average Number of Daily departures per route](/upward-airlines-corporate/measures/measure-423483.md)
 
 ## Status — Dec-25 (Below Plan)

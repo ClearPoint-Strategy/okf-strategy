@@ -21,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/objective-271313-periods.json
+    historyResource: /western-division/data/objective-271313-history.json
   provenance:
     lastEditedBy:
       name: Clarice Strong

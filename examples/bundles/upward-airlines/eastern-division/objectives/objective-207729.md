@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/objective-207729-periods.json
+    historyResource: /eastern-division/data/objective-207729-history.json
   provenance:
     owner:
       name: Trudy Joplin
@@ -40,7 +40,7 @@ cps:
       at: 2021-11-12T18:43:20.157Z
 ---
 
-## Related
+## Measures
 
 - [Wage Growth](/eastern-division/measures/measure-423504.md)
 

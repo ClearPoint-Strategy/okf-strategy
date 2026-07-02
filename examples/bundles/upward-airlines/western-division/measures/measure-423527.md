@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /western-division/data/measure-423527-periods.json
+    historyResource: /western-division/data/measure-423527-history.json
   provenance:
     owner:
       name: Joseph Lucco
@@ -49,7 +49,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423527.json
+    dataResource: /western-division/data/measure-423527-series.json
 ---
 
 We have an employee survey every quarter. We are improving each year.

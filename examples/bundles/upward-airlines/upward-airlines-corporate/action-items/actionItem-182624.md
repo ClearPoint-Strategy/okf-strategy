@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/actionItem-182624-periods.json
+    historyResource: /upward-airlines-corporate/data/actionItem-182624-history.json
   provenance:
     owner:
       name: Steve Smith
@@ -54,7 +54,7 @@ cps:
       at: 2023-01-10T22:28:10.317Z
 ---
 
-## Related
+## Measures
 
 - [Total amount of time at gate](/upward-airlines-corporate/measures/measure-423485.md)
 - [% of tickets with direct routes](/upward-airlines-corporate/measures/measure-423487.md)

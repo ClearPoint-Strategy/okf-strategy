@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/measure-423491-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423491-history.json
   provenance:
     owner:
       name: Janice Jones
@@ -54,7 +54,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423491.json
+    dataResource: /upward-airlines-corporate/data/measure-423491-series.json
 ---
 
 **Maintenance Cost** — 17220 (Dec-25) · trend [16660, 16200, 15500, 15680, 17550, 17220]

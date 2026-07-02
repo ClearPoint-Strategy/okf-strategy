@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-423514-periods.json
+    historyResource: /central-division/data/measure-423514-history.json
   provenance:
     owner:
       name: Lawrence Sito
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423514.json
+    dataResource: /central-division/data/measure-423514-series.json
 ---
 
 **Actual** — 60 (Dec-25) · trend [60, 61, 60, 59, 57, 60]

@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/objective-207742-periods.json
+    historyResource: /western-division/data/objective-207742-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -54,7 +54,7 @@ cps:
       at: 2016-07-27T22:10:35.353Z
 ---
 
-## Related
+## Measures
 
 - [Net Profit](/western-division/measures/measure-423529.md)
 - [Revenue](/western-division/measures/measure-423531.md)

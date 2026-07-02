@@ -27,6 +27,6 @@ cps:
       periodDate: 2025-12-31
 ---
 
-## Related
+## Objectives
 
 - [Profitability](/western-division/objectives/objective-207742.md)

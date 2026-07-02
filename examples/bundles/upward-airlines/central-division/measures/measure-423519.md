@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-423519-periods.json
+    historyResource: /central-division/data/measure-423519-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -44,7 +44,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423519.json
+    dataResource: /central-division/data/measure-423519-series.json
 ---
 
 We will use this measure to help inform our expansion plans.

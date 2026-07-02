@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/measure-423500-periods.json
+    historyResource: /eastern-division/data/measure-423500-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -44,7 +44,7 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /eastern-division/data/measure-423500.json
+    dataResource: /eastern-division/data/measure-423500-series.json
 ---
 
 We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. We want to see that time be 30 minutes or less.

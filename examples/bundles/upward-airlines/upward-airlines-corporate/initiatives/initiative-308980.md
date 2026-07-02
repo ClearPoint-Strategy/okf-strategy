@@ -50,7 +50,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/initiative-308980-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-308980-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -139,14 +139,17 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/initiative-308980.json
+    dataResource: /upward-airlines-corporate/data/initiative-308980-series.json
 ---
 
 Detailed project management is possible by leveraging project evaluations to track quantitative initiative information. Design and Construction Costs To Date - manually input each month based on expenditures Total Spending To Date - adding 
 
-## Related
+## Measures
 
 - [Expenses](/upward-airlines-corporate/measures/measure-423497.md)
+
+## Initiatives
+
 - [Prepare for summer sale](/central-division/initiatives/initiative-211898.md)
 - [Purchase new TV Screens](/western-division/initiatives/initiative-211896.md)
 

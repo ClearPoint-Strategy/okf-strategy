@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/objective-271188-periods.json
+    historyResource: /eastern-division/data/objective-271188-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -47,7 +47,7 @@ cps:
       at: 2021-11-12T18:43:54.123Z
 ---
 
-## Related
+## Initiatives
 
 - [New website design](/eastern-division/initiatives/initiative-211899.md)
 - [Purchase new TV Screens](/western-division/initiatives/initiative-211896.md)

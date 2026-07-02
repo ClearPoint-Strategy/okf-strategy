@@ -48,7 +48,7 @@ cps:
       periodDate: 2025-12-31
 ---
 
-## Related
+## Objectives
 
 - [Ground Turnaround](/central-division/objectives/objective-207736.md)
 - [Direct Routes](/central-division/objectives/objective-207737.md)

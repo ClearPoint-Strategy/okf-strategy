@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /central-division/data/objective-271190-periods.json
+    historyResource: /central-division/data/objective-271190-history.json
   provenance:
     owner:
       name: Donald Duff

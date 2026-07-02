@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /central-division/data/objective-207737-periods.json
+    historyResource: /central-division/data/objective-207737-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -40,7 +40,7 @@ cps:
       at: 2016-07-27T22:04:34.993Z
 ---
 
-## Related
+## Measures
 
 - [% of tickets with direct routes](/central-division/measures/measure-423514.md)
 

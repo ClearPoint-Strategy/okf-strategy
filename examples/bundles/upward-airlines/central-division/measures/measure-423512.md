@@ -24,7 +24,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-423512-periods.json
+    historyResource: /central-division/data/measure-423512-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -50,7 +50,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /central-division/data/measure-423512.json
+    dataResource: /central-division/data/measure-423512-series.json
 ---
 
 We want to measure our ticket prices compared to the industry average and our target prices.

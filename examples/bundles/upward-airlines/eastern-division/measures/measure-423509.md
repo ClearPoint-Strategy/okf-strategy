@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/measure-423509-periods.json
+    historyResource: /eastern-division/data/measure-423509-history.json
   provenance:
     owner:
       name: James Crockett
@@ -44,7 +44,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /eastern-division/data/measure-423509.json
+    dataResource: /eastern-division/data/measure-423509-series.json
 ---
 
 This information is sourced from a common spreadsheet for all regions.

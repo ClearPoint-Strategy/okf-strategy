@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/objective-207747-periods.json
+    historyResource: /western-division/data/objective-207747-history.json
   provenance:
     owner:
       name: Catherine Mendoza
@@ -54,10 +54,13 @@ cps:
       at: 2016-07-27T22:12:29.280Z
 ---
 
-## Related
+## Measures
 
 - [% of highly satisified employees](/western-division/measures/measure-423527.md)
 - [Customer Support Calls](/western-division/measures/measure-542408.md)
+
+## Initiatives
+
 - [Redesign Employee Satisfaction Survey](/western-division/initiatives/initiative-163379.md)
 
 ## Status — Dec-25 (Above Target)

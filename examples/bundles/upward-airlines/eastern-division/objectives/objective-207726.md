@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /eastern-division/data/objective-207726-periods.json
+    historyResource: /eastern-division/data/objective-207726-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -54,9 +54,12 @@ cps:
       at: 2021-11-12T18:37:40.973Z
 ---
 
-## Related
+## Measures
 
 - [Average plane turnaround time](/eastern-division/measures/measure-423500.md)
+
+## Initiatives
+
 - [Create Upskilling for Employees](/eastern-division/initiatives/initiative-163373.md)
 - [Airport Traffic Study (Milestone Roll Up)](/eastern-division/initiatives/initiative-163374.md)
 

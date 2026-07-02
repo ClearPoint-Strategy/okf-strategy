@@ -39,7 +39,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/objective-207717-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207717-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -52,9 +52,12 @@ cps:
 
 As opposed to our competitors, who have an overwhelming amount of status groups, we want to ensure we deliver a consistent customer experience to everyone who flies with Upward Airlines.
 
-## Related
+## Measures
 
 - [% of customer airline travel with us](/upward-airlines-corporate/measures/measure-423489.md)
+
+## Initiatives
+
 - [Construct new airplane seats (Data & Charts)](/upward-airlines-corporate/initiatives/initiative-308980.md)
 
 ## Status — Dec-25 (Below Plan)

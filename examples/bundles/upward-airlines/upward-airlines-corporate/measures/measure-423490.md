@@ -46,7 +46,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/measure-423490-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423490-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -96,10 +96,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /upward-airlines-corporate/data/measure-423490.json
+    dataResource: /upward-airlines-corporate/data/measure-423490-series.json
 ---
 
-## Related
+## Measures
 
 - [Cost per plane trip](/eastern-division/measures/measure-423509.md)
 - [Internal cost per flight](/central-division/measures/measure-423522.md)

@@ -69,10 +69,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423495.json
+    dataResource: /upward-airlines-corporate/data/measure-423495-series.json
 ---
 
-## Related
+## Measures
 
 - [% of employees who see themselves at Upward for 5+ years](/central-division/measures/measure-423516.md)
 - [% increase in employee wages](/central-division/measures/measure-423517.md)

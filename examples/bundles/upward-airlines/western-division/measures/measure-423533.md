@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/measure-423533-periods.json
+    historyResource: /western-division/data/measure-423533-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /western-division/data/measure-423533.json
+    dataResource: /western-division/data/measure-423533-series.json
 ---
 
 **Actual** — 7800 (Dec-25) · trend [7900, 8145, 8200, 8150, 7750, 7800]

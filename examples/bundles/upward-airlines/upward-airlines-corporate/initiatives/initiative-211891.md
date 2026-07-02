@@ -37,7 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/initiative-211891-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-211891-history.json
   provenance:
     owner:
       name: James Crockett
@@ -77,9 +77,12 @@ cps:
       value: "300000.0000"
 ---
 
-## Related
+## Measures
 
 - [# Unionized job descriptions](/upward-airlines-corporate/measures/measure-423494.md)
+
+## Initiatives
+
 - [Create New Employee Satisfaction Survey](/eastern-division/initiatives/initiative-163372.md)
 
 ## Status — Dec-25 (Below Plan)

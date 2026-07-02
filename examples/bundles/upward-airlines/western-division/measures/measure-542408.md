@@ -44,7 +44,7 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /western-division/data/measure-542408.json
+    dataResource: /western-division/data/measure-542408-series.json
 ---
 
 **Number of calls** — 1200 (Dec-25) · trend [1642, 1563, 1462, 1200]

@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423501-periods.json
+    historyResource: /eastern-division/data/measure-423501-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423501.json
+    dataResource: /eastern-division/data/measure-423501-series.json
 ---
 
 **Actual** — 61 (Dec-25) · trend [62, 53, 61, 59, 62, 61]

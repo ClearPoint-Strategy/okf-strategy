@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /western-division/data/measure-423532-periods.json
+    historyResource: /western-division/data/measure-423532-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -53,7 +53,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423532.json
+    dataResource: /western-division/data/measure-423532-series.json
 ---
 
 **Actual** — 3650 (Dec-25) · trend [3571, 3647, 3421, 3215, 3341, 3650]

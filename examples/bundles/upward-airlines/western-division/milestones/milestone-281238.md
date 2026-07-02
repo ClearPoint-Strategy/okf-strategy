@@ -21,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/milestone-281238-periods.json
+    historyResource: /western-division/data/milestone-281238-history.json
   provenance:
     owner:
       name: Tammy Cuzco

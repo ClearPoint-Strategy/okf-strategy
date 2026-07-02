@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423502-periods.json
+    historyResource: /eastern-division/data/measure-423502-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -49,7 +49,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423502.json
+    dataResource: /eastern-division/data/measure-423502-series.json
 ---
 
 We have a employee survery every quarter.

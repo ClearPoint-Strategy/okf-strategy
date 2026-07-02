@@ -37,7 +37,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/objective-271189-periods.json
+    historyResource: /western-division/data/objective-271189-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -50,9 +50,12 @@ cps:
 
 Flight Attendant Customer Service
 
-## Related
+## Measures
 
 - [Customer Support Calls](/western-division/measures/measure-542408.md)
+
+## Initiatives
+
 - [Implement wifi on all planes](/western-division/initiatives/initiative-211897.md)
 
 ## Status — Dec-25 (Above Target)

@@ -44,7 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/measure-423489-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423489-history.json
   provenance:
     owner:
       name: James Crockett
@@ -65,10 +65,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423489.json
+    dataResource: /upward-airlines-corporate/data/measure-423489-series.json
 ---
 
-## Related
+## Measures
 
 - [# of new planes purchased](/eastern-division/measures/measure-542405.md)
 - [Flight Cancellations](/central-division/measures/measure-542407.md)

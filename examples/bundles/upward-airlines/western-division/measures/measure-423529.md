@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/measure-423529-periods.json
+    historyResource: /western-division/data/measure-423529-history.json
   provenance:
     owner:
       name: Steve Smith
@@ -49,7 +49,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423529.json
+    dataResource: /western-division/data/measure-423529-series.json
 ---
 
 This is our earnings metric, telling us how well we are doing.

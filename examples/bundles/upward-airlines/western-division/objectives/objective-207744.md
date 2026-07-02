@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/objective-207744-periods.json
+    historyResource: /western-division/data/objective-207744-history.json
   provenance:
     owner:
       name: Steve Smith
@@ -40,7 +40,7 @@ cps:
       at: 2016-07-27T22:11:38.363Z
 ---
 
-## Related
+## Measures
 
 - [Ticket price differential](/western-division/measures/measure-423524.md)
 

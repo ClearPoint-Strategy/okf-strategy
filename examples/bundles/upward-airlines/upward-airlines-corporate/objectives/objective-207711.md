@@ -55,7 +55,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/objective-207711-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207711-history.json
   provenance:
     owner:
       name: James Crockett
@@ -73,11 +73,17 @@ cps:
 
 Customers have a number of airlines to choose from when they travel. We must deliver an unparalleled experience so that the decision to choose Upward Airlines is an easy one.
 
-## Related
+## Objectives
 
 - [New Technology](/eastern-division/objectives/objective-271188.md)
 - [Flight Attendant Customer Service](/western-division/objectives/objective-271189.md)
+
+## Measures
+
 - [Customer Experience Survey](/upward-airlines-corporate/measures/measure-423482.md)
+
+## Initiatives
+
 - [Build a business class program](/upward-airlines-corporate/initiatives/initiative-211892.md)
 
 ## Status — Dec-25 (Above Target)

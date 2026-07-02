@@ -47,7 +47,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /upward-airlines-corporate/data/measure-423496-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423496-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -84,12 +84,12 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423496.json
+    dataResource: /upward-airlines-corporate/data/measure-423496-series.json
 ---
 
 We are measuring our total revenues for the company.
 
-## Related
+## Measures
 
 - [Income](/eastern-division/measures/measure-423507.md)
 - [Revenue](/central-division/measures/measure-423520.md)

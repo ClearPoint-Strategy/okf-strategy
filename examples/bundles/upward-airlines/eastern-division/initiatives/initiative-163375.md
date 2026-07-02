@@ -32,7 +32,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/initiative-163375-periods.json
+    historyResource: /eastern-division/data/initiative-163375-history.json
   provenance:
     owner:
       name: Lawrence Sito
@@ -50,7 +50,7 @@ cps:
 
 We can no longer properly serve our customers with the current number of locations we have, so we need to grow.
 
-## Related
+## Measures
 
 - [Net Profit](/eastern-division/measures/measure-423505.md)
 

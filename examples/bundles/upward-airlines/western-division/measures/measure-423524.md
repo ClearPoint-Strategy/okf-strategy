@@ -49,7 +49,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /western-division/data/measure-423524.json
+    dataResource: /western-division/data/measure-423524-series.json
 ---
 
 We want to measure our ticket prices compared to the industry average and our target prices.

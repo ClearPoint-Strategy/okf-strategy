@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/objective-207740-periods.json
+    historyResource: /central-division/data/objective-207740-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -40,7 +40,7 @@ cps:
       at: 2016-07-27T22:04:16.453Z
 ---
 
-## Related
+## Measures
 
 - [% of population served within 15 miles](/central-division/measures/measure-423519.md)
 

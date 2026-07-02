@@ -57,7 +57,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/objective-207724-periods.json
+    historyResource: /eastern-division/data/objective-207724-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -68,12 +68,15 @@ cps:
       at: 2025-05-01T20:58:47.620Z
 ---
 
-## Related
+## Measures
 
 - [Net Profit](/eastern-division/measures/measure-423505.md)
 - [Income](/eastern-division/measures/measure-423507.md)
 - [Expenses](/eastern-division/measures/measure-423508.md)
 - [# of new planes purchased](/eastern-division/measures/measure-542405.md)
+
+## Initiatives
+
 - [Expand to serve two new locations](/eastern-division/initiatives/initiative-163375.md)
 
 ## Status — Dec-25 (Above Target)

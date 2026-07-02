@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/measure-423523-periods.json
+    historyResource: /western-division/data/measure-423523-history.json
   provenance:
     owner:
       name: James Crockett
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423523.json
+    dataResource: /western-division/data/measure-423523-series.json
 ---
 
 **Actual** — 86 (Dec-25) · trend [79, 80, 82, 83, 84, 86]

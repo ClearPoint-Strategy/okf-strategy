@@ -61,7 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/objective-207713-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207713-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -74,12 +74,18 @@ cps:
 
 Fast Ground Turnaround will allow us to increase the number of flights we schedule per day, thereby increasing our opportunities for revenue. In addition, customers being able to exit and board their flights in a prompt manner will improve 
 
-## Related
+## Objectives
 
 - [Ground Turnaround](/eastern-division/objectives/objective-207726.md)
 - [Ground Turnaround](/central-division/objectives/objective-207736.md)
 - [Ground Turnaround](/western-division/objectives/objective-207745.md)
+
+## Measures
+
 - [Total amount of time at gate](/upward-airlines-corporate/measures/measure-423485.md)
+
+## Initiatives
+
 - [Create new Employee Training](/upward-airlines-corporate/initiatives/initiative-163369.md)
 
 ## Status — Dec-25 (Caution)

@@ -41,7 +41,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/initiative-627612.json
+    dataResource: /western-division/data/initiative-627612-series.json
 ---
 
 This is just a test that may be deleted later

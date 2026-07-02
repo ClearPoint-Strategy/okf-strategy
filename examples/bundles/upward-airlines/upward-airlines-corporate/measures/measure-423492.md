@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/measure-423492-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423492-history.json
   provenance:
     owner:
       name: James Crockett
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423492.json
+    dataResource: /upward-airlines-corporate/data/measure-423492-series.json
 ---
 
 **Utilization Percentage** — 40 (Dec-25) · trend [39, 41, 39, 30, 42, 40]

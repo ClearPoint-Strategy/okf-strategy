@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /central-division/data/objective-207735-periods.json
+    historyResource: /central-division/data/objective-207735-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -47,9 +47,12 @@ cps:
       at: 2016-07-27T22:04:01.010Z
 ---
 
-## Related
+## Measures
 
 - [Ticket price differential](/central-division/measures/measure-423512.md)
+
+## Initiatives
+
 - [Prepare for summer sale](/central-division/initiatives/initiative-211898.md)
 
 ## Status — Dec-25 (Below Plan)

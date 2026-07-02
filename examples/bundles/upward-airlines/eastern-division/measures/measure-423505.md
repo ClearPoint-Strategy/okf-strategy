@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423505-periods.json
+    historyResource: /eastern-division/data/measure-423505-history.json
   provenance:
     owner:
       name: James Crockett
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423505.json
+    dataResource: /eastern-division/data/measure-423505-series.json
 ---
 
 **Actual** — 17 (Dec-25) · trend [15.68, 14.08, 8, 10, 13, 17]

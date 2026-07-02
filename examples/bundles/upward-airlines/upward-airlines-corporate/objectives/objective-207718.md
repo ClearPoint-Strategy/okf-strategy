@@ -61,7 +61,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/objective-207718-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207718-history.json
   provenance:
     owner:
       name: Janice Jones
@@ -74,12 +74,18 @@ cps:
 
 Part of the reason we are able to offer such low prices is because we keep our costs low, through the &quot;no frills&quot; policy. While we still provide our customers with top notch service (and snacks!), we want to eliminate any wasteful
 
-## Related
+## Objectives
 
 - [No Frills](/eastern-division/objectives/objective-207731.md)
 - [No Frills](/central-division/objectives/objective-207741.md)
 - [No Frills](/western-division/objectives/objective-207750.md)
+
+## Measures
+
 - [Internal cost per flight (Department aggregate/MM)](/upward-airlines-corporate/measures/measure-423490.md)
+
+## Initiatives
+
 - [Find new food service provider](/upward-airlines-corporate/initiatives/initiative-163371.md)
 
 ## Status — Dec-25 (Caution)

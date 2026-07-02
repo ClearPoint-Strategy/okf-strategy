@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/measure-423525-periods.json
+    historyResource: /western-division/data/measure-423525-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -44,7 +44,7 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /western-division/data/measure-423525.json
+    dataResource: /western-division/data/measure-423525-series.json
 ---
 
 We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. We want to see that time be 30 minutes or less.

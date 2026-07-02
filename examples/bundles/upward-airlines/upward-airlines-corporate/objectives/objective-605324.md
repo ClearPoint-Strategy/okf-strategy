@@ -35,6 +35,6 @@ cps:
       at: 2023-11-02T15:24:54.300Z
 ---
 
-## Related
+## Measures
 
 - [Financial Measure #1 testing looooooooong nametesting looooooooong name testing looooooooong nametesting looooooooong name](/upward-airlines-corporate/measures/measure-1619382.md)

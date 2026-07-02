@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /eastern-division/data/measure-542405-periods.json
+    historyResource: /eastern-division/data/measure-542405-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -41,7 +41,7 @@ cps:
         seriesDataTypeId: 9
         numberFormat:
           precision: 0
-    dataResource: /eastern-division/data/measure-542405.json
+    dataResource: /eastern-division/data/measure-542405-series.json
 ---
 
 **Actual** — 20 (Dec-25) · trend [21, 20, 23, 20]

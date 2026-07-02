@@ -55,7 +55,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18581
       status: No Information
-    historyResource: /eastern-division/data/initiative-163374-periods.json
+    historyResource: /eastern-division/data/initiative-163374-history.json
   provenance:
     owner:
       name: Izzy Moreno
@@ -109,16 +109,19 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/initiative-163374.json
+    dataResource: /eastern-division/data/initiative-163374-series.json
 ---
 
 As seen in the data table below, this Initiative is tracking related quantitative information, including budget, elapsed days, and initiative percent complete. The percent complete is an aggregate average of the 3 milestones. The status of 
 
-## Related
+## Measures
 
 - [Average Number of Daily departures per route](/upward-airlines-corporate/measures/measure-423483.md)
 - [Total amount of time at gate](/upward-airlines-corporate/measures/measure-423485.md)
 - [% of tickets with direct routes](/upward-airlines-corporate/measures/measure-423487.md)
+
+## Initiatives
+
 - [Expand to serve two new locations](/eastern-division/initiatives/initiative-163375.md)
 
 **Budget** — 15000 (Dec-25) · trend [15000, 15000, 15000, 15000, 15000, 15000]

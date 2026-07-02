@@ -89,7 +89,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/objective-207709-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207709-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -102,15 +102,21 @@ cps:
 
 We want to ensure that our financial priorities are in check, and that our revenue is always exceeding our expenses.
 
-## Related
+## Objectives
 
 - [Direct Routes](/upward-airlines-corporate/objectives/objective-207715.md)
 - [Profitability](/eastern-division/objectives/objective-207724.md)
 - [Profitability](/central-division/objectives/objective-207733.md)
 - [Profitability](/western-division/objectives/objective-207742.md)
+
+## Measures
+
 - [Net Profit](/upward-airlines-corporate/measures/measure-423481.md)
 - [Revenue](/upward-airlines-corporate/measures/measure-423496.md)
 - [Expenses](/upward-airlines-corporate/measures/measure-423497.md)
+
+## Initiatives
+
 - [Create New Revenue Streams](/upward-airlines-corporate/initiatives/initiative-579990.md)
 - [Employee Bonus Program](/central-division/initiatives/initiative-163378.md)
 

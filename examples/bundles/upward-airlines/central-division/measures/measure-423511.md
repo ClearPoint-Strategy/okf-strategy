@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /central-division/data/measure-423511-periods.json
+    historyResource: /central-division/data/measure-423511-history.json
   provenance:
     owner:
       name: James Crockett
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423511.json
+    dataResource: /central-division/data/measure-423511-series.json
 ---
 
 **Actual** — 78 (Dec-25) · trend [80, 0, 0, 0, 0, 78]

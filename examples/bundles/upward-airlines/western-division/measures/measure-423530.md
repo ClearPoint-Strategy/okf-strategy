@@ -48,7 +48,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423530.json
+    dataResource: /western-division/data/measure-423530-series.json
 ---
 
 We will use this measure to help inform our expansion plans.

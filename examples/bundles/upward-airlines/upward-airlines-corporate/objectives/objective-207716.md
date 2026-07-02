@@ -49,7 +49,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/objective-207716-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207716-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -67,10 +67,13 @@ cps:
 
 Not everyone likes to fly. In fact, flying is often seen as one of the more daunting and stressful ways to travel. We want to ensure our customers have a pleasant, if not, fun experience. Complaints should be low and raving reviews should b
 
-## Related
+## Objectives
 
 - [New Technology](/eastern-division/objectives/objective-271188.md)
 - [Flight Attendant Customer Service](/western-division/objectives/objective-271189.md)
+
+## Measures
+
 - [# customer complaints per 1,000 tickets](/upward-airlines-corporate/measures/measure-423488.md)
 
 ## Status — Dec-25 (Caution)

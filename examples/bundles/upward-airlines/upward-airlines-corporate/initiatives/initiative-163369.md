@@ -54,7 +54,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/initiative-163369-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-163369-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -100,10 +100,13 @@ cps:
 
 Our current employee training program only covered one type of aircraft. Now that we have conducted several mergers, we need to train on multiple types of equipment as well as align the culture in the organization.
 
-## Related
+## Measures
 
 - [Customer Experience Survey](/upward-airlines-corporate/measures/measure-423482.md)
 - [Total amount of time at gate](/upward-airlines-corporate/measures/measure-423485.md)
+
+## Initiatives
+
 - [Create Upskilling for Employees](/eastern-division/initiatives/initiative-163373.md)
 - [Build Employee Upskilling](/western-division/initiatives/initiative-163380.md)
 

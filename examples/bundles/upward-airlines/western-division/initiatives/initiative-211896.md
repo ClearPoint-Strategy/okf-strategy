@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /western-division/data/initiative-211896-periods.json
+    historyResource: /western-division/data/initiative-211896-history.json
   provenance:
     owner:
       name: Trudy Joplin

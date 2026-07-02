@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /western-division/data/measure-423526-periods.json
+    historyResource: /western-division/data/measure-423526-history.json
   provenance:
     owner:
       name: Trudy Joplin
@@ -43,7 +43,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /western-division/data/measure-423526.json
+    dataResource: /western-division/data/measure-423526-series.json
 ---
 
 **Actual** — 53 (Dec-25) · trend [55, 59, 51, 56, 54, 53]

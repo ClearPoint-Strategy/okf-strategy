@@ -31,7 +31,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/objective-207719-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207719-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -44,7 +44,7 @@ cps:
 
 We want to standardize our plane sizes to keep our manufacturing processes as efficient as possible.
 
-## Related
+## Measures
 
 - [Maintenance cost per 100K miles](/upward-airlines-corporate/measures/measure-423491.md)
 

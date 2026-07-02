@@ -22,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-423521-periods.json
+    historyResource: /central-division/data/measure-423521-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -53,7 +53,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423521.json
+    dataResource: /central-division/data/measure-423521-series.json
 ---
 
 **Actual** — 3331 (Dec-25) · trend [2648, 2880, 2942, 3060, 3274, 3331]

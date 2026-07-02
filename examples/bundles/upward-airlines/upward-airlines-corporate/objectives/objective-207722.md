@@ -38,7 +38,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/objective-207722-periods.json
+    historyResource: /upward-airlines-corporate/data/objective-207722-history.json
   provenance:
     owner:
       name: Clarice Strong
@@ -51,9 +51,12 @@ cps:
 
 Flexible union contracts enable us to hire from various outlets, allowing us to remain agile and not bound to any provisions.
 
-## Related
+## Measures
 
 - [# Unionized job descriptions](/upward-airlines-corporate/measures/measure-423494.md)
+
+## Initiatives
+
 - [Create new Employee Training](/upward-airlines-corporate/initiatives/initiative-163369.md)
 
 ## Status — Dec-25 (Caution)

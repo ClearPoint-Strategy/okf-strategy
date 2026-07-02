@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /eastern-division/data/objective-207728-periods.json
+    historyResource: /eastern-division/data/objective-207728-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -54,10 +54,13 @@ cps:
       at: 2021-11-12T18:42:18.370Z
 ---
 
-## Related
+## Measures
 
 - [Percent of employees that are happy](/eastern-division/measures/measure-423502.md)
 - [% of employees who see themselves at Upward for 7+ years](/eastern-division/measures/measure-423503.md)
+
+## Initiatives
+
 - [Create New Employee Satisfaction Survey](/eastern-division/initiatives/initiative-163372.md)
 
 ## Status — Dec-25 (Caution)

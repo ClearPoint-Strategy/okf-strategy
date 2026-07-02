@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/measure-423506-periods.json
+    historyResource: /eastern-division/data/measure-423506-history.json
   provenance:
     owner:
       name: Trudy Joplin
@@ -44,7 +44,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423506.json
+    dataResource: /eastern-division/data/measure-423506-series.json
 ---
 
 We will use this measure to help inform our expansion plans.

@@ -40,7 +40,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /western-division/data/initiative-163380-periods.json
+    historyResource: /western-division/data/initiative-163380-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -53,7 +53,7 @@ cps:
 
 We are going to redesign our employee training program. We will keep many components, but we need additional information and training around getting planes out on time.
 
-## Related
+## Measures
 
 - [Rate of departures that leave on time](/western-division/measures/measure-423523.md)
 - [Average plane turnaround time](/western-division/measures/measure-423525.md)

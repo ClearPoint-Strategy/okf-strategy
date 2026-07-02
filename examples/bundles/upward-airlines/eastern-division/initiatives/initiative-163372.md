@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /eastern-division/data/initiative-163372-periods.json
+    historyResource: /eastern-division/data/initiative-163372-history.json
   provenance:
     owner:
       name: James Crockett

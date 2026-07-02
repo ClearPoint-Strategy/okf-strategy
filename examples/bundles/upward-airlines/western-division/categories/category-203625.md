@@ -62,7 +62,7 @@ cps:
       periodDate: 2025-12-31
 ---
 
-## Related
+## Objectives
 
 - [Ground Turnaround](/western-division/objectives/objective-207745.md)
 - [Direct Routes](/western-division/objectives/objective-207746.md)

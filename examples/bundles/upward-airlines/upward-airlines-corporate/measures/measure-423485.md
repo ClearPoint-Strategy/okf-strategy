@@ -44,7 +44,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /upward-airlines-corporate/data/measure-423485-periods.json
+    historyResource: /upward-airlines-corporate/data/measure-423485-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -68,10 +68,10 @@ cps:
         seriesDataTypeId: 5
         numberFormat:
           precision: 2
-    dataResource: /upward-airlines-corporate/data/measure-423485.json
+    dataResource: /upward-airlines-corporate/data/measure-423485-series.json
 ---
 
-## Related
+## Measures
 
 - [Time planes wait at gate](/central-division/measures/measure-423513.md)
 - [Rate of departures that leave on time](/western-division/measures/measure-423523.md)

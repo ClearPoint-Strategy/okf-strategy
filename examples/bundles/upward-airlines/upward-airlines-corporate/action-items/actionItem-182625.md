@@ -44,7 +44,7 @@ cps:
       at: 2024-09-30T15:48:40.127Z
 ---
 
-## Related
+## Measures
 
 - [Customer Experience Survey](/upward-airlines-corporate/measures/measure-423482.md)
 - [Total amount of time at gate](/upward-airlines-corporate/measures/measure-423485.md)

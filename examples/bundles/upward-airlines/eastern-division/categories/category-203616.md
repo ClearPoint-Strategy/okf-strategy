@@ -27,6 +27,6 @@ cps:
       periodDate: 2025-12-31
 ---
 
-## Related
+## Objectives
 
 - [Reliable Departures](/eastern-division/objectives/objective-207725.md)

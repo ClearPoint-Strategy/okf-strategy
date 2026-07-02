@@ -29,7 +29,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /western-division/data/objective-207751-periods.json
+    historyResource: /western-division/data/objective-207751-history.json
   provenance:
     owner:
       name: James Crockett
@@ -40,7 +40,7 @@ cps:
       at: 2016-07-27T22:10:26.633Z
 ---
 
-## Related
+## Measures
 
 - [% of employees who see themselves at Upward for 10+ years](/western-division/measures/measure-423528.md)
 

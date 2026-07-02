@@ -36,7 +36,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /central-division/data/objective-207739-periods.json
+    historyResource: /central-division/data/objective-207739-history.json
   provenance:
     owner:
       name: James Crockett
@@ -47,9 +47,12 @@ cps:
       at: 2016-07-27T22:04:49.190Z
 ---
 
-## Related
+## Measures
 
 - [% increase in employee wages](/central-division/measures/measure-423517.md)
+
+## Initiatives
+
 - [Employee Bonus Program](/central-division/initiatives/initiative-163378.md)
 
 ## Status — Dec-25 (Caution)

@@ -26,7 +26,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /eastern-division/data/measure-423503-periods.json
+    historyResource: /eastern-division/data/measure-423503-history.json
   provenance:
     owner:
       name: Ashley Caper
@@ -47,7 +47,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /eastern-division/data/measure-423503.json
+    dataResource: /eastern-division/data/measure-423503-series.json
 ---
 
 We want to create an environment where employees are excited to come to work and see themselves at Upward Air for a long time. If staff stay longer, then we will have less turnover and a more skilled, experienced workforce.

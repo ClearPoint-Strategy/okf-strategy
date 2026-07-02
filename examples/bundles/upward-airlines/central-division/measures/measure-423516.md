@@ -26,7 +26,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-423516-periods.json
+    historyResource: /central-division/data/measure-423516-history.json
   provenance:
     owner:
       name: James Crockett
@@ -47,7 +47,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423516.json
+    dataResource: /central-division/data/measure-423516-series.json
 ---
 
 We want to create an environment where employees are excited to come to work and see themselves at Upward Air for a long time. If staff stay longer, then we will have less turnover and a more skilled, experienced workforce.

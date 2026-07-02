@@ -25,7 +25,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /eastern-division/data/initiative-211899-periods.json
+    historyResource: /eastern-division/data/initiative-211899-history.json
   provenance:
     owner:
       name: Clarice Strong

@@ -40,7 +40,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /upward-airlines-corporate/data/initiative-163371-periods.json
+    historyResource: /upward-airlines-corporate/data/initiative-163371-history.json
   provenance:
     owner:
       name: Greg Garcia
@@ -86,9 +86,12 @@ cps:
 
 Our biggest customer complaint is the quality of our food. Our current food service provider provides all food out of a single location, and we need someone who can make fresh food out of each of our hubs.
 
-## Related
+## Measures
 
 - [Internal cost per flight (Department aggregate/MM)](/upward-airlines-corporate/measures/measure-423490.md)
+
+## Initiatives
+
 - [Expand to serve two new locations](/eastern-division/initiatives/initiative-163375.md)
 
 ## Status — Q4-25 (Above Target)

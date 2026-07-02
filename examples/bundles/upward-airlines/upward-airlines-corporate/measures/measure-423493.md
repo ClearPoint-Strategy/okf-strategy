@@ -57,10 +57,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: $
-    dataResource: /upward-airlines-corporate/data/measure-423493.json
+    dataResource: /upward-airlines-corporate/data/measure-423493-series.json
 ---
 
-## Related
+## Measures
 
 - [Wage Growth](/eastern-division/measures/measure-423504.md)
 - [% increase in employee wages](/central-division/measures/measure-423517.md)

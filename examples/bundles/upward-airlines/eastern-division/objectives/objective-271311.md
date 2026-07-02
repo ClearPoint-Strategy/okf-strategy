@@ -21,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /eastern-division/data/objective-271311-periods.json
+    historyResource: /eastern-division/data/objective-271311-history.json
   provenance:
     owner:
       name: Mark Cutler

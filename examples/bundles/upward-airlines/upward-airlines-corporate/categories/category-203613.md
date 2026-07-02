@@ -81,7 +81,7 @@ cps:
       at: 2024-03-29T21:26:40.840Z
 ---
 
-## Related
+## Objectives
 
 - [Fast Ground Turnaround](/upward-airlines-corporate/objectives/objective-207713.md)
 - [Good Locations](/upward-airlines-corporate/objectives/objective-207714.md)

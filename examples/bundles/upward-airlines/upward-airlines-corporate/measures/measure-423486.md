@@ -67,10 +67,10 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /upward-airlines-corporate/data/measure-423486.json
+    dataResource: /upward-airlines-corporate/data/measure-423486-series.json
 ---
 
-## Related
+## Measures
 
 - [% of population served within 25 miles](/eastern-division/measures/measure-423506.md)
 - [% of population served within 15 miles](/central-division/measures/measure-423519.md)

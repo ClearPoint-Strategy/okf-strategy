@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /central-division/data/objective-207734-periods.json
+    historyResource: /central-division/data/objective-207734-history.json
   provenance:
     owner:
       name: Donald Duff
@@ -54,10 +54,13 @@ cps:
       at: 2016-07-27T22:03:53.007Z
 ---
 
-## Related
+## Measures
 
 - [% of on time departures](/central-division/measures/measure-423511.md)
 - [Flight Cancellations](/central-division/measures/measure-542407.md)
+
+## Initiatives
+
 - [Create New Training Program for Employees](/central-division/initiatives/initiative-163377.md)
 
 ## Status — Dec-25 (Caution)

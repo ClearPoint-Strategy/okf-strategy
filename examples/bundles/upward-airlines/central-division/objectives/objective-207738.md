@@ -43,7 +43,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/objective-207738-periods.json
+    historyResource: /central-division/data/objective-207738-history.json
   provenance:
     owner:
       name: Ashley Caper
@@ -54,10 +54,13 @@ cps:
       at: 2016-07-27T22:04:42.607Z
 ---
 
-## Related
+## Measures
 
 - [% of highly satisified employees](/central-division/measures/measure-423515.md)
 - [% of employees who see themselves at Upward for 5+ years](/central-division/measures/measure-423516.md)
+
+## Initiatives
+
 - [Hire Consultant to Design Employee Survey](/central-division/initiatives/initiative-163376.md)
 
 ## Status — Dec-25 (Above Target)

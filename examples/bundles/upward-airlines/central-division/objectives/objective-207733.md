@@ -58,7 +58,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/objective-207733-periods.json
+    historyResource: /central-division/data/objective-207733-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -71,12 +71,15 @@ cps:
 
 This important measure lets us know how well we are doing financially.
 
-## Related
+## Measures
 
 - [Net Profit](/central-division/measures/measure-423518.md)
 - [Revenue](/central-division/measures/measure-423520.md)
 - [Expenses](/central-division/measures/measure-423521.md)
 - [# of A-list priority customers](/central-division/measures/measure-542406.md)
+
+## Initiatives
+
 - [Prepare for summer sale](/central-division/initiatives/initiative-211898.md)
 
 ## Status — Dec-25 (Above Target)

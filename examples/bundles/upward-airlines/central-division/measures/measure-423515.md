@@ -23,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /central-division/data/measure-423515-periods.json
+    historyResource: /central-division/data/measure-423515-history.json
   provenance:
     owner:
       name: Mark Cutler
@@ -49,7 +49,7 @@ cps:
         numberFormat:
           precision: 2
           symbol: "%"
-    dataResource: /central-division/data/measure-423515.json
+    dataResource: /central-division/data/measure-423515-series.json
 ---
 
 We have a employee survery every quarter.
