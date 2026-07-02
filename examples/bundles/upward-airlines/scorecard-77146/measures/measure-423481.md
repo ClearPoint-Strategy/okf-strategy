@@ -12,6 +12,7 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   alias: Measure
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -30,6 +31,10 @@ cps:
     owner:
       name: James Crockett
       userId: 24960
+    collaborators:
+      - Kara Cleary
+      - Tammy Cuzco
+      - Donald Duff
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

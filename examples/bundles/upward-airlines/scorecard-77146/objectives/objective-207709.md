@@ -13,6 +13,7 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   alias: Objective
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -30,6 +31,9 @@ cps:
     owner:
       name: Clarice Strong
       userId: 24944
+    collaborators:
+      - James Crockett
+      - Donald Duff
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

@@ -9,6 +9,7 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   alias: Measure
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -27,6 +28,10 @@ cps:
     owner:
       name: Donald Duff
       userId: 24965
+    collaborators:
+      - Xavier Prova
+      - Lawrence Sito
+      - Steve Smith
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

@@ -9,6 +9,9 @@ cps:
   scorecardId: 77149
   scorecard: 🏜️ Western Division
   alias: Action Item
+  startDate: 2023-08-28
+  endDate: 2023-09-27
+  completed: false
   access:
     minCapability: Administrator
     markings:

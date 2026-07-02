@@ -8,6 +8,9 @@ cps:
   objectId: 281238
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  startDate: 2024-11-09
+  endDate: 2024-11-18
+  completed: false
   access:
     minCapability: Administrator
     markings:

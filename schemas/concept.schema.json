@@ -93,7 +93,7 @@
                         "scorecard": { "$ref": "#/$defs/scorecardRef", "description": "Editorial: home scorecard (also origin of the primary access marking)." },
                         "owner": { "$ref": "#/$defs/personStamp" },
                         "ownerType": { "type": "string", "description": "element.ownerType (e.g. user, group)." },
-                        "collaborators": { "type": "array", "items": { "type": "integer" } },
+                        "collaborators": { "type": "array", "items": { "type": "string" }, "description": "Resolved collaborator names." },
                         "lastEditedBy": { "$ref": "#/$defs/personStamp", "description": "element.lastEdited / lastEditedBy — DEFINITION/structure change." },
                         "lastUpdatedBy": { "$ref": "#/$defs/personStamp", "description": "element.lastUpdated / lastUpdatedBy — period-scoped STATUS/DATA update. Distinct from lastEditedBy." },
                         "lastCalculated": { "type": "string", "format": "date-time" },

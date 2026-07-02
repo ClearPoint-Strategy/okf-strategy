@@ -8,6 +8,7 @@ cps:
   objectId: 203626
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  completed: false
   access:
     minCapability: Administrator
     markings:

@@ -1,6 +1,6 @@
 # 🎯 Central Division
 
-* [Categorys](categories/)
+* [Categories](categories/)
 * [Objectives](objectives/)
 * [Measures](measures/)
 * [Initiatives](initiatives/)

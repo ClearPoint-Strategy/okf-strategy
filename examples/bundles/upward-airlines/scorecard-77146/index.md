@@ -1,6 +1,6 @@
 # Upward Airlines Corporate
 
-* [Categorys](categories/)
+* [Categories](categories/)
 * [Objectives](objectives/)
 * [Measures](measures/)
 * [Initiatives](initiatives/)

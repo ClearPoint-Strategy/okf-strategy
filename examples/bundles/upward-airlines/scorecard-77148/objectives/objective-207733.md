@@ -10,6 +10,7 @@ cps:
   scorecardId: 77148
   scorecard: 🎯 Central Division
   alias: Objective
+  completed: false
   access:
     minCapability: Administrator
     markings:

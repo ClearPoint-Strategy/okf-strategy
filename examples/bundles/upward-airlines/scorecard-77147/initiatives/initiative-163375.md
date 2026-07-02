@@ -11,6 +11,9 @@ cps:
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
   alias: Initiative
+  startDate: 2024-11-01
+  endDate: 2025-04-27
+  completed: false
   access:
     minCapability: Administrator
     markings:

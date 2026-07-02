@@ -12,6 +12,7 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   alias: Measure
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -30,6 +31,8 @@ cps:
     owner:
       name: Clarice Strong
       userId: 24944
+    collaborators:
+      - James Crockett
     lastEditedBy:
       name: Ted Jackson
       userId: 24943

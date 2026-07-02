@@ -8,6 +8,9 @@ cps:
   objectId: 599142
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  startDate: 2026-02-14
+  endDate: 2026-04-02
+  completed: false
   access:
     minCapability: Administrator
     markings:

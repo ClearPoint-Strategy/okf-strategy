@@ -8,6 +8,9 @@ cps:
   objectId: 368095
   scorecardId: 77148
   scorecard: 🎯 Central Division
+  startDate: 2025-03-07
+  endDate: 2025-05-16
+  completed: false
   access:
     minCapability: Administrator
     markings:

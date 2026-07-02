@@ -15,6 +15,9 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   alias: Initiative
+  startDate: 2025-06-30
+  endDate: 2026-06-28
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -33,6 +36,11 @@ cps:
     owner:
       name: Donald Duff
       userId: 24965
+    collaborators:
+      - Mark Cutler
+      - Greg Garcia
+      - Janice Jones
+      - Izzy Moreno
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

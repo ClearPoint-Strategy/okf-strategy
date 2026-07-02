@@ -13,6 +13,9 @@ cps:
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
   alias: Initiative
+  startDate: 2025-03-01
+  endDate: 2025-12-31
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -31,6 +34,8 @@ cps:
     owner:
       name: Izzy Moreno
       userId: 24971
+    collaborators:
+      - Clarice Strong
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

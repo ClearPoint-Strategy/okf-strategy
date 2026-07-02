@@ -10,6 +10,9 @@ cps:
   scorecardId: 77148
   scorecard: 🎯 Central Division
   alias: Initiative
+  startDate: 2024-12-28
+  endDate: 2025-06-23
+  completed: false
   access:
     minCapability: Administrator
     markings:

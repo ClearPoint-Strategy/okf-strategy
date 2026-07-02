@@ -9,6 +9,7 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   alias: Measure
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -27,6 +28,11 @@ cps:
     owner:
       name: Janice Jones
       userId: 24967
+    collaborators:
+      - Ashley Caper
+      - Ted Jackson
+      - Joseph Lucco
+      - Mark Cutler
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

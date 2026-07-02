@@ -12,6 +12,9 @@ cps:
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
   alias: Initiative
+  startDate: 2024-12-28
+  endDate: 2025-06-23
+  completed: false
   access:
     minCapability: Administrator
     markings:
@@ -30,6 +33,8 @@ cps:
     owner:
       name: Clarice Strong
       userId: 24944
+    collaborators:
+      - Mark Cutler
     lastEditedBy:
       name: Clarice Strong
       userId: 24944

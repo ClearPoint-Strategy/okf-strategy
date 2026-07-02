@@ -8,6 +8,9 @@ cps:
   objectId: 281210
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
+  startDate: 2025-04-19
+  endDate: 2025-05-27
+  completed: false
   access:
     minCapability: Administrator
     markings:

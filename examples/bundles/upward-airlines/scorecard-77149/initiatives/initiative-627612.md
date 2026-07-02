@@ -10,6 +10,9 @@ cps:
   scorecardId: 77149
   scorecard: 🏜️ Western Division
   alias: Initiative
+  startDate: 2026-05-21
+  endDate: 2026-08-21
+  completed: false
   access:
     minCapability: Administrator
     markings:
