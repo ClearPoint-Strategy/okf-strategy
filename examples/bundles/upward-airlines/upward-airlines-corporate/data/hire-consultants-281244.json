@@ -1,0 +1,18 @@
+{
+  "resource": "clearpoint://scorecard/77146/milestone/281244",
+  "object": "milestone",
+  "objectId": 281244,
+  "series": [
+    {
+      "name": "Cost",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Cost": null
+    }
+  ]
+}

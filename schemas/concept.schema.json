@@ -104,7 +104,7 @@
                 "measure": {
                     "type": "object",
                     "additionalProperties": false,
-                    "description": "Metric detail (measures only). The GROUNDING projection lives inline in the body; this carries series definitions + evaluation rules + the analytical sidecar pointer (§6).",
+                    "description": "Metric detail. Any element type may carry series + data — measure, initiative, milestone, actionItem, and risk all can. (ClearPoint links non-measures via an internal shadowMeasureId; that is backend detail and is NOT captured here — the element simply carries its own series/data.) The GROUNDING projection lives inline in the body; this carries series definitions + evaluation rules + the analytical sidecar pointer (§6).",
                     "properties": {
                         "series": { "type": "array", "items": { "$ref": "#/$defs/series" } },
                         "evaluation": { "type": "array", "items": { "$ref": "#/$defs/evaluationRule" }, "description": "Rules that turn a series value into a status (objectiveEvaluation). Carries direction-of-good / thresholds." },

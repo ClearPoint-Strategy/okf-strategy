@@ -1,0 +1,103 @@
+---
+type: Risk
+title: Policy Changes Impacting Operations
+description: Changes in aviation regulations, environmental policies, safety
+  standards, and labor laws can introduce new compliance requirements and
+  operational constraints. These changes can affect various aspects of the
+  airline's business, including o
+resource: clearpoint://scorecard/77146/risk/70553
+timestamp: 2024-06-11T16:02:58.920Z
+cps:
+  object: risk
+  objectId: 70553
+  scorecardId: 77146
+  scorecard: Upward Airlines Corporate
+  alias: Risk
+  access:
+    minCapability: Administrator
+    markings:
+      - scorecard:77146
+  edges:
+    - fieldId: objectives
+      to: /upward-airlines-corporate/objectives/increase-shareholder-value-207709.md
+      object: objective
+      objectId: 207709
+      name: Increase Shareholder Value
+      scorecard: Upward Airlines Corporate
+      access: Administrator
+  time:
+    cadence: annual
+    periodGroupId: 9724
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
+    historyResource: /upward-airlines-corporate/data/policy-changes-impacting-operations-70553-periods.json
+  provenance:
+    scorecard:
+      id: 77146
+      name: Upward Airlines Corporate
+    owner:
+      name: Catherine Mendoza
+      userId: 24972
+    lastEditedBy:
+      name: Clarice Strong
+      userId: 24944
+      at: 2024-06-11T16:02:58.920Z
+  customFields:
+    - fieldId: custom188406
+      name: Impacts
+      fieldType: datahtml
+      value: Increased Compliance Cost Operational Restrictions Financial Uncertainty
+        Reputation and Brand Impact
+    - fieldId: custom188407
+      name: Mitigation Strategies
+      fieldType: datahtml
+      value: Proactive Monitoring Flexible Operational Planning Investment in
+        Compliance Infrastructure Financial Resilience
+    - fieldId: custom188408
+      name: Approach
+      fieldType: multipick
+      value: Accept
+  measure:
+    series:
+      - name: Impact
+        seriesDataTypeId: 9
+        numberFormat:
+          precision: 0
+          decimal: .
+          thousand: ","
+      - name: Probability
+        seriesDataTypeId: 9
+        numberFormat:
+          precision: 0
+          decimal: .
+          thousand: ","
+      - name: Risk Rating
+        seriesDataTypeId: 9
+        numberFormat:
+          precision: 0
+          decimal: .
+          thousand: ","
+    dataResource: /upward-airlines-corporate/data/policy-changes-impacting-operations-70553.json
+---
+
+Changes in aviation regulations, environmental policies, safety standards, and labor laws can introduce new compliance requirements and operational constraints. These changes can affect various aspects of the airline's business, including o
+
+## Related
+
+- [Increase Shareholder Value](/upward-airlines-corporate/objectives/increase-shareholder-value-207709.md)
+
+**Impact** — 3 (Dec-25) · trend [3, 3, 3, 3]
+
+## Status — 2025 (Above Target)
+
+**Analysis.** Regulatory changes impact all airlines in the industry and we are ahead of the curve with regard to our monitoring of policy. We are choosing to accept this risk as is.
+
+## Status — 2024 (Above Target)
+
+## Status — 2024 (Above Target)
+
+## Status — 2024 (Above Target)

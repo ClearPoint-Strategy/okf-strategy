@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77148/measure/423516",
+  "object": "measure",
+  "objectId": 423516,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We have been steadily increasing our number of longer-term minded employees.",
+      "recommendations": "We need to focus mostly on finding a way to compensate our employees more since our company culture is strong."
+    }
+  ]
+}

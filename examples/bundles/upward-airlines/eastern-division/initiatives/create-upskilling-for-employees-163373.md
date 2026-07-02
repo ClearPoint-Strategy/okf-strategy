@@ -1,0 +1,65 @@
+---
+type: Initiative
+title: Create Upskilling for Employees
+description: We are going to redesign our employee training program. We will
+  keep many components, but we need additional information and training around
+  getting planes out on time.
+resource: clearpoint://scorecard/77147/initiative/163373
+timestamp: 2025-02-26T15:30:44.993Z
+cps:
+  object: initiative
+  objectId: 163373
+  scorecardId: 77147
+  scorecard: 🌐 Eastern Division
+  alias: Initiative
+  access:
+    minCapability: Administrator
+    markings:
+      - scorecard:77147
+  time:
+    cadence: default
+    periodGroupId: -1
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18580
+      status: Below Plan
+    historyResource: /eastern-division/data/create-upskilling-for-employees-163373-periods.json
+  provenance:
+    scorecard:
+      id: 77147
+      name: 🌐 Eastern Division
+    owner:
+      name: Janice Jones
+      userId: 24967
+    lastEditedBy:
+      name: Clarice Strong
+      userId: 24944
+      at: 2025-02-26T15:30:44.993Z
+  customFields:
+    - fieldId: custom49307
+      name: Budget
+      fieldType: text
+      value: $350,000
+  measure:
+    series:
+      - name: Actual
+        seriesDataTypeId: 4
+        numberFormat:
+          precision: 2
+          symbol: $
+          decimal: .
+          thousand: ","
+    dataResource: /eastern-division/data/create-upskilling-for-employees-163373.json
+---
+
+We are going to redesign our employee training program. We will keep many components, but we need additional information and training around getting planes out on time.
+
+## Status — Dec-25 (Below Plan)
+
+**Analysis.** We feel comfortable with the consultants we work hired and have received great feedback from the employees we sampled, so we feel confident that our training will vastly improve.
+
+**Recommendations.** We should see what factors are outside of our control in getting our planes out on time and then base the rest of our training according to that information since those factors need to be properly considered.
+
+## Status — Sep-25 (Below Plan)

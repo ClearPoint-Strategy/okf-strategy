@@ -1,0 +1,49 @@
+{
+  "resource": "clearpoint://scorecard/77147/milestone/281264",
+  "object": "milestone",
+  "objectId": 281264,
+  "series": [
+    {
+      "name": "Budget",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Elapsed Days",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Milestone Percent Complete",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Budget": 500,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 6
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Budget": 500,
+      "Elapsed Days": null,
+      "Milestone Percent Complete": 7
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Budget": 500,
+      "Elapsed Days": 30,
+      "Milestone Percent Complete": 18
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Budget": 500,
+      "Elapsed Days": 59,
+      "Milestone Percent Complete": 26
+    }
+  ]
+}

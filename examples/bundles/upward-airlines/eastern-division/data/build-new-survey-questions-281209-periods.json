@@ -1,0 +1,15 @@
+{
+  "resource": "clearpoint://scorecard/77147/milestone/281209",
+  "object": "milestone",
+  "objectId": 281209,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We are having some trouble rolling out the new survey"
+    }
+  ]
+}

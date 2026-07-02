@@ -1,0 +1,14 @@
+{
+  "resource": "clearpoint://scorecard/77146/milestone/281252",
+  "object": "milestone",
+  "objectId": 281252,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resource": "clearpoint://scorecard/77146/milestone/1051528",
+  "object": "milestone",
+  "objectId": 1051528,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18579,
+      "status": "Caution"
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution"
+    }
+  ]
+}

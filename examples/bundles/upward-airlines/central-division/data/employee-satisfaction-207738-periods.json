@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77148/objective/207738",
+  "object": "objective",
+  "objectId": 207738,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "Our employees are very satisfied, but we want to increase employee retention.",
+      "recommendations": "Continue to survey and monitor employee happiness and satisfaction."
+    }
+  ]
+}

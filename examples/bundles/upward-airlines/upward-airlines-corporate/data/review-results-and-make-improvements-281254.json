@@ -1,0 +1,78 @@
+{
+  "resource": "clearpoint://scorecard/77146/milestone/281254",
+  "object": "milestone",
+  "objectId": 281254,
+  "series": [
+    {
+      "name": "Cost",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Cost": null
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Cost": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Cost": null
+    },
+    {
+      "periodId": 313372,
+      "period": "Mar-27",
+      "Cost": null
+    }
+  ]
+}

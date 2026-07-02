@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77149/measure/423528",
+  "object": "measure",
+  "objectId": 423528,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We have been stagnant in this area between the high 70s and low 80s",
+      "recommendations": "We need to raise the number of highly satisfied employees if we want this to rise."
+    }
+  ]
+}

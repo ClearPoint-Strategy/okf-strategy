@@ -1,0 +1,36 @@
+{
+  "resource": "clearpoint://scorecard/77146/risk/70551",
+  "object": "risk",
+  "objectId": 70551,
+  "history": [
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 189846,
+      "period": "2025",
+      "periodDate": "2025-12-31",
+      "statusId": 18581,
+      "status": "No Information",
+      "analysis": "This risk can quickly spiral and is something we want to reduce in regard to its probability and impact. We have mitigation strategies in place and will continue to monitor."
+    }
+  ]
+}

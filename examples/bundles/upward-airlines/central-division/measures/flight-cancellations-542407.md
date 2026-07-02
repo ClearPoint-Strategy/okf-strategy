@@ -1,0 +1,60 @@
+---
+type: Measure
+title: Flight Cancellations
+resource: clearpoint://scorecard/77148/measure/542407
+timestamp: 2021-01-26T15:23:44.243Z
+cps:
+  object: measure
+  objectId: 542407
+  scorecardId: 77148
+  scorecard: 🎯 Central Division
+  alias: Measure
+  access:
+    minCapability: Administrator
+    markings:
+      - scorecard:77148
+  time:
+    cadence: quarterly
+    periodGroupId: 9723
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
+    historyResource: /central-division/data/flight-cancellations-542407-periods.json
+  provenance:
+    scorecard:
+      id: 77148
+      name: 🎯 Central Division
+    owner:
+      name: Lawrence Sito
+      userId: 24977
+    lastEditedBy:
+      name: Clarice Strong
+      userId: 24944
+      at: 2021-01-26T15:23:44.243Z
+  measure:
+    series:
+      - name: Actual
+        seriesDataTypeId: 9
+        numberFormat:
+          precision: 0
+          decimal: .
+          thousand: ","
+      - name: Target
+        seriesDataTypeId: 9
+        numberFormat:
+          precision: 0
+          decimal: .
+          thousand: ","
+    dataResource: /central-division/data/flight-cancellations-542407.json
+---
+
+**Actual** — 26 (Dec-25) · trend [27, 30, 31, 26]
+
+## Status — Q4-25 (Caution)
+
+**Analysis.** We are doing well in reducing cancellations due to reasons in our control, but there are still factors we cannot control.
+
+**Recommendations.** Improve our training to help us get planes ready to fly between flights faster to reduce weather-related cancellations.

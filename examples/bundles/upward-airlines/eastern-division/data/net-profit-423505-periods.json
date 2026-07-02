@@ -1,0 +1,45 @@
+{
+  "resource": "clearpoint://scorecard/77147/measure/423505",
+  "object": "measure",
+  "objectId": 423505,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We have put together several very strong months after a difficult start to 2015.",
+      "recommendations": "Things are looking good.",
+      "customFields": [
+        {
+          "fieldId": "custom100883",
+          "name": "Complete?",
+          "fieldType": "boolean",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

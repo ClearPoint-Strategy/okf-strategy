@@ -1,0 +1,112 @@
+{
+  "resource": "clearpoint://scorecard/77148/measure/423512",
+  "object": "measure",
+  "objectId": 423512,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Industry",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Actual": 11,
+      "Target": 13,
+      "Industry": 15
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Actual": 12,
+      "Target": 13,
+      "Industry": 13
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Actual": 12,
+      "Target": 13,
+      "Industry": 14
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 13,
+      "Target": 13,
+      "Industry": 12
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    },
+    {
+      "periodId": 313372,
+      "period": "Mar-27",
+      "Actual": null,
+      "Target": null,
+      "Industry": null
+    }
+  ]
+}

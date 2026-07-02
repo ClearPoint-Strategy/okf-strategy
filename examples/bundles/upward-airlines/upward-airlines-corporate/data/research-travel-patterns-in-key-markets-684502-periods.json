@@ -1,0 +1,35 @@
+{
+  "resource": "clearpoint://scorecard/77146/milestone/684502",
+  "object": "milestone",
+  "objectId": 684502,
+  "history": [
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "periodDate": "2024-03-31",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "periodDate": "2024-03-31",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "periodDate": "2024-03-31",
+      "statusId": 18578,
+      "status": "Above Target"
+    },
+    {
+      "periodId": 168172,
+      "period": "Q1-24",
+      "periodDate": "2024-03-31",
+      "statusId": 18578,
+      "status": "Above Target"
+    }
+  ]
+}

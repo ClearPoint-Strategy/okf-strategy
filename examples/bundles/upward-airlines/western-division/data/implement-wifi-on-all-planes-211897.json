@@ -1,0 +1,98 @@
+{
+  "resource": "clearpoint://scorecard/77149/initiative/211897",
+  "object": "initiative",
+  "objectId": 211897,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 149093,
+      "period": "Dec-22",
+      "Actual": null
+    },
+    {
+      "periodId": 168164,
+      "period": "Jun-23",
+      "Actual": null
+    },
+    {
+      "periodId": 168168,
+      "period": "Dec-23",
+      "Actual": null
+    },
+    {
+      "periodId": 168170,
+      "period": "Jan-24",
+      "Actual": null
+    },
+    {
+      "periodId": 168173,
+      "period": "Feb-24",
+      "Actual": null
+    },
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Actual": null
+    },
+    {
+      "periodId": 149074,
+      "period": "Apr-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189837,
+      "period": "May-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189839,
+      "period": "Jul-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189838,
+      "period": "Aug-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189845,
+      "period": "Oct-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189841,
+      "period": "Nov-24",
+      "Actual": null
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": null
+    },
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Actual": null
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Actual": null
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "resource": "clearpoint://scorecard/77147/initiative/163374",
+  "object": "initiative",
+  "objectId": 163374,
+  "series": [
+    {
+      "name": "Budget",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Elapsed Days",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Initiative Percent Complete",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Budget": 15000,
+      "Elapsed Days": null,
+      "Initiative Percent Complete": null
+    }
+  ]
+}

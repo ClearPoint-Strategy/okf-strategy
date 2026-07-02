@@ -1,0 +1,313 @@
+{
+  "resource": "clearpoint://scorecard/77148/measure/423521",
+  "object": "measure",
+  "objectId": 423521,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Variance",
+      "seriesDataTypeId": 4
+    },
+    {
+      "name": "Actual as % of Target",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168170,
+      "period": "Jan-24",
+      "Actual": 2212,
+      "Target": 2343.5246582,
+      "Variance": -131.5247,
+      "Actual as % of Target": 0.9439
+    },
+    {
+      "periodId": 168173,
+      "period": "Feb-24",
+      "Actual": 2314,
+      "Target": 2413.83032227,
+      "Variance": -99.8303,
+      "Actual as % of Target": 0.9586
+    },
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Actual": 2401,
+      "Target": 2486.24536133,
+      "Variance": -85.2454,
+      "Actual as % of Target": 0.9657
+    },
+    {
+      "periodId": 149074,
+      "period": "Apr-24",
+      "Actual": 2601,
+      "Target": 2560.83251953,
+      "Variance": 40.1675,
+      "Actual as % of Target": 1.0157
+    },
+    {
+      "periodId": 189837,
+      "period": "May-24",
+      "Actual": 2300,
+      "Target": 2637.65771484,
+      "Variance": -337.6577,
+      "Actual as % of Target": 0.872
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Actual": 2432,
+      "Target": 2716.78735352,
+      "Variance": -284.7874,
+      "Actual as % of Target": 0.8952
+    },
+    {
+      "periodId": 189839,
+      "period": "Jul-24",
+      "Actual": 2648,
+      "Target": 2798.29101563,
+      "Variance": -150.291,
+      "Actual as % of Target": 0.9463
+    },
+    {
+      "periodId": 189838,
+      "period": "Aug-24",
+      "Actual": 2880,
+      "Target": 2882.23974609,
+      "Variance": -2.2397,
+      "Actual as % of Target": 0.9992
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Actual": 2942,
+      "Target": 2968.70678711,
+      "Variance": -26.7068,
+      "Actual as % of Target": 0.991
+    },
+    {
+      "periodId": 189845,
+      "period": "Oct-24",
+      "Actual": 3060,
+      "Target": 3057.76831055,
+      "Variance": 2.2317,
+      "Actual as % of Target": 1.0007
+    },
+    {
+      "periodId": 189841,
+      "period": "Nov-24",
+      "Actual": 3274,
+      "Target": 3149.5012207,
+      "Variance": 124.4988,
+      "Actual as % of Target": 1.0395
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Actual": null,
+      "Target": 3341.3059082,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Actual": null,
+      "Target": 3441.54492188,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Actual": null,
+      "Target": 3544.79125977,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Actual": null,
+      "Target": 3651.13500977,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 3331,
+      "Target": 3243.98608398,
+      "Variance": 87.0139,
+      "Actual as % of Target": 1.0268
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Actual": null,
+      "Target": null,
+      "Variance": null,
+      "Actual as % of Target": null
+    }
+  ]
+}

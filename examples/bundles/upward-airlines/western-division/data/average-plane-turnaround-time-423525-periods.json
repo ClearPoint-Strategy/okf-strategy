@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77149/measure/423525",
+  "object": "measure",
+  "objectId": 423525,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18579,
+      "status": "Caution"
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "periodDate": "2025-10-31",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "periodDate": "2025-11-30",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "We need to do a much better job with this measure and objective.",
+      "recommendations": "Let's create a new training or upskilling for employees in order to improve."
+    }
+  ]
+}

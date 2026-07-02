@@ -1,0 +1,45 @@
+---
+type: Milestone
+title: Hire consultants
+resource: clearpoint://scorecard/77146/milestone/281244
+timestamp: 2025-02-26T15:36:40.007Z
+cps:
+  object: milestone
+  objectId: 281244
+  scorecardId: 77146
+  scorecard: Upward Airlines Corporate
+  access:
+    minCapability: Administrator
+    markings:
+      - scorecard:77146
+  time:
+    cadence: quarterly
+    periodGroupId: 9723
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+  provenance:
+    scorecard:
+      id: 77146
+      name: Upward Airlines Corporate
+    owner:
+      name: Steve Smith
+      userId: 24973
+    lastEditedBy:
+      name: Clarice Strong
+      userId: 24944
+      at: 2025-02-26T15:36:40.007Z
+  measure:
+    series:
+      - name: Cost
+        seriesDataTypeId: 4
+        numberFormat:
+          precision: 2
+          symbol: $
+          decimal: .
+          thousand: ","
+    dataResource: /upward-airlines-corporate/data/hire-consultants-281244.json
+---
+
+

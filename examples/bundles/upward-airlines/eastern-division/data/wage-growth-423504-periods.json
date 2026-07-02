@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77147/measure/423504",
+  "object": "measure",
+  "objectId": 423504,
+  "history": [
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18579,
+      "status": "Caution"
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18579,
+      "status": "Caution"
+    },
+    {
+      "periodId": 256354,
+      "period": "2024",
+      "periodDate": "2024-12-31",
+      "statusId": 18579,
+      "status": "Caution"
+    },
+    {
+      "periodId": 189846,
+      "period": "2025",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We have declined in this area and need to improve.",
+      "recommendations": "We should remove necessary expenses and reallocate those funds to raising wages."
+    }
+  ]
+}

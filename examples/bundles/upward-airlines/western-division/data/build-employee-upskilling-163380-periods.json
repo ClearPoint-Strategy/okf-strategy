@@ -1,0 +1,14 @@
+{
+  "resource": "clearpoint://scorecard/77149/initiative/163380",
+  "object": "initiative",
+  "objectId": 163380,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18580,
+      "status": "Below Plan"
+    }
+  ]
+}

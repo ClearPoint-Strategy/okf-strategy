@@ -1,0 +1,45 @@
+{
+  "resource": "clearpoint://scorecard/77147/measure/423509",
+  "object": "measure",
+  "objectId": 423509,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "periodDate": "2025-10-31",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "periodDate": "2025-11-30",
+      "statusId": 18580,
+      "status": "Below Plan"
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18580,
+      "status": "Below Plan",
+      "analysis": "We are struggling with our costs due to continued bad weather on the East Coast. Winter storms in the first half of the year, and summer thunderstorms and hurricanes in the second half. We are comparable with the rest of the industry.",
+      "recommendations": "We need to look how some other locations outside of the USA are managing these costs and doing a better job of preparing for climate challenges.The NOAA Fact Sheet below is a good place to start.",
+      "customFields": [
+        {
+          "fieldId": "custom100883",
+          "name": "Complete?",
+          "fieldType": "boolean",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

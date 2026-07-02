@@ -1,0 +1,15 @@
+{
+  "resource": "clearpoint://scorecard/77146/actionItem/182622",
+  "object": "actionItem",
+  "objectId": 182622,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "Employee benefits are very important at Upward Airlines, and we need to form a meeting with current and retired employees to talk about this issue."
+    }
+  ]
+}

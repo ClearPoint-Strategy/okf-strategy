@@ -1,0 +1,53 @@
+{
+  "resource": "clearpoint://scorecard/77147/measure/423504",
+  "object": "measure",
+  "objectId": 423504,
+  "series": [
+    {
+      "name": "Actual",
+      "seriesDataTypeId": 6
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 6
+    }
+  ],
+  "data": [
+    {
+      "periodId": 149093,
+      "period": "Dec-22",
+      "Actual": 3,
+      "Target": 3
+    },
+    {
+      "periodId": 168168,
+      "period": "Dec-23",
+      "Actual": 2,
+      "Target": 3
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": 2.5,
+      "Target": 3
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 3,
+      "Target": 3
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Actual": null,
+      "Target": null
+    },
+    {
+      "periodId": 313381,
+      "period": "Dec-27",
+      "Actual": null,
+      "Target": null
+    }
+  ]
+}

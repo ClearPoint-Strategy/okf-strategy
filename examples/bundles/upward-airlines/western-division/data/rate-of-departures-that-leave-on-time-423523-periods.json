@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77149/measure/423523",
+  "object": "measure",
+  "objectId": 423523,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "periodDate": "2025-10-31",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "periodDate": "2025-11-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "On time departures are very important to our customers, and we must increase this statistic. Over the last few months, our rate has dropped significantly due to issues with employees now showing up on time.",
+      "recommendations": "Although this is mostly out of our control, we can push our employees to be as fast as possible when taking off."
+    }
+  ]
+}

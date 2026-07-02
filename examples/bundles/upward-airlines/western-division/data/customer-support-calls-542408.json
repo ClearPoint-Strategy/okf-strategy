@@ -1,0 +1,112 @@
+{
+  "resource": "clearpoint://scorecard/77149/measure/542408",
+  "object": "measure",
+  "objectId": 542408,
+  "series": [
+    {
+      "name": "Number of calls",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "Target",
+      "seriesDataTypeId": 9
+    },
+    {
+      "name": "YTD Calls",
+      "seriesDataTypeId": 5
+    }
+  ],
+  "data": [
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Number of calls": 1642,
+      "Target": 1200,
+      "YTD Calls": 1642
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Number of calls": 1563,
+      "Target": 1200,
+      "YTD Calls": 1602.5
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Number of calls": 1462,
+      "Target": 1200,
+      "YTD Calls": 1555.66666666
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Number of calls": null,
+      "Target": 1200,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Number of calls": null,
+      "Target": 1200,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Number of calls": null,
+      "Target": 1200,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Number of calls": null,
+      "Target": 1200,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Number of calls": 1200,
+      "Target": 1200,
+      "YTD Calls": 1200
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Number of calls": null,
+      "Target": null,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Number of calls": null,
+      "Target": null,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Number of calls": null,
+      "Target": null,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Number of calls": null,
+      "Target": null,
+      "YTD Calls": null
+    },
+    {
+      "periodId": 313372,
+      "period": "Mar-27",
+      "Number of calls": null,
+      "Target": null,
+      "YTD Calls": null
+    }
+  ]
+}

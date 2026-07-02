@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77148/initiative/163377",
+  "object": "initiative",
+  "objectId": 163377,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We feel comfortable with the consultants we work hired and have received great feedback from the employees we sampled, so we feel confident that our training will vastly improve.",
+      "recommendations": "We should see what factors are outside of our control in getting our planes out on time and then base the rest of our training according to that information since those factors need to be properly considered."
+    }
+  ]
+}

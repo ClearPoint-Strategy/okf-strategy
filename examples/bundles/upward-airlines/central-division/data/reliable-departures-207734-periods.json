@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77148/objective/207734",
+  "object": "objective",
+  "objectId": 207734,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "We really need to focus on getting our planes out on time.",
+      "recommendations": "Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve."
+    }
+  ]
+}

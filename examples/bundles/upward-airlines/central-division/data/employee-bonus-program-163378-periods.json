@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77148/initiative/163378",
+  "object": "initiative",
+  "objectId": 163378,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "We need to keep what is positive, remove what is negative, and make any changes that will save the airline money and not negatively affect employees.",
+      "recommendations": "Don't be afraid to add new aspects to the program."
+    }
+  ]
+}

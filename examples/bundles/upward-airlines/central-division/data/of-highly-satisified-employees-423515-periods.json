@@ -1,0 +1,37 @@
+{
+  "resource": "clearpoint://scorecard/77148/measure/423515",
+  "object": "measure",
+  "objectId": 423515,
+  "history": [
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 256351,
+      "period": "Q3-25",
+      "periodDate": "2025-09-30",
+      "statusId": 18581,
+      "status": "No Information"
+    },
+    {
+      "periodId": 189846,
+      "period": "Q4-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We have been doing well keeping our employees happy since Q3-2018.",
+      "recommendations": "Continue to keep company culture strong."
+    }
+  ]
+}

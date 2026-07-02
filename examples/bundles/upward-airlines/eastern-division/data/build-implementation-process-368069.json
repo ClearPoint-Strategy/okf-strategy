@@ -1,0 +1,268 @@
+{
+  "resource": "clearpoint://scorecard/77147/milestone/368069",
+  "object": "milestone",
+  "objectId": 368069,
+  "series": [
+    {
+      "name": "Cost",
+      "seriesDataTypeId": 4
+    }
+  ],
+  "data": [
+    {
+      "periodId": 149093,
+      "period": "Dec-22",
+      "Cost": null
+    },
+    {
+      "periodId": 168164,
+      "period": "Jun-23",
+      "Cost": null
+    },
+    {
+      "periodId": 168168,
+      "period": "Dec-23",
+      "Cost": null
+    },
+    {
+      "periodId": 168170,
+      "period": "Jan-24",
+      "Cost": null
+    },
+    {
+      "periodId": 168173,
+      "period": "Feb-24",
+      "Cost": null
+    },
+    {
+      "periodId": 168172,
+      "period": "Mar-24",
+      "Cost": null
+    },
+    {
+      "periodId": 149074,
+      "period": "Apr-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189837,
+      "period": "May-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189836,
+      "period": "Jun-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189839,
+      "period": "Jul-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189838,
+      "period": "Aug-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189840,
+      "period": "Sep-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189845,
+      "period": "Oct-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189841,
+      "period": "Nov-24",
+      "Cost": null
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Cost": null
+    },
+    {
+      "periodId": 189842,
+      "period": "Jan-25",
+      "Cost": null
+    },
+    {
+      "periodId": 189844,
+      "period": "Feb-25",
+      "Cost": null
+    },
+    {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Cost": null
+    },
+    {
+      "periodId": 168171,
+      "period": "Apr-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256347,
+      "period": "May-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256349,
+      "period": "Jul-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256350,
+      "period": "Aug-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256352,
+      "period": "Oct-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256353,
+      "period": "Nov-25",
+      "Cost": null
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Cost": null
+    },
+    {
+      "periodId": 256610,
+      "period": "Jan-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256611,
+      "period": "Feb-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256612,
+      "period": "Mar-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256613,
+      "period": "Apr-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256614,
+      "period": "May-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256615,
+      "period": "Jun-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256616,
+      "period": "Jul-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256617,
+      "period": "Aug-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256620,
+      "period": "Sep-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256621,
+      "period": "Oct-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256622,
+      "period": "Nov-26",
+      "Cost": null
+    },
+    {
+      "periodId": 256623,
+      "period": "Dec-26",
+      "Cost": null
+    },
+    {
+      "periodId": 313370,
+      "period": "Jan-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313371,
+      "period": "Feb-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313372,
+      "period": "Mar-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313373,
+      "period": "Apr-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313374,
+      "period": "May-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313375,
+      "period": "Jun-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313376,
+      "period": "Jul-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313377,
+      "period": "Aug-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313378,
+      "period": "Sep-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313379,
+      "period": "Oct-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313380,
+      "period": "Nov-27",
+      "Cost": null
+    },
+    {
+      "periodId": 313381,
+      "period": "Dec-27",
+      "Cost": null
+    }
+  ]
+}

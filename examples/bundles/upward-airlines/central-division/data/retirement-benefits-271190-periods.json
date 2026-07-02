@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77148/objective/271190",
+  "object": "objective",
+  "objectId": 271190,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18579,
+      "status": "Caution",
+      "analysis": "We really need to focus on changing our retirement plan to benefit loyal employees.",
+      "recommendations": "We need to revise our retirement package, and make changes that benefit loyal employees."
+    }
+  ]
+}

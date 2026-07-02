@@ -1,0 +1,16 @@
+{
+  "resource": "clearpoint://scorecard/77148/initiative/211898",
+  "object": "initiative",
+  "objectId": 211898,
+  "history": [
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "periodDate": "2025-12-31",
+      "statusId": 18578,
+      "status": "Above Target",
+      "analysis": "We are well-prepared for our summer sale.",
+      "recommendations": "We should hold another customer service training before our summer sale begins."
+    }
+  ]
+}
