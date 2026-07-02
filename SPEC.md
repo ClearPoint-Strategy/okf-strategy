@@ -90,38 +90,36 @@ noise. The rest of the `cps` block (identity, access, time, provenance, series) 
 of ClearPoint's own AI-grounding projection (`_mcpElement`/`_mcpElementStatus`) — see
 [ADR-0004](docs/adr/0004-grounded-in-openapi-mirrors-mcp-projection.md).
 
-### 4.2 Access — `cps.access` (first-class, propagating)
+### 4.2 Access — compartment, not the caller's access
 
-Access is **schema, not metadata bolted on at serving time.** Two dimensions:
+The access axis is **who may see a concept** — and it is *not* the requesting user's access.
+`_mcpElement.access` is the CALLER's effective access to the element (always "Administrator" when an
+admin key made the request), so it is deliberately **not embedded**: it is neither a "minimum required"
+nor a portable property.
 
-- **Capability (verb):** `minCapability` on the ladder `No Access < Browser < Updater < Editor <
-  Scorecard Admin < Administrator` (mirrors cps-next `use-access`). Read/ground needs ≥ Browser; write
-  gates exactly as the existing AI action layer does.
-- **Compartment (marking):** `markings[]` — `scorecard:<id>` (audience = that scorecard's effective-access
-  set, which ClearPoint already computes), `personal:<userId>` (never org-served, never grantable),
-  optional `domain:<name>`.
+- **Compartment = `cps.scorecardId`.** Access is governed by that scorecard's membership rules, so a plain
+  ClearPoint concept carries **no** separate access block. `cps.access.markings` appears only on
+  derived/enriched/personal nodes — `personal:<userId>` (never org-served), `domain:<name>`, or the
+  UNION of source markings on a fused node.
+- **Who-can-access** (which users/groups hold what level on a scorecard) is a separate **access-rules**
+  dataset — a root lookup alongside `users.md`, not a per-concept field. *Not yet emitted; the real
+  `GET /okf` sources it from the scorecard access rules.*
 
-**Propagation rules (this is the graph-specific part):**
+**Propagation** (derived/fused nodes only): union of source markings; a rollup or edge is visible only if
+**all** its children / **both** endpoints are; default-deny for unmarked/unresolved nodes — this kills the
+aggregation side-channel.
 
-1. A derived/fused node carries the **union** of its sources' markings; visible only to principals who
-   satisfy **all** of them (intersection of audiences). This kills the aggregation side-channel.
-2. A **rollup** (category/scorecard) is visible only to those who can see **all** its children.
-3. An **edge** is visible only if **both** endpoints are — else it leaks a hidden node's existence.
-4. **Default-deny:** no marking / unresolved provenance ⇒ most-restrictive (creator-only), never
-   org-public.
+**Enforcement is not the reader's job.** The boundary is **pre-retrieval, server-side, per principal**: a
+caller only ever receives the subset they may see. Never ship a fat all-access bundle and filter
+downstream; never rely on prompt-level "be discreet." There is no 403 in grounding — a leaked node gets
+paraphrased, so filtering must happen before the node enters context.
 
-**Enforcement is not the reader's job.** `cps.access` is the *computed audit trail*. The boundary is
-**pre-retrieval, server-side, per principal**, in the projector/MCP: a caller only ever receives the
-subset they may see, projected on the fly. Never ship a fat all-access bundle and filter downstream;
-never rely on prompt-level "be discreet." There is no 403 in grounding — a leaked node gets
-paraphrased, so filtering must happen before the node ever enters context.
-
-### 4.3 Time — `cps.time` (bitemporal, heterogeneous cadence)
+### 4.3 Time — `cps.status` (bitemporal, heterogeneous cadence)
 
 - **Valid time** (reporting period) is primary for grounding: "December 2025" vs "January 2026".
 - **System time** (`timestamp`, and `provenance.*.at`) is for audit.
-- Elements report on **different cadences** (`cps.time.cadence`), so **"current" is per-element**: a
-  monthly measure and a quarterly objective are both current at different grains. `cps.time.currentPeriod`
+- Elements report on **different cadences** (`cps.status.cadence`), so **"current" is per-element**: a
+  monthly measure and a quarterly objective are both current at different grains. `cps.status.currentPeriod`
   is resolved against the element's own cadence.
 - Period-scoped facts (status/analysis/measure values) live in the body under period headings and carry
   their own editorial stamp (§4.4). `log.md` is the delta view across periods.
@@ -132,7 +130,8 @@ paraphrased, so filtering must happen before the node ever enters context.
 Not just status and numbers vary over time — **`analysis`, `recommendations`, and period-scoped custom
 fields do too.** Custom fields split by `fieldType` (`_field.fieldType`):
 
-- **`edit` / `readOnly`** — element-level, one value, non-varying → `cps.customFields` (frontmatter).
+- **`edit` / `readOnly`** — element-level, one value, non-varying → a body **`## Details`** list (values;
+  definitions in `custom-fields.md`).
 - **`update`** — period-scoped, a value *per period* → the time-varying qualitative layer, alongside
   `analysis` / `recommendations` / `status`.
 
@@ -140,9 +139,9 @@ The time-varying layer uses the **same split as metrics** (§6): inline-for-grou
 
 - **Grounding (normative):** one `## <Period>` body section per reporting period, carrying status,
   analysis, recommendations, and that period's `update`-field values. Narrative, git-diffable,
-  LLM-native. The current period's short status also rides in `cps.time.currentPeriod`.
+  LLM-native. The current period's short status also rides in `cps.status.currentPeriod`.
 - **Query (optional):** a status-history **sidecar** `data/<object>-<id>-status.json`, referenced by
-  `cps.time.historyResource` — an array of `_mcpElementStatus`-shaped records (`periodId`, `period`,
+  `cps.status.statusResource` — an array of `_mcpElementStatus`-shaped records (`periodId`, `period`,
   `statusId`, `status`, `analysis`, `recommendations`, `customFields[]`) — for "value of field X across N
   periods" queries. Written only when a period has real qualitative content (label-only status is fully
   carried by `currentPeriod` + a compact body line).
@@ -220,7 +219,7 @@ Two consumers, two representations (never one binary blob for both):
 
 The two `data/` sidecars are distinct: **`-series.json`** holds the numeric measure series
 (`dataResource`); **`-status.json`** holds the per-period qualitative status/analysis/recommendations
-(`historyResource`). Any element type may have either or both.
+(`statusResource`). Any element type may have either or both.
 
 ---
 

@@ -100,11 +100,6 @@
                     }
                 },
                 "alias": { "type": "string", "description": "AXIS 5 — Vocabulary. The org's own word for this concept (glossary). `type` stays canonical for interop; `alias` is what the MCP speaks back." },
-                "customFields": {
-                    "type": "array",
-                    "description": "AXIS 5 — Vocabulary. ELEMENT-LEVEL custom fields only (fieldType 'edit'/'readOnly' — one value, non-varying). Period-scoped ('update') custom fields vary over time and live in the body period sections + the history sidecar (cps.time.historyResource), NOT here. Each `name` is the org's own field label — glossary material.",
-                    "items": { "$ref": "#/$defs/customField" }
-                },
                 "measure": {
                     "type": "object",
                     "additionalProperties": false,

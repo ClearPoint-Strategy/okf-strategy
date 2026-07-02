@@ -30,12 +30,11 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-03-10T22:25:56.977Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $10,000
 ---
+
+## Details
+
+- Budget: $10,000
 
 ## Parents
 

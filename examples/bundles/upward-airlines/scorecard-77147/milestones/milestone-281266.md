@@ -28,11 +28,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-04-29T19:51:39.100Z
-  customFields:
-    - fieldId: custom197624
-      name: Milestone Review
-      fieldType: kanban
-      value: planned
   measure:
     series:
       - name: Budget
@@ -51,6 +46,10 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77147/data/milestone-281266-series.json
 ---
+
+## Details
+
+- Milestone Review: planned
 
 ## Parent Initiative
 

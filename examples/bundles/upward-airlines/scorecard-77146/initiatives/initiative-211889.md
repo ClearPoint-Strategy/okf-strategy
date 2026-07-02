@@ -33,40 +33,18 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-11-17T17:19:12.477Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $400,000,000
-    - fieldId: custom107496
-      name: Level of Effort
-      fieldType: picklist
-      value: 1. Low
-    - fieldId: custom107497
-      name: Level of Impact
-      fieldType: picklist
-      value: 3. High
-    - fieldId: custom107498
-      name: Priority
-      fieldType: picklist
-      value: 3. High
-    - fieldId: custom136389
-      name: Project Request Status
-      fieldType: picklist
-      value: " Denied"
-    - fieldId: custom136390
-      name: Requester
-      fieldType: user
-      value: "33823.0000"
-    - fieldId: custom166733
-      name: Budget
-      fieldType: currency
-      value: "80000000.0000"
-    - fieldId: custom197620
-      name: Initiative Review
-      fieldType: kanban
-      value: rejected
 ---
+
+## Details
+
+- Budget: $400,000,000
+- Level of Effort: 1. Low
+- Level of Impact: 3. High
+- Priority: 3. High
+- Project Request Status:  Denied
+- Requester: Tammy Cuzco
+- Budget: 80000000.0000
+- Initiative Review: rejected
 
 ## Children
 

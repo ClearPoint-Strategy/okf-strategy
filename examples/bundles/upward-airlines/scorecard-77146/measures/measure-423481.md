@@ -33,12 +33,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-05-05T19:57:15.107Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: Net profit is behind due to expenses and revenue lagging behind. When we
-        bring these two metrics up, we will see this increase as well.
   measure:
     series:
       - name: Actual
@@ -53,6 +47,10 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77146/data/measure-423481-series.json
 ---
+
+## Details
+
+- Variance Report: Net profit is behind due to expenses and revenue lagging behind. When we bring these two metrics up, we will see this increase as well.
 
 ## Children
 

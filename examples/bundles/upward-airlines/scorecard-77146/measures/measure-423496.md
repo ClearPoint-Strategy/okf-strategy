@@ -31,12 +31,6 @@ cps:
       name: Ted Jackson
       userId: 24943
       at: 2025-04-10T13:21:24.063Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: This metric should be back on schedule by next month, as our initiatives
-        are going well.
   measure:
     series:
       - name: Actual
@@ -61,6 +55,10 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77146/data/measure-423496-series.json
 ---
+
+## Details
+
+- Variance Report: This metric should be back on schedule by next month, as our initiatives are going well.
 
 ## Parents
 

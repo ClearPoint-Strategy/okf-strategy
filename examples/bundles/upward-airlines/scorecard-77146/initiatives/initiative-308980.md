@@ -35,39 +35,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-03-10T20:51:32.357Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $2,000
-    - fieldId: custom107496
-      name: Level of Effort
-      fieldType: picklist
-      value: " 3. High"
-    - fieldId: custom107497
-      name: Level of Impact
-      fieldType: picklist
-      value: " 2. Medium"
-    - fieldId: custom107498
-      name: Priority
-      fieldType: picklist
-      value: " 3. High"
-    - fieldId: custom136389
-      name: Project Request Status
-      fieldType: picklist
-      value: Submitted
-    - fieldId: custom136390
-      name: Requester
-      fieldType: user
-      value: "24960.0000"
-    - fieldId: custom166733
-      name: Budget
-      fieldType: currency
-      value: "2000.0000"
-    - fieldId: custom197620
-      name: Initiative Review
-      fieldType: kanban
-      value: rejected
   measure:
     series:
       - name: Design Costs To Date
@@ -117,6 +84,17 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77146/data/initiative-308980-series.json
 ---
+
+## Details
+
+- Budget: $2,000
+- Level of Effort:  3. High
+- Level of Impact:  2. Medium
+- Priority:  3. High
+- Project Request Status: Submitted
+- Requester: James Crockett
+- Budget: 2000.0000
+- Initiative Review: rejected
 
 ## Children
 

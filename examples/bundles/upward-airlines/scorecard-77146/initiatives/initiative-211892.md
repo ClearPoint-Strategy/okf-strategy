@@ -29,40 +29,18 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-03-10T20:51:21.450Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $300,000
-    - fieldId: custom107496
-      name: Level of Effort
-      fieldType: picklist
-      value: 3. High
-    - fieldId: custom107497
-      name: Level of Impact
-      fieldType: picklist
-      value: 1. Low
-    - fieldId: custom107498
-      name: Priority
-      fieldType: picklist
-      value: 1. Low
-    - fieldId: custom136389
-      name: Project Request Status
-      fieldType: picklist
-      value: " Need Additional Information "
-    - fieldId: custom136390
-      name: Requester
-      fieldType: user
-      value: "24965.0000"
-    - fieldId: custom166733
-      name: Budget
-      fieldType: currency
-      value: "300000.0000"
-    - fieldId: custom197620
-      name: Initiative Review
-      fieldType: kanban
-      value: approved
 ---
+
+## Details
+
+- Budget: $300,000
+- Level of Effort: 3. High
+- Level of Impact: 1. Low
+- Priority: 1. Low
+- Project Request Status:  Need Additional Information 
+- Requester: Donald Duff
+- Budget: 300000.0000
+- Initiative Review: approved
 
 ## Children
 

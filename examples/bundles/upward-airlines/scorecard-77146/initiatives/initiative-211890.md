@@ -33,40 +33,18 @@ cps:
       name: ClearPoint Support7
       userId: 157341
       at: 2025-11-12T15:06:09.640Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $11,000
-    - fieldId: custom107496
-      name: Level of Effort
-      fieldType: picklist
-      value: 2. Medium
-    - fieldId: custom107497
-      name: Level of Impact
-      fieldType: picklist
-      value: 3. High
-    - fieldId: custom107498
-      name: Priority
-      fieldType: picklist
-      value: 3. High
-    - fieldId: custom136389
-      name: Project Request Status
-      fieldType: picklist
-      value: " Need Additional Information "
-    - fieldId: custom136390
-      name: Requester
-      fieldType: user
-      value: "33823.0000"
-    - fieldId: custom166733
-      name: Budget
-      fieldType: currency
-      value: "11000.0000"
-    - fieldId: custom197620
-      name: Initiative Review
-      fieldType: kanban
-      value: submitted
 ---
+
+## Details
+
+- Budget: $11,000
+- Level of Effort: 2. Medium
+- Level of Impact: 3. High
+- Priority: 3. High
+- Project Request Status:  Need Additional Information 
+- Requester: Tammy Cuzco
+- Budget: 11000.0000
+- Initiative Review: submitted
 
 ## Children
 

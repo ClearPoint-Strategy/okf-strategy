@@ -28,12 +28,11 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-04-29T19:52:06.373Z
-  customFields:
-    - fieldId: custom197624
-      name: Milestone Review
-      fieldType: kanban
-      value: at_risk
 ---
+
+## Details
+
+- Milestone Review: at_risk
 
 ## Parent Initiative
 

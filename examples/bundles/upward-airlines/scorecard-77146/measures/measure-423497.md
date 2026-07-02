@@ -29,16 +29,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-12-18T01:53:35.560Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: We're looking more into why this metric was not met. In the meantime,
-        we're encouraging employees to limit overhead spending.
-    - fieldId: custom278576
-      name: Custom HTML Tables
-      fieldType: html
-      value: Top left Top middle Top right Bottom left Bottom middle Bottom right
   measure:
     series:
       - name: Actual
@@ -63,6 +53,11 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77146/data/measure-423497-series.json
 ---
+
+## Details
+
+- Variance Report: We're looking more into why this metric was not met. In the meantime, we're encouraging employees to limit overhead spending.
+- Custom HTML Tables: Top left Top middle Top right Bottom left Bottom middle Bottom right
 
 ## Parents
 

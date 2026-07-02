@@ -30,12 +30,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-05-05T19:57:15.370Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: The cold weather has hurt us. We're looking into encouraging more
-        purchase on direct flights without harming profit.
   measure:
     series:
       - name: Actual
@@ -50,6 +44,10 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77146/data/measure-423487-series.json
 ---
+
+## Details
+
+- Variance Report: The cold weather has hurt us. We're looking into encouraging more purchase on direct flights without harming profit.
 
 ## Children
 

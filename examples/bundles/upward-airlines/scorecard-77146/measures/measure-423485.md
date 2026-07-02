@@ -26,11 +26,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2023-08-10T16:26:59.320Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: This metric is doing well and is surpassing expectations!
   measure:
     series:
       - name: Actual
@@ -43,6 +38,10 @@ cps:
           precision: 2
     dataResource: /scorecard-77146/data/measure-423485-series.json
 ---
+
+## Details
+
+- Variance Report: This metric is doing well and is surpassing expectations!
 
 ## Children
 

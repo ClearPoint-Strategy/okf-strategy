@@ -35,35 +35,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-02-26T15:15:32.540Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $15,000
-    - fieldId: custom107496
-      name: Level of Effort
-      fieldType: picklist
-      value: " 3. High"
-    - fieldId: custom107497
-      name: Level of Impact
-      fieldType: picklist
-      value: " 3. High"
-    - fieldId: custom107498
-      name: Priority
-      fieldType: picklist
-      value: " 3. High"
-    - fieldId: custom136389
-      name: Project Request Status
-      fieldType: picklist
-      value: Approved
-    - fieldId: custom136390
-      name: Requester
-      fieldType: user
-      value: "24975.0000"
-    - fieldId: custom166733
-      name: Budget
-      fieldType: currency
-      value: "15000.0000"
   measure:
     series:
       - name: Budget
@@ -82,6 +53,16 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77147/data/initiative-163374-series.json
 ---
+
+## Details
+
+- Budget: $15,000
+- Level of Effort:  3. High
+- Level of Impact:  3. High
+- Priority:  3. High
+- Project Request Status: Approved
+- Requester: Ashley Caper
+- Budget: 15000.0000
 
 ## Children
 

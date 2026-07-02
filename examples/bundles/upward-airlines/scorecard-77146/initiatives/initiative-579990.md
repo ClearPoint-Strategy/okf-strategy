@@ -40,40 +40,18 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-03-10T20:51:07.357Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $96,000
-    - fieldId: custom107496
-      name: Level of Effort
-      fieldType: picklist
-      value: 1. Low
-    - fieldId: custom107497
-      name: Level of Impact
-      fieldType: picklist
-      value: 2. Medium
-    - fieldId: custom107498
-      name: Priority
-      fieldType: picklist
-      value: 2. Medium
-    - fieldId: custom136389
-      name: Project Request Status
-      fieldType: picklist
-      value: Submitted
-    - fieldId: custom136390
-      name: Requester
-      fieldType: user
-      value: "24960.0000"
-    - fieldId: custom166733
-      name: Budget
-      fieldType: currency
-      value: "96001.0000"
-    - fieldId: custom197620
-      name: Initiative Review
-      fieldType: kanban
-      value: approved
 ---
+
+## Details
+
+- Budget: $96,000
+- Level of Effort: 1. Low
+- Level of Impact: 2. Medium
+- Priority: 2. Medium
+- Project Request Status: Submitted
+- Requester: James Crockett
+- Budget: 96001.0000
+- Initiative Review: approved
 
 ## Objectives
 

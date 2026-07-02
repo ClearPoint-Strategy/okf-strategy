@@ -30,12 +30,11 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-11-19T17:41:45.860Z
-  customFields:
-    - fieldId: custom197607
-      name: Balanced Scorecard
-      fieldType: kanban
-      value: financial
 ---
+
+## Details
+
+- Balanced Scorecard: financial
 
 ## Children
 

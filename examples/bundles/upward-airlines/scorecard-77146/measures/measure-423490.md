@@ -28,15 +28,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2021-08-31T19:27:26.687Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: This metric is missing it's target for a number of reasons. The inclement
-        weather we've faced this winter has driven up costs in the Eastern
-        Division. We intend to continue to monitor weather, cut back on flights
-        in the eastern region in an effort to save money, and  continue to
-        monitor these costs and mitigate where possible.
   measure:
     series:
       - name: Actual
@@ -71,6 +62,10 @@ cps:
           symbol: $
     dataResource: /scorecard-77146/data/measure-423490-series.json
 ---
+
+## Details
+
+- Variance Report: This metric is missing it's target for a number of reasons. The inclement weather we've faced this winter has driven up costs in the Eastern Division. We intend to continue to monitor weather, cut back on flights in the eastern region in an effort to save money, and  continue to monitor these costs and mitigate where possible.
 
 ## Children
 

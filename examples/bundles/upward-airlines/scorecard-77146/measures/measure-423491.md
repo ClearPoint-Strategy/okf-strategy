@@ -31,12 +31,6 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-05-05T19:57:15.627Z
-  customFields:
-    - fieldId: custom97772
-      name: Variance Report
-      fieldType: text
-      value: The weather in the eastern region has hurt us here. We're looking to
-        mitigate costs.
   measure:
     series:
       - name: Maintenance Cost
@@ -56,6 +50,10 @@ cps:
           symbol: "%"
     dataResource: /scorecard-77146/data/measure-423491-series.json
 ---
+
+## Details
+
+- Variance Report: The weather in the eastern region has hurt us here. We're looking to mitigate costs.
 
 ## Objectives
 

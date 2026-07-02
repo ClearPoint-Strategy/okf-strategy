@@ -27,12 +27,11 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-02-26T15:39:02.820Z
-  customFields:
-    - fieldId: custom197624
-      name: Milestone Review
-      fieldType: kanban
-      value: planned
 ---
+
+## Details
+
+- Milestone Review: planned
 
 ## Parent Initiative
 

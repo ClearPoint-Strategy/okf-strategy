@@ -30,16 +30,12 @@ cps:
       name: Clarice Strong
       userId: 24944
       at: 2025-11-25T19:55:45.283Z
-  customFields:
-    - fieldId: custom49307
-      name: Budget
-      fieldType: text
-      value: $10,000
-    - fieldId: custom197620
-      name: Initiative Review
-      fieldType: kanban
-      value: approved
 ---
+
+## Details
+
+- Budget: $10,000
+- Initiative Review: approved
 
 ## Parents
 
