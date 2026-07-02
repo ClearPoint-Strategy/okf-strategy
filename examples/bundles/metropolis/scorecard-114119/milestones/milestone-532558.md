@@ -23,6 +23,13 @@ cps:
       at: 2023-01-06T19:26:24.520Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** ClearPoint Implementation
+- **Dates:** 2023-03-01 – 2023-03-05
+
+## Linkages
+
+### Parent Initiative
 
 - [ClearPoint Implementation - Starter](/scorecard-114119/initiatives/initiative-279266.md)

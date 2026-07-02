@@ -36,8 +36,19 @@ cps:
     dataResource: /scorecard-7807/data/measure-111298-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
+- **Scorecard:** Fire Department
+- **Owner:** Ted Jackson
+- **Reporting Frequency:** Annual
 
 **Actual** — 51 (Dec-22) · trend [48, 47, 50, 51]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Objectives
+
+- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)

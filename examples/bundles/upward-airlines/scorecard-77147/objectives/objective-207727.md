@@ -26,21 +26,10 @@ cps:
       at: 2021-11-12T18:41:00.617Z
 ---
 
-## Parents
+## Overview
 
-- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
-
-## Children
-
-- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
-
-## Categories
-
-- [Internal](/scorecard-77147/categories/category-203617.md)
-
-## Measures
-
-- [% of tickets with direct routes](/scorecard-77147/measures/measure-423501.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Janice Jones
 
 ## Status — Dec-25 (Above Target)
 
@@ -50,3 +39,21 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
+
+### Children
+
+- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
+
+### Categories
+
+- [Internal](/scorecard-77147/categories/category-203617.md)
+
+### Measures
+
+- [% of tickets with direct routes](/scorecard-77147/measures/measure-423501.md)

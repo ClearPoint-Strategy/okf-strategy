@@ -37,8 +37,18 @@ cps:
     dataResource: /scorecard-7805/data/measure-111270-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Employee Happiness](/scorecard-7805/objectives/objective-54683.md)
+- **Scorecard:** Police Department
+- **Owner:** John Smith
 
 **Actual** — 83 (Dec-22) · trend [77, 78, 80, 82, 84, 83]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
+
+- [Employee Happiness](/scorecard-7805/objectives/objective-54683.md)

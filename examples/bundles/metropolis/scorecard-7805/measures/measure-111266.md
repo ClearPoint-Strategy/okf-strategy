@@ -37,8 +37,18 @@ cps:
     dataResource: /scorecard-7805/data/measure-111266-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)
+- **Scorecard:** Police Department
+- **Owner:** Ted Jackson
 
 **Actual** — 83 (Dec-22) · trend [81, 83, 86, 88, 91, 83]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Objectives
+
+- [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)

@@ -28,11 +28,19 @@ cps:
       at: 2025-03-10T22:25:57.110Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Izzy Moreno
+- **Dates:** 2024-12-28 – 2025-05-01 (completed)
+
+## Linkages
+
+### Parents
 
 - [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
 - [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
 
-## Objectives
+### Objectives
 
 - [Flight Attendant Customer Service](/scorecard-77149/objectives/objective-271189.md)

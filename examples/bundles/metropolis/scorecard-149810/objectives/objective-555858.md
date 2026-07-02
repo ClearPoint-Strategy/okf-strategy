@@ -1,8 +1,6 @@
 ---
 type: Objective
 title: Financial Health & Economic Vitality (Auto Eval)
-description: We cannot have a successful city without a healthy balance sheet.
-  We must be responsible with our financial resources.
 resource: clearpoint://scorecard/149810/objective/555858
 timestamp: 2023-03-23T17:38:27.660Z
 cps:
@@ -28,25 +26,40 @@ cps:
       at: 2023-03-23T17:38:27.660Z
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Rhonda Fields
+- **Collaborators:** Mark Cutler, Steve Lombard
+
+## Description
+
+We cannot have a successful city without a healthy balance sheet. We must be responsible with our financial resources.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Budget Health](/scorecard-149811/objectives/objective-555873.md)
 - [Financial Wellness](/scorecard-149812/objectives/objective-555879.md)
 
-## Categories
+### Categories
 
 - [Finance](/scorecard-149810/categories/category-309680.md)
 
-## Measures
+### Measures
 
 - [Revenue](/scorecard-149810/measures/measure-1426483.md)
 - [Expenses](/scorecard-149810/measures/measure-1426484.md)
 - [Budget Surplus](/scorecard-149810/measures/measure-1426482.md)
 
-## Initiatives
+### Initiatives
 
 - [Update master plans (Milestone Roll Up)](/scorecard-149810/initiatives/initiative-523409.md)
 
-## Action Items
+### Action Items
 
 - [Get the dashboards up by end of year](/scorecard-149810/action-items/actionItem-356089.md)

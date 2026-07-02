@@ -1,7 +1,6 @@
 ---
 type: Initiative
 title: Purchase new TV Screens
-description: Our TV screens are old and deteriorating so it is time for an upgrade.
 resource: clearpoint://scorecard/77149/initiative/211896
 timestamp: 2025-03-10T22:25:56.977Z
 cps:
@@ -31,17 +30,19 @@ cps:
       at: 2025-03-10T22:25:56.977Z
 ---
 
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Trudy Joplin
+- **Dates:** 2025-02-20 – 2025-04-13
+
+## Description
+
+Our TV screens are old and deteriorating so it is time for an upgrade.
+
 ## Details
 
-- Budget: $10,000
-
-## Parents
-
-- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
-
-## Objectives
-
-- [New Technology](/scorecard-77147/objectives/objective-271188.md)
+- **Budget:** $10,000
 
 ## Status — Dec-25 (Above Target)
 
@@ -51,3 +52,13 @@ cps:
 
 
 **Status history.** Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
+
+### Objectives
+
+- [New Technology](/scorecard-77147/objectives/objective-271188.md)

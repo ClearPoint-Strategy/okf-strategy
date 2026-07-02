@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:26:19.880Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Jimmy Olsen
+- **Dates:** 2020-05-22 – 2020-07-07
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional fire safety events](/scorecard-7807/initiatives/initiative-44458.md)

@@ -32,6 +32,18 @@ cps:
       at: 2023-04-20T13:29:14.270Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** John Smith
+- **Collaborators:** Mark Cutler, Richard Grayson, Steve Lombard, Neil Patel
+- **Dates:** 2022-04-19 – 2022-06-23 (completed)
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Employee training](/scorecard-7612/initiatives/initiative-43638.md)

@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Establish Temporary Air Traffic Control Tower during runway rehab
-description: During construction, we will need to create a space for air traffic
-  controllers to work. It will need to have a high vantage point and be secluded
-  enough that distractions can be reduced or eliminated.
 resource: clearpoint://scorecard/7631/initiative/43616
 timestamp: 2023-01-11T13:17:50.733Z
 cps:
@@ -30,24 +27,39 @@ cps:
       at: 2023-01-11T13:17:50.733Z
 ---
 
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Maggie Sawyer
+- **Dates:** 2021-12-15 – 2023-04-25
+
+## Description
+
+During construction, we will need to create a space for air traffic controllers to work. It will need to have a high vantage point and be secluded enough that distractions can be reduced or eliminated.
+
 ## Details
 
-- Budget: $15,000
-- Level of Effort: Low
-- Level of Impact:  Medium
-- Priority:  High
+- **Budget:** $15,000
+- **Level of Effort:** Low
+- **Level of Impact:**  Medium
+- **Priority:**  High
 
-## Parents
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Establish a plan for renovation and change](/scorecard-7612/initiatives/initiative-159341.md)
 
-## Objectives
+### Objectives
 
 - [Effective Leverage of Technology](/scorecard-7612/objectives/objective-277062.md)
 - [Well-maintained airfield](/scorecard-7631/objectives/objective-53627.md)
 - [Satisfied Customers](/scorecard-7631/objectives/objective-53628.md)
 
-## Milestones
+### Milestones
 
 - [Evaluate options](/scorecard-7631/milestones/milestone-54142.md)
 - [Test options](/scorecard-7631/milestones/milestone-54144.md)

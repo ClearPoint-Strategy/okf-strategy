@@ -28,6 +28,15 @@ cps:
       at: 2025-02-26T15:36:39.230Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Tammy Cuzco
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-06-18 – 2025-07-30 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)

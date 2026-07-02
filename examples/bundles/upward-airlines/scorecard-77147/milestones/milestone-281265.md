@@ -47,10 +47,22 @@ cps:
     dataResource: /scorecard-77147/data/milestone-281265-series.json
 ---
 
-## Parent Initiative
+## Overview
 
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Tammy Cuzco
+- **Reporting Frequency:** Monthly 2025-26
+- **Dates:** 2025-05-31 – 2025-09-01
 
 **Budget** — 750 (Dec-25) · trend [750]
 
-**Status history.** Dec-25: Below Plan · Nov-25: No Information · Oct-25: No Information · Sep-25: Below Plan
+## Status — Dec-25 (Below Plan)
+
+
+**Status history.** Nov-25: No Information · Oct-25: No Information · Sep-25: Below Plan
+
+## Linkages
+
+### Parent Initiative
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)

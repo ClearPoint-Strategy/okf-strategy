@@ -30,6 +30,19 @@ cps:
       at: 2023-03-23T17:38:28.227Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Lance Cummins
+- **Reporting Frequency:** Monthly
+- **Dates:** 2022-04-28 – 2022-11-19
+- **Tags:** Milestone Template #1
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update master plans (Milestone Roll Up)](/scorecard-149810/initiatives/initiative-523409.md)

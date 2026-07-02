@@ -39,18 +39,19 @@ cps:
     dataResource: /scorecard-77147/data/measure-542405-series.json
 ---
 
-## Parents
+## Overview
 
-- [Average Number of Daily departures per route](/scorecard-77146/measures/measure-423483.md)
-- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77147/objectives/objective-207724.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Donald Duff
+- **Reporting Frequency:** Annual
 
 **Actual** — 20 (Dec-25) · trend [21, 20, 23, 20]
 
-## Status — 2025 (Caution)
+## Description
+
+
+
+## Status — Dec-25 (Caution)
 
 **Analysis.** Purchasing new planes has been mostly stagnant.
 
@@ -58,3 +59,14 @@ cps:
 
 
 **Status history.** 2024: Caution · 2024: Caution · 2024: Caution
+
+## Linkages
+
+### Parents
+
+- [Average Number of Daily departures per route](/scorecard-77146/measures/measure-423483.md)
+- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77147/objectives/objective-207724.md)

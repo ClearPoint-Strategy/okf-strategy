@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7805/data/measure-111271-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** John Smith
+
+**Actual** — 67 (Dec-22) · trend [57, 59, 64, 67]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Percent of employees who have worked at the city for 5+ years](/scorecard-7612/measures/measure-110212.md)
 
-## Objectives
+### Objectives
 
 - [Hire top-notch employees](/scorecard-7805/objectives/objective-54684.md)
-
-**Actual** — 67 (Dec-22) · trend [57, 59, 64, 67]

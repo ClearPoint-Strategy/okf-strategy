@@ -26,24 +26,32 @@ cps:
       at: 2016-07-27T22:11:20.347Z
 ---
 
-## Parents
+## Overview
 
-- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
-
-## Categories
-
-- [Customer](/scorecard-77149/categories/category-203624.md)
-
-## Measures
-
-- [Rate of departures that leave on time](/scorecard-77149/measures/measure-423523.md)
-
-## Initiatives
-
-- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** James Crockett
 
 ## Status — Dec-25 (Below Plan)
 
 **Analysis.** We really need to focus on getting our planes out on time.
 
 **Recommendations.** Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve.
+
+
+## Linkages
+
+### Parents
+
+- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
+
+### Categories
+
+- [Customer](/scorecard-77149/categories/category-203624.md)
+
+### Measures
+
+- [Rate of departures that leave on time](/scorecard-77149/measures/measure-423523.md)
+
+### Initiatives
+
+- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

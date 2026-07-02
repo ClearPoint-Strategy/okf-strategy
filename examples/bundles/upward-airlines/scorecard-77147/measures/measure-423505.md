@@ -41,26 +41,34 @@ cps:
     dataResource: /scorecard-77147/data/measure-423505-series.json
 ---
 
-## Parents
+## Overview
 
-- [Net Profit](/scorecard-77146/measures/measure-423481.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77147/objectives/objective-207724.md)
-
-## Initiatives
-
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** James Crockett
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 17 (Dec-25) · trend [15.68, 14.08, 8, 10, 13, 17]
 
-## Status — Q4-25 (Above Target)
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We have put together several very strong months after a difficult start to 2015.
 
 **Recommendations.** Things are looking good.
 
-- Complete?: 0
+- **Complete?:** 0
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Net Profit](/scorecard-77146/measures/measure-423481.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77147/objectives/objective-207724.md)
+
+### Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: Revenue
-description: We are measuring our total revenues for the company.
 resource: clearpoint://scorecard/77146/measure/423496
 tags:
   - theme:financials
@@ -56,33 +55,23 @@ cps:
     dataResource: /scorecard-77146/data/measure-423496-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: This metric should be back on schedule by next month, as our initiatives are going well.
-
-## Parents
-
-- [Net Profit](/scorecard-77146/measures/measure-423481.md)
-
-## Children
-
-- [Income](/scorecard-77147/measures/measure-423507.md)
-- [Revenue](/scorecard-77148/measures/measure-423520.md)
-- [Revenue](/scorecard-77149/measures/measure-423531.md)
-
-## Objectives
-
-- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
-
-## Initiatives
-
-- [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
-
-## Action Items
-
-- [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Clarice Strong
+- **Collaborators:** James Crockett
+- **Reporting Frequency:** Monthly
+- **Tags:** Financials
 
 **Actual** — 2850 (Dec-25) · trend [2800, 3100, 3048, 3056, 3090, 2850]
+
+## Description
+
+We are measuring our total revenues for the company.
+
+## Details
+
+- **Variance Report:** This metric should be back on schedule by next month, as our initiatives are going well.
 
 ## Status — Dec-25 (Below Plan)
 
@@ -90,6 +79,30 @@ cps:
 
 **Recommendations.** We should find ways to increase our revenue.
 
-- Complete?: 0
+- **Complete?:** 0
 
 **Status history.** Nov-25: Caution · Oct-25: Above Target · Sep-25: Caution
+
+## Linkages
+
+### Parents
+
+- [Net Profit](/scorecard-77146/measures/measure-423481.md)
+
+### Children
+
+- [Income](/scorecard-77147/measures/measure-423507.md)
+- [Revenue](/scorecard-77148/measures/measure-423520.md)
+- [Revenue](/scorecard-77149/measures/measure-423531.md)
+
+### Objectives
+
+- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
+
+### Initiatives
+
+- [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
+
+### Action Items
+
+- [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)

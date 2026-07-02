@@ -52,9 +52,15 @@ cps:
     dataResource: /scorecard-77146/data/measure-533944-series.json
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Joseph Lucco
+- **Reporting Frequency:** Quarterly
+
 **Above Target Strategic Projects** — 5 (Dec-25) · trend [1, 1, 1, 1, 1, 5]
 
-## Status — Q4-25 (Above Target)
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We are above 40% for green measures and have been improving which is great!
 

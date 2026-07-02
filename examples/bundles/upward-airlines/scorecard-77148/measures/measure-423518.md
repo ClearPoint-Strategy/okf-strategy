@@ -46,13 +46,11 @@ cps:
     dataResource: /scorecard-77148/data/measure-423518-series.json
 ---
 
-## Parents
+## Overview
 
-- [Net Profit](/scorecard-77146/measures/measure-423481.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77148/objectives/objective-207733.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Trudy Joplin
+- **Reporting Frequency:** Monthly
 
 **Actual** — 6.3 (Dec-25) · trend [17.32, 15.07, 13.75, 14.8, 8.05, 6.3]
 
@@ -61,3 +59,14 @@ cps:
 **Analysis.** We have put together several very strong months after a difficult start to 2015.
 
 **Recommendations.** Other regions are doing better than us. We need to study their best practices.
+
+
+## Linkages
+
+### Parents
+
+- [Net Profit](/scorecard-77146/measures/measure-423481.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77148/objectives/objective-207733.md)

@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:24:27.383Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Tammy Cuzco
+- **Dates:** 2024-12-05 – 2024-12-16
+
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)
-
-**Status history.** Dec-25: Above Target

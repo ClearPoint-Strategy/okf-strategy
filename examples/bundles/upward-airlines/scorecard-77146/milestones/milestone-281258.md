@@ -29,6 +29,15 @@ cps:
       at: 2025-02-26T15:26:19.970Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Joseph Lucco
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-02-01 – 2025-04-01 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)

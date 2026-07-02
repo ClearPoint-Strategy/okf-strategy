@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111297-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Maggie Sawyer
+
+**Actual** — 72 (Dec-22) · trend [66, 70, 68, 67, 71, 72]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Percent of recognized neighborhood associations that meet at least quarterly](/scorecard-7612/measures/measure-108451.md)
 
-## Objectives
+### Objectives
 
 - [Community's wellness](/scorecard-7807/objectives/objective-54700.md)
-
-**Actual** — 72 (Dec-22) · trend [66, 70, 68, 67, 71, 72]

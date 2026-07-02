@@ -29,12 +29,21 @@ cps:
       at: 2025-05-02T15:43:11.590Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Dates:** 2025-09-02 – 2025-11-01
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
 
-## Parent Milestone
+### Parent Milestone
 
 - [Hire survey consultants](/scorecard-77146/milestones/milestone-281251.md)
-
-**Status history.** Q4-25: Caution

@@ -30,8 +30,18 @@ cps:
       at: 2025-02-26T15:20:48.397Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Ted Jackson
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2024-10-09 – 2024-12-30
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
-
-**Status history.** Q4-25: Caution

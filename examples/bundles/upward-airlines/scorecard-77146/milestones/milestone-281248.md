@@ -30,8 +30,18 @@ cps:
       at: 2025-02-26T15:20:47.267Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Mark Cutler
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-07-29 – 2025-10-06
+
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-
-**Status history.** Q4-25: Above Target

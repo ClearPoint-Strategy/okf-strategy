@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:31:11.747Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Mark Cutler
+- **Dates:** 2021-04-24 – 2020-10-14
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

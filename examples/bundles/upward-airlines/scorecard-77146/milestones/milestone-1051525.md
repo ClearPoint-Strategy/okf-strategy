@@ -28,17 +28,28 @@ cps:
       at: 2025-02-26T15:39:02.820Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Dates:** 2025-11-01 – 2026-04-02 (completed)
+
 ## Details
 
-- Milestone Review: planned
+- **Milestone Review:** planned
 
-## Parent Initiative
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** Nov-25: Above Target · Nov-25: Above Target
+
+## Linkages
+
+### Parent Initiative
 
 - [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
 
-## Sub-milestones
+### Sub-milestones
 
 - [Interview Consultants](/scorecard-77146/milestones/milestone-1051529.md)
 - [Gather Feedback](/scorecard-77146/milestones/milestone-1051530.md)
-
-**Status history.** Nov-25: Above Target · Nov-25: Above Target

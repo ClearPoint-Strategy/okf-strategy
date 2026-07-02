@@ -27,6 +27,17 @@ cps:
       at: 2023-03-23T17:38:28.227Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Lance Cummins
+- **Dates:** 2022-06-22 – 2022-11-16 (completed)
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Employee training](/scorecard-149810/initiatives/initiative-523405.md)

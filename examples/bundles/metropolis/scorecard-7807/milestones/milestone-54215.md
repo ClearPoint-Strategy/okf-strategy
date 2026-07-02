@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:31:11.663Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Joseph Lucco
+- **Dates:** 2021-01-16 – 2021-07-31
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

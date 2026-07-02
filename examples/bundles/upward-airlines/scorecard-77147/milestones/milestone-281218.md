@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:30:45.007Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Tammy Cuzco
+- **Dates:** 2025-04-09 – 2025-05-04
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create Upskilling for Employees](/scorecard-77147/initiatives/initiative-163373.md)
-
-**Status history.** Dec-25: No Information

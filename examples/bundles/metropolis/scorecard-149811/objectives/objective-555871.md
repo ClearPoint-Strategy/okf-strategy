@@ -23,14 +23,24 @@ cps:
       at: 2023-03-23T17:38:32.177Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Maggie Sawyer
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Positive Employee Climate](/scorecard-149810/objectives/objective-555861.md)
 
-## Categories
+### Categories
 
 - [Learning & Growth](/scorecard-149811/categories/category-309686.md)
 
-## Measures
+### Measures
 
 - [Percent of employees who say they are "highly satisfied"](/scorecard-149811/measures/measure-1426512.md)

@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: Net Profit
-description: This is our earnings metric, telling us how well we are doing.
 resource: clearpoint://scorecard/77149/measure/423529
 timestamp: 2024-09-13T20:25:08.237Z
 cps:
@@ -47,15 +46,17 @@ cps:
     dataResource: /scorecard-77149/data/measure-423529-series.json
 ---
 
-## Parents
+## Overview
 
-- [Net Profit](/scorecard-77146/measures/measure-423481.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77149/objectives/objective-207742.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Steve Smith
+- **Reporting Frequency:** Monthly
 
 **Actual** — 350 (Dec-25) · trend [41.22241211, 73.58911133, 526.1730957, 397.22241211, 379.58911133, 350]
+
+## Description
+
+This is our earnings metric, telling us how well we are doing.
 
 ## Status — Dec-25 (Above Target)
 
@@ -65,3 +66,13 @@ cps:
 
 
 **Status history.** Nov-25: No Information · Oct-25: No Information · Sep-25: No Information
+
+## Linkages
+
+### Parents
+
+- [Net Profit](/scorecard-77146/measures/measure-423481.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77149/objectives/objective-207742.md)

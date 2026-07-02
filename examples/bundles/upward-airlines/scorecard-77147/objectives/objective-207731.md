@@ -26,17 +26,10 @@ cps:
       at: 2021-11-12T18:39:20.737Z
 ---
 
-## Parents
+## Overview
 
-- [No Frills](/scorecard-77146/objectives/objective-207718.md)
-
-## Categories
-
-- [Internal](/scorecard-77147/categories/category-203617.md)
-
-## Measures
-
-- [Cost per plane trip](/scorecard-77147/measures/measure-423509.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Steve Smith
 
 ## Status — Dec-25 (Below Plan)
 
@@ -46,3 +39,17 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Parents
+
+- [No Frills](/scorecard-77146/objectives/objective-207718.md)
+
+### Categories
+
+- [Internal](/scorecard-77147/categories/category-203617.md)
+
+### Measures
+
+- [Cost per plane trip](/scorecard-77147/measures/measure-423509.md)

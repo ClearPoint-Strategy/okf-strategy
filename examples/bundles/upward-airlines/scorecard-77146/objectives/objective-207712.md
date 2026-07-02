@@ -1,10 +1,6 @@
 ---
 type: Objective
 title: Very Low Ticket Prices
-description: Research indicates that price is the key factor that consumers
-  consider when purchasing airline tickets. We want to not only remain
-  competitive, but want our brand to be associated with delivering more for
-  less.
 resource: clearpoint://scorecard/77146/objective/207712
 tags:
   - perspective:customer
@@ -32,22 +28,18 @@ cps:
       at: 2025-11-17T17:18:51.357Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Greg Garcia
+
+## Description
+
+Research indicates that price is the key factor that consumers consider when purchasing airline tickets. We want to not only remain competitive, but want our brand to be associated with delivering more for less.
+
 ## Details
 
-- Balanced Scorecard: customer
-
-## Children
-
-- [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)
-- [Competitive Ticket Prices](/scorecard-77149/objectives/objective-207744.md)
-
-## Categories
-
-- [👥 Customer](/scorecard-77146/categories/category-203612.md)
-
-## Measures
-
-- [Ticket price differential](/scorecard-77146/measures/measure-423484.md)
+- **Balanced Scorecard:** customer
 
 ## Status — Dec-25 (Caution)
 
@@ -57,3 +49,18 @@ cps:
 
 
 **Status history.** Nov-25: No Information · Oct-25: No Information · Sep-25: No Information
+
+## Linkages
+
+### Children
+
+- [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)
+- [Competitive Ticket Prices](/scorecard-77149/objectives/objective-207744.md)
+
+### Categories
+
+- [👥 Customer](/scorecard-77146/categories/category-203612.md)
+
+### Measures
+
+- [Ticket price differential](/scorecard-77146/measures/measure-423484.md)

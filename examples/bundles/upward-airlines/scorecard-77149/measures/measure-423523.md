@@ -41,17 +41,11 @@ cps:
     dataResource: /scorecard-77149/data/measure-423523-series.json
 ---
 
-## Parents
+## Overview
 
-- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
-
-## Objectives
-
-- [Reliable Departures](/scorecard-77149/objectives/objective-207743.md)
-
-## Initiatives
-
-- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** James Crockett
+- **Reporting Frequency:** Monthly
 
 **Actual** — 86 (Dec-25) · trend [79, 80, 82, 83, 84, 86]
 
@@ -63,3 +57,17 @@ cps:
 
 
 **Status history.** Nov-25: No Information · Oct-25: No Information · Sep-25: No Information
+
+## Linkages
+
+### Parents
+
+- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
+
+### Objectives
+
+- [Reliable Departures](/scorecard-77149/objectives/objective-207743.md)
+
+### Initiatives
+
+- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

@@ -26,20 +26,28 @@ cps:
       at: 2020-12-15T20:30:06.593Z
 ---
 
-## Parents
+## Overview
 
-- [No Frills](/scorecard-77146/objectives/objective-207718.md)
-
-## Categories
-
-- [Internal](/scorecard-77148/categories/category-203621.md)
-
-## Measures
-
-- [Internal cost per flight](/scorecard-77148/measures/measure-423522.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Steve Smith
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** Unlike other regions, we are doing very well in the measure, due to the great process we have in place.
 
 **Recommendations.** Share best practices with other two regions.
+
+
+## Linkages
+
+### Parents
+
+- [No Frills](/scorecard-77146/objectives/objective-207718.md)
+
+### Categories
+
+- [Internal](/scorecard-77148/categories/category-203621.md)
+
+### Measures
+
+- [Internal cost per flight](/scorecard-77148/measures/measure-423522.md)

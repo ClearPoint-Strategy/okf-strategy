@@ -35,8 +35,18 @@ cps:
     dataResource: /scorecard-7807/data/measure-113496-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
+- **Scorecard:** Fire Department
+- **Owner:** Ron Troupe
 
 **Actual** — 90 (Dec-22) · trend [75, 85, 86, 83, 84, 90]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
+
+- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)

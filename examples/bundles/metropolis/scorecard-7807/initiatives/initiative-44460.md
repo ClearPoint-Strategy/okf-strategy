@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Determine new fire headquarters location
-description: Because of changing city priorities, we need to move our fire
-  headquarters and determine the best location.
 resource: clearpoint://scorecard/7807/initiative/44460
 timestamp: 2021-01-21T22:46:38.770Z
 cps:
@@ -29,20 +27,35 @@ cps:
       at: 2021-01-21T22:46:38.770Z
 ---
 
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Rhonda Fields
+- **Dates:** 2020-08-09 – 2021-12-04
+
+## Description
+
+Because of changing city priorities, we need to move our fire headquarters and determine the best location.
+
 ## Details
 
-- Budget: 500,000
+- **Budget:** 500,000
 
-## Parents
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Establish a plan for renovation and change](/scorecard-7612/initiatives/initiative-159341.md)
 
-## Objectives
+### Objectives
 
 - [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
 - [Community's wellness](/scorecard-7807/objectives/objective-54700.md)
 
-## Milestones
+### Milestones
 
 - [Test options](/scorecard-7807/milestones/milestone-54216.md)
 - [Build partner committee](/scorecard-7807/milestones/milestone-54212.md)

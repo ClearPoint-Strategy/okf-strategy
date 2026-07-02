@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7805/data/measure-111265-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** John Smith
+
+**Actual** — 80 (Dec-22) · trend [85, 80, 75, 80]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Citizen Satisfaction](/scorecard-7612/measures/measure-553397.md)
 
-## Objectives
+### Objectives
 
 - [Safe & Prepared Community](/scorecard-7805/objectives/objective-54682.md)
-
-**Actual** — 80 (Dec-22) · trend [85, 80, 75, 80]

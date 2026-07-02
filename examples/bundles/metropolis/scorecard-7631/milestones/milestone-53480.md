@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:18:23.170Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Mark Cutler
+- **Dates:** 2022-12-31 – 2023-02-03
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)

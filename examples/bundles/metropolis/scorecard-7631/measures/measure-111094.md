@@ -37,8 +37,18 @@ cps:
     dataResource: /scorecard-7631/data/measure-111094-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Employee Satisfaction](/scorecard-7631/objectives/objective-54235.md)
+- **Scorecard:** Airport
+- **Owner:** Richard Grayson
 
 **Actual** — 80 (Dec-22) · trend [85, 83, 78, 81, 77, 80]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
+
+- [Employee Satisfaction](/scorecard-7631/objectives/objective-54235.md)

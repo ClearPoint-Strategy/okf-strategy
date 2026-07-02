@@ -30,8 +30,18 @@ cps:
       at: 2025-02-26T15:20:48.427Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Ashley Caper
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-11-25 – 2026-02-03
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
-
-**Status history.** Q4-25: Caution

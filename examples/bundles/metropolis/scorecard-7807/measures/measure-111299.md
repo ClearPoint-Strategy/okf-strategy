@@ -43,8 +43,18 @@ cps:
     dataResource: /scorecard-7807/data/measure-111299-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
+- **Scorecard:** Fire Department
+- **Owner:** Maggie Sawyer
 
 **Actual** — 1023 (Dec-22) · trend [970, 1050, 1189, 1050, 971, 1023]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Objectives
+
+- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)

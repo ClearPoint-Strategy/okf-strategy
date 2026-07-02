@@ -42,15 +42,24 @@ cps:
     dataResource: /scorecard-77149/data/measure-542408-series.json
 ---
 
-## Parents
+## Overview
 
-- [# customer complaints per 1,000 tickets](/scorecard-77146/measures/measure-423488.md)
-
-## Objectives
-
-- [Flight Attendant Customer Service](/scorecard-77149/objectives/objective-271189.md)
-- [Employee Satisfaction](/scorecard-77149/objectives/objective-207747.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Kimberly Kupcha
+- **Reporting Frequency:** Quarterly
 
 **Number of calls** — 1200 (Dec-25) · trend [1642, 1563, 1462, 1200]
 
-**Status history.** Q4-25: Above Target
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parents
+
+- [# customer complaints per 1,000 tickets](/scorecard-77146/measures/measure-423488.md)
+
+### Objectives
+
+- [Flight Attendant Customer Service](/scorecard-77149/objectives/objective-271189.md)
+- [Employee Satisfaction](/scorecard-77149/objectives/objective-207747.md)

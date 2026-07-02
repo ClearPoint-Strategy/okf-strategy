@@ -26,9 +26,10 @@ cps:
       at: 2021-11-12T18:44:52.417Z
 ---
 
-## Parents
+## Overview
 
-- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Steve Smith
 
 ## Status — Dec-25 (Below Plan)
 
@@ -38,3 +39,9 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Parents
+
+- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)

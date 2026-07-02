@@ -47,8 +47,21 @@ cps:
     dataResource: /scorecard-7612/data/milestone-270084-series.json
 ---
 
-## Parent Initiative
+## Overview
 
-- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Rhonda Fields
+- **Reporting Frequency:** Monthly
+- **Dates:** 2022-04-23 – 2023-01-10
+- **Tags:** Milestone Template #1
 
 **Budget** — 8000 (Jun-22) · trend [8000, 8000, 8000, 8000, 8000, 8000]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
+
+- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

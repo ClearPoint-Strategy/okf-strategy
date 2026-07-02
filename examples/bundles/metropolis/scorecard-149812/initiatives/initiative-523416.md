@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Identify and hold additional public safety events
-description: We are looking for exciting events in order to teach people about
-  basic personal safety. We want people to understand steps they can take to be
-  safer and we want them to know members of their local police force.
 resource: clearpoint://scorecard/149812/initiative/523416
 timestamp: 2023-03-23T18:13:32.773Z
 cps:
@@ -33,21 +30,37 @@ cps:
       at: 2023-03-23T18:13:32.773Z
 ---
 
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Steve Lombard
+- **Collaborators:** John Smith, Catherine Yochum
+- **Dates:** 2019-12-28 – 2020-08-29
+
+## Description
+
+We are looking for exciting events in order to teach people about basic personal safety. We want people to understand steps they can take to be safer and we want them to know members of their local police force.
+
 ## Details
 
-- Budget: 10,000
-- Priority: High
+- **Budget:** 10,000
+- **Priority:** High
 
-## Parents
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)
 - [Identify and hold additional safety events](/scorecard-149810/initiatives/initiative-523408.md)
 
-## Objectives
+### Objectives
 
 - [Safe & Prepared Community](/scorecard-149812/objectives/objective-555876.md)
 
-## Milestones
+### Milestones
 
 - [Build partner committee](/scorecard-149812/milestones/milestone-974592.md)
 - [Explore and research safety events in other jurisdictions](/scorecard-149812/milestones/milestone-974593.md)

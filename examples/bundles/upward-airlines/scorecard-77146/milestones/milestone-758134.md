@@ -28,6 +28,14 @@ cps:
       at: 2025-02-26T15:26:20Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Lawrence Sito
+- **Dates:** 2025-08-01 – 2025-10-19 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new HR hiring process](/scorecard-77146/initiatives/initiative-211890.md)

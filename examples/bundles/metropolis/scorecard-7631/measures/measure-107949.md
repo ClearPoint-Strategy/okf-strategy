@@ -37,8 +37,18 @@ cps:
     dataResource: /scorecard-7631/data/measure-107949-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Satisfied Customers](/scorecard-7631/objectives/objective-53628.md)
+- **Scorecard:** Airport
+- **Owner:** Mark Cutler
 
 **Actual** — 78 (Dec-22) · trend [85, 82, 80, 78]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Objectives
+
+- [Satisfied Customers](/scorecard-7631/objectives/objective-53628.md)

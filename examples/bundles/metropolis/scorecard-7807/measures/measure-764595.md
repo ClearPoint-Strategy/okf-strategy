@@ -35,4 +35,8 @@ cps:
     dataResource: /scorecard-7807/data/measure-764595-series.json
 ---
 
+## Overview
+
+- **Scorecard:** Fire Department
+
 **ICMA - County and City Min.** — 47 (Apr-21) · trend [47]

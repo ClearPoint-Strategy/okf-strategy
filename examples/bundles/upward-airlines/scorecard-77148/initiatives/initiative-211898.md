@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Prepare for summer sale
-description: Many more flights are booked during our summer sale, so we need to
-  prepare for increased customer service during this time and a passenger surge
-  during the months when sale flights are valid.
 resource: clearpoint://scorecard/77148/initiative/211898
 timestamp: 2025-03-10T22:24:27.713Z
 cps:
@@ -33,21 +30,34 @@ cps:
       at: 2025-03-10T22:24:27.713Z
 ---
 
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Donald Duff
+- **Dates:** 2024-12-28 – 2025-03-10
+
+## Description
+
+Many more flights are booked during our summer sale, so we need to prepare for increased customer service during this time and a passenger surge during the months when sale flights are valid.
+
 ## Details
 
-- Budget: $0
-
-## Parents
-
-- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77148/objectives/objective-207733.md)
-- [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)
+- **Budget:** $0
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We are well-prepared for our summer sale.
 
 **Recommendations.** We should hold another customer service training before our summer sale begins.
+
+
+## Linkages
+
+### Parents
+
+- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77148/objectives/objective-207733.md)
+- [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)

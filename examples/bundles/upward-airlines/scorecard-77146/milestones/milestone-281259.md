@@ -29,6 +29,15 @@ cps:
       at: 2025-02-26T15:26:20.043Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-03-01 – 2025-04-30 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)

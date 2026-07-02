@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:30:45.013Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Catherine Mendoza
+- **Dates:** 2025-02-19 – 2025-04-06
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create Upskilling for Employees](/scorecard-77147/initiatives/initiative-163373.md)
-
-**Status history.** Dec-25: No Information

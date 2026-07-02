@@ -1,8 +1,6 @@
 ---
 type: Measure
 title: Ticket price differential
-description: We want to measure our ticket prices compared to the industry
-  average and our target prices.
 resource: clearpoint://scorecard/77147/measure/423499
 timestamp: 2017-10-10T17:31:16.603Z
 cps:
@@ -48,13 +46,19 @@ cps:
     dataResource: /scorecard-77147/data/measure-423499-series.json
 ---
 
-## Parents
+## Overview
 
-- [Ticket price differential](/scorecard-77146/measures/measure-423484.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Janice Jones
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 13 (Dec-25) · trend [11, 12, 14, 13]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We want to measure our ticket prices compared to the industry average and our target prices.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We are doing better in terms of our target, but we still have to do better to be below the industry differential.
 
@@ -62,3 +66,9 @@ cps:
 
 
 **Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Parents
+
+- [Ticket price differential](/scorecard-77146/measures/measure-423484.md)

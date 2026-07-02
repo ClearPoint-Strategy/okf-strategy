@@ -51,13 +51,11 @@ cps:
     dataResource: /scorecard-77149/data/measure-423532-series.json
 ---
 
-## Parents
+## Overview
 
-- [Expenses](/scorecard-77146/measures/measure-423497.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77149/objectives/objective-207742.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Clarice Strong
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3650 (Dec-25) · trend [3571, 3647, 3421, 3215, 3341, 3650]
 
@@ -69,3 +67,13 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Caution
+
+## Linkages
+
+### Parents
+
+- [Expenses](/scorecard-77146/measures/measure-423497.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77149/objectives/objective-207742.md)

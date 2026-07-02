@@ -35,8 +35,18 @@ cps:
     dataResource: /scorecard-7805/data/measure-111286-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)
+- **Scorecard:** Police Department
+- **Owner:** Maggie Sawyer
 
 **Actual** — 900 (Dec-22) · trend [800, 950, 1100, 1150, 1000, 900]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Objectives
+
+- [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)

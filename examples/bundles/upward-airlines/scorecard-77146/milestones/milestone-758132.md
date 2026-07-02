@@ -25,6 +25,13 @@ cps:
       at: 2025-02-26T15:29:36.307Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Dates:** 2025-10-21 – 2026-03-26 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new HR hiring process](/scorecard-77146/initiatives/initiative-211890.md)

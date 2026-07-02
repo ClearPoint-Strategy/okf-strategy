@@ -47,12 +47,22 @@ cps:
     dataResource: /scorecard-7805/data/measure-111268-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Maggie Sawyer
+
+**Actual** — 3525 (Dec-22) · trend [2930, 2968, 3115, 3367, 3441, 3525]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Expenses](/scorecard-7612/measures/measure-110209.md)
 
-## Objectives
+### Objectives
 
 - [Financial Wellness](/scorecard-7805/objectives/objective-54685.md)
-
-**Actual** — 3525 (Dec-22) · trend [2930, 2968, 3115, 3367, 3441, 3525]

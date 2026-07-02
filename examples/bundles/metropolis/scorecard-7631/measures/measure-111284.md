@@ -38,12 +38,23 @@ cps:
     dataResource: /scorecard-7631/data/measure-111284-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Steve Lombard
+- **Reporting Frequency:** Annual
+
+**Actual** — 87 (Dec-22) · trend [89, 77, 91, 87]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Citizen Satisfaction](/scorecard-7612/measures/measure-553397.md)
 
-## Objectives
+### Objectives
 
 - [Satisfied Customers](/scorecard-7631/objectives/objective-53628.md)
-
-**Actual** — 87 (Dec-22) · trend [89, 77, 91, 87]

@@ -38,10 +38,21 @@ cps:
     dataResource: /scorecard-7612/data/measure-553397-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Richard Grayson
+- **Reporting Frequency:** Annual
+
+**Actual** — 82.33333333 (Dec-22) · trend [86.33333333, 79, 80.33333333, 82.33333333]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Percent of citizens feeling safe at the airport](/scorecard-7631/measures/measure-111284.md)
 - [Percent of citizens who feel "extremely safe" from crime](/scorecard-7805/measures/measure-111265.md)
 - [Percent of citizens who feel "extremely safe" from fire](/scorecard-7807/measures/measure-111289.md)
-
-**Actual** — 82.33333333 (Dec-22) · trend [86.33333333, 79, 80.33333333, 82.33333333]

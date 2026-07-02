@@ -1,10 +1,6 @@
 ---
 type: Initiative
 title: Website Upgrade (Data & Charts)
-description: Detailed project management is possible by leveraging project
-  evaluations to track quantitative initiative information. Design and Upgrade
-  Costs To Date - manually input each month based on expenditures Total Spending
-  To Date - adding up th
 resource: clearpoint://scorecard/149810/initiative/523406
 tags:
   - theme:upgrade-initiative-template
@@ -82,30 +78,44 @@ cps:
     dataResource: /scorecard-149810/data/initiative-523406-series.json
 ---
 
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Jerry Johnson
+- **Reporting Frequency:** Monthly
+- **Dates:** 2021-08-17 – 2022-08-31
+- **Tags:** Upgrade Initiative Template
+
+**Actual % Complete** — 86 (Dec-22) · trend [72, 73, 80, 82, 86, 86]
+
+## Description
+
+Detailed project management is possible by leveraging project evaluations to track quantitative initiative information. Design and Upgrade Costs To Date - manually input each month based on expenditures Total Spending To Date - adding up the Design and Upgrade Costs To Date Project Budget - consistently $1,000,000 throughout the project Actual % Complete - determined each month and references the Percent Complete field on the detail page Planned % Complete - manually determined based on the milestones and general flow of the project Budget based on % complete - the Project Budget multiplied by the Actual Percent complete to see how much budget we should be using at this point in the project Variance from Target - shows how far over or under budget we are % Variance - expresses Variance from Target as a percentage. The automatic evaluation for the status of this initiative is determined by the % Variance.
+
 ## Details
 
-- Budget: $56,000
-- Level of Effort:  High
-- Level of Impact:  High
-- Priority:  High
+- **Budget:** $56,000
+- **Level of Effort:**  High
+- **Level of Impact:**  High
+- **Priority:**  High
 
-## Objectives
+## Linkages
+
+### Objectives
 
 - [Accountable & Responsive City Government](/scorecard-149810/objectives/objective-555859.md)
 
-## Measures
+### Measures
 
 - [Expenses](/scorecard-149810/measures/measure-1426484.md)
 
-## Milestones
+### Milestones
 
 - [ADA compliant design](/scorecard-149810/milestones/milestone-974557.md)
 - [Online bill payment integration](/scorecard-149810/milestones/milestone-974558.md)
 - [Email reminder setup](/scorecard-149810/milestones/milestone-974559.md)
 - [Inform citizens](/scorecard-149810/milestones/milestone-974560.md)
 
-## Action Items
+### Action Items
 
 - [Advertise upgrade](/scorecard-149810/action-items/actionItem-356090.md)
-
-**Actual % Complete** — 86 (Dec-22) · trend [72, 73, 80, 82, 86, 86]

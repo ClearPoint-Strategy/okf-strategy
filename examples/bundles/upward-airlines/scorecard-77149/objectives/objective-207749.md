@@ -26,20 +26,28 @@ cps:
       at: 2016-07-27T22:12:01.373Z
 ---
 
-## Parents
+## Overview
 
-- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
-
-## Categories
-
-- [Internal](/scorecard-77149/categories/category-203625.md)
-
-## Measures
-
-- [% of population served within 20 miles](/scorecard-77149/measures/measure-423530.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Donald Duff
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We have established major routes to popular vacation destinations.
 
 **Recommendations.** We must continue to expand to new locations as rapidly as possible if we are going to maintain our market share.
+
+
+## Linkages
+
+### Parents
+
+- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
+
+### Categories
+
+- [Internal](/scorecard-77149/categories/category-203625.md)
+
+### Measures
+
+- [% of population served within 20 miles](/scorecard-77149/measures/measure-423530.md)

@@ -24,7 +24,14 @@ cps:
       at: 2023-01-06T19:34:10.150Z
 ---
 
-## Milestones
+## Overview
+
+- **Scorecard:** ClearPoint Implementation
+- **Dates:** 2023-01-01 – 2023-04-30
+
+## Linkages
+
+### Milestones
 
 - [Kickoff Call](/scorecard-114119/milestones/milestone-948282.md)
 - [Setup information sent to ClearPoint](/scorecard-114119/milestones/milestone-948283.md)

@@ -29,8 +29,17 @@ cps:
       at: 2025-05-01T21:01:54.780Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Donald Duff
+- **Dates:** 2025-01-02 – 2025-02-25
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [New website design](/scorecard-77147/initiatives/initiative-211899.md)
-
-**Status history.** Dec-25: Caution

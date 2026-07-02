@@ -28,8 +28,20 @@ cps:
       at: 2025-02-26T15:29:36.440Z
 ---
 
-## Parent Initiative
+## Overview
 
-- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Madison
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-08-02 – 2025-09-15 (completed)
+
+## Status — Dec-25 (Above Target)
+
 
 **Status history.** Q1-24: Above Target · Q1-24: Above Target · Q1-24: Above Target · Q1-24: Above Target
+
+## Linkages
+
+### Parent Initiative
+
+- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)

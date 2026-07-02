@@ -23,15 +23,25 @@ cps:
       at: 2016-06-10T20:52:30.373Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Richard Grayson
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Accountable & Responsive City Government](/scorecard-7612/objectives/objective-53691.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-7807/categories/category-15970.md)
 
-## Measures
+### Measures
 
 - [Average response time of priority one calls](/scorecard-7807/measures/measure-111288.md)
 - [Percent of fire department on scene within 12 minutes](/scorecard-7807/measures/measure-111290.md)
@@ -39,7 +49,7 @@ cps:
 - [# of calls for fire emergency](/scorecard-7807/measures/measure-111299.md)
 - [Percent of fires contained within 2 hours](/scorecard-7807/measures/measure-113496.md)
 
-## Initiatives
+### Initiatives
 
 - [Update Fire Department Master Plan and Layout Plan](/scorecard-7807/initiatives/initiative-44459.md)
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

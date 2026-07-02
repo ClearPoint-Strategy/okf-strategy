@@ -29,12 +29,21 @@ cps:
       at: 2023-01-10T22:28:10.317Z
 ---
 
-## Measures
+## Overview
 
-- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
-- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
-- [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Steve Smith
+- **Dates:** 2022-02-27 – 2023-07-08
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We need to hire an outside consultant to develop studies on how the winter weather patterns will affect our take off rates.
+
+
+## Linkages
+
+### Measures
+
+- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
+- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
+- [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)

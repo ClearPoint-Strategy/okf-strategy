@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:19:44.217Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Ted Jackson
+- **Dates:** 2020-06-18 – 2020-08-26
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional public safety events](/scorecard-7805/initiatives/initiative-44448.md)

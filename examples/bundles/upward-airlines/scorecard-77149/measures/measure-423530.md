@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: "% of population served within 20 miles"
-description: We will use this measure to help inform our expansion plans.
 resource: clearpoint://scorecard/77149/measure/423530
 timestamp: 2024-06-05T21:49:23.923Z
 cps:
@@ -46,10 +45,25 @@ cps:
     dataResource: /scorecard-77149/data/measure-423530-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Good locations](/scorecard-77149/objectives/objective-207749.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** James Crockett
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 51 (Dec-25) · trend [48, 49, 50, 51]
 
-**Status history.** Q4-25: Above Target · Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+## Description
+
+We will use this measure to help inform our expansion plans.
+
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Objectives
+
+- [Good locations](/scorecard-77149/objectives/objective-207749.md)

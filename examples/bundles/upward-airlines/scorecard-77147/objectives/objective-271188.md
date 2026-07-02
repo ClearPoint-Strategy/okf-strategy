@@ -26,15 +26,10 @@ cps:
       at: 2021-11-12T18:43:54.123Z
 ---
 
-## Parents
+## Overview
 
-- [Comparable To Other Travel](/scorecard-77146/objectives/objective-207711.md)
-- [Fun Experience](/scorecard-77146/objectives/objective-207716.md)
-
-## Initiatives
-
-- [New website design](/scorecard-77147/initiatives/initiative-211899.md)
-- [Purchase new TV Screens](/scorecard-77149/initiatives/initiative-211896.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Mark Cutler
 
 ## Status — Dec-25 (Above Target)
 
@@ -44,3 +39,15 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Comparable To Other Travel](/scorecard-77146/objectives/objective-207711.md)
+- [Fun Experience](/scorecard-77146/objectives/objective-207716.md)
+
+### Initiatives
+
+- [New website design](/scorecard-77147/initiatives/initiative-211899.md)
+- [Purchase new TV Screens](/scorecard-77149/initiatives/initiative-211896.md)

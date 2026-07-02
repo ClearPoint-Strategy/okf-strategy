@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: "% of population served within 25 miles"
-description: We will use this measure to help inform our expansion plans.
 resource: clearpoint://scorecard/77147/measure/423506
 timestamp: 2017-10-16T15:28:19.670Z
 cps:
@@ -42,17 +41,19 @@ cps:
     dataResource: /scorecard-77147/data/measure-423506-series.json
 ---
 
-## Parents
+## Overview
 
-- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
-
-## Objectives
-
-- [Good Locations](/scorecard-77147/objectives/objective-207730.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Trudy Joplin
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 74 (Dec-25) · trend [72, 71, 69, 72, 73, 74]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We will use this measure to help inform our expansion plans.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** As the population grows more people fly with us, so we feel really great about our progress.
 
@@ -60,3 +61,13 @@ cps:
 
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
+
+### Objectives
+
+- [Good Locations](/scorecard-77147/objectives/objective-207730.md)

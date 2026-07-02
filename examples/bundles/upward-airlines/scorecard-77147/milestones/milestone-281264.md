@@ -46,18 +46,27 @@ cps:
     dataResource: /scorecard-77147/data/milestone-281264-series.json
 ---
 
-## Details
+## Overview
 
-- Milestone Review: at_risk
-
-## Parent Initiative
-
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
-
-## Action Items
-
-- [Schedule conference call and create agenda for the partners to review airline traffic patterns.](/scorecard-77146/action-items/actionItem-182621.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Donald Duff
+- **Reporting Frequency:** Monthly 2025-26
+- **Dates:** 2025-03-01 – 2025-05-31 (completed)
 
 **Budget** — 500 (Apr-25) · trend [500, 500, 500, 500]
 
+## Details
+
+- **Milestone Review:** at_risk
+
 **Status history.** Apr-25: Below Plan · Apr-25: Below Plan · Apr-25: Below Plan · Apr-25: Below Plan
+
+## Linkages
+
+### Parent Initiative
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+
+### Action Items
+
+- [Schedule conference call and create agenda for the partners to review airline traffic patterns.](/scorecard-77146/action-items/actionItem-182621.md)

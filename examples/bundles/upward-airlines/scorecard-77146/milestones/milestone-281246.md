@@ -30,12 +30,22 @@ cps:
       at: 2025-04-29T19:52:06.373Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Ashley Caper
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-09-22 – 2025-11-24
+
 ## Details
 
-- Milestone Review: at_risk
+- **Milestone Review:** at_risk
 
-## Parent Initiative
+## Status — Dec-25 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-
-**Status history.** Q4-25: Below Plan

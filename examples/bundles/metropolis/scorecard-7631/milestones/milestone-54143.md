@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:17:50.747Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Ron Troupe
+- **Dates:** 2022-03-30 – 2022-04-23
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-7631/initiatives/initiative-43616.md)

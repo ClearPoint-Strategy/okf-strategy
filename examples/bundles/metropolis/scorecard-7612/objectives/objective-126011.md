@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Strong Local Economy
-description: We want to ensure our economy is thriving, and we can look towards
-  the long term businesses in the area as well as new businesses. Our city
-  should be known as an innovator and entrepreneurial friendly space.
 resource: clearpoint://scorecard/7612/objective/126011
 timestamp: 2017-11-21T15:16:56.927Z
 cps:
@@ -26,10 +23,24 @@ cps:
       at: 2017-11-21T15:16:56.927Z
 ---
 
-## Categories
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** ClearPoint Support
+
+## Description
+
+We want to ensure our economy is thriving, and we can look towards the long term businesses in the area as well as new businesses. Our city should be known as an innovator and entrepreneurial friendly space.
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Categories
 
 - [Finance](/scorecard-7612/categories/category-15755.md)
 
-## Measures
+### Measures
 
 - [Contract bids awarded to local businesses](/scorecard-7612/measures/measure-274715.md)

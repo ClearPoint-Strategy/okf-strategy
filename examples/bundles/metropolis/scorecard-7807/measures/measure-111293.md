@@ -42,12 +42,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111293-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Rhonda Fields
+
+**Actual** — 8.05 (Dec-22) · trend [6.32, 4.47, 2.13, 4.7, 6.83, 8.05]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-## Objectives
+### Objectives
 
 - [Financial Health](/scorecard-7807/objectives/objective-54703.md)
-
-**Actual** — 8.05 (Dec-22) · trend [6.32, 4.47, 2.13, 4.7, 6.83, 8.05]

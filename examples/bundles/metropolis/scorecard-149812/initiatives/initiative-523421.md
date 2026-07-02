@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Create a community policing initiative on the west side
-description: To mitigate crime, a community policing initiative is the best
-  option on the west side.
 resource: clearpoint://scorecard/149812/initiative/523421
 timestamp: 2023-03-23T17:38:33.667Z
 cps:
@@ -29,6 +27,21 @@ cps:
       at: 2023-03-23T17:38:33.667Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Rhonda Fields
+- **Dates:** 2021-01-26 – 2021-02-23
+
+## Description
+
+To mitigate crime, a community policing initiative is the best option on the west side.
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Measures
 
 - [Crimes per 1000 citizens](/scorecard-149812/measures/measure-1426534.md)

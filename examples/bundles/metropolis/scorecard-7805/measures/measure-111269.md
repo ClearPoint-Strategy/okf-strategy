@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7805/data/measure-111269-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Ron Troupe
+
+**Actual** — 5.2 (Dec-22) · trend [17.2, 15.41, 11.36, 9.13, 7.59, 5.2]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-## Objectives
+### Objectives
 
 - [Financial Wellness](/scorecard-7805/objectives/objective-54685.md)
-
-**Actual** — 5.2 (Dec-22) · trend [17.2, 15.41, 11.36, 9.13, 7.59, 5.2]

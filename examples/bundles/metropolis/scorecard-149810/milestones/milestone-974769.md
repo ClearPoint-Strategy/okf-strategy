@@ -23,10 +23,20 @@ cps:
       at: 2023-03-24T16:47:55.820Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Dates:** 2022-08-04 – 2022-09-04
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Employee training](/scorecard-149810/initiatives/initiative-523405.md)
 
-## Parent Milestone
+### Parent Milestone
 
 - [Implementation test phase](/scorecard-149810/milestones/milestone-974553.md)

@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:19:22.980Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Mark Cutler
+- **Dates:** 2020-05-10 – 2020-06-22
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional public safety events](/scorecard-7805/initiatives/initiative-44448.md)

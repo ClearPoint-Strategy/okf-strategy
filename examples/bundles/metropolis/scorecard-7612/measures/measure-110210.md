@@ -1,8 +1,6 @@
 ---
 type: Measure
 title: Airport efficiency rating
-description: Our city's airport each month compiles information on its
-  operational efficiency.
 resource: clearpoint://scorecard/7612/measure/110210
 timestamp: 2017-10-27T17:31:44.187Z
 cps:
@@ -39,17 +37,31 @@ cps:
     dataResource: /scorecard-7612/data/measure-110210-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Jimmy Olsen
+
+**Actual** — 99 (Dec-22) · trend [92, 89, 93, 95, 97, 99]
+
+## Description
+
+Our city's airport each month compiles information on its operational efficiency.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [On time landings and takeoffs](/scorecard-7631/measures/measure-108103.md)
 
-## Objectives
+### Objectives
 
 - [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
 - [Transportation & Mobility](/scorecard-7631/objectives/objective-54271.md)
 
-## Initiatives
+### Initiatives
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)
-
-**Actual** — 99 (Dec-22) · trend [92, 89, 93, 95, 97, 99]

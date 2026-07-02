@@ -38,8 +38,19 @@ cps:
     dataResource: /scorecard-7612/data/measure-274728-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Smart Investments & Purchases](/scorecard-7612/objectives/objective-277060.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Ted Jackson
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 74 (Dec-22) · trend [60, 63, 70, 74, 74, 74]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Objectives
+
+- [Smart Investments & Purchases](/scorecard-7612/objectives/objective-277060.md)

@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:16:26.183Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Lance Cummins
+- **Dates:** 2022-08-19 – 2022-11-10
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [City Restaurant Audits](/scorecard-7612/initiatives/initiative-43641.md)

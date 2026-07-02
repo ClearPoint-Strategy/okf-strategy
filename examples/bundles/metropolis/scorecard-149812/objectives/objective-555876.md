@@ -23,20 +23,30 @@ cps:
       at: 2023-03-23T17:38:33.577Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Steve Lombard
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Well-Maintained Infrastructure](/scorecard-149810/objectives/objective-555863.md)
 - [Safe & Prepared Community](/scorecard-149810/objectives/objective-555865.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-149812/categories/category-309687.md)
 
-## Measures
+### Measures
 
 - [Percent of citizens who feel "extremely safe" from crime](/scorecard-149812/measures/measure-1426526.md)
 
-## Initiatives
+### Initiatives
 
 - [Identify and hold additional public safety events](/scorecard-149812/initiatives/initiative-523416.md)
 - [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)

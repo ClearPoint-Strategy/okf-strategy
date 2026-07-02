@@ -29,12 +29,23 @@ cps:
       at: 2025-04-29T19:51:10.907Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Catherine Mendoza
+- **Dates:** 2026-03-01 – 2026-05-01
+
 ## Details
 
-- Milestone Review: at_risk
+- **Milestone Review:** at_risk
 
-## Parent Initiative
+## Status — Dec-25 (Caution)
+
+
+**Status history.** Sep-25: Caution
+
+## Linkages
+
+### Parent Initiative
 
 - [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
-
-**Status history.** Dec-25: Caution · Sep-25: Caution

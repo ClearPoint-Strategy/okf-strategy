@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: "% of highly satisified employees"
-description: We have a employee survery every quarter.
 resource: clearpoint://scorecard/77148/measure/423515
 timestamp: 2017-10-06T19:54:59.537Z
 cps:
@@ -47,13 +46,19 @@ cps:
     dataResource: /scorecard-77148/data/measure-423515-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Employee Satisfaction](/scorecard-77148/objectives/objective-207738.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Mark Cutler
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 83 (Dec-25) · trend [83, 84, 81, 83]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We have a employee survery every quarter.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We have been doing well keeping our employees happy since Q3-2018.
 
@@ -61,3 +66,9 @@ cps:
 
 
 **Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Objectives
+
+- [Employee Satisfaction](/scorecard-77148/objectives/objective-207738.md)

@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: "% of highly satisified employees"
-description: We have an employee survey every quarter. We are improving each year.
 resource: clearpoint://scorecard/77149/measure/423527
 timestamp: 2024-06-05T21:49:22.573Z
 cps:
@@ -47,17 +46,19 @@ cps:
     dataResource: /scorecard-77149/data/measure-423527-series.json
 ---
 
-## Parents
+## Overview
 
-- [% employee ownership](/scorecard-77146/measures/measure-423495.md)
-
-## Objectives
-
-- [Employee Satisfaction](/scorecard-77149/objectives/objective-207747.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Joseph Lucco
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 65 (Dec-25) · trend [62, 60, 65, 65]
 
-## Status — Q4-25 (Below Plan)
+## Description
+
+We have an employee survey every quarter. We are improving each year.
+
+## Status — Dec-25 (Below Plan)
 
 **Analysis.** We are growing but will still be far off from our target for quite some time at this rate.
 
@@ -65,3 +66,13 @@ cps:
 
 
 **Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Parents
+
+- [% employee ownership](/scorecard-77146/measures/measure-423495.md)
+
+### Objectives
+
+- [Employee Satisfaction](/scorecard-77149/objectives/objective-207747.md)

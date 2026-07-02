@@ -27,8 +27,17 @@ cps:
       at: 2025-02-26T15:20:49.103Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2026-02-03 – 2026-04-05
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
-
-**Status history.** Q4-25: No Information

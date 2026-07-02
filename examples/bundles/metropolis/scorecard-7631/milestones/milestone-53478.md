@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:16:09.233Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Joseph Lucco
+- **Dates:** 2022-07-21 – 2023-01-29
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)

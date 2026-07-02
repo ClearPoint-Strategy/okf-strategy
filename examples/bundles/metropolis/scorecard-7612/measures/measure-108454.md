@@ -1,10 +1,6 @@
 ---
 type: Measure
 title: Percent of eligible voters who voted in the last city election
-description: In order to have a vibrant, inclusive community, we need our
-  citizenry to feel their city government is fairly elected and represents the
-  will of the majority. One way to ensure that is to have as many eligible
-  voters as possible participat
 resource: clearpoint://scorecard/7612/measure/108454
 timestamp: 2018-02-09T20:24:43.847Z
 cps:
@@ -46,8 +42,22 @@ cps:
     dataResource: /scorecard-7612/data/measure-108454-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Active & Engaged Community](/scorecard-7612/objectives/objective-53692.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** John Smith
 
 **Actual** — 75 (Dec-22) · trend [84, 84, 84, 75]
+
+## Description
+
+In order to have a vibrant, inclusive community, we need our citizenry to feel their city government is fairly elected and represents the will of the majority. One way to ensure that is to have as many eligible voters as possible participating in elections. Moreover, we want our citizens to be excited about elections and voting in them.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Objectives
+
+- [Active & Engaged Community](/scorecard-7612/objectives/objective-53692.md)

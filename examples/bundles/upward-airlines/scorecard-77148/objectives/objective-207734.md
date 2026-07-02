@@ -26,25 +26,33 @@ cps:
       at: 2016-07-27T22:03:53.007Z
 ---
 
-## Parents
+## Overview
 
-- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
-
-## Categories
-
-- [Customer](/scorecard-77148/categories/category-203620.md)
-
-## Measures
-
-- [% of on time departures](/scorecard-77148/measures/measure-423511.md)
-- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
-
-## Initiatives
-
-- [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Donald Duff
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** We really need to focus on getting our planes out on time.
 
 **Recommendations.** Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve.
+
+
+## Linkages
+
+### Parents
+
+- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
+
+### Categories
+
+- [Customer](/scorecard-77148/categories/category-203620.md)
+
+### Measures
+
+- [% of on time departures](/scorecard-77148/measures/measure-423511.md)
+- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
+
+### Initiatives
+
+- [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)

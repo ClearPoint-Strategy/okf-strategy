@@ -1,10 +1,6 @@
 ---
 type: Objective
 title: Well-Maintained Infrastructure
-description: As the number of businesses in the city and the overall population
-  grows, the infrastructure of our community has become a major priority;
-  transportation should be easy for our citizens and our buildings need to be
-  safe.
 resource: clearpoint://scorecard/149810/objective/555863
 timestamp: 2023-03-23T17:38:27.660Z
 cps:
@@ -27,15 +23,29 @@ cps:
       at: 2023-03-23T17:38:27.660Z
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Rhonda Fields
+
+## Description
+
+As the number of businesses in the city and the overall population grows, the infrastructure of our community has become a major priority; transportation should be easy for our citizens and our buildings need to be safe.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Children
 
 - [Well-maintained airfield](/scorecard-149811/objectives/objective-555869.md)
 - [Safe & Prepared Community](/scorecard-149812/objectives/objective-555876.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-149810/categories/category-309681.md)
 
-## Measures
+### Measures
 
 - [Potential hazards prevented through routine checks and maintenance](/scorecard-149810/measures/measure-1426489.md)

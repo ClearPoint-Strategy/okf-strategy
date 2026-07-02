@@ -39,17 +39,15 @@ cps:
     dataResource: /scorecard-77147/data/measure-423510-series.json
 ---
 
-## Parents
+## Overview
 
-- [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)
-
-## Objectives
-
-- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Mark Cutler
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 34 (Dec-25) · trend [30, 34, 25, 24, 22, 34]
 
-## Status — Q4-25 (Above Target)
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We have progressed steadily in 2020 and believe we will continue to serve more flights in more cities because of increased demand.
 
@@ -57,3 +55,13 @@ cps:
 
 
 **Status history.** Q3-25: Caution · Q3-25: Caution · Q3-25: Caution
+
+## Linkages
+
+### Parents
+
+- [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)
+
+### Objectives
+
+- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)

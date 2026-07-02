@@ -44,24 +44,17 @@ cps:
     dataResource: /scorecard-77146/data/measure-423483-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: This metric is doing well and is surpassing expectations!
-
-## Children
-
-- [# of new planes purchased](/scorecard-77147/measures/measure-542405.md)
-- [# of new planes purchased](/scorecard-77149/measures/measure-542536.md)
-
-## Objectives
-
-- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
-
-## Initiatives
-
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Trudy Joplin
+- **Reporting Frequency:** Monthly
 
 **Actual** — 7.5 (Dec-25) · trend [6, 6.2, 6.6, 7, 7.3, 7.5]
+
+## Details
+
+- **Variance Report:** This metric is doing well and is surpassing expectations!
 
 ## Status — Dec-25 (Above Target)
 
@@ -71,3 +64,18 @@ cps:
 
 
 **Status history.** Nov-25: Above Target · Oct-25: Above Target · Sep-25: Caution
+
+## Linkages
+
+### Children
+
+- [# of new planes purchased](/scorecard-77147/measures/measure-542405.md)
+- [# of new planes purchased](/scorecard-77149/measures/measure-542536.md)
+
+### Objectives
+
+- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
+
+### Initiatives
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)

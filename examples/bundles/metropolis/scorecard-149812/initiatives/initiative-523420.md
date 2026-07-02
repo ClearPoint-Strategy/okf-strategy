@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Increase police patrols on the west side
-description: Police patrols on the west side need to be increased to catch up
-  with the number of patrols in other parts of the city.
 resource: clearpoint://scorecard/149812/initiative/523420
 timestamp: 2023-03-23T17:38:33.667Z
 cps:
@@ -29,6 +27,21 @@ cps:
       at: 2023-03-23T17:38:33.667Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Lance Cummins
+- **Dates:** 2021-01-26 – 2021-02-23
+
+## Description
+
+Police patrols on the west side need to be increased to catch up with the number of patrols in other parts of the city.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Measures
 
 - [Crimes per 1000 citizens](/scorecard-149812/measures/measure-1426534.md)

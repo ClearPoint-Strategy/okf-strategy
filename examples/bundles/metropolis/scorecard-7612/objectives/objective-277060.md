@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Smart Investments & Purchases
-description: We need to ensure that our investments are sound and are
-  well-supported, as our citizens want to know that their taxpayer dollars are
-  being distributed appropriately.
 resource: clearpoint://scorecard/7612/objective/277060
 timestamp: 2017-12-04T13:37:30.263Z
 cps:
@@ -28,10 +25,25 @@ cps:
       at: 2017-12-04T13:37:30.263Z
 ---
 
-## Categories
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Richard Grayson
+- **Reporting Frequency:** Quarterly
+
+## Description
+
+We need to ensure that our investments are sound and are well-supported, as our citizens want to know that their taxpayer dollars are being distributed appropriately.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Categories
 
 - [Finance](/scorecard-7612/categories/category-15755.md)
 
-## Measures
+### Measures
 
 - [Percent of municipal facilities incorporating energy efficient upgrades](/scorecard-7612/measures/measure-274728.md)

@@ -1,8 +1,6 @@
 ---
 type: Objective
 title: Good Locations
-description: We want to establish relationships with prominent cities, and offer
-  our customers the chance to fly with us wherever they go.
 resource: clearpoint://scorecard/77146/objective/207714
 tags:
   - perspective:customer
@@ -30,27 +28,39 @@ cps:
       at: 2025-11-19T17:41:47.933Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Kimberly Kupcha
+
+## Description
+
+We want to establish relationships with prominent cities, and offer our customers the chance to fly with us wherever they go.
+
 ## Details
 
-- Balanced Scorecard: customer
-
-## Children
-
-- [Good Locations](/scorecard-77147/objectives/objective-207730.md)
-- [Good locations](/scorecard-77148/objectives/objective-207740.md)
-- [Good locations](/scorecard-77149/objectives/objective-207749.md)
-- [Relationship with Eastern U.S. airports](/scorecard-77149/objectives/objective-271313.md)
-
-## Categories
-
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
-
-## Measures
-
-- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
+- **Balanced Scorecard:** customer
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We have established relationships with some cities already.
 
 **Recommendations.** Communicate more with the prominent cities in order to establish these good relationships.
+
+
+## Linkages
+
+### Children
+
+- [Good Locations](/scorecard-77147/objectives/objective-207730.md)
+- [Good locations](/scorecard-77148/objectives/objective-207740.md)
+- [Good locations](/scorecard-77149/objectives/objective-207749.md)
+- [Relationship with Eastern U.S. airports](/scorecard-77149/objectives/objective-271313.md)
+
+### Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+### Measures
+
+- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)

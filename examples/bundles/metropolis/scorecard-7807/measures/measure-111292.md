@@ -47,12 +47,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111292-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Lance Cummins
+
+**Actual** — 2314 (Dec-22) · trend [1970, 2030, 2070, 2160, 2300, 2314]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Expenses](/scorecard-7612/measures/measure-110209.md)
 
-## Objectives
+### Objectives
 
 - [Financial Health](/scorecard-7807/objectives/objective-54703.md)
-
-**Actual** — 2314 (Dec-22) · trend [1970, 2030, 2070, 2160, 2300, 2314]

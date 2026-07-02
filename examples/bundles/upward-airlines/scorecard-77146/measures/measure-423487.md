@@ -45,28 +45,18 @@ cps:
     dataResource: /scorecard-77146/data/measure-423487-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: The cold weather has hurt us. We're looking into encouraging more purchase on direct flights without harming profit.
-
-## Children
-
-- [Major cities with direct flights 3+ times per day](/scorecard-77147/measures/measure-423510.md)
-- [% of tickets with direct routes](/scorecard-77148/measures/measure-423514.md)
-
-## Objectives
-
-- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
-
-## Initiatives
-
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
-
-## Action Items
-
-- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Donald Duff
+- **Collaborators:** Xavier Prova, Lawrence Sito, Steve Smith
+- **Reporting Frequency:** Monthly
 
 **Actual** — 54 (Dec-25) · trend [72, 68, 67, 66, 63, 54]
+
+## Details
+
+- **Variance Report:** The cold weather has hurt us. We're looking into encouraging more purchase on direct flights without harming profit.
 
 ## Status — Dec-25 (Below Plan)
 
@@ -76,3 +66,22 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Above Target
+
+## Linkages
+
+### Children
+
+- [Major cities with direct flights 3+ times per day](/scorecard-77147/measures/measure-423510.md)
+- [% of tickets with direct routes](/scorecard-77148/measures/measure-423514.md)
+
+### Objectives
+
+- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
+
+### Initiatives
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+
+### Action Items
+
+- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)

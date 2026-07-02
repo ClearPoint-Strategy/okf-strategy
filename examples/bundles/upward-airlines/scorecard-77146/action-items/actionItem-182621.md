@@ -30,18 +30,27 @@ cps:
       at: 2024-02-29T14:04:50.690Z
 ---
 
-## Measures
+## Overview
 
-- [Net Profit](/scorecard-77146/measures/measure-423481.md)
-
-## Initiatives
-
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
-
-## Milestones
-
-- [Hire consultants](/scorecard-77147/milestones/milestone-281264.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Izzy Moreno
+- **Dates:** 2023-09-06 – 2023-12-09
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** Before bringing consultants into review our processes, we want to catch the partners up to speed on our findings.
+
+
+## Linkages
+
+### Measures
+
+- [Net Profit](/scorecard-77146/measures/measure-423481.md)
+
+### Initiatives
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+
+### Milestones
+
+- [Hire consultants](/scorecard-77147/milestones/milestone-281264.md)

@@ -26,22 +26,10 @@ cps:
       at: 2021-11-12T19:02:01.657Z
 ---
 
-## Parents
+## Overview
 
-- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
-- [Direct Routes](/scorecard-77147/objectives/objective-207727.md)
-
-## Categories
-
-- [Internal](/scorecard-77147/categories/category-203617.md)
-
-## Measures
-
-- [Major cities with direct flights 3+ times per day](/scorecard-77147/measures/measure-423510.md)
-
-## Initiatives
-
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** James Crockett
 
 ## Status — Dec-25 (Above Target)
 
@@ -51,3 +39,22 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
+- [Direct Routes](/scorecard-77147/objectives/objective-207727.md)
+
+### Categories
+
+- [Internal](/scorecard-77147/categories/category-203617.md)
+
+### Measures
+
+- [Major cities with direct flights 3+ times per day](/scorecard-77147/measures/measure-423510.md)
+
+### Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

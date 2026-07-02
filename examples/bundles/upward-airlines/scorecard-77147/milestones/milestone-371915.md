@@ -29,8 +29,17 @@ cps:
       at: 2025-05-01T21:01:55.090Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Steve Smith
+- **Dates:** 2025-05-09 – 2025-06-21
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [New website design](/scorecard-77147/initiatives/initiative-211899.md)
-
-**Status history.** Dec-25: No Information

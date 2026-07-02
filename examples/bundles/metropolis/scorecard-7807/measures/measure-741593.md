@@ -40,8 +40,20 @@ cps:
     dataResource: /scorecard-7807/data/measure-741593-series.json
 ---
 
-## Parents
+## Overview
 
-- [City-wide Overhead Costs (Aggregate/MM)](/scorecard-7612/measures/measure-741332.md)
+- **Scorecard:** Fire Department
+- **Owner:** Jimmy Olsen
+- **Reporting Frequency:** Monthly
+- **Tags:** Overhead Costs - Children Template
 
 **Actual** — 7800 (Dec-22) · trend [7900, 8145, 8200, 8150, 7750, 7800]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
+
+- [City-wide Overhead Costs (Aggregate/MM)](/scorecard-7612/measures/measure-741332.md)

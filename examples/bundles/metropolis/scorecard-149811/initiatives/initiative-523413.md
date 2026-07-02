@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Update Airport Master Plan
-description: We refresh our annual plan every 5 years. When we refresh
-  everything it takes approximately 2 years to go through the process
 resource: clearpoint://scorecard/149811/initiative/523413
 timestamp: 2023-03-23T17:38:32.270Z
 cps:
@@ -29,28 +27,43 @@ cps:
       at: 2023-03-23T17:38:32.270Z
 ---
 
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** John Smith
+- **Dates:** 2021-10-28 – 2023-03-26
+
+## Description
+
+We refresh our annual plan every 5 years. When we refresh everything it takes approximately 2 years to go through the process
+
 ## Details
 
-- Budget: $72,000
-- Level of Effort:  Medium
-- Level of Impact:  High
-- Priority:  Medium
+- **Budget:** $72,000
+- **Level of Effort:**  Medium
+- **Level of Impact:**  High
+- **Priority:**  Medium
 
-## Parents
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Update master plans (Milestone Roll Up)](/scorecard-149810/initiatives/initiative-523409.md)
 
-## Objectives
+### Objectives
 
 - [Airfield operates efficiently](/scorecard-149811/objectives/objective-555868.md)
 - [Transportation & Mobility](/scorecard-149810/objectives/objective-555857.md)
 
-## Measures
+### Measures
 
 - [Expenses](/scorecard-149810/measures/measure-1426484.md)
 - [Airport efficiency rating](/scorecard-149810/measures/measure-1426485.md)
 
-## Milestones
+### Milestones
 
 - [Market analysis](/scorecard-149811/milestones/milestone-974579.md)
 - [Build a planning committee](/scorecard-149811/milestones/milestone-974583.md)

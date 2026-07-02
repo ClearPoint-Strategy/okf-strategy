@@ -41,9 +41,11 @@ cps:
     dataResource: /scorecard-77148/data/measure-423511-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** James Crockett
+- **Reporting Frequency:** Monthly
 
 **Actual** — 78 (Dec-25) · trend [80, 0, 0, 0, 0, 78]
 
@@ -52,3 +54,10 @@ cps:
 **Analysis.** The Central Division has not been as bad as the Western Division but is still lacking the on time percentage that we need to maintain our high customer satisfaction rate.
 
 **Recommendations.** Altough this is mostly out of our control, we can push our employees to be as fast as possible when taking off.
+
+
+## Linkages
+
+### Objectives
+
+- [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)

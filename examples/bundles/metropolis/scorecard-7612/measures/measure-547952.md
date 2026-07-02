@@ -49,4 +49,12 @@ cps:
     dataResource: /scorecard-7612/data/measure-547952-series.json
 ---
 
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Steve Lombard
+- **Reporting Frequency:** Monthly
+
 **On track** — 4 (Dec-22) · trend [2, 1, 2, 1, 1, 4]
+
+## Status — Dec-22 (Caution)

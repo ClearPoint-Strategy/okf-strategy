@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:33.697Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Maggie Sawyer
+- **Dates:** 2020-12-06 – 2021-09-20
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)

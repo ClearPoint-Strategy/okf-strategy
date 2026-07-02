@@ -23,18 +23,28 @@ cps:
       at: 2023-03-23T17:38:33.577Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Rhonda Fields
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Positive Employee Climate](/scorecard-149810/objectives/objective-555861.md)
 
-## Categories
+### Categories
 
 - [Learning & Growth](/scorecard-149812/categories/category-309690.md)
 
-## Measures
+### Measures
 
 - [Percent of employees who see themselves staying for 1+ year](/scorecard-149812/measures/measure-1426531.md)
 
-## Initiatives
+### Initiatives
 
 - [Establish Temporary Police Substation during renovation project](/scorecard-149812/initiatives/initiative-523418.md)

@@ -29,19 +29,28 @@ cps:
       at: 2024-02-29T14:04:30.117Z
 ---
 
-## Measures
+## Overview
 
-- [Revenue](/scorecard-77146/measures/measure-423496.md)
-- [Net Profit](/scorecard-77146/measures/measure-423481.md)
-
-## Initiatives
-
-- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
-
-## Milestones
-
-- [Hire consultants](/scorecard-77146/milestones/milestone-281244.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Donald Duff
+- **Dates:** 2023-01-22 – 2023-03-31
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We are in the midst of looking for a new food service provider, and need to have the two departments align their priorities and goals for the RFP. This meeting has not been set yet, but is expected to be by the end of next week.
+
+
+## Linkages
+
+### Measures
+
+- [Revenue](/scorecard-77146/measures/measure-423496.md)
+- [Net Profit](/scorecard-77146/measures/measure-423481.md)
+
+### Initiatives
+
+- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
+
+### Milestones
+
+- [Hire consultants](/scorecard-77146/milestones/milestone-281244.md)

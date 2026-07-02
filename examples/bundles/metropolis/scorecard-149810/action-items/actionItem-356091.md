@@ -27,6 +27,14 @@ cps:
       at: 2023-03-23T17:38:28.257Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Maggie Sawyer
+- **Dates:** 2022-01-09 – 2023-01-26 (completed)
+
+## Linkages
+
+### Measures
 
 - [Percent of citizens rating city government performance "good" or "excellent"](/scorecard-149810/measures/measure-1426478.md)

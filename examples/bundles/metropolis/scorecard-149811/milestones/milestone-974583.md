@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:32.297Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Joseph Lucco
+- **Dates:** 2022-07-21 – 2023-01-29
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Airport Master Plan](/scorecard-149811/initiatives/initiative-523413.md)

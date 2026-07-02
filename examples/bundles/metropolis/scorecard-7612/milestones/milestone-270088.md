@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:15:32.780Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Richard Grayson
+- **Dates:** 2022-06-14 – 2022-10-26
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish a plan for renovation and change](/scorecard-7612/initiatives/initiative-159341.md)

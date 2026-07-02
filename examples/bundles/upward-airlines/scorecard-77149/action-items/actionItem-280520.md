@@ -25,4 +25,9 @@ cps:
       at: 2024-02-29T18:32:38.060Z
 ---
 
-**Status history.** Dec-25: Caution
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Dates:** 2023-08-28 – 2023-09-27
+
+## Status — Dec-25 (Caution)

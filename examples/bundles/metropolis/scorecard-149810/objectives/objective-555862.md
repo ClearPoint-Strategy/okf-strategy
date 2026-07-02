@@ -1,8 +1,6 @@
 ---
 type: Objective
 title: Recruit & Retain Top Employee Talent
-description: Our city values our employees. We want to make sure we have
-  superior employee talent because that will make us a superior municipality.
 resource: clearpoint://scorecard/149810/objective/555862
 timestamp: 2023-03-23T17:38:27.660Z
 cps:
@@ -25,20 +23,34 @@ cps:
       at: 2023-03-23T17:38:27.660Z
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Mark Cutler
+
+## Description
+
+Our city values our employees. We want to make sure we have superior employee talent because that will make us a superior municipality.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Recruit from top colleges](/scorecard-149811/objectives/objective-555872.md)
 - [Hire top-notch employees](/scorecard-149812/objectives/objective-555878.md)
 
-## Categories
+### Categories
 
 - [Learning & Growth](/scorecard-149810/categories/category-309682.md)
 
-## Measures
+### Measures
 
 - [Percent of employees who have worked at the city for 5+ years](/scorecard-149810/measures/measure-1426486.md)
 - [Average employee wage](/scorecard-149810/measures/measure-1426487.md)
 
-## Initiatives
+### Initiatives
 
 - [Employee training](/scorecard-149810/initiatives/initiative-523405.md)

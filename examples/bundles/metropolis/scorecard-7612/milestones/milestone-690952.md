@@ -23,6 +23,16 @@ cps:
       at: 2023-01-11T13:17:10.150Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Dates:** 2022-02-24 – 2022-06-16
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new revenue streams](/scorecard-7612/initiatives/initiative-343366.md)

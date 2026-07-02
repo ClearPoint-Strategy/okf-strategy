@@ -23,14 +23,24 @@ cps:
       at: 2023-03-23T17:38:32.177Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Joseph Lucco
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Transportation & Mobility](/scorecard-149810/objectives/objective-555857.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-149811/categories/category-309683.md)
 
-## Measures
+### Measures
 
 - [Airport efficiency rating](/scorecard-149810/measures/measure-1426485.md)

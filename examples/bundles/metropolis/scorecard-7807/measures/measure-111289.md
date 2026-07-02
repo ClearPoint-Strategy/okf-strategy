@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111289-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Joseph Lucco
+
+**Actual** — 80 (Dec-22) · trend [85, 80, 75, 80]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Citizen Satisfaction](/scorecard-7612/measures/measure-553397.md)
 
-## Objectives
+### Objectives
 
 - [Community's wellness](/scorecard-7807/objectives/objective-54700.md)
-
-**Actual** — 80 (Dec-22) · trend [85, 80, 75, 80]

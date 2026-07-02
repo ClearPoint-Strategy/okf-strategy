@@ -35,8 +35,18 @@ cps:
     dataResource: /scorecard-7805/data/measure-111264-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)
+- **Scorecard:** Police Department
+- **Owner:** Mark Cutler
 
 **Actual** — 2.5 (Dec-22) · trend [2.25, 2, 1.75, 2, 2.25, 2.5]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Objectives
+
+- [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)

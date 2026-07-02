@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7631/data/measure-111095-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** John Smith
+
+**Actual** — 66 (Dec-22) · trend [57, 65, 54, 66]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Percent of employees who have worked at the city for 5+ years](/scorecard-7612/measures/measure-110212.md)
 
-## Objectives
+### Objectives
 
 - [Recruit from top colleges](/scorecard-7631/objectives/objective-54236.md)
-
-**Actual** — 66 (Dec-22) · trend [57, 65, 54, 66]

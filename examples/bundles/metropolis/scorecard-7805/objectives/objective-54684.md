@@ -23,15 +23,25 @@ cps:
       at: 2017-10-30T21:26:14.697Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Joseph Lucco
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
 
-## Categories
+### Categories
 
 - [Learning & Growth](/scorecard-7805/categories/category-15963.md)
 
-## Measures
+### Measures
 
 - [Percent of employees who have worked in the police department for 10+ years](/scorecard-7805/measures/measure-111271.md)
 - [Yearly Employee Salary](/scorecard-7805/measures/measure-111272.md)

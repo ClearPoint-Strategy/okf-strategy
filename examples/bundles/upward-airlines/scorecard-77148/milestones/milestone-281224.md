@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:24:27.160Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Catherine Mendoza
+- **Dates:** 2025-02-07 – 2025-06-28
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)
-
-**Status history.** Dec-25: No Information

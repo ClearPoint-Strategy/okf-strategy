@@ -35,12 +35,22 @@ cps:
     dataResource: /scorecard-7612/data/measure-120406-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** John Smith
+
+**Actual** — 8 (Dec-22) · trend [5, 6, 7, 8]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Children
 
 - [Runway and taxiway pavement condition indicator (PCI) score](/scorecard-7631/measures/measure-107948.md)
 
-## Objectives
+### Objectives
 
 - [Safe & Prepared Community](/scorecard-7612/objectives/objective-274608.md)
-
-**Actual** — 8 (Dec-22) · trend [5, 6, 7, 8]

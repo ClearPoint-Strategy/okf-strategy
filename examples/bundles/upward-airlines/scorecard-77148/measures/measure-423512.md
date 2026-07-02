@@ -1,8 +1,6 @@
 ---
 type: Measure
 title: Ticket price differential
-description: We want to measure our ticket prices compared to the industry
-  average and our target prices.
 resource: clearpoint://scorecard/77148/measure/423512
 timestamp: 2017-10-10T17:34:09.430Z
 cps:
@@ -48,13 +46,19 @@ cps:
     dataResource: /scorecard-77148/data/measure-423512-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Greg Garcia
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 13 (Dec-25) · trend [11, 12, 12, 13]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We want to measure our ticket prices compared to the industry average and our target prices.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** Our prices continue to be in our desired range.
 
@@ -62,3 +66,9 @@ cps:
 
 
 **Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Objectives
+
+- [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)

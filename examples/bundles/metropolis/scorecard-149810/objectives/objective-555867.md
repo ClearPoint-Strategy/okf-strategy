@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Effective Leverage of Technology
-description: In today's digital age, we need to leverage technology to not only
-  optimize our internal processes, but to also be recognized as a leader in the
-  municipal space.
 resource: clearpoint://scorecard/149810/objective/555867
 timestamp: 2023-03-23T17:38:27.660Z
 cps:
@@ -28,18 +25,33 @@ cps:
       at: 2023-03-23T17:38:27.660Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Joseph Lucco
+- **Reporting Frequency:** Monthly
+
+## Description
+
+In today's digital age, we need to leverage technology to not only optimize our internal processes, but to also be recognized as a leader in the municipal space.
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Airfield operates efficiently](/scorecard-149811/objectives/objective-555868.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-149810/categories/category-309681.md)
 
-## Measures
+### Measures
 
 - [Interactions with posts on Metropolis social media accounts](/scorecard-149810/measures/measure-1426491.md)
 
-## Initiatives
+### Initiatives
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)

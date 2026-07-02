@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:16:09.223Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Richard Grayson
+- **Dates:** 2022-08-27 – 2023-02-02
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)

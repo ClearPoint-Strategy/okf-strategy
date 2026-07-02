@@ -27,10 +27,18 @@ cps:
       at: 2024-02-29T14:05:09.237Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Clarice Strong
+- **Dates:** 2023-01-25 – 2023-03-29 (completed)
+
+## Linkages
+
+### Measures
 
 - [Expenses](/scorecard-77146/measures/measure-423497.md)
 
-## Initiatives
+### Initiatives
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)

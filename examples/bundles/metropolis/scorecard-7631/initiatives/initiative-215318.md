@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Study revenue growth
-description: Studying revenue growth is essential to determine the reasons for
-  growth each year.
 resource: clearpoint://scorecard/7631/initiative/215318
 timestamp: 2021-01-20T20:43:57.830Z
 cps:
@@ -29,6 +27,21 @@ cps:
       at: 2021-01-20T20:43:57.830Z
 ---
 
-## Objectives
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** ClearPoint Support
+- **Dates:** 2020-04-24 – 2020-06-16
+
+## Description
+
+Studying revenue growth is essential to determine the reasons for growth each year.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
 
 - [Budget Health](/scorecard-7631/objectives/objective-54270.md)

@@ -26,25 +26,33 @@ cps:
       at: 2016-07-27T22:04:42.607Z
 ---
 
-## Parents
+## Overview
 
-- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
-
-## Categories
-
-- [Learning and Growth](/scorecard-77148/categories/category-203622.md)
-
-## Measures
-
-- [% of highly satisified employees](/scorecard-77148/measures/measure-423515.md)
-- [% of employees who see themselves at Upward for 5+ years](/scorecard-77148/measures/measure-423516.md)
-
-## Initiatives
-
-- [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Ashley Caper
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** Our employees are very satisfied, but we want to increase employee retention.
 
 **Recommendations.** Continue to survey and monitor employee happiness and satisfaction.
+
+
+## Linkages
+
+### Parents
+
+- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
+
+### Categories
+
+- [Learning and Growth](/scorecard-77148/categories/category-203622.md)
+
+### Measures
+
+- [% of highly satisified employees](/scorecard-77148/measures/measure-423515.md)
+- [% of employees who see themselves at Upward for 5+ years](/scorecard-77148/measures/measure-423516.md)
+
+### Initiatives
+
+- [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)

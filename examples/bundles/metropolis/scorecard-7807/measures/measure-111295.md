@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111295-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** John Smith
+
+**Actual** — 52 (Dec-22) · trend [43, 46, 49, 52]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Percent of employees who have worked at the city for 5+ years](/scorecard-7612/measures/measure-110212.md)
 
-## Objectives
+### Objectives
 
 - [Recruit & Retain Top Talent](/scorecard-7807/objectives/objective-54702.md)
-
-**Actual** — 52 (Dec-22) · trend [43, 46, 49, 52]

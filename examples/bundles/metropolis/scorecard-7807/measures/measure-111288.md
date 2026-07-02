@@ -37,8 +37,19 @@ cps:
     dataResource: /scorecard-7807/data/measure-111288-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
+- **Scorecard:** Fire Department
+- **Owner:** Ron Troupe
+- **Collaborators:** Rhonda Fields
 
 **Actual** — 1 (Dec-22) · trend [1.25, 1, 1.25, 1.25, 1.5, 1]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
+
+- [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)

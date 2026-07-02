@@ -23,22 +23,32 @@ cps:
       at: 2017-11-21T15:17:32.920Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** ClearPoint Support
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Well-Maintained Infrastructure](/scorecard-7612/objectives/objective-126010.md)
 
-## Children
+### Children
 
 - [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-7631/categories/category-15760.md)
 
-## Measures
+### Measures
 
 - [Runway and taxiway pavement condition indicator (PCI) score](/scorecard-7631/measures/measure-107948.md)
 
-## Initiatives
+### Initiatives
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-7631/initiatives/initiative-43616.md)

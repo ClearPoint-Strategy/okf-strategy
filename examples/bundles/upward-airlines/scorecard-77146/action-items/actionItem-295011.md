@@ -28,4 +28,10 @@ cps:
       at: 2024-02-29T14:05:28.297Z
 ---
 
-**Status history.** Dec-25: Caution
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Clarice Strong
+- **Dates:** 2023-02-01 – 2023-05-31
+
+## Status — Dec-25 (Caution)

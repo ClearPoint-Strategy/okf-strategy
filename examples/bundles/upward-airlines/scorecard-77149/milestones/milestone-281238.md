@@ -30,10 +30,19 @@ cps:
       at: 2025-03-10T22:25:56.527Z
 ---
 
-## Parent Initiative
+## Overview
 
-- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Tammy Cuzco
+- **Dates:** 2024-11-09 – 2024-11-18
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We are actively recruiting
+
+
+## Linkages
+
+### Parent Initiative
+
+- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

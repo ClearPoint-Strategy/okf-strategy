@@ -26,20 +26,28 @@ cps:
       at: 2016-07-27T22:04:16.453Z
 ---
 
-## Parents
+## Overview
 
-- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
-
-## Categories
-
-- [Internal](/scorecard-77148/categories/category-203621.md)
-
-## Measures
-
-- [% of population served within 15 miles](/scorecard-77148/measures/measure-423519.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Izzy Moreno
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We have established relationships with some major cities already.
 
 **Recommendations.** Communicate more with the prominent cities in order to establish these good relationships.
+
+
+## Linkages
+
+### Parents
+
+- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
+
+### Categories
+
+- [Internal](/scorecard-77148/categories/category-203621.md)
+
+### Measures
+
+- [% of population served within 15 miles](/scorecard-77148/measures/measure-423519.md)

@@ -26,20 +26,28 @@ cps:
       at: 2016-07-27T22:10:26.633Z
 ---
 
-## Parents
+## Overview
 
-- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
-
-## Categories
-
-- [Learning and Growth](/scorecard-77149/categories/category-203626.md)
-
-## Measures
-
-- [% of employees who see themselves at Upward for 10+ years](/scorecard-77149/measures/measure-423528.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** James Crockett
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** We are seeing mild results based on feedback from our leadership training program.
 
 **Recommendations.** We need to keep on track with this program, and not give up.
+
+
+## Linkages
+
+### Parents
+
+- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
+
+### Categories
+
+- [Learning and Growth](/scorecard-77149/categories/category-203626.md)
+
+### Measures
+
+- [% of employees who see themselves at Upward for 10+ years](/scorecard-77149/measures/measure-423528.md)

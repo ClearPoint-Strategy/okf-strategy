@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Expand to serve two new locations
-description: We can no longer properly serve our customers with the current
-  number of locations we have, so we need to grow.
 resource: clearpoint://scorecard/77147/initiative/163375
 timestamp: 2025-03-10T22:23:42.570Z
 cps:
@@ -32,32 +30,19 @@ cps:
       at: 2025-03-10T22:23:42.570Z
 ---
 
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Lawrence Sito
+- **Dates:** 2024-11-01 – 2025-04-27
+
+## Description
+
+We can no longer properly serve our customers with the current number of locations we have, so we need to grow.
+
 ## Details
 
-- Budget: $500,000
-
-## Parents
-
-- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
-- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
-
-## Objectives
-
-- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
-- [Profitability](/scorecard-77147/objectives/objective-207724.md)
-- [Good Locations](/scorecard-77147/objectives/objective-207730.md)
-
-## Measures
-
-- [Net Profit](/scorecard-77147/measures/measure-423505.md)
-
-## Milestones
-
-- [Build implementation process](/scorecard-77147/milestones/milestone-368069.md)
-- [Create task force to choose locations](/scorecard-77147/milestones/milestone-368066.md)
-- [Hire developers to scope prices](/scorecard-77147/milestones/milestone-368067.md)
-- [Reach out to location stakeholders](/scorecard-77147/milestones/milestone-368068.md)
+- **Budget:** $500,000
 
 ## Status — Dec-25 (Above Target)
 
@@ -67,3 +52,28 @@ cps:
 
 
 **Status history.** Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
+- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+
+### Objectives
+
+- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
+- [Profitability](/scorecard-77147/objectives/objective-207724.md)
+- [Good Locations](/scorecard-77147/objectives/objective-207730.md)
+
+### Measures
+
+- [Net Profit](/scorecard-77147/measures/measure-423505.md)
+
+### Milestones
+
+- [Build implementation process](/scorecard-77147/milestones/milestone-368069.md)
+- [Create task force to choose locations](/scorecard-77147/milestones/milestone-368066.md)
+- [Hire developers to scope prices](/scorecard-77147/milestones/milestone-368067.md)
+- [Reach out to location stakeholders](/scorecard-77147/milestones/milestone-368068.md)

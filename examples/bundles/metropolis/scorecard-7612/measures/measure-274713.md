@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7612/data/measure-274713-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Joseph Lucco
+
+**Actual** — 32 (Dec-22) · trend [14, 19, 21, 30, 33, 32]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Children
 
 - [Runway and taxiway pavement condition indicator (PCI) score](/scorecard-7631/measures/measure-107948.md)
 
-## Objectives
+### Objectives
 
 - [Well-Maintained Infrastructure](/scorecard-7612/objectives/objective-126010.md)
-
-**Actual** — 32 (Dec-22) · trend [14, 19, 21, 30, 33, 32]

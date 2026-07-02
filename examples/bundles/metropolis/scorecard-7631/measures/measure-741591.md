@@ -40,8 +40,20 @@ cps:
     dataResource: /scorecard-7631/data/measure-741591-series.json
 ---
 
-## Parents
+## Overview
 
-- [City-wide Overhead Costs (Aggregate/MM)](/scorecard-7612/measures/measure-741332.md)
+- **Scorecard:** Airport
+- **Owner:** Rhonda Fields
+- **Reporting Frequency:** Monthly
+- **Tags:** Overhead Costs - Children Template
 
 **Actual** — 8900 (Dec-22) · trend [8300, 8300, 8900, 8900, 8900, 8900]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
+
+- [City-wide Overhead Costs (Aggregate/MM)](/scorecard-7612/measures/measure-741332.md)

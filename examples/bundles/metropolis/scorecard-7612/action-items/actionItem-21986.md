@@ -27,14 +27,22 @@ cps:
       at: 2023-01-11T13:18:58.490Z
 ---
 
-## Objectives
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Rhonda Fields
+- **Dates:** 2021-09-27 – 2022-12-26 (completed)
+
+## Linkages
+
+### Objectives
 
 - [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
 
-## Measures
+### Measures
 
 - [Percent of citizens rating city government performance "good" or "excellent"](/scorecard-7612/measures/measure-108449.md)
 
-## Initiatives
+### Initiatives
 
 - [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

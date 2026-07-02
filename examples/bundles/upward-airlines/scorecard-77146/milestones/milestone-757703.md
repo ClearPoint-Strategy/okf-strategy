@@ -25,6 +25,13 @@ cps:
       at: 2025-02-26T15:26:19.973Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Dates:** 2025-10-21 – 2025-12-12 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)

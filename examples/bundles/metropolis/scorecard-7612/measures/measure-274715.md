@@ -35,8 +35,18 @@ cps:
     dataResource: /scorecard-7612/data/measure-274715-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Strong Local Economy](/scorecard-7612/objectives/objective-126011.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Steve Lombard
 
 **Actual** — 3 (Dec-22) · trend [3, 4, 2, 3]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Objectives
+
+- [Strong Local Economy](/scorecard-7612/objectives/objective-126011.md)

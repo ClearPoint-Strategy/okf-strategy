@@ -1,10 +1,6 @@
 ---
 type: Measure
 title: "% of employees who see themselves at Upward for 5+ years"
-description: We want to create an environment where employees are excited to
-  come to work and see themselves at Upward Air for a long time. If staff stay
-  longer, then we will have less turnover and a more skilled, experienced
-  workforce.
 resource: clearpoint://scorecard/77148/measure/423516
 timestamp: 2017-10-16T15:29:01.143Z
 cps:
@@ -45,17 +41,19 @@ cps:
     dataResource: /scorecard-77148/data/measure-423516-series.json
 ---
 
-## Parents
+## Overview
 
-- [% employee ownership](/scorecard-77146/measures/measure-423495.md)
-
-## Objectives
-
-- [Employee Satisfaction](/scorecard-77148/objectives/objective-207738.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** James Crockett
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 77 (Dec-25) · trend [73, 74, 75, 77]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We want to create an environment where employees are excited to come to work and see themselves at Upward Air for a long time. If staff stay longer, then we will have less turnover and a more skilled, experienced workforce.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We have been steadily increasing our number of longer-term minded employees.
 
@@ -63,3 +61,13 @@ cps:
 
 
 **Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Parents
+
+- [% employee ownership](/scorecard-77146/measures/measure-423495.md)
+
+### Objectives
+
+- [Employee Satisfaction](/scorecard-77148/objectives/objective-207738.md)

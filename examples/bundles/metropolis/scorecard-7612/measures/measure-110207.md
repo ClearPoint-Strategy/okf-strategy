@@ -37,7 +37,19 @@ cps:
     dataResource: /scorecard-7612/data/measure-110207-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Jimmy Olsen
+
+**Actual** — 4.37828371 (Dec-22) · trend [-0.06664445, -13.24884793, 8.85714286, 6.85314685, -3.79825654, 4.37828371]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Revenue](/scorecard-7612/measures/measure-110208.md)
 - [Expenses](/scorecard-7612/measures/measure-110209.md)
@@ -45,8 +57,6 @@ cps:
 - [Budget Surplus](/scorecard-7805/measures/measure-111269.md)
 - [Budget Surplus/Deficit](/scorecard-7807/measures/measure-111293.md)
 
-## Objectives
+### Objectives
 
 - [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
-
-**Actual** — 4.37828371 (Dec-22) · trend [-0.06664445, -13.24884793, 8.85714286, 6.85314685, -3.79825654, 4.37828371]

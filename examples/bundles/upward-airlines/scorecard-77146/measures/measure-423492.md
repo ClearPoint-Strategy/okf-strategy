@@ -41,13 +41,15 @@ cps:
     dataResource: /scorecard-77146/data/measure-423492-series.json
 ---
 
-## Objectives
+## Overview
 
-- [High Utilization](/scorecard-77146/objectives/objective-207720.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Reporting Frequency:** Quarterly
 
 **Utilization Percentage** — 40 (Dec-25) · trend [39, 41, 39, 30, 42, 40]
 
-## Status — Q4-25 (Above Target)
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We saw high utilization this month; let's keep it up.
 
@@ -55,3 +57,9 @@ cps:
 
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Objectives
+
+- [High Utilization](/scorecard-77146/objectives/objective-207720.md)

@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7631/data/measure-111096-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** John Smith
+
+**Actual** — 52825 (Dec-22) · trend [52124, 52682, 52127, 52825]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Average employee wage](/scorecard-7612/measures/measure-110213.md)
 
-## Objectives
+### Objectives
 
 - [Recruit from top colleges](/scorecard-7631/objectives/objective-54236.md)
-
-**Actual** — 52825 (Dec-22) · trend [52124, 52682, 52127, 52825]

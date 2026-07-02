@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:25:56.520Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Catherine Mendoza
+- **Dates:** 2024-11-15 – 2024-12-05
+
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
-
-**Status history.** Dec-25: Above Target

@@ -47,8 +47,21 @@ cps:
     dataResource: /scorecard-7612/data/milestone-270087-series.json
 ---
 
-## Parent Initiative
+## Overview
 
-- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Lance Cummins
+- **Reporting Frequency:** Monthly
+- **Dates:** 2022-04-28 – 2022-11-19
+- **Tags:** Milestone Template #1
 
 **Budget** — 2000 (Jun-22) · trend [2000, 2000, 2000, 2000, 2000, 2000]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
+
+- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

@@ -40,19 +40,30 @@ cps:
     dataResource: /scorecard-77146/data/measure-423493-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Steve Smith
+- **Reporting Frequency:** Quarterly
+
+**Avg. Wage / Hr** — 54 (Dec-25) · trend [55, 52, 53, 51, 53, 54]
+
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Children
 
 - [Wage Growth](/scorecard-77147/measures/measure-423504.md)
 - [% increase in employee wages](/scorecard-77148/measures/measure-423517.md)
 
-## Objectives
+### Objectives
 
 - [High Compensation](/scorecard-77146/objectives/objective-207721.md)
 
-## Initiatives
+### Initiatives
 
 - [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
-
-**Avg. Wage / Hr** — 54 (Dec-25) · trend [55, 52, 53, 51, 53, 54]
-
-**Status history.** Q4-25: Above Target · Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target

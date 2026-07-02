@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:32.297Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** John Smith
+- **Dates:** 2022-04-26 – 2022-09-04
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and solicit additional public aviation events](/scorecard-149811/initiatives/initiative-523412.md)

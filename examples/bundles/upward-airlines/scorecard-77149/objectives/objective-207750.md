@@ -26,20 +26,28 @@ cps:
       at: 2016-07-27T22:12:12.417Z
 ---
 
-## Parents
+## Overview
 
-- [No Frills](/scorecard-77146/objectives/objective-207718.md)
-
-## Categories
-
-- [Internal](/scorecard-77149/categories/category-203625.md)
-
-## Measures
-
-- [Cost per plane trip](/scorecard-77149/measures/measure-423533.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Steve Smith
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** While our overall performance looks okay, we still need to create some sort of bench marking against other regions.
 
 **Recommendations.** Assign VP of Operations to create a team to benchmark our region compared to others.
+
+
+## Linkages
+
+### Parents
+
+- [No Frills](/scorecard-77146/objectives/objective-207718.md)
+
+### Categories
+
+- [Internal](/scorecard-77149/categories/category-203625.md)
+
+### Measures
+
+- [Cost per plane trip](/scorecard-77149/measures/measure-423533.md)

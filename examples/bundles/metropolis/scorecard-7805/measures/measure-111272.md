@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7805/data/measure-111272-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** John Smith
+
+**Actual** — 56831 (Dec-22) · trend [55124, 55672, 56248, 56831]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Average employee wage](/scorecard-7612/measures/measure-110213.md)
 
-## Objectives
+### Objectives
 
 - [Hire top-notch employees](/scorecard-7805/objectives/objective-54684.md)
-
-**Actual** — 56831 (Dec-22) · trend [55124, 55672, 56248, 56831]

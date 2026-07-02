@@ -30,8 +30,18 @@ cps:
       at: 2025-02-26T15:20:48.360Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Janice Jones
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-11-16 – 2025-12-28
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-
-**Status history.** Q4-25: No Information

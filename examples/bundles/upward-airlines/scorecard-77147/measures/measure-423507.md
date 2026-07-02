@@ -51,22 +51,30 @@ cps:
     dataResource: /scorecard-77147/data/measure-423507-series.json
 ---
 
-## Parents
+## Overview
 
-- [Revenue](/scorecard-77146/measures/measure-423496.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77147/objectives/objective-207724.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Greg Garcia
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 3400 (Dec-25) · trend [3100, 2430, 3000, 3200, 3400, 3400]
 
-## Status — Q4-25 (Caution)
+## Status — Dec-25 (Caution)
 
 **Analysis.** Tickets are selling at a rapid pace this month, boosting revenue for the Eastern region, which is great.
 
 **Recommendations.** Our targets are good stretch goals, and there is no need to update our targets either up or down and we should continue on our current course.
 
-- Complete?: 0
+- **Complete?:** 0
 
 **Status history.** Q3-25: Caution · Q3-25: Caution · Q3-25: Caution
+
+## Linkages
+
+### Parents
+
+- [Revenue](/scorecard-77146/measures/measure-423496.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77147/objectives/objective-207724.md)

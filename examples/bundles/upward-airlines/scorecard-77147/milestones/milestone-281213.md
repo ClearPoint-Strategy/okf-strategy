@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:30:45.033Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** James Crockett
+- **Dates:** 2024-12-06 – 2024-12-29
+
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create Upskilling for Employees](/scorecard-77147/initiatives/initiative-163373.md)
-
-**Status history.** Dec-25: Above Target

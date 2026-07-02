@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Establish Temporary Police Substation during renovation project
-description: During construction, we will need to create a space for the 13th
-  precinct. It will need to be located in precinct 13 and provide ample parking
-  for police cruisers.
 resource: clearpoint://scorecard/149812/initiative/523418
 timestamp: 2023-03-23T18:13:32.507Z
 cps:
@@ -33,21 +30,37 @@ cps:
       at: 2023-03-23T18:13:32.507Z
 ---
 
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Maggie Sawyer
+- **Collaborators:** Lance Cummins, Rhonda Fields
+- **Dates:** 2020-01-10 – 2021-06-03
+
+## Description
+
+During construction, we will need to create a space for the 13th precinct. It will need to be located in precinct 13 and provide ample parking for police cruisers.
+
 ## Details
 
-- Budget: 20,000
-- Priority: Medium
+- **Budget:** 20,000
+- **Priority:** Medium
 
-## Parents
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Establish a plan for renovation and change](/scorecard-149810/initiatives/initiative-523410.md)
 
-## Objectives
+### Objectives
 
 - [Employee Happiness](/scorecard-149812/objectives/objective-555877.md)
 - [Crime Statistics](/scorecard-149812/objectives/objective-555875.md)
 
-## Milestones
+### Milestones
 
 - [Choose top 2 options](/scorecard-149812/milestones/milestone-974604.md)
 - [Test options](/scorecard-149812/milestones/milestone-974605.md)

@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: City Restaurant Audits
-description: Restaurants in the city attract tourists and citizens to engage
-  with the community. We want to make sure that we have restaurants that will
-  benefit and are attractive to everyone.
 resource: clearpoint://scorecard/7612/initiative/43641
 timestamp: 2023-01-11T13:16:26.173Z
 cps:
@@ -30,18 +27,33 @@ cps:
       at: 2023-01-11T13:16:26.173Z
 ---
 
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Maggie Sawyer
+- **Dates:** 2021-09-20 – 2023-03-21
+
+## Description
+
+Restaurants in the city attract tourists and citizens to engage with the community. We want to make sure that we have restaurants that will benefit and are attractive to everyone.
+
 ## Details
 
-- Budget: $83,000
-- Level of Effort: Low
-- Level of Impact: Low
-- Priority: Low
+- **Budget:** $83,000
+- **Level of Effort:** Low
+- **Level of Impact:** Low
+- **Priority:** Low
 
-## Objectives
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
 
 - [Active & Engaged Community](/scorecard-7612/objectives/objective-53692.md)
 
-## Milestones
+### Milestones
 
 - [Send out survey to customers](/scorecard-7612/milestones/milestone-53468.md)
 - [Schedule meetings](/scorecard-7612/milestones/milestone-53466.md)

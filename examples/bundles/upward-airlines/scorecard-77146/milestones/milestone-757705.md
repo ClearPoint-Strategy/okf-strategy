@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:20:48.393Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Tammy Cuzco
+- **Dates:** 2025-12-12 – 2026-01-20
+
+## Status — Dec-25 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
-
-**Status history.** Dec-25: Below Plan

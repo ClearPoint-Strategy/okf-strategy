@@ -47,8 +47,21 @@ cps:
     dataResource: /scorecard-7612/data/milestone-270085-series.json
 ---
 
-## Parent Initiative
+## Overview
 
-- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Ron Troupe
+- **Reporting Frequency:** Monthly
+- **Dates:** 2021-12-26 – 2022-08-16
+- **Tags:** Milestone Template #1
 
 **Budget** — 5000 (Jun-22) · trend [5000, 5000, 5000, 5000, 5000, 5000]
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
+
+- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

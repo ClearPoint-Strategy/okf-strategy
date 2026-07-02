@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:17:50.763Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Catherine Yochum
+- **Dates:** 2022-02-17 – 2022-09-07
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-7631/initiatives/initiative-43616.md)

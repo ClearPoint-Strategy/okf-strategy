@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:25:56.750Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** James Crockett
+- **Dates:** 2025-01-10 – 2025-02-19
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Redesign Employee Satisfaction Survey](/scorecard-77149/initiatives/initiative-163379.md)
-
-**Status history.** Dec-25: No Information

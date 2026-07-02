@@ -22,6 +22,13 @@ cps:
       at: 2023-11-02T15:24:54.300Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Reporting Frequency:** Quarterly
+
+## Linkages
+
+### Measures
 
 - [Financial Measure #1 testing looooooooong nametesting looooooooong name testing looooooooong nametesting looooooooong name](/scorecard-77146/measures/measure-1619382.md)

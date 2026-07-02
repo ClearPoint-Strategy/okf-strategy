@@ -39,32 +39,17 @@ cps:
     dataResource: /scorecard-77146/data/measure-423485-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: This metric is doing well and is surpassing expectations!
-
-## Children
-
-- [Time planes wait at gate](/scorecard-77148/measures/measure-423513.md)
-- [Rate of departures that leave on time](/scorecard-77149/measures/measure-423523.md)
-- [Average plane turnaround time](/scorecard-77149/measures/measure-423525.md)
-
-## Objectives
-
-- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
-
-## Initiatives
-
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-- [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
-
-## Action Items
-
-- [Look into competitors' customer experience surveys](/scorecard-77146/action-items/actionItem-182625.md)
-- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Donald Duff
+- **Reporting Frequency:** Monthly
 
 **Actual** — 148 (Dec-25) · trend [151, 155, 147, 143, 147, 148]
+
+## Details
+
+- **Variance Report:** This metric is doing well and is surpassing expectations!
 
 ## Status — Dec-25 (Caution)
 
@@ -74,3 +59,26 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Above Target · Sep-25: Caution
+
+## Linkages
+
+### Children
+
+- [Time planes wait at gate](/scorecard-77148/measures/measure-423513.md)
+- [Rate of departures that leave on time](/scorecard-77149/measures/measure-423523.md)
+- [Average plane turnaround time](/scorecard-77149/measures/measure-423525.md)
+
+### Objectives
+
+- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
+
+### Initiatives
+
+- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
+- [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+
+### Action Items
+
+- [Look into competitors' customer experience surveys](/scorecard-77146/action-items/actionItem-182625.md)
+- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)

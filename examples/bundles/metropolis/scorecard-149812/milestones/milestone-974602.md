@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:33.697Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Catherine Yochum
+- **Dates:** 2020-05-24 – 2020-08-04
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish Temporary Police Substation during renovation project](/scorecard-149812/initiatives/initiative-523418.md)

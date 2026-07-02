@@ -23,22 +23,32 @@ cps:
       at: 2023-03-23T17:38:33.577Z
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Ted Jackson
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Safe & Prepared Community](/scorecard-149810/objectives/objective-555865.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-149812/categories/category-309689.md)
 
-## Measures
+### Measures
 
 - [Average response time of priority one calls](/scorecard-149812/measures/measure-1426525.md)
 - [Crime clearance rates](/scorecard-149812/measures/measure-1426527.md)
 - [Crimes per 1000 citizens](/scorecard-149812/measures/measure-1426534.md)
 - [Traffic Enforcement - # of citations issued](/scorecard-149812/measures/measure-1426535.md)
 
-## Initiatives
+### Initiatives
 
 - [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)
 - [Establish Temporary Police Substation during renovation project](/scorecard-149812/initiatives/initiative-523418.md)

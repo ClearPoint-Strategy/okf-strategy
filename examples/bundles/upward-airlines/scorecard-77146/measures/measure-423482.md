@@ -40,22 +40,33 @@ cps:
     dataResource: /scorecard-77146/data/measure-423482-series.json
 ---
 
-## Children
+## Overview
 
-- [# of A-list priority customers](/scorecard-77148/measures/measure-542406.md)
-
-## Objectives
-
-- [Comparable To Other Travel](/scorecard-77146/objectives/objective-207711.md)
-
-## Initiatives
-
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-
-## Action Items
-
-- [Look into competitors' customer experience surveys](/scorecard-77146/action-items/actionItem-182625.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Izzy Moreno
+- **Reporting Frequency:** Annual
 
 **Actual** — 76 (Dec-25) · trend [67, 71, 72, 76]
 
-**Status history.** 2025: Above Target · 2024: Above Target · 2024: Above Target · 2024: Above Target
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** 2024: Above Target · 2024: Above Target · 2024: Above Target
+
+## Linkages
+
+### Children
+
+- [# of A-list priority customers](/scorecard-77148/measures/measure-542406.md)
+
+### Objectives
+
+- [Comparable To Other Travel](/scorecard-77146/objectives/objective-207711.md)
+
+### Initiatives
+
+- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
+
+### Action Items
+
+- [Look into competitors' customer experience surveys](/scorecard-77146/action-items/actionItem-182625.md)

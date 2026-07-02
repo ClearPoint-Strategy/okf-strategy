@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:32.297Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Mark Cutler
+- **Dates:** 2022-12-31 – 2023-02-03
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Airport Master Plan](/scorecard-149811/initiatives/initiative-523413.md)

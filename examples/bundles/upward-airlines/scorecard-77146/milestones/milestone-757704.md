@@ -28,6 +28,14 @@ cps:
       at: 2025-02-26T15:26:19.960Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Izzy Moreno
+- **Dates:** 2025-09-01 – 2025-10-22 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)

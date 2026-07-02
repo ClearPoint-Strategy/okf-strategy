@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Safe & Prepared Community
-description: Providing a safe environment for our citizens is of the utmost
-  importance. Our police department and fire department work hard to ensure
-  everyone feels safe and is safe in Metropolis.
 resource: clearpoint://scorecard/149810/objective/555865
 timestamp: 2023-03-23T17:38:27.660Z
 cps:
@@ -26,20 +23,34 @@ cps:
       at: 2023-03-23T17:38:27.660Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Joseph Lucco
+
+## Description
+
+Providing a safe environment for our citizens is of the utmost importance. Our police department and fire department work hard to ensure everyone feels safe and is safe in Metropolis.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Crime Statistics](/scorecard-149812/objectives/objective-555875.md)
 
-## Children
+### Children
 
 - [Satisfied Customers](/scorecard-149811/objectives/objective-555870.md)
 - [Safe & Prepared Community](/scorecard-149812/objectives/objective-555876.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-149810/categories/category-309679.md)
 
-## Measures
+### Measures
 
 - [EMS Response Time](/scorecard-149810/measures/measure-1426477.md)
 - [Number of community evacuation trainings](/scorecard-149810/measures/measure-1426488.md)

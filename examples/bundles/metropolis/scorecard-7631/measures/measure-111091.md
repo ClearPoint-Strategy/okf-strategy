@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7631/data/measure-111091-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Lance Cummins
+
+**Actual** — 8.7 (Dec-22) · trend [4.74, 7.89, 10.22, 13.57, 16.39, 8.7]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-## Objectives
+### Objectives
 
 - [Budget Health](/scorecard-7631/objectives/objective-54270.md)
-
-**Actual** — 8.7 (Dec-22) · trend [4.74, 7.89, 10.22, 13.57, 16.39, 8.7]

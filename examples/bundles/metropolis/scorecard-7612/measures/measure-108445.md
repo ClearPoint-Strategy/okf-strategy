@@ -1,9 +1,6 @@
 ---
 type: Measure
 title: Crime rate per 1,000 residents
-description: Crime rate per 1,000 residents accounts for the cumulative number
-  of murders, rapes, robberies, assaults, burglaries, thefts, and incidents of
-  arson that occur every year for every 1,000 citizens of Metropolis.
 resource: clearpoint://scorecard/7612/measure/108445
 timestamp: 2017-10-27T14:26:53.257Z
 cps:
@@ -38,12 +35,26 @@ cps:
     dataResource: /scorecard-7612/data/measure-108445-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Ted Jackson
+
+**Actual** — 24 (Dec-22) · trend [20, 21, 19, 24]
+
+## Description
+
+Crime rate per 1,000 residents accounts for the cumulative number of murders, rapes, robberies, assaults, burglaries, thefts, and incidents of arson that occur every year for every 1,000 citizens of Metropolis.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Crimes per 1000 citizens](/scorecard-7805/measures/measure-111285.md)
 
-## Objectives
+### Objectives
 
 - [Safe & Prepared Community](/scorecard-7612/objectives/objective-274608.md)
-
-**Actual** — 24 (Dec-22) · trend [20, 21, 19, 24]

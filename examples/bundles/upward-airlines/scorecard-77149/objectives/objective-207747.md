@@ -26,25 +26,33 @@ cps:
       at: 2016-07-27T22:12:29.280Z
 ---
 
-## Parents
+## Overview
 
-- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
-
-## Categories
-
-- [Learning and Growth](/scorecard-77149/categories/category-203626.md)
-
-## Measures
-
-- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
-- [% of highly satisified employees](/scorecard-77149/measures/measure-423527.md)
-
-## Initiatives
-
-- [Redesign Employee Satisfaction Survey](/scorecard-77149/initiatives/initiative-163379.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Catherine Mendoza
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** Our employees are very satisfied, but we want to increase employee retention.
 
 **Recommendations.** Create a new process to monitor employee happiness.
+
+
+## Linkages
+
+### Parents
+
+- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
+
+### Categories
+
+- [Learning and Growth](/scorecard-77149/categories/category-203626.md)
+
+### Measures
+
+- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
+- [% of highly satisified employees](/scorecard-77149/measures/measure-423527.md)
+
+### Initiatives
+
+- [Redesign Employee Satisfaction Survey](/scorecard-77149/initiatives/initiative-163379.md)

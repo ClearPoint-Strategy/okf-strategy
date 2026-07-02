@@ -26,4 +26,8 @@ cps:
       at: 2025-07-01T19:23:46.233Z
 ---
 
+## Overview
 
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Clarice Strong
+- **Dates:** 2025-07-01 – 2025-07-31

@@ -25,4 +25,9 @@ cps:
       at: 2024-02-29T18:32:25.340Z
 ---
 
-**Status history.** Dec-25: Above Target
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Dates:** 2023-08-28 – 2023-09-27
+
+## Status — Dec-25 (Above Target)

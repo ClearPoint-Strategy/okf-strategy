@@ -23,20 +23,30 @@ cps:
       at: 2017-10-30T21:27:00.090Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Ted Jackson
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Safe & Prepared Community](/scorecard-7612/objectives/objective-274608.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-7807/categories/category-15968.md)
 
-## Measures
+### Measures
 
 - [Percent of citizens who feel "extremely safe" from fire](/scorecard-7807/measures/measure-111289.md)
 - [Percent of citizens attending fire safety trainings](/scorecard-7807/measures/measure-111297.md)
 
-## Initiatives
+### Initiatives
 
 - [Identify and hold additional fire safety events](/scorecard-7807/initiatives/initiative-44458.md)
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

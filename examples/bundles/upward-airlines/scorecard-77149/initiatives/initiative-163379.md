@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Redesign Employee Satisfaction Survey
-description: Our employee satisfaction survey was out of date and we were not
-  capturing the information we intended. We decided we would do a complete
-  redesign.
 resource: clearpoint://scorecard/77149/initiative/163379
 timestamp: 2025-03-10T22:25:56.730Z
 cps:
@@ -32,20 +29,33 @@ cps:
       at: 2025-03-10T22:25:56.730Z
 ---
 
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Mark Cutler
+- **Dates:** 2024-10-28 – 2025-03-29
+
+## Description
+
+Our employee satisfaction survey was out of date and we were not capturing the information we intended. We decided we would do a complete redesign.
+
 ## Details
 
-- Budget: $5,000
+- **Budget:** $5,000
 
-## Objectives
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Objectives
 
 - [Employee Satisfaction](/scorecard-77149/objectives/objective-207747.md)
 
-## Milestones
+### Milestones
 
 - [Hire survey consultants](/scorecard-77149/milestones/milestone-281232.md)
 - [Build new survey questions](/scorecard-77149/milestones/milestone-281233.md)
 - [Test new survey questions](/scorecard-77149/milestones/milestone-281234.md)
 - [Review results and make improvements](/scorecard-77149/milestones/milestone-281235.md)
 - [Rollout new survey](/scorecard-77149/milestones/milestone-281236.md)
-
-**Status history.** Dec-25: Caution

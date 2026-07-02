@@ -26,6 +26,17 @@ cps:
       at: 2017-11-03T17:36:13.033Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** John Smith
+- **Dates:** 2021-09-05 – 2021-10-22
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Fire Department Master Plan and Layout Plan](/scorecard-7807/initiatives/initiative-44459.md)

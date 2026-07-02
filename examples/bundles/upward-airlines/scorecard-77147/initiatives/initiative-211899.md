@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: New website design
-description: We are overhauling our website since it has been a long time since
-  we made updates, and there are many visual changes we want to make in addition
-  to updating the information.
 resource: clearpoint://scorecard/77147/initiative/211899
 timestamp: 2025-03-10T22:23:42.720Z
 cps:
@@ -35,19 +32,20 @@ cps:
       at: 2025-03-10T22:23:42.720Z
 ---
 
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Clarice Strong
+- **Collaborators:** Mark Cutler
+- **Dates:** 2024-12-28 – 2025-06-23
+
+## Description
+
+We are overhauling our website since it has been a long time since we made updates, and there are many visual changes we want to make in addition to updating the information.
+
 ## Details
 
-- Budget: $5,000
-
-## Objectives
-
-- [New Technology](/scorecard-77147/objectives/objective-271188.md)
-
-## Milestones
-
-- [Meet with graphic design team](/scorecard-77147/milestones/milestone-371913.md)
-- [Create test website](/scorecard-77147/milestones/milestone-371914.md)
-- [Approve website with executive team](/scorecard-77147/milestones/milestone-371915.md)
+- **Budget:** $5,000
 
 ## Status — Dec-25 (Above Target)
 
@@ -57,3 +55,15 @@ cps:
 
 
 **Status history.** Sep-25: Above Target
+
+## Linkages
+
+### Objectives
+
+- [New Technology](/scorecard-77147/objectives/objective-271188.md)
+
+### Milestones
+
+- [Meet with graphic design team](/scorecard-77147/milestones/milestone-371913.md)
+- [Create test website](/scorecard-77147/milestones/milestone-371914.md)
+- [Approve website with executive team](/scorecard-77147/milestones/milestone-371915.md)

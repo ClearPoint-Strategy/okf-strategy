@@ -28,6 +28,18 @@ cps:
       at: 2023-03-23T17:38:28.227Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Ted Jackson
+- **Reporting Frequency:** Monthly
+- **Dates:** 2022-01-16 – 2022-08-11
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Website Upgrade (Data & Charts)](/scorecard-149810/initiatives/initiative-523406.md)

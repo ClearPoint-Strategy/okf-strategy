@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:24:27.173Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Izzy Moreno
+- **Dates:** 2024-12-07 – 2025-01-13
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)
-
-**Status history.** Dec-25: No Information

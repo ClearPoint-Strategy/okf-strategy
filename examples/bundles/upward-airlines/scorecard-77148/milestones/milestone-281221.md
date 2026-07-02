@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:24:27.180Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Donald Duff
+- **Dates:** 2024-11-09 – 2024-12-17
+
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)
-
-**Status history.** Dec-25: Above Target

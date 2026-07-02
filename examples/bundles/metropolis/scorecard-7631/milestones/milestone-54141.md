@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:17:50.743Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Lance Cummins
+- **Dates:** 2022-04-14 – 2022-07-13
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-7631/initiatives/initiative-43616.md)

@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Transportation & Mobility
-description: How our citizens navigate and get around our city is vital.
-  Promoting an environment where travel is easy is essential to Metropolis'
-  growth and prosperity.
 resource: clearpoint://scorecard/7612/objective/53688
 timestamp: 2021-10-06T17:57:45.807Z
 cps:
@@ -26,26 +23,40 @@ cps:
       at: 2021-10-06T17:57:45.807Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** ClearPoint Support
+
+## Description
+
+How our citizens navigate and get around our city is vital. Promoting an environment where travel is easy is essential to Metropolis' growth and prosperity.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Well-maintained airfield](/scorecard-7631/objectives/objective-53627.md)
 
-## Children
+### Children
 
 - [Transportation & Mobility](/scorecard-7631/objectives/objective-54271.md)
 - [Airfield operates efficiently](/scorecard-7631/objectives/objective-53625.md)
 - [Transportation Effectiveness](/scorecard-7805/objectives/objective-54686.md)
 - [Transportation & Mobility](/scorecard-7807/objectives/objective-54704.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-7612/categories/category-15754.md)
 
-## Measures
+### Measures
 
 - [Airport efficiency rating](/scorecard-7612/measures/measure-110210.md)
 - [Benchmark: Percent of residents who rate traffic congestion or transportation as a "top three" community challenge](/scorecard-7612/measures/measure-108438.md)
 
-## Initiatives
+### Initiatives
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)

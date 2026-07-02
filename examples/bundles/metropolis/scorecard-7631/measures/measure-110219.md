@@ -47,12 +47,22 @@ cps:
     dataResource: /scorecard-7631/data/measure-110219-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Jimmy Olsen
+
+**Actual** — 3743 (Dec-22) · trend [3336, 3080, 3167, 3258, 3612, 3743]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Revenue](/scorecard-7612/measures/measure-110208.md)
 
-## Objectives
+### Objectives
 
 - [Budget Health](/scorecard-7631/objectives/objective-54270.md)
-
-**Actual** — 3743 (Dec-22) · trend [3336, 3080, 3167, 3258, 3612, 3743]

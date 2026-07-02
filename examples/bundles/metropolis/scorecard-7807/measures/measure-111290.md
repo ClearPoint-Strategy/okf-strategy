@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111290-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Joseph Lucco
+
+**Actual** — 91 (Dec-22) · trend [80, 82, 84, 87, 90, 91]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [EMS Response Time](/scorecard-7612/measures/measure-108447.md)
 
-## Objectives
+### Objectives
 
 - [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
-
-**Actual** — 91 (Dec-22) · trend [80, 82, 84, 87, 90, 91]

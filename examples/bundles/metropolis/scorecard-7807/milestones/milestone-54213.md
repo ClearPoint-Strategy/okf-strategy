@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:31:11.717Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Rhonda Fields
+- **Dates:** 2021-08-01 – 2020-10-11
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

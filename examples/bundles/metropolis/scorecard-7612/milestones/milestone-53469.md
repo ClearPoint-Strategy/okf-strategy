@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:16:38.717Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Mark Cutler
+- **Dates:** 2022-04-03 – 2022-08-18
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [City Restaurant Audits](/scorecard-7612/initiatives/initiative-43641.md)

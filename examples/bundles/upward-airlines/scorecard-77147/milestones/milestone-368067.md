@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:30:45.213Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Izzy Moreno
+- **Dates:** 2025-01-14 – 2025-03-05
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
-
-**Status history.** Dec-25: No Information

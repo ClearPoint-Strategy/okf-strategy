@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:17:32.653Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** John Smith
+- **Dates:** 2022-04-26 – 2022-09-04
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and solicit additional public aviation events](/scorecard-7631/initiatives/initiative-43613.md)

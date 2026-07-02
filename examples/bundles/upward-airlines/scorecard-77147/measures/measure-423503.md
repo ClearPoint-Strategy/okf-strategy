@@ -1,10 +1,6 @@
 ---
 type: Measure
 title: "% of employees who see themselves at Upward for 7+ years"
-description: We want to create an environment where employees are excited to
-  come to work and see themselves at Upward Air for a long time. If staff stay
-  longer, then we will have less turnover and a more skilled, experienced
-  workforce.
 resource: clearpoint://scorecard/77147/measure/423503
 timestamp: 2017-10-17T22:34:20.243Z
 cps:
@@ -45,13 +41,19 @@ cps:
     dataResource: /scorecard-77147/data/measure-423503-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Employee Satisfaction](/scorecard-77147/objectives/objective-207728.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Ashley Caper
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 70 (Dec-25) · trend [68, 68, 68, 68, 68, 70]
 
-## Status — Q4-25 (Caution)
+## Description
+
+We want to create an environment where employees are excited to come to work and see themselves at Upward Air for a long time. If staff stay longer, then we will have less turnover and a more skilled, experienced workforce.
+
+## Status — Dec-25 (Caution)
 
 **Analysis.** We have been stabilizing 67 and 70% within 2020, so more needs to be done to reach our target.
 
@@ -59,3 +61,9 @@ cps:
 
 
 **Status history.** Q3-25: Caution · Q3-25: Caution · Q3-25: Caution
+
+## Linkages
+
+### Objectives
+
+- [Employee Satisfaction](/scorecard-77147/objectives/objective-207728.md)

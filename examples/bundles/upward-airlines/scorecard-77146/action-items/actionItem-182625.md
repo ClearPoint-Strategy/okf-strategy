@@ -27,7 +27,15 @@ cps:
       at: 2024-09-30T15:48:40.127Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Dates:** 2023-06-30 – 2023-11-30 (completed)
+
+## Linkages
+
+### Measures
 
 - [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
 - [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)

@@ -39,20 +39,29 @@ cps:
     dataResource: /scorecard-77148/data/measure-542407-series.json
 ---
 
-## Parents
+## Overview
 
-- [# customer complaints per 1,000 tickets](/scorecard-77146/measures/measure-423488.md)
-- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
-
-## Objectives
-
-- [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)
-- [Ground Turnaround](/scorecard-77148/objectives/objective-207736.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Lawrence Sito
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 26 (Dec-25) · trend [27, 30, 31, 26]
 
-## Status — Q4-25 (Caution)
+## Status — Dec-25 (Caution)
 
 **Analysis.** We are doing well in reducing cancellations due to reasons in our control, but there are still factors we cannot control.
 
 **Recommendations.** Improve our training to help us get planes ready to fly between flights faster to reduce weather-related cancellations.
+
+
+## Linkages
+
+### Parents
+
+- [# customer complaints per 1,000 tickets](/scorecard-77146/measures/measure-423488.md)
+- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
+
+### Objectives
+
+- [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)
+- [Ground Turnaround](/scorecard-77148/objectives/objective-207736.md)

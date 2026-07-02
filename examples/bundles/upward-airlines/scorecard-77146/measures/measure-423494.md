@@ -39,14 +39,11 @@ cps:
     dataResource: /scorecard-77146/data/measure-423494-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Flexible Union Contracts](/scorecard-77146/objectives/objective-207722.md)
-
-## Initiatives
-
-- [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
-- [Create new employee retirement package](/scorecard-77146/initiatives/initiative-211891.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Ashley Caper
+- **Reporting Frequency:** Monthly
 
 **Job Descriptions** — 125 (Dec-25) · trend [100, 106, 111, 120, 126, 125]
 
@@ -58,3 +55,14 @@ cps:
 
 
 **Status history.** Nov-25: Above Target · Oct-25: Above Target · Sep-25: Above Target
+
+## Linkages
+
+### Objectives
+
+- [Flexible Union Contracts](/scorecard-77146/objectives/objective-207722.md)
+
+### Initiatives
+
+- [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
+- [Create new employee retirement package](/scorecard-77146/initiatives/initiative-211891.md)

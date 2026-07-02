@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:32.297Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Rhonda Fields
+- **Dates:** 2022-02-26 – 2022-05-07
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)

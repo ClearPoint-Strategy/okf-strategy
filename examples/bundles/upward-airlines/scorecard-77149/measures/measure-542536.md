@@ -43,15 +43,28 @@ cps:
     dataResource: /scorecard-77149/data/measure-542536-series.json
 ---
 
-## Parents
+## Overview
 
-- [Average Number of Daily departures per route](/scorecard-77146/measures/measure-423483.md)
-- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Donald Duff
+- **Reporting Frequency:** Annual
 
 **Actual** — 12 (Dec-25) · trend [15, 20, 12]
 
-## Status — 2025 (Below Plan)
+## Description
+
+
+
+## Status — Dec-25 (Below Plan)
 
 **Analysis.** We overbought in 2019 so there was a big drop in 2020.
 
 **Recommendations.** Buy closer to the 2020 amount than the 2019 amount for 2021.
+
+
+## Linkages
+
+### Parents
+
+- [Average Number of Daily departures per route](/scorecard-77146/measures/measure-423483.md)
+- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)

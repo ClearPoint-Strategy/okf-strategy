@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:33.697Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Joseph Lucco
+- **Dates:** 2020-04-09 – 2020-10-05
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)

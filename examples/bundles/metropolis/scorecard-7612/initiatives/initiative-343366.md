@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Create new revenue streams
-description: As our population grows, it is important to identify and create new
-  revenue streams so we can continue providing high quality services to our
-  citizens.
 resource: clearpoint://scorecard/7612/initiative/343366
 timestamp: 2023-01-11T13:17:10.133Z
 cps:
@@ -59,21 +56,36 @@ cps:
     dataResource: /scorecard-7612/data/initiative-343366-series.json
 ---
 
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** ClearPoint Support
+- **Dates:** 2022-01-28 – 2022-12-21 (completed)
+
+**Actual % Complete** — 5 (Jan-22) · trend [5]
+
+## Description
+
+As our population grows, it is important to identify and create new revenue streams so we can continue providing high quality services to our citizens.
+
 ## Details
 
-- Budget: $57,000
-- Level of Effort:  Medium
-- Level of Impact: Low
-- Priority:  Medium
+- **Budget:** $57,000
+- **Level of Effort:**  Medium
+- **Level of Impact:** Low
+- **Priority:**  Medium
 
-## Measures
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Measures
 
 - [Revenue](/scorecard-7612/measures/measure-110208.md)
 
-## Milestones
+### Milestones
 
 - [Analyze current revenue sources](/scorecard-7612/milestones/milestone-690952.md)
 - [Convene committee to discuss new sources of revenue](/scorecard-7612/milestones/milestone-690953.md)
 - [Present plan to City Council](/scorecard-7612/milestones/milestone-690954.md)
-
-**Actual % Complete** — 5 (Jan-22) · trend [5]

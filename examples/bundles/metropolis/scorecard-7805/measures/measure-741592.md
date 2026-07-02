@@ -40,8 +40,20 @@ cps:
     dataResource: /scorecard-7805/data/measure-741592-series.json
 ---
 
-## Parents
+## Overview
 
-- [City-wide Overhead Costs (Aggregate/MM)](/scorecard-7612/measures/measure-741332.md)
+- **Scorecard:** Police Department
+- **Owner:** Rhonda Fields
+- **Reporting Frequency:** Monthly
+- **Tags:** Overhead Costs - Children Template
 
 **Actual** — 7350 (Dec-22) · trend [7600, 7525, 7425, 7400, 7300, 7350]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
+
+- [City-wide Overhead Costs (Aggregate/MM)](/scorecard-7612/measures/measure-741332.md)

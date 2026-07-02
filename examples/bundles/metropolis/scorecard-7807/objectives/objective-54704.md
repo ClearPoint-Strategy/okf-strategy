@@ -23,7 +23,17 @@ cps:
       at: 2016-06-10T20:52:30.373Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Rhonda Fields
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Well-Maintained Infrastructure](/scorecard-7612/objectives/objective-126010.md)
 - [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)

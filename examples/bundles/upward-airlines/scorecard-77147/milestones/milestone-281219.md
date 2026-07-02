@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:30:44.997Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Mark Cutler
+- **Dates:** 2025-05-18 – 2025-06-28
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create Upskilling for Employees](/scorecard-77147/initiatives/initiative-163373.md)
-
-**Status history.** Dec-25: No Information

@@ -23,22 +23,32 @@ cps:
       at: 2023-03-23T17:38:32.177Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** ClearPoint Support
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Well-Maintained Infrastructure](/scorecard-149810/objectives/objective-555863.md)
 
-## Children
+### Children
 
 - [Transportation & Mobility](/scorecard-149810/objectives/objective-555857.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-149811/categories/category-309685.md)
 
-## Measures
+### Measures
 
 - [Runway and taxiway pavement condition indicator (PCI) score](/scorecard-149811/measures/measure-1426506.md)
 
-## Initiatives
+### Initiatives
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)

@@ -51,15 +51,18 @@ cps:
     dataResource: /scorecard-77146/data/measure-423491-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: The weather in the eastern region has hurt us here. We're looking to mitigate costs.
-
-## Objectives
-
-- [Standard Fleet](/scorecard-77146/objectives/objective-207719.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Janice Jones
+- **Collaborators:** Ashley Caper, Ted Jackson, Joseph Lucco, Mark Cutler
+- **Reporting Frequency:** Monthly
 
 **Maintenance Cost** — 17220 (Dec-25) · trend [16660, 16200, 15500, 15680, 17550, 17220]
+
+## Details
+
+- **Variance Report:** The weather in the eastern region has hurt us here. We're looking to mitigate costs.
 
 ## Status — Dec-25 (Below Plan)
 
@@ -69,3 +72,9 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Caution · Sep-25: Caution
+
+## Linkages
+
+### Objectives
+
+- [Standard Fleet](/scorecard-77146/objectives/objective-207719.md)

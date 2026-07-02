@@ -41,18 +41,26 @@ cps:
     dataResource: /scorecard-77147/data/measure-423501-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Direct Routes](/scorecard-77147/objectives/objective-207727.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Izzy Moreno
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 61 (Dec-25) · trend [62, 53, 61, 59, 62, 61]
 
-## Status — Q4-25 (Above Target)
+## Status — Dec-25 (Above Target)
 
 **Analysis.** Since raising the target, we have hit our objective each month.
 
 **Recommendations.** Let's increase the target next quarter.
 
-- Complete?: 0
+- **Complete?:** 0
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Objectives
+
+- [Direct Routes](/scorecard-77147/objectives/objective-207727.md)

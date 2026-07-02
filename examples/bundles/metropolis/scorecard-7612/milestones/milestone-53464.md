@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:16:26.177Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Ron Troupe
+- **Dates:** 2022-10-10 – 2023-03-05
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [City Restaurant Audits](/scorecard-7612/initiatives/initiative-43641.md)

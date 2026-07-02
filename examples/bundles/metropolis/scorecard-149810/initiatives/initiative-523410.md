@@ -1,7 +1,6 @@
 ---
 type: Initiative
 title: Establish a plan for renovation and change
-description: Have a plan in place when changes and or renovations occur in the community.
 resource: clearpoint://scorecard/149810/initiative/523410
 timestamp: 2023-03-23T17:38:28.190Z
 cps:
@@ -28,18 +27,33 @@ cps:
       at: 2023-03-23T17:38:28.190Z
 ---
 
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Rhonda Fields
+- **Dates:** 2022-01-28 – 2022-12-21
+
+## Description
+
+Have a plan in place when changes and or renovations occur in the community.
+
 ## Details
 
-- Budget: $57,000
-- Level of Effort:  High
-- Level of Impact: Low
-- Priority:  Medium
+- **Budget:** $57,000
+- **Level of Effort:**  High
+- **Level of Impact:** Low
+- **Priority:**  Medium
 
-## Children
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Children
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)
 - [Establish Temporary Police Substation during renovation project](/scorecard-149812/initiatives/initiative-523418.md)
 
-## Milestones
+### Milestones
 
 - [Meeting to establish plan for renovation](/scorecard-149810/milestones/milestone-974573.md)

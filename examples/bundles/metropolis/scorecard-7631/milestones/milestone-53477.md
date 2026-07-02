@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:18:23.040Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Steve Lombard
+- **Dates:** 2021-12-02 – 2022-12-25
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)

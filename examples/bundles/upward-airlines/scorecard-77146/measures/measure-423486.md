@@ -45,19 +45,30 @@ cps:
     dataResource: /scorecard-77146/data/measure-423486-series.json
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Donald Duff
+- **Reporting Frequency:** Quarterly
+
+**Actual** — 35 (Dec-25) · trend [35, 34, 36, 37, 36, 35]
+
 ## Details
 
-- Variance Report: This metric is doing well and is surpassing expectations!
+- **Variance Report:** This metric is doing well and is surpassing expectations!
 
-## Children
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Children
 
 - [% of population served within 25 miles](/scorecard-77147/measures/measure-423506.md)
 - [% of population served within 15 miles](/scorecard-77148/measures/measure-423519.md)
 
-## Objectives
+### Objectives
 
 - [Good Locations](/scorecard-77146/objectives/objective-207714.md)
-
-**Actual** — 35 (Dec-25) · trend [35, 34, 36, 37, 36, 35]
-
-**Status history.** Q4-25: Above Target · Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target

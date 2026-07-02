@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:31:11.687Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Richard Grayson
+- **Dates:** 2020-11-03 – 2021-01-06
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

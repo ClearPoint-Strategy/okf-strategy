@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Direct Routes
-description: When possible, we want to provide as many direct flights as we can,
-  improving our flight times and maintaining a reputation as a sought after
-  airline.
 resource: clearpoint://scorecard/77146/objective/207715
 timestamp: 2016-07-27T21:50:34.807Z
 cps:
@@ -29,11 +26,29 @@ cps:
       at: 2016-07-27T21:50:34.807Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Ashley Caper
+
+## Description
+
+When possible, we want to provide as many direct flights as we can, improving our flight times and maintaining a reputation as a sought after airline.
+
+## Status — Dec-25 (Below Plan)
+
+**Analysis.** Direct routes are already in place establishing a good reputation for Upward Airlines. Based on the data, there has been a significant increase in direct routes recently. This has resulted in reduced travel times and increased efficiency. The most popular direct routes are between major cities, indicating a high demand for these services.
+
+**Recommendations.** Set and meet goals for increasing the number of direct route flights available through Upward Airlines.
+
+
+## Linkages
+
+### Parents
 
 - [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
 
-## Children
+### Children
 
 - [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
 - [Direct Routes](/scorecard-77147/objectives/objective-207727.md)
@@ -41,20 +56,14 @@ cps:
 - [Direct Routes](/scorecard-77149/objectives/objective-207746.md)
 - [Relationship with Eastern U.S. airports](/scorecard-77149/objectives/objective-271313.md)
 
-## Categories
+### Categories
 
 - [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
 
-## Measures
+### Measures
 
 - [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)
 
-## Initiatives
+### Initiatives
 
 - [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
-
-## Status — Dec-25 (Below Plan)
-
-**Analysis.** Direct routes are already in place establishing a good reputation for Upward Airlines. Based on the data, there has been a significant increase in direct routes recently. This has resulted in reduced travel times and increased efficiency. The most popular direct routes are between major cities, indicating a high demand for these services.
-
-**Recommendations.** Set and meet goals for increasing the number of direct route flights available through Upward Airlines.

@@ -1,8 +1,6 @@
 ---
 type: Measure
 title: Ticket price differential
-description: We want to measure our ticket prices compared to the industry
-  average and our target prices.
 resource: clearpoint://scorecard/77149/measure/423524
 timestamp: 2024-06-05T21:49:21.197Z
 cps:
@@ -47,10 +45,25 @@ cps:
     dataResource: /scorecard-77149/data/measure-423524-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Competitive Ticket Prices](/scorecard-77149/objectives/objective-207744.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Trudy Joplin
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 12 (Dec-25) · trend [12, 14, 12, 12]
 
-**Status history.** Q4-25: Below Plan · Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+## Description
+
+We want to measure our ticket prices compared to the industry average and our target prices.
+
+## Status — Dec-25 (Below Plan)
+
+
+**Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Objectives
+
+- [Competitive Ticket Prices](/scorecard-77149/objectives/objective-207744.md)

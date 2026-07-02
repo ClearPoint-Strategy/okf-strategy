@@ -26,24 +26,32 @@ cps:
       at: 2017-10-23T13:58:53.567Z
 ---
 
-## Parents
+## Overview
 
-- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
-
-## Categories
-
-- [Internal](/scorecard-77149/categories/category-203625.md)
-
-## Measures
-
-- [Average plane turnaround time](/scorecard-77149/measures/measure-423525.md)
-
-## Initiatives
-
-- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Trudy Joplin
 
 ## Status — Dec-25 (Below Plan)
 
 **Analysis.** We need to turn planes faster.
 
 **Recommendations.** Our new training initiative will help.
+
+
+## Linkages
+
+### Parents
+
+- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
+
+### Categories
+
+- [Internal](/scorecard-77149/categories/category-203625.md)
+
+### Measures
+
+- [Average plane turnaround time](/scorecard-77149/measures/measure-423525.md)
+
+### Initiatives
+
+- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

@@ -39,18 +39,15 @@ cps:
     dataResource: /scorecard-77146/data/measure-423488-series.json
 ---
 
-## Children
+## Overview
 
-- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
-- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
-
-## Objectives
-
-- [Fun Experience](/scorecard-77146/objectives/objective-207716.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Clarice Strong
+- **Reporting Frequency:** Annual
 
 **Actual** — 8 (Dec-25) · trend [6, 9, 9, 8]
 
-## Status — 2025 (Below Plan)
+## Status — Dec-25 (Below Plan)
 
 **Analysis.** In 2025, Upward Airlines' customer complaints per 1,000 tickets were "Below Plan" with a value of 8, failing to meet the target of 10. This marks a slight improvement from 2023 and 2024, where the status was "Caution" with a value of 9. The consistent failure to meet targets suggests persistent issues in customer service or operational areas.
 
@@ -58,3 +55,14 @@ cps:
 
 
 **Status history.** 2024: Caution · 2024: Caution · 2024: Caution
+
+## Linkages
+
+### Children
+
+- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
+- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
+
+### Objectives
+
+- [Fun Experience](/scorecard-77146/objectives/objective-207716.md)

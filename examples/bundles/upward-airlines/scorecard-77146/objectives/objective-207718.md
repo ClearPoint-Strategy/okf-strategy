@@ -1,10 +1,6 @@
 ---
 type: Objective
 title: No Frills
-description: Part of the reason we are able to offer such low prices is because
-  we keep our costs low, through the &quot;no frills&quot; policy. While we
-  still provide our customers with top notch service (and snacks!), we want to
-  eliminate any wasteful
 resource: clearpoint://scorecard/77146/objective/207718
 timestamp: 2016-07-27T21:50:56.710Z
 cps:
@@ -30,23 +26,14 @@ cps:
       at: 2016-07-27T21:50:56.710Z
 ---
 
-## Children
+## Overview
 
-- [No Frills](/scorecard-77147/objectives/objective-207731.md)
-- [No Frills](/scorecard-77148/objectives/objective-207741.md)
-- [No Frills](/scorecard-77149/objectives/objective-207750.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Janice Jones
 
-## Categories
+## Description
 
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
-
-## Measures
-
-- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
-
-## Initiatives
-
-- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
+Part of the reason we are able to offer such low prices is because we keep our costs low, through the &quot;no frills&quot; policy. While we still provide our customers with top notch service (and snacks!), we want to eliminate any wasteful spending.
 
 ## Status — Dec-25 (Caution)
 
@@ -56,3 +43,23 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Children
+
+- [No Frills](/scorecard-77147/objectives/objective-207731.md)
+- [No Frills](/scorecard-77148/objectives/objective-207741.md)
+- [No Frills](/scorecard-77149/objectives/objective-207750.md)
+
+### Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+### Measures
+
+- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
+
+### Initiatives
+
+- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)

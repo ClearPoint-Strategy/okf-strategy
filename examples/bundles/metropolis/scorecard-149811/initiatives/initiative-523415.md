@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Study revenue growth
-description: Studying revenue growth is essential to determine the reasons for
-  growth each year.
 resource: clearpoint://scorecard/149811/initiative/523415
 timestamp: 2023-03-23T17:38:32.270Z
 cps:
@@ -29,6 +27,21 @@ cps:
       at: 2023-03-23T17:38:32.270Z
 ---
 
-## Objectives
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** ClearPoint Support
+- **Dates:** 2020-04-24 – 2020-06-16
+
+## Description
+
+Studying revenue growth is essential to determine the reasons for growth each year.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
 
 - [Budget Health](/scorecard-149811/objectives/objective-555873.md)

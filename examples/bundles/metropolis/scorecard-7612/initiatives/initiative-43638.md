@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Employee training
-description: We have developed the training curriculum. The team trainers have
-  received these and are working to better train our new employees.
 resource: clearpoint://scorecard/7612/initiative/43638
 timestamp: 2023-01-11T13:14:46.190Z
 cps:
@@ -29,19 +27,34 @@ cps:
       at: 2023-01-11T13:14:46.190Z
 ---
 
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Mark Cutler
+- **Dates:** 2022-03-15 – 2023-01-12
+
+## Description
+
+We have developed the training curriculum. The team trainers have received these and are working to better train our new employees.
+
 ## Details
 
-- Budget: $55,000
-- Level of Effort: Low
-- Level of Impact:  Medium
-- Priority:  High
+- **Budget:** $55,000
+- **Level of Effort:** Low
+- **Level of Impact:**  Medium
+- **Priority:**  High
 
-## Objectives
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Objectives
 
 - [Positive Employee Climate](/scorecard-7612/objectives/objective-54237.md)
 - [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
 
-## Milestones
+### Milestones
 
 - [Implementation test phase](/scorecard-7612/milestones/milestone-53456.md)
 - [Needs assessment](/scorecard-7612/milestones/milestone-53454.md)

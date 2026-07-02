@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Frequent Reliable Departures (Automatic Eval)
-description: One negative flight experience can have a major impact on customer
-  brand loyalty. As such, we need to ensure that we are providing our customers
-  with multiple daily flight options and these flights must be prompt.
 resource: clearpoint://scorecard/77146/objective/207710
 tags:
   - perspective:financial
@@ -31,28 +28,18 @@ cps:
       at: 2025-11-17T17:18:49.370Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Izzy Moreno
+
+## Description
+
+One negative flight experience can have a major impact on customer brand loyalty. As such, we need to ensure that we are providing our customers with multiple daily flight options and these flights must be prompt.
+
 ## Details
 
-- Balanced Scorecard: financial
-
-## Children
-
-- [Reliable Departures](/scorecard-77147/objectives/objective-207725.md)
-- [Morning Departures](/scorecard-77147/objectives/objective-271191.md)
-- [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)
-- [Reliable Departures](/scorecard-77149/objectives/objective-207743.md)
-
-## Categories
-
-- [👥 Customer](/scorecard-77146/categories/category-203612.md)
-
-## Measures
-
-- [Average Number of Daily departures per route](/scorecard-77146/measures/measure-423483.md)
-
-## Risks
-
-- [Operational Disruptions Leading to Flight Delay/Cancellation](/scorecard-77146/risks/risk-70551.md)
+- **Balanced Scorecard:** financial
 
 ## Status — Dec-25 (Below Plan)
 
@@ -62,3 +49,24 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Children
+
+- [Reliable Departures](/scorecard-77147/objectives/objective-207725.md)
+- [Morning Departures](/scorecard-77147/objectives/objective-271191.md)
+- [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)
+- [Reliable Departures](/scorecard-77149/objectives/objective-207743.md)
+
+### Categories
+
+- [👥 Customer](/scorecard-77146/categories/category-203612.md)
+
+### Measures
+
+- [Average Number of Daily departures per route](/scorecard-77146/measures/measure-423483.md)
+
+### Risks
+
+- [Operational Disruptions Leading to Flight Delay/Cancellation](/scorecard-77146/risks/risk-70551.md)

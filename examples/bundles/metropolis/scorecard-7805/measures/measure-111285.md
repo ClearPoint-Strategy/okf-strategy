@@ -24,15 +24,25 @@ cps:
       at: 2020-02-20T14:57:04.510Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Jerry Johnson
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parents
 
 - [Crime rate per 1,000 residents](/scorecard-7612/measures/measure-108445.md)
 
-## Objectives
+### Objectives
 
 - [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)
 
-## Initiatives
+### Initiatives
 
 - [Improve lighting and bus routes on the east side with Public Works](/scorecard-7805/initiatives/initiative-340119.md)
 - [Increase police patrols on the west side](/scorecard-7805/initiatives/initiative-340120.md)

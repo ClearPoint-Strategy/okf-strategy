@@ -1,8 +1,6 @@
 ---
 type: Action Item
 title: Call the newspaper & report solid progress
-description: In the course of our meeting today, we decided that we need to call
-  the newspaper. Cesar has been tasked to do this.
 resource: clearpoint://scorecard/7612/actionItem/21984
 timestamp: 2023-01-11T13:19:30.203Z
 cps:
@@ -28,6 +26,21 @@ cps:
       at: 2023-01-11T13:19:30.203Z
 ---
 
-## Measures
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Steve Lombard
+- **Dates:** 2022-01-12 – 2022-01-13
+
+## Description
+
+In the course of our meeting today, we decided that we need to call the newspaper. Cesar has been tasked to do this.
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Measures
 
 - [Percent of citizens who believe Metropolis provides good value for their tax dollar](/scorecard-7612/measures/measure-108455.md)

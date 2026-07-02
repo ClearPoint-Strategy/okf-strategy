@@ -26,25 +26,33 @@ cps:
       at: 2016-07-27T22:04:09.297Z
 ---
 
-## Parents
+## Overview
 
-- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
-
-## Categories
-
-- [Internal](/scorecard-77148/categories/category-203621.md)
-
-## Measures
-
-- [Time planes wait at gate](/scorecard-77148/measures/measure-423513.md)
-- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
-
-## Initiatives
-
-- [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Kimberly Kupcha
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** We need to turn planes faster.
 
 **Recommendations.** Our new training initiative will help.
+
+
+## Linkages
+
+### Parents
+
+- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
+
+### Categories
+
+- [Internal](/scorecard-77148/categories/category-203621.md)
+
+### Measures
+
+- [Time planes wait at gate](/scorecard-77148/measures/measure-423513.md)
+- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
+
+### Initiatives
+
+- [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)

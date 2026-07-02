@@ -1,9 +1,6 @@
 ---
 type: Measure
 title: Time planes wait at gate
-description: We are measuring the number of minutes it takes from the time a
-  plane arrives at the gate until the time it pushes back for it's next
-  departure. We want to see that time be 30 minutes or less.
 resource: clearpoint://scorecard/77148/measure/423513
 timestamp: 2017-10-17T22:06:35.037Z
 cps:
@@ -42,15 +39,17 @@ cps:
     dataResource: /scorecard-77148/data/measure-423513-series.json
 ---
 
-## Parents
+## Overview
 
-- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
-
-## Objectives
-
-- [Ground Turnaround](/scorecard-77148/objectives/objective-207736.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Izzy Moreno
+- **Reporting Frequency:** Monthly
 
 **Actual** — 34 (Dec-25) · trend [34, 30, 35, 37, 35, 34]
+
+## Description
+
+We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. We want to see that time be 30 minutes or less.
 
 ## Status — Dec-25 (Below Plan)
 
@@ -60,3 +59,13 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Parents
+
+- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
+
+### Objectives
+
+- [Ground Turnaround](/scorecard-77148/objectives/objective-207736.md)

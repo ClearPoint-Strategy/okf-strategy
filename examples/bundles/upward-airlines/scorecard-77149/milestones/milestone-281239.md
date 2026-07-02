@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:25:56.510Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Ashley Caper
+- **Dates:** 2024-12-03 – 2024-12-29
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
-
-**Status history.** Dec-25: Caution

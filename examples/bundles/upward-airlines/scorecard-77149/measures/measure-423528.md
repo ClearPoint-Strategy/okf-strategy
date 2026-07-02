@@ -1,10 +1,6 @@
 ---
 type: Measure
 title: "% of employees who see themselves at Upward for 10+ years"
-description: We want to create an environment where employees are excited to
-  come to work and see themselves at Upward Air for a long time. If staff stay
-  longer, then we will have less turnover and a more skilled, experienced
-  workforce.
 resource: clearpoint://scorecard/77149/measure/423528
 timestamp: 2024-06-05T21:49:23.020Z
 cps:
@@ -45,14 +41,19 @@ cps:
     dataResource: /scorecard-77149/data/measure-423528-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Leadership Training Program](/scorecard-77149/objectives/objective-207751.md)
-- [Employee Compensation](/scorecard-77149/objectives/objective-207748.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Izzy Moreno
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 82 (Dec-25) · trend [78, 76, 74, 78, 80, 82]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We want to create an environment where employees are excited to come to work and see themselves at Upward Air for a long time. If staff stay longer, then we will have less turnover and a more skilled, experienced workforce.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We have been stagnant in this area between the high 70s and low 80s
 
@@ -60,3 +61,10 @@ cps:
 
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Objectives
+
+- [Leadership Training Program](/scorecard-77149/objectives/objective-207751.md)
+- [Employee Compensation](/scorecard-77149/objectives/objective-207748.md)

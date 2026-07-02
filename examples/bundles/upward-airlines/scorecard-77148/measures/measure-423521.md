@@ -51,13 +51,11 @@ cps:
     dataResource: /scorecard-77148/data/measure-423521-series.json
 ---
 
-## Parents
+## Overview
 
-- [Expenses](/scorecard-77146/measures/measure-423497.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77148/objectives/objective-207733.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Mark Cutler
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3331 (Dec-25) · trend [2648, 2880, 2942, 3060, 3274, 3331]
 
@@ -66,3 +64,14 @@ cps:
 **Analysis.** By the cost of fuel dropping dramatically, we have been able to cut costs.
 
 **Recommendations.** We must continue on our current course of managing our expenses closely.
+
+
+## Linkages
+
+### Parents
+
+- [Expenses](/scorecard-77146/measures/measure-423497.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77148/objectives/objective-207733.md)

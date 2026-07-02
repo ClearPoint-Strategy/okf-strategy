@@ -26,6 +26,17 @@ cps:
       at: 2023-04-07T13:49:22.943Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Mark Cutler
+- **Dates:** 2022-01-31 – 2022-05-07
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional safety events](/scorecard-7612/initiatives/initiative-159313.md)

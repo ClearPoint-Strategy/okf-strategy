@@ -26,24 +26,32 @@ cps:
       at: 2016-07-27T22:04:01.010Z
 ---
 
-## Parents
+## Overview
 
-- [Very Low Ticket Prices](/scorecard-77146/objectives/objective-207712.md)
-
-## Categories
-
-- [Customer](/scorecard-77148/categories/category-203620.md)
-
-## Measures
-
-- [Ticket price differential](/scorecard-77148/measures/measure-423512.md)
-
-## Initiatives
-
-- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Greg Garcia
 
 ## Status — Dec-25 (Below Plan)
 
 **Analysis.** We have priced our tickets too high on certain flights, which has hurt us when compared to budget airlines.
 
 **Recommendations.** We need to revise our prices, and drop them to a number where more customers can afford tickets.
+
+
+## Linkages
+
+### Parents
+
+- [Very Low Ticket Prices](/scorecard-77146/objectives/objective-207712.md)
+
+### Categories
+
+- [Customer](/scorecard-77148/categories/category-203620.md)
+
+### Measures
+
+- [Ticket price differential](/scorecard-77148/measures/measure-423512.md)
+
+### Initiatives
+
+- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

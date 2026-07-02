@@ -47,12 +47,22 @@ cps:
     dataResource: /scorecard-7805/data/measure-111267-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Rhonda Fields
+
+**Actual** — 3470 (Dec-22) · trend [3000, 3114, 3273, 3310, 3415, 3470]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Revenue](/scorecard-7612/measures/measure-110208.md)
 
-## Objectives
+### Objectives
 
 - [Financial Wellness](/scorecard-7805/objectives/objective-54685.md)
-
-**Actual** — 3470 (Dec-22) · trend [3000, 3114, 3273, 3310, 3415, 3470]

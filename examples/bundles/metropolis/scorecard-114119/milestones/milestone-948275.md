@@ -23,10 +23,17 @@ cps:
       at: 2023-01-06T19:31:55.523Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** ClearPoint Implementation
+- **Dates:** 2023-01-13 – 2023-01-20
+
+## Linkages
+
+### Parent Initiative
 
 - [ClearPoint Implementation - Pro/Enterprise/Unlimited](/scorecard-114119/initiatives/initiative-504499.md)
 
-## Parent Milestone
+### Parent Milestone
 
 - [Onboarding: Account Set Up](/scorecard-114119/milestones/milestone-948273.md)

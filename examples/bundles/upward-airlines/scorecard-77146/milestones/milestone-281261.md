@@ -30,8 +30,18 @@ cps:
       at: 2025-02-26T15:20:48.363Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Kimberly Kupcha
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-01-01 – 2025-03-01
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
-
-**Status history.** Q4-25: No Information

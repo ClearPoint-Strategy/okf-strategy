@@ -26,22 +26,10 @@ cps:
       at: 2021-11-12T18:42:18.370Z
 ---
 
-## Parents
+## Overview
 
-- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
-
-## Categories
-
-- [Learning and Growth](/scorecard-77147/categories/category-203618.md)
-
-## Measures
-
-- [Percent of employees that are happy](/scorecard-77147/measures/measure-423502.md)
-- [% of employees who see themselves at Upward for 7+ years](/scorecard-77147/measures/measure-423503.md)
-
-## Initiatives
-
-- [Create New Employee Satisfaction Survey](/scorecard-77147/initiatives/initiative-163372.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Mark Cutler
 
 ## Status — Dec-25 (Caution)
 
@@ -51,3 +39,22 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Caution
+
+## Linkages
+
+### Parents
+
+- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
+
+### Categories
+
+- [Learning and Growth](/scorecard-77147/categories/category-203618.md)
+
+### Measures
+
+- [Percent of employees that are happy](/scorecard-77147/measures/measure-423502.md)
+- [% of employees who see themselves at Upward for 7+ years](/scorecard-77147/measures/measure-423503.md)
+
+### Initiatives
+
+- [Create New Employee Satisfaction Survey](/scorecard-77147/initiatives/initiative-163372.md)

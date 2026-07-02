@@ -27,7 +27,15 @@ cps:
       at: 2023-03-23T17:38:28.257Z
 ---
 
-## Initiatives
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Ted Jackson
+- **Dates:** 2022-03-02 – 2023-03-06 (completed)
+
+## Linkages
+
+### Initiatives
 
 - [Update master plans (Milestone Roll Up)](/scorecard-149810/initiatives/initiative-523409.md)
 - [Identify and hold additional safety events](/scorecard-149810/initiatives/initiative-523408.md)

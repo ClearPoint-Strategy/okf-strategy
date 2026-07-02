@@ -56,13 +56,11 @@ cps:
     dataResource: /scorecard-77149/data/measure-423531-series.json
 ---
 
-## Parents
+## Overview
 
-- [Revenue](/scorecard-77146/measures/measure-423496.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77149/objectives/objective-207742.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** James Crockett
+- **Reporting Frequency:** Monthly
 
 **Actual** — 4000 (Dec-25) · trend [3612.22241211, 3720.58911133, 3947.1730957, 3612.22241211, 3720.58911133, 4000]
 
@@ -74,3 +72,13 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Revenue](/scorecard-77146/measures/measure-423496.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77149/objectives/objective-207742.md)

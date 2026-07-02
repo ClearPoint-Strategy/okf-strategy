@@ -29,8 +29,17 @@ cps:
       at: 2025-02-26T15:32:34.350Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** James Crockett
+- **Dates:** 2024-12-28 – 2025-03-19
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Employee Bonus Program](/scorecard-77148/initiatives/initiative-163378.md)
-
-**Status history.** Dec-25: Caution

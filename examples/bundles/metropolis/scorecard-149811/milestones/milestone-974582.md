@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:32.297Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Ron Troupe
+- **Dates:** 2022-07-16 – 2022-10-06
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and solicit additional public aviation events](/scorecard-149811/initiatives/initiative-523412.md)

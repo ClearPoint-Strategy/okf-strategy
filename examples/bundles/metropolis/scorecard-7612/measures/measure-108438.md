@@ -2,10 +2,6 @@
 type: Measure
 title: 'Benchmark: Percent of residents who rate traffic congestion or
   transportation as a "top three" community challenge'
-description: Traffic congestion negatively affects our residents, our
-  businesses, and our community. We are committed to ensuring residents are
-  content with traffic flow and that it becomes a positive attribute of our
-  city.
 resource: clearpoint://scorecard/7612/measure/108438
 timestamp: 2019-06-15T12:12:50.090Z
 cps:
@@ -60,8 +56,22 @@ cps:
     dataResource: /scorecard-7612/data/measure-108438-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Joseph Lucco
 
 **Total citizens polled** — 40200 (Dec-22) · trend [40155, 40155, 40155, 40200]
+
+## Description
+
+Traffic congestion negatively affects our residents, our businesses, and our community. We are committed to ensuring residents are content with traffic flow and that it becomes a positive attribute of our city.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
+
+- [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)

@@ -27,6 +27,17 @@ cps:
       at: 2023-03-23T17:38:28.227Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
+- **Owner:** Ron Troupe
+- **Dates:** 2022-03-27 – 2022-05-14 (completed)
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional safety events](/scorecard-149810/initiatives/initiative-523408.md)

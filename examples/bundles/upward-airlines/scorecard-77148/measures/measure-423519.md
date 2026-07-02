@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: "% of population served within 15 miles"
-description: We will use this measure to help inform our expansion plans.
 resource: clearpoint://scorecard/77148/measure/423519
 timestamp: 2017-10-17T22:30:29.310Z
 cps:
@@ -42,17 +41,19 @@ cps:
     dataResource: /scorecard-77148/data/measure-423519-series.json
 ---
 
-## Parents
+## Overview
 
-- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
-
-## Objectives
-
-- [Good locations](/scorecard-77148/objectives/objective-207740.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Mark Cutler
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 75 (Dec-25) · trend [70, 73, 74, 75]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We will use this measure to help inform our expansion plans.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** As the population grows more people fly with us, so we feel really great about our progress.
 
@@ -60,3 +61,13 @@ cps:
 
 
 **Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+
+## Linkages
+
+### Parents
+
+- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
+
+### Objectives
+
+- [Good locations](/scorecard-77148/objectives/objective-207740.md)

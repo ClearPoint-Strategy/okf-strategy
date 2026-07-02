@@ -1,8 +1,6 @@
 ---
 type: Objective
 title: High Utilization
-description: Our assets should be performing to their full capacity so that we
-  know we are achieving efficiency.
 resource: clearpoint://scorecard/77146/objective/207720
 timestamp: 2016-08-25T00:19:16.320Z
 cps:
@@ -28,17 +26,14 @@ cps:
       at: 2016-08-25T00:19:16.320Z
 ---
 
-## Categories
+## Overview
 
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Ashley Caper
 
-## Measures
+## Description
 
-- [% utilization](/scorecard-77146/measures/measure-423492.md)
-
-## Initiatives
-
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+Our assets should be performing to their full capacity so that we know we are achieving efficiency.
 
 ## Status — Dec-25 (Above Target)
 
@@ -48,3 +43,17 @@ cps:
 
 
 **Status history.** Oct-25: Caution
+
+## Linkages
+
+### Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+### Measures
+
+- [% utilization](/scorecard-77146/measures/measure-423492.md)
+
+### Initiatives
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)

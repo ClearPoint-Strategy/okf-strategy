@@ -23,14 +23,24 @@ cps:
       at: 2017-10-27T17:36:42.583Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Joseph Lucco
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-7631/categories/category-15758.md)
 
-## Measures
+### Measures
 
 - [Airport efficiency rating](/scorecard-7612/measures/measure-110210.md)

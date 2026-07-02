@@ -26,6 +26,17 @@ cps:
       at: 2018-11-14T13:43:22.373Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Ron Troupe
+- **Dates:** 2020-01-22 – 2020-03-26
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Establish Temporary Police Substation during renovation project](/scorecard-7805/initiatives/initiative-44450.md)

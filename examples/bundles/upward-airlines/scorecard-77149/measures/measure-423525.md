@@ -1,9 +1,6 @@
 ---
 type: Measure
 title: Average plane turnaround time
-description: We are measuring the number of minutes it takes from the time a
-  plane arrives at the gate until the time it pushes back for it's next
-  departure. We want to see that time be 30 minutes or less.
 resource: clearpoint://scorecard/77149/measure/423525
 timestamp: 2024-06-05T21:49:21.670Z
 cps:
@@ -42,19 +39,17 @@ cps:
     dataResource: /scorecard-77149/data/measure-423525-series.json
 ---
 
-## Parents
+## Overview
 
-- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
-
-## Objectives
-
-- [Ground Turnaround](/scorecard-77149/objectives/objective-207745.md)
-
-## Initiatives
-
-- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Greg Garcia
+- **Reporting Frequency:** Monthly
 
 **Actual** — 35 (Dec-25) · trend [33, 34, 35, 38, 36, 35]
+
+## Description
+
+We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. We want to see that time be 30 minutes or less.
 
 ## Status — Dec-25 (Caution)
 
@@ -64,3 +59,17 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Caution
+
+## Linkages
+
+### Parents
+
+- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
+
+### Objectives
+
+- [Ground Turnaround](/scorecard-77149/objectives/objective-207745.md)
+
+### Initiatives
+
+- [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

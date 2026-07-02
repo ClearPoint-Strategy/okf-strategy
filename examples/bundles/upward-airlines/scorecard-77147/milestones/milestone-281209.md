@@ -30,10 +30,19 @@ cps:
       at: 2025-02-26T15:30:44.660Z
 ---
 
-## Parent Initiative
+## Overview
 
-- [Create New Employee Satisfaction Survey](/scorecard-77147/initiatives/initiative-163372.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Ashley Caper
+- **Dates:** 2025-03-11 – 2025-04-21
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We are having some trouble rolling out the new survey
+
+
+## Linkages
+
+### Parent Initiative
+
+- [Create New Employee Satisfaction Survey](/scorecard-77147/initiatives/initiative-163372.md)

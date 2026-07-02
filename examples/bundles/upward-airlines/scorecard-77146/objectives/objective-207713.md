@@ -1,10 +1,6 @@
 ---
 type: Objective
 title: Fast Ground Turnaround
-description: "Fast Ground Turnaround will allow us to increase the number of
-  flights we schedule per day, thereby increasing our opportunities for revenue.
-  In addition, customers being able to exit and board their flights in a prompt
-  manner will improve "
 resource: clearpoint://scorecard/77146/objective/207713
 timestamp: 2023-08-10T16:28:45.560Z
 cps:
@@ -30,26 +26,38 @@ cps:
       at: 2023-08-10T16:28:45.560Z
 ---
 
-## Children
+## Overview
 
-- [Ground Turnaround](/scorecard-77147/objectives/objective-207726.md)
-- [Ground Turnaround](/scorecard-77148/objectives/objective-207736.md)
-- [Ground Turnaround](/scorecard-77149/objectives/objective-207745.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Donald Duff
 
-## Categories
+## Description
 
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
-
-## Measures
-
-- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
-
-## Initiatives
-
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
+Fast Ground Turnaround will allow us to increase the number of flights we schedule per day, thereby increasing our opportunities for revenue. In addition, customers being able to exit and board their flights in a prompt manner will improve their overall experience.
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** Our time at gate has risen recently due to changes in TSA regulations.
 
 **Recommendations.** Our time at gate has risen recently due to changes in TSA regulations.
+
+
+## Linkages
+
+### Children
+
+- [Ground Turnaround](/scorecard-77147/objectives/objective-207726.md)
+- [Ground Turnaround](/scorecard-77148/objectives/objective-207736.md)
+- [Ground Turnaround](/scorecard-77149/objectives/objective-207745.md)
+
+### Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+### Measures
+
+- [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)
+
+### Initiatives
+
+- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)

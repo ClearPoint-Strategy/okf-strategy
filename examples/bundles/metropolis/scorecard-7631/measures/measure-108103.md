@@ -37,12 +37,22 @@ cps:
     dataResource: /scorecard-7631/data/measure-108103-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Rhonda Fields
+
+**Actual** — 75 (Dec-22) · trend [82, 85, 87, 91, 82, 75]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Airport efficiency rating](/scorecard-7612/measures/measure-110210.md)
 
-## Objectives
+### Objectives
 
 - [Airfield operates efficiently](/scorecard-7631/objectives/objective-53625.md)
-
-**Actual** — 75 (Dec-22) · trend [82, 85, 87, 91, 82, 75]

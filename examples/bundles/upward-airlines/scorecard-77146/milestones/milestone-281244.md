@@ -28,10 +28,19 @@ cps:
       at: 2025-02-26T15:36:40.007Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Steve Smith
+- **Reporting Frequency:** Quarterly
+- **Dates:** 2025-01-28 – 2025-03-31 (completed)
+
+## Linkages
+
+### Parent Initiative
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
 
-## Action Items
+### Action Items
 
 - [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)

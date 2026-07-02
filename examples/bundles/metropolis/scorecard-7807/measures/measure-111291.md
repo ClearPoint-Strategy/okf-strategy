@@ -52,12 +52,22 @@ cps:
     dataResource: /scorecard-7807/data/measure-111291-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** John Smith
+
+**Actual** — 3423 (Dec-22) · trend [3010, 3247, 3331, 3468, 3400, 3423]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Revenue](/scorecard-7612/measures/measure-110208.md)
 
-## Objectives
+### Objectives
 
 - [Financial Health](/scorecard-7807/objectives/objective-54703.md)
-
-**Actual** — 3423 (Dec-22) · trend [3010, 3247, 3331, 3468, 3400, 3423]

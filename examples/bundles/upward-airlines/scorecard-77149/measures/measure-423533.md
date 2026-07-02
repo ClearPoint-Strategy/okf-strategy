@@ -41,13 +41,11 @@ cps:
     dataResource: /scorecard-77149/data/measure-423533-series.json
 ---
 
-## Parents
+## Overview
 
-- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
-
-## Objectives
-
-- [No Frills](/scorecard-77149/objectives/objective-207750.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Izzy Moreno
+- **Reporting Frequency:** Monthly
 
 **Actual** — 7800 (Dec-25) · trend [7900, 8145, 8200, 8150, 7750, 7800]
 
@@ -59,3 +57,13 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Parents
+
+- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
+
+### Objectives
+
+- [No Frills](/scorecard-77149/objectives/objective-207750.md)

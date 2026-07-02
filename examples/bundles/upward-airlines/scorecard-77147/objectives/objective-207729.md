@@ -26,17 +26,10 @@ cps:
       at: 2021-11-12T18:43:20.157Z
 ---
 
-## Parents
+## Overview
 
-- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
-
-## Categories
-
-- [Learning and Growth](/scorecard-77147/categories/category-203618.md)
-
-## Measures
-
-- [Wage Growth](/scorecard-77147/measures/measure-423504.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Trudy Joplin
 
 ## Status — Dec-25 (Above Target)
 
@@ -46,3 +39,17 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Caution
+
+## Linkages
+
+### Parents
+
+- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
+
+### Categories
+
+- [Learning and Growth](/scorecard-77147/categories/category-203618.md)
+
+### Measures
+
+- [Wage Growth](/scorecard-77147/measures/measure-423504.md)

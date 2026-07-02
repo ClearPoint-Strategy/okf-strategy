@@ -35,13 +35,23 @@ cps:
     dataResource: /scorecard-7631/data/measure-107948-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Steve Lombard
+
+**Actual** — 7 (Dec-22) · trend [7, 8, 9, 9, 8, 7]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Potential hazards prevented through routine checks and maintenance](/scorecard-7612/measures/measure-274713.md)
 - [Number of community evacuation trainings](/scorecard-7612/measures/measure-120406.md)
 
-## Objectives
+### Objectives
 
 - [Well-maintained airfield](/scorecard-7631/objectives/objective-53627.md)
-
-**Actual** — 7 (Dec-22) · trend [7, 8, 9, 9, 8, 7]

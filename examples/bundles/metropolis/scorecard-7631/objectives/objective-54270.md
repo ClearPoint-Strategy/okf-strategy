@@ -23,20 +23,30 @@ cps:
       at: 2017-10-30T21:24:15.003Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Richard Grayson
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
 
-## Categories
+### Categories
 
 - [Finance](/scorecard-7631/categories/category-15759.md)
 
-## Measures
+### Measures
 
 - [Revenue](/scorecard-7631/measures/measure-110219.md)
 - [Profitability](/scorecard-7631/measures/measure-111091.md)
 - [Budget Surplus](/scorecard-7631/measures/measure-1408245.md)
 
-## Initiatives
+### Initiatives
 
 - [Study revenue growth](/scorecard-7631/initiatives/initiative-215318.md)

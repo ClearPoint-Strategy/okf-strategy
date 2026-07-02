@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:18:49.243Z
 ---
 
-## Initiatives
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Ron Troupe
+- **Dates:** 2022-03-27 – 2023-04-26
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Initiatives
 
 - [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)

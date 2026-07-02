@@ -1,8 +1,6 @@
 ---
 type: Objective
 title: Retirement Benefits
-description: We have sufficient benefits for our employees, but we must
-  regularly examine them to see if any changes need to be made.
 resource: clearpoint://scorecard/77148/objective/271190
 timestamp: 2021-01-25T22:22:21.090Z
 cps:
@@ -28,12 +26,24 @@ cps:
       at: 2021-01-25T22:22:21.090Z
 ---
 
-## Parents
+## Overview
 
-- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Donald Duff
+
+## Description
+
+We have sufficient benefits for our employees, but we must regularly examine them to see if any changes need to be made.
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** We really need to focus on changing our retirement plan to benefit loyal employees.
 
 **Recommendations.** We need to revise our retirement package, and make changes that benefit loyal employees.
+
+
+## Linkages
+
+### Parents
+
+- [High Compensation](/scorecard-77146/objectives/objective-207721.md)

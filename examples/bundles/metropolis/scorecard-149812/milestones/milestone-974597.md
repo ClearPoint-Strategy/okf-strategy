@@ -26,6 +26,17 @@ cps:
       at: 2023-03-23T17:38:33.697Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Steve Lombard
+- **Dates:** 2020-01-31 – 2020-08-15
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)

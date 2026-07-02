@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Improve lighting and bus routes on the east side with Public Works
-description: Lighting and bus routes are underdeveloped on the east side so they
-  are being improved.
 resource: clearpoint://scorecard/7805/initiative/340119
 timestamp: 2021-01-21T22:50:42.840Z
 cps:
@@ -29,10 +27,25 @@ cps:
       at: 2021-01-21T22:50:42.840Z
 ---
 
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Jimmy Olsen
+- **Dates:** 2021-01-26 – 2021-02-23
+
+## Description
+
+Lighting and bus routes are underdeveloped on the east side so they are being improved.
+
 ## Details
 
-- Budget: 100,000
+- **Budget:** 100,000
 
-## Measures
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Measures
 
 - [Crimes per 1000 citizens](/scorecard-7805/measures/measure-111285.md)

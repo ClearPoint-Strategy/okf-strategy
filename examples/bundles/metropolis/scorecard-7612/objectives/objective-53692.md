@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Active & Engaged Community
-description: We want our citizens to be active and engaged. Active and engaged
-  citizens make for a more desirable city and the effects will ripple across our
-  town.
 resource: clearpoint://scorecard/7612/objective/53692
 timestamp: 2016-06-08T17:37:26.810Z
 cps:
@@ -26,20 +23,34 @@ cps:
       at: 2016-06-08T17:37:26.810Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Mark Cutler
+
+## Description
+
+We want our citizens to be active and engaged. Active and engaged citizens make for a more desirable city and the effects will ripple across our town.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Satisfied Customers](/scorecard-7631/objectives/objective-53628.md)
 
-## Categories
+### Categories
 
 - [Citizens](/scorecard-7612/categories/category-15754.md)
 
-## Measures
+### Measures
 
 - [Percent of recognized neighborhood associations that meet at least quarterly](/scorecard-7612/measures/measure-108451.md)
 - [Percent of eligible voters who voted in the last city election](/scorecard-7612/measures/measure-108454.md)
 
-## Initiatives
+### Initiatives
 
 - [City Restaurant Audits](/scorecard-7612/initiatives/initiative-43641.md)
 - [Identify and solicit additional public aviation events](/scorecard-7631/initiatives/initiative-43613.md)

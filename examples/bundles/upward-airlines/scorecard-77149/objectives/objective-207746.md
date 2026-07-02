@@ -26,20 +26,28 @@ cps:
       at: 2016-07-27T22:12:19.720Z
 ---
 
-## Parents
+## Overview
 
-- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
-
-## Categories
-
-- [Internal](/scorecard-77149/categories/category-203625.md)
-
-## Measures
-
-- [% of tickets with direct routes](/scorecard-77149/measures/measure-423526.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Izzy Moreno
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** We have established relationships with some cities already, and are continuing to fly to as many new places directly as possible.
 
 **Recommendations.** Continue speaking to airport officials about setting up gates specifically for us.
+
+
+## Linkages
+
+### Parents
+
+- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
+
+### Categories
+
+- [Internal](/scorecard-77149/categories/category-203625.md)
+
+### Measures
+
+- [% of tickets with direct routes](/scorecard-77149/measures/measure-423526.md)

@@ -1,8 +1,6 @@
 ---
 type: Measure
 title: "% increase in employee wages"
-description: We want to ensure we are providing our employees with competitive
-  wages and rewarding them appropriately for their hard work.
 resource: clearpoint://scorecard/77148/measure/423517
 timestamp: 2017-10-06T19:57:56.707Z
 cps:
@@ -47,15 +45,30 @@ cps:
     dataResource: /scorecard-77148/data/measure-423517-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Steve Smith
+- **Reporting Frequency:** Annual
+
+**Actual** — 2 (Dec-25) · trend [3, 2, 2]
+
+## Description
+
+We want to ensure we are providing our employees with competitive wages and rewarding them appropriately for their hard work.
+
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** 2024: No Information · 2024: No Information · 2024: No Information
+
+## Linkages
+
+### Parents
 
 - [Average Wage](/scorecard-77146/measures/measure-423493.md)
 - [% employee ownership](/scorecard-77146/measures/measure-423495.md)
 
-## Objectives
+### Objectives
 
 - [Employee Compensation](/scorecard-77148/objectives/objective-207739.md)
-
-**Actual** — 2 (Dec-25) · trend [3, 2, 2]
-
-**Status history.** 2025: Above Target · 2024: No Information · 2024: No Information · 2024: No Information

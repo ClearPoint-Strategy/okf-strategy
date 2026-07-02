@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:21:23.550Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Lance Cummins
+- **Dates:** 2020-06-23 – 2020-12-28
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Update Police Department Master Plan and Layout Plan](/scorecard-7805/initiatives/initiative-44449.md)

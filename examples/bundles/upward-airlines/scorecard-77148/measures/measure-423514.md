@@ -41,13 +41,11 @@ cps:
     dataResource: /scorecard-77148/data/measure-423514-series.json
 ---
 
-## Parents
+## Overview
 
-- [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)
-
-## Objectives
-
-- [Direct Routes](/scorecard-77148/objectives/objective-207737.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Lawrence Sito
+- **Reporting Frequency:** Monthly
 
 **Actual** — 60 (Dec-25) · trend [60, 61, 60, 59, 57, 60]
 
@@ -56,3 +54,14 @@ cps:
 **Analysis.** Since October, our Actual values have been declining at an alarming pace.
 
 **Recommendations.** Lower the target next quarter.
+
+
+## Linkages
+
+### Parents
+
+- [% of tickets with direct routes](/scorecard-77146/measures/measure-423487.md)
+
+### Objectives
+
+- [Direct Routes](/scorecard-77148/objectives/objective-207737.md)

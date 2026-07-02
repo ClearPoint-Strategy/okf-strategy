@@ -26,21 +26,10 @@ cps:
       at: 2021-11-12T18:38:23.507Z
 ---
 
-## Parents
+## Overview
 
-- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
-
-## Categories
-
-- [Internal](/scorecard-77147/categories/category-203617.md)
-
-## Measures
-
-- [% of population served within 25 miles](/scorecard-77147/measures/measure-423506.md)
-
-## Initiatives
-
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Lawrence Sito
 
 ## Status — Dec-25 (Above Target)
 
@@ -50,3 +39,21 @@ cps:
 
 
 **Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
+
+### Categories
+
+- [Internal](/scorecard-77147/categories/category-203617.md)
+
+### Measures
+
+- [% of population served within 25 miles](/scorecard-77147/measures/measure-423506.md)
+
+### Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

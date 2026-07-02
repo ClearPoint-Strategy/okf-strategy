@@ -44,19 +44,16 @@ cps:
     dataResource: /scorecard-77146/data/measure-423489-series.json
 ---
 
-## Children
+## Overview
 
-- [# of new planes purchased](/scorecard-77147/measures/measure-542405.md)
-- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
-- [# of new planes purchased](/scorecard-77149/measures/measure-542536.md)
-
-## Objectives
-
-- [No Elites](/scorecard-77146/objectives/objective-207717.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Collaborators:** ClearPoint Support2, Clarice Strong
+- **Reporting Frequency:** Annual
 
 **Actual** — 13 (Dec-25) · trend [17, 12, 15, 13]
 
-## Status — 2025 (Below Plan)
+## Status — Dec-25 (Below Plan)
 
 **Analysis.** We need to do a better job differentiating from our competitors to help our numbers here.
 
@@ -64,3 +61,15 @@ cps:
 
 
 **Status history.** 2024: Below Plan · 2024: Below Plan · 2024: Below Plan
+
+## Linkages
+
+### Children
+
+- [# of new planes purchased](/scorecard-77147/measures/measure-542405.md)
+- [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
+- [# of new planes purchased](/scorecard-77149/measures/measure-542536.md)
+
+### Objectives
+
+- [No Elites](/scorecard-77146/objectives/objective-207717.md)

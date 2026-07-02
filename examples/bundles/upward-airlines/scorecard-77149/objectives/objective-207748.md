@@ -26,20 +26,28 @@ cps:
       at: 2024-05-23T14:30:47.657Z
 ---
 
-## Parents
+## Overview
 
-- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
-
-## Categories
-
-- [Learning and Growth](/scorecard-77149/categories/category-203626.md)
-
-## Measures
-
-- [% of employees who see themselves at Upward for 10+ years](/scorecard-77149/measures/measure-423528.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Ted Jackson
 
 ## Status — Dec-25 (Above Target)
 
 **Analysis.** We have been doing well with this objective.
 
 **Recommendations.** Let's make sure we continue to monitor this so we do not relapse on the gains we have made. We need to start having checking meetings.
+
+
+## Linkages
+
+### Parents
+
+- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
+
+### Categories
+
+- [Learning and Growth](/scorecard-77149/categories/category-203626.md)
+
+### Measures
+
+- [% of employees who see themselves at Upward for 10+ years](/scorecard-77149/measures/measure-423528.md)

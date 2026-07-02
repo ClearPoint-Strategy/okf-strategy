@@ -30,8 +30,18 @@ cps:
       at: 2025-02-26T15:20:47.307Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Catherine Mendoza
+- **Reporting Frequency:** Monthly 2025-26
+- **Dates:** 2026-02-14 – 2026-04-02
+
+## Status — Dec-25 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
-
-**Status history.** Dec-25: Caution

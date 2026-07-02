@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Create Upskilling for Employees
-description: We are going to redesign our employee training program. We will
-  keep many components, but we need additional information and training around
-  getting planes out on time.
 resource: clearpoint://scorecard/77147/initiative/163373
 timestamp: 2025-02-26T15:30:44.993Z
 cps:
@@ -33,28 +30,19 @@ cps:
       at: 2025-02-26T15:30:44.993Z
 ---
 
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Janice Jones
+- **Dates:** 2024-11-29 – 2025-06-28
+
+## Description
+
+We are going to redesign our employee training program. We will keep many components, but we need additional information and training around getting planes out on time.
+
 ## Details
 
-- Budget: $350,000
-
-## Parents
-
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-
-## Objectives
-
-- [Reliable Departures](/scorecard-77147/objectives/objective-207725.md)
-- [Ground Turnaround](/scorecard-77147/objectives/objective-207726.md)
-
-## Milestones
-
-- [Hire consultants](/scorecard-77147/milestones/milestone-281214.md)
-- [Survey a sample of employees](/scorecard-77147/milestones/milestone-281213.md)
-- [Compare results](/scorecard-77147/milestones/milestone-281215.md)
-- [Write curriculum](/scorecard-77147/milestones/milestone-281216.md)
-- [Test new curriculum with some employees](/scorecard-77147/milestones/milestone-281217.md)
-- [Evaluate results of sample group and make adjustments](/scorecard-77147/milestones/milestone-281218.md)
-- [Rollout new training across the region](/scorecard-77147/milestones/milestone-281219.md)
+- **Budget:** $350,000
 
 ## Status — Dec-25 (Below Plan)
 
@@ -64,3 +52,24 @@ cps:
 
 
 **Status history.** Sep-25: Below Plan
+
+## Linkages
+
+### Parents
+
+- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
+
+### Objectives
+
+- [Reliable Departures](/scorecard-77147/objectives/objective-207725.md)
+- [Ground Turnaround](/scorecard-77147/objectives/objective-207726.md)
+
+### Milestones
+
+- [Hire consultants](/scorecard-77147/milestones/milestone-281214.md)
+- [Survey a sample of employees](/scorecard-77147/milestones/milestone-281213.md)
+- [Compare results](/scorecard-77147/milestones/milestone-281215.md)
+- [Write curriculum](/scorecard-77147/milestones/milestone-281216.md)
+- [Test new curriculum with some employees](/scorecard-77147/milestones/milestone-281217.md)
+- [Evaluate results of sample group and make adjustments](/scorecard-77147/milestones/milestone-281218.md)
+- [Rollout new training across the region](/scorecard-77147/milestones/milestone-281219.md)

@@ -26,24 +26,10 @@ cps:
       at: 2025-05-01T20:58:47.620Z
 ---
 
-## Parents
+## Overview
 
-- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
-
-## Categories
-
-- [Financial](/scorecard-77147/categories/category-203615.md)
-
-## Measures
-
-- [Income](/scorecard-77147/measures/measure-423507.md)
-- [Expenses](/scorecard-77147/measures/measure-423508.md)
-- [# of new planes purchased](/scorecard-77147/measures/measure-542405.md)
-- [Net Profit](/scorecard-77147/measures/measure-423505.md)
-
-## Initiatives
-
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Clarice Strong
 
 ## Status — Dec-25 (Above Target)
 
@@ -53,3 +39,24 @@ cps:
 
 
 **Status history.** Nov-25: Above Target · Oct-25: Above Target · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
+
+### Categories
+
+- [Financial](/scorecard-77147/categories/category-203615.md)
+
+### Measures
+
+- [Income](/scorecard-77147/measures/measure-423507.md)
+- [Expenses](/scorecard-77147/measures/measure-423508.md)
+- [# of new planes purchased](/scorecard-77147/measures/measure-542405.md)
+- [Net Profit](/scorecard-77147/measures/measure-423505.md)
+
+### Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

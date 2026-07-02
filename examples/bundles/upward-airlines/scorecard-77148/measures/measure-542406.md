@@ -40,13 +40,11 @@ cps:
     dataResource: /scorecard-77148/data/measure-542406-series.json
 ---
 
-## Parents
+## Overview
 
-- [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77148/objectives/objective-207733.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Janice Jones
+- **Reporting Frequency:** Monthly
 
 **Actual** — 16300 (Dec-25) · trend [16000, 15800, 16200, 16100, 15900, 16300]
 
@@ -55,3 +53,14 @@ cps:
 **Analysis.** A-list members are very important to our growth model, and we have seen an increase in loyal customers.
 
 **Recommendations.** Continue to gain loyalty of customers.
+
+
+## Linkages
+
+### Parents
+
+- [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77148/objectives/objective-207733.md)

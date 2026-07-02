@@ -49,13 +49,11 @@ cps:
     dataResource: /scorecard-77148/data/measure-423520-series.json
 ---
 
-## Parents
+## Overview
 
-- [Revenue](/scorecard-77146/measures/measure-423496.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77148/objectives/objective-207733.md)
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Ashley Caper
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3000 (Nov-25) · trend [8000, 7000, 6000, 5000, 4000, 3000]
 
@@ -67,3 +65,13 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Revenue](/scorecard-77146/measures/measure-423496.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77148/objectives/objective-207733.md)

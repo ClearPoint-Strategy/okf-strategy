@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:25:08.090Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Lance Cummins
+- **Dates:** 2020-02-01 – 2020-03-07
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional fire safety events](/scorecard-7807/initiatives/initiative-44458.md)

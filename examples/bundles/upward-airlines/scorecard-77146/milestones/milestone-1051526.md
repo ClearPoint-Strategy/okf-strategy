@@ -29,12 +29,21 @@ cps:
       at: 2025-03-13T17:55:06.790Z
 ---
 
+## Overview
+
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Mark Cutler
+- **Dates:** 2025-07-01 – 2025-10-31
+
 ## Details
 
-- Milestone Review: completed
+- **Milestone Review:** completed
 
-## Parent Initiative
+## Status — Dec-25 (Above Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
-
-**Status history.** Dec-25: Above Target

@@ -42,12 +42,22 @@ cps:
     dataResource: /scorecard-7631/data/measure-110220-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Ron Troupe
+
+**Actual** — 3431 (Dec-22) · trend [3047, 3100, 3210, 3300, 3372, 3431]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Expenses](/scorecard-7612/measures/measure-110209.md)
 
-## Objectives
+### Objectives
 
 - [Financial Wellness](/scorecard-7805/objectives/objective-54685.md)
-
-**Actual** — 3431 (Dec-22) · trend [3047, 3100, 3210, 3300, 3372, 3431]

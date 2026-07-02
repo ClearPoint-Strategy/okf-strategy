@@ -1,9 +1,6 @@
 ---
 type: Initiative
 title: Identify and solicit additional public aviation events
-description: We are looking for exciting events to hold at the airport. We want
-  people to enjoy our facility for more than just traveling. Additionally, we
-  want people who do not travel to come to the airport.
 resource: clearpoint://scorecard/7631/initiative/43613
 timestamp: 2023-01-11T13:17:32.633Z
 cps:
@@ -30,24 +27,39 @@ cps:
       at: 2023-01-11T13:17:32.633Z
 ---
 
+## Overview
+
+- **Scorecard:** Airport
+- **Owner:** Steve Lombard
+- **Dates:** 2022-02-23 – 2022-09-21
+
+## Description
+
+We are looking for exciting events to hold at the airport. We want people to enjoy our facility for more than just traveling. Additionally, we want people who do not travel to come to the airport.
+
 ## Details
 
-- Budget: 34,000
-- Level of Effort:  High
-- Level of Impact:  Medium
-- Priority: Low
+- **Budget:** 34,000
+- **Level of Effort:**  High
+- **Level of Impact:**  Medium
+- **Priority:** Low
 
-## Parents
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Identify and hold additional safety events](/scorecard-7612/initiatives/initiative-159313.md)
 
-## Objectives
+### Objectives
 
 - [Active & Engaged Community](/scorecard-7612/objectives/objective-53692.md)
 - [Airfield operates efficiently](/scorecard-7631/objectives/objective-53625.md)
 - [Satisfied Customers](/scorecard-7631/objectives/objective-53628.md)
 
-## Milestones
+### Milestones
 
 - [Build partner committee](/scorecard-7631/milestones/milestone-54129.md)
 - [Explore and research aviation events at other venues](/scorecard-7631/milestones/milestone-54130.md)

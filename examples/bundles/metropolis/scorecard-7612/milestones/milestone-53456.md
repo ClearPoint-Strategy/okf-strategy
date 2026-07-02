@@ -26,6 +26,17 @@ cps:
       at: 2023-04-20T13:29:14.213Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Catherine Yochum
+- **Dates:** 2022-03-17 – 2022-07-25
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Employee training](/scorecard-7612/initiatives/initiative-43638.md)

@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: Net Profit
-description: Great job team! Keep it up for next quarter.
 resource: clearpoint://scorecard/77146/measure/423481
 tags:
   - theme:financials
@@ -48,32 +47,23 @@ cps:
     dataResource: /scorecard-77146/data/measure-423481-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: Net profit is behind due to expenses and revenue lagging behind. When we bring these two metrics up, we will see this increase as well.
-
-## Children
-
-- [Revenue](/scorecard-77146/measures/measure-423496.md)
-- [Expenses](/scorecard-77146/measures/measure-423497.md)
-- [Net Profit](/scorecard-77147/measures/measure-423505.md)
-- [Net Profit](/scorecard-77148/measures/measure-423518.md)
-- [Net Profit](/scorecard-77149/measures/measure-423529.md)
-
-## Objectives
-
-- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
-
-## Initiatives
-
-- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
-
-## Action Items
-
-- [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)
-- [Schedule conference call and create agenda for the partners to review airline traffic patterns.](/scorecard-77146/action-items/actionItem-182621.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** James Crockett
+- **Collaborators:** Kara Cleary, Tammy Cuzco, Donald Duff
+- **Reporting Frequency:** Monthly
+- **Tags:** Financials
 
 **Actual** — -0.17513135 (Dec-25) · trend [-6.69776741, -10.71428571, 8.85714286, 6.85314685, -3.79825654, -0.17513135]
+
+## Description
+
+Great job team! Keep it up for next quarter.
+
+## Details
+
+- **Variance Report:** Net profit is behind due to expenses and revenue lagging behind. When we bring these two metrics up, we will see this increase as well.
 
 ## Status — Dec-25 (Below Plan)
 
@@ -83,3 +73,26 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Above Target · Sep-25: Above Target
+
+## Linkages
+
+### Children
+
+- [Revenue](/scorecard-77146/measures/measure-423496.md)
+- [Expenses](/scorecard-77146/measures/measure-423497.md)
+- [Net Profit](/scorecard-77147/measures/measure-423505.md)
+- [Net Profit](/scorecard-77148/measures/measure-423518.md)
+- [Net Profit](/scorecard-77149/measures/measure-423529.md)
+
+### Objectives
+
+- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
+
+### Initiatives
+
+- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
+
+### Action Items
+
+- [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)
+- [Schedule conference call and create agenda for the partners to review airline traffic patterns.](/scorecard-77146/action-items/actionItem-182621.md)

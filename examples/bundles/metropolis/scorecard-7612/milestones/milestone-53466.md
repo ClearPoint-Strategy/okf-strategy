@@ -26,6 +26,17 @@ cps:
       at: 2023-01-11T13:16:38.593Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Rhonda Fields
+- **Dates:** 2022-01-26 – 2022-03-21
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [City Restaurant Audits](/scorecard-7612/initiatives/initiative-43641.md)

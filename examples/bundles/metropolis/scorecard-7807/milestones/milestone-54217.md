@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:31:11.590Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Steve Lombard
+- **Dates:** 2020-11-09 – 2021-04-21
+
+## Status — Dec-22 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

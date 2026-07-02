@@ -1,7 +1,6 @@
 ---
 type: Measure
 title: Percent of employees that are happy
-description: We have a employee survery every quarter.
 resource: clearpoint://scorecard/77147/measure/423502
 timestamp: 2021-01-25T20:17:29.270Z
 cps:
@@ -47,13 +46,19 @@ cps:
     dataResource: /scorecard-77147/data/measure-423502-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Employee Satisfaction](/scorecard-77147/objectives/objective-207728.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Greg Garcia
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 84 (Dec-25) · trend [80, 80, 79, 81, 82, 84]
 
-## Status — Q4-25 (Above Target)
+## Description
+
+We have a employee survery every quarter.
+
+## Status — Dec-25 (Above Target)
 
 **Analysis.** We have been doing well keeping our employees happy since Q3-2019.
 
@@ -61,3 +66,9 @@ cps:
 
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Objectives
+
+- [Employee Satisfaction](/scorecard-77147/objectives/objective-207728.md)

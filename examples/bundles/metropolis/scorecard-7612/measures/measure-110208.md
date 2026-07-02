@@ -51,22 +51,33 @@ cps:
     dataResource: /scorecard-7612/data/measure-110208-series.json
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Lance Cummins
+- **Collaborators:** Lance Cummins, Ron Troupe, Catherine Yochum
+
+**Actual** — 2980 (Dec-22) · trend [2999, 3012, 3048, 3056, 3090, 2980]
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-## Children
+### Children
 
 - [Revenue](/scorecard-7631/measures/measure-110219.md)
 - [Income Generated](/scorecard-7805/measures/measure-111267.md)
 - [Revenue](/scorecard-7807/measures/measure-111291.md)
 
-## Objectives
+### Objectives
 
 - [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
 
-## Initiatives
+### Initiatives
 
 - [Create new revenue streams](/scorecard-7612/initiatives/initiative-343366.md)
-
-**Actual** — 2980 (Dec-22) · trend [2999, 3012, 3048, 3056, 3090, 2980]

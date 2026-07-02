@@ -23,6 +23,16 @@ cps:
       at: 2017-10-30T21:28:41.933Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Lance Cummins
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)

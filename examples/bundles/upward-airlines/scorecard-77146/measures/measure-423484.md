@@ -55,14 +55,25 @@ cps:
     dataResource: /scorecard-77146/data/measure-423484-series.json
 ---
 
-## Children
+## Overview
 
-- [Ticket price differential](/scorecard-77147/measures/measure-423499.md)
-
-## Objectives
-
-- [Very Low Ticket Prices](/scorecard-77146/objectives/objective-207712.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Izzy Moreno
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 94 (Dec-25) · trend [95, 81, 82, 86, 96, 94]
 
-**Status history.** Q4-25: Above Target · Q3-25: Below Plan · Q3-25: Below Plan · Q3-25: Below Plan
+## Status — Dec-25 (Above Target)
+
+
+**Status history.** Q3-25: Below Plan · Q3-25: Below Plan · Q3-25: Below Plan
+
+## Linkages
+
+### Children
+
+- [Ticket price differential](/scorecard-77147/measures/measure-423499.md)
+
+### Objectives
+
+- [Very Low Ticket Prices](/scorecard-77146/objectives/objective-207712.md)

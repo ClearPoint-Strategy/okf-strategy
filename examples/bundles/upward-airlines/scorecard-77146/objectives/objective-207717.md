@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: No Elites
-description: As opposed to our competitors, who have an overwhelming amount of
-  status groups, we want to ensure we deliver a consistent customer experience
-  to everyone who flies with Upward Airlines.
 resource: clearpoint://scorecard/77146/objective/207717
 timestamp: 2016-07-27T21:50:48.597Z
 cps:
@@ -29,20 +26,32 @@ cps:
       at: 2016-07-27T21:50:48.597Z
 ---
 
-## Categories
+## Overview
 
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Greg Garcia
 
-## Measures
+## Description
 
-- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
-
-## Initiatives
-
-- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
+As opposed to our competitors, who have an overwhelming amount of status groups, we want to ensure we deliver a consistent customer experience to everyone who flies with Upward Airlines.
 
 ## Status — Dec-25 (Below Plan)
 
 **Analysis.** We need to improve vastly on our elite status. Studies have shown that all regions are failing in this obbjective.
 
 **Recommendations.** Create new marketing drives to show that our airline is inclusive for all demographics.
+
+
+## Linkages
+
+### Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+### Measures
+
+- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
+
+### Initiatives
+
+- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)

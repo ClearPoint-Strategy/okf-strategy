@@ -1,7 +1,6 @@
 ---
 type: Initiative
 title: Propose new budget
-description: We need to propose a new budget for the following fiscal year.
 resource: clearpoint://scorecard/7807/initiative/215317
 timestamp: 2021-01-21T22:49:15.443Z
 cps:
@@ -28,6 +27,21 @@ cps:
       at: 2021-01-21T22:49:15.443Z
 ---
 
-## Objectives
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Richard Grayson
+- **Dates:** 2020-10-24 – 2021-06-17
+
+## Description
+
+We need to propose a new budget for the following fiscal year.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
 
 - [Financial Health](/scorecard-7807/objectives/objective-54703.md)

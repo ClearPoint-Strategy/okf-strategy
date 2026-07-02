@@ -1,8 +1,6 @@
 ---
 type: Objective
 title: Positive Employee Climate
-description: By creating a positive employee climate, we will have a work place
-  that is a model for municipalities around the country.
 resource: clearpoint://scorecard/7612/objective/54237
 timestamp: 2014-03-17T16:36:07.080Z
 cps:
@@ -25,16 +23,30 @@ cps:
       at: 2014-03-17T16:36:07.080Z
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Maggie Sawyer
+
+## Description
+
+By creating a positive employee climate, we will have a work place that is a model for municipalities around the country.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Children
 
 - [Employee Satisfaction](/scorecard-7631/objectives/objective-54235.md)
 - [Employee Happiness](/scorecard-7805/objectives/objective-54683.md)
 - [Positive Employee Climate](/scorecard-7807/objectives/objective-54701.md)
 
-## Categories
+### Categories
 
 - [Learning & Growth](/scorecard-7612/categories/category-15757.md)
 
-## Initiatives
+### Initiatives
 
 - [Employee training](/scorecard-7612/initiatives/initiative-43638.md)

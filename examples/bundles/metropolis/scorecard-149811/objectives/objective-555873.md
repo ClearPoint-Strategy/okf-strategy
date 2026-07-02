@@ -23,20 +23,30 @@ cps:
       at: 2023-03-23T17:38:32.177Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Richard Grayson
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Financial Health & Economic Vitality (Auto Eval)](/scorecard-149810/objectives/objective-555858.md)
 
-## Categories
+### Categories
 
 - [Finance](/scorecard-149811/categories/category-309684.md)
 
-## Measures
+### Measures
 
 - [Revenue](/scorecard-149811/measures/measure-1426509.md)
 - [Profitability](/scorecard-149811/measures/measure-1426511.md)
 - [Budget Surplus](/scorecard-149811/measures/measure-1426519.md)
 
-## Initiatives
+### Initiatives
 
 - [Study revenue growth](/scorecard-149811/initiatives/initiative-523415.md)

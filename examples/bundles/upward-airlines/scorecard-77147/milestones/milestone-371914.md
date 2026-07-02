@@ -29,8 +29,17 @@ cps:
       at: 2025-05-01T21:01:54.950Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Joseph Lucco
+- **Dates:** 2025-03-02 – 2025-05-07
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [New website design](/scorecard-77147/initiatives/initiative-211899.md)
-
-**Status history.** Dec-25: No Information

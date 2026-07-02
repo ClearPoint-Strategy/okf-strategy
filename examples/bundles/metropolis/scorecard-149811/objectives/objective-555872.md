@@ -23,15 +23,25 @@ cps:
       at: 2023-03-23T17:38:32.177Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Parks and Recreation
+- **Owner:** Maggie Sawyer
+
+## Status — Dec-22 (Below Plan)
+
+
+## Linkages
+
+### Parents
 
 - [Recruit & Retain Top Employee Talent](/scorecard-149810/objectives/objective-555862.md)
 
-## Categories
+### Categories
 
 - [Learning & Growth](/scorecard-149811/categories/category-309686.md)
 
-## Measures
+### Measures
 
 - [Percent of employees who have worked at the airport for 5+ years](/scorecard-149811/measures/measure-1426513.md)
 - [Average employee wage](/scorecard-149811/measures/measure-1426514.md)

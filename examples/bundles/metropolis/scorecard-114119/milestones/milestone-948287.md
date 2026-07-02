@@ -23,11 +23,18 @@ cps:
       at: 2023-01-06T19:33:54.227Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** ClearPoint Implementation
+- **Dates:** 2023-02-03 – 2023-02-27
+
+## Linkages
+
+### Parent Initiative
 
 - [ClearPoint Implementation - Local Government Unlimited](/scorecard-114119/initiatives/initiative-504500.md)
 
-## Sub-milestones
+### Sub-milestones
 
 - [Add Elements and Create Links](/scorecard-114119/milestones/milestone-948293.md)
 - [Reporting Periods and Frequencies](/scorecard-114119/milestones/milestone-948292.md)

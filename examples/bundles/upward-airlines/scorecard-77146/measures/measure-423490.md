@@ -63,29 +63,18 @@ cps:
     dataResource: /scorecard-77146/data/measure-423490-series.json
 ---
 
-## Details
+## Overview
 
-- Variance Report: This metric is missing it's target for a number of reasons. The inclement weather we've faced this winter has driven up costs in the Eastern Division. We intend to continue to monitor weather, cut back on flights in the eastern region in an effort to save money, and  continue to monitor these costs and mitigate where possible.
-
-## Children
-
-- [Cost per plane trip](/scorecard-77147/measures/measure-423509.md)
-- [Internal cost per flight](/scorecard-77148/measures/measure-423522.md)
-- [Cost per plane trip](/scorecard-77149/measures/measure-423533.md)
-
-## Objectives
-
-- [No Frills](/scorecard-77146/objectives/objective-207718.md)
-
-## Initiatives
-
-- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
-
-## Action Items
-
-- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)
+- **Scorecard:** Upward Airlines Corporate
+- **Owner:** Clarice Strong
+- **Reporting Frequency:** Monthly
+- **Tags:** Financials
 
 **Actual** — 24050 (Dec-25) · trend [23800, 23970, 24525, 24450, 23950, 24050]
+
+## Details
+
+- **Variance Report:** This metric is missing it's target for a number of reasons. The inclement weather we've faced this winter has driven up costs in the Eastern Division. We intend to continue to monitor weather, cut back on flights in the eastern region in an effort to save money, and  continue to monitor these costs and mitigate where possible.
 
 ## Status — Dec-25 (Caution)
 
@@ -93,6 +82,26 @@ cps:
 
 **Recommendations.** We need to continue closely monitoring theses costs and mitigate where possible. Potentially, cutting back on flights in the eastern region until weather improves might save us some money.
 
-- Complete?: 0
+- **Complete?:** 0
 
 **Status history.** Nov-25: Caution · Oct-25: Below Plan · Sep-25: Below Plan
+
+## Linkages
+
+### Children
+
+- [Cost per plane trip](/scorecard-77147/measures/measure-423509.md)
+- [Internal cost per flight](/scorecard-77148/measures/measure-423522.md)
+- [Cost per plane trip](/scorecard-77149/measures/measure-423533.md)
+
+### Objectives
+
+- [No Frills](/scorecard-77146/objectives/objective-207718.md)
+
+### Initiatives
+
+- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
+
+### Action Items
+
+- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)

@@ -41,9 +41,11 @@ cps:
     dataResource: /scorecard-77149/data/measure-423526-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Direct Routes](/scorecard-77149/objectives/objective-207746.md)
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Trudy Joplin
+- **Reporting Frequency:** Monthly
 
 **Actual** — 53 (Dec-25) · trend [55, 59, 51, 56, 54, 53]
 
@@ -55,3 +57,9 @@ cps:
 
 
 **Status history.** Nov-25: Below Plan · Oct-25: Caution · Sep-25: Below Plan
+
+## Linkages
+
+### Objectives
+
+- [Direct Routes](/scorecard-77149/objectives/objective-207746.md)

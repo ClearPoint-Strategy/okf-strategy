@@ -37,8 +37,18 @@ cps:
     dataResource: /scorecard-7807/data/measure-113497-series.json
 ---
 
-## Objectives
+## Overview
 
-- [Recruit & Retain Top Talent](/scorecard-7807/objectives/objective-54702.md)
+- **Scorecard:** Fire Department
+- **Owner:** Richard Grayson
 
 **Paid Staff** — 50 (Dec-22) · trend [50, 49, 48, 49, 49, 50]
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Objectives
+
+- [Recruit & Retain Top Talent](/scorecard-7807/objectives/objective-54702.md)

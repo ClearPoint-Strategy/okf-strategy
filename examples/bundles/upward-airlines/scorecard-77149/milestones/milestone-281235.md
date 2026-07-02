@@ -29,8 +29,17 @@ cps:
       at: 2025-03-10T22:25:56.743Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Donald Duff
+- **Dates:** 2025-02-13 – 2025-03-10
+
+## Status — Dec-25 (No Information)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Redesign Employee Satisfaction Survey](/scorecard-77149/initiatives/initiative-163379.md)
-
-**Status history.** Dec-25: No Information

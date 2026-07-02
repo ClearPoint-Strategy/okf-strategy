@@ -26,6 +26,17 @@ cps:
       at: 2018-11-13T18:25:24.180Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Fire Department
+- **Owner:** Ted Jackson
+- **Dates:** 2020-02-27 – 2020-05-18
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Identify and hold additional fire safety events](/scorecard-7807/initiatives/initiative-44458.md)

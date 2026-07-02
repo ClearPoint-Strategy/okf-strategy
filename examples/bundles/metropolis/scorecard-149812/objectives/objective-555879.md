@@ -23,15 +23,25 @@ cps:
       at: 2023-03-23T17:38:33.577Z
 ---
 
-## Parents
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** Mark Cutler
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parents
 
 - [Financial Health & Economic Vitality (Auto Eval)](/scorecard-149810/objectives/objective-555858.md)
 
-## Categories
+### Categories
 
 - [Finance](/scorecard-149812/categories/category-309688.md)
 
-## Measures
+### Measures
 
 - [Expenses](/scorecard-149811/measures/measure-1426510.md)
 - [Income Generated](/scorecard-149812/measures/measure-1426528.md)

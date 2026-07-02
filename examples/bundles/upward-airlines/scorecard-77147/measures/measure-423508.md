@@ -51,22 +51,30 @@ cps:
     dataResource: /scorecard-77147/data/measure-423508-series.json
 ---
 
-## Parents
+## Overview
 
-- [Expenses](/scorecard-77146/measures/measure-423497.md)
-
-## Objectives
-
-- [Profitability](/scorecard-77147/objectives/objective-207724.md)
+- **Scorecard:** 🌐 Eastern Division
+- **Owner:** Kimberly Kupcha
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 2430 (Dec-25) · trend [2260, 2430, 2400, 2400, 2400, 2430]
 
-## Status — Q4-25 (Above Target)
+## Status — Dec-25 (Above Target)
 
 **Analysis.** By cutting costs in all three regions, we have turned this measure around.
 
 **Recommendations.** We must continue on our current course of managing our expenses closely.
 
-- Complete?: 0
+- **Complete?:** 0
 
 **Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+
+## Linkages
+
+### Parents
+
+- [Expenses](/scorecard-77146/measures/measure-423497.md)
+
+### Objectives
+
+- [Profitability](/scorecard-77147/objectives/objective-207724.md)

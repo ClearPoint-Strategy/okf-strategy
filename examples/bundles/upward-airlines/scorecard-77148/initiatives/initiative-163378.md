@@ -1,7 +1,6 @@
 ---
 type: Initiative
 title: Employee Bonus Program
-description: Improving our employee bonus program will increase employee retention.
 resource: clearpoint://scorecard/77148/initiative/163378
 timestamp: 2025-11-25T19:55:45.283Z
 cps:
@@ -31,28 +30,41 @@ cps:
       at: 2025-11-25T19:55:45.283Z
 ---
 
+## Overview
+
+- **Scorecard:** 🎯 Central Division
+- **Owner:** Greg Garcia
+- **Dates:** 2024-12-28 – 2025-06-23
+
+## Description
+
+Improving our employee bonus program will increase employee retention.
+
 ## Details
 
-- Budget: $10,000
-- Initiative Review: approved
-
-## Parents
-
-- [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
-
-## Objectives
-
-- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
-- [Employee Compensation](/scorecard-77148/objectives/objective-207739.md)
-
-## Milestones
-
-- [Create new incentives](/scorecard-77148/milestones/milestone-368093.md)
-- [Hire outside consultant to conduct test study](/scorecard-77148/milestones/milestone-368095.md)
-- [Test incentives with study group](/scorecard-77148/milestones/milestone-368094.md)
+- **Budget:** $10,000
+- **Initiative Review:** approved
 
 ## Status — Dec-25 (Caution)
 
 **Analysis.** We need to keep what is positive, remove what is negative, and make any changes that will save the airline money and not negatively affect employees.
 
 **Recommendations.** Don't be afraid to add new aspects to the program.
+
+
+## Linkages
+
+### Parents
+
+- [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
+
+### Objectives
+
+- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
+- [Employee Compensation](/scorecard-77148/objectives/objective-207739.md)
+
+### Milestones
+
+- [Create new incentives](/scorecard-77148/milestones/milestone-368093.md)
+- [Hire outside consultant to conduct test study](/scorecard-77148/milestones/milestone-368095.md)
+- [Test incentives with study group](/scorecard-77148/milestones/milestone-368094.md)

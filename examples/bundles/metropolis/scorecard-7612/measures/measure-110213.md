@@ -1,9 +1,6 @@
 ---
 type: Measure
 title: Average employee wage
-description: Paying a competitive salary is vital to recruiting and retaining
-  top talent. We need to ensure that our employees feel valued from an economic
-  standpoint.
 resource: clearpoint://scorecard/7612/measure/110213
 timestamp: 2018-11-20T19:37:49.020Z
 cps:
@@ -40,14 +37,28 @@ cps:
     dataResource: /scorecard-7612/data/measure-110213-series.json
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Jimmy Olsen
+
+**Actual** — 64000 (Dec-22) · trend [59956, 61350, 61150, 64000]
+
+## Description
+
+Paying a competitive salary is vital to recruiting and retaining top talent. We need to ensure that our employees feel valued from an economic standpoint.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Children
 
 - [Average employee wage](/scorecard-7631/measures/measure-111096.md)
 - [Yearly Employee Salary](/scorecard-7805/measures/measure-111272.md)
 - [Employee compensation per year](/scorecard-7807/measures/measure-111296.md)
 
-## Objectives
+### Objectives
 
 - [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
-
-**Actual** — 64000 (Dec-22) · trend [59956, 61350, 61150, 64000]

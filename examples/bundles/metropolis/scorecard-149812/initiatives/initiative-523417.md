@@ -1,8 +1,6 @@
 ---
 type: Initiative
 title: Update Police Department Master Plan and Layout Plan
-description: We refresh our annual plan every 5 years. When we refresh
-  everything it takes approximately 2 years to go through the process.
 resource: clearpoint://scorecard/149812/initiative/523417
 timestamp: 2023-03-23T18:13:32.650Z
 cps:
@@ -32,24 +30,40 @@ cps:
       at: 2023-03-23T18:13:32.650Z
 ---
 
+## Overview
+
+- **Scorecard:** Police Department
+- **Owner:** John Smith
+- **Collaborators:** Richard Grayson, Steve Lombard
+- **Dates:** 2020-01-04 – 2021-10-14
+
+## Description
+
+We refresh our annual plan every 5 years. When we refresh everything it takes approximately 2 years to go through the process.
+
 ## Details
 
-- Priority: Low
+- **Priority:** Low
 
-## Parents
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parents
 
 - [Update master plans (Milestone Roll Up)](/scorecard-149810/initiatives/initiative-523409.md)
 
-## Children
+### Children
 
 - [Identify and hold additional public safety events](/scorecard-149812/initiatives/initiative-523416.md)
 
-## Objectives
+### Objectives
 
 - [Crime Statistics](/scorecard-149812/objectives/objective-555875.md)
 - [Safe & Prepared Community](/scorecard-149812/objectives/objective-555876.md)
 
-## Milestones
+### Milestones
 
 - [Market analysis](/scorecard-149812/milestones/milestone-974597.md)
 - [Build a planning committee](/scorecard-149812/milestones/milestone-974598.md)

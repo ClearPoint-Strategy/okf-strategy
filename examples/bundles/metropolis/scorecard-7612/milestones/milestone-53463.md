@@ -28,6 +28,18 @@ cps:
       at: 2023-01-11T13:15:12.740Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** John Smith
+- **Reporting Frequency:** Monthly
+- **Dates:** 2021-12-11 – 2022-03-09
+
+## Status — Dec-22 (Caution)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)

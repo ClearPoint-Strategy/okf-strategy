@@ -20,4 +20,6 @@ cps:
       at: 2021-12-20T15:06:32.010Z
 ---
 
+## Overview
 
+- **Scorecard:** ClearPoint Implementation

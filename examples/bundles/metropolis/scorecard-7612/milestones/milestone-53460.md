@@ -28,6 +28,18 @@ cps:
       at: 2023-01-11T13:15:12.737Z
 ---
 
-## Parent Initiative
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Ron Troupe
+- **Reporting Frequency:** Monthly
+- **Dates:** 2021-12-25 – 2022-03-22
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Parent Initiative
 
 - [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)

@@ -1,9 +1,6 @@
 ---
 type: Objective
 title: Accountable & Responsive City Government
-description: It is paramount that our city government is accountable to our
-  citizens. To be accountable, we must be responsive to our citizen's needs and
-  always put them first.
 resource: clearpoint://scorecard/7612/objective/53691
 timestamp: 2017-10-27T17:31:20.517Z
 cps:
@@ -26,19 +23,33 @@ cps:
       at: 2017-10-27T17:31:20.517Z
 ---
 
-## Children
+## Overview
+
+- **Scorecard:** Metropolis City Scorecard
+- **Owner:** Steve Lombard
+
+## Description
+
+It is paramount that our city government is accountable to our citizens. To be accountable, we must be responsive to our citizen's needs and always put them first.
+
+## Status — Dec-22 (On Target)
+
+
+## Linkages
+
+### Children
 
 - [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
 
-## Categories
+### Categories
 
 - [Operations](/scorecard-7612/categories/category-15756.md)
 
-## Measures
+### Measures
 
 - [Percent of citizens rating city government performance "good" or "excellent"](/scorecard-7612/measures/measure-108449.md)
 - [Percent of citizens who believe Metropolis provides good value for their tax dollar](/scorecard-7612/measures/measure-108455.md)
 
-## Initiatives
+### Initiatives
 
 - [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)

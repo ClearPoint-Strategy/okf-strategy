@@ -1,7 +1,6 @@
 ---
 type: Initiative
 title: CPS-2921
-description: This is just a test that may be deleted later
 resource: clearpoint://scorecard/77149/initiative/627612
 timestamp: 2025-03-10T22:25:57.317Z
 cps:
@@ -42,4 +41,13 @@ cps:
     dataResource: /scorecard-77149/data/initiative-627612-series.json
 ---
 
+## Overview
 
+- **Scorecard:** 🏜️ Western Division
+- **Owner:** Ted Jackson
+- **Reporting Frequency:** Monthly
+- **Dates:** 2026-05-21 – 2026-08-21
+
+## Description
+
+This is just a test that may be deleted later
