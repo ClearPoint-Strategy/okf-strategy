@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -46,6 +47,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Rhonda Fields
+- **Reporting Frequency:** Monthly
 
 **Actual** — 8.05 (Dec-22) · trend [6.32, 4.47, 2.13, 4.7, 6.83, 8.05]
 

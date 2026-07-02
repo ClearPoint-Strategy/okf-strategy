@@ -10,6 +10,7 @@ cps:
   scorecard: Police Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -51,6 +52,7 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Rhonda Fields
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3470 (Dec-22) · trend [3000, 3114, 3273, 3310, 3415, 3470]
 

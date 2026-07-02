@@ -10,6 +10,7 @@ cps:
   scorecard: Airport
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -39,6 +40,7 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Steve Lombard
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 7 (Dec-22) · trend [7, 8, 9, 9, 8, 7]
 

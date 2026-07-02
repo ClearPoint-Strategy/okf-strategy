@@ -10,6 +10,7 @@ cps:
   scorecard: Police Department
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -39,6 +40,7 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Mark Cutler
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 2.5 (Dec-22) · trend [2.25, 2, 1.75, 2, 2.25, 2.5]
 

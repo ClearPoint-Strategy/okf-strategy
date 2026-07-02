@@ -10,6 +10,7 @@ cps:
   scorecard: Metropolis City Scorecard
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Joseph Lucco
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 32 (Dec-22) · trend [14, 19, 21, 30, 33, 32]
 

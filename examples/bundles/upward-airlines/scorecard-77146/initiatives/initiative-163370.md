@@ -15,6 +15,7 @@ cps:
   completed: false
   status:
     periodicity: Quarterly
+    periodGroupId: 9723
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -41,6 +42,7 @@ cps:
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Donald Duff
 - **Collaborators:** Mark Cutler, Greg Garcia, Izzy Moreno
+- **Reporting Frequency:** Quarterly
 - **Dates:** 2025-06-02 – 2026-06-28
 - **Tags:** High Priority
 

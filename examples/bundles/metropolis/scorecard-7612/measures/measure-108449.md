@@ -10,6 +10,7 @@ cps:
   scorecard: Metropolis City Scorecard
   status:
     periodicity: Annual
+    periodGroupId: 2495
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** John Smith
+- **Reporting Frequency:** Annual
 
 **Actual** — 75 (Dec-22) · trend [62, 57, 59, 75]
 

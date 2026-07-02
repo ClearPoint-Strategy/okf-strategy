@@ -10,6 +10,7 @@ cps:
   scorecard: Police Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Ron Troupe
+- **Reporting Frequency:** Monthly
 
 **Actual** — 5.2 (Dec-22) · trend [17.2, 15.41, 11.36, 9.13, 7.59, 5.2]
 

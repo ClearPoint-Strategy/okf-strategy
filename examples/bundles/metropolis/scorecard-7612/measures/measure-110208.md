@@ -10,6 +10,7 @@ cps:
   scorecard: Metropolis City Scorecard
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -56,6 +57,7 @@ cps:
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Lance Cummins
 - **Collaborators:** Lance Cummins, Ron Troupe, Catherine Yochum
+- **Reporting Frequency:** Monthly
 
 **Actual** — 2980 (Dec-22) · trend [2999, 3012, 3048, 3056, 3090, 2980]
 

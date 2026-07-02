@@ -13,6 +13,7 @@ cps:
   completed: false
   status:
     periodicity: Quarterly
+    periodGroupId: 9723
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -33,6 +34,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Ashley Caper
+- **Reporting Frequency:** Quarterly
 - **Dates:** 2026-04-02 – 2026-06-03
 
 ## Status — Dec-25 (No Information)

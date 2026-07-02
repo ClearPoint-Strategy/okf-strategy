@@ -10,6 +10,7 @@ cps:
   scorecard: Metropolis City Scorecard
   status:
     periodicity: Annual
+    periodGroupId: 2495
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Jimmy Olsen
+- **Reporting Frequency:** Annual
 
 **Actual** — 64000 (Dec-22) · trend [59956, 61350, 61150, 64000]
 

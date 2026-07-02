@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -42,6 +43,7 @@ cps:
 - **Scorecard:** Fire Department
 - **Owner:** Ron Troupe
 - **Collaborators:** Rhonda Fields
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 1 (Dec-22) · trend [1.25, 1, 1.25, 1.25, 1.5, 1]
 

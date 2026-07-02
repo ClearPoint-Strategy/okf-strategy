@@ -10,6 +10,7 @@ cps:
   scorecard: Metropolis City Scorecard
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -39,6 +40,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** ClearPoint Support
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 160 (Dec-22) · trend [72, 113, 107, 117, 120, 160]
 

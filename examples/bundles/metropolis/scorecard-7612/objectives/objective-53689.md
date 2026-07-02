@@ -9,6 +9,8 @@ cps:
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
   status:
+    periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -31,6 +33,7 @@ cps:
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Rhonda Fields
 - **Collaborators:** Mark Cutler, Steve Lombard
+- **Reporting Frequency:** Monthly
 
 ## Description
 

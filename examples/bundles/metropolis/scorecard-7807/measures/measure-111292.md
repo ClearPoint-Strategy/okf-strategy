@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -51,6 +52,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Lance Cummins
+- **Reporting Frequency:** Monthly
 
 **Actual** — 2314 (Dec-22) · trend [1970, 2030, 2070, 2160, 2300, 2314]
 

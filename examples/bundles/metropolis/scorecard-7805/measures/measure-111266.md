@@ -10,6 +10,7 @@ cps:
   scorecard: Police Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Ted Jackson
+- **Reporting Frequency:** Monthly
 
 **Actual** — 83 (Dec-22) · trend [81, 83, 86, 88, 91, 83]
 

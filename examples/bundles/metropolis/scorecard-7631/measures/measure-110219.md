@@ -10,6 +10,7 @@ cps:
   scorecard: Airport
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -51,6 +52,7 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Jimmy Olsen
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3743 (Dec-22) · trend [3336, 3080, 3167, 3258, 3612, 3743]
 

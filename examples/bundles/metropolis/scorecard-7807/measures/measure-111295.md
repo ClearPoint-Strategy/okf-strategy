@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Annual
+    periodGroupId: 2495
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** John Smith
+- **Reporting Frequency:** Annual
 
 **Actual** — 52 (Dec-22) · trend [43, 46, 49, 52]
 

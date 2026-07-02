@@ -10,6 +10,7 @@ cps:
   scorecard: Airport
   status:
     periodicity: Annual
+    periodGroupId: 2495
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Mark Cutler
+- **Reporting Frequency:** Annual
 
 **Actual** — 78 (Dec-22) · trend [85, 82, 80, 78]
 

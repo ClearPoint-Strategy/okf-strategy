@@ -10,6 +10,7 @@ cps:
   scorecard: Airport
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -46,6 +47,7 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Ron Troupe
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3431 (Dec-22) · trend [3047, 3100, 3210, 3300, 3372, 3431]
 

@@ -13,6 +13,7 @@ cps:
   completed: false
   status:
     periodicity: Quarterly
+    periodGroupId: 9723
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -33,6 +34,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Mark Cutler
+- **Reporting Frequency:** Quarterly
 - **Dates:** 2025-06-02 – 2025-08-01
 
 ## Details

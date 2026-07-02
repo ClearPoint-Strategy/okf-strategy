@@ -13,6 +13,7 @@ cps:
   completed: false
   status:
     periodicity: Quarterly
+    periodGroupId: 9723
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -33,6 +34,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Catherine Mendoza
+- **Reporting Frequency:** Quarterly
 - **Dates:** 2026-01-02 – 2026-04-02
 
 ## Details

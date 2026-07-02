@@ -14,6 +14,7 @@ cps:
   completedDate: 2025-09-21
   status:
     periodicity: Quarterly
+    periodGroupId: 9723
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -32,6 +33,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** James Crockett
+- **Reporting Frequency:** Quarterly
 - **Dates:** 2025-11-02 – 2026-01-02 (completed)
 
 ## Status — Dec-25 (Above Target)

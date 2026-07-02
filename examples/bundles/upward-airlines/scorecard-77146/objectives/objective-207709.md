@@ -11,6 +11,8 @@ cps:
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
   status:
+    periodicity: Monthly
+    periodGroupId: 9722
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -36,6 +38,7 @@ cps:
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Clarice Strong
 - **Collaborators:** James Crockett, Donald Duff
+- **Reporting Frequency:** Monthly
 - **Tags:** Financials
 
 ## Description

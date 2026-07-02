@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Joseph Lucco
+- **Reporting Frequency:** Monthly
 
 **Actual** — 91 (Dec-22) · trend [80, 82, 84, 87, 90, 91]
 

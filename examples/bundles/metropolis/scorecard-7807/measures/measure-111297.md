@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Maggie Sawyer
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 72 (Dec-22) · trend [66, 70, 68, 67, 71, 72]
 

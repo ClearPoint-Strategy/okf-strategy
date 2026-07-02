@@ -10,6 +10,7 @@ cps:
   scorecard: 🌐 Eastern Division
   status:
     periodicity: Monthly
+    periodGroupId: 9722
     currentPeriod:
       periodId: 189846
       period: Dec-25
@@ -44,6 +45,7 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** James Crockett
+- **Reporting Frequency:** Monthly
 
 **Actual** — 8900 (Dec-25) · trend [8300, 8300, 8900, 8900, 8900, 8900]
 

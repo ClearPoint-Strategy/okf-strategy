@@ -10,6 +10,7 @@ cps:
   scorecard: Fire Department
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Richard Grayson
+- **Reporting Frequency:** Quarterly
 
 **Paid Staff** — 50 (Dec-22) · trend [50, 49, 48, 49, 49, 50]
 

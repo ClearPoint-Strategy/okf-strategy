@@ -10,6 +10,7 @@ cps:
   scorecard: Airport
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Richard Grayson
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 80 (Dec-22) · trend [85, 83, 78, 81, 77, 80]
 

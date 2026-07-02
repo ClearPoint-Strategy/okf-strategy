@@ -10,6 +10,7 @@ cps:
   scorecard: Police Department
   status:
     periodicity: Quarterly
+    periodGroupId: 2493
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** John Smith
+- **Reporting Frequency:** Quarterly
 
 **Actual** — 83 (Dec-22) · trend [77, 78, 80, 82, 84, 83]
 

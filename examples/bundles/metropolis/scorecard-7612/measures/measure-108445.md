@@ -10,6 +10,7 @@ cps:
   scorecard: Metropolis City Scorecard
   status:
     periodicity: Annual
+    periodGroupId: 2495
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -39,6 +40,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Ted Jackson
+- **Reporting Frequency:** Annual
 
 **Actual** — 24 (Dec-22) · trend [20, 21, 19, 24]
 

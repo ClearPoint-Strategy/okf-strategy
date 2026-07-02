@@ -10,6 +10,7 @@ cps:
   scorecard: Police Department
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -51,6 +52,7 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Maggie Sawyer
+- **Reporting Frequency:** Monthly
 
 **Actual** — 3525 (Dec-22) · trend [2930, 2968, 3115, 3367, 3441, 3525]
 

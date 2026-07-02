@@ -10,6 +10,7 @@ cps:
   scorecard: Airport
   status:
     periodicity: Monthly
+    periodGroupId: 2529
     currentPeriod:
       periodId: 192048
       period: Dec-22
@@ -41,6 +42,7 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Lance Cummins
+- **Reporting Frequency:** Monthly
 
 **Actual** — 8.7 (Dec-22) · trend [4.74, 7.89, 10.22, 13.57, 16.39, 8.7]
 
