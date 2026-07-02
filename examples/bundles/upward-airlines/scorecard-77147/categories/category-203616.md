@@ -8,12 +8,7 @@ cps:
   objectId: 203616
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     currentPeriod:
       periodId: 189846
       period: Dec-25

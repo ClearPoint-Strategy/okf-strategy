@@ -14,11 +14,7 @@ cps:
   startDate: 2024-12-28
   endDate: 2025-03-10
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -27,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77148/data/initiative-211898-status.json
+    statusResource: /scorecard-77148/data/initiative-211898-status.json
   provenance:
     owner:
       name: Donald Duff

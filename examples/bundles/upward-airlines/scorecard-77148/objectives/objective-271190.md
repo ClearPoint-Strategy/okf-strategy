@@ -10,12 +10,7 @@ cps:
   objectId: 271190
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846
@@ -23,7 +18,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77148/data/objective-271190-status.json
+    statusResource: /scorecard-77148/data/objective-271190-status.json
   provenance:
     owner:
       name: Donald Duff

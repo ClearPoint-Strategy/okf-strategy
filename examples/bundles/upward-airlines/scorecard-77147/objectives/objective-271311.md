@@ -8,12 +8,7 @@ cps:
   objectId: 271311
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846
@@ -21,7 +16,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77147/data/objective-271311-status.json
+    statusResource: /scorecard-77147/data/objective-271311-status.json
   provenance:
     owner:
       name: Mark Cutler

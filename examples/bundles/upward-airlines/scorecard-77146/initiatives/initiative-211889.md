@@ -15,11 +15,7 @@ cps:
   startDate: 2025-09-01
   endDate: 2026-05-11
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -28,7 +24,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77146/data/initiative-211889-status.json
+    statusResource: /scorecard-77146/data/initiative-211889-status.json
   provenance:
     owner:
       name: James Crockett

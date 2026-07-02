@@ -8,12 +8,7 @@ cps:
   objectId: 207729
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846
@@ -21,7 +16,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77147/data/objective-207729-status.json
+    statusResource: /scorecard-77147/data/objective-207729-status.json
   provenance:
     owner:
       name: Trudy Joplin

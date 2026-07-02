@@ -8,12 +8,7 @@ cps:
   objectId: 423482
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:

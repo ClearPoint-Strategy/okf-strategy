@@ -9,12 +9,7 @@ cps:
   objectId: 423515
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
@@ -23,7 +18,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77148/data/measure-423515-status.json
+    statusResource: /scorecard-77148/data/measure-423515-status.json
   provenance:
     owner:
       name: Mark Cutler

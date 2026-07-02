@@ -12,11 +12,7 @@ cps:
   startDate: 2024-12-28
   endDate: 2025-06-23
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -25,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77148/data/initiative-163378-status.json
+    statusResource: /scorecard-77148/data/initiative-163378-status.json
   provenance:
     owner:
       name: Greg Garcia

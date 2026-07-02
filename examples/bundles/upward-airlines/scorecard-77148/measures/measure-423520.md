@@ -8,19 +8,14 @@ cps:
   objectId: 423520
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
       periodId: 189846
       period: Dec-25
       periodDate: 2025-12-31
-    historyResource: /scorecard-77148/data/measure-423520-status.json
+    statusResource: /scorecard-77148/data/measure-423520-status.json
   provenance:
     owner:
       name: Ashley Caper

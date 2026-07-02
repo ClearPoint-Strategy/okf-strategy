@@ -63,9 +63,8 @@
                 "access": {
                     "type": "object",
                     "additionalProperties": false,
-                    "description": "AXIS 2 — Access. Sourced from element.access (_elementAccess) + cps-next effective access; propagates on rollups/edges (intersection). COMPUTED audit trail, NOT the enforcement point — enforcement is pre-retrieval, server-side, per principal. Default-deny.",
+                    "description": "AXIS 2 — Access. Compartment membership (markings) of the concept, e.g. 'scorecard:<id>'. NOT the requesting user's access — element.access from the MCP projection is the CALLER's effective access and is deliberately NOT embedded; nor is this a 'minimum required'. Who-can-access is governed by the scorecard's access rules (a lookup). For pure ClearPoint elements the compartment equals cps.scorecardId, so a plain concept omits this block; it appears only on derived/enriched/personal nodes. Enforcement is pre-retrieval, server-side, per principal.",
                     "properties": {
-                        "minCapability": { "$ref": "#/$defs/capability" },
                         "markings": {
                             "type": "array",
                             "items": { "type": "string" },
@@ -74,15 +73,15 @@
                         "derivedFrom": { "type": "array", "items": { "type": "string" }, "description": "Paths whose markings were unioned into this node." }
                     }
                 },
-                "time": {
+                "status": {
                     "type": "object",
                     "additionalProperties": false,
-                    "description": "AXIS 3 — Time. Bitemporal. Grounding reads VALID time (reporting period). 'current' is PER-ELEMENT at its own cadence.",
+                    "description": "AXIS 3 — Time/Status. The element's current reporting status + cadence. Bitemporal: grounding reads VALID time (reporting period); 'current' is PER-ELEMENT at its own cadence.",
                     "properties": {
                         "cadence": { "type": "string", "description": "Reporting periodicity (elementStatus.periodicity / periodGroup), e.g. 'monthly', 'quarterly'." },
                         "periodGroupId": { "type": ["integer", "null"] },
                         "currentPeriod": { "anyOf": [{ "$ref": "#/$defs/periodRef" }, { "type": "null" }], "description": "Latest relevant reporting period (element.displayPeriodId / elementStatus.period), with its status snapshot. Narrative (analysis/recommendations) stays in the body period section." },
-                        "historyResource": { "type": "string", "description": "Bundle-relative path/URI of the period-history sidecar (structured per-period qualitative: status, analysis, recommendations, period-scoped custom fields). Mirrors the metric sidecar. The body period sections are the grounding view; this is the query view." }
+                        "statusResource": { "type": "string", "description": "Bundle-relative path of the status-history sidecar (<object>-<id>-status.json): structured per-period status, analysis, recommendations, period-scoped custom fields. Body period sections are the grounding view; this is the query view." }
                     }
                 },
                 "provenance": {

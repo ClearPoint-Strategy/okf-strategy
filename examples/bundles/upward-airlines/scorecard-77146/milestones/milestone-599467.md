@@ -13,11 +13,7 @@ cps:
   startDate: 2026-04-02
   endDate: 2026-11-19
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: monthly 2025-26
     periodGroupId: 29413
     currentPeriod:
@@ -26,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18581
       status: No Information
-    historyResource: /scorecard-77146/data/milestone-599467-status.json
+    statusResource: /scorecard-77146/data/milestone-599467-status.json
   provenance:
     owner:
       name: Ashley Caper

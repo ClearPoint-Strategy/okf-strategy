@@ -13,11 +13,7 @@ cps:
   startDate: 2024-11-01
   endDate: 2025-04-27
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -26,7 +22,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77147/data/initiative-163375-status.json
+    statusResource: /scorecard-77147/data/initiative-163375-status.json
   provenance:
     owner:
       name: Lawrence Sito

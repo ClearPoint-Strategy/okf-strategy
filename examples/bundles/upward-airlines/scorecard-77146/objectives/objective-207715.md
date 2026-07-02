@@ -11,12 +11,7 @@ cps:
   objectId: 207715
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846
@@ -24,7 +19,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77146/data/objective-207715-status.json
+    statusResource: /scorecard-77146/data/objective-207715-status.json
   provenance:
     owner:
       name: Ashley Caper

@@ -11,11 +11,7 @@ cps:
   startDate: 2024-11-09
   endDate: 2024-11-18
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77149
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -24,7 +20,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77149/data/milestone-281238-status.json
+    statusResource: /scorecard-77149/data/milestone-281238-status.json
   provenance:
     owner:
       name: Tammy Cuzco

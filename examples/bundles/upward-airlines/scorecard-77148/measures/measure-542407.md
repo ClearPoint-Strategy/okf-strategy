@@ -8,12 +8,7 @@ cps:
   objectId: 542407
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
@@ -22,7 +17,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77148/data/measure-542407-status.json
+    statusResource: /scorecard-77148/data/measure-542407-status.json
   provenance:
     owner:
       name: Lawrence Sito

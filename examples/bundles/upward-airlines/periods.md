@@ -1,0 +1,162 @@
+---
+type: Periods
+title: Periods
+periods:
+  - id: 149093
+    name: Dec-22
+    date: 2022-12-31
+  - id: 168164
+    name: Jun-23
+    date: 2023-06-30
+  - id: 168168
+    name: Dec-23
+    date: 2023-12-31
+  - id: 168170
+    name: Jan-24
+    date: 2024-01-31
+  - id: 168173
+    name: Feb-24
+    date: 2024-02-29
+  - id: 168172
+    name: Mar-24
+    date: 2024-03-31
+  - id: 149074
+    name: Apr-24
+    date: 2024-04-30
+  - id: 189837
+    name: May-24
+    date: 2024-05-31
+  - id: 189836
+    name: Jun-24
+    date: 2024-06-30
+  - id: 189839
+    name: Jul-24
+    date: 2024-07-31
+  - id: 189838
+    name: Aug-24
+    date: 2024-08-31
+  - id: 189840
+    name: Sep-24
+    date: 2024-09-30
+  - id: 189845
+    name: Oct-24
+    date: 2024-10-31
+  - id: 189841
+    name: Nov-24
+    date: 2024-11-30
+  - id: 256354
+    name: Dec-24
+    date: 2024-12-31
+  - id: 189842
+    name: Jan-25
+    date: 2025-01-31
+  - id: 189844
+    name: Feb-25
+    date: 2025-02-28
+  - id: 189843
+    name: Mar-25
+    date: 2025-03-31
+  - id: 168171
+    name: Apr-25
+    date: 2025-04-30
+  - id: 256347
+    name: May-25
+    date: 2025-05-31
+  - id: 256348
+    name: Jun-25
+    date: 2025-06-30
+  - id: 256349
+    name: Jul-25
+    date: 2025-07-31
+  - id: 256350
+    name: Aug-25
+    date: 2025-08-31
+  - id: 256351
+    name: Sep-25
+    date: 2025-09-30
+  - id: 256352
+    name: Oct-25
+    date: 2025-10-31
+  - id: 256353
+    name: Nov-25
+    date: 2025-11-30
+  - id: 189846
+    name: Dec-25
+    date: 2025-12-31
+  - id: 256610
+    name: Jan-26
+    date: 2026-01-31
+  - id: 256611
+    name: Feb-26
+    date: 2026-02-28
+  - id: 256612
+    name: Mar-26
+    date: 2026-03-31
+  - id: 256613
+    name: Apr-26
+    date: 2026-04-30
+  - id: 256614
+    name: May-26
+    date: 2026-05-31
+  - id: 256615
+    name: Jun-26
+    date: 2026-06-30
+  - id: 256616
+    name: Jul-26
+    date: 2026-07-31
+  - id: 256617
+    name: Aug-26
+    date: 2026-08-31
+  - id: 256620
+    name: Sep-26
+    date: 2026-09-30
+  - id: 256621
+    name: Oct-26
+    date: 2026-10-31
+  - id: 256622
+    name: Nov-26
+    date: 2026-11-30
+  - id: 256623
+    name: Dec-26
+    date: 2026-12-31
+  - id: 313370
+    name: Jan-27
+    date: 2027-01-31
+  - id: 313371
+    name: Feb-27
+    date: 2027-02-28
+  - id: 313372
+    name: Mar-27
+    date: 2027-03-31
+  - id: 313373
+    name: Apr-27
+    date: 2027-04-30
+  - id: 313374
+    name: May-27
+    date: 2027-05-31
+  - id: 313375
+    name: Jun-27
+    date: 2027-06-30
+  - id: 313376
+    name: Jul-27
+    date: 2027-07-31
+  - id: 313377
+    name: Aug-27
+    date: 2027-08-31
+  - id: 313378
+    name: Sep-27
+    date: 2027-09-30
+  - id: 313379
+    name: Oct-27
+    date: 2027-10-31
+  - id: 313380
+    name: Nov-27
+    date: 2027-11-30
+  - id: 313381
+    name: Dec-27
+    date: 2027-12-31
+---
+
+# Periods
+
+Reporting periods — resolve periodId.

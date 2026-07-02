@@ -12,12 +12,7 @@ cps:
   objectId: 207718
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846
@@ -25,7 +20,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77146/data/objective-207718-status.json
+    statusResource: /scorecard-77146/data/objective-207718-status.json
   provenance:
     owner:
       name: Janice Jones

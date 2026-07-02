@@ -8,12 +8,7 @@ cps:
   objectId: 423507
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
@@ -22,7 +17,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18579
       status: Caution
-    historyResource: /scorecard-77147/data/measure-423507-status.json
+    statusResource: /scorecard-77147/data/measure-423507-status.json
   provenance:
     owner:
       name: Greg Garcia

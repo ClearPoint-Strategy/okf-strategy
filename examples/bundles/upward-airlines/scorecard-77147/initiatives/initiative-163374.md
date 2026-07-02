@@ -15,11 +15,7 @@ cps:
   startDate: 2025-03-01
   endDate: 2025-12-31
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     cadence: monthly 2025-26
     periodGroupId: 29413
     currentPeriod:
@@ -28,7 +24,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18581
       status: No Information
-    historyResource: /scorecard-77147/data/initiative-163374-status.json
+    statusResource: /scorecard-77147/data/initiative-163374-status.json
   provenance:
     owner:
       name: Izzy Moreno

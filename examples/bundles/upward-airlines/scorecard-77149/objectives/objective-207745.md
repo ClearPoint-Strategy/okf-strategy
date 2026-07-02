@@ -8,12 +8,7 @@ cps:
   objectId: 207745
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77149
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846
@@ -21,7 +16,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77149/data/objective-207745-status.json
+    statusResource: /scorecard-77149/data/objective-207745-status.json
   provenance:
     owner:
       name: Trudy Joplin

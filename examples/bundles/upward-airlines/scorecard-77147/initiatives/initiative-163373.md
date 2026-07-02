@@ -14,11 +14,7 @@ cps:
   startDate: 2024-11-29
   endDate: 2025-06-28
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -27,7 +23,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77147/data/initiative-163373-status.json
+    statusResource: /scorecard-77147/data/initiative-163373-status.json
   provenance:
     owner:
       name: Janice Jones

@@ -10,12 +10,7 @@ cps:
   objectId: 423504
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77147
-  time:
+  status:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:
@@ -24,7 +19,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77147/data/measure-423504-status.json
+    statusResource: /scorecard-77147/data/measure-423504-status.json
   provenance:
     owner:
       name: Lawrence Sito

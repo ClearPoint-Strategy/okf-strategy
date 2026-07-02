@@ -10,12 +10,7 @@ cps:
   objectId: 423517
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:

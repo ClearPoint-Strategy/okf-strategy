@@ -8,12 +8,7 @@ cps:
   objectId: 542536
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77149
-  time:
+  status:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:
@@ -22,7 +17,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77149/data/measure-542536-status.json
+    statusResource: /scorecard-77149/data/measure-542536-status.json
   provenance:
     owner:
       name: Donald Duff

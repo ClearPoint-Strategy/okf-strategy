@@ -12,11 +12,7 @@ cps:
   endDate: 2026-04-02
   completed: true
   completedDate: 2025-11-12
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:

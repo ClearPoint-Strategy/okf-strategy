@@ -8,12 +8,7 @@ cps:
   objectId: 423489
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:
@@ -22,7 +17,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77146/data/measure-423489-status.json
+    statusResource: /scorecard-77146/data/measure-423489-status.json
   provenance:
     owner:
       name: James Crockett

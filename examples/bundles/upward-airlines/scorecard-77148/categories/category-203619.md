@@ -8,12 +8,7 @@ cps:
   objectId: 203619
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     currentPeriod:
       periodId: 189846
       period: Dec-25

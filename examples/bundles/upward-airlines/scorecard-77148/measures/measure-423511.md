@@ -8,12 +8,7 @@ cps:
   objectId: 423511
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77148
-  time:
+  status:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
@@ -22,7 +17,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77148/data/measure-423511-status.json
+    statusResource: /scorecard-77148/data/measure-423511-status.json
   provenance:
     owner:
       name: James Crockett

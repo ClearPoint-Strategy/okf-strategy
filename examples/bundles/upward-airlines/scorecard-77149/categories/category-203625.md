@@ -8,12 +8,7 @@ cps:
   objectId: 203625
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77149
-  time:
+  status:
     currentPeriod:
       periodId: 189846
       period: Dec-25

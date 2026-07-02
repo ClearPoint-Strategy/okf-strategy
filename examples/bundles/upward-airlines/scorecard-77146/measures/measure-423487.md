@@ -8,12 +8,7 @@ cps:
   objectId: 423487
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
@@ -22,7 +17,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
-    historyResource: /scorecard-77146/data/measure-423487-status.json
+    statusResource: /scorecard-77146/data/measure-423487-status.json
   provenance:
     owner:
       name: Donald Duff

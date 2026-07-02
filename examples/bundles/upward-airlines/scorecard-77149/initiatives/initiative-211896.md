@@ -12,11 +12,7 @@ cps:
   startDate: 2025-02-20
   endDate: 2025-04-13
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77149
-  time:
+  status:
     cadence: default
     periodGroupId: -1
     currentPeriod:
@@ -25,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77149/data/initiative-211896-status.json
+    statusResource: /scorecard-77149/data/initiative-211896-status.json
   provenance:
     owner:
       name: Trudy Joplin

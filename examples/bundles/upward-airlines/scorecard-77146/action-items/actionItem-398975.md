@@ -11,11 +11,7 @@ cps:
   startDate: 2025-07-01
   endDate: 2025-07-31
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     periodGroupId: -1
     currentPeriod:
       periodId: 189846

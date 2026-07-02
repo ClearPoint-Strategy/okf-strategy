@@ -12,12 +12,7 @@ cps:
   objectId: 423528
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77149
-  time:
+  status:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
@@ -26,7 +21,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77149/data/measure-423528-status.json
+    statusResource: /scorecard-77149/data/measure-423528-status.json
   provenance:
     owner:
       name: Izzy Moreno

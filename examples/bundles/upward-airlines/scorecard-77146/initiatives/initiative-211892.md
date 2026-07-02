@@ -11,11 +11,7 @@ cps:
   startDate: 2025-08-02
   endDate: 2026-04-04
   completed: false
-  access:
-    minCapability: Administrator
-    markings:
-      - scorecard:77146
-  time:
+  status:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
@@ -24,7 +20,7 @@ cps:
       periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
-    historyResource: /scorecard-77146/data/initiative-211892-status.json
+    statusResource: /scorecard-77146/data/initiative-211892-status.json
   provenance:
     owner:
       name: Steve Smith
