@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Ticket price differential
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423484
+resource: clearpoint://scorecard/77146/measure/423484
 timestamp: 2020-03-27T15:35:28.310Z
 cps:
   object: measure
@@ -15,7 +15,7 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/423499
+      to: clearpoint://scorecard/77147/measure/423499
       object: measure
       objectId: 423499
       name: Ticket price differential
@@ -25,11 +25,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18581
-      status: No Information
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -81,8 +81,12 @@ cps:
     dataResource: /data/ticket-price-differential-423484.json
 ---
 
-**Actual** — 81 (Q4-24) · trend [95, 82, 94, 86, 96, 81]
+**Actual** — 94 (Dec-25) · trend [95, 81, 82, 86, 96, 94]
 
-## Status — May 2026 (No Information)
+## Status — Dec-25 (Above Target)
 
-## Status — Apr 2026 (No Information)
+## Status — Nov-25 (Below Plan)
+
+## Status — Oct-25 (Below Plan)
+
+## Status — Sep-25 (Below Plan)

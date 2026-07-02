@@ -3,7 +3,7 @@ type: Objective
 title: Standard Fleet
 description: We want to standardize our plane sizes to keep our manufacturing
   processes as efficient as possible.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207719
+resource: clearpoint://scorecard/77146/objective/207719
 timestamp: 2020-03-27T16:00:51.987Z
 cps:
   object: objective
@@ -26,9 +26,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -47,3 +49,5 @@ We want to standardize our plane sizes to keep our manufacturing processes as ef
 ## Related
 
 - [Maintenance cost per 100K miles](/measures/maintenance-cost-per-100k-miles-423491.md)
+
+## Status — Dec-25 (Above Target)

@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: "% employee ownership"
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423495
+resource: clearpoint://scorecard/77146/measure/423495
 timestamp: 2021-08-23T17:29:51.210Z
 cps:
   object: measure
@@ -15,21 +15,21 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423516
+      to: clearpoint://scorecard/77148/measure/423516
       object: measure
       objectId: 423516
       name: "% of employees who see themselves at Upward for 5+ years"
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423517
+      to: clearpoint://scorecard/77148/measure/423517
       object: measure
       objectId: 423517
       name: "% increase in employee wages"
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/423527
+      to: clearpoint://scorecard/77149/measure/423527
       object: measure
       objectId: 423527
       name: "% of highly satisified employees"
@@ -39,9 +39,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -79,4 +81,6 @@ cps:
     dataResource: /data/employee-ownership-423495.json
 ---
 
-**Employee Ownership** — 30 (Q4-25) · trend [27, 29, 29, 30]
+**Employee Ownership** — 30 (Dec-25) · trend [27, 29, 29, 30]
+
+## Status — Dec-25 (Above Target)

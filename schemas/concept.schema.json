@@ -15,7 +15,7 @@
         "description": { "type": "string" },
         "resource": {
             "type": "string",
-            "description": "Canonical URI: clearpoint://district/<id>/scorecard/<id>/<object>/<objectId>. Round-trip identity anchor."
+            "description": "Canonical URI: clearpoint://scorecard/<scorecardId>/<object>/<objectId>. Round-trip identity anchor. No tenant/district segment — a bundle is already district-scoped by the key that produced it."
         },
         "tags": {
             "type": "array",

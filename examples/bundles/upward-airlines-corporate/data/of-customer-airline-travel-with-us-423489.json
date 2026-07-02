@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423489",
+  "resource": "clearpoint://scorecard/77146/measure/423489",
   "object": "measure",
   "objectId": 423489,
   "series": [
@@ -15,37 +15,37 @@
   "data": [
     {
       "periodId": 149093,
-      "period": "2022",
+      "period": "Dec-22",
       "Actual": 17,
       "Target": 20
     },
     {
       "periodId": 168168,
-      "period": "2023",
+      "period": "Dec-23",
       "Actual": 12,
       "Target": 20
     },
     {
-      "periodId": 189846,
-      "period": "2025",
-      "Actual": 13,
-      "Target": 20
-    },
-    {
       "periodId": 256354,
-      "period": "2024",
+      "period": "Dec-24",
       "Actual": 15,
       "Target": 20
     },
     {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 13,
+      "Target": 20
+    },
+    {
       "periodId": 256623,
-      "period": "2026",
+      "period": "Dec-26",
       "Actual": null,
       "Target": null
     },
     {
       "periodId": 313381,
-      "period": "2027",
+      "period": "Dec-27",
       "Actual": null,
       "Target": null
     }

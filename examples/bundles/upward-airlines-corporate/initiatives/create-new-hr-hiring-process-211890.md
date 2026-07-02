@@ -5,14 +5,14 @@ description: In order to increase our team's talent, we our updating our hiring
   outreach to reflect best practices in the industry. Our goal is to attract and
   retain talented individuals that will help grow the company. We see future
   employees as key fa
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/211890
+resource: clearpoint://scorecard/77146/initiative/211890
 timestamp: 2025-11-12T15:06:09.640Z
 cps:
   object: initiative
   objectId: 211890
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -26,7 +26,7 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77148/initiative/163377
+      to: clearpoint://scorecard/77148/initiative/163377
       object: initiative
       objectId: 163377
       name: Create New Training Program for Employees
@@ -36,9 +36,11 @@ cps:
     cadence: default
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -100,3 +102,5 @@ In order to increase our team's talent, we our updating our hiring outreach to r
 ## Related
 
 - [% employee ownership](/measures/employee-ownership-423495.md)
+
+## Status — Dec-25 (Caution)

@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Project Status Count
-resource: clearpoint://district/cps-air/scorecard/77146/measure/533944
+resource: clearpoint://scorecard/77146/measure/533944
 timestamp: 2019-03-20T14:09:34.723Z
 cps:
   object: measure
@@ -17,9 +17,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -67,4 +69,12 @@ cps:
     dataResource: /data/project-status-count-533944.json
 ---
 
-**Above Target Strategic Projects** — 0 (Q4-26) · trend [1, 1, 0, 0, 0, 0]
+**Above Target Strategic Projects** — 5 (Dec-25) · trend [1, 1, 1, 1, 1, 5]
+
+## Status — Dec-25 (Above Target)
+
+## Status — Nov-25 (Above Target)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

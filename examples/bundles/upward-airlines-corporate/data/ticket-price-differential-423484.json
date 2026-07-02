@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423484",
+  "resource": "clearpoint://scorecard/77146/measure/423484",
   "object": "measure",
   "objectId": 423484,
   "series": [
@@ -27,7 +27,7 @@
   "data": [
     {
       "periodId": 168172,
-      "period": "Q1-24",
+      "period": "Mar-24",
       "Actual": 90,
       "Target": 73.8,
       "Industry": 82,
@@ -36,7 +36,7 @@
     },
     {
       "periodId": 189836,
-      "period": "Q2-24",
+      "period": "Jun-24",
       "Actual": 92,
       "Target": 86.4,
       "Industry": 96,
@@ -45,7 +45,7 @@
     },
     {
       "periodId": 189840,
-      "period": "Q3-24",
+      "period": "Sep-24",
       "Actual": 95,
       "Target": 85.5,
       "Industry": 95,
@@ -53,8 +53,17 @@
       "Differential vs. Industry": 0
     },
     {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": 81,
+      "Target": 94.5,
+      "Industry": 105,
+      "Differential vs. Target": 13.5,
+      "Differential vs. Industry": 24
+    },
+    {
       "periodId": 189843,
-      "period": "Q1-25",
+      "period": "Mar-25",
       "Actual": 82,
       "Target": 73.8,
       "Industry": 82,
@@ -62,17 +71,8 @@
       "Differential vs. Industry": 0
     },
     {
-      "periodId": 189846,
-      "period": "Q4-25",
-      "Actual": 94,
-      "Target": 94.5,
-      "Industry": 105,
-      "Differential vs. Target": 0.5,
-      "Differential vs. Industry": 11
-    },
-    {
       "periodId": 256348,
-      "period": "Q2-25",
+      "period": "Jun-25",
       "Actual": 86,
       "Target": 86.4,
       "Industry": 96,
@@ -81,7 +81,7 @@
     },
     {
       "periodId": 256351,
-      "period": "Q3-25",
+      "period": "Sep-25",
       "Actual": 96,
       "Target": 85.5,
       "Industry": 95,
@@ -89,17 +89,17 @@
       "Differential vs. Industry": -1
     },
     {
-      "periodId": 256354,
-      "period": "Q4-24",
-      "Actual": 81,
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 94,
       "Target": 94.5,
       "Industry": 105,
-      "Differential vs. Target": 13.5,
-      "Differential vs. Industry": 24
+      "Differential vs. Target": 0.5,
+      "Differential vs. Industry": 11
     },
     {
       "periodId": 256612,
-      "period": "Q1-26",
+      "period": "Mar-26",
       "Actual": null,
       "Target": null,
       "Industry": null,
@@ -108,7 +108,7 @@
     },
     {
       "periodId": 256615,
-      "period": "Q2-26",
+      "period": "Jun-26",
       "Actual": null,
       "Target": null,
       "Industry": null,
@@ -117,7 +117,7 @@
     },
     {
       "periodId": 256620,
-      "period": "Q3-26",
+      "period": "Sep-26",
       "Actual": null,
       "Target": null,
       "Industry": null,
@@ -126,7 +126,7 @@
     },
     {
       "periodId": 256623,
-      "period": "Q4-26",
+      "period": "Dec-26",
       "Actual": null,
       "Target": null,
       "Industry": null,
@@ -135,7 +135,7 @@
     },
     {
       "periodId": 313372,
-      "period": "q1-27",
+      "period": "Mar-27",
       "Actual": null,
       "Target": null,
       "Industry": null,

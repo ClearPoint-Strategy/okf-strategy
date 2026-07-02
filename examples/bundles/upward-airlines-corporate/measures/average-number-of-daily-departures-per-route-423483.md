@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Average Number of Daily departures per route
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423483
+resource: clearpoint://scorecard/77146/measure/423483
 timestamp: 2020-03-26T18:17:32.263Z
 cps:
   object: measure
@@ -15,14 +15,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/542405
+      to: clearpoint://scorecard/77147/measure/542405
       object: measure
       objectId: 542405
       name: "# of new planes purchased"
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/542536
+      to: clearpoint://scorecard/77149/measure/542536
       object: measure
       objectId: 542536
       name: "# of new planes purchased"
@@ -32,11 +32,11 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18581
-      status: No Information
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -79,6 +79,10 @@ cps:
 
 **Actual** — 7.5 (Dec-25) · trend [6, 6.2, 6.6, 7, 7.3, 7.5]
 
-## Status — May 2026 (No Information)
+## Status — Dec-25 (Above Target)
 
-## Status — Apr 2026 (No Information)
+## Status — Nov-25 (Above Target)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Caution)

@@ -2,7 +2,7 @@
 type: Measure
 title: Revenue
 description: We are measuring our total revenues for the company.
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423496
+resource: clearpoint://scorecard/77146/measure/423496
 tags:
   - theme:financials
 timestamp: 2025-04-10T13:21:24.063Z
@@ -18,21 +18,21 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/423507
+      to: clearpoint://scorecard/77147/measure/423507
       object: measure
       objectId: 423507
       name: Income
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423520
+      to: clearpoint://scorecard/77148/measure/423520
       object: measure
       objectId: 423520
       name: Revenue
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/423531
+      to: clearpoint://scorecard/77149/measure/423531
       object: measure
       objectId: 423531
       name: Revenue
@@ -42,11 +42,11 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18578
-      status: Above Target
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18580
+      status: Below Plan
   provenance:
     scorecard:
       id: 77146
@@ -99,8 +99,12 @@ cps:
 
 We are measuring our total revenues for the company.
 
-**Actual** — 3000 (May-26) · trend [2850, 2100, 2100, 3200, 3100, 3000]
+**Actual** — 2850 (Dec-25) · trend [2800, 3100, 3048, 3056, 3090, 2850]
 
-## Status — May 2026 (Above Target)
+## Status — Dec-25 (Below Plan)
 
-## Status — Apr 2026 (Above Target)
+## Status — Nov-25 (Caution)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Caution)

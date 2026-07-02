@@ -4,7 +4,7 @@ title: No Elites
 description: As opposed to our competitors, who have an overwhelming amount of
   status groups, we want to ensure we deliver a consistent customer experience
   to everyone who flies with Upward Airlines.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207717
+resource: clearpoint://scorecard/77146/objective/207717
 timestamp: 2016-07-27T21:50:48.597Z
 cps:
   object: objective
@@ -34,9 +34,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18580
+      status: Below Plan
   provenance:
     scorecard:
       id: 77146
@@ -56,3 +58,5 @@ As opposed to our competitors, who have an overwhelming amount of status groups,
 
 - [% of customer airline travel with us](/measures/of-customer-airline-travel-with-us-423489.md)
 - [Construct new airplane seats (Data & Charts)](/initiatives/construct-new-airplane-seats-data-charts-308980.md)
+
+## Status — Dec-25 (Below Plan)

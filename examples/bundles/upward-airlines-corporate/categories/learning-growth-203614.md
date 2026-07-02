@@ -1,14 +1,13 @@
 ---
 type: Category
 title: 📚 Learning & Growth
-resource: clearpoint://district/cps-air/scorecard/77146/category/203614
+resource: clearpoint://scorecard/77146/category/203614
 timestamp: 2024-03-29T21:27:42.033Z
 cps:
   object: category
   objectId: 203614
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Perspective
   access:
     minCapability: Administrator
     markings:
@@ -37,9 +36,9 @@ cps:
       access: Administrator
   time:
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
   provenance:
     scorecard:
       id: 77146

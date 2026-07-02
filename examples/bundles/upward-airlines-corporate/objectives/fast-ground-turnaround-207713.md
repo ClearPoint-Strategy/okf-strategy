@@ -5,7 +5,7 @@ description: "Fast Ground Turnaround will allow us to increase the number of
   flights we schedule per day, thereby increasing our opportunities for revenue.
   In addition, customers being able to exit and board their flights in a prompt
   manner will improve "
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207713
+resource: clearpoint://scorecard/77146/objective/207713
 timestamp: 2023-08-10T16:28:45.560Z
 cps:
   object: objective
@@ -19,21 +19,21 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207726
+      to: clearpoint://scorecard/77147/objective/207726
       object: objective
       objectId: 207726
       name: Ground Turnaround
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207736
+      to: clearpoint://scorecard/77148/objective/207736
       object: objective
       objectId: 207736
       name: Ground Turnaround
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207745
+      to: clearpoint://scorecard/77149/objective/207745
       object: objective
       objectId: 207745
       name: Ground Turnaround
@@ -56,9 +56,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -78,3 +80,5 @@ Fast Ground Turnaround will allow us to increase the number of flights we schedu
 
 - [Total amount of time at gate](/measures/total-amount-of-time-at-gate-423485.md)
 - [Create new Employee Training](/initiatives/create-new-employee-training-163369.md)
+
+## Status — Dec-25 (Caution)

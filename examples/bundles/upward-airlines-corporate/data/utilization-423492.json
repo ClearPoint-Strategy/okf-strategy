@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423492",
+  "resource": "clearpoint://scorecard/77146/measure/423492",
   "object": "measure",
   "objectId": 423492,
   "series": [
@@ -15,79 +15,79 @@
   "data": [
     {
       "periodId": 168172,
-      "period": "Q1-24",
+      "period": "Mar-24",
       "Utilization Percentage": 42,
       "Target": 40
     },
     {
       "periodId": 189836,
-      "period": "Q2-24",
+      "period": "Jun-24",
       "Utilization Percentage": 40,
       "Target": 40
     },
     {
       "periodId": 189840,
-      "period": "Q3-24",
+      "period": "Sep-24",
       "Utilization Percentage": 39,
+      "Target": 40
+    },
+    {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Utilization Percentage": 41,
       "Target": 40
     },
     {
       "periodId": 189843,
-      "period": "Q1-25",
+      "period": "Mar-25",
       "Utilization Percentage": 39,
       "Target": 40
     },
     {
-      "periodId": 189846,
-      "period": "Q4-25",
-      "Utilization Percentage": 40,
-      "Target": 40
-    },
-    {
       "periodId": 256348,
-      "period": "Q2-25",
+      "period": "Jun-25",
       "Utilization Percentage": 30,
       "Target": 40
     },
     {
       "periodId": 256351,
-      "period": "Q3-25",
+      "period": "Sep-25",
       "Utilization Percentage": 42,
       "Target": 40
     },
     {
-      "periodId": 256354,
-      "period": "Q4-24",
-      "Utilization Percentage": 41,
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Utilization Percentage": 40,
       "Target": 40
     },
     {
       "periodId": 256612,
-      "period": "Q1-26",
+      "period": "Mar-26",
       "Utilization Percentage": null,
       "Target": null
     },
     {
       "periodId": 256615,
-      "period": "Q2-26",
+      "period": "Jun-26",
       "Utilization Percentage": null,
       "Target": null
     },
     {
       "periodId": 256620,
-      "period": "Q3-26",
+      "period": "Sep-26",
       "Utilization Percentage": null,
       "Target": null
     },
     {
       "periodId": 256623,
-      "period": "Q4-26",
+      "period": "Dec-26",
       "Utilization Percentage": null,
       "Target": null
     },
     {
       "periodId": 313372,
-      "period": "q1-27",
+      "period": "Mar-27",
       "Utilization Percentage": null,
       "Target": null
     }

@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: "% of population served within 25 miles"
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423486
+resource: clearpoint://scorecard/77146/measure/423486
 timestamp: 2020-03-26T18:17:11.577Z
 cps:
   object: measure
@@ -15,14 +15,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/423506
+      to: clearpoint://scorecard/77147/measure/423506
       object: measure
       objectId: 423506
       name: "% of population served within 25 miles"
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423519
+      to: clearpoint://scorecard/77148/measure/423519
       object: measure
       objectId: 423519
       name: "% of population served within 15 miles"
@@ -32,11 +32,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18581
-      status: No Information
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -79,8 +79,12 @@ cps:
     dataResource: /data/of-population-served-within-25-miles-423486.json
 ---
 
-**Actual** — 34 (Q4-24) · trend [35, 36, 35, 37, 36, 34]
+**Actual** — 35 (Dec-25) · trend [35, 34, 36, 37, 36, 35]
 
-## Status — May 2026 (No Information)
+## Status — Dec-25 (Above Target)
 
-## Status — Apr 2026 (No Information)
+## Status — Nov-25 (Above Target)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

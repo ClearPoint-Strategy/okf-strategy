@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423491",
+  "resource": "clearpoint://scorecard/77146/measure/423491",
   "object": "measure",
   "objectId": 423491,
   "series": [

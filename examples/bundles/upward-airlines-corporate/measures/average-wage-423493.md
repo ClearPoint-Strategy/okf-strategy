@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Average Wage
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423493
+resource: clearpoint://scorecard/77146/measure/423493
 timestamp: 2020-03-26T18:17:11.467Z
 cps:
   object: measure
@@ -15,14 +15,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/423504
+      to: clearpoint://scorecard/77147/measure/423504
       object: measure
       objectId: 423504
       name: Wage Growth
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423517
+      to: clearpoint://scorecard/77148/measure/423517
       object: measure
       objectId: 423517
       name: "% increase in employee wages"
@@ -32,11 +32,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18581
-      status: No Information
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -67,8 +67,12 @@ cps:
     dataResource: /data/average-wage-423493.json
 ---
 
-**Avg. Wage / Hr** — 52 (Q4-24) · trend [55, 53, 54, 51, 53, 52]
+**Avg. Wage / Hr** — 54 (Dec-25) · trend [55, 52, 53, 51, 53, 54]
 
-## Status — May 2026 (No Information)
+## Status — Dec-25 (Above Target)
 
-## Status — Apr 2026 (No Information)
+## Status — Nov-25 (Above Target)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Customer Experience Survey
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423482
+resource: clearpoint://scorecard/77146/measure/423482
 timestamp: 2017-10-10T15:12:15.667Z
 cps:
   object: measure
@@ -15,7 +15,7 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/542406
+      to: clearpoint://scorecard/77148/measure/542406
       object: measure
       objectId: 542406
       name: "# of A-list priority customers"
@@ -25,9 +25,9 @@ cps:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
       statusId: 18578
       status: Above Target
   provenance:
@@ -60,8 +60,12 @@ cps:
     dataResource: /data/customer-experience-survey-423482.json
 ---
 
-**Actual** — 72 (2024) · trend [67, 71, 76, 72]
+**Actual** — 76 (Dec-25) · trend [67, 71, 72, 76]
 
-## Status — May 2026 (Above Target)
+## Status — Dec-25 (Above Target)
 
-## Status — Apr 2026 (Above Target)
+## Status — Nov-25 (Above Target)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

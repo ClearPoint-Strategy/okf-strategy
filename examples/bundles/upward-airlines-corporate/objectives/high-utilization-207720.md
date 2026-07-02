@@ -3,7 +3,7 @@ type: Objective
 title: High Utilization
 description: Our assets should be performing to their full capacity so that we
   know we are achieving efficiency.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207720
+resource: clearpoint://scorecard/77146/objective/207720
 timestamp: 2016-08-25T00:19:16.320Z
 cps:
   object: objective
@@ -24,7 +24,7 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77147/initiative/163374
+      to: clearpoint://scorecard/77147/initiative/163374
       object: initiative
       objectId: 163374
       name: Airport Traffic Study (Milestone Roll Up)
@@ -33,9 +33,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -54,3 +56,7 @@ Our assets should be performing to their full capacity so that we know we are ac
 ## Related
 
 - [% utilization](/measures/utilization-423492.md)
+
+## Status — Dec-25 (Above Target)
+
+## Status — Oct-25 (Caution)

@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Strategy Score
-resource: clearpoint://district/cps-air/scorecard/77146/measure/1509292
+resource: clearpoint://scorecard/77146/measure/1509292
 timestamp: 2023-07-17T14:04:54.880Z
 cps:
   object: measure
@@ -17,9 +17,9 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
   provenance:
     scorecard:
       id: 77146
@@ -100,4 +100,4 @@ cps:
     dataResource: /data/strategy-score-1509292.json
 ---
 
-**Average Score** — 21 (Q4-26) · trend [45, 49, 26, 26, 26, 21]
+**Average Score** — 93 (Dec-25) · trend [50, 49, 44, 44, 45, 93]

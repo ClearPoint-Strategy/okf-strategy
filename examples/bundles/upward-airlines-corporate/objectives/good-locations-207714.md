@@ -3,7 +3,7 @@ type: Objective
 title: Good Locations
 description: We want to establish relationships with prominent cities, and offer
   our customers the chance to fly with us wherever they go.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207714
+resource: clearpoint://scorecard/77146/objective/207714
 tags:
   - perspective:customer
 timestamp: 2025-11-19T17:41:47.933Z
@@ -19,28 +19,28 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207730
+      to: clearpoint://scorecard/77147/objective/207730
       object: objective
       objectId: 207730
       name: Good Locations
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207740
+      to: clearpoint://scorecard/77148/objective/207740
       object: objective
       objectId: 207740
       name: Good locations
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207749
+      to: clearpoint://scorecard/77149/objective/207749
       object: objective
       objectId: 207749
       name: Good locations
       scorecard: 🏜️ Western Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/271313
+      to: clearpoint://scorecard/77149/objective/271313
       object: objective
       objectId: 271313
       name: Relationship with Eastern U.S. airports
@@ -56,9 +56,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -82,3 +84,5 @@ We want to establish relationships with prominent cities, and offer our customer
 ## Related
 
 - [% of population served within 25 miles](/measures/of-population-served-within-25-miles-423486.md)
+
+## Status — Dec-25 (Above Target)

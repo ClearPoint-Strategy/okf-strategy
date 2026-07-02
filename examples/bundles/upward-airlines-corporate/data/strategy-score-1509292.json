@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/1509292",
+  "resource": "clearpoint://scorecard/77146/measure/1509292",
   "object": "measure",
   "objectId": 1509292,
   "series": [
@@ -51,7 +51,7 @@
   "data": [
     {
       "periodId": 168172,
-      "period": "Q1-24",
+      "period": "Mar-24",
       "Average Score": 52,
       "Green O": 1,
       "Yellow O": 1,
@@ -66,7 +66,7 @@
     },
     {
       "periodId": 189836,
-      "period": "Q2-24",
+      "period": "Jun-24",
       "Average Score": 90,
       "Green O": 5,
       "Yellow O": 5,
@@ -81,7 +81,7 @@
     },
     {
       "periodId": 189840,
-      "period": "Q3-24",
+      "period": "Sep-24",
       "Average Score": 50,
       "Green O": 1,
       "Yellow O": 1,
@@ -95,8 +95,23 @@
       "Leading Indicator": 50
     },
     {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Average Score": 49,
+      "Green O": 1,
+      "Yellow O": 0,
+      "Red O": 1,
+      "Green M": 10,
+      "Yellow M": 5,
+      "Red M": 2,
+      "Green I": 1,
+      "Yellow I": 0,
+      "Red I": 0,
+      "Leading Indicator": 42
+    },
+    {
       "periodId": 189843,
-      "period": "Q1-25",
+      "period": "Mar-25",
       "Average Score": 44,
       "Green O": 0,
       "Yellow O": 1,
@@ -110,23 +125,8 @@
       "Leading Indicator": 30
     },
     {
-      "periodId": 189846,
-      "period": "Q4-25",
-      "Average Score": 93,
-      "Green O": 5,
-      "Yellow O": 6,
-      "Red O": 4,
-      "Green M": 10,
-      "Yellow M": 2,
-      "Red M": 6,
-      "Green I": 5,
-      "Yellow I": 3,
-      "Red I": 1,
-      "Leading Indicator": 65
-    },
-    {
       "periodId": 256348,
-      "period": "Q2-25",
+      "period": "Jun-25",
       "Average Score": 44,
       "Green O": 0,
       "Yellow O": 1,
@@ -141,7 +141,7 @@
     },
     {
       "periodId": 256351,
-      "period": "Q3-25",
+      "period": "Sep-25",
       "Average Score": 45,
       "Green O": 0,
       "Yellow O": 0,
@@ -155,23 +155,23 @@
       "Leading Indicator": 40
     },
     {
-      "periodId": 256354,
-      "period": "Q4-24",
-      "Average Score": 49,
-      "Green O": 1,
-      "Yellow O": 0,
-      "Red O": 1,
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Average Score": 93,
+      "Green O": 5,
+      "Yellow O": 6,
+      "Red O": 4,
       "Green M": 10,
-      "Yellow M": 5,
-      "Red M": 2,
-      "Green I": 1,
-      "Yellow I": 0,
-      "Red I": 0,
-      "Leading Indicator": 42
+      "Yellow M": 2,
+      "Red M": 6,
+      "Green I": 5,
+      "Yellow I": 3,
+      "Red I": 1,
+      "Leading Indicator": 65
     },
     {
       "periodId": 256612,
-      "period": "Q1-26",
+      "period": "Mar-26",
       "Average Score": 26,
       "Green O": 0,
       "Yellow O": 2,
@@ -186,7 +186,7 @@
     },
     {
       "periodId": 256615,
-      "period": "Q2-26",
+      "period": "Jun-26",
       "Average Score": 26,
       "Green O": 0,
       "Yellow O": 2,
@@ -201,7 +201,7 @@
     },
     {
       "periodId": 256620,
-      "period": "Q3-26",
+      "period": "Sep-26",
       "Average Score": 26,
       "Green O": 0,
       "Yellow O": 2,
@@ -216,7 +216,7 @@
     },
     {
       "periodId": 256623,
-      "period": "Q4-26",
+      "period": "Dec-26",
       "Average Score": 21,
       "Green O": 0,
       "Yellow O": 2,
@@ -231,7 +231,7 @@
     },
     {
       "periodId": 313372,
-      "period": "q1-27",
+      "period": "Mar-27",
       "Average Score": null,
       "Green O": null,
       "Yellow O": null,

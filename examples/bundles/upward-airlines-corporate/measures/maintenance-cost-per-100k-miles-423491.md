@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Maintenance cost per 100K miles
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423491
+resource: clearpoint://scorecard/77146/measure/423491
 timestamp: 2025-05-05T19:57:15.627Z
 cps:
   object: measure
@@ -17,9 +17,9 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
   provenance:
@@ -67,6 +67,10 @@ cps:
 
 **Maintenance Cost** — 17220 (Dec-25) · trend [16660, 16200, 15500, 15680, 17550, 17220]
 
-## Status — May 2026 (Below Plan)
+## Status — Dec-25 (Below Plan)
 
-## Status — Apr 2026 (Below Plan)
+## Status — Nov-25 (Below Plan)
+
+## Status — Oct-25 (Caution)
+
+## Status — Sep-25 (Caution)

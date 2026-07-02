@@ -5,7 +5,7 @@ description: We need to be engaged with our employees as Satisfaction and
   Turnover are closely correlated. Our current survey wasn't giving us the
   information we needed to stay on top of our employee happiness. We are
   redesigning the satisfaction survey
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/579990
+resource: clearpoint://scorecard/77146/initiative/579990
 tags:
   - theme:high-priority
 timestamp: 2025-03-10T20:51:07.357Z
@@ -14,7 +14,7 @@ cps:
   objectId: 579990
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -31,9 +31,11 @@ cps:
     cadence: default
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -95,3 +97,5 @@ We need to be engaged with our employees as Satisfaction and Turnover are closel
 ## Related
 
 - [Revenue](/measures/revenue-423496.md)
+
+## Status — Dec-25 (Above Target)

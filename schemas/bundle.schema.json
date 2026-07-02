@@ -18,23 +18,20 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "district": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "properties": {
-                        "id": { "type": ["integer", "null"] },
-                        "name": { "type": "string" }
-                    }
-                },
                 "glossary": {
                     "type": "object",
                     "additionalProperties": false,
-                    "description": "AXIS 5 — Vocabulary. Bidirectional binding of org nomenclature to canonical vocabulary. Used on INGEST (understand the org's words) and on PROJECTION (speak the org's words back).",
+                    "description": "AXIS 5 — Vocabulary. Bidirectional binding of org nomenclature to canonical vocabulary, built from the account's real labels (ClearPoint /scorecards/{id}/language + /menu). Used on INGEST (understand the org's words) and on PROJECTION (speak the org's words back).",
                     "properties": {
                         "types": {
                             "type": "object",
-                            "description": "org term -> canonical objectType, e.g. { \"Goal\": \"objective\", \"KPI\": \"measure\", \"Project\": \"initiative\" }.",
+                            "description": "org term -> canonical objectType, e.g. { \"OKR\": \"objective\", \"KPI\": \"measure\" }. Sourced from the language overrides for each element type.",
                             "additionalProperties": { "$ref": "common.schema.json#/$defs/objectType" }
+                        },
+                        "labels": {
+                            "type": "object",
+                            "description": "General term overrides that aren't element types — e.g. { \"children\": \"Divisions\", \"goals\": \"OKRs\" }. The org's word for a concept/relationship, from /language.",
+                            "additionalProperties": { "type": "string" }
                         },
                         "statuses": {
                             "type": "object",

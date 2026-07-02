@@ -2,7 +2,7 @@
 type: Measure
 title: Expenses
 description: Tracks the total amount of money spent within a defined period.
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423497
+resource: clearpoint://scorecard/77146/measure/423497
 tags:
   - theme:financials
 timestamp: 2025-12-18T01:53:35.560Z
@@ -18,21 +18,21 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/423508
+      to: clearpoint://scorecard/77147/measure/423508
       object: measure
       objectId: 423508
       name: Expenses
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423521
+      to: clearpoint://scorecard/77148/measure/423521
       object: measure
       objectId: 423521
       name: Expenses
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/423532
+      to: clearpoint://scorecard/77149/measure/423532
       object: measure
       objectId: 423532
       name: Costs
@@ -42,11 +42,11 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18580
-      status: Below Plan
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -105,6 +105,10 @@ Tracks the total amount of money spent within a defined period.
 
 **Actual** — 2855 (Dec-25) · trend [3001, 3472, 2800, 2860, 3212, 2855]
 
-## Status — May 2026 (Below Plan)
+## Status — Dec-25 (Above Target)
 
-## Status — Apr 2026 (Below Plan)
+## Status — Nov-25 (Below Plan)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

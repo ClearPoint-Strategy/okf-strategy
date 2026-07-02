@@ -5,7 +5,7 @@ description: Research indicates that price is the key factor that consumers
   consider when purchasing airline tickets. We want to not only remain
   competitive, but want our brand to be associated with delivering more for
   less.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207712
+resource: clearpoint://scorecard/77146/objective/207712
 tags:
   - perspective:customer
 timestamp: 2025-11-17T17:18:51.357Z
@@ -21,14 +21,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207735
+      to: clearpoint://scorecard/77148/objective/207735
       object: objective
       objectId: 207735
       name: Competitive Ticket Prices
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207744
+      to: clearpoint://scorecard/77149/objective/207744
       object: objective
       objectId: 207744
       name: Competitive Ticket Prices
@@ -44,11 +44,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18581
-      status: No Information
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -73,6 +73,10 @@ Research indicates that price is the key factor that consumers consider when pur
 
 - [Ticket price differential](/measures/ticket-price-differential-423484.md)
 
-## Status — May 2026 (No Information)
+## Status — Dec-25 (Caution)
 
-## Status — Apr 2026 (No Information)
+## Status — Nov-25 (No Information)
+
+## Status — Oct-25 (No Information)
+
+## Status — Sep-25 (No Information)

@@ -5,7 +5,7 @@ description: Not everyone likes to fly. In fact, flying is often seen as one of
   the more daunting and stressful ways to travel. We want to ensure our
   customers have a pleasant, if not, fun experience. Complaints should be low
   and raving reviews should b
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207716
+resource: clearpoint://scorecard/77146/objective/207716
 tags:
   - perspective:internal-processes
 timestamp: 2025-11-19T17:41:49.340Z
@@ -21,14 +21,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/271188
+      to: clearpoint://scorecard/77147/objective/271188
       object: objective
       objectId: 271188
       name: New Technology
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/271189
+      to: clearpoint://scorecard/77149/objective/271189
       object: objective
       objectId: 271189
       name: Flight Attendant Customer Service
@@ -44,9 +44,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -70,3 +72,5 @@ Not everyone likes to fly. In fact, flying is often seen as one of the more daun
 ## Related
 
 - [# customer complaints per 1,000 tickets](/measures/customer-complaints-per-1-000-tickets-423488.md)
+
+## Status — Dec-25 (Caution)

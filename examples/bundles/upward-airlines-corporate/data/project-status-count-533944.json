@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/533944",
+  "resource": "clearpoint://scorecard/77146/measure/533944",
   "object": "measure",
   "objectId": 533944,
   "series": [
@@ -27,7 +27,7 @@
   "data": [
     {
       "periodId": 168172,
-      "period": "Q1-24",
+      "period": "Mar-24",
       "Above Target Strategic Projects": 1,
       "Caution Strategic Projects": 1,
       "Below Target Strategic Projects": 0,
@@ -36,7 +36,7 @@
     },
     {
       "periodId": 189836,
-      "period": "Q2-24",
+      "period": "Jun-24",
       "Above Target Strategic Projects": 6,
       "Caution Strategic Projects": 2,
       "Below Target Strategic Projects": 1,
@@ -45,43 +45,7 @@
     },
     {
       "periodId": 189840,
-      "period": "Q3-24",
-      "Above Target Strategic Projects": 1,
-      "Caution Strategic Projects": 0,
-      "Below Target Strategic Projects": 0,
-      "Total": 1,
-      "% Green": 100
-    },
-    {
-      "periodId": 189843,
-      "period": "Q1-25",
-      "Above Target Strategic Projects": 1,
-      "Caution Strategic Projects": 0,
-      "Below Target Strategic Projects": 0,
-      "Total": 1,
-      "% Green": 100
-    },
-    {
-      "periodId": 189846,
-      "period": "Q4-25",
-      "Above Target Strategic Projects": 5,
-      "Caution Strategic Projects": 3,
-      "Below Target Strategic Projects": 1,
-      "Total": 9,
-      "% Green": 55.55555556
-    },
-    {
-      "periodId": 256348,
-      "period": "Q2-25",
-      "Above Target Strategic Projects": 1,
-      "Caution Strategic Projects": 0,
-      "Below Target Strategic Projects": 0,
-      "Total": 1,
-      "% Green": 100
-    },
-    {
-      "periodId": 256351,
-      "period": "Q3-25",
+      "period": "Sep-24",
       "Above Target Strategic Projects": 1,
       "Caution Strategic Projects": 0,
       "Below Target Strategic Projects": 0,
@@ -90,7 +54,7 @@
     },
     {
       "periodId": 256354,
-      "period": "Q4-24",
+      "period": "Dec-24",
       "Above Target Strategic Projects": 1,
       "Caution Strategic Projects": 0,
       "Below Target Strategic Projects": 0,
@@ -98,8 +62,44 @@
       "% Green": 100
     },
     {
+      "periodId": 189843,
+      "period": "Mar-25",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256348,
+      "period": "Jun-25",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 256351,
+      "period": "Sep-25",
+      "Above Target Strategic Projects": 1,
+      "Caution Strategic Projects": 0,
+      "Below Target Strategic Projects": 0,
+      "Total": 1,
+      "% Green": 100
+    },
+    {
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Above Target Strategic Projects": 5,
+      "Caution Strategic Projects": 3,
+      "Below Target Strategic Projects": 1,
+      "Total": 9,
+      "% Green": 55.55555556
+    },
+    {
       "periodId": 256612,
-      "period": "Q1-26",
+      "period": "Mar-26",
       "Above Target Strategic Projects": 0,
       "Caution Strategic Projects": 0,
       "Below Target Strategic Projects": 0,
@@ -108,7 +108,7 @@
     },
     {
       "periodId": 256615,
-      "period": "Q2-26",
+      "period": "Jun-26",
       "Above Target Strategic Projects": 0,
       "Caution Strategic Projects": 0,
       "Below Target Strategic Projects": 0,
@@ -117,7 +117,7 @@
     },
     {
       "periodId": 256620,
-      "period": "Q3-26",
+      "period": "Sep-26",
       "Above Target Strategic Projects": 0,
       "Caution Strategic Projects": 0,
       "Below Target Strategic Projects": 0,
@@ -126,7 +126,7 @@
     },
     {
       "periodId": 256623,
-      "period": "Q4-26",
+      "period": "Dec-26",
       "Above Target Strategic Projects": 0,
       "Caution Strategic Projects": 0,
       "Below Target Strategic Projects": 0,
@@ -135,7 +135,7 @@
     },
     {
       "periodId": 313372,
-      "period": "q1-27",
+      "period": "Mar-27",
       "Above Target Strategic Projects": null,
       "Caution Strategic Projects": null,
       "Below Target Strategic Projects": null,

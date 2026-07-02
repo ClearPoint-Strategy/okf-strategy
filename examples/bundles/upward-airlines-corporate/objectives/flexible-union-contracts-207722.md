@@ -3,7 +3,7 @@ type: Objective
 title: Flexible Union Contracts
 description: Flexible union contracts enable us to hire from various outlets,
   allowing us to remain agile and not bound to any provisions.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207722
+resource: clearpoint://scorecard/77146/objective/207722
 timestamp: 2017-11-21T15:01:41.060Z
 cps:
   object: objective
@@ -33,9 +33,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -55,3 +57,5 @@ Flexible union contracts enable us to hire from various outlets, allowing us to 
 
 - [# Unionized job descriptions](/measures/unionized-job-descriptions-423494.md)
 - [Create new Employee Training](/initiatives/create-new-employee-training-163369.md)
+
+## Status — Dec-25 (Caution)

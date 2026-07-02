@@ -2,7 +2,7 @@
 type: Measure
 title: Net Profit
 description: Great job team! Keep it up for next quarter.
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423481
+resource: clearpoint://scorecard/77146/measure/423481
 tags:
   - theme:financials
 timestamp: 2025-05-05T19:57:15.107Z
@@ -32,21 +32,21 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/423505
+      to: clearpoint://scorecard/77147/measure/423505
       object: measure
       objectId: 423505
       name: Net Profit
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423518
+      to: clearpoint://scorecard/77148/measure/423518
       object: measure
       objectId: 423518
       name: Net Profit
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/423529
+      to: clearpoint://scorecard/77149/measure/423529
       object: measure
       objectId: 423529
       name: Net Profit
@@ -56,9 +56,9 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
   provenance:
@@ -106,6 +106,10 @@ Great job team! Keep it up for next quarter.
 
 **Actual** — -0.17513135 (Dec-25) · trend [-6.69776741, -10.71428571, 8.85714286, 6.85314685, -3.79825654, -0.17513135]
 
-## Status — May 2026 (Below Plan)
+## Status — Dec-25 (Below Plan)
 
-## Status — Apr 2026 (Below Plan)
+## Status — Nov-25 (Below Plan)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

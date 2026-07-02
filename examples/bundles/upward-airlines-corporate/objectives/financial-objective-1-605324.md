@@ -1,7 +1,7 @@
 ---
 type: Objective
 title: "Financial Objective #1"
-resource: clearpoint://district/cps-air/scorecard/77146/objective/605324
+resource: clearpoint://scorecard/77146/objective/605324
 timestamp: 2023-11-02T15:24:54.300Z
 cps:
   object: objective
@@ -25,9 +25,9 @@ cps:
   time:
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
   provenance:
     scorecard:
       id: 77146

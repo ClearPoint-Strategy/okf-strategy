@@ -5,7 +5,7 @@ description: We need to be engaged with our employees as Satisfaction and
   Turnover are closely correlated. Our current survey wasn't giving us the
   information we needed to stay on top of our employee happiness. We are
   redesigning the satisfaction survey
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/163370
+resource: clearpoint://scorecard/77146/initiative/163370
 tags:
   - theme:high-priority
 timestamp: 2025-11-12T15:06:13.347Z
@@ -14,7 +14,7 @@ cps:
   objectId: 163370
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -42,14 +42,14 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77148/initiative/163378
+      to: clearpoint://scorecard/77148/initiative/163378
       object: initiative
       objectId: 163378
       name: Employee Bonus Program
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77149/initiative/163380
+      to: clearpoint://scorecard/77149/initiative/163380
       object: initiative
       objectId: 163380
       name: Build Employee Upskilling
@@ -59,9 +59,11 @@ cps:
     cadence: quarterly
     periodGroupId: 0
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -125,3 +127,5 @@ We need to be engaged with our employees as Satisfaction and Turnover are closel
 - [Average Wage](/measures/average-wage-423493.md)
 - [# Unionized job descriptions](/measures/unionized-job-descriptions-423494.md)
 - [% employee ownership](/measures/employee-ownership-423495.md)
+
+## Status — Dec-25 (Caution)

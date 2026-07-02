@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: "# Unionized job descriptions"
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423494
+resource: clearpoint://scorecard/77146/measure/423494
 timestamp: 2020-03-27T15:35:28.250Z
 cps:
   object: measure
@@ -17,9 +17,11 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -49,3 +51,11 @@ cps:
 ---
 
 **Job Descriptions** — 125 (Dec-25) · trend [100, 106, 111, 120, 126, 125]
+
+## Status — Dec-25 (Above Target)
+
+## Status — Nov-25 (Above Target)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Above Target)

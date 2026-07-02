@@ -2,7 +2,7 @@
 type: Measure
 title: "Financial Measure #1 testing looooooooong nametesting looooooooong name
   testing looooooooong nametesting looooooooong name"
-resource: clearpoint://district/cps-air/scorecard/77146/measure/1619382
+resource: clearpoint://scorecard/77146/measure/1619382
 timestamp: 2025-01-21T22:58:43.280Z
 cps:
   object: measure
@@ -18,9 +18,9 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
   provenance:
     scorecard:
       id: 77146

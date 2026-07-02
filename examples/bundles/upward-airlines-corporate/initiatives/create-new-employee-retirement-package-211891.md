@@ -1,14 +1,14 @@
 ---
 type: Initiative
 title: Create new employee retirement package
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/211891
+resource: clearpoint://scorecard/77146/initiative/211891
 timestamp: 2025-02-26T15:17:45.880Z
 cps:
   object: initiative
   objectId: 211891
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -22,7 +22,7 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77147/initiative/163372
+      to: clearpoint://scorecard/77147/initiative/163372
       object: initiative
       objectId: 163372
       name: Create New Employee Satisfaction Survey
@@ -32,9 +32,11 @@ cps:
     cadence: default
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18580
+      status: Below Plan
   provenance:
     scorecard:
       id: 77146
@@ -90,3 +92,5 @@ cps:
 ## Related
 
 - [# Unionized job descriptions](/measures/unionized-job-descriptions-423494.md)
+
+## Status — Dec-25 (Below Plan)

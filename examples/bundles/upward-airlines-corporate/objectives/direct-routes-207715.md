@@ -4,7 +4,7 @@ title: Direct Routes
 description: When possible, we want to provide as many direct flights as we can,
   improving our flight times and maintaining a reputation as a sought after
   airline.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207715
+resource: clearpoint://scorecard/77146/objective/207715
 timestamp: 2016-07-27T21:50:34.807Z
 cps:
   object: objective
@@ -18,35 +18,35 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207727
+      to: clearpoint://scorecard/77147/objective/207727
       object: objective
       objectId: 207727
       name: Direct Routes
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207732
+      to: clearpoint://scorecard/77147/objective/207732
       object: objective
       objectId: 207732
       name: Shuttle Flights to Major Cities
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207737
+      to: clearpoint://scorecard/77148/objective/207737
       object: objective
       objectId: 207737
       name: Direct Routes
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207746
+      to: clearpoint://scorecard/77149/objective/207746
       object: objective
       objectId: 207746
       name: Direct Routes
       scorecard: 🏜️ Western Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/271313
+      to: clearpoint://scorecard/77149/objective/271313
       object: objective
       objectId: 271313
       name: Relationship with Eastern U.S. airports
@@ -69,9 +69,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18580
+      status: Below Plan
   provenance:
     scorecard:
       id: 77146
@@ -91,3 +93,5 @@ When possible, we want to provide as many direct flights as we can, improving ou
 
 - [% of tickets with direct routes](/measures/of-tickets-with-direct-routes-423487.md)
 - [Purchase 5 new planes](/initiatives/purchase-5-new-planes-211889.md)
+
+## Status — Dec-25 (Below Plan)

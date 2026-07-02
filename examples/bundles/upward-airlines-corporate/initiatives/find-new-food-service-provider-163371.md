@@ -4,14 +4,14 @@ title: Find new food service provider
 description: Our biggest customer complaint is the quality of our food. Our
   current food service provider provides all food out of a single location, and
   we need someone who can make fresh food out of each of our hubs.
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/163371
+resource: clearpoint://scorecard/77146/initiative/163371
 timestamp: 2025-07-15T11:49:32.743Z
 cps:
   object: initiative
   objectId: 163371
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -25,7 +25,7 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77147/initiative/163375
+      to: clearpoint://scorecard/77147/initiative/163375
       object: initiative
       objectId: 163375
       name: Expand to serve two new locations
@@ -35,9 +35,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -99,3 +101,5 @@ Our biggest customer complaint is the quality of our food. Our current food serv
 ## Related
 
 - [Internal cost per flight (Department aggregate/MM)](/measures/internal-cost-per-flight-department-aggregate-mm-423490.md)
+
+## Status — Dec-25 (Above Target)

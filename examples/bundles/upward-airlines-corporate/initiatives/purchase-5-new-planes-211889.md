@@ -5,14 +5,14 @@ description: We need to increase the inventory of planes to increase our supply.
   Our inventory specialists and strategic advisors are working closely to
   address this shortfall by identifying manufacturers, looking at different
   models, and reporting to t
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/211889
+resource: clearpoint://scorecard/77146/initiative/211889
 timestamp: 2025-11-17T17:19:12.477Z
 cps:
   object: initiative
   objectId: 211889
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -33,7 +33,7 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77149/initiative/211897
+      to: clearpoint://scorecard/77149/initiative/211897
       object: initiative
       objectId: 211897
       name: Implement wifi on all planes
@@ -43,9 +43,11 @@ cps:
     cadence: default
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -108,3 +110,5 @@ We need to increase the inventory of planes to increase our supply. Our inventor
 
 - [Total amount of time at gate](/measures/total-amount-of-time-at-gate-423485.md)
 - [Expenses](/measures/expenses-423497.md)
+
+## Status — Dec-25 (Caution)

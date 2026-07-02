@@ -4,7 +4,7 @@ title: Comparable To Other Travel
 description: Customers have a number of airlines to choose from when they
   travel. We must deliver an unparalleled experience so that the decision to
   choose Upward Airlines is an easy one.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207711
+resource: clearpoint://scorecard/77146/objective/207711
 tags:
   - perspective:financial
 timestamp: 2025-11-19T17:41:45.860Z
@@ -20,14 +20,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/271188
+      to: clearpoint://scorecard/77147/objective/271188
       object: objective
       objectId: 271188
       name: New Technology
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/271189
+      to: clearpoint://scorecard/77149/objective/271189
       object: objective
       objectId: 271189
       name: Flight Attendant Customer Service
@@ -50,9 +50,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -77,3 +79,5 @@ Customers have a number of airlines to choose from when they travel. We must del
 
 - [Customer Experience Survey](/measures/customer-experience-survey-423482.md)
 - [Build a business class program](/initiatives/build-a-business-class-program-211892.md)
+
+## Status — Dec-25 (Above Target)

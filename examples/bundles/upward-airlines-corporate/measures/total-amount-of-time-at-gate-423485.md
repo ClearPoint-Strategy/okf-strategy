@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: Total amount of time at gate
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423485
+resource: clearpoint://scorecard/77146/measure/423485
 timestamp: 2023-08-10T16:26:59.320Z
 cps:
   object: measure
@@ -15,21 +15,21 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/423513
+      to: clearpoint://scorecard/77148/measure/423513
       object: measure
       objectId: 423513
       name: Time planes wait at gate
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/423523
+      to: clearpoint://scorecard/77149/measure/423523
       object: measure
       objectId: 423523
       name: Rate of departures that leave on time
       scorecard: 🏜️ Western Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/423525
+      to: clearpoint://scorecard/77149/measure/423525
       object: measure
       objectId: 423525
       name: Average plane turnaround time
@@ -39,9 +39,11 @@ cps:
     cadence: monthly
     periodGroupId: 9722
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -75,4 +77,12 @@ cps:
     dataResource: /data/total-amount-of-time-at-gate-423485.json
 ---
 
-**Actual** — 148 (Jan-26) · trend [155, 147, 143, 147, 148, 148]
+**Actual** — 148 (Dec-25) · trend [151, 155, 147, 143, 147, 148]
+
+## Status — Dec-25 (Caution)
+
+## Status — Nov-25 (Caution)
+
+## Status — Oct-25 (Above Target)
+
+## Status — Sep-25 (Caution)

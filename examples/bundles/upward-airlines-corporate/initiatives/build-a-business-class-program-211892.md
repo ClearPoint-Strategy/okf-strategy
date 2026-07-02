@@ -1,14 +1,14 @@
 ---
 type: Initiative
 title: Build a business class program
-resource: clearpoint://district/cps-air/scorecard/77146/initiative/211892
+resource: clearpoint://scorecard/77146/initiative/211892
 timestamp: 2025-03-10T20:51:21.450Z
 cps:
   object: initiative
   objectId: 211892
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Program
+  alias: Initiative
   access:
     minCapability: Administrator
     markings:
@@ -22,14 +22,14 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77147/initiative/163375
+      to: clearpoint://scorecard/77147/initiative/163375
       object: initiative
       objectId: 163375
       name: Expand to serve two new locations
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77149/initiative/211897
+      to: clearpoint://scorecard/77149/initiative/211897
       object: initiative
       objectId: 211897
       name: Implement wifi on all planes
@@ -39,9 +39,11 @@ cps:
     cadence: quarterly
     periodGroupId: 9723
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -101,3 +103,5 @@ cps:
 ## Related
 
 - [Net Profit](/measures/net-profit-423481.md)
+
+## Status — Dec-25 (Above Target)

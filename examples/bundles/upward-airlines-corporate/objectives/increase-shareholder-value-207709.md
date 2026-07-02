@@ -3,7 +3,7 @@ type: Objective
 title: Increase Shareholder Value
 description: We want to ensure that our financial priorities are in check, and
   that our revenue is always exceeding our expenses.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207709
+resource: clearpoint://scorecard/77146/objective/207709
 tags:
   - theme:financials
 timestamp: 2025-07-15T11:48:10.523Z
@@ -26,21 +26,21 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207724
+      to: clearpoint://scorecard/77147/objective/207724
       object: objective
       objectId: 207724
       name: Profitability
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207733
+      to: clearpoint://scorecard/77148/objective/207733
       object: objective
       objectId: 207733
       name: Profitability
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207742
+      to: clearpoint://scorecard/77149/objective/207742
       object: objective
       objectId: 207742
       name: Profitability
@@ -75,7 +75,7 @@ cps:
       scorecard: Upward Airlines Corporate
       access: Administrator
     - fieldId: initiatives
-      to: clearpoint://district/cps-air/scorecard/77148/initiative/163378
+      to: clearpoint://scorecard/77148/initiative/163378
       object: initiative
       objectId: 163378
       name: Employee Bonus Program
@@ -84,11 +84,11 @@ cps:
   time:
     periodGroupId: 0
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
-      statusId: 18580
-      status: Below Plan
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18579
+      status: Caution
   provenance:
     scorecard:
       id: 77146
@@ -112,6 +112,4 @@ We want to ensure that our financial priorities are in check, and that our reven
 - [Expenses](/measures/expenses-423497.md)
 - [Create New Revenue Streams](/initiatives/create-new-revenue-streams-579990.md)
 
-## Status — May 2026 (Below Plan)
-
-## Status — Apr 2026 (Below Plan)
+## Status — Dec-25 (Caution)

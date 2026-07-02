@@ -5,7 +5,7 @@ description: We want our employees to feel an equal amount of intrinsic and
   extrinsic value when being a member of the Upward Airlines' team. To do so, we
   must track compensation, ownership, and overall satisfaction to ensure our
   employees feel as if we
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207723
+resource: clearpoint://scorecard/77146/objective/207723
 timestamp: 2021-08-23T17:29:46.547Z
 cps:
   object: objective
@@ -19,28 +19,28 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207728
+      to: clearpoint://scorecard/77147/objective/207728
       object: objective
       objectId: 207728
       name: Employee Satisfaction
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207738
+      to: clearpoint://scorecard/77148/objective/207738
       object: objective
       objectId: 207738
       name: Employee Satisfaction
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207747
+      to: clearpoint://scorecard/77149/objective/207747
       object: objective
       objectId: 207747
       name: Employee Satisfaction
       scorecard: 🏜️ Western Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207751
+      to: clearpoint://scorecard/77149/objective/207751
       object: objective
       objectId: 207751
       name: Leadership Training Program
@@ -63,9 +63,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18578
+      status: Above Target
   provenance:
     scorecard:
       id: 77146
@@ -85,3 +87,5 @@ We want our employees to feel an equal amount of intrinsic and extrinsic value w
 
 - [% employee ownership](/measures/employee-ownership-423495.md)
 - [Create new HR hiring process](/initiatives/create-new-hr-hiring-process-211890.md)
+
+## Status — Dec-25 (Above Target)

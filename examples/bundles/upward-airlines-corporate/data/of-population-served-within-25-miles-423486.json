@@ -1,5 +1,5 @@
 {
-  "resource": "clearpoint://district/cps-air/scorecard/77146/measure/423486",
+  "resource": "clearpoint://scorecard/77146/measure/423486",
   "object": "measure",
   "objectId": 423486,
   "series": [
@@ -19,91 +19,91 @@
   "data": [
     {
       "periodId": 168172,
-      "period": "Q1-24",
+      "period": "Mar-24",
       "Actual": 31,
       "Target": 35,
       "% Not Served": 69
     },
     {
       "periodId": 189836,
-      "period": "Q2-24",
+      "period": "Jun-24",
       "Actual": 36,
       "Target": 35,
       "% Not Served": 64
     },
     {
       "periodId": 189840,
-      "period": "Q3-24",
+      "period": "Sep-24",
       "Actual": 35,
       "Target": 35,
       "% Not Served": 65
     },
     {
+      "periodId": 256354,
+      "period": "Dec-24",
+      "Actual": 34,
+      "Target": 35,
+      "% Not Served": 66
+    },
+    {
       "periodId": 189843,
-      "period": "Q1-25",
+      "period": "Mar-25",
       "Actual": 36,
       "Target": 35,
       "% Not Served": 64
     },
     {
-      "periodId": 189846,
-      "period": "Q4-25",
-      "Actual": 35,
-      "Target": 35,
-      "% Not Served": 65
-    },
-    {
       "periodId": 256348,
-      "period": "Q2-25",
+      "period": "Jun-25",
       "Actual": 37,
       "Target": 35,
       "% Not Served": 63
     },
     {
       "periodId": 256351,
-      "period": "Q3-25",
+      "period": "Sep-25",
       "Actual": 36,
       "Target": 35,
       "% Not Served": 64
     },
     {
-      "periodId": 256354,
-      "period": "Q4-24",
-      "Actual": 34,
+      "periodId": 189846,
+      "period": "Dec-25",
+      "Actual": 35,
       "Target": 35,
-      "% Not Served": 66
+      "% Not Served": 65
     },
     {
       "periodId": 256612,
-      "period": "Q1-26",
+      "period": "Mar-26",
       "Actual": null,
       "Target": null,
       "% Not Served": null
     },
     {
       "periodId": 256615,
-      "period": "Q2-26",
+      "period": "Jun-26",
       "Actual": null,
       "Target": null,
       "% Not Served": null
     },
     {
       "periodId": 256620,
-      "period": "Q3-26",
+      "period": "Sep-26",
       "Actual": null,
       "Target": null,
       "% Not Served": null
     },
     {
       "periodId": 256623,
-      "period": "Q4-26",
+      "period": "Dec-26",
       "Actual": null,
       "Target": null,
       "% Not Served": null
     },
     {
       "periodId": 313372,
-      "period": "q1-27",
+      "period": "Mar-27",
       "Actual": null,
       "Target": null,
       "% Not Served": null

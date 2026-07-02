@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: "# customer complaints per 1,000 tickets"
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423488
+resource: clearpoint://scorecard/77146/measure/423488
 timestamp: 2017-11-21T15:01:56.833Z
 cps:
   object: measure
@@ -15,14 +15,14 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/542407
+      to: clearpoint://scorecard/77148/measure/542407
       object: measure
       objectId: 542407
       name: Flight Cancellations
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/542408
+      to: clearpoint://scorecard/77149/measure/542408
       object: measure
       objectId: 542408
       name: Customer Support Calls
@@ -32,9 +32,9 @@ cps:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
   provenance:
@@ -65,8 +65,12 @@ cps:
     dataResource: /data/customer-complaints-per-1-000-tickets-423488.json
 ---
 
-**Actual** — 9 (2024) · trend [6, 9, 8, 9]
+**Actual** — 8 (Dec-25) · trend [6, 9, 9, 8]
 
-## Status — May 2026 (Below Plan)
+## Status — Dec-25 (Below Plan)
 
-## Status — Apr 2026 (Below Plan)
+## Status — Nov-25 (Caution)
+
+## Status — Oct-25 (Caution)
+
+## Status — Sep-25 (Caution)

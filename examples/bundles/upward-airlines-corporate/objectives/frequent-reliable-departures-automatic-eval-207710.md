@@ -4,7 +4,7 @@ title: Frequent Reliable Departures (Automatic Eval)
 description: One negative flight experience can have a major impact on customer
   brand loyalty. As such, we need to ensure that we are providing our customers
   with multiple daily flight options and these flights must be prompt.
-resource: clearpoint://district/cps-air/scorecard/77146/objective/207710
+resource: clearpoint://scorecard/77146/objective/207710
 tags:
   - perspective:financial
 timestamp: 2025-11-17T17:18:49.370Z
@@ -20,28 +20,28 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/207725
+      to: clearpoint://scorecard/77147/objective/207725
       object: objective
       objectId: 207725
       name: Reliable Departures
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77147/objective/271191
+      to: clearpoint://scorecard/77147/objective/271191
       object: objective
       objectId: 271191
       name: Morning Departures
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77148/objective/207734
+      to: clearpoint://scorecard/77148/objective/207734
       object: objective
       objectId: 207734
       name: Reliable Departures
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: objectives
-      to: clearpoint://district/cps-air/scorecard/77149/objective/207743
+      to: clearpoint://scorecard/77149/objective/207743
       object: objective
       objectId: 207743
       name: Reliable Departures
@@ -57,9 +57,11 @@ cps:
   time:
     periodGroupId: -1
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
+      statusId: 18580
+      status: Below Plan
   provenance:
     scorecard:
       id: 77146
@@ -83,3 +85,11 @@ One negative flight experience can have a major impact on customer brand loyalty
 ## Related
 
 - [Average Number of Daily departures per route](/measures/average-number-of-daily-departures-per-route-423483.md)
+
+## Status — Dec-25 (Below Plan)
+
+## Status — Nov-25 (Below Plan)
+
+## Status — Oct-25 (Below Plan)
+
+## Status — Sep-25 (Below Plan)

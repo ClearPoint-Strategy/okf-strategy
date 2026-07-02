@@ -53,8 +53,9 @@ frontmatter conforms to [`schemas/concept.schema.json`](schemas/concept.schema.j
   actionItem, risk). One shape covers all types; `cps.object` selects the machine-canonical type while
   base-OKF `type` carries the human/canonical label.
 - **Concept ID** = bundle-relative path minus `.md`.
-- **`resource`** = stable canonical URI: `clearpoint://district/<id>/scorecard/<id>/<object>/<objectId>`.
-  This is the round-trip identity anchor (§8).
+- **`resource`** = stable canonical URI: `clearpoint://scorecard/<scorecardId>/<object>/<objectId>`.
+  The round-trip identity anchor (§8). No tenant/district segment — a bundle is already district-scoped
+  by the key that produced it.
 
 ---
 

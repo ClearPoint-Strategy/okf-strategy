@@ -1,7 +1,7 @@
 ---
 type: Measure
 title: "% of customer airline travel with us"
-resource: clearpoint://district/cps-air/scorecard/77146/measure/423489
+resource: clearpoint://scorecard/77146/measure/423489
 timestamp: 2025-05-05T19:57:44.380Z
 cps:
   object: measure
@@ -15,21 +15,21 @@ cps:
       - scorecard:77146
   edges:
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77147/measure/542405
+      to: clearpoint://scorecard/77147/measure/542405
       object: measure
       objectId: 542405
       name: "# of new planes purchased"
       scorecard: 🌐 Eastern Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77148/measure/542407
+      to: clearpoint://scorecard/77148/measure/542407
       object: measure
       objectId: 542407
       name: Flight Cancellations
       scorecard: 🎯 Central Division
       access: Administrator
     - fieldId: measures
-      to: clearpoint://district/cps-air/scorecard/77149/measure/542536
+      to: clearpoint://scorecard/77149/measure/542536
       object: measure
       objectId: 542536
       name: "# of new planes purchased"
@@ -39,9 +39,9 @@ cps:
     cadence: annual
     periodGroupId: 9724
     currentPeriod:
-      periodId: 256614
-      period: May 2026
-      periodDate: 2026-05-31
+      periodId: 189846
+      period: Dec-25
+      periodDate: 2025-12-31
       statusId: 18580
       status: Below Plan
   provenance:
@@ -74,8 +74,12 @@ cps:
     dataResource: /data/of-customer-airline-travel-with-us-423489.json
 ---
 
-**Actual** — 15 (2024) · trend [17, 12, 13, 15]
+**Actual** — 13 (Dec-25) · trend [17, 12, 15, 13]
 
-## Status — May 2026 (Below Plan)
+## Status — Dec-25 (Below Plan)
 
-## Status — Apr 2026 (Below Plan)
+## Status — Nov-25 (Below Plan)
+
+## Status — Oct-25 (Below Plan)
+
+## Status — Sep-25 (Below Plan)
