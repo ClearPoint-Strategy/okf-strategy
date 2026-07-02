@@ -9,7 +9,6 @@ cps:
   objectId: 182621
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Action Item
   startDate: 2023-09-06
   endDate: 2023-12-09
   completed: false

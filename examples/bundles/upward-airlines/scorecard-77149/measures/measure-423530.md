@@ -9,7 +9,6 @@ cps:
   objectId: 423530
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  alias: Measure
   completed: false
   access:
     minCapability: Administrator

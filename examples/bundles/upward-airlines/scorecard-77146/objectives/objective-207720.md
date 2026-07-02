@@ -10,7 +10,6 @@ cps:
   objectId: 207720
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Objective
   completed: false
   access:
     minCapability: Administrator

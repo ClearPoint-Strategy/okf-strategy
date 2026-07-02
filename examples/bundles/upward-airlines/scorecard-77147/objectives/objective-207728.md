@@ -8,7 +8,6 @@ cps:
   objectId: 207728
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  alias: Objective
   completed: false
   access:
     minCapability: Administrator

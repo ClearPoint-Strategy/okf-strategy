@@ -12,7 +12,6 @@ cps:
   objectId: 163374
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  alias: Initiative
   startDate: 2025-03-01
   endDate: 2025-12-31
   completed: false

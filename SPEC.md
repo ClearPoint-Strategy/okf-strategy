@@ -170,8 +170,17 @@ history sidecar`. One pattern, applied to both. See [docs/api.md](docs/api.md).
 The **glossary** lives on a `glossary.md` concept (`type: Glossary`) under `cps.glossary` — *not* in
 `index.md` frontmatter, since base OKF §6 allows only `okf_version` there. It binds org nomenclature to
 canonical vocabulary — `types` (Goal→objective, KPI→measure), `labels` (children→Divisions,
-goals→OKRs), `statuses`, `fields` — built from the account's real `/language` labels. It is
-**bidirectional**: used on **ingest** to understand the org's words
+goals→OKRs), `statuses`, `fields` — built from the account's real `/language`.
+
+**Default vs. override (no voting).** The root `glossary.md` carries account-level overrides; each
+scorecard that renames a term differently gets its *own* `scorecard-<id>/glossary.md` with only its
+deltas. A term is an *override* iff its effective `/language` value is a literal differing from the
+default — a still-templated `{{…}}` value means "using the default." (The default is the district
+language, `application.locale.get(districtId)`, i.e. the "no scorecardId" language; a scorecard's
+`/language` merges default + its overrides.) Example: `goal→OKR` is account-wide (root), while
+`child→Division` is set only on the corporate scorecard, so it lives in that scorecard's glossary.
+
+It is **bidirectional**: used on **ingest** to understand the org's words
 (seeding the resolver's synonyms) and on **projection** so the MCP **speaks the org's words back**.
 `type` stays canonical for interop; per-concept `cps.alias` is the rendered org term.
 

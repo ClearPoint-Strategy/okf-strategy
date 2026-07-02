@@ -11,7 +11,6 @@ cps:
   objectId: 163369
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  alias: Initiative
   startDate: 2025-01-27
   endDate: 2025-12-31
   completed: false

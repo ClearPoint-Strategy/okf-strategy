@@ -12,7 +12,6 @@ cps:
   objectId: 423516
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  alias: Measure
   completed: false
   access:
     minCapability: Administrator

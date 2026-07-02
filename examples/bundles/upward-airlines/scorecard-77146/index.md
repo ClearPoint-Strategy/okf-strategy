@@ -1,5 +1,6 @@
 # Upward Airlines Corporate
 
+* [Glossary](glossary.md) - scorecard overrides
 * [Categories](categories/)
 * [Objectives](objectives/)
 * [Measures](measures/)

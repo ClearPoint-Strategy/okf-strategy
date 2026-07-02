@@ -9,7 +9,6 @@ cps:
   objectId: 423502
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  alias: Measure
   completed: false
   access:
     minCapability: Administrator

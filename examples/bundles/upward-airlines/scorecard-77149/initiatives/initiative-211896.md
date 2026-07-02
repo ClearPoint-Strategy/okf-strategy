@@ -9,7 +9,6 @@ cps:
   objectId: 211896
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  alias: Initiative
   startDate: 2025-02-20
   endDate: 2025-04-13
   completed: false
