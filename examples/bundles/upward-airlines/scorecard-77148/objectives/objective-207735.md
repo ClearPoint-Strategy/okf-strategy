@@ -2,27 +2,19 @@
 type: Objective
 title: Competitive Ticket Prices
 resource: clearpoint://scorecard/77148/objective/207735
-timestamp: 2016-07-27T22:04:01.010Z
 cps:
   object: objective
   objectId: 207735
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77148/data/objective-207735-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Greg Garcia
-      userId: 24966
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:04:01.010Z
 ---
 
@@ -30,28 +22,33 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Greg Garcia
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** We have priced our tickets too high on certain flights, which has hurt us when compared to budget airlines.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** We need to revise our prices, and drop them to a number where more customers can afford tickets.
+### Analysis
 
+We have priced our tickets too high on certain flights, which has hurt us when compared to budget airlines.
 
-## Linkages
+### Recommendations
 
-### Parents
+We need to revise our prices, and drop them to a number where more customers can afford tickets.
 
-- [Very Low Ticket Prices](/scorecard-77146/objectives/objective-207712.md)
-
-### Categories
+## Categories
 
 - [Customer](/scorecard-77148/categories/category-203620.md)
 
-### Measures
+## Parents
+
+- [Very Low Ticket Prices](/scorecard-77146/objectives/objective-207712.md)
+
+## Measures
 
 - [Ticket price differential](/scorecard-77148/measures/measure-423512.md)
 
-### Initiatives
+## Initiatives
 
 - [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

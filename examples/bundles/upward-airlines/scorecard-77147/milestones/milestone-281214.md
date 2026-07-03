@@ -2,30 +2,21 @@
 type: Milestone
 title: Hire consultants
 resource: clearpoint://scorecard/77147/milestone/281214
-timestamp: 2025-02-26T15:30:45.040Z
 cps:
   object: milestone
   objectId: 281214
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   startDate: 2024-11-30
   endDate: 2024-12-07
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:30:45.040Z
 ---
 
@@ -33,13 +24,9 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Mark Cutler
-- **Dates:** 2024-11-30 – 2024-12-07
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Create Upskilling for Employees](/scorecard-77147/initiatives/initiative-163373.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target

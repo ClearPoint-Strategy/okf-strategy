@@ -2,78 +2,45 @@
 type: Measure
 title: Costs
 resource: clearpoint://scorecard/77149/measure/423532
-timestamp: 2024-06-05T21:49:24.850Z
 cps:
   object: measure
   objectId: 423532
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77149/data/measure-423532-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Monthly
   provenance:
     owner:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2024-06-05T21:49:24.850Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Variance
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Actual as % of Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77149/data/measure-423532-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** Clarice Strong
-- **Reporting Frequency:** Monthly
+- **Owner:** Clarice Strong (Operations)
+- **Reporting frequency:** Monthly
 
-**Actual** — 3650 (Dec-25) · trend [3571, 3647, 3421, 3215, 3341, 3650]
+## Status
 
-## Status — Dec-25 (Below Plan)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Analysis.** By the cost of fuel dropping dramatically, we have been able to cust costs.
+### Analysis
 
-**Recommendations.** We must continue on our current course of managing our expenses closely.
+By the cost of fuel dropping dramatically, we have been able to cust costs.
 
+### Recommendations
 
-**Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Caution
+We must continue on our current course of managing our expenses closely.
 
-## Linkages
-
-### Parents
+## Parents
 
 - [Expenses](/scorecard-77146/measures/measure-423497.md)
 
-### Objectives
+## Objectives
 
 - [Profitability](/scorecard-77149/objectives/objective-207742.md)

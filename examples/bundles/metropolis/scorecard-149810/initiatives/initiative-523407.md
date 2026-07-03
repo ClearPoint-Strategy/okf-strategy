@@ -2,28 +2,21 @@
 type: Initiative
 title: City Restaurant Audits
 resource: clearpoint://scorecard/149810/initiative/523407
-timestamp: 2023-03-23T17:38:28.190Z
 cps:
   object: initiative
   objectId: 523407
   scorecardId: 149810
   scorecard: Metropolis City Scorecard (Demo Rewrite)
+  access:
+    derivedFrom: clearpoint://scorecard/149810
+  periodicity: Default
   startDate: 2021-09-20
   endDate: 2023-03-21
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Maggie Sawyer
-      userId: 8502
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:28.190Z
 ---
 
@@ -31,7 +24,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
 - **Owner:** Maggie Sawyer
-- **Dates:** 2021-09-20 – 2023-03-21
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -39,21 +32,25 @@ Restaurants in the city attract tourists and citizens to engage with the communi
 
 ## Details
 
-- **Budget:** $83,000
 - **Level of Effort:** Low
 - **Level of Impact:** Low
+- **Budget:** $83,000
 - **Priority:** Low
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Objectives
+This project will take a while to complete because it is going to be difficult to schedule time with all of the restaurant managers.
+
+## Objectives
 
 - [Active & Engaged Community](/scorecard-149810/objectives/objective-555860.md)
 
-### Milestones
+## Milestones
 
 - [Send out survey for restaurants to complete](/scorecard-149810/milestones/milestone-974561.md)
 - [Share audit results with top level management](/scorecard-149810/milestones/milestone-974562.md)
@@ -61,3 +58,8 @@ Restaurants in the city attract tourists and citizens to engage with the communi
 - [Meet with restaurant managers](/scorecard-149810/milestones/milestone-974564.md)
 - [Send out survey to customers](/scorecard-149810/milestones/milestone-974565.md)
 - [Conduct onsite audit](/scorecard-149810/milestones/milestone-974566.md)
+
+## Initiative Measures
+
+- [Percent of recognized neighborhood associations that meet at least quarterly](/scorecard-149810/measures/measure-1426479.md)
+- [Percent of eligible voters who voted in the last city election](/scorecard-149810/measures/measure-1426480.md)

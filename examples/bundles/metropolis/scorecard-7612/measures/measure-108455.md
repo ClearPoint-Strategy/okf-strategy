@@ -1,65 +1,54 @@
 ---
 type: Measure
-title: Percent of citizens who believe Metropolis provides good value for their
-  tax dollar
+title: Percent of citizens who believe Metropolis provides good value for their tax dollar
 resource: clearpoint://scorecard/7612/measure/108455
-timestamp: 2017-10-27T14:28:05.057Z
 cps:
   object: measure
   objectId: 108455
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Annual
-    periodGroupId: 2495
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Annual
   provenance:
     owner:
       name: John Smith
-      userId: 8500
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-27T14:28:05.057Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7612/data/measure-108455-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** John Smith
-- **Reporting Frequency:** Annual
-
-**Actual** — 88 (Dec-22) · trend [73, 82, 83, 88]
+- **Reporting frequency:** Annual
 
 ## Description
 
 We want our citizens to have faith in their city government and believe we are being responsible with their tax money.
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** 2022 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Objectives
+The feedback from the survey was really helpful and we'll use it to inform future improvements.
+
+### Recommendations
+
+We should continue to gather citizen feedback and choose funding priorities based on that feedback.
+
+## Objectives
 
 - [Accountable & Responsive City Government](/scorecard-7612/objectives/objective-53691.md)
 
-### Action Items
+## Action Items
 
 - [Call the newspaper & report solid progress](/scorecard-7612/action-items/actionItem-21984.md)
+
+## Measure Initiatives
+
+- [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)

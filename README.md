@@ -31,7 +31,8 @@ five things as first-class, portable data:
 bundle/
   index.md            # okf_version only (base OKF §6)
   glossary.md         # the organization's vocabulary (Glossary concept)
-  users.md · statuses.md · periods.md · periodicities.md · custom-fields.md   # reference lookups
+  user-access.md      # the access model: principals, per-scorecard grants, group rules (portable)
+  users.md · statuses.md · tags.md · periods.md · periodicities.md · custom-fields.md   # reference lookups
   log.md              # change history, newest-first
   scorecard-<id>/
     index.md
@@ -71,6 +72,19 @@ multi-scorecard Metropolis account), both generated from a real strategy platfor
 OKF-Strategy is a **conservative extension**: it adds a strategy type taxonomy, an access-marking
 vocabulary, a temporal/status model, a glossary convention, and typed relationships — all as producer
 extensions. Base OKF's non-goal of a fixed type taxonomy is exactly the seam this profile fills.
+
+## Status
+
+**v0.1 — early and evolving.** The spec, schemas, and example bundles are usable today; the profile may
+still change as real bundles exercise it. Breaking changes are tracked in `okf_version` and called out in
+[SPEC.md](SPEC.md). Feedback and real-world bundles are the fastest way to harden it.
+
+## Contributing
+
+Contributions are welcome — issues that surface a modeling gap are as valuable as pull requests. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for how the profile evolves, what makes a good schema change, and the
+one hard rule: **every OKF-Strategy bundle must remain a valid base-OKF bundle**, and all extensions stay
+under the `cps:` key.
 
 ## License
 

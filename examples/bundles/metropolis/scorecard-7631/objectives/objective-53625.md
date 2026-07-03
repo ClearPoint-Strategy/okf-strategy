@@ -2,24 +2,19 @@
 type: Objective
 title: Airfield operates efficiently
 resource: clearpoint://scorecard/7631/objective/53625
-timestamp: 2017-10-30T21:29:45.457Z
 cps:
   object: objective
   objectId: 53625
   scorecardId: 7631
   scorecard: Airport
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7631
+  periodicity: Default
   provenance:
     owner:
       name: John Smith
-      userId: 8500
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-30T21:29:45.457Z
 ---
 
@@ -27,29 +22,46 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** John Smith
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (Below Plan)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan
 
-## Linkages
+### Analysis
 
-### Parents
+We really need to focus on getting our planes out on time.
 
-- [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
+### Recommendations
 
-### Children
+Hopefully, our new training initiative will help our employees, and thereby our airport, become more efficient.
 
-- [Effective Leverage of Technology](/scorecard-7612/objectives/objective-277062.md)
-
-### Categories
+## Categories
 
 - [Operations](/scorecard-7631/categories/category-15760.md)
 
-### Measures
+## Parents
+
+- [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
+
+## Measures
 
 - [On time landings and takeoffs](/scorecard-7631/measures/measure-108103.md)
 
-### Initiatives
+## Initiatives
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)
 - [Identify and solicit additional public aviation events](/scorecard-7631/initiatives/initiative-43613.md)
+
+## Children
+
+- [Effective Leverage of Technology](/scorecard-7612/objectives/objective-277062.md)
+
+## Child Measures
+
+- [Interactions with posts on Metropolis social media accounts](/scorecard-7612/measures/measure-274716.md)
+
+## Child Initiatives
+
+- [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-7631/initiatives/initiative-43616.md)

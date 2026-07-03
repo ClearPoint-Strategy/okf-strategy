@@ -2,44 +2,31 @@
 type: Milestone
 title: Hire outside consultant to conduct test study
 resource: clearpoint://scorecard/77148/milestone/368095
-timestamp: 2025-02-26T15:32:34.347Z
 cps:
   object: milestone
   objectId: 368095
   scorecardId: 77148
   scorecard: 🎯 Central Division
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   startDate: 2025-03-07
   endDate: 2025-05-16
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18581
-      status: No Information
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:32:34.347Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
-- **Owner:** James Crockett
-- **Dates:** 2025-03-07 – 2025-05-16
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Employee Bonus Program](/scorecard-77148/initiatives/initiative-163378.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** No Information

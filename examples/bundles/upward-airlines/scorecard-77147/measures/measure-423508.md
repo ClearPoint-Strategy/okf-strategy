@@ -2,79 +2,53 @@
 type: Measure
 title: Expenses
 resource: clearpoint://scorecard/77147/measure/423508
-timestamp: 2022-02-25T22:12:23.810Z
 cps:
   object: measure
   objectId: 423508
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77147/data/measure-423508-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Quarterly
   provenance:
     owner:
       name: Kimberly Kupcha
-      userId: 24969
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2022-02-25T22:12:23.810Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Variance
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Actual as % of Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77147/data/measure-423508-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Kimberly Kupcha
-- **Reporting Frequency:** Quarterly
+- **Reporting frequency:** Quarterly
 
-**Actual** — 2430 (Dec-25) · trend [2260, 2430, 2400, 2400, 2400, 2430]
-
-## Status — Dec-25 (Above Target)
-
-**Analysis.** By cutting costs in all three regions, we have turned this measure around.
-
-**Recommendations.** We must continue on our current course of managing our expenses closely.
+## Details
 
 - **Complete?:** 0
 
-**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+## Status
 
-## Linkages
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-### Parents
+### Analysis
+
+By cutting costs in all three regions, we have turned this measure around.
+
+### Recommendations
+
+We must continue on our current course of managing our expenses closely.
+
+## Parents
 
 - [Expenses](/scorecard-77146/measures/measure-423497.md)
 
-### Objectives
+## Objectives
 
 - [Profitability](/scorecard-77147/objectives/objective-207724.md)
+
+## Measure Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

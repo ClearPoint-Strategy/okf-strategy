@@ -2,56 +2,53 @@
 type: Objective
 title: Ground Turnaround
 resource: clearpoint://scorecard/77149/objective/207745
-timestamp: 2017-10-23T13:58:53.567Z
 cps:
   object: objective
   objectId: 207745
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77149/data/objective-207745-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   provenance:
     owner:
-      name: Trudy Joplin
-      userId: 24968
+      name: Trudy Joplin (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-23T13:58:53.567Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** Trudy Joplin
+- **Owner:** Trudy Joplin (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** We need to turn planes faster.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** Our new training initiative will help.
+### Analysis
 
+We need to turn planes faster.
 
-## Linkages
+### Recommendations
 
-### Parents
+Our new training initiative will help.
 
-- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
-
-### Categories
+## Categories
 
 - [Internal](/scorecard-77149/categories/category-203625.md)
 
-### Measures
+## Parents
+
+- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
+
+## Measures
 
 - [Average plane turnaround time](/scorecard-77149/measures/measure-423525.md)
 
-### Initiatives
+## Initiatives
 
 - [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

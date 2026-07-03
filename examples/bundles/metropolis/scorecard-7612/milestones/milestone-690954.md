@@ -2,37 +2,31 @@
 type: Milestone
 title: Present plan to City Council
 resource: clearpoint://scorecard/7612/milestone/690954
-timestamp: 2023-01-11T13:17:10.137Z
 cps:
   object: milestone
   objectId: 690954
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Custom
   startDate: 2022-10-27
   endDate: 2022-12-27
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
+    owner:
+      name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-11T13:17:10.137Z
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Dates:** 2022-10-27 – 2022-12-27
+- **Owner:** ClearPoint Support
+- **Reporting frequency:** Custom
 
-## Status — Dec-22 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Create new revenue streams](/scorecard-7612/initiatives/initiative-343366.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** No Information

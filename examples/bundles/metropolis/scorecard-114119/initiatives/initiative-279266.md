@@ -2,36 +2,40 @@
 type: Initiative
 title: ClearPoint Implementation - Starter
 resource: clearpoint://scorecard/114119/initiative/279266
-timestamp: 2023-01-06T19:31:38.823Z
 cps:
   object: initiative
   objectId: 279266
   scorecardId: 114119
   scorecard: ClearPoint Implementation
+  access:
+    derivedFrom: clearpoint://scorecard/114119
+  periodicity: Default
   startDate: 2023-01-01
   endDate: 2023-03-31
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
+    owner:
+      name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-06T19:31:38.823Z
 ---
 
 ## Overview
 
 - **Scorecard:** ClearPoint Implementation
-- **Dates:** 2023-01-01 – 2023-03-31
+- **Owner:** ClearPoint Support
+- **Reporting frequency:** Default
 
-## Linkages
+## Details
 
-### Milestones
+- **Complete?:** 0
+
+## Status
+
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Not Defined
+
+## Milestones
 
 - [Kickoff Call](/scorecard-114119/milestones/milestone-532551.md)
 - [Setup information sent to ClearPoint](/scorecard-114119/milestones/milestone-532552.md)

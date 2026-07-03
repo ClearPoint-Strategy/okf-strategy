@@ -2,31 +2,21 @@
 type: Initiative
 title: Create Upskilling for Employees
 resource: clearpoint://scorecard/77147/initiative/163373
-timestamp: 2025-02-26T15:30:44.993Z
 cps:
   object: initiative
   objectId: 163373
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   startDate: 2024-11-29
   endDate: 2025-06-28
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77147/data/initiative-163373-status.json
   provenance:
     owner:
       name: Janice Jones
-      userId: 24967
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:30:44.993Z
 ---
 
@@ -34,37 +24,41 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Janice Jones
-- **Dates:** 2024-11-29 – 2025-06-28
+- **Reporting frequency:** Default
 
 ## Description
 
-We are going to redesign our employee training program. We will keep many components, but we need additional information and training around getting planes out on time.
+We are going to redesign our employee training program. 
+ 
+ We will keep many components, but we need additional information and training around getting planes out on time.
 
 ## Details
 
 - **Budget:** $350,000
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** We feel comfortable with the consultants we work hired and have received great feedback from the employees we sampled, so we feel confident that our training will vastly improve.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** We should see what factors are outside of our control in getting our planes out on time and then base the rest of our training according to that information since those factors need to be properly considered.
+### Analysis
 
+We feel comfortable with the consultants we work hired and have received great feedback from the employees we sampled, so we feel confident that our training will vastly improve.
 
-**Status history.** Sep-25: Below Plan
+### Recommendations
 
-## Linkages
+We should see what factors are outside of our control in getting our planes out on time and then base the rest of our training according to that information since those factors need to be properly considered.
 
-### Parents
+## Parents
 
 - [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
 
-### Objectives
+## Objectives
 
 - [Reliable Departures](/scorecard-77147/objectives/objective-207725.md)
 - [Ground Turnaround](/scorecard-77147/objectives/objective-207726.md)
 
-### Milestones
+## Milestones
 
 - [Hire consultants](/scorecard-77147/milestones/milestone-281214.md)
 - [Survey a sample of employees](/scorecard-77147/milestones/milestone-281213.md)
@@ -73,3 +67,8 @@ We are going to redesign our employee training program. We will keep many compon
 - [Test new curriculum with some employees](/scorecard-77147/milestones/milestone-281217.md)
 - [Evaluate results of sample group and make adjustments](/scorecard-77147/milestones/milestone-281218.md)
 - [Rollout new training across the region](/scorecard-77147/milestones/milestone-281219.md)
+
+## Initiative Measures
+
+- [% of on time departures](/scorecard-77147/measures/measure-423498.md)
+- [Average plane turnaround time](/scorecard-77147/measures/measure-423500.md)

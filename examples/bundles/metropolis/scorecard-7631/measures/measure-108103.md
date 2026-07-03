@@ -2,59 +2,50 @@
 type: Measure
 title: On time landings and takeoffs
 resource: clearpoint://scorecard/7631/measure/108103
-timestamp: 2017-10-27T14:30:18.397Z
 cps:
   object: measure
   objectId: 108103
   scorecardId: 7631
   scorecard: Airport
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7631
+  periodicity: Monthly
   provenance:
     owner:
-      name: Rhonda Fields
-      userId: 8501
+      name: Rhonda Fields (Assistant City Manager)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-27T14:30:18.397Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7631/data/measure-108103-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Airport
-- **Owner:** Rhonda Fields
-- **Reporting Frequency:** Monthly
+- **Owner:** Rhonda Fields (Assistant City Manager)
+- **Reporting frequency:** Monthly
 
-**Actual** — 75 (Dec-22) · trend [82, 85, 87, 91, 82, 75]
+## Status
 
-## Status — Dec-22 (Below Plan)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan
 
+### Analysis
 
-## Linkages
+On time landings and takeoffs is a measure that slightly out of our control due to airport traffic. However, we can still improve by expediting our processes.
 
-### Parents
+### Recommendations
+
+We need to continue to do everything we can to make sure our guests are comfortable when waiting for our planes.
+
+## Parents
 
 - [Airport efficiency rating](/scorecard-7612/measures/measure-110210.md)
 
-### Objectives
+## Objectives
 
 - [Airfield operates efficiently](/scorecard-7631/objectives/objective-53625.md)
+
+## Measure Initiatives
+
+- [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)
+- [Identify and solicit additional public aviation events](/scorecard-7631/initiatives/initiative-43613.md)

@@ -2,65 +2,55 @@
 type: Measure
 title: Average employee wage
 resource: clearpoint://scorecard/7612/measure/110213
-timestamp: 2018-11-20T19:37:49.020Z
 cps:
   object: measure
   objectId: 110213
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Annual
-    periodGroupId: 2495
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Annual
   provenance:
     owner:
-      name: Jimmy Olsen
-      userId: 8798
+      name: Jimmy Olsen (Director of Parks and Recreation)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2018-11-20T19:37:49.020Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-    dataResource: /scorecard-7612/data/measure-110213-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Owner:** Jimmy Olsen
-- **Reporting Frequency:** Annual
-
-**Actual** — 64000 (Dec-22) · trend [59956, 61350, 61150, 64000]
+- **Owner:** Jimmy Olsen (Director of Parks and Recreation)
+- **Reporting frequency:** Annual
 
 ## Description
 
 Paying a competitive salary is vital to recruiting and retaining top talent. We need to ensure that our employees feel valued from an economic standpoint.
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** 2022 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Children
+We need to find a way to pay employees more because we want to always exceed our current target and be in a position to exceed our target when we raise it in the future.
+
+### Recommendations
+
+We should find areas in the budget where we can cut expenses and reallocate those funds to employee wages.
+
+## Objectives
+
+- [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
+
+## Children
 
 - [Average employee wage](/scorecard-7631/measures/measure-111096.md)
 - [Yearly Employee Salary](/scorecard-7805/measures/measure-111272.md)
 - [Employee compensation per year](/scorecard-7807/measures/measure-111296.md)
 
-### Objectives
+## Measure Initiatives
 
-- [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
+- [Employee training](/scorecard-7612/initiatives/initiative-43638.md)

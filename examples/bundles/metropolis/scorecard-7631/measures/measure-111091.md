@@ -2,59 +2,53 @@
 type: Measure
 title: Profitability
 resource: clearpoint://scorecard/7631/measure/111091
-timestamp: 2020-12-03T16:05:18.667Z
 cps:
   object: measure
   objectId: 111091
   scorecardId: 7631
   scorecard: Airport
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7631
+  periodicity: Monthly
   provenance:
     owner:
-      name: Lance Cummins
-      userId: 22923
+      name: Lance Cummins (Police Chief)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2020-12-03T16:05:18.667Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7631/data/measure-111091-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Airport
-- **Owner:** Lance Cummins
-- **Reporting Frequency:** Monthly
+- **Owner:** Lance Cummins (Police Chief)
+- **Reporting frequency:** Monthly
 
-**Actual** — 8.7 (Dec-22) · trend [4.74, 7.89, 10.22, 13.57, 16.39, 8.7]
+## Details
 
-## Status — Dec-22 (On Target)
+- **Complete?:** 0
 
+## Status
 
-## Linkages
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-### Parents
+### Analysis
+
+Our profitability is struggling due to our high expenses.
+
+### Recommendations
+
+Focus on cutting expenses.
+
+## Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-### Objectives
+## Objectives
 
 - [Budget Health](/scorecard-7631/objectives/objective-54270.md)
+
+## Measure Initiatives
+
+- [Study revenue growth](/scorecard-7631/initiatives/initiative-215318.md)

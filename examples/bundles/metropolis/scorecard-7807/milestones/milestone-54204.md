@@ -2,27 +2,21 @@
 type: Milestone
 title: Explore and research safety events in other jurisdictions
 resource: clearpoint://scorecard/7807/milestone/54204
-timestamp: 2018-11-13T18:25:24.180Z
 cps:
   object: milestone
   objectId: 54204
   scorecardId: 7807
   scorecard: Fire Department
+  access:
+    derivedFrom: clearpoint://scorecard/7807
+  periodicity: Default
   startDate: 2020-02-27
   endDate: 2020-05-18
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Ted Jackson
-      userId: 8436
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2018-11-13T18:25:24.180Z
 ---
 
@@ -30,13 +24,9 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Ted Jackson
-- **Dates:** 2020-02-27 – 2020-05-18
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (On Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Identify and hold additional fire safety events](/scorecard-7807/initiatives/initiative-44458.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target

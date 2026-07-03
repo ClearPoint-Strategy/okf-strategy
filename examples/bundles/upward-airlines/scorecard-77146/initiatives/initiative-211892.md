@@ -2,32 +2,21 @@
 type: Initiative
 title: Build a business class program
 resource: clearpoint://scorecard/77146/initiative/211892
-timestamp: 2025-03-10T20:51:21.450Z
 cps:
   object: initiative
   objectId: 211892
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2025-08-02
   endDate: 2026-04-04
-  completed: false
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/initiative-211892-status.json
   provenance:
     owner:
       name: Steve Smith
-      userId: 24973
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T20:51:21.450Z
 ---
 
@@ -35,45 +24,52 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Steve Smith
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2025-08-02 – 2026-04-04
+- **Reporting frequency:** Quarterly
 
 ## Details
 
+- **Budget:** 300000
+- **Initiative Review:** approved
 - **Budget:** $300,000
+- **Requester:** Donald Duff
+- **Project Request Status:** Need Additional Information
+- **Priority:** 1. Low
 - **Level of Effort:** 3. High
 - **Level of Impact:** 1. Low
-- **Priority:** 1. Low
-- **Project Request Status:**  Need Additional Information 
-- **Requester:** Donald Duff
-- **Budget:** 300000.0000
-- **Initiative Review:** approved
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We are on track to launching a great business class, and our rewards program is performing as good as we hoped it would
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** It would be helpful to reach out to a Professor at Georgetown to be the leader on the sessions. They have a lot of expertise that will be helpful to this project.
+### Analysis
 
+We are on track to launching a great business class, and our rewards program is performing as good as we hoped it would
 
-## Linkages
+### Recommendations
 
-### Children
+It would be helpful to reach out to a Professor at Georgetown to be the leader on the sessions. They have a lot of expertise that will be helpful to this project.
 
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
-- [Implement wifi on all planes](/scorecard-77149/initiatives/initiative-211897.md)
-
-### Objectives
+## Objectives
 
 - [Comparable To Other Travel](/scorecard-77146/objectives/objective-207711.md)
 
-### Measures
+## Measures
 
 - [Net Profit](/scorecard-77146/measures/measure-423481.md)
 
-### Milestones
+## Milestones
 
 - [Research travel patterns in key markets](/scorecard-77146/milestones/milestone-684502.md)
 - [Pilot business class on 2 routes](/scorecard-77146/milestones/milestone-684503.md)
 - [Pilot rewards program](/scorecard-77146/milestones/milestone-684504.md)
 - [Launch business class](/scorecard-77146/milestones/milestone-684505.md)
+
+## Children
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+- [Implement wifi on all planes](/scorecard-77149/initiatives/initiative-211897.md)
+
+## Initiative Measures
+
+- [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)

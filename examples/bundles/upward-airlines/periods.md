@@ -1,180 +1,62 @@
 ---
-type: Periods
+type: Lookup
 title: Periods
-periods:
-  - id: 149093
-    name: Dec-22
-    master: Dec-19
-    date: 2022-12-31
-  - id: 168164
-    name: Jun-23
-    master: Jun-20
-    date: 2023-06-30
-  - id: 168168
-    name: Dec-23
-    master: Dec-20
-    date: 2023-12-31
-  - id: 168170
-    name: Jan-24
-    master: Jan-21
-    date: 2024-01-31
-  - id: 168173
-    name: Feb-24
-    master: Feb-21
-    date: 2024-02-29
-  - id: 168172
-    name: Mar-24
-    master: Mar-21
-    date: 2024-03-31
-  - id: 149074
-    name: Apr-24
-    master: Apr-21
-    date: 2024-04-30
-  - id: 189837
-    name: May-24
-    master: May-21
-    date: 2024-05-31
-  - id: 189836
-    name: Jun-24
-    master: Jun-21
-    date: 2024-06-30
-  - id: 189839
-    name: Jul-24
-    master: Jul-21
-    date: 2024-07-31
-  - id: 189838
-    name: Aug-24
-    master: Aug-21
-    date: 2024-08-31
-  - id: 189840
-    name: Sep-24
-    master: Sep-21
-    date: 2024-09-30
-  - id: 189845
-    name: Oct-24
-    master: Oct-21
-    date: 2024-10-31
-  - id: 189841
-    name: Nov-24
-    master: Nov-21
-    date: 2024-11-30
-  - id: 256354
-    name: Dec-24
-    date: 2024-12-31
-  - id: 189842
-    name: Jan-25
-    master: Jan-22
-    date: 2025-01-31
-  - id: 189844
-    name: Feb-25
-    master: Feb-22
-    date: 2025-02-28
-  - id: 189843
-    name: Mar-25
-    master: Mar-22
-    date: 2025-03-31
-  - id: 168171
-    name: Apr-25
-    master: Apr-22
-    date: 2025-04-30
-  - id: 256347
-    name: May-25
-    date: 2025-05-31
-  - id: 256348
-    name: Jun-25
-    date: 2025-06-30
-  - id: 256349
-    name: Jul-25
-    date: 2025-07-31
-  - id: 256350
-    name: Aug-25
-    date: 2025-08-31
-  - id: 256351
-    name: Sep-25
-    date: 2025-09-30
-  - id: 256352
-    name: Oct-25
-    date: 2025-10-31
-  - id: 256353
-    name: Nov-25
-    date: 2025-11-30
-  - id: 189846
-    name: Dec-25
-    date: 2025-12-31
-  - id: 256610
-    name: Jan-26
-    date: 2026-01-31
-  - id: 256611
-    name: Feb-26
-    date: 2026-02-28
-  - id: 256612
-    name: Mar-26
-    date: 2026-03-31
-  - id: 256613
-    name: Apr-26
-    date: 2026-04-30
-  - id: 256614
-    name: May-26
-    date: 2026-05-31
-  - id: 256615
-    name: Jun-26
-    date: 2026-06-30
-  - id: 256616
-    name: Jul-26
-    date: 2026-07-31
-  - id: 256617
-    name: Aug-26
-    date: 2026-08-31
-  - id: 256620
-    name: Sep-26
-    date: 2026-09-30
-  - id: 256621
-    name: Oct-26
-    date: 2026-10-31
-  - id: 256622
-    name: Nov-26
-    date: 2026-11-30
-  - id: 256623
-    name: Dec-26
-    date: 2026-12-31
-  - id: 313370
-    name: Jan-27
-    date: 2027-01-31
-  - id: 313371
-    name: Feb-27
-    date: 2027-02-28
-  - id: 313372
-    name: Mar-27
-    date: 2027-03-31
-  - id: 313373
-    name: Apr-27
-    date: 2027-04-30
-  - id: 313374
-    name: May-27
-    date: 2027-05-31
-  - id: 313375
-    name: Jun-27
-    date: 2027-06-30
-  - id: 313376
-    name: Jul-27
-    date: 2027-07-31
-  - id: 313377
-    name: Aug-27
-    date: 2027-08-31
-  - id: 313378
-    name: Sep-27
-    date: 2027-09-30
-  - id: 313379
-    name: Oct-27
-    date: 2027-10-31
-  - id: 313380
-    name: Nov-27
-    date: 2027-11-30
-  - id: 313381
-    name: Dec-27
-    date: 2027-12-31
+cps:
+  lookup: periods
 ---
 
-# Periods
+## Periods
 
-All periods (flat) — resolve periodId to name + date. `master` = the underlying master-period name where the account renamed it.
+| ID | Name | Start | End |
+| --- | --- | --- | --- |
+| 149093 | Dec-22 |  |  |
+| 168164 | Jun-23 |  |  |
+| 168168 | Dec-23 |  |  |
+| 168170 | Jan-24 |  |  |
+| 168173 | Feb-24 |  |  |
+| 168172 | Mar-24 |  |  |
+| 149074 | Apr-24 |  |  |
+| 189837 | May-24 |  |  |
+| 189836 | Jun-24 |  |  |
+| 189839 | Jul-24 |  |  |
+| 189838 | Aug-24 |  |  |
+| 189840 | Sep-24 |  |  |
+| 189845 | Oct-24 |  |  |
+| 189841 | Nov-24 |  |  |
+| 256354 | Dec-24 |  |  |
+| 189842 | Jan-25 |  |  |
+| 189844 | Feb-25 |  |  |
+| 189843 | Mar-25 |  |  |
+| 168171 | Apr-25 |  |  |
+| 256347 | May-25 |  |  |
+| 256348 | Jun-25 |  |  |
+| 256349 | Jul-25 |  |  |
+| 256350 | Aug-25 |  |  |
+| 256351 | Sep-25 |  |  |
+| 256352 | Oct-25 |  |  |
+| 256353 | Nov-25 |  |  |
+| 189846 | Dec-25 |  |  |
+| 256610 | Jan-26 |  |  |
+| 256611 | Feb-26 |  |  |
+| 256612 | Mar-26 |  |  |
+| 256613 | Apr-26 |  |  |
+| 256614 | May-26 |  |  |
+| 256615 | Jun-26 |  |  |
+| 256616 | Jul-26 |  |  |
+| 256617 | Aug-26 |  |  |
+| 256620 | Sep-26 |  |  |
+| 256621 | Oct-26 |  |  |
+| 256622 | Nov-26 |  |  |
+| 256623 | Dec-26 |  |  |
+| 313370 | Jan-27 |  |  |
+| 313371 | Feb-27 |  |  |
+| 313372 | Mar-27 |  |  |
+| 313373 | Apr-27 |  |  |
+| 313374 | May-27 |  |  |
+| 313375 | Jun-27 |  |  |
+| 313376 | Jul-27 |  |  |
+| 313377 | Aug-27 |  |  |
+| 313378 | Sep-27 |  |  |
+| 313379 | Oct-27 |  |  |
+| 313380 | Nov-27 |  |  |
+| 313381 | Dec-27 |  |  |

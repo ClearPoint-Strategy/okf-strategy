@@ -2,44 +2,31 @@
 type: Milestone
 title: Build new survey questions
 resource: clearpoint://scorecard/77149/milestone/281233
-timestamp: 2025-03-10T22:25:56.760Z
 cps:
   object: milestone
   objectId: 281233
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   startDate: 2024-11-27
   endDate: 2025-01-28
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T22:25:56.760Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** James Crockett
-- **Dates:** 2024-11-27 – 2025-01-28
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Redesign Employee Satisfaction Survey](/scorecard-77149/initiatives/initiative-163379.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target

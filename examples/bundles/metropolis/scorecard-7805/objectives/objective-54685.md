@@ -2,24 +2,19 @@
 type: Objective
 title: Financial Wellness
 resource: clearpoint://scorecard/7805/objective/54685
-timestamp: 2017-10-30T21:21:08.243Z
 cps:
   object: objective
   objectId: 54685
   scorecardId: 7805
   scorecard: Police Department
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7805
+  periodicity: Default
   provenance:
     owner:
       name: Mark Cutler
-      userId: 8503
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-30T21:21:08.243Z
 ---
 
@@ -27,21 +22,30 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Mark Cutler
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Parents
+Our Financial Health has been strong and we have been meeting our goals. We hope to keep this up as we continue.
 
-- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
+### Recommendations
 
-### Categories
+Make a clear plan to follow so we can stay on track with all of these goals.
+
+## Categories
 
 - [Finance](/scorecard-7805/categories/category-15961.md)
 
-### Measures
+## Parents
+
+- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
+
+## Measures
 
 - [Expenses](/scorecard-7631/measures/measure-110220.md)
 - [Income Generated](/scorecard-7805/measures/measure-111267.md)

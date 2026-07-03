@@ -2,27 +2,19 @@
 type: Objective
 title: Ground Turnaround
 resource: clearpoint://scorecard/77148/objective/207736
-timestamp: 2016-07-27T22:04:09.297Z
 cps:
   object: objective
   objectId: 207736
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
-    statusResource: /scorecard-77148/data/objective-207736-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Kimberly Kupcha
-      userId: 24969
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:04:09.297Z
 ---
 
@@ -30,29 +22,34 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Kimberly Kupcha
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Caution)
+## Status
 
-**Analysis.** We need to turn planes faster.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-**Recommendations.** Our new training initiative will help.
+### Analysis
 
+We need to turn planes faster.
 
-## Linkages
+### Recommendations
 
-### Parents
+Our new training initiative will help.
 
-- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
-
-### Categories
+## Categories
 
 - [Internal](/scorecard-77148/categories/category-203621.md)
 
-### Measures
+## Parents
+
+- [Fast Ground Turnaround](/scorecard-77146/objectives/objective-207713.md)
+
+## Measures
 
 - [Time planes wait at gate](/scorecard-77148/measures/measure-423513.md)
 - [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
 
-### Initiatives
+## Initiatives
 
 - [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)

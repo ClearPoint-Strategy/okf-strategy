@@ -2,41 +2,31 @@
 type: Milestone
 title: Choose top 2 options
 resource: clearpoint://scorecard/7805/milestone/54158
-timestamp: 2018-11-14T13:43:22.373Z
 cps:
   object: milestone
   objectId: 54158
   scorecardId: 7805
   scorecard: Police Department
+  access:
+    derivedFrom: clearpoint://scorecard/7805
+  periodicity: Default
   startDate: 2020-01-22
   endDate: 2020-03-26
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
-      name: Ron Troupe
-      userId: 8800
+      name: Ron Troupe (Director of Public Safety)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2018-11-14T13:43:22.373Z
 ---
 
 ## Overview
 
 - **Scorecard:** Police Department
-- **Owner:** Ron Troupe
-- **Dates:** 2020-01-22 – 2020-03-26
+- **Owner:** Ron Troupe (Director of Public Safety)
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Establish Temporary Police Substation during renovation project](/scorecard-7805/initiatives/initiative-44450.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** No Information

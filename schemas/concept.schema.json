@@ -49,6 +49,8 @@
                 "sortOrder": { "type": ["number", "null"] },
                 "weight": { "type": ["integer", "null"], "description": "Rollup weight (element.weight / link weight)." },
                 "score": { "type": ["number", "null"], "description": "Current roll-up score (read-only)." },
+                "periodicity": { "type": "string", "description": "AXIS 3 — reporting periodicity: the periodGroup NAME (e.g. 'Monthly', 'Quarterly', 'Annual'). Its periods are grouped in the root periodicities.md lookup." },
+                "lookup": { "type": "string", "description": "For a root lookup concept (type: Lookup) — the lookup name it holds (users, statuses, tags, periods, periodicities, customFields, glossary, userAccess)." },
                 "glossary": {
                     "type": "object",
                     "additionalProperties": false,
@@ -63,14 +65,27 @@
                 "access": {
                     "type": "object",
                     "additionalProperties": false,
-                    "description": "AXIS 2 — Access. Compartment membership (markings) of the concept, e.g. 'scorecard:<id>'. NOT the requesting user's access — element.access from the MCP projection is the CALLER's effective access and is deliberately NOT embedded; nor is this a 'minimum required'. Who-can-access is governed by the scorecard's access rules (a lookup). For pure ClearPoint elements the compartment equals cps.scorecardId, so a plain concept omits this block; it appears only on derived/enriched/personal nodes. Enforcement is pre-retrieval, server-side, per principal.",
+                    "description": "AXIS 2 — Access. A REFERENCE tag, not the requesting user's level (the caller's effective access is deliberately NOT embedded). It names the concept's access boundary and any element-scoped exceptions; the full policy (principals, per-scorecard grants, group rules + memberships) lives in the portable user-access.md lookup. Enforcement is pre-retrieval, server-side, per principal — the bundle already contains only what the requesting user can see.",
                     "properties": {
+                        "derivedFrom": { "type": "string", "description": "The concept's access boundary — the resource URI of the scorecard (or parent, e.g. an initiative for a milestone) it inherits access from. Resolve against user-access.md for who-can-do-what." },
+                        "rules": {
+                            "type": "array",
+                            "description": "Element-scoped rule exceptions that target THIS concept (e.g. a group granted No Access to a specific measure). Broad, scorecard-level grants stay in user-access.md, not here.",
+                            "items": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "required": ["group", "level"],
+                                "properties": {
+                                    "group": { "type": "string" },
+                                    "level": { "type": "string", "description": "CPS access level (e.g. 'No Access', 'Updater', 'Editor', 'Scorecard Admin')." }
+                                }
+                            }
+                        },
                         "markings": {
                             "type": "array",
                             "items": { "type": "string" },
-                            "description": "Compartments: 'scorecard:<id>' (inherits that scorecard's effective-access set), 'personal:<userId>' (never org-served), optional 'domain:<name>'. Derived nodes carry the UNION."
-                        },
-                        "derivedFrom": { "type": "array", "items": { "type": "string" }, "description": "Paths whose markings were unioned into this node." }
+                            "description": "Optional compartment labels (e.g. 'scorecard:<id>', 'personal:<userId>'). Not emitted by the default ClearPoint producer, which uses derivedFrom + rules; reserved for derived/personal nodes."
+                        }
                     }
                 },
                 "status": {

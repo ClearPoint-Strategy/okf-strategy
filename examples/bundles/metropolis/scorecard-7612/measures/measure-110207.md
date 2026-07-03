@@ -2,56 +2,55 @@
 type: Measure
 title: Budget Surplus
 resource: clearpoint://scorecard/7612/measure/110207
-timestamp: 2022-02-15T16:07:04.130Z
 cps:
   object: measure
   objectId: 110207
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+    rules:
+    - group: Update Finance
+      level: Updater
+    - group: Update Finance (Copy)
+      level: Updater
+  periodicity: Monthly
   provenance:
     owner:
-      name: Jimmy Olsen
-      userId: 8798
+      name: Jimmy Olsen (Director of Parks and Recreation)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2022-02-15T16:07:04.130Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7612/data/measure-110207-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Owner:** Jimmy Olsen
-- **Reporting Frequency:** Monthly
+- **Owner:** Jimmy Olsen (Director of Parks and Recreation)
+- **Reporting frequency:** Monthly
 
-**Actual** — 4.37828371 (Dec-22) · trend [-0.06664445, -13.24884793, 8.85714286, 6.85314685, -3.79825654, 4.37828371]
+## Details
 
-## Status — Dec-22 (Caution)
+- **Complete?:** 0
 
+## Status
 
-## Linkages
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Caution
 
-### Children
+### Analysis
+
+The summer of this year was particularly difficult due to the impacts of the ongoing pandemic. August was our worst month yet, but we are seeing a recovery as the 2020 year comes to a close.
+
+### Recommendations
+
+With our current ability to tightly manage our expenses and continued consistent revenue growth, we should consider increasing our target for the surplus. Over the past 7 months we have proven that we can consistently achieve double digit budget surplus.
+
+## Objectives
+
+- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
+
+## Children
 
 - [Revenue](/scorecard-7612/measures/measure-110208.md)
 - [Expenses](/scorecard-7612/measures/measure-110209.md)
@@ -59,6 +58,6 @@ cps:
 - [Budget Surplus](/scorecard-7805/measures/measure-111269.md)
 - [Budget Surplus/Deficit](/scorecard-7807/measures/measure-111293.md)
 
-### Objectives
+## Measure Initiatives
 
-- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
+- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

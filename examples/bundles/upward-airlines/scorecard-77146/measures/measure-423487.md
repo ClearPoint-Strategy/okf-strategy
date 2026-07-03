@@ -2,86 +2,66 @@
 type: Measure
 title: "% of tickets with direct routes"
 resource: clearpoint://scorecard/77146/measure/423487
-timestamp: 2025-05-05T19:57:15.370Z
 cps:
   object: measure
   objectId: 423487
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77146/data/measure-423487-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Monthly
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     collaborators:
-      - Xavier Prova
-      - Lawrence Sito
-      - Steve Smith
+    - Xavier Prova
+    - Lawrence Sito
+    - Steve Smith
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-05-05T19:57:15.370Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77146/data/measure-423487-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Donald Duff
-- **Collaborators:** Xavier Prova, Lawrence Sito, Steve Smith
-- **Reporting Frequency:** Monthly
-
-**Actual** — 54 (Dec-25) · trend [72, 68, 67, 66, 63, 54]
+- **Reporting frequency:** Monthly
 
 ## Details
 
 - **Variance Report:** The cold weather has hurt us. We're looking into encouraging more purchase on direct flights without harming profit.
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** We were above our target this summer, but now that vacation season is over, we are well below the target with our business travelers. We either need to look at new routes or look at adjusting our target throughout the year!
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** We need to contract with more airports to provide direct routes. This involves reaching out to airport officials.
+### Analysis
 
+We were above our target this summer, but now that vacation season is over, we are well below the target with our business travelers.  We either need to look at new routes or look at adjusting our target throughout the year!
 
-**Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Above Target
+### Recommendations
 
-## Linkages
+We need to contract with more airports to provide direct routes. This involves reaching out to airport officials.
 
-### Children
+## Objectives
+
+- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
+
+## Initiatives
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
+
+## Action Items
+
+- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)
+
+## Children
 
 - [Major cities with direct flights 3+ times per day](/scorecard-77147/measures/measure-423510.md)
 - [% of tickets with direct routes](/scorecard-77148/measures/measure-423514.md)
 
-### Objectives
+## Measure Initiatives
 
-- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
-
-### Initiatives
-
-- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)
-
-### Action Items
-
-- [Research winter weather patterns and develop mitigation strategy](/scorecard-77146/action-items/actionItem-182624.md)
+- [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)

@@ -3,93 +3,31 @@ type: Initiative
 title: Construct new airplane seats (Data & Charts)
 resource: clearpoint://scorecard/77146/initiative/308980
 tags:
-  - theme:high-priority
-timestamp: 2025-03-10T20:51:32.357Z
+- High Priority
 cps:
   object: initiative
   objectId: 308980
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Monthly 2025-26
   startDate: 2025-10-04
   endDate: 2026-12-09
-  completed: false
-  status:
-    periodicity: Monthly 2025-26
-    periodGroupId: 29413
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/initiative-308980-status.json
   provenance:
     owner:
       name: Greg Garcia
-      userId: 24966
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T20:51:32.357Z
-  measure:
-    series:
-      - name: Design Costs To Date
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Construction Costs To Date
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Total Spending To Date
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Project Budget
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Actual % Complete
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Planned % Complete
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Budget based on % complete
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Variance from Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: "% Variance"
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77146/data/initiative-308980-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Greg Garcia
-- **Reporting Frequency:** Monthly 2025-26
-- **Dates:** 2025-10-04 – 2026-12-09
+- **Reporting frequency:** Monthly 2025-26
 - **Tags:** High Priority
-
-**Actual % Complete** — 94 (Dec-25) · trend [65, 74, 80, 86, 88, 94]
 
 ## Description
 
@@ -97,39 +35,43 @@ Detailed project management is possible by leveraging project evaluations to tra
 
 ## Details
 
-- **Budget:** $2,000
-- **Level of Effort:**  3. High
-- **Level of Impact:**  2. Medium
-- **Priority:**  3. High
-- **Project Request Status:** Submitted
-- **Requester:** James Crockett
-- **Budget:** 2000.0000
+- **Budget:** 2000
 - **Initiative Review:** rejected
+- **Budget:** $2,000
+- **Requester:** James Crockett (Sales)
+- **Project Request Status:** Submitted
+- **Priority:** 3. High
+- **Level of Effort:** 3. High
+- **Level of Impact:** 2. Medium
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** While the initiative hit some bumps with the online bill payment integration, we have since recovered and are wrapping up the initiative by reaching out to our teams. We have several different marketing campaigns to promote our new seats.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
+### Analysis
 
-**Status history.** Nov-25: Caution · Oct-25: Above Target · Sep-25: Above Target
+While the initiative hit some bumps with the online bill payment integration, we have since recovered and are wrapping up the initiative by reaching out to our teams. We have several different marketing campaigns to promote our new seats.
 
-## Linkages
-
-### Children
-
-- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)
-- [Purchase new TV Screens](/scorecard-77149/initiatives/initiative-211896.md)
-
-### Objectives
+## Objectives
 
 - [No Elites](/scorecard-77146/objectives/objective-207717.md)
 
-### Measures
+## Measures
 
 - [Expenses](/scorecard-77146/measures/measure-423497.md)
 
-### Milestones
+## Milestones
 
 - [Order construction materials](/scorecard-77146/milestones/milestone-599142.md)
 - [Consult design experts](/scorecard-77146/milestones/milestone-599141.md)
 - [Build new seats](/scorecard-77146/milestones/milestone-599467.md)
+
+## Children
+
+- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)
+- [Purchase new TV Screens](/scorecard-77149/initiatives/initiative-211896.md)
+
+## Initiative Measures
+
+- [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)

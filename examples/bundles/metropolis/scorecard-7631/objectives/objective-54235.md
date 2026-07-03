@@ -2,24 +2,19 @@
 type: Objective
 title: Employee Satisfaction
 resource: clearpoint://scorecard/7631/objective/54235
-timestamp: 2017-10-30T22:22:03.310Z
 cps:
   object: objective
   objectId: 54235
   scorecardId: 7631
   scorecard: Airport
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7631
+  periodicity: Default
   provenance:
     owner:
       name: Maggie Sawyer
-      userId: 8502
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-30T22:22:03.310Z
 ---
 
@@ -27,20 +22,29 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Maggie Sawyer
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Parents
+Airport employees are extremely satisfied with their careers at the airport.
 
-- [Positive Employee Climate](/scorecard-7612/objectives/objective-54237.md)
+### Recommendations
 
-### Categories
+We want to make sure that employee retention continues and hopefully, the positive employee reviews will help us retain top talent.
+
+## Categories
 
 - [Learning & Growth](/scorecard-7631/categories/category-15761.md)
 
-### Measures
+## Parents
+
+- [Positive Employee Climate](/scorecard-7612/objectives/objective-54237.md)
+
+## Measures
 
 - [Percent of employees who say they are "highly satisfied"](/scorecard-7631/measures/measure-111094.md)

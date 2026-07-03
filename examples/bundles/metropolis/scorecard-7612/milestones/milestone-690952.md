@@ -2,37 +2,31 @@
 type: Milestone
 title: Analyze current revenue sources
 resource: clearpoint://scorecard/7612/milestone/690952
-timestamp: 2023-01-11T13:17:10.150Z
 cps:
   object: milestone
   objectId: 690952
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Custom
   startDate: 2022-02-24
   endDate: 2022-06-16
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
+    owner:
+      name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-11T13:17:10.150Z
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Dates:** 2022-02-24 – 2022-06-16
+- **Owner:** ClearPoint Support
+- **Reporting frequency:** Custom
 
-## Status — Dec-22 (On Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Create new revenue streams](/scorecard-7612/initiatives/initiative-343366.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target

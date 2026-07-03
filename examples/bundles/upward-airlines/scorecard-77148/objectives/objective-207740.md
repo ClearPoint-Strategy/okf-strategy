@@ -2,52 +2,49 @@
 type: Objective
 title: Good locations
 resource: clearpoint://scorecard/77148/objective/207740
-timestamp: 2016-07-27T22:04:16.453Z
 cps:
   object: objective
   objectId: 207740
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/objective-207740-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
-      name: Izzy Moreno
-      userId: 24971
+      name: Izzy Moreno (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:04:16.453Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
-- **Owner:** Izzy Moreno
+- **Owner:** Izzy Moreno (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We have established relationships with some major cities already.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Communicate more with the prominent cities in order to establish these good relationships.
+### Analysis
 
+We have established relationships with some major cities already.
 
-## Linkages
+### Recommendations
 
-### Parents
+Communicate more with the prominent cities in order to establish these good relationships.
 
-- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
-
-### Categories
+## Categories
 
 - [Internal](/scorecard-77148/categories/category-203621.md)
 
-### Measures
+## Parents
+
+- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
+
+## Measures
 
 - [% of population served within 15 miles](/scorecard-77148/measures/measure-423519.md)

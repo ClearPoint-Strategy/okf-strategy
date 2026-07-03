@@ -2,41 +2,31 @@
 type: Milestone
 title: Build partner committee
 resource: clearpoint://scorecard/149811/milestone/974586
-timestamp: 2023-03-23T17:38:32.297Z
 cps:
   object: milestone
   objectId: 974586
   scorecardId: 149811
   scorecard: Parks and Recreation
+  access:
+    derivedFrom: clearpoint://scorecard/149811
+  periodicity: Default
   startDate: 2022-02-26
   endDate: 2022-05-07
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
-      name: Rhonda Fields
-      userId: 8501
+      name: Rhonda Fields (Assistant City Manager)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:32.297Z
 ---
 
 ## Overview
 
 - **Scorecard:** Parks and Recreation
-- **Owner:** Rhonda Fields
-- **Dates:** 2022-02-26 – 2022-05-07
+- **Owner:** Rhonda Fields (Assistant City Manager)
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (Below Plan)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan

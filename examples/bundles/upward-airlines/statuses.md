@@ -1,65 +1,18 @@
 ---
-type: Statuses
+type: Lookup
 title: Statuses
-statuses:
-  - id: 58262
-    name: Inactive
-    color: "#f9ac5a"
-    score: 0
-  - id: 55107
-    name: Out of Range
-    color: "#bd10e0"
-    validFor:
-      - measure
-  - id: 18578
-    name: Above Target
-    color: "#DCEDC8"
-    score: 3
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
-  - id: 18579
-    name: Caution
-    color: "#FFECB3"
-    score: 2
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
-  - id: 18580
-    name: Below Plan
-    color: "#FECDD2"
-    score: 1
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
-  - id: 18581
-    name: No Information
-    color: "#BBDEFB"
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
+cps:
+  lookup: statuses
 ---
 
-# Statuses
+## Statuses
 
-Status definitions — id, name, color, score, and which element types each is valid for.
+| ID | Name | Color | Score |
+| --- | --- | --- | --- |
+| 0 | Not Defined | #DDDDDD |  |
+| 58262 | Inactive | #f9ac5a | 0 |
+| 55107 | Out of Range | #bd10e0 |  |
+| 18578 | Above Target | #DCEDC8 | 3 |
+| 18579 | Caution | #FFECB3 | 2 |
+| 18580 | Below Plan | #FECDD2 | 1 |
+| 18581 | No Information | #BBDEFB |  |

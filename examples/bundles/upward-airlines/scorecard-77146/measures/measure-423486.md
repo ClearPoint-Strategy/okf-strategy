@@ -2,73 +2,42 @@
 type: Measure
 title: "% of population served within 25 miles"
 resource: clearpoint://scorecard/77146/measure/423486
-timestamp: 2020-03-26T18:17:11.577Z
 cps:
   object: measure
   objectId: 423486
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2020-03-26T18:17:11.577Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: "% Not Served"
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77146/data/measure-423486-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Donald Duff
-- **Reporting Frequency:** Quarterly
-
-**Actual** — 35 (Dec-25) · trend [35, 34, 36, 37, 36, 35]
+- **Reporting frequency:** Quarterly
 
 ## Details
 
 - **Variance Report:** This metric is doing well and is surpassing expectations!
 
-## Status — Dec-25 (Above Target)
+## Status
 
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+## Objectives
 
-## Linkages
+- [Good Locations](/scorecard-77146/objectives/objective-207714.md)
 
-### Children
+## Children
 
 - [% of population served within 25 miles](/scorecard-77147/measures/measure-423506.md)
 - [% of population served within 15 miles](/scorecard-77148/measures/measure-423519.md)
-
-### Objectives
-
-- [Good Locations](/scorecard-77146/objectives/objective-207714.md)

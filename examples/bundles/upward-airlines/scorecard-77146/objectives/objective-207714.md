@@ -2,29 +2,19 @@
 type: Objective
 title: Good Locations
 resource: clearpoint://scorecard/77146/objective/207714
-tags:
-  - perspective:customer
-timestamp: 2025-11-19T17:41:47.933Z
 cps:
   object: objective
   objectId: 207714
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/objective-207714-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   provenance:
     owner:
       name: Kimberly Kupcha
-      userId: 24969
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-11-19T17:41:47.933Z
 ---
 
@@ -32,6 +22,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Kimberly Kupcha
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -41,26 +32,40 @@ We want to establish relationships with prominent cities, and offer our customer
 
 - **Balanced Scorecard:** customer
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We have established relationships with some cities already.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Communicate more with the prominent cities in order to establish these good relationships.
+### Analysis
 
+We have established relationships with some cities already.
 
-## Linkages
+### Recommendations
 
-### Children
+Communicate more with the prominent cities in order to establish these good relationships.
+
+## Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+## Measures
+
+- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
+
+## Children
 
 - [Good Locations](/scorecard-77147/objectives/objective-207730.md)
 - [Good locations](/scorecard-77148/objectives/objective-207740.md)
 - [Good locations](/scorecard-77149/objectives/objective-207749.md)
 - [Relationship with Eastern U.S. airports](/scorecard-77149/objectives/objective-271313.md)
 
-### Categories
+## Child Measures
 
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+- [% of population served within 25 miles](/scorecard-77147/measures/measure-423506.md)
+- [% of population served within 15 miles](/scorecard-77148/measures/measure-423519.md)
+- [% of population served within 20 miles](/scorecard-77149/measures/measure-423530.md)
 
-### Measures
+## Child Initiatives
 
-- [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

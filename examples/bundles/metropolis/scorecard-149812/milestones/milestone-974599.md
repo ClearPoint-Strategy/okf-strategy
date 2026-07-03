@@ -2,41 +2,31 @@
 type: Milestone
 title: Solicit ideas and rank them
 resource: clearpoint://scorecard/149812/milestone/974599
-timestamp: 2023-03-23T17:38:33.697Z
 cps:
   object: milestone
   objectId: 974599
   scorecardId: 149812
   scorecard: Police Department
+  access:
+    derivedFrom: clearpoint://scorecard/149812
+  periodicity: Default
   startDate: 2020-06-23
   endDate: 2020-12-28
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
-      name: Lance Cummins
-      userId: 22923
+      name: Lance Cummins (Police Chief)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:33.697Z
 ---
 
 ## Overview
 
 - **Scorecard:** Police Department
-- **Owner:** Lance Cummins
-- **Dates:** 2020-06-23 – 2020-12-28
+- **Owner:** Lance Cummins (Police Chief)
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** No Information

@@ -2,27 +2,21 @@
 type: Milestone
 title: Implementation test phase
 resource: clearpoint://scorecard/7612/milestone/53456
-timestamp: 2023-04-20T13:29:14.213Z
 cps:
   object: milestone
   objectId: 53456
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Default
   startDate: 2022-03-17
   endDate: 2022-07-25
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Catherine Yochum
-      userId: 16648
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-04-20T13:29:14.213Z
 ---
 
@@ -30,13 +24,9 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Catherine Yochum
-- **Dates:** 2022-03-17 – 2022-07-25
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (Below Plan)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Employee training](/scorecard-7612/initiatives/initiative-43638.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan

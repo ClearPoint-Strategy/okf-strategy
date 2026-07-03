@@ -2,41 +2,31 @@
 type: Milestone
 title: Choose new vendor
 resource: clearpoint://scorecard/77146/milestone/281262
-timestamp: 2025-02-26T15:29:36.093Z
 cps:
   object: milestone
   objectId: 281262
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2025-06-01
   endDate: 2025-07-14
-  completed: true
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
     owner:
-      name: Tammy Cuzco
-      userId: 33823
+      name: Tammy Cuzco (Operations)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:29:36.093Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** Tammy Cuzco
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2025-06-01 – 2025-07-14 (completed)
+- **Owner:** Tammy Cuzco (Operations)
+- **Reporting frequency:** Quarterly
 
-## Linkages
+## Status
 
-### Parent Initiative
-
-- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
+- **Period:** Q1-24 (2024-03-31)
+- **Status:** Not Defined

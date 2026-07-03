@@ -2,28 +2,21 @@
 type: Initiative
 title: Identify and hold additional fire safety events
 resource: clearpoint://scorecard/7807/initiative/44458
-timestamp: 2020-03-18T13:45:17.453Z
 cps:
   object: initiative
   objectId: 44458
   scorecardId: 7807
   scorecard: Fire Department
+  access:
+    derivedFrom: clearpoint://scorecard/7807
+  periodicity: Default
   startDate: 2020-01-12
   endDate: 2020-07-09
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Mark Cutler
-      userId: 8503
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2020-03-18T13:45:17.453Z
 ---
 
@@ -31,7 +24,7 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Mark Cutler
-- **Dates:** 2020-01-12 – 2020-07-09
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -41,23 +34,36 @@ We are looking for exciting events in order to teach people about basic personal
 
 - **Budget:** 16,000
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Parents
+We are doing a very good job of starting on task and adhering to the project plan.
+
+### Recommendations
+
+We may need to build in a marketing component to our project plan to make sure the public knows when they need to come vote, or maybe we should have all the voting be online.
+
+## Parents
 
 - [Identify and hold additional safety events](/scorecard-7612/initiatives/initiative-159313.md)
 
-### Objectives
+## Objectives
 
 - [Community's wellness](/scorecard-7807/objectives/objective-54700.md)
 
-### Milestones
+## Milestones
 
 - [Build partner committee](/scorecard-7807/milestones/milestone-54203.md)
 - [Explore and research safety events in other jurisdictions](/scorecard-7807/milestones/milestone-54204.md)
 - [Hold public hearings](/scorecard-7807/milestones/milestone-54205.md)
 - [Public vote on top 2 favorite events](/scorecard-7807/milestones/milestone-54207.md)
 - [Announce possible events](/scorecard-7807/milestones/milestone-54206.md)
+
+## Initiative Measures
+
+- [Percent of citizens who feel "extremely safe" from fire](/scorecard-7807/measures/measure-111289.md)
+- [Percent of citizens attending fire safety trainings](/scorecard-7807/measures/measure-111297.md)

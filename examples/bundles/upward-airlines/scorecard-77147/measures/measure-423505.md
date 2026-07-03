@@ -2,73 +2,57 @@
 type: Measure
 title: Net Profit
 resource: clearpoint://scorecard/77147/measure/423505
-timestamp: 2022-02-25T22:14:18.850Z
 cps:
   object: measure
   objectId: 423505
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77147/data/measure-423505-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Quarterly
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2022-02-25T22:14:18.850Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77147/data/measure-423505-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
-- **Owner:** James Crockett
-- **Reporting Frequency:** Quarterly
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Quarterly
 
-**Actual** — 17 (Dec-25) · trend [15.68, 14.08, 8, 10, 13, 17]
-
-## Status — Dec-25 (Above Target)
-
-**Analysis.** We have put together several very strong months after a difficult start to 2015.
-
-**Recommendations.** Things are looking good.
+## Details
 
 - **Complete?:** 0
 
-**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+## Status
 
-## Linkages
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-### Parents
+### Analysis
+
+We have put together several very strong months after a difficult start to 2015.
+
+### Recommendations
+
+Things are looking good.
+
+## Parents
 
 - [Net Profit](/scorecard-77146/measures/measure-423481.md)
 
-### Objectives
+## Objectives
 
 - [Profitability](/scorecard-77147/objectives/objective-207724.md)
 
-### Initiatives
+## Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+
+## Measure Initiatives
 
 - [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

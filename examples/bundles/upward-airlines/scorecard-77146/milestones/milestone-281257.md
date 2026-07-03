@@ -2,50 +2,35 @@
 type: Milestone
 title: Conduct a test project
 resource: clearpoint://scorecard/77146/milestone/281257
-timestamp: 2025-05-02T15:43:11.590Z
 cps:
   object: milestone
   objectId: 281257
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2025-09-02
   endDate: 2025-11-01
-  completed: false
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-05-02T15:43:11.590Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** James Crockett
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2025-09-02 – 2025-11-01
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Quarterly
 
-## Status — Dec-25 (Caution)
+## Status
 
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Caution
 
-## Linkages
-
-### Parent Initiative
-
-- [Redesign Employee Satisfaction Survey](/scorecard-77146/initiatives/initiative-163370.md)
-
-### Parent Milestone
+## Parent Milestone
 
 - [Hire survey consultants](/scorecard-77146/milestones/milestone-281251.md)

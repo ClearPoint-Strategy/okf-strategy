@@ -2,34 +2,31 @@
 type: Milestone
 title: Training
 resource: clearpoint://scorecard/114119/milestone/948289
-timestamp: 2023-01-06T19:33:54.250Z
 cps:
   object: milestone
   objectId: 948289
   scorecardId: 114119
   scorecard: ClearPoint Implementation
+  access:
+    derivedFrom: clearpoint://scorecard/114119
+  periodicity: Default
   startDate: 2023-03-14
   endDate: 2023-03-27
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
+    owner:
+      name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-06T19:33:54.250Z
 ---
 
 ## Overview
 
 - **Scorecard:** ClearPoint Implementation
-- **Dates:** 2023-03-14 – 2023-03-27
+- **Owner:** ClearPoint Support
+- **Reporting frequency:** Default
 
-## Linkages
+## Status
 
-### Parent Initiative
-
-- [ClearPoint Implementation - Local Government Unlimited](/scorecard-114119/initiatives/initiative-504500.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Not Defined

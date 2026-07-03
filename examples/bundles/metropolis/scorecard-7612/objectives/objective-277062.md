@@ -2,26 +2,19 @@
 type: Objective
 title: Effective Leverage of Technology
 resource: clearpoint://scorecard/7612/objective/277062
-timestamp: 2017-12-04T13:48:02.917Z
 cps:
   object: objective
   objectId: 277062
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Monthly
   provenance:
     owner:
       name: Joseph Lucco
-      userId: 8494
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-12-04T13:48:02.917Z
 ---
 
@@ -29,29 +22,37 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Joseph Lucco
-- **Reporting Frequency:** Monthly
+- **Reporting frequency:** Monthly
 
 ## Description
 
 In today's digital age, we need to leverage technology to not only optimize our internal processes, but to also be recognized as a leader in the municipal space.
 
-## Status — Dec-22 (Below Plan)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan
 
-## Linkages
+### Analysis
 
-### Parents
+We need to do more to keep our social media accounts active and keep our followers engaged.
 
-- [Airfield operates efficiently](/scorecard-7631/objectives/objective-53625.md)
+### Recommendations
 
-### Categories
+We should consider creating a blog and linking articles to social media accounts. Perhaps create contests through hashtags to increase engagement.
+
+## Categories
 
 - [Operations](/scorecard-7612/categories/category-15756.md)
 
-### Measures
+## Parents
+
+- [Airfield operates efficiently](/scorecard-7631/objectives/objective-53625.md)
+
+## Measures
 
 - [Interactions with posts on Metropolis social media accounts](/scorecard-7612/measures/measure-274716.md)
 
-### Initiatives
+## Initiatives
 
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-7631/initiatives/initiative-43616.md)

@@ -2,73 +2,49 @@
 type: Measure
 title: "% of highly satisified employees"
 resource: clearpoint://scorecard/77148/measure/423515
-timestamp: 2017-10-06T19:54:59.537Z
 cps:
   object: measure
   objectId: 423515
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/measure-423515-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Quarterly
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-06T19:54:59.537Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Unsatisfied Employees
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77148/data/measure-423515-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Mark Cutler
-- **Reporting Frequency:** Quarterly
-
-**Actual** — 83 (Dec-25) · trend [83, 84, 81, 83]
+- **Reporting frequency:** Quarterly
 
 ## Description
 
 We have a employee survery every quarter.
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We have been doing well keeping our employees happy since Q3-2018.
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Continue to keep company culture strong.
+### Analysis
 
+We have been doing well keeping our employees happy since Q3-2018.
 
-**Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+### Recommendations
 
-## Linkages
+Continue to keep company culture strong.
 
-### Objectives
+## Objectives
 
 - [Employee Satisfaction](/scorecard-77148/objectives/objective-207738.md)
+
+## Measure Initiatives
+
+- [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)

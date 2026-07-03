@@ -2,73 +2,49 @@
 type: Measure
 title: Ticket price differential
 resource: clearpoint://scorecard/77148/measure/423512
-timestamp: 2017-10-10T17:34:09.430Z
 cps:
   object: measure
   objectId: 423512
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/measure-423512-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Quarterly
   provenance:
     owner:
       name: Greg Garcia
-      userId: 24966
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-10T17:34:09.430Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Industry
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-    dataResource: /scorecard-77148/data/measure-423512-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Greg Garcia
-- **Reporting Frequency:** Quarterly
-
-**Actual** — 13 (Dec-25) · trend [11, 12, 12, 13]
+- **Reporting frequency:** Quarterly
 
 ## Description
 
 We want to measure our ticket prices compared to the industry average and our target prices.
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** Our prices continue to be in our desired range.
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Regularly check our pricing with competitors and the industry as a whole to make sure it is set appropriately.
+### Analysis
 
+Our prices continue to be in our desired range.
 
-**Status history.** Q3-25: No Information · Q3-25: No Information · Q3-25: No Information
+### Recommendations
 
-## Linkages
+Regularly check our pricing with competitors and the industry as a whole to make sure it is set appropriately.
 
-### Objectives
+## Objectives
 
 - [Competitive Ticket Prices](/scorecard-77148/objectives/objective-207735.md)
+
+## Measure Initiatives
+
+- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

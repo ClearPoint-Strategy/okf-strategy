@@ -1,165 +1,63 @@
 ---
-type: Periods
+type: Lookup
 title: Periods
-periods:
-  - id: 33176
-    name: Nov-19
-    date: 2019-11-30
-  - id: 18786
-    name: Dec-19
-    date: 2019-12-31
-  - id: 33171
-    name: Jun-20
-    date: 2020-06-30
-  - id: 33177
-    name: Dec-20
-    date: 2020-12-31
-  - id: 33178
-    name: Jan-21
-    date: 2021-01-31
-  - id: 33179
-    name: Feb-21
-    date: 2021-02-28
-  - id: 33180
-    name: Mar-21
-    date: 2021-03-31
-  - id: 18799
-    name: Apr-21
-    date: 2021-04-30
-  - id: 168152
-    name: May-21
-    date: 2021-05-31
-  - id: 168150
-    name: Jun-21
-    date: 2021-06-30
-  - id: 168151
-    name: Jul-21
-    date: 2021-07-31
-  - id: 168154
-    name: Aug-21
-    date: 2021-08-31
-  - id: 168153
-    name: Sep-21
-    date: 2021-09-30
-  - id: 168155
-    name: Oct-21
-    date: 2021-10-31
-  - id: 168156
-    name: Nov-21
-    date: 2021-11-30
-  - id: 168158
-    name: Dec-21
-    date: 2021-12-31
-  - id: 168157
-    name: Jan-22
-    date: 2022-01-31
-  - id: 168159
-    name: Feb-22
-    date: 2022-02-28
-  - id: 168160
-    name: Mar-22
-    date: 2022-03-31
-  - id: 18800
-    name: Apr-22
-    date: 2022-04-30
-  - id: 192046
-    name: May-22
-    date: 2022-05-31
-  - id: 192043
-    name: Jun-22
-    date: 2022-06-30
-  - id: 192044
-    name: Jul-22
-    date: 2022-07-31
-  - id: 192050
-    name: Aug-22
-    date: 2022-08-31
-  - id: 192045
-    name: Sep-22
-    date: 2022-09-30
-  - id: 192047
-    name: Oct-22
-    date: 2022-10-31
-  - id: 192049
-    name: Nov-22
-    date: 2022-11-30
-  - id: 192048
-    name: Dec-22
-    date: 2022-12-31
-  - id: 192051
-    name: Jan-23
-    date: 2023-01-31
-  - id: 192052
-    name: Feb-23
-    date: 2023-02-28
-  - id: 192054
-    name: Mar-23
-    date: 2023-03-31
-  - id: 192053
-    name: Apr-23
-    date: 2023-04-30
-  - id: 243631
-    name: May-23
-    date: 2023-05-31
-  - id: 243632
-    name: Jun-23
-    date: 2023-06-30
-  - id: 256641
-    name: Jul-23
-    date: 2023-07-31
-  - id: 256642
-    name: Aug-23
-    date: 2023-08-31
-  - id: 256643
-    name: Sep-23
-    date: 2023-09-30
-  - id: 256644
-    name: Oct-23
-    date: 2023-10-31
-  - id: 256645
-    name: Nov-23
-    date: 2023-11-30
-  - id: 256646
-    name: Dec-23
-    date: 2023-12-31
-  - id: 313447
-    name: Jan-24
-    date: 2024-01-31
-  - id: 313448
-    name: Feb-24
-    date: 2024-02-29
-  - id: 313449
-    name: Mar-24
-    date: 2024-03-31
-  - id: 313450
-    name: Apr-24
-    date: 2024-04-30
-  - id: 313451
-    name: May-24
-    date: 2024-05-31
-  - id: 313452
-    name: Jun-24
-    date: 2024-06-30
-  - id: 313453
-    name: Jul-24
-    date: 2024-07-31
-  - id: 313454
-    name: Aug-24
-    date: 2024-08-31
-  - id: 313455
-    name: Sep-24
-    date: 2024-09-30
-  - id: 313456
-    name: Oct-24
-    date: 2024-10-31
-  - id: 313457
-    name: Nov-24
-    date: 2024-11-30
-  - id: 313458
-    name: Dec-24
-    date: 2024-12-31
+cps:
+  lookup: periods
 ---
 
-# Periods
+## Periods
 
-All periods (flat) — resolve periodId to name + date. `master` = the underlying master-period name where the account renamed it.
+| ID | Name | Start | End |
+| --- | --- | --- | --- |
+| 33176 | Nov-19 |  |  |
+| 18786 | Dec-19 |  |  |
+| 33171 | Jun-20 |  |  |
+| 33177 | Dec-20 |  |  |
+| 33178 | Jan-21 |  |  |
+| 33179 | Feb-21 |  |  |
+| 33180 | Mar-21 |  |  |
+| 18799 | Apr-21 |  |  |
+| 168152 | May-21 |  |  |
+| 168150 | Jun-21 |  |  |
+| 168151 | Jul-21 |  |  |
+| 168154 | Aug-21 |  |  |
+| 168153 | Sep-21 |  |  |
+| 168155 | Oct-21 |  |  |
+| 168156 | Nov-21 |  |  |
+| 168158 | Dec-21 |  |  |
+| 168157 | Jan-22 |  |  |
+| 168159 | Feb-22 |  |  |
+| 168160 | Mar-22 |  |  |
+| 18800 | Apr-22 |  |  |
+| 192046 | May-22 |  |  |
+| 192043 | Jun-22 |  |  |
+| 192044 | Jul-22 |  |  |
+| 192050 | Aug-22 |  |  |
+| 192045 | Sep-22 |  |  |
+| 192047 | Oct-22 |  |  |
+| 192049 | Nov-22 |  |  |
+| 192048 | Dec-22 |  |  |
+| 192051 | Jan-23 |  |  |
+| 192052 | Feb-23 |  |  |
+| 192054 | Mar-23 |  |  |
+| 192053 | Apr-23 |  |  |
+| 243631 | May-23 |  |  |
+| 243632 | Jun-23 |  |  |
+| 256641 | Jul-23 |  |  |
+| 256642 | Aug-23 |  |  |
+| 256643 | Sep-23 |  |  |
+| 256644 | Oct-23 |  |  |
+| 256645 | Nov-23 |  |  |
+| 256646 | Dec-23 |  |  |
+| 313447 | Jan-24 |  |  |
+| 313448 | Feb-24 |  |  |
+| 313449 | Mar-24 |  |  |
+| 313450 | Apr-24 |  |  |
+| 313451 | May-24 |  |  |
+| 313452 | Jun-24 |  |  |
+| 313453 | Jul-24 |  |  |
+| 313454 | Aug-24 |  |  |
+| 313455 | Sep-24 |  |  |
+| 313456 | Oct-24 |  |  |
+| 313457 | Nov-24 |  |  |
+| 313458 | Dec-24 |  |  |

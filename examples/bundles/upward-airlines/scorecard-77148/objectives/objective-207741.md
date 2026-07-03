@@ -2,27 +2,19 @@
 type: Objective
 title: No Frills
 resource: clearpoint://scorecard/77148/objective/207741
-timestamp: 2020-12-15T20:30:06.593Z
 cps:
   object: objective
   objectId: 207741
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/objective-207741-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Steve Smith
-      userId: 24973
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2020-12-15T20:30:06.593Z
 ---
 
@@ -30,24 +22,29 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Steve Smith
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** Unlike other regions, we are doing very well in the measure, due to the great process we have in place.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Share best practices with other two regions.
+### Analysis
 
+Unlike other regions, we are doing very well in the measure, due to the great process we have in place.
 
-## Linkages
+### Recommendations
 
-### Parents
+Share best practices with other two regions.
 
-- [No Frills](/scorecard-77146/objectives/objective-207718.md)
-
-### Categories
+## Categories
 
 - [Internal](/scorecard-77148/categories/category-203621.md)
 
-### Measures
+## Parents
+
+- [No Frills](/scorecard-77146/objectives/objective-207718.md)
+
+## Measures
 
 - [Internal cost per flight](/scorecard-77148/measures/measure-423522.md)

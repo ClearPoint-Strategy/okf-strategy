@@ -2,71 +2,49 @@
 type: Measure
 title: Net Profit
 resource: clearpoint://scorecard/77148/measure/423518
-timestamp: 2017-11-28T15:25:46.857Z
 cps:
   object: measure
   objectId: 423518
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77148/data/measure-423518-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Monthly
   provenance:
     owner:
-      name: Trudy Joplin
-      userId: 24968
+      name: Trudy Joplin (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-11-28T15:25:46.857Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: YTD Avg
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77148/data/measure-423518-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
-- **Owner:** Trudy Joplin
-- **Reporting Frequency:** Monthly
+- **Owner:** Trudy Joplin (Sales)
+- **Reporting frequency:** Monthly
 
-**Actual** — 6.3 (Dec-25) · trend [17.32, 15.07, 13.75, 14.8, 8.05, 6.3]
+## Status
 
-## Status — Dec-25 (Below Plan)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Analysis.** We have put together several very strong months after a difficult start to 2015.
+### Analysis
 
-**Recommendations.** Other regions are doing better than us. We need to study their best practices.
+We have put together several very strong months after a difficult start to 2015.
 
+### Recommendations
 
-## Linkages
+Other regions are doing better than us. We need to study their best practices.
 
-### Parents
+## Parents
 
 - [Net Profit](/scorecard-77146/measures/measure-423481.md)
 
-### Objectives
+## Objectives
 
 - [Profitability](/scorecard-77148/objectives/objective-207733.md)
+
+## Measure Initiatives
+
+- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

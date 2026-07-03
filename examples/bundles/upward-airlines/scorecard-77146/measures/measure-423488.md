@@ -2,67 +2,46 @@
 type: Measure
 title: "# customer complaints per 1,000 tickets"
 resource: clearpoint://scorecard/77146/measure/423488
-timestamp: 2017-11-21T15:01:56.833Z
 cps:
   object: measure
   objectId: 423488
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    periodicity: Annual
-    periodGroupId: 9724
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77146/data/measure-423488-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Annual
   provenance:
     owner:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-11-21T15:01:56.833Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 5
-        numberFormat:
-          precision: 2
-      - name: Target
-        seriesDataTypeId: 5
-        numberFormat:
-          precision: 2
-    dataResource: /scorecard-77146/data/measure-423488-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** Clarice Strong
-- **Reporting Frequency:** Annual
+- **Owner:** Clarice Strong (Operations)
+- **Reporting frequency:** Annual
 
-**Actual** — 8 (Dec-25) · trend [6, 9, 9, 8]
+## Status
 
-## Status — Dec-25 (Below Plan)
+- **Period:** 2025 (2025-12-31)
+- **Status:** Below Plan
 
-**Analysis.** In 2025, Upward Airlines' customer complaints per 1,000 tickets were "Below Plan" with a value of 8, failing to meet the target of 10. This marks a slight improvement from 2023 and 2024, where the status was "Caution" with a value of 9. The consistent failure to meet targets suggests persistent issues in customer service or operational areas.
+### Analysis
 
-**Recommendations.** Enhance Customer Service Training: Implement targeted training programs for staff to address common customer complaints and improve service quality, aiming to consistently meet or exceed the target. Analyze Complaint Patterns: Conduct a detailed analysis of complaint data to identify recurring issues and implement strategic improvements in operations or service delivery.
+In 2025, Upward Airlines' customer complaints per 1,000 tickets were "Below Plan" with a value of 8, failing to meet the target of 10. This marks a slight improvement from 2023 and 2024, where the status was "Caution" with a value of 9. The consistent failure to meet targets suggests persistent issues in customer service or operational areas.
 
+### Recommendations
 
-**Status history.** 2024: Caution · 2024: Caution · 2024: Caution
+Enhance Customer Service Training: Implement targeted training programs for staff to address common customer complaints and improve service quality, aiming to consistently meet or exceed the target. Analyze Complaint Patterns: Conduct a detailed analysis of complaint data to identify recurring issues and implement strategic improvements in operations or service delivery.
 
-## Linkages
+## Objectives
 
-### Children
+- [Fun Experience](/scorecard-77146/objectives/objective-207716.md)
+
+## Children
 
 - [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
 - [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
-
-### Objectives
-
-- [Fun Experience](/scorecard-77146/objectives/objective-207716.md)

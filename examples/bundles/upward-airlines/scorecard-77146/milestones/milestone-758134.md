@@ -2,29 +2,21 @@
 type: Milestone
 title: Hire more recruiters
 resource: clearpoint://scorecard/77146/milestone/758134
-timestamp: 2025-02-26T15:26:20Z
 cps:
   object: milestone
   objectId: 758134
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   startDate: 2025-08-01
   endDate: 2025-10-19
-  completed: true
-  completedDate: 2025-10-23
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
     owner:
       name: Lawrence Sito
-      userId: 24977
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:26:20Z
 ---
 
@@ -32,10 +24,9 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Lawrence Sito
-- **Dates:** 2025-08-01 – 2025-10-19 (completed)
+- **Reporting frequency:** Default
 
-## Linkages
+## Status
 
-### Parent Initiative
-
-- [Create new HR hiring process](/scorecard-77146/initiatives/initiative-211890.md)
+- **Period:** Oct-25 (2025-10-31)
+- **Status:** Not Defined

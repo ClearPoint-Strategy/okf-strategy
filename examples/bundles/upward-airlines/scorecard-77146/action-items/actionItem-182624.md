@@ -2,30 +2,21 @@
 type: Action Item
 title: Research winter weather patterns and develop mitigation strategy
 resource: clearpoint://scorecard/77146/actionItem/182624
-timestamp: 2023-01-10T22:28:10.317Z
 cps:
   object: actionItem
   objectId: 182624
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   startDate: 2022-02-27
   endDate: 2023-07-08
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/actionItem-182624-status.json
   provenance:
     owner:
       name: Steve Smith
-      userId: 24973
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2023-01-10T22:28:10.317Z
 ---
 
@@ -33,16 +24,18 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Steve Smith
-- **Dates:** 2022-02-27 – 2023-07-08
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We need to hire an outside consultant to develop studies on how the winter weather patterns will affect our take off rates.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
+### Analysis
 
-## Linkages
+We need to hire an outside consultant to develop studies on how the winter weather patterns will affect our take off rates.
 
-### Measures
+## Measures
 
 - [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
 - [Total amount of time at gate](/scorecard-77146/measures/measure-423485.md)

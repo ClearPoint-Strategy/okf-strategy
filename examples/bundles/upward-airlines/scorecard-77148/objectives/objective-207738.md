@@ -2,27 +2,19 @@
 type: Objective
 title: Employee Satisfaction
 resource: clearpoint://scorecard/77148/objective/207738
-timestamp: 2016-07-27T22:04:42.607Z
 cps:
   object: objective
   objectId: 207738
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/objective-207738-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Ashley Caper
-      userId: 24975
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:04:42.607Z
 ---
 
@@ -30,29 +22,34 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Ashley Caper
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** Our employees are very satisfied, but we want to increase employee retention.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Continue to survey and monitor employee happiness and satisfaction.
+### Analysis
 
+Our employees are very satisfied, but we want to increase employee retention.
 
-## Linkages
+### Recommendations
 
-### Parents
+Continue to survey and monitor employee happiness and satisfaction.
 
-- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
-
-### Categories
+## Categories
 
 - [Learning and Growth](/scorecard-77148/categories/category-203622.md)
 
-### Measures
+## Parents
+
+- [High Employee Ownership](/scorecard-77146/objectives/objective-207723.md)
+
+## Measures
 
 - [% of highly satisified employees](/scorecard-77148/measures/measure-423515.md)
 - [% of employees who see themselves at Upward for 5+ years](/scorecard-77148/measures/measure-423516.md)
 
-### Initiatives
+## Initiatives
 
 - [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)

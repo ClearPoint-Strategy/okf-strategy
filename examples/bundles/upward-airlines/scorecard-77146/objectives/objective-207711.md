@@ -2,36 +2,27 @@
 type: Objective
 title: Comparable To Other Travel
 resource: clearpoint://scorecard/77146/objective/207711
-tags:
-  - perspective:financial
-timestamp: 2025-11-19T17:41:45.860Z
 cps:
   object: objective
   objectId: 207711
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/objective-207711-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-11-19T17:41:45.860Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** James Crockett
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -41,28 +32,42 @@ Customers have a number of airlines to choose from when they travel. We must del
 
 - **Balanced Scorecard:** financial
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** While our customer experience is trending down, we feel like it is because of the dramatic winter weather and not because of any action or lack thereof from within the company. We are still comparing well against other modes of transportation.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Watch this information closely to see if we can improve dramatically against our competition.
+### Analysis
 
+While our customer experience is trending down, we feel like it is because of the dramatic winter weather and not because of any action or lack thereof from within the company. We are still comparing well against other modes of transportation.
 
-## Linkages
+### Recommendations
 
-### Children
+Watch this information closely to see if we can improve dramatically against our competition.
+
+## Categories
+
+- [👥 Customer](/scorecard-77146/categories/category-203612.md)
+
+## Measures
+
+- [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)
+
+## Initiatives
+
+- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
+
+## Children
 
 - [New Technology](/scorecard-77147/objectives/objective-271188.md)
 - [Flight Attendant Customer Service](/scorecard-77149/objectives/objective-271189.md)
 
-### Categories
+## Child Measures
 
-- [👥 Customer](/scorecard-77146/categories/category-203612.md)
+- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
 
-### Measures
+## Child Initiatives
 
-- [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)
-
-### Initiatives
-
-- [Build a business class program](/scorecard-77146/initiatives/initiative-211892.md)
+- [New website design](/scorecard-77147/initiatives/initiative-211899.md)
+- [Purchase new TV Screens](/scorecard-77149/initiatives/initiative-211896.md)
+- [Implement wifi on all planes](/scorecard-77149/initiatives/initiative-211897.md)

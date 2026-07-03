@@ -2,29 +2,19 @@
 type: Objective
 title: Fun Experience
 resource: clearpoint://scorecard/77146/objective/207716
-tags:
-  - perspective:internal-processes
-timestamp: 2025-11-19T17:41:49.340Z
 cps:
   object: objective
   objectId: 207716
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
-    statusResource: /scorecard-77146/data/objective-207716-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-11-19T17:41:49.340Z
 ---
 
@@ -32,6 +22,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Mark Cutler
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -41,28 +32,42 @@ Not everyone likes to fly. In fact, flying is often seen as one of the more daun
 
 - **Balanced Scorecard:** internal_processes
 
-## Status — Dec-25 (Caution)
+## Status
 
-**Analysis.** Complaints have been lower than in the past but there are limited raving reviews for Upward Airlines.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-**Recommendations.** To increase raving reviews Upward Airlines should come up with new practices that make the overall flying experience more enjoyable.
+### Analysis
 
+Complaints have been lower than in the past but there are limited raving reviews for Upward Airlines.
 
-## Linkages
+### Recommendations
 
-### Children
+To increase raving reviews Upward Airlines should come up with new practices that make the overall flying experience more enjoyable.
+
+## Categories
+
+- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+
+## Measures
+
+- [# customer complaints per 1,000 tickets](/scorecard-77146/measures/measure-423488.md)
+
+## Risks
+
+- [In Flight Safety Incidents](/scorecard-77146/risks/risk-70552.md)
+
+## Children
 
 - [New Technology](/scorecard-77147/objectives/objective-271188.md)
 - [Flight Attendant Customer Service](/scorecard-77149/objectives/objective-271189.md)
 
-### Categories
+## Child Measures
 
-- [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
+- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
 
-### Measures
+## Child Initiatives
 
-- [# customer complaints per 1,000 tickets](/scorecard-77146/measures/measure-423488.md)
-
-### Risks
-
-- [In Flight Safety Incidents](/scorecard-77146/risks/risk-70552.md)
+- [New website design](/scorecard-77147/initiatives/initiative-211899.md)
+- [Purchase new TV Screens](/scorecard-77149/initiatives/initiative-211896.md)
+- [Implement wifi on all planes](/scorecard-77149/initiatives/initiative-211897.md)

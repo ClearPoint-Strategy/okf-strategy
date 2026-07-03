@@ -2,44 +2,31 @@
 type: Milestone
 title: Hire developers to scope prices
 resource: clearpoint://scorecard/77147/milestone/368067
-timestamp: 2025-02-26T15:30:45.213Z
 cps:
   object: milestone
   objectId: 368067
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   startDate: 2025-01-14
   endDate: 2025-03-05
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18581
-      status: No Information
   provenance:
     owner:
-      name: Izzy Moreno
-      userId: 24971
+      name: Izzy Moreno (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:30:45.213Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
-- **Owner:** Izzy Moreno
-- **Dates:** 2025-01-14 – 2025-03-05
+- **Owner:** Izzy Moreno (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** No Information

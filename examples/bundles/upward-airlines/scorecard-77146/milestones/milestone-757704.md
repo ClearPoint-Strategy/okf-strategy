@@ -2,40 +2,31 @@
 type: Milestone
 title: Look at different models
 resource: clearpoint://scorecard/77146/milestone/757704
-timestamp: 2025-02-26T15:26:19.960Z
 cps:
   object: milestone
   objectId: 757704
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   startDate: 2025-09-01
   endDate: 2025-10-22
-  completed: true
-  completedDate: 2025-09-01
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
     owner:
-      name: Izzy Moreno
-      userId: 24971
+      name: Izzy Moreno (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:26:19.960Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** Izzy Moreno
-- **Dates:** 2025-09-01 – 2025-10-22 (completed)
+- **Owner:** Izzy Moreno (Sales)
+- **Reporting frequency:** Default
 
-## Linkages
+## Status
 
-### Parent Initiative
-
-- [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
+- **Period:** Sep-25 (2025-09-30)
+- **Status:** Not Defined

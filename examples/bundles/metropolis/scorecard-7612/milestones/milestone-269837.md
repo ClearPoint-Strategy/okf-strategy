@@ -2,42 +2,31 @@
 type: Milestone
 title: Research safety events in other jurisdictions
 resource: clearpoint://scorecard/7612/milestone/269837
-timestamp: 2023-01-11T13:15:50.277Z
 cps:
   object: milestone
   objectId: 269837
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Default
   startDate: 2022-03-27
   endDate: 2022-05-14
-  completed: true
-  completedDate: 2020-01-30
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
-      name: Ron Troupe
-      userId: 8800
+      name: Ron Troupe (Director of Public Safety)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-11T13:15:50.277Z
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Owner:** Ron Troupe
-- **Dates:** 2022-03-27 – 2022-05-14 (completed)
+- **Owner:** Ron Troupe (Director of Public Safety)
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (On Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Identify and hold additional safety events](/scorecard-7612/initiatives/initiative-159313.md)
+- **Period:** Jun-20 (2020-06-30)
+- **Status:** On Target

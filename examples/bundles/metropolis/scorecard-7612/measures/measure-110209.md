@@ -2,80 +2,60 @@
 type: Measure
 title: Expenses
 resource: clearpoint://scorecard/7612/measure/110209
-timestamp: 2020-12-30T21:50:06.297Z
 cps:
   object: measure
   objectId: 110209
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Monthly
   provenance:
     owner:
       name: John Smith
-      userId: 8500
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2020-12-30T21:50:06.297Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Variance
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: "% of Target"
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7612/data/measure-110209-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** John Smith
-- **Reporting Frequency:** Monthly
+- **Reporting frequency:** Monthly
 
-**Actual** — 2855 (Dec-22) · trend [3001, 3472, 2800, 2860, 3212, 2855]
+## Status
 
-## Status — Dec-22 (On Target)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
+### Analysis
 
-## Linkages
+We have really managed our budget well thanks to a great financial office team.
 
-### Parents
+### Recommendations
+
+Watch this information closely to see if we can continue to cut costs.
+
+## Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-### Children
+## Objectives
+
+- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
+
+## Initiatives
+
+- [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)
+- [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)
+
+## Children
 
 - [Expenses](/scorecard-7631/measures/measure-110220.md)
 - [Costs](/scorecard-7805/measures/measure-111268.md)
 - [Expenses](/scorecard-7807/measures/measure-111292.md)
 
-### Objectives
+## Measure Initiatives
 
-- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
-
-### Initiatives
-
-- [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)
-- [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)
+- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

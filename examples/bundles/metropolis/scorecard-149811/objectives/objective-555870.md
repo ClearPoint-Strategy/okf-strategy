@@ -2,24 +2,19 @@
 type: Objective
 title: Satisfied Customers
 resource: clearpoint://scorecard/149811/objective/555870
-timestamp: 2023-03-23T17:38:32.177Z
 cps:
   object: objective
   objectId: 555870
   scorecardId: 149811
   scorecard: Parks and Recreation
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/149811
+  periodicity: Default
   provenance:
     owner:
       name: Steve Lombard
-      userId: 8772
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:32.177Z
 ---
 
@@ -27,30 +22,49 @@ cps:
 
 - **Scorecard:** Parks and Recreation
 - **Owner:** Steve Lombard
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Parents
+The airport receives high marks from our customers about their satisfaction using the airport.
 
-- [Safe & Prepared Community](/scorecard-149810/objectives/objective-555865.md)
+### Recommendations
 
-### Children
+We want to make sure we do not become complacent and continue to provide a superior experience for our customers.
 
-- [Active & Engaged Community](/scorecard-149810/objectives/objective-555860.md)
-
-### Categories
+## Categories
 
 - [Citizens](/scorecard-149811/categories/category-309683.md)
 
-### Measures
+## Parents
+
+- [Safe & Prepared Community](/scorecard-149810/objectives/objective-555865.md)
+
+## Measures
 
 - [Percent of citizens feeling safe at the airport](/scorecard-149811/measures/measure-1426515.md)
 - [Percent of customers rating the airport a 4 or 5](/scorecard-149811/measures/measure-1426507.md)
 
-### Initiatives
+## Initiatives
 
 - [Identify and solicit additional public aviation events](/scorecard-149811/initiatives/initiative-523412.md)
 - [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)
+
+## Children
+
+- [Active & Engaged Community](/scorecard-149810/objectives/objective-555860.md)
+
+## Child Measures
+
+- [Percent of recognized neighborhood associations that meet at least quarterly](/scorecard-149810/measures/measure-1426479.md)
+- [Percent of eligible voters who voted in the last city election](/scorecard-149810/measures/measure-1426480.md)
+
+## Child Initiatives
+
+- [Identify and solicit additional public aviation events](/scorecard-149811/initiatives/initiative-523412.md)
+- [City Restaurant Audits](/scorecard-149810/initiatives/initiative-523407.md)

@@ -3,30 +3,22 @@ type: Initiative
 title: Update master plans (Milestone Roll Up)
 resource: clearpoint://scorecard/149810/initiative/523409
 tags:
-  - theme:initiative-template-1
-timestamp: 2023-03-23T17:38:28.190Z
+- "Initiative Template #1"
 cps:
   object: initiative
   objectId: 523409
   scorecardId: 149810
   scorecard: Metropolis City Scorecard (Demo Rewrite)
+  access:
+    derivedFrom: clearpoint://scorecard/149810
+  periodicity: Monthly
   startDate: 2021-08-29
   endDate: 2023-04-23
-  completed: false
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Steve Lombard
-      userId: 8772
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:28.190Z
 ---
 
@@ -34,8 +26,7 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
 - **Owner:** Steve Lombard
-- **Reporting Frequency:** Monthly
-- **Dates:** 2021-08-29 – 2023-04-23
+- **Reporting frequency:** Monthly
 - **Tags:** Initiative Template #1
 
 ## Description
@@ -44,33 +35,48 @@ As seen in the data table below, this Initiative is tracking related quantitativ
 
 ## Details
 
-- **Budget:** $15,000
+- **Level of Effort:** Medium
+- **Level of Impact:** Medium
 - **Initiative Percent Complete:** {[m740423][@3495813]}
-- **Level of Effort:**  Medium
-- **Level of Impact:**  Medium
-- **Priority:**  Medium
+- **Budget:** $15,000
+- **Priority:** Medium
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Children
+We noticed that the current master plans needed updating. We are on target to successfully complete this based on the established timeline.
 
-- [Update Airport Master Plan](/scorecard-149811/initiatives/initiative-523413.md)
-- [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)
+### Recommendations
 
-### Objectives
+We will continue to update the master plans for all departments to meet the needs of the community.
+
+## Objectives
 
 - [Financial Health & Economic Vitality (Auto Eval)](/scorecard-149810/objectives/objective-555858.md)
 
-### Milestones
+## Milestones
 
 - [Market analysis](/scorecard-149810/milestones/milestone-974570.md)
 - [Build a planning committee](/scorecard-149810/milestones/milestone-974571.md)
 - [Finalize the plan and formal implementation report](/scorecard-149810/milestones/milestone-974572.md)
 
-### Action Items
+## Action Items
 
 - [Get the dashboards up by end of year](/scorecard-149810/action-items/actionItem-356089.md)
 - [Set up meeting to discuss location of safety events](/scorecard-149810/action-items/actionItem-356092.md)
+
+## Children
+
+- [Update Airport Master Plan](/scorecard-149811/initiatives/initiative-523413.md)
+- [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)
+- [Update Fire Department Master Plan and Layout Plan](/scorecard-149813/initiatives/initiative-523423.md)
+
+## Initiative Measures
+
+- [Revenue](/scorecard-149810/measures/measure-1426483.md)
+- [Expenses](/scorecard-149810/measures/measure-1426484.md)
+- [Budget Surplus](/scorecard-149810/measures/measure-1426482.md)

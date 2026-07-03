@@ -2,27 +2,19 @@
 type: Objective
 title: Flight Attendant Customer Service
 resource: clearpoint://scorecard/77149/objective/271189
-timestamp: 2020-02-21T15:26:45.487Z
 cps:
   object: objective
   objectId: 271189
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77149/data/objective-271189-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2020-02-21T15:26:45.487Z
 ---
 
@@ -30,33 +22,38 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Donald Duff
+- **Reporting frequency:** Default
 
 ## Description
 
 Flight Attendant Customer Service
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** Our customer service has been excellent, and we have been rewarded by multiple rating agencies.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Let's make sure we continue to monitor this so we do not relapse on the gains we have made.
+### Analysis
 
+Our customer service has been excellent, and we have been rewarded by multiple rating agencies.
 
-## Linkages
+### Recommendations
 
-### Parents
+Let's make sure we continue to monitor this so we do not relapse on the gains we have made.
+
+## Categories
+
+- [Internal](/scorecard-77149/categories/category-203625.md)
+
+## Parents
 
 - [Comparable To Other Travel](/scorecard-77146/objectives/objective-207711.md)
 - [Fun Experience](/scorecard-77146/objectives/objective-207716.md)
 
-### Categories
-
-- [Internal](/scorecard-77149/categories/category-203625.md)
-
-### Measures
+## Measures
 
 - [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
 
-### Initiatives
+## Initiatives
 
 - [Implement wifi on all planes](/scorecard-77149/initiatives/initiative-211897.md)

@@ -2,64 +2,41 @@
 type: Measure
 title: "% of tickets with direct routes"
 resource: clearpoint://scorecard/77149/measure/423526
-timestamp: 2024-06-05T21:49:22.120Z
 cps:
   object: measure
   objectId: 423526
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77149/data/measure-423526-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Monthly
   provenance:
     owner:
-      name: Trudy Joplin
-      userId: 24968
+      name: Trudy Joplin (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2024-06-05T21:49:22.120Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77149/data/measure-423526-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** Trudy Joplin
-- **Reporting Frequency:** Monthly
+- **Owner:** Trudy Joplin (Sales)
+- **Reporting frequency:** Monthly
 
-**Actual** — 53 (Dec-25) · trend [55, 59, 51, 56, 54, 53]
+## Status
 
-## Status — Dec-25 (Below Plan)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Analysis.** Since raising the target, we have hit our objective each month.
+### Analysis
 
-**Recommendations.** Let's increase the target for next quarter.
+Since raising the target, we have hit our objective each month.
 
+### Recommendations
 
-**Status history.** Nov-25: Below Plan · Oct-25: Caution · Sep-25: Below Plan
+Let's increase the target for next quarter.
 
-## Linkages
-
-### Objectives
+## Objectives
 
 - [Direct Routes](/scorecard-77149/objectives/objective-207746.md)

@@ -2,29 +2,21 @@
 type: Milestone
 title: Email reminder setup
 resource: clearpoint://scorecard/7612/milestone/53462
-timestamp: 2023-01-11T13:15:12.730Z
 cps:
   object: milestone
   objectId: 53462
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Monthly
   startDate: 2021-12-25
   endDate: 2022-07-17
-  completed: false
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Ted Jackson
-      userId: 8436
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-11T13:15:12.730Z
 ---
 
@@ -32,14 +24,9 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard
 - **Owner:** Ted Jackson
-- **Reporting Frequency:** Monthly
-- **Dates:** 2021-12-25 – 2022-07-17
+- **Reporting frequency:** Monthly
 
-## Status — Dec-22 (Below Plan)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Website Upgrade (Data & Charts)](/scorecard-7612/initiatives/initiative-43640.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan

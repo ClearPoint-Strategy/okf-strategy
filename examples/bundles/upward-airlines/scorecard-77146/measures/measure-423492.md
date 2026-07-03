@@ -2,64 +2,45 @@
 type: Measure
 title: "% utilization"
 resource: clearpoint://scorecard/77146/measure/423492
-timestamp: 2017-10-10T15:10:59.450Z
 cps:
   object: measure
   objectId: 423492
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/measure-423492-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-10T15:10:59.450Z
-  measure:
-    series:
-      - name: Utilization Percentage
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77146/data/measure-423492-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** James Crockett
-- **Reporting Frequency:** Quarterly
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Quarterly
 
-**Utilization Percentage** — 40 (Dec-25) · trend [39, 41, 39, 30, 42, 40]
+## Status
 
-## Status — Dec-25 (Above Target)
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Analysis.** We saw high utilization this month; let's keep it up.
+### Analysis
 
-**Recommendations.** Meet with the committee to discuss next steps.
+We saw high utilization this month; let's keep it up.
 
+### Recommendations
 
-**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+Meet with the committee to discuss next steps.
 
-## Linkages
-
-### Objectives
+## Objectives
 
 - [High Utilization](/scorecard-77146/objectives/objective-207720.md)
+
+## Measure Initiatives
+
+- [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)

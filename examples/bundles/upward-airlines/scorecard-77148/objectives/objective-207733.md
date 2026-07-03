@@ -2,27 +2,19 @@
 type: Objective
 title: Profitability
 resource: clearpoint://scorecard/77148/objective/207733
-timestamp: 2021-01-26T01:38:29.183Z
 cps:
   object: objective
   objectId: 207733
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/objective-207733-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2021-01-26T01:38:29.183Z
 ---
 
@@ -30,35 +22,40 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Mark Cutler
+- **Reporting frequency:** Default
 
 ## Description
 
 This important measure lets us know how well we are doing financially.
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** Our division is profitable and contributing to the value of the company for shareholders.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** This region needs to continue with cutting costs and generating revenue.
+### Analysis
 
+Our division is profitable and contributing to the value of the company for shareholders.
 
-## Linkages
+### Recommendations
 
-### Parents
+This region needs to continue with cutting costs and generating revenue.
 
-- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
-
-### Categories
+## Categories
 
 - [Financial](/scorecard-77148/categories/category-203619.md)
 
-### Measures
+## Parents
+
+- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
+
+## Measures
 
 - [Revenue](/scorecard-77148/measures/measure-423520.md)
 - [Expenses](/scorecard-77148/measures/measure-423521.md)
 - [Net Profit](/scorecard-77148/measures/measure-423518.md)
 - [# of A-list priority customers](/scorecard-77148/measures/measure-542406.md)
 
-### Initiatives
+## Initiatives
 
 - [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

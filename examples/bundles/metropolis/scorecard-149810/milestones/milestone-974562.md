@@ -2,41 +2,31 @@
 type: Milestone
 title: Share audit results with top level management
 resource: clearpoint://scorecard/149810/milestone/974562
-timestamp: 2023-03-23T17:38:28.227Z
 cps:
   object: milestone
   objectId: 974562
   scorecardId: 149810
   scorecard: Metropolis City Scorecard (Demo Rewrite)
+  access:
+    derivedFrom: clearpoint://scorecard/149810
+  periodicity: Default
   startDate: 2022-08-06
   endDate: 2022-10-10
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
-      name: Ron Troupe
-      userId: 8800
+      name: Ron Troupe (Director of Public Safety)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:28.227Z
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
-- **Owner:** Ron Troupe
-- **Dates:** 2022-08-06 – 2022-10-10
+- **Owner:** Ron Troupe (Director of Public Safety)
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [City Restaurant Audits](/scorecard-149810/initiatives/initiative-523407.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** No Information

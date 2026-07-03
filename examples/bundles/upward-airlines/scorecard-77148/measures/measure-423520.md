@@ -2,76 +2,49 @@
 type: Measure
 title: Revenue
 resource: clearpoint://scorecard/77148/measure/423520
-timestamp: 2017-10-06T20:00:10.697Z
 cps:
   object: measure
   objectId: 423520
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-    statusResource: /scorecard-77148/data/measure-423520-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Monthly
   provenance:
     owner:
       name: Ashley Caper
-      userId: 24975
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-06T20:00:10.697Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Variance
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Actual as % of Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77148/data/measure-423520-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Ashley Caper
-- **Reporting Frequency:** Monthly
+- **Reporting frequency:** Monthly
 
-**Actual** — 3000 (Nov-25) · trend [8000, 7000, 6000, 5000, 4000, 3000]
+## Status
 
-## Status — Dec-25 (—)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Not Defined
 
-**Analysis.** Tickets are selling at a rapid pace this month, boosting revenue for the Central region.
+### Analysis
 
-**Recommendations.** We need to continue on our current course.
+Tickets are selling at a rapid pace this month, boosting revenue for the Central region.
 
+### Recommendations
 
-**Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Above Target
+We need to continue on our current course.
 
-## Linkages
-
-### Parents
+## Parents
 
 - [Revenue](/scorecard-77146/measures/measure-423496.md)
 
-### Objectives
+## Objectives
 
 - [Profitability](/scorecard-77148/objectives/objective-207733.md)
+
+## Measure Initiatives
+
+- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

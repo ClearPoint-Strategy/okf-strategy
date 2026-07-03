@@ -2,72 +2,53 @@
 type: Measure
 title: "% of population served within 25 miles"
 resource: clearpoint://scorecard/77147/measure/423506
-timestamp: 2017-10-16T15:28:19.670Z
 cps:
   object: measure
   objectId: 423506
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77147/data/measure-423506-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Quarterly
   provenance:
     owner:
-      name: Trudy Joplin
-      userId: 24968
+      name: Trudy Joplin (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-16T15:28:19.670Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77147/data/measure-423506-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
-- **Owner:** Trudy Joplin
-- **Reporting Frequency:** Quarterly
-
-**Actual** — 74 (Dec-25) · trend [72, 71, 69, 72, 73, 74]
+- **Owner:** Trudy Joplin (Sales)
+- **Reporting frequency:** Quarterly
 
 ## Description
 
 We will use this measure to help inform our expansion plans.
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** As the population grows more people fly with us, so we feel really great about our progress.
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Continue to sell reasonably priced tickets and offer a great in-flight experience.
+### Analysis
 
+As the population grows more people fly with us, so we feel really great about our progress.
 
-**Status history.** Q3-25: Above Target · Q3-25: Above Target · Q3-25: Above Target
+### Recommendations
 
-## Linkages
+Continue to sell reasonably priced tickets and offer a great in-flight experience.
 
-### Parents
+## Parents
 
 - [% of population served within 25 miles](/scorecard-77146/measures/measure-423486.md)
 
-### Objectives
+## Objectives
 
 - [Good Locations](/scorecard-77147/objectives/objective-207730.md)
+
+## Measure Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

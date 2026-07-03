@@ -3,65 +3,33 @@ type: Milestone
 title: Build a planning committee
 resource: clearpoint://scorecard/7612/milestone/270085
 tags:
-  - theme:milestone-template-1
-timestamp: 2023-01-11T13:14:49.337Z
+- "Milestone Template #1"
 cps:
   object: milestone
   objectId: 270085
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Monthly
   startDate: 2021-12-26
   endDate: 2022-08-16
-  completed: false
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
-      name: Ron Troupe
-      userId: 8800
+      name: Ron Troupe (Director of Public Safety)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-01-11T13:14:49.337Z
-  measure:
-    series:
-      - name: Budget
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Elapsed Days
-        seriesDataTypeId: 5
-        numberFormat:
-          precision: 2
-      - name: Milestone Percent Complete
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7612/data/milestone-270085-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Owner:** Ron Troupe
-- **Reporting Frequency:** Monthly
-- **Dates:** 2021-12-26 – 2022-08-16
+- **Owner:** Ron Troupe (Director of Public Safety)
+- **Reporting frequency:** Monthly
 - **Tags:** Milestone Template #1
 
-**Budget** — 5000 (Jun-22) · trend [5000, 5000, 5000, 5000, 5000, 5000]
+## Status
 
-## Status — Dec-22 (Caution)
-
-
-## Linkages
-
-### Parent Initiative
-
-- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Caution

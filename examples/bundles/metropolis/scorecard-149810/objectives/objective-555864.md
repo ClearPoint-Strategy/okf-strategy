@@ -2,24 +2,19 @@
 type: Objective
 title: Strong Local Economy
 resource: clearpoint://scorecard/149810/objective/555864
-timestamp: 2023-03-23T17:38:27.660Z
 cps:
   object: objective
   objectId: 555864
   scorecardId: 149810
   scorecard: Metropolis City Scorecard (Demo Rewrite)
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/149810
+  periodicity: Default
   provenance:
     owner:
       name: ClearPoint Support
-      userId: 8435
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:27.660Z
 ---
 
@@ -27,20 +22,29 @@ cps:
 
 - **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
 - **Owner:** ClearPoint Support
+- **Reporting frequency:** Default
 
 ## Description
 
 We want to ensure our economy is thriving, and we can look towards the long term businesses in the area as well as new businesses. Our city should be known as an innovator and entrepreneurial friendly space.
 
-## Status — Dec-22 (Below Plan)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan
 
-## Linkages
+### Analysis
 
-### Categories
+The number of new local businesses in Metropolis has been increasing at a steady rate. We could do more to promote these businesses and incorporate them into our processes via contracts.
+
+### Recommendations
+
+Over the next few months we could consider partnering with businesses on some sort of &quot;buy local&quot; initiative, offering either memberships, discounts, or rewards to Metropolis citizens for supporting these businesses.
+
+## Categories
 
 - [Finance](/scorecard-149810/categories/category-309680.md)
 
-### Measures
+## Measures
 
 - [Contract bids awarded to local businesses](/scorecard-149810/measures/measure-1426490.md)

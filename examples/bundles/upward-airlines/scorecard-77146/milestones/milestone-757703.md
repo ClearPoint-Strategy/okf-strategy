@@ -2,36 +2,31 @@
 type: Milestone
 title: Connect with Manufacturer
 resource: clearpoint://scorecard/77146/milestone/757703
-timestamp: 2025-02-26T15:26:19.973Z
 cps:
   object: milestone
   objectId: 757703
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   startDate: 2025-10-21
   endDate: 2025-12-12
-  completed: true
-  completedDate: 2025-11-03
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
-    lastEditedBy:
+    owner:
       name: Clarice Strong
-      userId: 24944
+    lastEditedBy:
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:26:19.973Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Dates:** 2025-10-21 – 2025-12-12 (completed)
+- **Owner:** Clarice Strong
+- **Reporting frequency:** Default
 
-## Linkages
+## Status
 
-### Parent Initiative
-
-- [Purchase 5 new planes](/scorecard-77146/initiatives/initiative-211889.md)
+- **Period:** Nov-25 (2025-11-30)
+- **Status:** Not Defined

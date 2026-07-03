@@ -2,50 +2,66 @@
 type: Objective
 title: Well-Maintained Infrastructure
 resource: clearpoint://scorecard/149810/objective/555863
-timestamp: 2023-03-23T17:38:27.660Z
 cps:
   object: objective
   objectId: 555863
   scorecardId: 149810
   scorecard: Metropolis City Scorecard (Demo Rewrite)
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/149810
+  periodicity: Default
   provenance:
     owner:
-      name: Rhonda Fields
-      userId: 8501
+      name: Rhonda Fields (Assistant City Manager)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:27.660Z
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard (Demo Rewrite)
-- **Owner:** Rhonda Fields
+- **Owner:** Rhonda Fields (Assistant City Manager)
+- **Reporting frequency:** Default
 
 ## Description
 
 As the number of businesses in the city and the overall population grows, the infrastructure of our community has become a major priority; transportation should be easy for our citizens and our buildings need to be safe.
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Children
+We have improved routine checks to detect and prevent more potential hazards than we have in the past.
 
-- [Well-maintained airfield](/scorecard-149811/objectives/objective-555869.md)
-- [Safe & Prepared Community](/scorecard-149812/objectives/objective-555876.md)
+### Recommendations
 
-### Categories
+We should continue our efforts to improve our response time to infrastructure-related complaints.
+
+## Categories
 
 - [Operations](/scorecard-149810/categories/category-309681.md)
 
-### Measures
+## Measures
 
 - [Potential hazards prevented through routine checks and maintenance](/scorecard-149810/measures/measure-1426489.md)
+
+## Children
+
+- [Well-maintained airfield](/scorecard-149811/objectives/objective-555869.md)
+- [Safe & Prepared Community](/scorecard-149812/objectives/objective-555876.md)
+- [Transportation & Mobility](/scorecard-149813/objectives/objective-555886.md)
+
+## Child Measures
+
+- [Runway and taxiway pavement condition indicator (PCI) score](/scorecard-149811/measures/measure-1426506.md)
+- [Percent of citizens who feel "extremely safe" from crime](/scorecard-149812/measures/measure-1426526.md)
+
+## Child Initiatives
+
+- [Establish Temporary Air Traffic Control Tower during runway rehab](/scorecard-149811/initiatives/initiative-523414.md)
+- [Identify and hold additional public safety events](/scorecard-149812/initiatives/initiative-523416.md)
+- [Update Police Department Master Plan and Layout Plan](/scorecard-149812/initiatives/initiative-523417.md)

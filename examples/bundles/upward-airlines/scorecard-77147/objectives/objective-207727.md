@@ -2,27 +2,19 @@
 type: Objective
 title: Direct Routes
 resource: clearpoint://scorecard/77147/objective/207727
-timestamp: 2021-11-12T18:41:00.617Z
 cps:
   object: objective
   objectId: 207727
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77147/data/objective-207727-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   provenance:
     owner:
       name: Janice Jones
-      userId: 24967
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2021-11-12T18:41:00.617Z
 ---
 
@@ -30,30 +22,41 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Janice Jones
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We have established relationships with some cities already, and are continuing to fly to as many new places directly as possible.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Continue speaking to airport officials about setting up gates specifically for us.
+### Analysis
 
+We have established relationships with some cities already, and are continuing to fly to as many new places directly as possible.
 
-**Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Above Target
+### Recommendations
 
-## Linkages
+Continue speaking to airport officials about setting up gates specifically for us.
 
-### Parents
-
-- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
-
-### Children
-
-- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
-
-### Categories
+## Categories
 
 - [Internal](/scorecard-77147/categories/category-203617.md)
 
-### Measures
+## Parents
+
+- [Direct Routes](/scorecard-77146/objectives/objective-207715.md)
+
+## Measures
 
 - [% of tickets with direct routes](/scorecard-77147/measures/measure-423501.md)
+
+## Children
+
+- [Shuttle Flights to Major Cities](/scorecard-77147/objectives/objective-207732.md)
+
+## Child Measures
+
+- [Major cities with direct flights 3+ times per day](/scorecard-77147/measures/measure-423510.md)
+
+## Child Initiatives
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)

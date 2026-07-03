@@ -2,39 +2,29 @@
 type: Initiative
 title: Purchase new TV Screens
 resource: clearpoint://scorecard/77149/initiative/211896
-timestamp: 2025-03-10T22:25:56.977Z
 cps:
   object: initiative
   objectId: 211896
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   startDate: 2025-02-20
   endDate: 2025-04-13
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77149/data/initiative-211896-status.json
   provenance:
     owner:
-      name: Trudy Joplin
-      userId: 24968
+      name: Trudy Joplin (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T22:25:56.977Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** Trudy Joplin
-- **Dates:** 2025-02-20 – 2025-04-13
+- **Owner:** Trudy Joplin (Sales)
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -44,21 +34,23 @@ Our TV screens are old and deteriorating so it is time for an upgrade.
 
 - **Budget:** $10,000
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We should take advantage of sales and bulk pricing to buy the best TVs possible.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** We should calculate the amount of money needed to purchase TVs during popular sales times such as Christmas and compare that two special bulk pricing we can receive or negotiate with electronics stores or manufacturers directly. We will buy when and where based on what we find.
+### Analysis
 
+We should take advantage of sales and bulk pricing to buy the best TVs possible.
 
-**Status history.** Sep-25: Above Target
+### Recommendations
 
-## Linkages
+We should calculate the amount of money needed to purchase TVs during popular sales times such as Christmas and compare that two special bulk pricing we can receive or negotiate with electronics stores or manufacturers directly. We will buy when and where based on what we find.
 
-### Parents
+## Parents
 
 - [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
 
-### Objectives
+## Objectives
 
 - [New Technology](/scorecard-77147/objectives/objective-271188.md)

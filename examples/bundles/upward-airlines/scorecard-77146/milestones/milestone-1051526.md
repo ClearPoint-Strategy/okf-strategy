@@ -2,30 +2,21 @@
 type: Milestone
 title: Evaluate Current Streams
 resource: clearpoint://scorecard/77146/milestone/1051526
-timestamp: 2025-03-13T17:55:06.790Z
 cps:
   object: milestone
   objectId: 1051526
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   startDate: 2025-07-01
   endDate: 2025-10-31
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-13T17:55:06.790Z
 ---
 
@@ -33,17 +24,13 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Mark Cutler
-- **Dates:** 2025-07-01 – 2025-10-31
+- **Reporting frequency:** Default
 
 ## Details
 
 - **Milestone Review:** completed
 
-## Status — Dec-25 (Above Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target

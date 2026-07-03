@@ -2,32 +2,21 @@
 type: Initiative
 title: Find new food service provider
 resource: clearpoint://scorecard/77146/initiative/163371
-timestamp: 2025-07-15T11:49:32.743Z
 cps:
   object: initiative
   objectId: 163371
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2024-10-09
   endDate: 2025-07-16
-  completed: false
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/initiative-163371-status.json
   provenance:
     owner:
       name: Greg Garcia
-      userId: 24966
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-07-15T11:49:32.743Z
 ---
 
@@ -35,8 +24,7 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Greg Garcia
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2024-10-09 – 2025-07-16
+- **Reporting frequency:** Quarterly
 
 ## Description
 
@@ -44,37 +32,37 @@ Our biggest customer complaint is the quality of our food. Our current food serv
 
 ## Details
 
+- **Budget:** 13500
+- **Initiative Review:** rejected
 - **Budget:** $13,500
+- **Requester:** Mark Cutler
+- **Project Request Status:** Denied
+- **Priority:** 3. High
 - **Level of Effort:** 3. High
 - **Level of Impact:** 2. Medium
-- **Priority:** 3. High
-- **Project Request Status:**  Denied
-- **Requester:** Mark Cutler
-- **Budget:** 13500.0000
-- **Initiative Review:** rejected
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** To find new food providers in our service hubs, we must first release on RFP. The RFP is drafted and ready to be sent out.
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Those who submit an RFP must be measured against high quality standards and expectations.
+### Analysis
 
+To find new food providers in our service hubs, we must first release on RFP. The RFP is drafted and ready to be sent out.
 
-## Linkages
+### Recommendations
 
-### Children
+Those who submit an RFP must be measured against high quality standards and expectations.
 
-- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
-
-### Objectives
+## Objectives
 
 - [No Frills](/scorecard-77146/objectives/objective-207718.md)
 
-### Measures
+## Measures
 
 - [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)
 
-### Milestones
+## Milestones
 
 - [Proposal Period](/scorecard-77146/milestones/milestone-281263.md)
 - [Analyze final round proposals](/scorecard-77146/milestones/milestone-281261.md)
@@ -83,6 +71,14 @@ Our biggest customer complaint is the quality of our food. Our current food serv
 - [Downselect to 3 Potential Vendors](/scorecard-77146/milestones/milestone-281260.md)
 - [Choose new vendor](/scorecard-77146/milestones/milestone-281262.md)
 
-### Action Items
+## Action Items
 
 - [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)
+
+## Children
+
+- [Expand to serve two new locations](/scorecard-77147/initiatives/initiative-163375.md)
+
+## Initiative Measures
+
+- [Internal cost per flight (Department aggregate/MM)](/scorecard-77146/measures/measure-423490.md)

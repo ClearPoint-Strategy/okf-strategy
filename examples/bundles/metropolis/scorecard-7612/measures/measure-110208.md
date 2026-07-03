@@ -2,84 +2,67 @@
 type: Measure
 title: Revenue
 resource: clearpoint://scorecard/7612/measure/110208
-timestamp: 2022-12-22T16:24:53.717Z
 cps:
   object: measure
   objectId: 110208
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Monthly
   provenance:
     owner:
-      name: Lance Cummins
-      userId: 22923
+      name: Lance Cummins (Police Chief)
     collaborators:
-      - Lance Cummins
-      - Ron Troupe
-      - Catherine Yochum
+    - Lance Cummins (Police Chief)
+    - Ron Troupe (Director of Public Safety)
+    - Catherine Yochum
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2022-12-22T16:24:53.717Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Variance
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: "% of Target"
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7612/data/measure-110208-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Owner:** Lance Cummins
-- **Collaborators:** Lance Cummins, Ron Troupe, Catherine Yochum
-- **Reporting Frequency:** Monthly
+- **Owner:** Lance Cummins (Police Chief)
+- **Reporting frequency:** Monthly
 
-**Actual** — 2980 (Dec-22) · trend [2999, 3012, 3048, 3056, 3090, 2980]
+## Details
 
-## Status — Dec-22 (Below Plan)
+- **Complete?:** 0
 
+## Status
 
-## Linkages
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan
 
-### Parents
+### Analysis
+
+Our revenue is still exceeding our expenses, however it is not where we want it to be.
+
+### Recommendations
+
+May have to increase tax dollars to generate more revenue.
+
+## Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-### Children
+## Objectives
+
+- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
+
+## Initiatives
+
+- [Create new revenue streams](/scorecard-7612/initiatives/initiative-343366.md)
+
+## Children
 
 - [Revenue](/scorecard-7631/measures/measure-110219.md)
 - [Income Generated](/scorecard-7805/measures/measure-111267.md)
 - [Revenue](/scorecard-7807/measures/measure-111291.md)
 
-### Objectives
+## Measure Initiatives
 
-- [Financial Health & Economic Vitality](/scorecard-7612/objectives/objective-53689.md)
-
-### Initiatives
-
-- [Create new revenue streams](/scorecard-7612/initiatives/initiative-343366.md)
+- [Update master plans (Milestone Roll Up)](/scorecard-7612/initiatives/initiative-159340.md)

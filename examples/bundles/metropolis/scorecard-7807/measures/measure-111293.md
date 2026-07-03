@@ -2,64 +2,49 @@
 type: Measure
 title: Budget Surplus/Deficit
 resource: clearpoint://scorecard/7807/measure/111293
-timestamp: 2020-12-14T22:27:14.603Z
 cps:
   object: measure
   objectId: 111293
   scorecardId: 7807
   scorecard: Fire Department
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7807
+  periodicity: Monthly
   provenance:
     owner:
-      name: Rhonda Fields
-      userId: 8501
+      name: Rhonda Fields (Assistant City Manager)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2020-12-14T22:27:14.603Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Trend
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7807/data/measure-111293-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Fire Department
-- **Owner:** Rhonda Fields
-- **Reporting Frequency:** Monthly
+- **Owner:** Rhonda Fields (Assistant City Manager)
+- **Reporting frequency:** Monthly
 
-**Actual** — 8.05 (Dec-22) · trend [6.32, 4.47, 2.13, 4.7, 6.83, 8.05]
+## Status
 
-## Status — Dec-22 (Caution)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Caution
 
+### Analysis
 
-## Linkages
+Our budget surplus is struggling due to our declining revenue
 
-### Parents
+### Recommendations
+
+Focus on getting revenue up.
+
+## Parents
 
 - [Budget Surplus](/scorecard-7612/measures/measure-110207.md)
 
-### Objectives
+## Objectives
 
 - [Financial Health](/scorecard-7807/objectives/objective-54703.md)
+
+## Measure Initiatives
+
+- [Propose new budget](/scorecard-7807/initiatives/initiative-215317.md)

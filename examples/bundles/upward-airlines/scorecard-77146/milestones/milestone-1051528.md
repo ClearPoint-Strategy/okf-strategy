@@ -2,30 +2,21 @@
 type: Milestone
 title: Monitor and Improve
 resource: clearpoint://scorecard/77146/milestone/1051528
-timestamp: 2025-04-29T19:51:10.907Z
 cps:
   object: milestone
   objectId: 1051528
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   startDate: 2026-03-01
   endDate: 2026-05-01
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
   provenance:
     owner:
       name: Catherine Mendoza
-      userId: 24972
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-04-29T19:51:10.907Z
 ---
 
@@ -33,19 +24,13 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Catherine Mendoza
-- **Dates:** 2026-03-01 – 2026-05-01
+- **Reporting frequency:** Default
 
 ## Details
 
 - **Milestone Review:** at_risk
 
-## Status — Dec-25 (Caution)
+## Status
 
-
-**Status history.** Sep-25: Caution
-
-## Linkages
-
-### Parent Initiative
-
-- [Create New Revenue Streams](/scorecard-77146/initiatives/initiative-579990.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution

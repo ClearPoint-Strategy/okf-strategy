@@ -2,59 +2,50 @@
 type: Measure
 title: Percent of citizens who feel "extremely safe" from crime
 resource: clearpoint://scorecard/7805/measure/111265
-timestamp: 2018-01-13T15:20:45.307Z
 cps:
   object: measure
   objectId: 111265
   scorecardId: 7805
   scorecard: Police Department
-  status:
-    periodicity: Annual
-    periodGroupId: 2495
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7805
+  periodicity: Annual
   provenance:
     owner:
       name: John Smith
-      userId: 8500
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2018-01-13T15:20:45.307Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7805/data/measure-111265-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Police Department
 - **Owner:** John Smith
-- **Reporting Frequency:** Annual
+- **Reporting frequency:** Annual
 
-**Actual** — 80 (Dec-22) · trend [85, 80, 75, 80]
+## Status
 
-## Status — Dec-22 (On Target)
+- **Period:** 2022 (2022-12-31)
+- **Status:** On Target
 
+### Analysis
 
-## Linkages
+We are doing well but this metric is inconsistent.
 
-### Parents
+### Recommendations
+
+We need to reduce crime and have good publicity to make citizens feel safer.
+
+## Parents
 
 - [Citizen Satisfaction](/scorecard-7612/measures/measure-553397.md)
 
-### Objectives
+## Objectives
 
 - [Safe & Prepared Community](/scorecard-7805/objectives/objective-54682.md)
+
+## Measure Initiatives
+
+- [Identify and hold additional public safety events](/scorecard-7805/initiatives/initiative-44448.md)
+- [Update Police Department Master Plan and Layout Plan](/scorecard-7805/initiatives/initiative-44449.md)

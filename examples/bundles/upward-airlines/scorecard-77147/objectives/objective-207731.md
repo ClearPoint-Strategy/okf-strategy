@@ -2,27 +2,19 @@
 type: Objective
 title: No Frills
 resource: clearpoint://scorecard/77147/objective/207731
-timestamp: 2021-11-12T18:39:20.737Z
 cps:
   object: objective
   objectId: 207731
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77147/data/objective-207731-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   provenance:
     owner:
       name: Steve Smith
-      userId: 24973
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2021-11-12T18:39:20.737Z
 ---
 
@@ -30,26 +22,29 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Steve Smith
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** While our overall performance does not look great, the real problem seems to be in the this region. Need to create some sort of benchmarking against other regions,
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** Watch this information closely to see if we can improve dramatically against our competition.
+### Analysis
 
+While our overall performance does not look great, the real problem seems to be in the this region. Need to create some sort of benchmarking against other regions,
 
-**Status history.** Nov-25: Below Plan · Oct-25: Below Plan · Sep-25: Below Plan
+### Recommendations
 
-## Linkages
+Watch this information closely to see if we can improve dramatically against our competition.
 
-### Parents
-
-- [No Frills](/scorecard-77146/objectives/objective-207718.md)
-
-### Categories
+## Categories
 
 - [Internal](/scorecard-77147/categories/category-203617.md)
 
-### Measures
+## Parents
+
+- [No Frills](/scorecard-77146/objectives/objective-207718.md)
+
+## Measures
 
 - [Cost per plane trip](/scorecard-77147/measures/measure-423509.md)

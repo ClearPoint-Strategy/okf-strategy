@@ -2,30 +2,21 @@
 type: Milestone
 title: Build new survey questions
 resource: clearpoint://scorecard/77148/milestone/281221
-timestamp: 2025-03-10T22:24:27.180Z
 cps:
   object: milestone
   objectId: 281221
   scorecardId: 77148
   scorecard: 🎯 Central Division
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   startDate: 2024-11-09
   endDate: 2024-12-17
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T22:24:27.180Z
 ---
 
@@ -33,13 +24,9 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Donald Duff
-- **Dates:** 2024-11-09 – 2024-12-17
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Hire Consultant to Design Employee Survey](/scorecard-77148/initiatives/initiative-163376.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target

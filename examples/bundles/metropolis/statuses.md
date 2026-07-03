@@ -1,57 +1,16 @@
 ---
-type: Statuses
+type: Lookup
 title: Statuses
-statuses:
-  - id: 3950
-    name: On Target
-    color: "#4DAF50"
-    score: 3
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
-  - id: 3953
-    name: Caution
-    color: "#FFCA28"
-    score: 2
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
-  - id: 3956
-    name: Below Plan
-    color: "#F44336"
-    score: 1
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
-  - id: 3959
-    name: No Information
-    color: "#3D4D79"
-    score: 0
-    validFor:
-      - objective
-      - measure
-      - initiative
-      - milestone
-      - actionItem
-      - risk
-      - scorecard
+cps:
+  lookup: statuses
 ---
 
-# Statuses
+## Statuses
 
-Status definitions — id, name, color, score, and which element types each is valid for.
+| ID | Name | Color | Score |
+| --- | --- | --- | --- |
+| 0 | Not Defined | #DDDDDD |  |
+| 3950 | On Target | #4DAF50 | 3 |
+| 3953 | Caution | #FFCA28 | 2 |
+| 3956 | Below Plan | #F44336 | 1 |
+| 3959 | No Information | #3D4D79 | 0 |

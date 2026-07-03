@@ -2,44 +2,31 @@
 type: Milestone
 title: Rollout new survey
 resource: clearpoint://scorecard/77147/milestone/281212
-timestamp: 2025-02-26T15:30:44.640Z
 cps:
   object: milestone
   objectId: 281212
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   startDate: 2025-06-18
   endDate: 2025-07-08
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18581
-      status: No Information
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:30:44.640Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
-- **Owner:** James Crockett
-- **Dates:** 2025-06-18 – 2025-07-08
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Create New Employee Satisfaction Survey](/scorecard-77147/initiatives/initiative-163372.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** No Information

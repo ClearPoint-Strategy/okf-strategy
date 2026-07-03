@@ -2,24 +2,19 @@
 type: Objective
 title: Transportation & Mobility
 resource: clearpoint://scorecard/7631/objective/54271
-timestamp: 2017-10-27T17:36:42.583Z
 cps:
   object: objective
   objectId: 54271
   scorecardId: 7631
   scorecard: Airport
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7631
+  periodicity: Default
   provenance:
     owner:
       name: Joseph Lucco
-      userId: 8494
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-27T17:36:42.583Z
 ---
 
@@ -27,20 +22,29 @@ cps:
 
 - **Scorecard:** Airport
 - **Owner:** Joseph Lucco
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Parents
+People are able to get to, from, and around the airport with ease. We continue to set the standard for airport layout and ease of use.
 
-- [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
+### Recommendations
 
-### Categories
+Communicate more with the prominent cities in order to establish these good relationships.
+
+## Categories
 
 - [Citizens](/scorecard-7631/categories/category-15758.md)
 
-### Measures
+## Parents
+
+- [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
+
+## Measures
 
 - [Airport efficiency rating](/scorecard-7612/measures/measure-110210.md)

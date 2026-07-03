@@ -2,28 +2,21 @@
 type: Initiative
 title: Propose new budget
 resource: clearpoint://scorecard/7807/initiative/215317
-timestamp: 2021-01-21T22:49:15.443Z
 cps:
   object: initiative
   objectId: 215317
   scorecardId: 7807
   scorecard: Fire Department
+  access:
+    derivedFrom: clearpoint://scorecard/7807
+  periodicity: Default
   startDate: 2020-10-24
   endDate: 2021-06-17
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Richard Grayson
-      userId: 8773
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2021-01-21T22:49:15.443Z
 ---
 
@@ -31,17 +24,31 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Richard Grayson
-- **Dates:** 2020-10-24 – 2021-06-17
+- **Reporting frequency:** Default
 
 ## Description
 
 We need to propose a new budget for the following fiscal year.
 
-## Status — Dec-22 (On Target)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** On Target
 
-## Linkages
+### Analysis
 
-### Objectives
+We have to spend a lot of time on department collaboration to get this done.
+
+### Recommendations
+
+Stay highly organized and keep everyone aware of action steps and progress every step of the way.
+
+## Objectives
 
 - [Financial Health](/scorecard-7807/objectives/objective-54703.md)
+
+## Initiative Measures
+
+- [Revenue](/scorecard-7807/measures/measure-111291.md)
+- [Expenses](/scorecard-7807/measures/measure-111292.md)
+- [Budget Surplus/Deficit](/scorecard-7807/measures/measure-111293.md)

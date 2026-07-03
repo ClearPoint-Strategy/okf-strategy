@@ -2,27 +2,19 @@
 type: Objective
 title: Reliable Departures
 resource: clearpoint://scorecard/77148/objective/207734
-timestamp: 2016-07-27T22:03:53.007Z
 cps:
   object: objective
   objectId: 207734
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
-    statusResource: /scorecard-77148/data/objective-207734-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:03:53.007Z
 ---
 
@@ -30,29 +22,34 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Donald Duff
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Caution)
+## Status
 
-**Analysis.** We really need to focus on getting our planes out on time.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-**Recommendations.** Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve.
+### Analysis
 
+We really need to focus on getting our planes out on time.
 
-## Linkages
+### Recommendations
 
-### Parents
+Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve.
 
-- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
-
-### Categories
+## Categories
 
 - [Customer](/scorecard-77148/categories/category-203620.md)
 
-### Measures
+## Parents
+
+- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
+
+## Measures
 
 - [% of on time departures](/scorecard-77148/measures/measure-423511.md)
 - [Flight Cancellations](/scorecard-77148/measures/measure-542407.md)
 
-### Initiatives
+## Initiatives
 
 - [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)

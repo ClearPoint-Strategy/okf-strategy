@@ -2,24 +2,19 @@
 type: Objective
 title: Recruit & Retain Top Talent
 resource: clearpoint://scorecard/7807/objective/54702
-timestamp: 2016-06-10T20:52:30.373Z
 cps:
   object: objective
   objectId: 54702
   scorecardId: 7807
   scorecard: Fire Department
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7807
+  periodicity: Default
   provenance:
     owner:
       name: Joseph Lucco
-      userId: 8494
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2016-06-10T20:52:30.373Z
 ---
 
@@ -27,21 +22,30 @@ cps:
 
 - **Scorecard:** Fire Department
 - **Owner:** Joseph Lucco
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (Caution)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Caution
 
-## Linkages
+### Analysis
 
-### Parents
+We have continued to reach slightly below target when it comes to keeping the top talent.
 
-- [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
+### Recommendations
 
-### Categories
+Focus on increasing the average employee wage to get the best quality workers
+
+## Categories
 
 - [Learning & Growth](/scorecard-7807/categories/category-15971.md)
 
-### Measures
+## Parents
+
+- [Recruit & Retain Top Employee Talent](/scorecard-7612/objectives/objective-54238.md)
+
+## Measures
 
 - [Percent of employees who have worked in the fire department for 5+ years](/scorecard-7807/measures/measure-111295.md)
 - [Employee compensation per year](/scorecard-7807/measures/measure-111296.md)

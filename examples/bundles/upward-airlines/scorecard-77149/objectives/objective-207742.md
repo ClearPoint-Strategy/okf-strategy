@@ -2,27 +2,19 @@
 type: Objective
 title: Profitability
 resource: clearpoint://scorecard/77149/objective/207742
-timestamp: 2016-07-27T22:10:35.353Z
 cps:
   object: objective
   objectId: 207742
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77149/data/objective-207742-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:10:35.353Z
 ---
 
@@ -30,25 +22,30 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Donald Duff
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** Over the year, our net profit is slightly lower than what we would like to see, but our revenue has been on target and we have cut back on expenses, so we are on the right path.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Continue to practice new revenue processes put in place. Trust that we will have built a system that will lead to growth.
+### Analysis
 
+Over the year, our net profit is slightly lower than what we would like to see, but our revenue has been on target and we have cut back on expenses, so we are on the right path.
 
-## Linkages
+### Recommendations
 
-### Parents
+Continue to practice new revenue processes put in place. Trust that we will have built a system that will lead to growth.
 
-- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
-
-### Categories
+## Categories
 
 - [Financial](/scorecard-77149/categories/category-203623.md)
 
-### Measures
+## Parents
+
+- [Increase Shareholder Value](/scorecard-77146/objectives/objective-207709.md)
+
+## Measures
 
 - [Revenue](/scorecard-77149/measures/measure-423531.md)
 - [Costs](/scorecard-77149/measures/measure-423532.md)

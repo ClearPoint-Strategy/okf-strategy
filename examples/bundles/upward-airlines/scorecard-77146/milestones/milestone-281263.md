@@ -2,31 +2,21 @@
 type: Milestone
 title: Proposal Period
 resource: clearpoint://scorecard/77146/milestone/281263
-timestamp: 2025-02-26T15:20:48.397Z
 cps:
   object: milestone
   objectId: 281263
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2024-10-09
   endDate: 2024-12-30
-  completed: false
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
   provenance:
     owner:
       name: Ted Jackson
-      userId: 24943
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:20:48.397Z
 ---
 
@@ -34,14 +24,9 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Ted Jackson
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2024-10-09 – 2024-12-30
+- **Reporting frequency:** Quarterly
 
-## Status — Dec-25 (Caution)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Find new food service provider](/scorecard-77146/initiatives/initiative-163371.md)
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Caution

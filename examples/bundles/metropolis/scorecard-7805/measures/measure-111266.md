@@ -2,55 +2,50 @@
 type: Measure
 title: Crime clearance rates
 resource: clearpoint://scorecard/7805/measure/111266
-timestamp: 2021-06-07T16:56:06.360Z
 cps:
   object: measure
   objectId: 111266
   scorecardId: 7805
   scorecard: Police Department
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7805
+  periodicity: Monthly
   provenance:
     owner:
       name: Ted Jackson
-      userId: 8436
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2021-06-07T16:56:06.360Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7805/data/measure-111266-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Police Department
 - **Owner:** Ted Jackson
-- **Reporting Frequency:** Monthly
+- **Reporting frequency:** Monthly
 
-**Actual** — 83 (Dec-22) · trend [81, 83, 86, 88, 91, 83]
+## Details
 
-## Status — Dec-22 (Caution)
+- **Complete?:** 0
 
+## Status
 
-## Linkages
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Caution
 
-### Objectives
+### Analysis
+
+We lag behind our goals.
+
+### Recommendations
+
+Need to create a task force to look at this measure.
+
+## Objectives
 
 - [Crime Statistics](/scorecard-7805/objectives/objective-54680.md)
+
+## Measure Initiatives
+
+- [Update Police Department Master Plan and Layout Plan](/scorecard-7805/initiatives/initiative-44449.md)
+- [Establish Temporary Police Substation during renovation project](/scorecard-7805/initiatives/initiative-44450.md)

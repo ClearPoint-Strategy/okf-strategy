@@ -2,62 +2,45 @@
 type: Measure
 title: "% of on time departures"
 resource: clearpoint://scorecard/77148/measure/423511
-timestamp: 2019-09-30T18:08:11.727Z
 cps:
   object: measure
   objectId: 423511
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77148/data/measure-423511-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Monthly
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2019-09-30T18:08:11.727Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77148/data/measure-423511-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
-- **Owner:** James Crockett
-- **Reporting Frequency:** Monthly
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Monthly
 
-**Actual** — 78 (Dec-25) · trend [80, 0, 0, 0, 0, 78]
+## Status
 
-## Status — Dec-25 (Below Plan)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Analysis.** The Central Division has not been as bad as the Western Division but is still lacking the on time percentage that we need to maintain our high customer satisfaction rate.
+### Analysis
 
-**Recommendations.** Altough this is mostly out of our control, we can push our employees to be as fast as possible when taking off.
+The Central Division has not been as bad as the Western Division but is still lacking the on time percentage that we need to maintain our high customer satisfaction rate.
 
+### Recommendations
 
-## Linkages
+Altough this is mostly out of our control, we can push our employees to be as fast as possible when taking off.
 
-### Objectives
+## Objectives
 
 - [Reliable Departures](/scorecard-77148/objectives/objective-207734.md)
+
+## Measure Initiatives
+
+- [Create New Training Program for Employees](/scorecard-77148/initiatives/initiative-163377.md)

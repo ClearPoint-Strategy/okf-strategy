@@ -2,27 +2,19 @@
 type: Objective
 title: No Elites
 resource: clearpoint://scorecard/77146/objective/207717
-timestamp: 2016-07-27T21:50:48.597Z
 cps:
   object: objective
   objectId: 207717
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77146/data/objective-207717-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   provenance:
     owner:
       name: Greg Garcia
-      userId: 24966
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T21:50:48.597Z
 ---
 
@@ -30,28 +22,33 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Greg Garcia
+- **Reporting frequency:** Default
 
 ## Description
 
 As opposed to our competitors, who have an overwhelming amount of status groups, we want to ensure we deliver a consistent customer experience to everyone who flies with Upward Airlines.
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** We need to improve vastly on our elite status. Studies have shown that all regions are failing in this obbjective.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** Create new marketing drives to show that our airline is inclusive for all demographics.
+### Analysis
 
+We need to improve vastly on our elite status. Studies have shown that all regions are failing in this obbjective.
 
-## Linkages
+### Recommendations
 
-### Categories
+Create new marketing drives to show that our airline is inclusive for all demographics.
+
+## Categories
 
 - [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
 
-### Measures
+## Measures
 
 - [% of customer airline travel with us](/scorecard-77146/measures/measure-423489.md)
 
-### Initiatives
+## Initiatives
 
 - [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)

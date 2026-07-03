@@ -2,71 +2,70 @@
 type: Initiative
 title: Create New Employee Satisfaction Survey
 resource: clearpoint://scorecard/77147/initiative/163372
-timestamp: 2025-02-26T15:30:44.637Z
 cps:
   object: initiative
   objectId: 163372
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   startDate: 2025-02-28
   endDate: 2025-08-25
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
-    statusResource: /scorecard-77147/data/initiative-163372-status.json
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:30:44.637Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
-- **Owner:** James Crockett
-- **Dates:** 2025-02-28 – 2025-08-25
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Default
 
 ## Description
 
-Our employee satisfaction survey was out of date and we were not capturing the information we intended. We decided we would do a complete redesign.
+Our employee satisfaction survey was out of date and we were not capturing the information we intended. 
+ 
+ We decided we would do a complete redesign.
 
 ## Details
 
 - **Budget:** $15,000
 
-## Status — Dec-25 (Caution)
+## Status
 
-**Analysis.** We need to be cautious of how we spend our time so that we don't delay this initiative.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-**Recommendations.** We should focus on choosing great survey consultants and planning a quick rollout since those two steps will expedite the initiative as a whole.
+### Analysis
 
+We need to be cautious of how we spend our time so that we don't delay this initiative.
 
-**Status history.** Sep-25: Caution
+### Recommendations
 
-## Linkages
+We should focus on choosing great survey consultants and planning a quick rollout since those two steps will expedite the initiative as a whole.
 
-### Parents
+## Parents
 
 - [Create new employee retirement package](/scorecard-77146/initiatives/initiative-211891.md)
 
-### Objectives
+## Objectives
 
 - [Employee Satisfaction](/scorecard-77147/objectives/objective-207728.md)
 
-### Milestones
+## Milestones
 
 - [Hire survey consultants](/scorecard-77147/milestones/milestone-281208.md)
 - [Build new survey questions](/scorecard-77147/milestones/milestone-281209.md)
 - [Test new survey questions](/scorecard-77147/milestones/milestone-281210.md)
 - [Review results and make improvements](/scorecard-77147/milestones/milestone-281211.md)
 - [Rollout new survey](/scorecard-77147/milestones/milestone-281212.md)
+
+## Initiative Measures
+
+- [Percent of employees that are happy](/scorecard-77147/measures/measure-423502.md)
+- [% of employees who see themselves at Upward for 7+ years](/scorecard-77147/measures/measure-423503.md)

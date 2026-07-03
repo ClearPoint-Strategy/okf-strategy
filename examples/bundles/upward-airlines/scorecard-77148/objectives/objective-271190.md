@@ -2,27 +2,19 @@
 type: Objective
 title: Retirement Benefits
 resource: clearpoint://scorecard/77148/objective/271190
-timestamp: 2021-01-25T22:22:21.090Z
 cps:
   object: objective
   objectId: 271190
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
-    statusResource: /scorecard-77148/data/objective-271190-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Default
   provenance:
     owner:
       name: Donald Duff
-      userId: 24965
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2021-01-25T22:22:21.090Z
 ---
 
@@ -30,20 +22,25 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Donald Duff
+- **Reporting frequency:** Default
 
 ## Description
 
 We have sufficient benefits for our employees, but we must regularly examine them to see if any changes need to be made.
 
-## Status — Dec-25 (Caution)
+## Status
 
-**Analysis.** We really need to focus on changing our retirement plan to benefit loyal employees.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-**Recommendations.** We need to revise our retirement package, and make changes that benefit loyal employees.
+### Analysis
 
+We really need to focus on changing our retirement plan to benefit loyal employees.
 
-## Linkages
+### Recommendations
 
-### Parents
+We need to revise our retirement package, and make changes that benefit loyal employees.
+
+## Parents
 
 - [High Compensation](/scorecard-77146/objectives/objective-207721.md)

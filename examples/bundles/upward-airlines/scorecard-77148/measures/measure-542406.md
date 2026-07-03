@@ -2,65 +2,49 @@
 type: Measure
 title: "# of A-list priority customers"
 resource: clearpoint://scorecard/77148/measure/542406
-timestamp: 2017-10-17T21:45:16.743Z
 cps:
   object: measure
   objectId: 542406
   scorecardId: 77148
   scorecard: 🎯 Central Division
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77148/data/measure-542406-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77148
+  periodicity: Monthly
   provenance:
     owner:
       name: Janice Jones
-      userId: 24967
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-10-17T21:45:16.743Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 4
-        numberFormat:
-          precision: 2
-          symbol: $
-      - name: Target
-        seriesDataTypeId: 9
-        numberFormat:
-          precision: 0
-    dataResource: /scorecard-77148/data/measure-542406-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Janice Jones
-- **Reporting Frequency:** Monthly
+- **Reporting frequency:** Monthly
 
-**Actual** — 16300 (Dec-25) · trend [16000, 15800, 16200, 16100, 15900, 16300]
+## Status
 
-## Status — Dec-25 (Above Target)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Analysis.** A-list members are very important to our growth model, and we have seen an increase in loyal customers.
+### Analysis
 
-**Recommendations.** Continue to gain loyalty of customers.
+A-list members are very important to our growth model, and we have seen an increase in loyal customers.
 
+### Recommendations
 
-## Linkages
+Continue to gain loyalty of customers.
 
-### Parents
+## Parents
 
 - [Customer Experience Survey](/scorecard-77146/measures/measure-423482.md)
 
-### Objectives
+## Objectives
 
 - [Profitability](/scorecard-77148/objectives/objective-207733.md)
+
+## Measure Initiatives
+
+- [Prepare for summer sale](/scorecard-77148/initiatives/initiative-211898.md)

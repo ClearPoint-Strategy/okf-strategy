@@ -2,28 +2,21 @@
 type: Initiative
 title: Establish Temporary Air Traffic Control Tower during runway rehab
 resource: clearpoint://scorecard/149811/initiative/523414
-timestamp: 2023-03-23T17:38:32.270Z
 cps:
   object: initiative
   objectId: 523414
   scorecardId: 149811
   scorecard: Parks and Recreation
+  access:
+    derivedFrom: clearpoint://scorecard/149811
+  periodicity: Default
   startDate: 2021-12-15
   endDate: 2023-04-25
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Maggie Sawyer
-      userId: 8502
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2023-03-23T17:38:32.270Z
 ---
 
@@ -31,7 +24,7 @@ cps:
 
 - **Scorecard:** Parks and Recreation
 - **Owner:** Maggie Sawyer
-- **Dates:** 2021-12-15 – 2023-04-25
+- **Reporting frequency:** Default
 
 ## Description
 
@@ -39,27 +32,35 @@ During construction, we will need to create a space for air traffic controllers 
 
 ## Details
 
-- **Budget:** $15,000
 - **Level of Effort:** Low
-- **Level of Impact:**  Medium
-- **Priority:**  High
+- **Level of Impact:** Medium
+- **Budget:** $15,000
+- **Priority:** High
 
-## Status — Dec-22 (Below Plan)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Below Plan
 
-## Linkages
+### Analysis
 
-### Parents
+We have contacted the manufacturer, but have made little progress in getting this set up for the new year.
+
+### Recommendations
+
+This is a necessity to remain in operation during construction, so if the manufacturer won't work quickly enough with us, then we should find an outside party to build us something temporary that meets standards.
+
+## Parents
 
 - [Establish a plan for renovation and change](/scorecard-149810/initiatives/initiative-523410.md)
 
-### Objectives
+## Objectives
 
 - [Well-maintained airfield](/scorecard-149811/objectives/objective-555869.md)
 - [Satisfied Customers](/scorecard-149811/objectives/objective-555870.md)
 - [Effective Leverage of Technology](/scorecard-149810/objectives/objective-555867.md)
 
-### Milestones
+## Milestones
 
 - [Build partner committee](/scorecard-149811/milestones/milestone-974586.md)
 - [Consult with FAA](/scorecard-149811/milestones/milestone-974587.md)
@@ -67,3 +68,10 @@ During construction, we will need to create a space for air traffic controllers 
 - [Choose top 2 options](/scorecard-149811/milestones/milestone-974589.md)
 - [Test options](/scorecard-149811/milestones/milestone-974590.md)
 - [Choose control tower temporary site](/scorecard-149811/milestones/milestone-974591.md)
+
+## Initiative Measures
+
+- [Percent of citizens feeling safe at the airport](/scorecard-149811/measures/measure-1426515.md)
+- [Runway and taxiway pavement condition indicator (PCI) score](/scorecard-149811/measures/measure-1426506.md)
+- [Percent of customers rating the airport a 4 or 5](/scorecard-149811/measures/measure-1426507.md)
+- [Interactions with posts on Metropolis social media accounts](/scorecard-149810/measures/measure-1426491.md)

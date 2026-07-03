@@ -2,68 +2,58 @@
 type: Measure
 title: Airport efficiency rating
 resource: clearpoint://scorecard/7612/measure/110210
-timestamp: 2017-10-27T17:31:44.187Z
 cps:
   object: measure
   objectId: 110210
   scorecardId: 7612
   scorecard: Metropolis City Scorecard
-  status:
-    periodicity: Monthly
-    periodGroupId: 2529
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7612
+  periodicity: Monthly
   provenance:
     owner:
-      name: Jimmy Olsen
-      userId: 8798
+      name: Jimmy Olsen (Director of Parks and Recreation)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2017-10-27T17:31:44.187Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Target
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-7612/data/measure-110210-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Metropolis City Scorecard
-- **Owner:** Jimmy Olsen
-- **Reporting Frequency:** Monthly
-
-**Actual** — 99 (Dec-22) · trend [92, 89, 93, 95, 97, 99]
+- **Owner:** Jimmy Olsen (Director of Parks and Recreation)
+- **Reporting frequency:** Monthly
 
 ## Description
 
 Our city's airport each month compiles information on its operational efficiency.
 
-## Status — Dec-22 (Caution)
+## Status
 
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** Caution
 
-## Linkages
+### Analysis
 
-### Children
+Our airport was rated right around the average compared to our airports in state.
 
-- [On time landings and takeoffs](/scorecard-7631/measures/measure-108103.md)
+### Recommendations
 
-### Objectives
+Let's make sure we continue to monitor this so we do not relapse on the gains we have made.
+
+## Objectives
 
 - [Transportation & Mobility](/scorecard-7612/objectives/objective-53688.md)
 - [Transportation & Mobility](/scorecard-7631/objectives/objective-54271.md)
 
-### Initiatives
+## Initiatives
+
+- [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)
+
+## Children
+
+- [On time landings and takeoffs](/scorecard-7631/measures/measure-108103.md)
+
+## Measure Initiatives
 
 - [Update Airport Master Plan](/scorecard-7631/initiatives/initiative-43615.md)

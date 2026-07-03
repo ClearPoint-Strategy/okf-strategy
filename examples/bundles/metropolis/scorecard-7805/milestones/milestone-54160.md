@@ -2,27 +2,21 @@
 type: Milestone
 title: Choose substation temporary site
 resource: clearpoint://scorecard/7805/milestone/54160
-timestamp: 2018-11-14T13:43:22.543Z
 cps:
   object: milestone
   objectId: 54160
   scorecardId: 7805
   scorecard: Police Department
+  access:
+    derivedFrom: clearpoint://scorecard/7805
+  periodicity: Default
   startDate: 2020-08-21
   endDate: 2020-11-09
-  completed: false
-  status:
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
   provenance:
     owner:
       name: Catherine Yochum
-      userId: 16648
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2018-11-14T13:43:22.543Z
 ---
 
@@ -30,13 +24,9 @@ cps:
 
 - **Scorecard:** Police Department
 - **Owner:** Catherine Yochum
-- **Dates:** 2020-08-21 – 2020-11-09
+- **Reporting frequency:** Default
 
-## Status — Dec-22 (No Information)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Establish Temporary Police Substation during renovation project](/scorecard-7805/initiatives/initiative-44450.md)
+- **Period:** Dec-22 (2022-12-31)
+- **Status:** No Information

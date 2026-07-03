@@ -2,56 +2,53 @@
 type: Objective
 title: Reliable Departures
 resource: clearpoint://scorecard/77149/objective/207743
-timestamp: 2016-07-27T22:11:20.347Z
 cps:
   object: objective
   objectId: 207743
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
-    statusResource: /scorecard-77149/data/objective-207743-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-07-27T22:11:20.347Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** James Crockett
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-**Analysis.** We really need to focus on getting our planes out on time.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Below Plan
 
-**Recommendations.** Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve.
+### Analysis
 
+We really need to focus on getting our planes out on time.
 
-## Linkages
+### Recommendations
 
-### Parents
+Let's link this to our plane turnaround time. Hopefully, the additional employee training and upskilling will help us improve.
 
-- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
-
-### Categories
+## Categories
 
 - [Customer](/scorecard-77149/categories/category-203624.md)
 
-### Measures
+## Parents
+
+- [Frequent Reliable Departures (Automatic Eval)](/scorecard-77146/objectives/objective-207710.md)
+
+## Measures
 
 - [Rate of departures that leave on time](/scorecard-77149/measures/measure-423523.md)
 
-### Initiatives
+## Initiatives
 
 - [Build Employee Upskilling](/scorecard-77149/initiatives/initiative-163380.md)

@@ -2,29 +2,21 @@
 type: Milestone
 title: Hire consultants
 resource: clearpoint://scorecard/77146/milestone/281244
-timestamp: 2025-02-26T15:36:40.007Z
 cps:
   object: milestone
   objectId: 281244
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2025-01-28
   endDate: 2025-03-31
-  completed: true
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
     owner:
       name: Steve Smith
-      userId: 24973
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:36:40.007Z
 ---
 
@@ -32,15 +24,13 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Steve Smith
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2025-01-28 – 2025-03-31 (completed)
+- **Reporting frequency:** Quarterly
 
-## Linkages
+## Status
 
-### Parent Initiative
+- **Period:** Q1-24 (2024-03-31)
+- **Status:** Not Defined
 
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
-
-### Action Items
+## Action Items
 
 - [Organize meeting between Procurement and Hospitality Departments](/scorecard-77146/action-items/actionItem-182626.md)

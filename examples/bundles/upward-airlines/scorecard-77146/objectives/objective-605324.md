@@ -2,33 +2,33 @@
 type: Objective
 title: "Financial Objective #1"
 resource: clearpoint://scorecard/77146/objective/605324
-timestamp: 2023-11-02T15:24:54.300Z
 cps:
   object: objective
   objectId: 605324
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   provenance:
-    lastEditedBy:
+    owner:
       name: Clarice Strong
-      userId: 24944
+    lastEditedBy:
+      name: Clarice Strong (Operations)
       at: 2023-11-02T15:24:54.300Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Reporting Frequency:** Quarterly
+- **Owner:** Clarice Strong
+- **Reporting frequency:** Quarterly
 
-## Linkages
+## Status
 
-### Measures
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Not Defined
+
+## Measures
 
 - [Financial Measure #1 testing looooooooong nametesting looooooooong name testing looooooooong nametesting looooooooong name](/scorecard-77146/measures/measure-1619382.md)

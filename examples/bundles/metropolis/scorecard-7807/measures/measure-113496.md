@@ -2,53 +2,46 @@
 type: Measure
 title: Percent of fires contained within 2 hours
 resource: clearpoint://scorecard/7807/measure/113496
-timestamp: 2021-09-30T14:11:01.793Z
 cps:
   object: measure
   objectId: 113496
   scorecardId: 7807
   scorecard: Fire Department
-  status:
-    periodicity: Quarterly
-    periodGroupId: 2493
-    currentPeriod:
-      periodId: 192048
-      period: Dec-22
-      periodDate: 2022-12-31
+  access:
+    derivedFrom: clearpoint://scorecard/7807
+  periodicity: Quarterly
   provenance:
     owner:
-      name: Ron Troupe
-      userId: 8800
+      name: Ron Troupe (Director of Public Safety)
     lastEditedBy:
       name: ClearPoint Support
-      userId: 8435
       at: 2021-09-30T14:11:01.793Z
-  measure:
-    series:
-      - name: Actual
-        seriesDataTypeId: 5
-        numberFormat:
-          precision: 2
-      - name: Target
-        seriesDataTypeId: 5
-        numberFormat:
-          precision: 2
-    dataResource: /scorecard-7807/data/measure-113496-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** Fire Department
-- **Owner:** Ron Troupe
-- **Reporting Frequency:** Quarterly
+- **Owner:** Ron Troupe (Director of Public Safety)
+- **Reporting frequency:** Quarterly
 
-**Actual** — 90 (Dec-22) · trend [75, 85, 86, 83, 84, 90]
+## Status
 
-## Status — Dec-22 (On Target)
+- **Period:** Q4-22 (2022-12-31)
+- **Status:** On Target
 
+### Analysis
 
-## Linkages
+We have done a great job containing fires. We train our firefighters well, possess excellent equipment and access to water lines, and have been lucky that fires have largely been easy to control.
 
-### Objectives
+### Recommendations
+
+We should keep up with our training to make sure firefighters are prepared for different types of fires.
+
+## Objectives
 
 - [Fire & Operational Statistics](/scorecard-7807/objectives/objective-54699.md)
+
+## Measure Initiatives
+
+- [Update Fire Department Master Plan and Layout Plan](/scorecard-7807/initiatives/initiative-44459.md)
+- [Determine new fire headquarters location](/scorecard-7807/initiatives/initiative-44460.md)

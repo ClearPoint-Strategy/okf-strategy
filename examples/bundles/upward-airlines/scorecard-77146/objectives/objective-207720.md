@@ -2,27 +2,19 @@
 type: Objective
 title: High Utilization
 resource: clearpoint://scorecard/77146/objective/207720
-timestamp: 2016-08-25T00:19:16.320Z
 cps:
   object: objective
   objectId: 207720
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77146/data/objective-207720-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Default
   provenance:
     owner:
       name: Ashley Caper
-      userId: 24975
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2016-08-25T00:19:16.320Z
 ---
 
@@ -30,30 +22,33 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Ashley Caper
+- **Reporting frequency:** Default
 
 ## Description
 
 Our assets should be performing to their full capacity so that we know we are achieving efficiency.
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We are doing well in utilizing our resources wisely. Due to outside consultants, we have created a very good process.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Continue with practicing our utilization process as best we can. Focus on using resources wisely in all regions.
+### Analysis
 
+We are doing well in utilizing our resources wisely. Due to outside consultants, we have created a very good process.
 
-**Status history.** Oct-25: Caution
+### Recommendations
 
-## Linkages
+Continue with practicing our utilization process as best we can. Focus on using resources wisely in all regions.
 
-### Categories
+## Categories
 
 - [🔄 Internal Processes](/scorecard-77146/categories/category-203613.md)
 
-### Measures
+## Measures
 
 - [% utilization](/scorecard-77146/measures/measure-423492.md)
 
-### Initiatives
+## Initiatives
 
 - [Airport Traffic Study (Milestone Roll Up)](/scorecard-77147/initiatives/initiative-163374.md)

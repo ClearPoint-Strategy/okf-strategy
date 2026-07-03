@@ -2,54 +2,49 @@
 type: Objective
 title: Employee Compensation
 resource: clearpoint://scorecard/77147/objective/207729
-timestamp: 2021-11-12T18:43:20.157Z
 cps:
   object: objective
   objectId: 207729
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77147/data/objective-207729-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   provenance:
     owner:
-      name: Trudy Joplin
-      userId: 24968
+      name: Trudy Joplin (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2021-11-12T18:43:20.157Z
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
-- **Owner:** Trudy Joplin
+- **Owner:** Trudy Joplin (Sales)
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We have been doing well with this objective.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Let's make sure we continue to monitor this so we do not relapse on the gains we have made.
+### Analysis
 
+We have been doing well with this objective.
 
-**Status history.** Nov-25: Caution · Oct-25: Caution · Sep-25: Caution
+### Recommendations
 
-## Linkages
+Let's make sure we continue to monitor this so we do not relapse on the gains we have made.
 
-### Parents
-
-- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
-
-### Categories
+## Categories
 
 - [Learning and Growth](/scorecard-77147/categories/category-203618.md)
 
-### Measures
+## Parents
+
+- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
+
+## Measures
 
 - [Wage Growth](/scorecard-77147/measures/measure-423504.md)

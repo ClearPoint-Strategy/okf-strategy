@@ -2,27 +2,19 @@
 type: Objective
 title: Employee Compensation
 resource: clearpoint://scorecard/77149/objective/207748
-timestamp: 2024-05-23T14:30:47.657Z
 cps:
   object: objective
   objectId: 207748
   scorecardId: 77149
   scorecard: 🏜️ Western Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18578
-      status: Above Target
-    statusResource: /scorecard-77149/data/objective-207748-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   provenance:
     owner:
       name: Ted Jackson
-      userId: 24943
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2024-05-23T14:30:47.657Z
 ---
 
@@ -30,24 +22,29 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Ted Jackson
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Above Target)
+## Status
 
-**Analysis.** We have been doing well with this objective.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Above Target
 
-**Recommendations.** Let's make sure we continue to monitor this so we do not relapse on the gains we have made. We need to start having checking meetings.
+### Analysis
 
+We have been doing well with this objective.
 
-## Linkages
+### Recommendations
 
-### Parents
+Let's make sure we continue to monitor this so we do not relapse on the gains we have made. We need to start having checking meetings.
 
-- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
-
-### Categories
+## Categories
 
 - [Learning and Growth](/scorecard-77149/categories/category-203626.md)
 
-### Measures
+## Parents
+
+- [High Compensation](/scorecard-77146/objectives/objective-207721.md)
+
+## Measures
 
 - [% of employees who see themselves at Upward for 10+ years](/scorecard-77149/measures/measure-423528.md)

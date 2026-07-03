@@ -2,41 +2,31 @@
 type: Milestone
 title: Survey a sample of employees
 resource: clearpoint://scorecard/77146/milestone/281245
-timestamp: 2025-02-26T15:36:39.840Z
 cps:
   object: milestone
   objectId: 281245
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2025-03-16
   endDate: 2025-04-30
-  completed: true
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
     owner:
-      name: James Crockett
-      userId: 24960
+      name: James Crockett (Sales)
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:36:39.840Z
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** James Crockett
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2025-03-16 – 2025-04-30 (completed)
+- **Owner:** James Crockett (Sales)
+- **Reporting frequency:** Quarterly
 
-## Linkages
+## Status
 
-### Parent Initiative
-
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
+- **Period:** Q1-24 (2024-03-31)
+- **Status:** Not Defined

@@ -2,31 +2,21 @@
 type: Milestone
 title: Order construction materials
 resource: clearpoint://scorecard/77146/milestone/599142
-timestamp: 2025-02-26T15:20:47.307Z
 cps:
   object: milestone
   objectId: 599142
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Monthly 2025-26
   startDate: 2026-02-14
   endDate: 2026-04-02
-  completed: false
-  status:
-    periodicity: Monthly 2025-26
-    periodGroupId: 29413
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
   provenance:
     owner:
       name: Catherine Mendoza
-      userId: 24972
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-02-26T15:20:47.307Z
 ---
 
@@ -34,14 +24,9 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Catherine Mendoza
-- **Reporting Frequency:** Monthly 2025-26
-- **Dates:** 2026-02-14 – 2026-04-02
+- **Reporting frequency:** Monthly 2025-26
 
-## Status — Dec-25 (Caution)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Construct new airplane seats (Data & Charts)](/scorecard-77146/initiatives/initiative-308980.md)
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution

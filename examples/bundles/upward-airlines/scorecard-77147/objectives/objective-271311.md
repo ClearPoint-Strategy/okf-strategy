@@ -2,27 +2,19 @@
 type: Objective
 title: Relationship with U.S. airports
 resource: clearpoint://scorecard/77147/objective/271311
-timestamp: 2017-11-02T15:16:58.057Z
 cps:
   object: objective
   objectId: 271311
   scorecardId: 77147
   scorecard: 🌐 Eastern Division
-  status:
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
-    statusResource: /scorecard-77147/data/objective-271311-status.json
+  access:
+    derivedFrom: clearpoint://scorecard/77147
+  periodicity: Default
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2017-11-02T15:16:58.057Z
 ---
 
@@ -30,9 +22,17 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Mark Cutler
+- **Reporting frequency:** Default
 
-## Status — Dec-25 (Caution)
+## Status
 
-**Analysis.** We have been doing a decent job of coordinating our flights with all of the U.S. airports our planes fly to.
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-**Recommendations.** Work with airports to make sure we make adjustments as needed to our flights.
+### Analysis
+
+We have been doing a decent job of coordinating our flights with all of the U.S. airports our planes fly to.
+
+### Recommendations
+
+Work with airports to make sure we make adjustments as needed to our flights.

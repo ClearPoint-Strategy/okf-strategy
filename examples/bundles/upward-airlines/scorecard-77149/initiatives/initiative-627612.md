@@ -2,52 +2,35 @@
 type: Initiative
 title: CPS-2921
 resource: clearpoint://scorecard/77149/initiative/627612
-timestamp: 2025-03-10T22:25:57.317Z
 cps:
   object: initiative
   objectId: 627612
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Monthly
   startDate: 2026-05-21
   endDate: 2026-08-21
-  completed: false
-  status:
-    periodicity: Monthly
-    periodGroupId: 9722
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
   provenance:
     owner:
       name: Ted Jackson
-      userId: 24943
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T22:25:57.317Z
-  measure:
-    series:
-      - name: Percent Complete
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-      - name: Calculated Percent Complete
-        seriesDataTypeId: 6
-        numberFormat:
-          precision: 2
-          symbol: "%"
-    dataResource: /scorecard-77149/data/initiative-627612-series.json
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Ted Jackson
-- **Reporting Frequency:** Monthly
-- **Dates:** 2026-05-21 – 2026-08-21
+- **Reporting frequency:** Monthly
 
 ## Description
 
 This is just a test that may be deleted later
+
+## Status
+
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Not Defined

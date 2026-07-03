@@ -2,30 +2,21 @@
 type: Initiative
 title: Redesign Employee Satisfaction Survey
 resource: clearpoint://scorecard/77149/initiative/163379
-timestamp: 2025-03-10T22:25:56.730Z
 cps:
   object: initiative
   objectId: 163379
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  access:
+    derivedFrom: clearpoint://scorecard/77149
+  periodicity: Default
   startDate: 2024-10-28
   endDate: 2025-03-29
-  completed: false
-  status:
-    periodicity: Default
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18579
-      status: Caution
   provenance:
     owner:
       name: Mark Cutler
-      userId: 24961
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-03-10T22:25:56.730Z
 ---
 
@@ -33,29 +24,36 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Mark Cutler
-- **Dates:** 2024-10-28 – 2025-03-29
+- **Reporting frequency:** Default
 
 ## Description
 
-Our employee satisfaction survey was out of date and we were not capturing the information we intended. We decided we would do a complete redesign.
+Our employee satisfaction survey was out of date and we were not capturing the information we intended. 
+ 
+ We decided we would do a complete redesign.
 
 ## Details
 
 - **Budget:** $5,000
 
-## Status — Dec-25 (Caution)
+## Status
 
+- **Period:** Dec-25 (2025-12-31)
+- **Status:** Caution
 
-## Linkages
-
-### Objectives
+## Objectives
 
 - [Employee Satisfaction](/scorecard-77149/objectives/objective-207747.md)
 
-### Milestones
+## Milestones
 
 - [Hire survey consultants](/scorecard-77149/milestones/milestone-281232.md)
 - [Build new survey questions](/scorecard-77149/milestones/milestone-281233.md)
 - [Test new survey questions](/scorecard-77149/milestones/milestone-281234.md)
 - [Review results and make improvements](/scorecard-77149/milestones/milestone-281235.md)
 - [Rollout new survey](/scorecard-77149/milestones/milestone-281236.md)
+
+## Initiative Measures
+
+- [Customer Support Calls](/scorecard-77149/measures/measure-542408.md)
+- [% of highly satisified employees](/scorecard-77149/measures/measure-423527.md)

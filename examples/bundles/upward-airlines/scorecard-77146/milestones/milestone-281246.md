@@ -2,31 +2,21 @@
 type: Milestone
 title: Compare results
 resource: clearpoint://scorecard/77146/milestone/281246
-timestamp: 2025-04-29T19:52:06.373Z
 cps:
   object: milestone
   objectId: 281246
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
+  periodicity: Quarterly
   startDate: 2025-09-22
   endDate: 2025-11-24
-  completed: false
-  status:
-    periodicity: Quarterly
-    periodGroupId: 9723
-    currentPeriod:
-      periodId: 189846
-      period: Dec-25
-      periodDate: 2025-12-31
-      statusId: 18580
-      status: Below Plan
   provenance:
     owner:
       name: Ashley Caper
-      userId: 24975
     lastEditedBy:
-      name: Clarice Strong
-      userId: 24944
+      name: Clarice Strong (Operations)
       at: 2025-04-29T19:52:06.373Z
 ---
 
@@ -34,18 +24,13 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Ashley Caper
-- **Reporting Frequency:** Quarterly
-- **Dates:** 2025-09-22 – 2025-11-24
+- **Reporting frequency:** Quarterly
 
 ## Details
 
 - **Milestone Review:** at_risk
 
-## Status — Dec-25 (Below Plan)
+## Status
 
-
-## Linkages
-
-### Parent Initiative
-
-- [Create new Employee Training](/scorecard-77146/initiatives/initiative-163369.md)
+- **Period:** Q4-25 (2025-12-31)
+- **Status:** Below Plan
