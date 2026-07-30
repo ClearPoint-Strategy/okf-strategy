@@ -6,10 +6,14 @@ An **open, public specification** — a profile of Google's [Open Knowledge Form
 representing an organization's strategy graph (objectives, measures, initiatives, milestones,
 risks, relationships, status over time) as portable Markdown + YAML.
 
-**This repo is different from every other repo in this workspace.** It is a public spec under a
-personal remote (`dylan-miyake/okf-strategy`), not a ClearPoint product repo. There is no tenant
-data, no customer data, and no ClearPoint database. The multi-tenant and prod-safety rules that
-govern the product repos do not apply here; the rules below do.
+**This repo is different from every other repo in this workspace.** It is a **public** spec repo
+(`ClearPoint-Strategy/okf-strategy`), not a ClearPoint product repo. There is no tenant data, no
+customer data, and no ClearPoint database. The multi-tenant and prod-safety rules that govern the
+product repos do not apply here; the rules below do.
+
+> The repo was transferred from `dylan-miyake/okf-strategy` to the ClearPoint org. Local checkouts
+> may still have the personal URL as `origin` — GitHub redirects it, so pushes work, but `gh` will
+> report the org name. Re-point `origin` when convenient.
 
 ## Quick Facts
 
