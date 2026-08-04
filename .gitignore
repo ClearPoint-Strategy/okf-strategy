@@ -1,2 +1,7 @@
 node_modules/
 local/
+
+# Local environment files — secrets. Never commit; values come from 1Password (op run).
+.env
+.env.*
+!.env.example
