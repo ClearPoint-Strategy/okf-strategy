@@ -218,6 +218,41 @@ The two `data/` sidecars are distinct: **`-series.json`** holds the numeric meas
 (`dataResource`); **`-status.json`** holds the per-period qualitative status/analysis/recommendations
 (`statusResource`). Any element type may have either or both.
 
+### 6.1 Series sidecar layout
+
+A `-series.json` sidecar validates against [`schemas/series.schema.json`](schemas/series.schema.json).
+It is columnar: one shared period axis, and one value array per series aligned to that axis by index.
+
+```json
+{
+  "concept": "scorecard-77146/measures/measure-1509292",
+  "periodicity": "Quarterly",
+  "periods": [
+    { "periodId": 189843, "period": "Mar-25", "periodDate": "2025-03-31" },
+    { "periodId": 256348, "period": "Jun-25", "periodDate": "2025-06-30" }
+  ],
+  "series": [
+    { "name": "Actual", "seriesDataTypeId": 6, "unit": "%", "values": [71.5, 74.0], "labels": ["71.5%", "74.0%"] },
+    { "name": "Target", "seriesDataTypeId": 6, "unit": "%", "values": [75, null] }
+  ]
+}
+```
+
+- **`concept`** is the owning Concept ID. It points back to the concept whose `cps.measure.dataResource`
+  names this file.
+- **`periods`** runs oldest first, ordered by `periodDate`, the period's last day. `periodId` refers to
+  the root `periods.md` lookup and is null when the source has no id.
+- **`series[].values[i]`** belongs to `periods[i]`, so every `values` array has the same length as
+  `periods`. A missing value is `null`, never a dropped entry. Values are numbers, except for Text series
+  (`seriesDataTypeId` 11), whose values are strings.
+- **`series[].name`** matches a `cps.measure.series[].name` on the owning concept, in the same order where
+  both exist.
+- **`labels`** is optional. When present, it holds the formatted display strings aligned to `periods`, so
+  a reader can quote a value exactly as the source showed it.
+
+The columnar shape carries any number of series without changing the axis, maps directly onto Arrow or
+a warehouse table, and keeps a period's values for every series at the same index.
+
 ---
 
 ## 7. Conformance & the validator
@@ -228,6 +263,8 @@ A bundle conforms to OKF-Strategy v0.1 when:
 2. Root `index.md` frontmatter validates against `bundle.schema.json`.
 3. Where present, each concept's frontmatter validates against `concept.schema.json` (the `cps` block is
    optional, but if present it must validate).
+4. Each `data/*-series.json` sidecar validates against `series.schema.json`, every `values` (and
+   `labels`) array has the same length as `periods`, and dated periods are in ascending order (§6.1).
 
 Consumption stays **permissive** (base-OKF rule): unknown types/keys and broken links are tolerated.
 [`scripts/validate.mjs`](scripts/validate.mjs) is the conformance gate — it is the survivor of

@@ -4,7 +4,8 @@
 // to "does this bundle conform to the open profile":
 //   - root index.md frontmatter        -> bundle.schema.json
 //   - every other concept .md frontmatter -> concept.schema.json (cps block optional)
-//   - any *.json under examples/         -> concept.schema.json (frontmatter-as-JSON)
+//   - data/*-series.json sidecars        -> series.schema.json + index alignment (SPEC §6.1)
+//   - any other *.json under examples/   -> concept.schema.json (frontmatter-as-JSON)
 //
 // YAML frontmatter needs the `yaml` package. If deps aren't installed the run degrades
 // gracefully (validates JSON, skips .md) rather than crashing — install with `npm install`.
@@ -26,6 +27,7 @@ for (const f of readdirSync(schemaDir).filter((f) => f.endsWith(".json"))) {
 const byId = (id) => ajv.getSchema(`https://clearpointstrategy.com/okf-strategy/${id}`);
 const conceptSchema = byId("concept.schema.json");
 const bundleSchema = byId("bundle.schema.json");
+const seriesSchema = byId("series.schema.json");
 
 // Optional YAML — frontmatter validation is skipped (not failed) if it isn't installed.
 let parseYaml = null;
@@ -48,6 +50,26 @@ const check = (path, data, validate, label) => {
     }
 };
 
+// Index alignment and period order are §6.1 rules JSON Schema cannot express.
+const checkSeries = (path) => {
+    const data = JSON.parse(readFileSync(path, "utf8"));
+    check(path, data, seriesSchema, "series");
+    if (!seriesSchema(data)) return;
+    const n = data.periods.length;
+    const problems = [];
+    for (const s of data.series) {
+        if (s.values.length !== n) problems.push(`series "${s.name}" has ${s.values.length} values for ${n} periods`);
+        if (s.labels && s.labels.length !== n) problems.push(`series "${s.name}" has ${s.labels.length} labels for ${n} periods`);
+    }
+    const dates = data.periods.map((p) => p.periodDate).filter(Boolean);
+    if (dates.some((d, i) => i > 0 && d < dates[i - 1])) problems.push("periods are not in ascending periodDate order");
+    if (problems.length) {
+        failures++;
+        console.log(`FAIL  [series]  ${relative(root, path)}`);
+        for (const p of problems) console.log(`   ${p}`);
+    }
+};
+
 const walk = (dir, fn) => {
     for (const name of readdirSync(dir)) {
         const p = join(dir, name);
@@ -59,7 +81,11 @@ const walk = (dir, fn) => {
 if (existsSync(exampleDir)) {
     walk(exampleDir, (path) => {
         const name = basename(path);
-        if (path.includes("/data/")) return; // metric sidecars are not concepts (§6)
+        if (path.includes("/data/")) {
+            // metric sidecars are not concepts (§6); -series.json files have their own schema (§6.1)
+            if (path.endsWith("-series.json")) checkSeries(path);
+            return;
+        }
         if (path.endsWith(".json")) {
             check(path, JSON.parse(readFileSync(path, "utf8")), conceptSchema, "concept");
         } else if (path.endsWith(".md")) {

@@ -1,0 +1,26 @@
+{
+    "concept": "scorecard-77146/measures/measure-1509292",
+    "periodicity": "Quarterly",
+    "periods": [
+        { "periodId": 189843, "period": "Mar-25", "periodDate": "2025-03-31" },
+        { "periodId": 256348, "period": "Jun-25", "periodDate": "2025-06-30" },
+        { "periodId": 256351, "period": "Sep-25", "periodDate": "2025-09-30" },
+        { "periodId": 189846, "period": "Dec-25", "periodDate": "2025-12-31" }
+    ],
+    "series": [
+        {
+            "name": "Actual",
+            "seriesDataTypeId": 6,
+            "unit": "%",
+            "values": [71.5, 74.0, 76.5, 79.0],
+            "labels": ["71.5%", "74.0%", "76.5%", "79.0%"]
+        },
+        {
+            "name": "Target",
+            "seriesDataTypeId": 6,
+            "unit": "%",
+            "values": [75.0, 75.0, 80.0, 80.0],
+            "labels": ["75.0%", "75.0%", "80.0%", "80.0%"]
+        }
+    ]
+}
