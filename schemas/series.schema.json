@@ -1,0 +1,81 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://clearpointstrategy.com/okf-strategy/series.schema.json",
+    "title": "okf-strategy — numeric series sidecar (OKF-Strategy profile v0.1)",
+    "description": "The analytical sidecar data/<object>-<id>-series.json referenced by cps.measure.dataResource (SPEC §6.1). Columnar: one shared, ascending period axis, and one value array per series aligned to it by index. Not a concept — it has no frontmatter and no `type`.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["concept", "periods", "series"],
+    "properties": {
+        "concept": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Concept ID (bundle-relative path minus .md) of the element that owns this series. Back-reference to the concept whose cps.measure.dataResource points here."
+        },
+        "periodicity": {
+            "type": "string",
+            "description": "The element's reporting periodicity (periodGroup NAME), as in cps.periodicity."
+        },
+        "periods": {
+            "type": "array",
+            "description": "The shared period axis, oldest first. Every series' values[i] belongs to periods[i].",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["period"],
+                "properties": {
+                    "periodId": {
+                        "type": ["integer", "null"],
+                        "description": "Period id from the root periods.md lookup; null when the source has none."
+                    },
+                    "period": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Period name as the source system shows it (e.g. 'Q4-25', '2024', 'FY 2025')."
+                    },
+                    "periodDate": {
+                        "type": ["string", "null"],
+                        "format": "date",
+                        "description": "Last day of the period (valid time). Orders the axis; null only when the source name cannot be dated."
+                    }
+                }
+            }
+        },
+        "series": {
+            "type": "array",
+            "minItems": 1,
+            "description": "One entry per series, in the same order as cps.measure.series where that is present.",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["name", "values"],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Series name; matches a cps.measure.series[].name on the owning concept (e.g. 'Actual', 'Target')."
+                    },
+                    "seriesDataTypeId": {
+                        "type": "integer",
+                        "enum": [4, 5, 6, 8, 9, 10, 11],
+                        "description": "Same codes as cps.measure.series[].seriesDataTypeId. 11 = Text, whose values are strings."
+                    },
+                    "unit": {
+                        "type": ["string", "null"],
+                        "description": "Unit of measure as displayed (e.g. '%', '$', 'per 100,000')."
+                    },
+                    "values": {
+                        "type": "array",
+                        "description": "Raw values aligned to periods by index. null = no value entered for that period.",
+                        "items": { "type": ["number", "string", "null"] }
+                    },
+                    "labels": {
+                        "type": "array",
+                        "description": "Optional formatted display strings aligned to periods (e.g. '15.6%'), so a reader can quote the value exactly as the source showed it.",
+                        "items": { "type": ["string", "null"] }
+                    }
+                }
+            }
+        }
+    }
+}
