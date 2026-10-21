@@ -9,7 +9,6 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
   status:
     currentPeriod:
       periodId: 189846
@@ -33,7 +32,6 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Steve Smith
-- **Reporting frequency:** Default
 
 ## Status
 

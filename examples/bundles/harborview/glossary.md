@@ -1,0 +1,22 @@
+---
+type: Lookup
+title: Glossary
+cps:
+  profile: "1.0"
+  lookup: glossary
+---
+
+## Glossary
+
+How this organization names each element type. The default applies unless a scorecard overrides it.
+
+| Type | Term | Plural |
+| --- | --- | --- |
+| scorecard | Scorecard | Scorecards |
+| category | Priority | Priorities |
+| objective | Objective | Objectives |
+| measure | Measure | Measures |
+| initiative | Initiative | Initiatives |
+| milestone | Milestone | Milestones |
+| actionItem | Action Item | Action Items |
+| risk | Risk | Risks |

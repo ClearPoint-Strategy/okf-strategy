@@ -9,7 +9,6 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
   startDate: "2025-01-07"
   endDate: "2025-02-05"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Tammy Cuzco (Operations)
-- **Reporting frequency:** Default
 
 ## Status
 

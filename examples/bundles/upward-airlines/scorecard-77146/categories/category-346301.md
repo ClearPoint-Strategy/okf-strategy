@@ -7,6 +7,8 @@ cps:
   objectId: 346301
   scorecardId: 77146
   scorecard: Upward Airlines Corporate
+  access:
+    derivedFrom: clearpoint://scorecard/77146
 ---
 
 ## Overview

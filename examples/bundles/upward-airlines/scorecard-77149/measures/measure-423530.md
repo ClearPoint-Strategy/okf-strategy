@@ -58,7 +58,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: Q4-25
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18578
       status: Above Target
@@ -86,8 +86,9 @@ We will use this measure to help inform our expansion plans.
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 51 (target 50)
 
 ## Objectives
 

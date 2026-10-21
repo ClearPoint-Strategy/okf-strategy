@@ -9,7 +9,6 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
   startDate: "2024-11-09"
   endDate: "2024-12-17"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 
 ## Status
 

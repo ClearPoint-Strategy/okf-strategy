@@ -64,8 +64,8 @@ npm run validate                 # every bundle under examples/bundles/
 npm run validate -- path/to/bundle   # your own bundle
 ```
 
-Two worked bundles live in [`examples/bundles/`](examples/bundles/) (Upward Airlines and a larger,
-multi-scorecard Metropolis account), both generated from a real strategy platform.
+Two worked bundles live in [`examples/bundles/`](examples/bundles/) (Upward Airlines and Harborview, a
+ten-scorecard city government with fictional people), both generated from a real strategy platform.
 
 ## Relationship to base OKF
 

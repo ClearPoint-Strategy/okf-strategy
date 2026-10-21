@@ -9,7 +9,6 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
   startDate: "2024-12-28"
   endDate: "2025-03-19"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

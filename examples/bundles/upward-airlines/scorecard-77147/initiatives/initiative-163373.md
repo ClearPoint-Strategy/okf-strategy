@@ -9,7 +9,6 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   startDate: "2024-11-29"
   endDate: "2025-06-28"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Janice Jones
-- **Reporting frequency:** Default
 
 ## Description
 

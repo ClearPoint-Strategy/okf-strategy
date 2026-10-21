@@ -89,6 +89,7 @@ This information is sourced from a common spreadsheet for all regions.
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 8900 (target 8000)
 
 ### Analysis
 

@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   status:
     currentPeriod:
       periodId: 189846
@@ -33,7 +32,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Ted Jackson
-- **Reporting frequency:** Default
 
 ## Status
 

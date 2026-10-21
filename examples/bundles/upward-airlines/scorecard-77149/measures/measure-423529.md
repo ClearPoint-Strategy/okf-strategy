@@ -90,6 +90,7 @@ This is our earnings metric, telling us how well we are doing.
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 350 (target 8.11)
 
 ### Analysis
 

@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2025-03-06"
   endDate: "2025-03-31"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Lawrence Sito
-- **Reporting frequency:** Default
 
 ## Status
 

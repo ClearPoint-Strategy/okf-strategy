@@ -9,7 +9,6 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   startDate: "2025-02-28"
   endDate: "2025-08-25"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Description
 

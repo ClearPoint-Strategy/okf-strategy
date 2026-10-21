@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2025-02-20"
   endDate: "2025-04-13"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Trudy Joplin (Sales)
-- **Reporting frequency:** Default
 
 ## Description
 

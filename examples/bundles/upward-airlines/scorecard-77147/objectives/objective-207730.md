@@ -9,7 +9,6 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
@@ -64,7 +63,6 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Lawrence Sito
-- **Reporting frequency:** Default
 
 ## Status
 

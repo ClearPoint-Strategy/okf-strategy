@@ -79,7 +79,7 @@ cps:
 
 ## Description
 
-We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it&#39;s next departure. 
+We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. 
 
  
 
@@ -89,6 +89,7 @@ We are measuring the number of minutes it takes from the time a plane arrives at
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution
+- **Value:** 35 (target 33)
 
 ### Analysis
 

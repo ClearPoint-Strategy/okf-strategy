@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   status:
     currentPeriod:
       periodId: 189846
@@ -22,8 +21,6 @@ cps:
     lastUpdatedBy:
       at: "2020-12-01T16:12:05.340Z"
       name: Clarice Strong (Operations)
-    owner:
-      name: Clarice Strong
     lastEditedBy:
       name: Clarice Strong (Operations)
       at: "2020-02-21T15:26:59.923Z"
@@ -32,8 +29,6 @@ cps:
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
-- **Owner:** Clarice Strong
-- **Reporting frequency:** Default
 
 ## Status
 

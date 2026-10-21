@@ -9,7 +9,6 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   startDate: "2025-01-14"
   endDate: "2025-03-05"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Izzy Moreno (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

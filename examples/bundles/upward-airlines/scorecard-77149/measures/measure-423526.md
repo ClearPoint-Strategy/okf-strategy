@@ -81,6 +81,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 53 (target 60)
 
 ### Analysis
 

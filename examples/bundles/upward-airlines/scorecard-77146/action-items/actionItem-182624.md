@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2022-02-27"
   endDate: "2023-07-08"
   status:
@@ -35,7 +34,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Steve Smith
-- **Reporting frequency:** Default
 
 ## Status
 

@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2025-07-01"
   endDate: "2025-10-31"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Mark Cutler
-- **Reporting frequency:** Default
 
 ## Details
 

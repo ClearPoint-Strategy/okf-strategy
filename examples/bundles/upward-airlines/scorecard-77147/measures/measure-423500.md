@@ -55,7 +55,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: Q4-25
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18580
       status: Below Plan
@@ -79,7 +79,7 @@ cps:
 
 ## Description
 
-We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it&#39;s next departure. 
+We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. 
 
  
 
@@ -91,8 +91,9 @@ We are measuring the number of minutes it takes from the time a plane arrives at
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 36 (target 30)
 
 ### Analysis
 

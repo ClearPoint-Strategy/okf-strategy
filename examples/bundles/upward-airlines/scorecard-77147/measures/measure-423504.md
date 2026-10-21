@@ -55,7 +55,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: "2025"
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18578
       status: Above Target
@@ -83,8 +83,9 @@ We want to ensure we are providing our employees with competitive wages and rewa
 
 ## Status
 
-- **Period:** 2025 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 3 (target 3)
 
 ### Analysis
 

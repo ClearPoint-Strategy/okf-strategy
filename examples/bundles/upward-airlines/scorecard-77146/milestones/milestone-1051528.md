@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2026-03-01"
   endDate: "2026-05-01"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Catherine Mendoza
-- **Reporting frequency:** Default
 
 ## Details
 

@@ -84,6 +84,7 @@ cps:
 
 - **Period:** Apr-25 (2025-04-30)
 - **Status:** Below Plan
+- **Value:** 26
 
 ## Action Items
 

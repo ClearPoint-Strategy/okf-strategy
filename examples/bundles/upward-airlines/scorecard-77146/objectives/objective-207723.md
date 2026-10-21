@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   status:
     currentPeriod:
       periodId: 189846
@@ -33,11 +32,10 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Janice Jones
-- **Reporting frequency:** Default
 
 ## Description
 
-We want our employees to feel an equal amount of intrinsic and extrinsic value when being a member of the Upward Airlines&#39; team. To do so, we must track compensation, ownership, and overall satisfaction to ensure our employees feel as if we are living up to our Vision and Mission.
+We want our employees to feel an equal amount of intrinsic and extrinsic value when being a member of the Upward Airlines' team. To do so, we must track compensation, ownership, and overall satisfaction to ensure our employees feel as if we are living up to our Vision and Mission.
 
 ## Status
 

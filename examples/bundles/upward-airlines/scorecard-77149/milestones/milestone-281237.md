@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2024-11-15"
   endDate: "2024-12-05"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Catherine Mendoza
-- **Reporting frequency:** Default
 
 ## Status
 

@@ -20,7 +20,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189843
-      period: Q1-25
+      period: Mar-25
       periodDate: "2025-03-31"
       statusId: 0
       status: Not Defined
@@ -41,5 +41,5 @@ cps:
 
 ## Status
 
-- **Period:** Q1-25 (2025-03-31)
+- **Period:** Mar-25 (2025-03-31)
 - **Status:** Not Defined

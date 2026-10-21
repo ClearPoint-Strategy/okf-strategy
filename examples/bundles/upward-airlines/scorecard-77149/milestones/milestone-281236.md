@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2025-03-04"
   endDate: "2025-03-28"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Editor Upward Zonier
-- **Reporting frequency:** Default
 
 ## Status
 

@@ -20,7 +20,7 @@ cps:
   status:
     currentPeriod:
       periodId: 256351
-      period: Q3-25
+      period: Sep-25
       periodDate: "2025-09-30"
       statusId: 18578
       status: Above Target
@@ -44,7 +44,7 @@ cps:
 
 ## Status
 
-- **Period:** Q3-25 (2025-09-30)
+- **Period:** Sep-25 (2025-09-30)
 - **Status:** Above Target
 
 ## Parent Milestone

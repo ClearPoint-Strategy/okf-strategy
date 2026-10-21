@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2024-11-09"
   endDate: "2024-11-18"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Tammy Cuzco (Operations)
-- **Reporting frequency:** Default
 
 ## Status
 

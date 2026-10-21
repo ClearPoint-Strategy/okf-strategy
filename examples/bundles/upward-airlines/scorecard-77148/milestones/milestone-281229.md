@@ -9,7 +9,6 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
   startDate: "2025-02-03"
   endDate: "2025-03-20"
   measure:
@@ -29,8 +28,6 @@ cps:
     lastUpdatedBy:
       at: "2020-12-01T16:11:42.640Z"
       name: Clarice Strong (Operations)
-    owner:
-      name: Clarice Strong
     lastEditedBy:
       name: Clarice Strong (Operations)
       at: "2025-03-10T22:24:27.360Z"
@@ -39,8 +36,6 @@ cps:
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
-- **Owner:** Clarice Strong
-- **Reporting frequency:** Default
 
 ## Status
 

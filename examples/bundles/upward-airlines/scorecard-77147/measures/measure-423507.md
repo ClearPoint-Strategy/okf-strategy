@@ -66,7 +66,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: Q4-25
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18579
       status: Caution
@@ -94,8 +94,9 @@ cps:
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution
+- **Value:** 3400 (target 3507.01)
 
 ### Analysis
 

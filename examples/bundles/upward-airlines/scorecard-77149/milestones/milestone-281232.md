@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2024-10-28"
   endDate: "2024-12-05"
   measure:
@@ -36,7 +35,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 
 ## Status
 

@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
@@ -64,7 +63,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Greg Garcia
-- **Reporting frequency:** Default
 
 ## Description
 

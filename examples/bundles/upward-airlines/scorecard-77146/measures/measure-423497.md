@@ -127,6 +127,7 @@ Tracks the total amount of money spent within a defined period.
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 2855 (target 2992.5)
 
 ### Analysis
 

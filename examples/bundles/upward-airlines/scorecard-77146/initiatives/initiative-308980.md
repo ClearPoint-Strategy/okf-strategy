@@ -144,6 +144,7 @@ Detailed project management is possible by leveraging project evaluations to tra
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 94 (target 94)
 
 ### Analysis
 

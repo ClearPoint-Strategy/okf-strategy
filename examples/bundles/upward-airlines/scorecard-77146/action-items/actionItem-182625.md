@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2023-06-30"
   endDate: "2023-11-30"
   status:
@@ -32,7 +31,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

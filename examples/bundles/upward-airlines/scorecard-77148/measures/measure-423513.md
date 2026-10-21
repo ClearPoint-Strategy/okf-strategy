@@ -87,6 +87,7 @@ We are measuring the number of minutes it takes from the time a plane arrives at
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 34 (target 30)
 
 ### Analysis
 

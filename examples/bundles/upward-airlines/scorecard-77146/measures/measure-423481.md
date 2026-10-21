@@ -101,6 +101,7 @@ Great job team! Keep it up for next quarter.
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** -0.18 (target 5.26)
 
 ### Analysis
 

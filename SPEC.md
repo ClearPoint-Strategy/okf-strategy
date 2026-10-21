@@ -69,7 +69,7 @@ comma-and-space separated; an empty cell means none. The required columns are:
 | `users.md` | `users` | Users | ID, Name, Email, Type, Active, Last Login |
 | `statuses.md` | `statuses` | Statuses | ID, Name, Color, Score, Meaning, Applies To |
 | `tags.md` | `tags` | Tags | ID, Name, Color |
-| `periods.md` | `periods` | Periods | ID, Name, Start, End |
+| `periods.md` | `periods` | Periods | ID, Name, Date |
 | `periodicities.md` | `periodicities` | Periodicities | ID, Name, Periods, Default, Period IDs |
 | `custom-fields.md` | `customFields` | Custom Fields | ID, Name, Element Type, Field Type, Mode, Scorecards |
 | `glossary.md` | `glossary` | Glossary | Type, Term, Plural |
@@ -83,7 +83,9 @@ Column meanings that are not self-evident:
   `below_plan`, or `no_information`, empty when the status has none. It is how a consumer compares
   "Above Target" in one account with "Green" in another. **Score** is the number objective roll-ups
   average (§6.2). **Applies To** lists the element types that may carry the status, or `all`.
-- **periods.Start / End** are dates; End is the period's last day and orders time.
+- **periods.Date** is the period's last day. It orders time and equals `periodDate` in the sidecars.
+  **Name** is the period's base name. A concept's `currentPeriod.period` and the sidecars use the same
+  name, never a per-periodicity alias.
 - **periodicities.Periods** is the period count; **Period IDs** lists them in date order; **Default** is
   `yes` for the account default.
 - **custom-fields.Mode** is `edit` (one value per element) or `update` (one value per period).
@@ -242,7 +244,11 @@ the series, the sidecar, and the evaluation rules sit on the element that owns t
   `aggregateType`, `calculation` (producer syntax, opaque to other consumers), `currency`, and
   `numberFormat`.
 - **`cps.measure.dataResource`** names the sidecar holding every value (§6.1).
-- **The grounding projection** is the body's `## Status` value line: latest value with its target.
+- **The grounding projection** is the body's `## Status` value line, `- **Value:** <value> (target <target>)`.
+  It shows the current period's value of the series that drives status (`cps.evaluation.statusSeries`,
+  else the first series). The target is the series its bands compare against, else a series named
+  Target. Numbers are rounded to two decimals; the sidecar holds the stored value. The line is omitted
+  when that series has no value in the current period.
 
 ### 6.1 Series sidecar layout
 
@@ -266,7 +272,9 @@ It is columnar: one shared period axis, and one value array per series aligned t
 
 - **`concept`** is the owning Concept ID, whose `cps.measure.dataResource` names this file.
 - **`periods`** runs oldest first, ordered by `periodDate`, the period's last day. It holds every period
-  in which at least one series has a value. `periodId` refers to `periods.md`.
+  in which at least one series has a value. `periodId` refers to `periods.md`. The axis can hold
+  periods outside `periodicity`: a series may store values at a finer cadence than the element reports
+  on. Read the element's reporting periods from `periodicities.md`.
 - **`series[].values[i]`** belongs to `periods[i]`, so every `values` array has the length of `periods`.
   A missing value is `null`, never a dropped entry. Values are numbers, except for Text series
   (`seriesDataTypeId` 11), whose values are strings.

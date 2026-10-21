@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2025-12-12"
   endDate: "2026-01-20"
   measure:
@@ -40,7 +39,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Tammy Cuzco (Operations)
-- **Reporting frequency:** Default
 
 ## Status
 

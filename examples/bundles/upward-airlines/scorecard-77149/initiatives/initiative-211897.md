@@ -9,7 +9,6 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
   startDate: "2024-12-28"
   endDate: "2025-05-01"
   measure:
@@ -37,7 +36,6 @@ cps:
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Izzy Moreno (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

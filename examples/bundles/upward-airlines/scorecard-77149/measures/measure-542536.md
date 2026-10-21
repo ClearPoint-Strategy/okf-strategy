@@ -25,7 +25,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: "2025"
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18580
       status: Below Plan
@@ -49,8 +49,9 @@ cps:
 
 ## Status
 
-- **Period:** 2025 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 12 (target 18)
 
 ### Analysis
 

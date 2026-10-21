@@ -9,7 +9,6 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   startDate: "2024-12-28"
   endDate: "2025-06-23"
   measure:
@@ -42,7 +41,6 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Clarice Strong (Operations)
-- **Reporting frequency:** Default
 
 ## Description
 

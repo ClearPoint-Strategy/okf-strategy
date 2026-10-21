@@ -128,6 +128,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution
+- **Value:** 24050 (target 23000)
 
 ### Analysis
 

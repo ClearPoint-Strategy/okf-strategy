@@ -81,6 +81,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 60 (target 60)
 
 ### Analysis
 

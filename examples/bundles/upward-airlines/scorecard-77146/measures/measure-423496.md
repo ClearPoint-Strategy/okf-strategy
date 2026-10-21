@@ -129,6 +129,7 @@ We are measuring our total revenues for the company.
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 2850 (target 3150)
 
 ### Analysis
 

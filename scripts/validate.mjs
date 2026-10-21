@@ -35,7 +35,7 @@ const LOOKUP_COLUMNS = {
     "users.md": ["ID", "Name", "Email", "Type", "Active", "Last Login"],
     "statuses.md": ["ID", "Name", "Color", "Score", "Meaning", "Applies To"],
     "tags.md": ["ID", "Name", "Color"],
-    "periods.md": ["ID", "Name", "Start", "End"],
+    "periods.md": ["ID", "Name", "Date"],
     "periodicities.md": ["ID", "Name", "Periods", "Default", "Period IDs"],
     "custom-fields.md": ["ID", "Name", "Element Type", "Field Type", "Mode", "Scorecards"],
     "glossary.md": ["Type", "Term", "Plural"],

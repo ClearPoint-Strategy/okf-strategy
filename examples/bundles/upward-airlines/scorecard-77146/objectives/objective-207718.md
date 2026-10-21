@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
@@ -60,11 +59,10 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Janice Jones
-- **Reporting frequency:** Default
 
 ## Description
 
-Part of the reason we are able to offer such low prices is because we keep our costs low, through the &quot;no frills&quot; policy. While we still provide our customers with top notch service (and snacks!), we want to eliminate any wasteful spending.
+Part of the reason we are able to offer such low prices is because we keep our costs low, through the "no frills" policy. While we still provide our customers with top notch service (and snacks!), we want to eliminate any wasteful spending.
 
 ## Status
 

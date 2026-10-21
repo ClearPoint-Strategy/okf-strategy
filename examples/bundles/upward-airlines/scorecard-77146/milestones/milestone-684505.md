@@ -20,7 +20,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: Q4-25
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18581
       status: No Information
@@ -29,8 +29,6 @@ cps:
     lastUpdatedBy:
       at: "2021-11-12T15:52:10.490Z"
       name: Clarice Strong (Operations)
-    owner:
-      name: Clarice Strong
     lastEditedBy:
       name: Clarice Strong (Operations)
       at: "2025-02-26T15:20:49.103Z"
@@ -39,10 +37,9 @@ cps:
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
-- **Owner:** Clarice Strong
 - **Reporting frequency:** Quarterly
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** No Information

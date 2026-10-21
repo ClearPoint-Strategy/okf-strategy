@@ -20,7 +20,7 @@ cps:
   status:
     currentPeriod:
       periodId: 168172
-      period: Q1-24
+      period: Mar-24
       periodDate: "2024-03-31"
       statusId: 18578
       status: Above Target
@@ -44,5 +44,5 @@ cps:
 
 ## Status
 
-- **Period:** Q1-24 (2024-03-31)
+- **Period:** Mar-24 (2024-03-31)
 - **Status:** Above Target

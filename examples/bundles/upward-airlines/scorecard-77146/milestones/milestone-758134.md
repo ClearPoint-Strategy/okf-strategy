@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2025-08-01"
   endDate: "2025-10-19"
   measure:
@@ -37,7 +36,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Lawrence Sito
-- **Reporting frequency:** Default
 
 ## Status
 

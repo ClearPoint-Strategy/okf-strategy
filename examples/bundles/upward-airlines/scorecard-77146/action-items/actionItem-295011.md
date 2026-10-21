@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2023-02-01"
   endDate: "2023-05-31"
   status:
@@ -35,7 +34,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Clarice Strong (Operations)
-- **Reporting frequency:** Default
 
 ## Status
 

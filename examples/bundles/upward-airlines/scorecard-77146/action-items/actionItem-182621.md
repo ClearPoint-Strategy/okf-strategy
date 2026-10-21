@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2023-09-06"
   endDate: "2023-12-09"
   status:
@@ -35,7 +34,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Izzy Moreno (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

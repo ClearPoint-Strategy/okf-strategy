@@ -58,7 +58,7 @@ cps:
   status:
     currentPeriod:
       periodId: 189846
-      period: Q4-25
+      period: Dec-25
       periodDate: "2025-12-31"
       statusId: 18580
       status: Below Plan
@@ -86,8 +86,9 @@ We want to measure our ticket prices compared to the industry average and our ta
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 12 (target 10)
 
 ## Objectives
 

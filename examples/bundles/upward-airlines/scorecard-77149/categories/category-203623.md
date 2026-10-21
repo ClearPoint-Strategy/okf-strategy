@@ -7,6 +7,8 @@ cps:
   objectId: 203623
   scorecardId: 77149
   scorecard: 🏜️ Western Division
+  access:
+    derivedFrom: clearpoint://scorecard/77149
 ---
 
 ## Overview

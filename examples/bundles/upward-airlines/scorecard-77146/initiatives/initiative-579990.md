@@ -11,7 +11,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   startDate: "2025-06-30"
   endDate: "2026-06-28"
   measure:
@@ -47,7 +46,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 - **Tags:** High Priority
 
 ## Description

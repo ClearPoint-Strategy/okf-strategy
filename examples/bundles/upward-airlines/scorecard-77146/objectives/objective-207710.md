@@ -9,7 +9,6 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
@@ -65,7 +64,6 @@ cps:
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Izzy Moreno (Sales)
-- **Reporting frequency:** Default
 
 ## Description
 

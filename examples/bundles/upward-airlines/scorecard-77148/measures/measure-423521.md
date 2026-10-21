@@ -89,6 +89,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 3331 (target 3243.99)
 
 ### Analysis
 

@@ -9,7 +9,6 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   status:
     currentPeriod:
       periodId: 189846
@@ -33,7 +32,6 @@ cps:
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Mark Cutler
-- **Reporting frequency:** Default
 
 ## Status
 
