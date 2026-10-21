@@ -15,6 +15,61 @@ cps:
     - group: No Finances
       level: No Access
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2224704
+    series:
+    - name: Actual
+      seriesId: 2224704
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224705
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: "*1.05"
+        referenceSeries: Target
+        referenceSeriesId: 2224705
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: gt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224705
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
+    - name: Variance
+      seriesId: 2224706
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: lte
+        calculation: =0
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: =100
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: gt
+        calculation: =100
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: James Crockett (Sales)

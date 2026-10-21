@@ -10,6 +10,41 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Default
+  evaluation:
+    enabled: true
+    bands:
+    - status: Above Target
+      statusId: 18578
+      compare: gte
+      calculation: 2.5
+      sortOrder: 1
+    - status: Caution
+      statusId: 18579
+      compare: gte
+      calculation: 1.5
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 18580
+      compare: lt
+      calculation: 1.5
+      sortOrder: 3
+    - status: No Information
+      statusId: 18581
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: initiative
+      objectId: 163373
+      concept: scorecard-77147/initiatives/initiative-163373
+      weight: 33
+    - object: initiative
+      objectId: 163374
+      concept: scorecard-77147/initiatives/initiative-163374
+      weight: 33
+    - object: measure
+      objectId: 423500
+      concept: scorecard-77147/measures/measure-423500
+      weight: 34
   provenance:
     owner:
       name: Izzy Moreno (Sales)

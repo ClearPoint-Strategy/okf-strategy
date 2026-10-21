@@ -10,6 +10,45 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Default
+  evaluation:
+    enabled: true
+    bands:
+    - status: Above Target
+      statusId: 18578
+      compare: gte
+      calculation: 2.5
+      sortOrder: 1
+    - status: Caution
+      statusId: 18579
+      compare: gte
+      calculation: 1.5
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 18580
+      compare: lt
+      calculation: 1.5
+      sortOrder: 3
+    - status: No Information
+      statusId: 18581
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: measure
+      objectId: 423505
+      concept: scorecard-77147/measures/measure-423505
+      weight: 25
+    - object: measure
+      objectId: 423507
+      concept: scorecard-77147/measures/measure-423507
+      weight: 25
+    - object: measure
+      objectId: 423508
+      concept: scorecard-77147/measures/measure-423508
+      weight: 25
+    - object: measure
+      objectId: 542405
+      concept: scorecard-77147/measures/measure-542405
+      weight: 25
   provenance:
     owner:
       name: Clarice Strong (Operations)

@@ -10,6 +10,39 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Maintenance Cost
+    statusSeriesId: 2224683
+    series:
+    - name: Maintenance Cost
+      seriesId: 2224683
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224684
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: "*1.1"
+        referenceSeries: Target
+        referenceSeriesId: 2224684
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: gt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224684
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Janice Jones

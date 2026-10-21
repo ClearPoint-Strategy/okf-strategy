@@ -12,6 +12,60 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2224681
+    series:
+    - name: Actual
+      seriesId: 2224681
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224682
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: "*1.05"
+        referenceSeries: Target
+        referenceSeriesId: 2224682
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: gt
+        calculation: "*1.05"
+        referenceSeries: Target
+        referenceSeriesId: 2224682
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
+    - name: Eastern Division
+      seriesId: 4255196
+      bands:
+      - status: Below Plan
+        statusId: 18580
+        compare: any
+        sortOrder: 3
+    - name: Central Division
+      seriesId: 4255197
+      bands:
+      - status: Caution
+        statusId: 18579
+        compare: any
+        sortOrder: 2
+    - name: Western Division
+      seriesId: 4255198
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: any
+        sortOrder: 1
   provenance:
     owner:
       name: Clarice Strong (Operations)

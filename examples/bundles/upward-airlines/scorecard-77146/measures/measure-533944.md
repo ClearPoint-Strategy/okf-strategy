@@ -10,6 +10,29 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: "% Green"
+    statusSeriesId: 2658722
+    series:
+    - name: "% Green"
+      seriesId: 2658722
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: =50
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: =30
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: =30
+        sortOrder: 3
   provenance:
     owner:
       name: Joseph Lucco

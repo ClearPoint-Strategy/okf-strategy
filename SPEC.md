@@ -255,6 +255,93 @@ a warehouse table, and keeps a period's values for every series at the same inde
 
 ---
 
+### 6.2 Evaluation rules — `cps.evaluation`
+
+A status is usually *computed*: the source system turns a series value, or a weighted roll-up of
+child statuses, into a status through ordered rules. Base OKF has no place for that logic, and a
+bundle that carries values and statuses but not the rules behind them cannot explain *why* a measure
+is red or reproduce the judgment in another account. `cps.evaluation` carries the rules in effect.
+It is optional and omitted when evaluation is off for the element.
+
+```yaml
+cps:
+  evaluation:
+    enabled: true
+    statusSeries: Actual          # the series whose status becomes the element's status
+    statusSeriesId: 8426750       # -1 = best status across series, -2 = worst (statusSeries then reads best/worst)
+    series:
+      - name: Actual
+        seriesId: 8426750
+        bands:
+          - status: Above Target
+            statusId: 58768
+            compare: gte          # any | eq | neq | lt | lte | gt | gte | btw
+            calculation: ""
+            referenceSeries: Target
+            referenceSeriesId: 8426751
+            sortOrder: 1
+          - status: Caution
+            statusId: 58769
+            compare: gt
+            calculation: "*.9"    # the reference value times 0.9
+            referenceSeries: Target
+            referenceSeriesId: 8426751
+            sortOrder: 2
+          - status: No Information
+            statusId: 58771
+            compare: any
+            sortOrder: 4
+```
+
+- **Any element type may carry series bands** — measure, initiative, milestone, actionItem, risk — because
+  each may hold series (§6). The bands sit on the element that owns the series; a producer that stores
+  them on an internal shadow object resolves that before emitting, exactly as it does for the series.
+- **Bands are ordered.** For each period the first band whose comparison holds, by `sortOrder`, gives the
+  series its status. `compare: any` always holds and is the usual last band.
+- **The threshold** is `calculation` applied to the reference series' value for the same period:
+  - a bare number, or a string of the form `=<number>`, is a literal threshold and needs no reference;
+  - an empty string compares against the reference value itself;
+  - any other string is an arithmetic suffix appended to the reference value and evaluated
+    (`+5`, `-10`, `*.9`);
+  - for `btw`, `calculation` is `low,high`, each side following the same rules, bounds inclusive.
+  `referenceSeries` / `referenceSeriesId` name the reference and are omitted for literal thresholds.
+- **`statusSeries`** names which series' status the element reports. `statusSeriesId` is `-1` or `-2`
+  when the element reports the best or worst status across its evaluated series instead.
+- **Objectives** evaluate a weighted roll-up rather than a series. Their block carries `bands` directly
+  and `weights`, the children whose status scores (`statuses.md`, Score column) are averaged by weight:
+
+```yaml
+cps:
+  evaluation:
+    enabled: true
+    bands:
+      - status: Above Target
+        statusId: 58768
+        compare: gte
+        calculation: 2.5
+        sortOrder: 1
+      - status: No Information
+        statusId: 58771
+        compare: any
+        sortOrder: 4
+    weights:
+      - object: measure
+        objectId: 2123996
+        concept: scorecard-184782/measures/measure-2123996
+        weight: 25
+      - object: objective
+        objectId: 735533
+        concept: scorecard-184782/objectives/objective-735533
+        weight: 25
+```
+
+  `calculation` for an objective band is always a literal (or a `low,high` pair for `btw`) compared
+  against the weighted average score. `concept` is the child's Concept ID when it is resolvable.
+- Only rules in effect are carried: enabled bands whose status applies to the element type. Disabled
+  or placeholder bands are not part of the bundle. Status ids resolve against the root `statuses.md`.
+- `cps.measure.evaluation` (an earlier, unused rule shape) stays valid for compatibility; new producers
+  write `cps.evaluation`.
+
 ## 7. Conformance & the validator
 
 A bundle conforms to OKF-Strategy v0.1 when:

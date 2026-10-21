@@ -12,6 +12,33 @@ cps:
   periodicity: Monthly 2025-26
   startDate: 2025-05-31
   endDate: 2025-09-01
+  evaluation:
+    enabled: true
+    statusSeries: Milestone Percent Complete
+    statusSeriesId: 3482810
+    series:
+    - name: Milestone Percent Complete
+      seriesId: 3482810
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: =80
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: =50
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: =50
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Tammy Cuzco (Operations)

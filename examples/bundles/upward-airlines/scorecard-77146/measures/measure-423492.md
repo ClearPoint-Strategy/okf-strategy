@@ -10,6 +10,39 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: Utilization Percentage
+    statusSeriesId: 2224686
+    series:
+    - name: Utilization Percentage
+      seriesId: 2224686
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224687
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: "*.95"
+        referenceSeries: Target
+        referenceSeriesId: 2224687
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224687
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: James Crockett (Sales)

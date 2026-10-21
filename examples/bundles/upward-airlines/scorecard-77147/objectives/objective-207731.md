@@ -10,6 +10,33 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Default
+  evaluation:
+    enabled: true
+    bands:
+    - status: Above Target
+      statusId: 18578
+      compare: gte
+      calculation: 2.5
+      sortOrder: 1
+    - status: Caution
+      statusId: 18579
+      compare: gte
+      calculation: 1.5
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 18580
+      compare: lt
+      calculation: 1.5
+      sortOrder: 3
+    - status: No Information
+      statusId: 18581
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: measure
+      objectId: 423509
+      concept: scorecard-77147/measures/measure-423509
+      weight: 100
   provenance:
     owner:
       name: Steve Smith

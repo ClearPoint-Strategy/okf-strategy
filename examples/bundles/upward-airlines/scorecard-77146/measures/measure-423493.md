@@ -10,6 +10,39 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: Avg. Wage / Hr
+    statusSeriesId: 2224688
+    series:
+    - name: Avg. Wage / Hr
+      seriesId: 2224688
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224689
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: "*.90"
+        referenceSeries: Target
+        referenceSeriesId: 2224689
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224689
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Steve Smith
