@@ -9,22 +9,33 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
-  startDate: 2024-12-28
-  endDate: 2025-05-01
+  startDate: "2024-12-28"
+  endDate: "2025-05-01"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189844
+      period: Feb-25
+      periodDate: "2025-02-28"
+      statusId: 0
+      status: Not Defined
+    statusResource: scorecard-77149/data/initiative-211897-status.json
   provenance:
     owner:
       name: Izzy Moreno (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:25:57.110Z
+      at: "2025-03-10T22:25:57.110Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Izzy Moreno (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

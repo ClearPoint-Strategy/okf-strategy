@@ -9,22 +9,36 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
-  startDate: 2025-01-11
-  endDate: 2025-02-08
+  startDate: "2025-01-11"
+  endDate: "2025-02-08"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77148/data/milestone-281223-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:42.557Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Catherine Mendoza
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:24:27.167Z
+      at: "2025-03-10T22:24:27.167Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Catherine Mendoza
-- **Reporting frequency:** Default
 
 ## Status
 

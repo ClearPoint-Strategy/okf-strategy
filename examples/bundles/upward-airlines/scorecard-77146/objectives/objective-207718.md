@@ -9,24 +9,23 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
     - status: Above Target
       statusId: 18578
       compare: eq
-      calculation: 3
+      calculation: "3"
       sortOrder: 1
     - status: Caution
       statusId: 18579
       compare: eq
-      calculation: 2
+      calculation: "2"
       sortOrder: 2
     - status: Below Plan
       statusId: 18580
       compare: eq
-      calculation: 1
+      calculation: "1"
       sortOrder: 3
     - status: No Information
       statusId: 18581
@@ -37,23 +36,33 @@ cps:
       objectId: 423490
       concept: scorecard-77146/measures/measure-423490
       weight: 100
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/objective-207718-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:35.580Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Janice Jones
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T21:50:56.710Z
+      at: "2016-07-27T21:50:56.710Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Janice Jones
-- **Reporting frequency:** Default
 
 ## Description
 
-Part of the reason we are able to offer such low prices is because we keep our costs low, through the &quot;no frills&quot; policy. While we still provide our customers with top notch service (and snacks!), we want to eliminate any wasteful spending.
+Part of the reason we are able to offer such low prices is because we keep our costs low, through the "no frills" policy. While we still provide our customers with top notch service (and snacks!), we want to eliminate any wasteful spending.
 
 ## Status
 

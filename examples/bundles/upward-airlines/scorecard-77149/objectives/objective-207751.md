@@ -9,20 +9,29 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77149/data/objective-207751-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:04.640Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T22:10:26.633Z
+      at: "2016-07-27T22:10:26.633Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

@@ -1,23 +1,23 @@
-// Conformance gate for the OKF-CPS profile. Run: npm run validate
+// Conformance gate for the OKF-Strategy profile (SPEC §7). Run: npm run validate [bundle-dir ...]
 //
-// Descends from cps-parse's validator, elevated from "does this envelope match a schema"
-// to "does this bundle conform to the open profile":
-//   - root index.md frontmatter        -> bundle.schema.json
-//   - every other concept .md frontmatter -> concept.schema.json (cps block optional)
-//   - data/*-series.json sidecars        -> series.schema.json + index alignment (SPEC §6.1)
-//   - any other *.json under examples/   -> concept.schema.json (frontmatter-as-JSON)
-//
-// YAML frontmatter needs the `yaml` package. If deps aren't installed the run degrades
-// gracefully (validates JSON, skips .md) rather than crashing — install with `npm install`.
+// With no arguments it validates every bundle under examples/bundles/. With arguments, each argument is
+// one bundle root, so a producer can check its own output.
+//   - root index.md frontmatter            -> bundle.schema.json
+//   - every other concept .md frontmatter   -> concept.schema.json
+//   - root glossary.md                      -> carries cps.profile 1.x (§9)
+//   - root lookups                          -> required table columns (§2.1)
+//   - data/*-series.json                    -> series.schema.json + index alignment + order (§6.1)
+//   - data/*-status.json                    -> status.schema.json + order (§4.3.1)
+//   - data/layout-*.json                    -> producer presentation data, not checked (§6.3)
 import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { dirname, join, relative, basename } from "node:path";
+import { dirname, join, relative, basename, resolve } from "node:path";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
+import { parse as parseYaml } from "yaml";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const schemaDir = join(root, "schemas");
-const exampleDir = join(root, "examples");
 
 const ajv = new Ajv2020({ allErrors: true, strict: false });
 addFormats(ajv);
@@ -28,46 +28,93 @@ const byId = (id) => ajv.getSchema(`https://clearpointstrategy.com/okf-strategy/
 const conceptSchema = byId("concept.schema.json");
 const bundleSchema = byId("bundle.schema.json");
 const seriesSchema = byId("series.schema.json");
+const statusSchema = byId("status.schema.json");
 
-// Optional YAML — frontmatter validation is skipped (not failed) if it isn't installed.
-let parseYaml = null;
-try {
-    ({ parse: parseYaml } = await import("yaml"));
-} catch {
-    console.warn("NOTE  `yaml` not installed — skipping .md frontmatter checks (run `npm install`).\n");
-}
-
+// SPEC §2.1: file -> columns that must appear in one of its tables.
+const LOOKUP_COLUMNS = {
+    "users.md": ["ID", "Name", "Email", "Type", "Active", "Last Login"],
+    "statuses.md": ["ID", "Name", "Color", "Score", "Meaning", "Applies To"],
+    "tags.md": ["ID", "Name", "Color"],
+    "periods.md": ["ID", "Name", "Date"],
+    "periodicities.md": ["ID", "Name", "Periods", "Default", "Period IDs"],
+    "custom-fields.md": ["ID", "Name", "Element Type", "Field Type", "Mode", "Scorecards"],
+    "glossary.md": ["Type", "Term", "Plural"],
+    "user-access.md": ["Profile", "Users"],
+};
+const PROFILE = /^1\.\d+$/;
 const FM = /^---\n([\s\S]*?)\n---/;
 let failures = 0;
-let skipped = 0;
+let checked = 0;
 
-const check = (path, data, validate, label) => {
-    const ok = validate(data);
-    console.log(`${ok ? "PASS" : "FAIL"}  [${label}]  ${relative(root, path)}`);
-    if (!ok) {
-        failures++;
-        for (const e of validate.errors) console.log(`   ${e.instancePath || "/"} ${e.message}`);
-    }
+const fail = (path, problems) => {
+    failures++;
+    console.log(`FAIL  ${relative(process.cwd(), path)}`);
+    for (const p of problems) console.log(`   ${p}`);
+};
+const schemaProblems = (validate, data) => (validate(data) ? [] : validate.errors.map((e) => `${e.instancePath || "/"} ${e.message}`));
+const ascending = (periods) => {
+    const dates = periods.map((p) => p.periodDate).filter(Boolean);
+    return !dates.some((d, i) => i > 0 && d < dates[i - 1]);
 };
 
-// Index alignment and period order are §6.1 rules JSON Schema cannot express.
+// Header rows of every Markdown table in a body: a "| a | b |" line followed by a "| --- |" line.
+const tableHeaders = (body) => {
+    const lines = body.split("\n");
+    const out = [];
+    for (let i = 0; i + 1 < lines.length; i++) {
+        if (/^\|.*\|$/.test(lines[i].trim()) && /^\|\s*-{3}/.test(lines[i + 1].trim())) {
+            out.push(lines[i].trim().slice(1, -1).split("|").map((c) => c.trim()));
+        }
+    }
+    return out;
+};
+
 const checkSeries = (path) => {
     const data = JSON.parse(readFileSync(path, "utf8"));
-    check(path, data, seriesSchema, "series");
-    if (!seriesSchema(data)) return;
-    const n = data.periods.length;
-    const problems = [];
-    for (const s of data.series) {
-        if (s.values.length !== n) problems.push(`series "${s.name}" has ${s.values.length} values for ${n} periods`);
-        if (s.labels && s.labels.length !== n) problems.push(`series "${s.name}" has ${s.labels.length} labels for ${n} periods`);
+    const problems = schemaProblems(seriesSchema, data);
+    if (!problems.length) {
+        const n = data.periods.length;
+        for (const s of data.series) {
+            if (s.values.length !== n) problems.push(`series "${s.name}" has ${s.values.length} values for ${n} periods`);
+            if (s.labels && s.labels.length !== n) problems.push(`series "${s.name}" has ${s.labels.length} labels for ${n} periods`);
+        }
+        if (!ascending(data.periods)) problems.push("periods are not in ascending periodDate order");
     }
-    const dates = data.periods.map((p) => p.periodDate).filter(Boolean);
-    if (dates.some((d, i) => i > 0 && d < dates[i - 1])) problems.push("periods are not in ascending periodDate order");
-    if (problems.length) {
-        failures++;
-        console.log(`FAIL  [series]  ${relative(root, path)}`);
-        for (const p of problems) console.log(`   ${p}`);
+    return problems;
+};
+
+const checkStatus = (path) => {
+    const data = JSON.parse(readFileSync(path, "utf8"));
+    const problems = schemaProblems(statusSchema, data);
+    if (!problems.length && !ascending(data.periods)) problems.push("periods are not in ascending periodDate order");
+    return problems;
+};
+
+const checkMarkdown = (bundleRoot, path) => {
+    const name = basename(path);
+    const rel = relative(bundleRoot, path);
+    if (name === "log.md") return [];
+    const text = readFileSync(path, "utf8");
+    const m = FM.exec(text);
+    if (!m) return name === "index.md" ? [] : ["/ missing frontmatter"];
+    let fm;
+    try {
+        fm = parseYaml(m[1]);
+    } catch (e) {
+        return [`/ frontmatter is not valid YAML: ${e.message.split("\n")[0]}`];
     }
+    if (rel === "index.md") return schemaProblems(bundleSchema, fm);
+    const problems = schemaProblems(conceptSchema, fm);
+    if (!rel.includes("/")) {
+        if (rel === "glossary.md" && !PROFILE.test(String(fm?.cps?.profile ?? ""))) problems.push("/cps/profile must be a 1.x version string (SPEC §9)");
+        const need = LOOKUP_COLUMNS[rel];
+        if (need) {
+            const headers = tableHeaders(text.slice(m[0].length));
+            const missing = need.filter((c) => !headers.some((h) => h.includes(c)));
+            if (missing.length) problems.push(`lookup is missing required column(s): ${missing.join(", ")} (SPEC §2.1)`);
+        }
+    }
+    return problems;
 };
 
 const walk = (dir, fn) => {
@@ -78,38 +125,28 @@ const walk = (dir, fn) => {
     }
 };
 
-if (existsSync(exampleDir)) {
-    walk(exampleDir, (path) => {
-        const name = basename(path);
+const validateBundle = (bundleRoot) => {
+    if (!existsSync(join(bundleRoot, "glossary.md"))) fail(join(bundleRoot, "glossary.md"), ["/ missing: a bundle carries the root lookups (SPEC §2)"]);
+    walk(bundleRoot, (path) => {
+        let problems;
         if (path.includes("/data/")) {
-            // metric sidecars are not concepts (§6); -series.json files have their own schema (§6.1)
-            if (path.endsWith("-series.json")) checkSeries(path);
-            return;
-        }
-        if (path.endsWith(".json")) {
-            check(path, JSON.parse(readFileSync(path, "utf8")), conceptSchema, "concept");
+            if (path.endsWith("-series.json")) problems = checkSeries(path);
+            else if (path.endsWith("-status.json")) problems = checkStatus(path);
+            else return;
         } else if (path.endsWith(".md")) {
-            if (name === "log.md") return; // reserved, no frontmatter
-            if (!parseYaml) {
-                skipped++;
-                return;
-            }
-            const m = FM.exec(readFileSync(path, "utf8"));
-            if (!m) {
-                // A missing frontmatter block is only a failure for concepts, not for index.md.
-                if (name !== "index.md") {
-                    console.log(`FAIL  [concept]  ${relative(root, path)}\n   / missing frontmatter`);
-                    failures++;
-                }
-                return;
-            }
-            const fm = parseYaml(m[1]);
-            const isRootIndex = name === "index.md" && relative(exampleDir, dirname(path)).split("/").length <= 2;
-            check(path, fm, isRootIndex ? bundleSchema : conceptSchema, isRootIndex ? "bundle" : "concept");
-        }
+            problems = checkMarkdown(bundleRoot, path);
+        } else return;
+        checked++;
+        if (problems.length) fail(path, problems);
     });
-}
+};
 
-if (skipped) console.log(`\n${skipped} markdown file(s) skipped (install \`yaml\`).`);
-console.log(failures ? `\n${failures} failure(s).` : "\nAll conformant.");
+const args = process.argv.slice(2);
+const bundles = args.length
+    ? args.map((a) => resolve(a))
+    : readdirSync(join(root, "examples", "bundles")).map((b) => join(root, "examples", "bundles", b)).filter((p) => statSync(p).isDirectory());
+for (const b of bundles) validateBundle(b);
+
+console.log(`\n${bundles.length} bundle(s), ${checked} file(s) checked.`);
+console.log(failures ? `${failures} failure(s).` : "All conformant.");
 process.exit(failures ? 1 : 0);

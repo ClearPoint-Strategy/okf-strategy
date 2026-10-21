@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    dataResource: scorecard-77149/data/measure-423533-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77149/data/measure-423533-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-21T18:45:10.390Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Izzy Moreno (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:25.320Z
+      at: "2024-06-05T21:49:25.320Z"
 ---
 
 ## Overview
@@ -61,6 +81,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution
+- **Value:** 7800 (target 7500)
 
 ### Analysis
 

@@ -10,8 +10,8 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Monthly 2025-26
-  startDate: 2025-03-01
-  endDate: 2025-05-31
+  startDate: "2025-03-01"
+  endDate: "2025-05-31"
   evaluation:
     enabled: true
     statusSeries: Milestone Percent Complete
@@ -39,12 +39,35 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Elapsed Days
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Milestone Percent Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/milestone-281264-series.json
+  status:
+    currentPeriod:
+      periodId: 168171
+      period: Apr-25
+      periodDate: "2025-04-30"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77147/data/milestone-281264-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-30T14:44:43.003Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-04-29T19:51:56.647Z
+      at: "2025-04-29T19:51:56.647Z"
 ---
 
 ## Overview
@@ -61,6 +84,7 @@ cps:
 
 - **Period:** Apr-25 (2025-04-30)
 - **Status:** Below Plan
+- **Value:** 26
 
 ## Action Items
 

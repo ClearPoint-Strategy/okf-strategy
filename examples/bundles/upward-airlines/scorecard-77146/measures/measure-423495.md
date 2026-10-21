@@ -39,12 +39,36 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2224696
         sortOrder: 3
+  measure:
+    series:
+    - name: Employee Ownership
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Outside Investors
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: (100-[m423495][Employee Ownership][CurrentPeriod])
+    dataResource: scorecard-77146/data/measure-423495-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/measure-423495-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-15T20:21:00.667Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-08-23T17:29:51.210Z
+      at: "2021-08-23T17:29:51.210Z"
 ---
 
 ## Overview
@@ -55,8 +79,9 @@ cps:
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 30 (target 30)
 
 ## Objectives
 

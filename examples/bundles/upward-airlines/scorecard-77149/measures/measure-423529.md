@@ -43,12 +43,37 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423531][Actual][CurrentPeriod] - [m423532][Actual][CurrentPeriod]"
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Actual %
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423529][Actual][CurrentPeriod] / [m423531][Actual][CurrentPeriod] *100"
+    dataResource: scorecard-77149/data/measure-423529-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/measure-423529-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-26T14:26:02.313Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-09-13T20:25:08.237Z
+      at: "2024-09-13T20:25:08.237Z"
 ---
 
 ## Overview
@@ -65,6 +90,7 @@ This is our earnings metric, telling us how well we are doing.
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 350 (target 8.11)
 
 ### Analysis
 

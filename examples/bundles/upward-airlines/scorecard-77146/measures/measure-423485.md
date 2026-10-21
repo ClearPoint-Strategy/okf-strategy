@@ -42,12 +42,32 @@ cps:
         compare: eq
         calculation: =0
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    dataResource: scorecard-77146/data/measure-423485-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/measure-423485-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-02-04T22:56:27.463Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2023-08-10T16:26:59.320Z
+      at: "2023-08-10T16:26:59.320Z"
 ---
 
 ## Overview
@@ -64,6 +84,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution
+- **Value:** 148 (target 145)
 
 ### Analysis
 

@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77148/data/measure-423511-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77148/data/measure-423511-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T19:34:10.287Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2019-09-30T18:08:11.727Z
+      at: "2019-09-30T18:08:11.727Z"
 ---
 
 ## Overview
@@ -61,6 +81,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 78 (target 85)
 
 ### Analysis
 

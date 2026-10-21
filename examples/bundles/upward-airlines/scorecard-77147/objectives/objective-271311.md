@@ -9,20 +9,29 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77147/data/objective-271311-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T20:05:17.740Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-11-02T15:16:58.057Z
+      at: "2017-11-02T15:16:58.057Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Mark Cutler
-- **Reporting frequency:** Default
 
 ## Status
 

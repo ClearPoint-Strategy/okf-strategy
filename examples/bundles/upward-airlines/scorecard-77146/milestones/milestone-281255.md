@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2026-01-02
-  endDate: 2026-04-02
+  startDate: "2026-01-02"
+  endDate: "2026-04-02"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/milestone-281255-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-15T20:46:19.517Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Catherine Mendoza
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-02T15:43:11.573Z
+      at: "2025-05-02T15:43:11.573Z"
 ---
 
 ## Overview
@@ -32,5 +48,5 @@ cps:
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution

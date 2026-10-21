@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77148/data/measure-423519-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/measure-423519-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T22:52:09.460Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-17T22:30:29.310Z
+      at: "2017-10-17T22:30:29.310Z"
 ---
 
 ## Overview
@@ -63,8 +83,9 @@ We will use this measure to help inform our expansion plans.
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 75 (target 70)
 
 ### Analysis
 

@@ -9,22 +9,36 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
-  startDate: 2024-10-28
-  endDate: 2025-03-29
+  startDate: "2024-10-28"
+  endDate: "2025-03-29"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77149/data/initiative-163379-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:04.920Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:25:56.730Z
+      at: "2025-03-10T22:25:56.730Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Mark Cutler
-- **Reporting frequency:** Default
 
 ## Description
 

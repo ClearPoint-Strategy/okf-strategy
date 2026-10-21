@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2024-10-09
-  endDate: 2025-07-16
+  startDate: "2024-10-09"
+  endDate: "2025-07-16"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/initiative-163371-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-15T20:43:29.357Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-07-15T11:49:32.743Z
+      at: "2025-07-15T11:49:32.743Z"
 ---
 
 ## Overview
@@ -43,7 +59,7 @@ Our biggest customer complaint is the quality of our food. Our current food serv
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
 
 ### Analysis

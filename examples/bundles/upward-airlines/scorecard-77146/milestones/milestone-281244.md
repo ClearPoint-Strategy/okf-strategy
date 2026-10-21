@@ -10,14 +10,27 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-01-28
-  endDate: 2025-03-31
+  startDate: "2025-01-28"
+  endDate: "2025-03-31"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 168172
+      period: Mar-24
+      periodDate: "2024-03-31"
+      statusId: 0
+      status: Not Defined
+    statusResource: scorecard-77146/data/milestone-281244-status.json
   provenance:
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:36:40.007Z
+      at: "2025-02-26T15:36:40.007Z"
 ---
 
 ## Overview
@@ -28,7 +41,7 @@ cps:
 
 ## Status
 
-- **Period:** Q1-24 (2024-03-31)
+- **Period:** Mar-24 (2024-03-31)
 - **Status:** Not Defined
 
 ## Action Items

@@ -43,7 +43,31 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Maintenance Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: "% of Target"
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423491][Maintenance Cost][CurrentPeriod]/[m423491][Target][CurrentPeriod]*100"
+    dataResource: scorecard-77146/data/measure-423491-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/measure-423491-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-21T18:52:55.403Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Janice Jones
     collaborators:
@@ -53,7 +77,7 @@ cps:
     - Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-05T19:57:15.627Z
+      at: "2025-05-05T19:57:15.627Z"
 ---
 
 ## Overview
@@ -70,6 +94,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 17220 (target 15000)
 
 ### Analysis
 

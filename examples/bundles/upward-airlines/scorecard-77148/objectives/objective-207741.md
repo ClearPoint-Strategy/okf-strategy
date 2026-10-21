@@ -9,20 +9,29 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/objective-207741-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:23.443Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2020-12-15T20:30:06.593Z
+      at: "2020-12-15T20:30:06.593Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Steve Smith
-- **Reporting frequency:** Default
 
 ## Status
 

@@ -9,22 +9,36 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
-  startDate: 2025-02-28
-  endDate: 2025-08-25
+  startDate: "2025-02-28"
+  endDate: "2025-08-25"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77147/data/initiative-163372-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T21:19:04.503Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:30:44.637Z
+      at: "2025-02-26T15:30:44.637Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Description
 

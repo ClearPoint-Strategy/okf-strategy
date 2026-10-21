@@ -28,7 +28,7 @@ cps:
       - status: Caution
         statusId: 18579
         compare: lte
-        calculation: .9
+        calculation: ".9"
         sortOrder: 2
       - status: Below Plan
         statusId: 18580
@@ -37,12 +37,32 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2664689
         sortOrder: 3
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    dataResource: scorecard-77148/data/measure-542406-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/measure-542406-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T19:52:19.147Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Janice Jones
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-17T21:45:16.743Z
+      at: "2017-10-17T21:45:16.743Z"
 ---
 
 ## Overview
@@ -55,6 +75,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 16300 (target 15000)
 
 ### Analysis
 

@@ -43,12 +43,35 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Industry
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/measure-423499-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/measure-423499-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T20:13:33.580Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Janice Jones
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-10T17:31:16.603Z
+      at: "2017-10-10T17:31:16.603Z"
 ---
 
 ## Overview
@@ -63,8 +86,9 @@ We want to measure our ticket prices compared to the industry average and our ta
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 13 (target 13)
 
 ### Analysis
 

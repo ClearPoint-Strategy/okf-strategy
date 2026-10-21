@@ -12,8 +12,8 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Monthly 2025-26
-  startDate: 2025-10-04
-  endDate: 2026-12-09
+  startDate: "2025-10-04"
+  endDate: "2026-12-09"
   evaluation:
     enabled: true
     statusSeries: Actual % Complete
@@ -65,12 +65,57 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Design Costs To Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Construction Costs To Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Total Spending To Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[i308980][Design Costs To Date][CurrentPeriod]+[i308980][Construction Costs To Date][CurrentPeriod]"
+    - name: Project Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Actual % Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Planned % Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Budget based on % complete
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: ([i308980][Project Budget][CurrentPeriod]*[i308980][Actual % Complete][CurrentPeriod])/100
+    - name: Variance from Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[i308980][Total Spending To Date][CurrentPeriod]-[i308980][Budget based on % complete][CurrentPeriod]"
+    - name: "% Variance"
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: (([i308980][Total Spending To Date][CurrentPeriod]/[i308980][Budget based on % complete][CurrentPeriod])-1)*100
+    dataResource: scorecard-77146/data/initiative-308980-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/initiative-308980-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T19:55:48.947Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T20:51:32.357Z
+      at: "2025-03-10T20:51:32.357Z"
 ---
 
 ## Overview
@@ -99,6 +144,7 @@ Detailed project management is possible by leveraging project evaluations to tra
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 94 (target 94)
 
 ### Analysis
 

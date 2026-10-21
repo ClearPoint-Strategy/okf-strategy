@@ -10,12 +10,35 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77149
   periodicity: Annual
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Baseline
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    dataResource: scorecard-77149/data/measure-542536-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77149/data/measure-542536-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-09-19T15:51:57.210Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:27.010Z
+      at: "2024-06-05T21:49:27.010Z"
 ---
 
 ## Overview
@@ -26,8 +49,9 @@ cps:
 
 ## Status
 
-- **Period:** 2025 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 12 (target 18)
 
 ### Analysis
 

@@ -9,22 +9,36 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
-  startDate: 2024-12-14
-  endDate: 2025-01-09
+  startDate: "2024-12-14"
+  endDate: "2025-01-09"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77148/data/milestone-281227-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:42.610Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:24:27.377Z
+      at: "2025-03-10T22:24:27.377Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 
 ## Status
 

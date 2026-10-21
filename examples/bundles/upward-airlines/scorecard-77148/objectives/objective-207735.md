@@ -9,20 +9,29 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77148/data/objective-207735-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:22.573Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T22:04:01.010Z
+      at: "2016-07-27T22:04:01.010Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Greg Garcia
-- **Reporting frequency:** Default
 
 ## Status
 

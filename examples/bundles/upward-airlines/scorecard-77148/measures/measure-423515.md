@@ -43,12 +43,36 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Unsatisfied Employees
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: 100-[m423515][Actual][CurrentPeriod]
+    dataResource: scorecard-77148/data/measure-423515-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/measure-423515-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T22:27:34.027Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-06T19:54:59.537Z
+      at: "2017-10-06T19:54:59.537Z"
 ---
 
 ## Overview
@@ -63,8 +87,9 @@ We have a employee survery every quarter.
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 83 (target 80)
 
 ### Analysis
 

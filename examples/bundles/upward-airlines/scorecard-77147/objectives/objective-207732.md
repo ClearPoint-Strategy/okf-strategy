@@ -9,24 +9,23 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
     - status: Above Target
       statusId: 18578
       compare: gte
-      calculation: 2.5
+      calculation: "2.5"
       sortOrder: 1
     - status: Caution
       statusId: 18579
       compare: gte
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 2
     - status: Below Plan
       statusId: 18580
       compare: lt
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 3
     - status: No Information
       statusId: 18581
@@ -41,19 +40,29 @@ cps:
       objectId: 423510
       concept: scorecard-77147/measures/measure-423510
       weight: 50
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/objective-207732-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T18:36:45.200Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-11-12T19:02:01.657Z
+      at: "2021-11-12T19:02:01.657Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

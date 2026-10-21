@@ -9,20 +9,29 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77149/data/objective-207744-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:03.653Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T22:11:38.363Z
+      at: "2016-07-27T22:11:38.363Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Steve Smith
-- **Reporting frequency:** Default
 
 ## Status
 

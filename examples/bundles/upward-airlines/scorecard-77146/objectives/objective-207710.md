@@ -9,24 +9,23 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
     - status: Above Target
       statusId: 18578
       compare: gt
-      calculation: 2.5
+      calculation: "2.5"
       sortOrder: 1
     - status: Caution
       statusId: 18579
       compare: gt
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 2
     - status: Below Plan
       statusId: 18580
       compare: gt
-      calculation: .5
+      calculation: ".5"
       sortOrder: 3
     - status: No Information
       statusId: 18581
@@ -42,19 +41,29 @@ cps:
       objectId: 542407
       concept: scorecard-77148/measures/measure-542407
       weight: 33
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/objective-207710-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:33.550Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Izzy Moreno (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-11-17T17:18:49.370Z
+      at: "2026-09-07T19:55:34.300Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Izzy Moreno (Sales)
-- **Reporting frequency:** Default
 
 ## Description
 

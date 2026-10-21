@@ -9,24 +9,23 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
   evaluation:
     enabled: true
     bands:
     - status: Above Target
       statusId: 18578
       compare: gte
-      calculation: 2.5
+      calculation: "2.5"
       sortOrder: 1
     - status: Caution
       statusId: 18579
       compare: gte
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 2
     - status: Below Plan
       statusId: 18580
       compare: lt
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 3
     - status: No Information
       statusId: 18581
@@ -37,19 +36,29 @@ cps:
       objectId: 207710
       concept: scorecard-77146/objectives/objective-207710
       weight: 100
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77147/data/objective-271191-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T18:44:52.513Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-11-12T18:44:52.417Z
+      at: "2021-11-12T18:44:52.417Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Steve Smith
-- **Reporting frequency:** Default
 
 ## Status
 

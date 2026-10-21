@@ -9,20 +9,29 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/objective-207714-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:34.090Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Kimberly Kupcha
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-11-19T17:41:47.933Z
+      at: "2025-11-19T17:41:47.933Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Kimberly Kupcha
-- **Reporting frequency:** Default
 
 ## Description
 

@@ -9,22 +9,31 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
-  startDate: 2022-02-27
-  endDate: 2023-07-08
+  startDate: "2022-02-27"
+  endDate: "2023-07-08"
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/actionItem-182624-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-21T19:52:17.560Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2023-01-10T22:28:10.317Z
+      at: "2023-01-10T22:28:10.317Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Steve Smith
-- **Reporting frequency:** Default
 
 ## Status
 

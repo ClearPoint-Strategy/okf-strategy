@@ -66,12 +66,50 @@ cps:
         statusId: 18578
         compare: any
         sortOrder: 1
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: ([m423509][A][CurrentPeriod]+[m423522][A][CurrentPeriod]+[m423533][A][CurrentPeriod])/3
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: (([m423509][T][CurrentPeriod]+[m423522][T][CurrentPeriod]+[m423533][T][CurrentPeriod])/3)
+    - name: YTD
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423490][Actual][CalendarYTDSum]"
+    - name: Eastern Division
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423509][Actual][CurrentPeriod]"
+    - name: Central Division
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423522][Actual][CurrentPeriod]"
+    - name: Western Division
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423533][Actual][CurrentPeriod]"
+    dataResource: scorecard-77146/data/measure-423490-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/measure-423490-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-07-12T18:52:09.437Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Clarice Strong (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-08-31T19:27:26.687Z
+      at: "2021-08-31T19:27:26.687Z"
 ---
 
 ## Overview
@@ -90,6 +128,7 @@ cps:
 
 - **Period:** Dec-25 (2025-12-31)
 - **Status:** Caution
+- **Value:** 24050 (target 23000)
 
 ### Analysis
 

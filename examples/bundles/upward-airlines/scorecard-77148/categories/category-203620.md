@@ -7,6 +7,8 @@ cps:
   objectId: 203620
   scorecardId: 77148
   scorecard: 🎯 Central Division
+  access:
+    derivedFrom: clearpoint://scorecard/77148
 ---
 
 ## Overview

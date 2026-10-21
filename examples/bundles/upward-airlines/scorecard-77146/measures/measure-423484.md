@@ -53,12 +53,44 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423484][Industry][CurrentPeriod]*.9"
+    - name: Industry
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Differential vs. Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423484][Target][CurrentPeriod]-[m423484][Actual][CurrentPeriod]"
+    - name: Differential vs. Industry
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423484][Industry][CurrentPeriod]-[m423484][Actual][CurrentPeriod]"
+    dataResource: scorecard-77146/data/measure-423484-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/measure-423484-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-08T14:45:51.813Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Izzy Moreno (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2020-03-27T15:35:28.310Z
+      at: "2020-03-27T15:35:28.310Z"
 ---
 
 ## Overview
@@ -69,8 +101,9 @@ cps:
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 94 (target 94.5)
 
 ## Objectives
 

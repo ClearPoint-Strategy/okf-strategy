@@ -43,12 +43,36 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Actual Previous Period
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423517][Actual][PreviousPeriod]"
+    dataResource: scorecard-77148/data/measure-423517-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/measure-423517-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T22:46:33.117Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-06T19:57:56.707Z
+      at: "2017-10-06T19:57:56.707Z"
 ---
 
 ## Overview
@@ -63,8 +87,9 @@ We want to ensure we are providing our employees with competitive wages and rewa
 
 ## Status
 
-- **Period:** 2025 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 2 (target 3)
 
 ## Parents
 

@@ -11,10 +11,25 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
-  startDate: 2025-06-30
-  endDate: 2026-06-28
+  startDate: "2025-06-30"
+  endDate: "2026-06-28"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/initiative-579990-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-04-08T18:45:10.987Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     collaborators:
@@ -24,14 +39,13 @@ cps:
     - Izzy Moreno (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T20:51:07.357Z
+      at: "2026-09-08T04:53:23.437Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 - **Tags:** High Priority
 
 ## Description

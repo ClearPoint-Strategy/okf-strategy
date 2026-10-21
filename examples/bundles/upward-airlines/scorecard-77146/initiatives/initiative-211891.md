@@ -9,22 +9,36 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
-  startDate: 2025-07-05
-  endDate: 2025-11-21
+  startDate: "2025-07-05"
+  endDate: "2025-11-21"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/initiative-211891-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T15:52:10.427Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:17:45.880Z
+      at: "2025-02-26T15:17:45.880Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** James Crockett (Sales)
-- **Reporting frequency:** Default
 
 ## Details
 

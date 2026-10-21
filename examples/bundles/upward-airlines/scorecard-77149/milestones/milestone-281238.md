@@ -9,22 +9,36 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
-  startDate: 2024-11-09
-  endDate: 2024-11-18
+  startDate: "2024-11-09"
+  endDate: "2024-11-18"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/milestone-281238-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:08.423Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Tammy Cuzco (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:25:56.527Z
+      at: "2025-03-10T22:25:56.527Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Tammy Cuzco (Operations)
-- **Reporting frequency:** Default
 
 ## Status
 

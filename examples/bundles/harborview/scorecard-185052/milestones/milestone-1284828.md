@@ -1,0 +1,51 @@
+---
+type: Milestone
+title: Parking & mobility study
+resource: clearpoint://scorecard/185052/milestone/1284828
+cps:
+  object: milestone
+  objectId: 1284828
+  scorecardId: 185052
+  scorecard: City Strategic Plan
+  access:
+    derivedFrom: clearpoint://scorecard/185052
+  periodicity: Quarterly
+  startDate: "2025-05-05"
+  endDate: "2025-08-29"
+  status:
+    currentPeriod:
+      periodId: 385651
+      period: Sep-26
+      periodDate: "2026-09-30"
+      statusId: 58790
+      status: Below Plan
+    statusResource: scorecard-185052/data/milestone-1284828-status.json
+  provenance:
+    lastUpdatedBy:
+      at: "2026-09-25T15:24:21.317Z"
+      name: Jamie Chen (Strategic Planning)
+    owner:
+      name: Jordan Blake
+    lastEditedBy:
+      name: Jamie Chen (Strategic Planning)
+      at: "2026-09-25T14:40:39.777Z"
+---
+
+## Overview
+
+- **Scorecard:** City Strategic Plan
+- **Owner:** Jordan Blake
+- **Reporting frequency:** Quarterly
+
+## Status
+
+- **Period:** Sep-26 (2026-09-30)
+- **Status:** Below Plan
+
+### Analysis
+
+70% complete. The original finish date of Aug 29, 2025 has passed; remaining work is being carried into next quarter.
+
+### Recommendations
+
+Escalate to the department director. Re-baseline the finish date or add resources before the next quarter.

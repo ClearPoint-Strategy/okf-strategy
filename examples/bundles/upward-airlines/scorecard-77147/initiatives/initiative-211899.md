@@ -9,24 +9,38 @@ cps:
   scorecard: 🌐 Eastern Division
   access:
     derivedFrom: clearpoint://scorecard/77147
-  periodicity: Default
-  startDate: 2024-12-28
-  endDate: 2025-06-23
+  startDate: "2024-12-28"
+  endDate: "2025-06-23"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/initiative-211899-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-05-01T21:01:55.400Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Clarice Strong (Operations)
     collaborators:
     - Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:23:42.720Z
+      at: "2025-03-10T22:23:42.720Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🌐 Eastern Division
 - **Owner:** Clarice Strong (Operations)
-- **Reporting frequency:** Default
 
 ## Description
 

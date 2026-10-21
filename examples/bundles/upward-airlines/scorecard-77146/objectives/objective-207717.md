@@ -9,20 +9,29 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/objective-207717-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:35.453Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T21:50:48.597Z
+      at: "2016-07-27T21:50:48.597Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Greg Garcia
-- **Reporting frequency:** Default
 
 ## Description
 

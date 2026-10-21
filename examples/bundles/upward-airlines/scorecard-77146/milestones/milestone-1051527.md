@@ -9,22 +9,36 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
-  startDate: 2026-05-01
-  endDate: 2026-06-02
+  startDate: "2026-05-01"
+  endDate: "2026-06-02"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77146/data/milestone-1051527-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-12-04T20:28:37.880Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ashley Caper
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:20:44.187Z
+      at: "2025-02-26T15:20:44.187Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Ashley Caper
-- **Reporting frequency:** Default
 
 ## Status
 

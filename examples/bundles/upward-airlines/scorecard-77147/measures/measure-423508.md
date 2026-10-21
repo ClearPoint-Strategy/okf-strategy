@@ -43,12 +43,40 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423508][Actual][CurrentPeriod]-[m423508][Target][CurrentPeriod]"
+    - name: Actual as % of Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423508][Actual][CurrentPeriod]/[m423508][Target][CurrentPeriod]"
+    dataResource: scorecard-77147/data/measure-423508-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/measure-423508-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2022-02-25T22:12:24.163Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Kimberly Kupcha
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2022-02-25T22:12:23.810Z
+      at: "2022-02-25T22:12:23.810Z"
 ---
 
 ## Overview
@@ -63,8 +91,9 @@ cps:
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 2430 (target 3507.01)
 
 ### Analysis
 

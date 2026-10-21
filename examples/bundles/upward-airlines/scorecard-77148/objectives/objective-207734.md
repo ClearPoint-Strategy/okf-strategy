@@ -9,20 +9,29 @@ cps:
   scorecard: 🎯 Central Division
   access:
     derivedFrom: clearpoint://scorecard/77148
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77148/data/objective-207734-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:22.163Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T22:03:53.007Z
+      at: "2016-07-27T22:03:53.007Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🎯 Central Division
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 
 ## Status
 

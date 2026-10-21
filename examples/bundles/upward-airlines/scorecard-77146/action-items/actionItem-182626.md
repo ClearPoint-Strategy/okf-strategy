@@ -9,22 +9,31 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
-  startDate: 2023-01-22
-  endDate: 2023-03-31
+  startDate: "2023-01-22"
+  endDate: "2023-03-31"
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/actionItem-182626-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-21T19:51:53.433Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-02-29T14:04:30.117Z
+      at: "2024-02-29T14:04:30.117Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Donald Duff
-- **Reporting frequency:** Default
 
 ## Status
 

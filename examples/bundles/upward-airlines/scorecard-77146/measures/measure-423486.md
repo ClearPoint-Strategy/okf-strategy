@@ -43,12 +43,36 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: "% Not Served"
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: 100-[m423486][Actual][CurrentPeriod]
+    dataResource: scorecard-77146/data/measure-423486-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/measure-423486-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-08T14:46:23.520Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2020-03-26T18:17:11.577Z
+      at: "2020-03-26T18:17:11.577Z"
 ---
 
 ## Overview
@@ -63,8 +87,9 @@ cps:
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Above Target
+- **Value:** 35 (target 35)
 
 ## Objectives
 

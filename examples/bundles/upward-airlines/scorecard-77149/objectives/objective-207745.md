@@ -9,20 +9,29 @@ cps:
   scorecard: 🏜️ Western Division
   access:
     derivedFrom: clearpoint://scorecard/77149
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77149/data/objective-207745-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:03.800Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Trudy Joplin (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-23T13:58:53.567Z
+      at: "2017-10-23T13:58:53.567Z"
 ---
 
 ## Overview
 
 - **Scorecard:** 🏜️ Western Division
 - **Owner:** Trudy Joplin (Sales)
-- **Reporting frequency:** Default
 
 ## Status
 

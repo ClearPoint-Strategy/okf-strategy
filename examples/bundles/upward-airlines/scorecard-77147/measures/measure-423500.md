@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/measure-423500-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77147/data/measure-423500-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2022-02-25T22:13:24.620Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Clarice Strong (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2022-02-25T22:13:24.527Z
+      at: "2022-02-25T22:13:24.527Z"
 ---
 
 ## Overview
@@ -59,7 +79,7 @@ cps:
 
 ## Description
 
-We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it&#39;s next departure. 
+We are measuring the number of minutes it takes from the time a plane arrives at the gate until the time it pushes back for it's next departure. 
 
  
 
@@ -71,8 +91,9 @@ We are measuring the number of minutes it takes from the time a plane arrives at
 
 ## Status
 
-- **Period:** Q4-25 (2025-12-31)
+- **Period:** Dec-25 (2025-12-31)
 - **Status:** Below Plan
+- **Value:** 36 (target 30)
 
 ### Analysis
 

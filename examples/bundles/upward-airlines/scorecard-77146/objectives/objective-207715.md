@@ -9,20 +9,29 @@ cps:
   scorecard: Upward Airlines Corporate
   access:
     derivedFrom: clearpoint://scorecard/77146
-  periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/objective-207715-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-02-07T20:56:29.710Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ashley Caper
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T21:50:34.807Z
+      at: "2016-07-27T21:50:34.807Z"
 ---
 
 ## Overview
 
 - **Scorecard:** Upward Airlines Corporate
 - **Owner:** Ashley Caper
-- **Reporting frequency:** Default
 
 ## Description
 
