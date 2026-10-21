@@ -10,8 +10,8 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Monthly 2025-26
-  startDate: 2025-05-31
-  endDate: 2025-09-01
+  startDate: "2025-05-31"
+  endDate: "2025-09-01"
   evaluation:
     enabled: true
     statusSeries: Milestone Percent Complete
@@ -39,12 +39,35 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Elapsed Days
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Milestone Percent Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/milestone-281265-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77147/data/milestone-281265-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-21T19:18:05.750Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Tammy Cuzco (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:20:44.193Z
+      at: "2025-02-26T15:20:44.193Z"
 ---
 
 ## Overview

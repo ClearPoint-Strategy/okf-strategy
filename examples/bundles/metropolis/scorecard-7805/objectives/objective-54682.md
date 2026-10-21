@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7805
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7805/data/objective-54682-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:47.690Z"
+      name: ClearPoint Support
     owner:
       name: Steve Lombard
     lastEditedBy:
       name: ClearPoint Support
-      at: 2016-06-10T20:40:34.113Z
+      at: "2016-06-10T20:40:34.113Z"
 ---
 
 ## Overview

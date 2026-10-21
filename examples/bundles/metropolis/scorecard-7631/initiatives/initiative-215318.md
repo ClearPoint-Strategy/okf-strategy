@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7631
   periodicity: Default
-  startDate: 2020-04-24
-  endDate: 2020-06-16
+  startDate: "2020-04-24"
+  endDate: "2020-06-16"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7631/data/initiative-215318-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-20T20:43:57.977Z"
+      name: ClearPoint Support
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2021-01-20T20:43:57.830Z
+      at: "2021-01-20T20:43:57.830Z"
 ---
 
 ## Overview

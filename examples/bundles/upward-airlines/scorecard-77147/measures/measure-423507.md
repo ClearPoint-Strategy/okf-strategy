@@ -46,12 +46,40 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2224709
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423507][Actual][CurrentPeriod]-[m423507][Target][CurrentPeriod]"
+    - name: Actual as % of Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423507][Actual][CurrentPeriod]/[m423507][Target][CurrentPeriod]"
+    dataResource: scorecard-77147/data/measure-423507-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77147/data/measure-423507-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-05-02T11:56:34.967Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2022-02-25T22:11:48.667Z
+      at: "2022-02-25T22:11:48.667Z"
 ---
 
 ## Overview

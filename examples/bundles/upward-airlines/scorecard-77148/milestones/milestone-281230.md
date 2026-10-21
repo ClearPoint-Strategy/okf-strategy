@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Default
-  startDate: 2025-03-18
-  endDate: 2025-04-18
+  startDate: "2025-03-18"
+  endDate: "2025-04-18"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77148/data/milestone-281230-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:42.650Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:24:27.353Z
+      at: "2025-03-10T22:24:27.353Z"
 ---
 
 ## Overview

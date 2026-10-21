@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Default
-  startDate: 2022-01-12
-  endDate: 2022-01-13
+  startDate: "2022-01-12"
+  endDate: "2022-01-13"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7612/data/actionItem-21984-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-10T15:10:52.210Z"
+      name: ClearPoint Support
     owner:
       name: Steve Lombard
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:19:30.203Z
+      at: "2023-01-11T13:19:30.203Z"
 ---
 
 ## Overview

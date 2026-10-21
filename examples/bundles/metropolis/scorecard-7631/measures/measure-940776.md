@@ -10,6 +10,13 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7631
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 0
+      status: Not Defined
 ---
 
 ## Overview

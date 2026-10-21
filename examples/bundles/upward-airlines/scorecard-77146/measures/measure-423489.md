@@ -39,7 +39,27 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2224680
         sortOrder: 3
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77146/data/measure-423489-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: "2025"
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/measure-423489-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-17T20:34:01.683Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     collaborators:
@@ -47,7 +67,7 @@ cps:
     - Clarice Strong (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-05T19:57:44.380Z
+      at: "2025-05-05T19:57:44.380Z"
 ---
 
 ## Overview

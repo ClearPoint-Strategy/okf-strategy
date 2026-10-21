@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Default
-  startDate: 2022-03-15
-  endDate: 2023-01-12
+  startDate: "2022-03-15"
+  endDate: "2023-01-12"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7612/data/initiative-43638-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-10T17:34:39.570Z"
+      name: ClearPoint Support
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:14:46.190Z
+      at: "2023-01-11T13:14:46.190Z"
 ---
 
 ## Overview

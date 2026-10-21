@@ -10,12 +10,61 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 1681001
+    series:
+    - name: Actual
+      seriesId: 1681001
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 1681002
+        sortOrder: 1
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: "-5"
+        referenceSeries: Target
+        referenceSeriesId: 1681002
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: "-5.1"
+        referenceSeries: Target
+        referenceSeriesId: 1681002
+        sortOrder: 3
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-7612/data/measure-274713-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Q4-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7612/data/measure-274713-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-20T01:54:09.027Z"
+      name: ClearPoint Support
     owner:
       name: Joseph Lucco
     lastEditedBy:
       name: ClearPoint Support
-      at: 2017-11-03T17:49:44.463Z
+      at: "2017-11-03T17:49:44.463Z"
 ---
 
 ## Overview

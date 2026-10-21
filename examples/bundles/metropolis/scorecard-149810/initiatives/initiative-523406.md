@@ -12,14 +12,110 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149810
   periodicity: Monthly
-  startDate: 2021-08-17
-  endDate: 2022-08-31
+  startDate: "2021-08-17"
+  endDate: "2022-08-31"
+  evaluation:
+    enabled: true
+    statusSeries: Actual % Complete
+    statusSeriesId: 5992058
+    series:
+    - name: Actual % Complete
+      seriesId: 5992058
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 5992059
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: "*.9"
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 5992059
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: ""
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 5992059
+        sortOrder: 4
+    - name: "% Variance"
+      seriesId: 5992065
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: lte
+        calculation: =0
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: lte
+        calculation: =5
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: gt
+        calculation: =5
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 5
+  measure:
+    series:
+    - name: Design Costs To Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Upgrade Costs To Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Total Spending To Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[i523406][Design Costs To Date][CurrentPeriod]+[i523406][Upgrade Costs To Date][CurrentPeriod]"
+    - name: Project Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Actual % Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Planned % Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Budget based on % complete
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: ([i523406][Project Budget][CurrentPeriod]*[i523406][Actual % Complete][CurrentPeriod])/100
+    - name: Variance from Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[i523406][Total Spending To Date][CurrentPeriod]-[i523406][Budget based on % complete][CurrentPeriod]"
+    - name: "% Variance"
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: (([i523406][Total Spending To Date][CurrentPeriod]/[i523406][Budget based on % complete][CurrentPeriod])-1)*100
+    dataResource: scorecard-149810/data/initiative-523406-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 0
+      status: Not Defined
+    statusResource: scorecard-149810/data/initiative-523406-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-29T15:31:21Z"
+      name: ClearPoint Support
     owner:
       name: Jerry Johnson
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:28.190Z
+      at: "2023-03-23T17:38:28.190Z"
 ---
 
 ## Overview

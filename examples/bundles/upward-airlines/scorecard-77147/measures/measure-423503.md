@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/measure-423503-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77147/data/measure-423503-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T20:24:00.460Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ashley Caper
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-17T22:34:20.243Z
+      at: "2017-10-17T22:34:20.243Z"
 ---
 
 ## Overview

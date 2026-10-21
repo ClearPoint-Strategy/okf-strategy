@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Default
-  startDate: 2024-12-05
-  endDate: 2025-06-23
+  startDate: "2024-12-05"
+  endDate: "2025-06-23"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/initiative-163377-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-26T03:01:26.797Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Lawrence Sito
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:24:27.340Z
+      at: "2025-03-10T22:24:27.340Z"
 ---
 
 ## Overview

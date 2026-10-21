@@ -10,12 +10,71 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Annual
+  evaluation:
+    enabled: true
+    statusSeries: Metropolis
+    statusSeriesId: 2288092
+    series:
+    - name: Metropolis
+      seriesId: 2288092
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: lte
+        calculation: " =20"
+        sortOrder: 1
+      - status: Caution
+        statusId: 3953
+        compare: lte
+        calculation: " =30"
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 3956
+        compare: gt
+        calculation: =30
+        sortOrder: 3
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 4
+  measure:
+    series:
+    - name: Total citizens polled
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Total citizens rating top three
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Metropolis
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Gotham
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Smallville
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Sunnydale
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-7612/data/measure-108438-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: "2022"
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7612/data/measure-108438-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-15T15:55:55.163Z"
+      name: ClearPoint Support
     owner:
       name: Joseph Lucco
     lastEditedBy:
       name: ClearPoint Support
-      at: 2019-06-15T12:12:50.090Z
+      at: "2019-06-15T12:12:50.090Z"
 ---
 
 ## Overview

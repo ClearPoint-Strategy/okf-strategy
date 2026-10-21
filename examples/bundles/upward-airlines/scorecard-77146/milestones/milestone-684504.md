@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-11-25
-  endDate: 2026-02-03
+  startDate: "2025-11-25"
+  endDate: "2026-02-03"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/milestone-684504-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T15:52:10.473Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ashley Caper
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:20:48.427Z
+      at: "2025-02-26T15:20:48.427Z"
 ---
 
 ## Overview

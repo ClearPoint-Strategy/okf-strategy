@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77149
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/objective-207742-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:03.367Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T22:10:35.353Z
+      at: "2016-07-27T22:10:35.353Z"
 ---
 
 ## Overview

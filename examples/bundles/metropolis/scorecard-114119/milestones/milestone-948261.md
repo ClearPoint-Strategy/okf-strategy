@@ -10,14 +10,21 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/114119
   periodicity: Default
-  startDate: 2023-01-03
-  endDate: 2023-01-12
+  startDate: "2023-01-03"
+  endDate: "2023-01-12"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 0
+      status: Not Defined
   provenance:
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-06T19:46:30.150Z
+      at: "2023-01-06T19:46:30.150Z"
 ---
 
 ## Overview

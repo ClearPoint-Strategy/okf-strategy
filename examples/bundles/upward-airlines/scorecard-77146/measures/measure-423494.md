@@ -39,12 +39,32 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2224693
         sortOrder: 3
+  measure:
+    series:
+    - name: Job Descriptions
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    dataResource: scorecard-77146/data/measure-423494-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/measure-423494-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-09-21T18:53:31.920Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ashley Caper
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2020-03-27T15:35:28.250Z
+      at: "2020-03-27T15:35:28.250Z"
 ---
 
 ## Overview

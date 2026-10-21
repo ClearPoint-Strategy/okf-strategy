@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77148/data/objective-207736-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:22.740Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Kimberly Kupcha
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T22:04:09.297Z
+      at: "2016-07-27T22:04:09.297Z"
 ---
 
 ## Overview

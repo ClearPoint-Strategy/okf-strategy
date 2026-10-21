@@ -2,6 +2,7 @@
 type: Lookup
 title: Glossary
 cps:
+  profile: "1.0"
   lookup: glossary
 ---
 

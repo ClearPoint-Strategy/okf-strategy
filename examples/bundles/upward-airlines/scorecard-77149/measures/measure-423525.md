@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    dataResource: scorecard-77149/data/measure-423525-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77149/data/measure-423525-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-09-16T18:46:45.480Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:21.670Z
+      at: "2024-06-05T21:49:21.670Z"
 ---
 
 ## Overview

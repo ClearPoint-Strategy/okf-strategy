@@ -15,12 +15,13 @@ Each user's account-wide baseline access (their profile type).
 
 | Profile | Users |
 | --- | --- |
-| Browser | Ashley Caper, James Crockett (Sales), Tammy Cuzco (Operations), Janice Jones, Trudy Joplin (Sales), Izzy Moreno (Sales), Lawrence Sito |
-| Editor | Kara Cleary, Mark Cutler, Greg Garcia, Kimberly Kupcha, James Madison, Catherine Mendoza |
+| Administrator | Alexis Angulo, Ted Jackson, Jill Jones, Joseph Lucco, Xavier Prova, Gary Statler, Clarice Strong (Operations), ClearPoint Support1, ClearPoint Support1, ClearPoint Support2, ClearPoint Support3, ClearPoint Support4, ClearPoint Support5, ClearPoint Support6, ClearPoint Support7, Intercom Test, T-google Jackson Z, Demo Admin Zimmerman |
+| Editor | Demo Admin, Kara Cleary, Mark Cutler, Greg Garcia, Kimberly Kupcha, James Madison, Catherine Mendoza, Mobile Demo Ziller, Editor Upward Zonier |
+| Browser | Ashley Caper, James Crockett (Sales), Tammy Cuzco (Operations), Janice Jones, Trudy Joplin (Sales), Izzy Moreno (Sales), Lawrence Sito, x x, Upward Browser Zimmer |
 | Updater | Donald Duff |
-| Administrator | Ted Jackson, Joseph Lucco, Xavier Prova, Gary Statler, Clarice Strong (Operations), ClearPoint Support2, ClearPoint Support3, ClearPoint Support4, ClearPoint Support5, ClearPoint Support6, ClearPoint Support7, Intercom Test, Demo Admin Zimmerman |
 | No Access | Reed Richards |
 | By Scorecard | Steve Smith |
+| Scorecard Admin | Scorecard Admin Ziegler |
 
 ### By-Scorecard
 
@@ -28,6 +29,7 @@ Users whose profile grants a different access level per scorecard.
 
 | User | Scorecard | Level |
 | --- | --- | --- |
+| Steve Smith | Clarice Strong (186239) | No Access |
 | Steve Smith | Upward Airlines Corporate (77146) | Editor |
 | Steve Smith | 🌐 Eastern Division (77147) | Editor |
 | Steve Smith | 🎯 Central Division (77148) | Editor |

@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Default
-  startDate: 2024-11-02
-  endDate: 2024-12-06
+  startDate: "2024-11-02"
+  endDate: "2024-12-06"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/milestone-368069-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:22.947Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:30:45.230Z
+      at: "2025-02-26T15:30:45.230Z"
 ---
 
 ## Overview

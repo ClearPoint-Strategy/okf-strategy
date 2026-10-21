@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    dataResource: scorecard-77146/data/measure-423488-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: "2025"
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/measure-423488-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-03-10T20:32:58.520Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Clarice Strong (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-11-21T15:01:56.833Z
+      at: "2017-11-21T15:01:56.833Z"
 ---
 
 ## Overview

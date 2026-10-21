@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-08-02
-  endDate: 2025-09-15
+  startDate: "2025-08-02"
+  endDate: "2025-09-15"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 168172
+      period: Q1-24
+      periodDate: "2024-03-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/milestone-684502-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-02-26T17:01:42.077Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Madison
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:29:36.440Z
+      at: "2025-02-26T15:29:36.440Z"
 ---
 
 ## Overview

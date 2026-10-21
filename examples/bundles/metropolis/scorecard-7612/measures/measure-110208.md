@@ -10,7 +10,90 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 750358
+    series:
+    - name: Actual
+      seriesId: 750358
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 750359
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: "*.95"
+        referenceSeries: Target
+        referenceSeriesId: 750359
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 750359
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 5
+    - name: Variance
+      seriesId: 753051
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: =0
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: =-50
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: =0
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 5
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m110208][Actual][CurrentPeriod]-[m110208][Target][CurrentPeriod]"
+    - name: "% of Target"
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m110208][Actual][CurrentPeriod]/[m110208][Target][CurrentPeriod]*100"
+    dataResource: scorecard-7612/data/measure-110208-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7612/data/measure-110208-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2022-05-19T20:23:25.173Z"
+      name: ClearPoint Support
     owner:
       name: Lance Cummins (Police Chief)
     collaborators:
@@ -19,7 +102,7 @@ cps:
     - Catherine Yochum
     lastEditedBy:
       name: ClearPoint Support
-      at: 2022-12-22T16:24:53.717Z
+      at: "2022-12-22T16:24:53.717Z"
 ---
 
 ## Overview

@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7807
   periodicity: Default
-  startDate: 2020-01-24
-  endDate: 2022-12-20
+  startDate: "2020-01-24"
+  endDate: "2022-12-20"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7807/data/initiative-44459-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:58.787Z"
+      name: ClearPoint Support
     owner:
       name: John Smith
     lastEditedBy:
       name: ClearPoint Support
-      at: 2020-03-18T13:45:50.127Z
+      at: "2020-03-18T13:45:50.127Z"
 ---
 
 ## Overview

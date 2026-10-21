@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Default
-  startDate: 2025-05-13
-  endDate: 2025-06-23
+  startDate: "2025-05-13"
+  endDate: "2025-06-23"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77148/data/milestone-368094-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:42.707Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Tammy Cuzco (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:32:34.340Z
+      at: "2025-02-26T15:32:34.340Z"
 ---
 
 ## Overview

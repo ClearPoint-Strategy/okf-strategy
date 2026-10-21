@@ -12,9 +12,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-06-02
-  endDate: 2026-06-28
+  startDate: "2025-06-02"
+  endDate: "2026-06-28"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/initiative-163370-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-05-02T15:45:07.910Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     collaborators:
@@ -23,7 +39,7 @@ cps:
     - Izzy Moreno (Sales)
     lastEditedBy:
       name: ClearPoint Support7
-      at: 2025-11-12T15:06:13.347Z
+      at: "2025-11-12T15:06:13.347Z"
 ---
 
 ## Overview

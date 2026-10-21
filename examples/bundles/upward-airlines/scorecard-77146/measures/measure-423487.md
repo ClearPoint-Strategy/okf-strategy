@@ -43,7 +43,27 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77146/data/measure-423487-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/measure-423487-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-08-10T17:25:06.590Z"
+      name: Donald Duff
     owner:
       name: Donald Duff
     collaborators:
@@ -52,7 +72,7 @@ cps:
     - Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-05T19:57:15.370Z
+      at: "2025-05-05T19:57:15.370Z"
 ---
 
 ## Overview

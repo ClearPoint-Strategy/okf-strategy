@@ -15,12 +15,68 @@ cps:
     - group: Update Finance (Copy)
       level: Updater
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 750356
+    series:
+    - name: Actual
+      seriesId: 750356
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 750357
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: "*.8"
+        referenceSeries: Target
+        referenceSeriesId: 750357
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 750357
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: eq
+        calculation: =0
+        sortOrder: 5
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+      calculation: ([m110208][Actual][CurrentPeriod]-[m110209][Actual][CurrentPeriod])/[m110209][Actual][CurrentPeriod]*100
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+      calculation: ([m110208][Target][CurrentPeriod]-[m110209][Target][CurrentPeriod])/[m110209][Target][CurrentPeriod]*100
+    dataResource: scorecard-7612/data/measure-110207-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7612/data/measure-110207-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-12-14T20:41:47.720Z"
+      name: ClearPoint Support
     owner:
       name: Jimmy Olsen (Director of Parks and Recreation)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2022-02-15T16:07:04.130Z
+      at: "2022-02-15T16:07:04.130Z"
 ---
 
 ## Overview

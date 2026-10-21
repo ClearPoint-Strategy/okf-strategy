@@ -46,12 +46,44 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2224772
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423531][Actual][CurrentPeriod]-[m423531][Target][CurrentPeriod]"
+    - name: Actual as % of Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423531][Actual][CurrentPeriod]/[m423531][Target][CurrentPeriod]"
+    - name: Test One
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423531][Actual][CurrentPeriod]-[m423531][Variance][CurrentPeriod]"
+    dataResource: scorecard-77149/data/measure-423531-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/measure-423531-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-09-13T20:29:09.780Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:24.377Z
+      at: "2024-06-05T21:49:24.377Z"
 ---
 
 ## Overview

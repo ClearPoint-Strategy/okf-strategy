@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7631
   periodicity: Default
-  startDate: 2021-12-15
-  endDate: 2023-04-25
+  startDate: "2021-12-15"
+  endDate: "2023-04-25"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7631/data/initiative-43616-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-20T14:57:22.917Z"
+      name: ClearPoint Support
     owner:
       name: Maggie Sawyer
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:17:50.733Z
+      at: "2023-01-11T13:17:50.733Z"
 ---
 
 ## Overview

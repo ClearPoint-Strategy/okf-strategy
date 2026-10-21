@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Monthly
-  startDate: 2021-12-25
-  endDate: 2022-07-17
+  startDate: "2021-12-25"
+  endDate: "2022-07-17"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7612/data/milestone-53462-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-15T15:26:37.873Z"
+      name: ClearPoint Support
     owner:
       name: Ted Jackson
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:15:12.730Z
+      at: "2023-01-11T13:15:12.730Z"
 ---
 
 ## Overview

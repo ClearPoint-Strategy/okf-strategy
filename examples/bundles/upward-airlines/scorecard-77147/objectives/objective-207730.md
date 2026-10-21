@@ -16,17 +16,17 @@ cps:
     - status: Above Target
       statusId: 18578
       compare: gte
-      calculation: 2.5
+      calculation: "2.5"
       sortOrder: 1
     - status: Caution
       statusId: 18579
       compare: gte
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 2
     - status: Below Plan
       statusId: 18580
       compare: lt
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 3
     - status: No Information
       statusId: 18581
@@ -41,12 +41,23 @@ cps:
       objectId: 423506
       concept: scorecard-77147/measures/measure-423506
       weight: 50
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/objective-207730-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T18:38:23.590Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Lawrence Sito
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-11-12T18:38:23.507Z
+      at: "2021-11-12T18:38:23.507Z"
 ---
 
 ## Overview

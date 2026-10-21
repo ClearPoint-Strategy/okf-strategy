@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7807
   periodicity: Default
-  startDate: 2020-04-27
-  endDate: 2020-05-28
+  startDate: "2020-04-27"
+  endDate: "2020-05-28"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3959
+      status: No Information
+    statusResource: scorecard-7807/data/milestone-54205-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:59.950Z"
+      name: ClearPoint Support
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: ClearPoint Support
-      at: 2018-11-13T18:25:42.677Z
+      at: "2018-11-13T18:25:42.677Z"
 ---
 
 ## Overview

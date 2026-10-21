@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7631
   periodicity: Default
-  startDate: 2022-06-24
-  endDate: 2022-07-19
+  startDate: "2022-06-24"
+  endDate: "2022-07-19"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3959
+      status: No Information
+    statusResource: scorecard-7631/data/milestone-54132-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:42.513Z"
+      name: ClearPoint Support
     owner:
       name: Catherine Yochum
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:17:32.650Z
+      at: "2023-01-11T13:17:32.650Z"
 ---
 
 ## Overview

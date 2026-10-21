@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-08-02
-  endDate: 2026-04-04
+  startDate: "2025-08-02"
+  endDate: "2026-04-04"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/initiative-211892-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-02-26T15:18:05.767Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T20:51:21.450Z
+      at: "2025-03-10T20:51:21.450Z"
 ---
 
 ## Overview

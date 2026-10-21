@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7612/data/objective-126011-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:29.900Z"
+      name: ClearPoint Support
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2017-11-21T15:16:56.927Z
+      at: "2017-11-21T15:16:56.927Z"
 ---
 
 ## Overview

@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149810
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-149810/data/objective-555861-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:28.953Z"
+      name: ClearPoint Support
     owner:
       name: Maggie Sawyer
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:27.660Z
+      at: "2023-03-23T17:38:27.660Z"
 ---
 
 ## Overview

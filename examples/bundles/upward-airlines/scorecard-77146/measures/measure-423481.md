@@ -48,7 +48,29 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+      calculation: (([m423496][Actual][CurrentPeriod]-[m423497][Actual][CurrentPeriod])/[m423497][Actual][CurrentPeriod])*100
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+      calculation: ([m423496][Target][CurrentPeriod]-[m423497][Target][CurrentPeriod])/[m423497][Target][CurrentPeriod]*100
+    dataResource: scorecard-77146/data/measure-423481-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/measure-423481-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:36.400Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     collaborators:
@@ -57,7 +79,7 @@ cps:
     - Donald Duff
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-05T19:57:15.107Z
+      at: "2025-05-05T19:57:15.107Z"
 ---
 
 ## Overview

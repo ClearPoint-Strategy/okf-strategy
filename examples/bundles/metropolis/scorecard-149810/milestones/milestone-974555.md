@@ -10,9 +10,20 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149810
   periodicity: Default
-  startDate: 2022-05-07
-  endDate: 2022-07-11
+  startDate: "2022-05-07"
+  endDate: "2022-07-11"
+  status:
+    currentPeriod:
+      periodId: 192043
+      period: Jun-22
+      periodDate: "2022-06-30"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-149810/data/milestone-974555-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:29.113Z"
+      name: ClearPoint Support
     owner:
       name: John Smith
     collaborators:
@@ -22,7 +33,7 @@ cps:
     - Neil Patel (Director of Economic Development)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:28.227Z
+      at: "2023-03-23T17:38:28.227Z"
 ---
 
 ## Overview

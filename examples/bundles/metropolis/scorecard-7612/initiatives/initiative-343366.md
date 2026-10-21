@@ -10,14 +10,72 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Custom
-  startDate: 2022-01-28
-  endDate: 2022-12-21
+  startDate: "2022-01-28"
+  endDate: "2022-12-21"
+  evaluation:
+    enabled: true
+    statusSeries: Actual % Complete
+    statusSeriesId: 3907031
+    series:
+    - name: Actual % Complete
+      seriesId: 3907031
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 3907032
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: "*.9"
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 3907032
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: ""
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 3907032
+        sortOrder: 4
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Expenses
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: City Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Actual % Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Planned % Complete
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-7612/data/initiative-343366-series.json
+  status:
+    currentPeriod:
+      periodId: 168157
+      period: Jan-22
+      periodDate: "2022-01-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7612/data/initiative-343366-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-03-16T21:52:52.357Z"
+      name: ClearPoint Support
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:17:10.133Z
+      at: "2023-01-11T13:17:10.133Z"
 ---
 
 ## Overview

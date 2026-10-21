@@ -10,14 +10,26 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Default
-  startDate: 2024-11-01
-  endDate: 2024-11-17
+  startDate: "2024-11-01"
+  endDate: "2024-11-17"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189841
+      period: Nov-24
+      periodDate: "2024-11-30"
+      statusId: 0
+      status: Not Defined
   provenance:
     owner:
       name: Tammy Cuzco (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:24:48.240Z
+      at: "2025-03-10T22:24:48.240Z"
 ---
 
 ## Overview

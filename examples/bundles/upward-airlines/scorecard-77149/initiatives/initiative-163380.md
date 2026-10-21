@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77149
   periodicity: Default
-  startDate: 2024-11-08
-  endDate: 2025-06-13
+  startDate: "2024-11-08"
+  endDate: "2025-06-13"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77149/data/initiative-163380-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:05.137Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-03-10T22:25:56.477Z
+      at: "2025-03-10T22:25:56.477Z"
 ---
 
 ## Overview

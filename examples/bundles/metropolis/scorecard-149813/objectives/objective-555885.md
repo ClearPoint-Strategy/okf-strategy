@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149813
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-149813/data/objective-555885-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:35.517Z"
+      name: ClearPoint Support
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:34.930Z
+      at: "2023-03-23T17:38:34.930Z"
 ---
 
 ## Overview

@@ -46,12 +46,40 @@ cps:
         referenceSeries: Target
         referenceSeriesId: 2224741
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423520][Actual][CurrentPeriod]-[m423520][Target][CurrentPeriod]"
+    - name: Actual as % of Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423520][Actual][CurrentPeriod]/[m423520][Target][CurrentPeriod]"
+    dataResource: scorecard-77148/data/measure-423520-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 0
+      status: Not Defined
+    statusResource: scorecard-77148/data/measure-423520-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-11-12T22:49:53.117Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ashley Caper
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-06T20:00:10.697Z
+      at: "2017-10-06T20:00:10.697Z"
 ---
 
 ## Overview

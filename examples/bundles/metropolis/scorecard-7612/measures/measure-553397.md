@@ -10,12 +10,65 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Annual
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2701496
+    series:
+    - name: Actual
+      seriesId: 2701496
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2701497
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: "*.9"
+        referenceSeries: Target
+        referenceSeriesId: 2701497
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2701497
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 5
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-7612/data/measure-553397-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: "2022"
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7612/data/measure-553397-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-20T03:05:00.083Z"
+      name: ClearPoint Support
     owner:
       name: Richard Grayson
     lastEditedBy:
       name: ClearPoint Support
-      at: 2018-02-09T20:24:47.870Z
+      at: "2018-02-09T20:24:47.870Z"
 ---
 
 ## Overview

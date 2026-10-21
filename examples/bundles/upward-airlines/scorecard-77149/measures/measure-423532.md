@@ -43,12 +43,40 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423532][Actual][CurrentPeriod]-[m423532][Target][CurrentPeriod]"
+    - name: Actual as % of Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423532][Actual][CurrentPeriod]/[m423532][Target][CurrentPeriod]"
+    dataResource: scorecard-77149/data/measure-423532-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77149/data/measure-423532-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2024-09-13T20:44:44.887Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Clarice Strong (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:24.850Z
+      at: "2024-06-05T21:49:24.850Z"
 ---
 
 ## Overview

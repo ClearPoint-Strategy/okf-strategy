@@ -10,12 +10,74 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7807
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 753820
+    series:
+    - name: Actual
+      seriesId: 753820
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 754486
+        sortOrder: 1
+      - status: Caution
+        statusId: 3953
+        compare: lt
+        calculation: "*.95"
+        referenceSeries: Target
+        referenceSeriesId: 754486
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 3956
+        compare: gt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 754486
+        sortOrder: 3
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m111291][Target][CurrentPeriod]*.65"
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m111292][Actual][CurrentPeriod]-[m111292][Target][CurrentPeriod]"
+    - name: Year to Date
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: case when [m111292][Actual][CurrentPeriod] is null then null else [m111292][Actual][CalendarYTDSum] end
+    dataResource: scorecard-7807/data/measure-111292-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7807/data/measure-111292-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T20:49:56.540Z"
+      name: ClearPoint Support
     owner:
       name: Lance Cummins (Police Chief)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2018-05-25T14:42:56.753Z
+      at: "2018-05-25T14:42:56.753Z"
 ---
 
 ## Overview

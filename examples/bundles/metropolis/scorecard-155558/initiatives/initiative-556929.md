@@ -10,14 +10,26 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/155558
   periodicity: Default
-  startDate: 2023-09-04
-  endDate: 2023-10-04
+  startDate: "2023-09-04"
+  endDate: "2023-10-04"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 0
+      status: Not Defined
   provenance:
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-09-04T13:14:37.390Z
+      at: "2023-09-04T13:14:37.390Z"
 ---
 
 ## Overview

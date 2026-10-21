@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77149
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/objective-207748-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:12:04.223Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Ted Jackson
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-05-23T14:30:47.657Z
+      at: "2024-05-23T14:30:47.657Z"
 ---
 
 ## Overview

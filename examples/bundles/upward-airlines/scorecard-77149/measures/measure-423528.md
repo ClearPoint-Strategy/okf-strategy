@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77149/data/measure-423528-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/measure-423528-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-08-12T14:14:32.270Z"
+      name: Ted Jackson
     owner:
       name: Izzy Moreno (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:23.020Z
+      at: "2024-06-05T21:49:23.020Z"
 ---
 
 ## Overview

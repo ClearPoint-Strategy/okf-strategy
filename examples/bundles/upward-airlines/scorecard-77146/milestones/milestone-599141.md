@@ -10,14 +10,27 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Monthly 2025-26
-  startDate: 2025-11-01
-  endDate: 2026-03-02
+  startDate: "2025-11-01"
+  endDate: "2026-03-02"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189842
+      period: Jan-25
+      periodDate: "2025-01-31"
+      statusId: 0
+      status: Not Defined
+    statusResource: scorecard-77146/data/milestone-599141-status.json
   provenance:
     owner:
       name: Kimberly Kupcha
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:28:20.530Z
+      at: "2025-02-26T15:28:20.530Z"
 ---
 
 ## Overview

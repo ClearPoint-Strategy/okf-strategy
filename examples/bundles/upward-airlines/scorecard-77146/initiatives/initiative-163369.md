@@ -10,9 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-01-27
-  endDate: 2025-12-31
+  startDate: "2025-01-27"
+  endDate: "2025-12-31"
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/initiative-163369-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-02-26T15:16:23.513Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Donald Duff
     collaborators:
@@ -21,7 +37,7 @@ cps:
     - Janice Jones
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-11-25T19:55:46.387Z
+      at: "2025-11-25T19:55:46.387Z"
 ---
 
 ## Overview

@@ -43,12 +43,37 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "8.12"
+    - name: YTD Avg
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423518][Actual][CalendarYTDAverage]"
+    dataResource: scorecard-77148/data/measure-423518-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77148/data/measure-423518-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T19:42:17.630Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Trudy Joplin (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-11-28T15:25:46.857Z
+      at: "2017-11-28T15:25:46.857Z"
 ---
 
 ## Overview

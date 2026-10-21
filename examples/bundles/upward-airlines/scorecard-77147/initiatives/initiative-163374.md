@@ -10,8 +10,8 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Monthly 2025-26
-  startDate: 2025-03-01
-  endDate: 2025-12-31
+  startDate: "2025-03-01"
+  endDate: "2025-12-31"
   evaluation:
     enabled: true
     statusSeries: Initiative Percent Complete
@@ -39,14 +39,37 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Elapsed Days
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Initiative Percent Complete
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+    dataResource: scorecard-77147/data/initiative-163374-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77147/data/initiative-163374-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2025-02-26T15:12:53.720Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Izzy Moreno (Sales)
     collaborators:
     - Clarice Strong (Operations)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-02-26T15:15:32.540Z
+      at: "2025-02-26T15:15:32.540Z"
 ---
 
 ## Overview

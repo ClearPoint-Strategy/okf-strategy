@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Default
-  startDate: 2025-05-09
-  endDate: 2025-06-21
+  startDate: "2025-05-09"
+  endDate: "2025-06-21"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18581
+      status: No Information
+    statusResource: scorecard-77147/data/milestone-371915-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:11:23.740Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Steve Smith
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-01T21:01:55.090Z
+      at: "2025-05-01T21:01:55.090Z"
 ---
 
 ## Overview

@@ -10,9 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149812
   periodicity: Default
-  startDate: 2020-01-10
-  endDate: 2021-06-03
+  startDate: "2020-01-10"
+  endDate: "2021-06-03"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-149812/data/initiative-523418-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:34.067Z"
+      name: ClearPoint Support
     owner:
       name: Maggie Sawyer
     collaborators:
@@ -20,7 +36,7 @@ cps:
     - Rhonda Fields (Assistant City Manager)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T18:13:32.507Z
+      at: "2023-03-23T18:13:32.507Z"
 ---
 
 ## Overview

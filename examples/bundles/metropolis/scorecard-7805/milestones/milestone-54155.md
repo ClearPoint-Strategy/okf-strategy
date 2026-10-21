@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7805
   periodicity: Default
-  startDate: 2020-04-01
-  endDate: 2020-06-05
+  startDate: "2020-04-01"
+  endDate: "2020-06-05"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7805/data/milestone-54155-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:54.047Z"
+      name: ClearPoint Support
     owner:
       name: Ron Troupe (Director of Public Safety)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2018-11-14T13:43:22.443Z
+      at: "2018-11-14T13:43:22.443Z"
 ---
 
 ## Overview

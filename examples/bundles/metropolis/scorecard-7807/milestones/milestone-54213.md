@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7807
   periodicity: Default
-  startDate: 2021-08-01
-  endDate: 2020-10-11
+  startDate: "2021-08-01"
+  endDate: "2020-10-11"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7807/data/milestone-54213-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:08:02.080Z"
+      name: ClearPoint Support
     owner:
       name: Rhonda Fields (Assistant City Manager)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2018-11-13T18:31:11.717Z
+      at: "2018-11-13T18:31:11.717Z"
 ---
 
 ## Overview

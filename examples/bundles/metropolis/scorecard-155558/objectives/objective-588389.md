@@ -10,12 +10,19 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/155558
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 0
+      status: Not Defined
   provenance:
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-09-04T13:14:34.770Z
+      at: "2023-09-04T13:14:34.770Z"
 ---
 
 ## Overview

@@ -10,12 +10,32 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Quarterly
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 5
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/measure-423510-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/measure-423510-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T20:52:35.943Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-16T15:26:58.563Z
+      at: "2017-10-16T15:26:58.563Z"
 ---
 
 ## Overview

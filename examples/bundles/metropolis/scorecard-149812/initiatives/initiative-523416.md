@@ -10,9 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149812
   periodicity: Default
-  startDate: 2019-12-28
-  endDate: 2020-08-29
+  startDate: "2019-12-28"
+  endDate: "2020-08-29"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-149812/data/initiative-523416-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:34.067Z"
+      name: ClearPoint Support
     owner:
       name: Steve Lombard
     collaborators:
@@ -20,7 +36,7 @@ cps:
     - Catherine Yochum
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T18:13:32.773Z
+      at: "2023-03-23T18:13:32.773Z"
 ---
 
 ## Overview

@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7805
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7805/data/objective-54684-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-06T22:21:54.740Z"
+      name: ClearPoint Support
     owner:
       name: Joseph Lucco
     lastEditedBy:
       name: ClearPoint Support
-      at: 2017-10-30T21:26:14.697Z
+      at: "2017-10-30T21:26:14.697Z"
 ---
 
 ## Overview

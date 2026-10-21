@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7805
   periodicity: Default
-  startDate: 2021-01-26
-  endDate: 2021-02-23
+  startDate: "2021-01-26"
+  endDate: "2021-02-23"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7805/data/initiative-340119-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-21T15:32:05.853Z"
+      name: ClearPoint Support
     owner:
       name: Jimmy Olsen (Director of Parks and Recreation)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2021-01-21T22:50:42.840Z
+      at: "2021-01-21T22:50:42.840Z"
 ---
 
 ## Overview

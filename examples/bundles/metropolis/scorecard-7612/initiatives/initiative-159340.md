@@ -12,14 +12,64 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Monthly
-  startDate: 2021-08-29
-  endDate: 2023-04-23
+  startDate: "2021-08-29"
+  endDate: "2023-04-23"
+  evaluation:
+    enabled: true
+    statusSeries: Initiative Percent Complete
+    statusSeriesId: 3495813
+    series:
+    - name: Initiative Percent Complete
+      seriesId: 3495813
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: =80
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: =50
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: =50
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 5
+  measure:
+    series:
+    - name: Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Elapsed Days
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Initiative Percent Complete
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+    dataResource: scorecard-7612/data/initiative-159340-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7612/data/initiative-159340-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-15T15:23:55.337Z"
+      name: ClearPoint Support
     owner:
       name: Steve Lombard
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:14:47.957Z
+      at: "2023-01-11T13:14:47.957Z"
 ---
 
 ## Overview
@@ -37,7 +87,7 @@ As seen in the data table below, this Initiative is tracking related quantitativ
 
 - **Level of Effort:** Medium
 - **Level of Impact:** Medium
-- **Initiative Percent Complete:** {[m740423][@3495813]}
+- **Initiative Percent Complete:** {[i159340][@3495813]}
 - **Budget:** $15,000
 - **Priority:** Medium
 

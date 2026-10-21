@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7631
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-7631/data/objective-54270-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:40.063Z"
+      name: ClearPoint Support
     owner:
       name: Richard Grayson
     lastEditedBy:
       name: ClearPoint Support
-      at: 2017-10-30T21:24:15.003Z
+      at: "2017-10-30T21:24:15.003Z"
 ---
 
 ## Overview

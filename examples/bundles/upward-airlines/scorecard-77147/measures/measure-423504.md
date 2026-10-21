@@ -43,12 +43,32 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    dataResource: scorecard-77147/data/measure-423504-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: "2025"
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/measure-423504-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-15T15:28:38.433Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Lawrence Sito
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2019-02-04T18:37:39.513Z
+      at: "2019-02-04T18:37:39.513Z"
 ---
 
 ## Overview

@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Default
-  startDate: 2023-01-26
-  endDate: 2023-02-28
+  startDate: "2023-01-26"
+  endDate: "2023-02-28"
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77146/data/actionItem-182622-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:46.720Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2023-01-10T22:28:54.210Z
+      at: "2023-01-10T22:28:54.210Z"
 ---
 
 ## Overview

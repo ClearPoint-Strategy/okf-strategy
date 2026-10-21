@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Custom
-  startDate: 2022-02-24
-  endDate: 2022-06-16
+  startDate: "2022-02-24"
+  endDate: "2022-06-16"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7612/data/milestone-690952-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-10T15:10:51.240Z"
+      name: ClearPoint Support
     owner:
       name: ClearPoint Support
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:17:10.150Z
+      at: "2023-01-11T13:17:10.150Z"
 ---
 
 ## Overview

@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7631
   periodicity: Default
-  startDate: 2022-04-24
-  endDate: 2022-07-09
+  startDate: "2022-04-24"
+  endDate: "2022-07-09"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3959
+      status: No Information
+    statusResource: scorecard-7631/data/milestone-54145-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-02T18:07:45.333Z"
+      name: ClearPoint Support
     owner:
       name: Richard Grayson
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-01-11T13:17:50.737Z
+      at: "2023-01-11T13:17:50.737Z"
 ---
 
 ## Overview

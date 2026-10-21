@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149811
   periodicity: Default
-  startDate: 2022-02-23
-  endDate: 2022-09-21
+  startDate: "2022-02-23"
+  endDate: "2022-09-21"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-149811/data/initiative-523412-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:32.697Z"
+      name: ClearPoint Support
     owner:
       name: Steve Lombard
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:32.270Z
+      at: "2023-03-23T17:38:32.270Z"
 ---
 
 ## Overview

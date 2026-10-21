@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149810
   periodicity: Default
-  startDate: 2022-01-09
-  endDate: 2023-01-26
+  startDate: "2022-01-09"
+  endDate: "2023-01-26"
+  status:
+    currentPeriod:
+      periodId: 33176
+      period: Nov-19
+      periodDate: "2019-11-30"
+      statusId: 0
+      status: Not Defined
+    statusResource: scorecard-149810/data/actionItem-356091-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:29.227Z"
+      name: ClearPoint Support
     owner:
       name: Maggie Sawyer
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:28.257Z
+      at: "2023-03-23T17:38:28.257Z"
 ---
 
 ## Overview

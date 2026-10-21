@@ -12,14 +12,63 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149810
   periodicity: Monthly
-  startDate: 2021-08-29
-  endDate: 2023-04-23
+  startDate: "2021-08-29"
+  endDate: "2023-04-23"
+  evaluation:
+    enabled: true
+    statusSeries: Initiative Percent Complete
+    statusSeriesId: 5992070
+    series:
+    - name: Initiative Percent Complete
+      seriesId: 5992070
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: =80
+        sortOrder: 2
+      - status: Caution
+        statusId: 3953
+        compare: gte
+        calculation: =50
+        sortOrder: 3
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: =50
+        sortOrder: 4
+      - status: No Information
+        statusId: 3959
+        compare: any
+        sortOrder: 5
+  measure:
+    series:
+    - name: Budget
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Elapsed Days
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Initiative Percent Complete
+      seriesDataTypeId: 6
+      aggregateType: AVERAGE
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-149810/data/initiative-523409-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:29.087Z"
+      name: ClearPoint Support
     owner:
       name: Steve Lombard
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:28.190Z
+      at: "2023-03-23T17:38:28.190Z"
 ---
 
 ## Overview
@@ -37,7 +86,7 @@ As seen in the data table below, this Initiative is tracking related quantitativ
 
 - **Level of Effort:** Medium
 - **Level of Impact:** Medium
-- **Initiative Percent Complete:** {[m740423][@3495813]}
+- **Initiative Percent Complete:** {[i159340][@3495813]}
 - **Budget:** $15,000
 - **Priority:** Medium
 

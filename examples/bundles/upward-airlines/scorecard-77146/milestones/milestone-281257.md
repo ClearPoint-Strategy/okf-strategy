@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
-  startDate: 2025-09-02
-  endDate: 2025-11-01
+  startDate: "2025-09-02"
+  endDate: "2025-11-01"
+  measure:
+    series:
+    - name: Cost
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18579
+      status: Caution
+    statusResource: scorecard-77146/data/milestone-281257-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2022-03-15T14:18:47.210Z"
+      name: Clarice Strong (Operations)
     owner:
       name: James Crockett (Sales)
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2025-05-02T15:43:11.590Z
+      at: "2025-05-02T15:43:11.590Z"
 ---
 
 ## Overview

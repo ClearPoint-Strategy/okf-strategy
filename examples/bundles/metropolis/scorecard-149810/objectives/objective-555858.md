@@ -10,7 +10,53 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149810
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    bands:
+    - status: On Target
+      statusId: 3950
+      compare: gte
+      calculation: "2.5"
+      sortOrder: 1
+    - status: Caution
+      statusId: 3953
+      compare: gte
+      calculation: "1.5"
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 3956
+      compare: gte
+      calculation: ".5"
+      sortOrder: 3
+    - status: No Information
+      statusId: 3959
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: measure
+      objectId: 1426482
+      concept: scorecard-149810/measures/measure-1426482
+      weight: 33
+    - object: measure
+      objectId: 1426483
+      concept: scorecard-149810/measures/measure-1426483
+      weight: 34
+    - object: measure
+      objectId: 1426484
+      concept: scorecard-149810/measures/measure-1426484
+      weight: 33
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3953
+      status: Caution
+    statusResource: scorecard-149810/data/objective-555858-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:28.953Z"
+      name: ClearPoint Support
     owner:
       name: Rhonda Fields (Assistant City Manager)
     collaborators:
@@ -18,7 +64,7 @@ cps:
     - Steve Lombard
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:27.660Z
+      at: "2023-03-23T17:38:27.660Z"
 ---
 
 ## Overview

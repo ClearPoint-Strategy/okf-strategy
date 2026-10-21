@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7807
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3956
+      status: Below Plan
+    statusResource: scorecard-7807/data/objective-54701-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-06T22:58:07.493Z"
+      name: ClearPoint Support
     owner:
       name: Lance Cummins (Police Chief)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2016-06-10T20:52:30.373Z
+      at: "2016-06-10T20:52:30.373Z"
 ---
 
 ## Overview

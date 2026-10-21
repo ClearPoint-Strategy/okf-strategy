@@ -43,12 +43,36 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+    - name: Unsatisfied Exmployees
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: 100-[m423502][Actual][CurrentPeriod]
+    dataResource: scorecard-77147/data/measure-423502-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/measure-423502-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T20:17:29.380Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Greg Garcia
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-01-25T20:17:29.270Z
+      at: "2021-01-25T20:17:29.270Z"
 ---
 
 ## Overview

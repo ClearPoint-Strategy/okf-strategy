@@ -10,14 +10,30 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7805
   periodicity: Default
-  startDate: 2021-01-26
-  endDate: 2021-02-23
+  startDate: "2021-01-26"
+  endDate: "2021-02-23"
+  measure:
+    series:
+    - name: Revenue
+      seriesDataTypeId: 4
+      aggregateType: SUM
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7805/data/initiative-340120-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-21T16:06:09.610Z"
+      name: ClearPoint Support
     owner:
       name: Lance Cummins (Police Chief)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2021-01-21T15:55:23.183Z
+      at: "2021-01-21T15:55:23.183Z"
 ---
 
 ## Overview

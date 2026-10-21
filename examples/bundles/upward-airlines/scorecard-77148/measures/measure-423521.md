@@ -43,12 +43,40 @@ cps:
         statusId: 18581
         compare: any
         sortOrder: 4
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Variance
+      seriesDataTypeId: 4
+      aggregateType: SUM
+      calculation: "[m423521][Actual][CurrentPeriod]-[m423521][Target][CurrentPeriod]"
+    - name: Actual as % of Target
+      seriesDataTypeId: 6
+      aggregateType: SUM
+      calculation: "[m423521][Actual][CurrentPeriod]/[m423521][Target][CurrentPeriod]"
+    dataResource: scorecard-77148/data/measure-423521-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77148/data/measure-423521-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T19:48:06.223Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Mark Cutler
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2017-10-06T20:01:58.767Z
+      at: "2017-10-06T20:01:58.767Z"
 ---
 
 ## Overview

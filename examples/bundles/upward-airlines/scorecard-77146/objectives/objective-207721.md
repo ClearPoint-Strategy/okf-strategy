@@ -10,12 +10,23 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Default
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18580
+      status: Below Plan
+    statusResource: scorecard-77146/data/objective-207721-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2020-12-01T16:04:36.013Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Lawrence Sito
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2016-07-27T21:51:30.610Z
+      at: "2016-07-27T21:51:30.610Z"
 ---
 
 ## Overview

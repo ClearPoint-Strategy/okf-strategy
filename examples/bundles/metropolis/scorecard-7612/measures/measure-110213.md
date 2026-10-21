@@ -10,12 +10,61 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/7612
   periodicity: Annual
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 750372
+    series:
+    - name: Actual
+      seriesId: 750372
+      bands:
+      - status: On Target
+        statusId: 3950
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 750373
+        sortOrder: 1
+      - status: Caution
+        statusId: 3953
+        compare: gt
+        calculation: "*.9"
+        referenceSeries: Target
+        referenceSeriesId: 750373
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 3956
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 750373
+        sortOrder: 3
+  measure:
+    series:
+    - name: Actual
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 4
+      aggregateType: SUM
+    dataResource: scorecard-7612/data/measure-110213-series.json
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: "2022"
+      periodDate: "2022-12-31"
+      statusId: 3950
+      status: On Target
+    statusResource: scorecard-7612/data/measure-110213-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-20T15:07:35.493Z"
+      name: ClearPoint Support
     owner:
       name: Jimmy Olsen (Director of Parks and Recreation)
     lastEditedBy:
       name: ClearPoint Support
-      at: 2018-11-20T19:37:49.020Z
+      at: "2018-11-20T19:37:49.020Z"
 ---
 
 ## Overview

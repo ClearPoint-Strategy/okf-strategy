@@ -10,14 +10,25 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/149813
   periodicity: Default
-  startDate: 2021-01-16
-  endDate: 2021-07-31
+  startDate: "2021-01-16"
+  endDate: "2021-07-31"
+  status:
+    currentPeriod:
+      periodId: 192048
+      period: Dec-22
+      periodDate: "2022-12-31"
+      statusId: 3959
+      status: No Information
+    statusResource: scorecard-149813/data/milestone-974619-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2023-03-23T17:38:35.617Z"
+      name: ClearPoint Support
     owner:
       name: Joseph Lucco
     lastEditedBy:
       name: ClearPoint Support
-      at: 2023-03-23T17:38:35.070Z
+      at: "2023-03-23T17:38:35.070Z"
 ---
 
 ## Overview

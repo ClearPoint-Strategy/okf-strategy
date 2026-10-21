@@ -16,17 +16,17 @@ cps:
     - status: Above Target
       statusId: 18578
       compare: gte
-      calculation: 2.5
+      calculation: "2.5"
       sortOrder: 1
     - status: Caution
       statusId: 18579
       compare: gte
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 2
     - status: Below Plan
       statusId: 18580
       compare: lt
-      calculation: 1.5
+      calculation: "1.5"
       sortOrder: 3
     - status: No Information
       statusId: 18581
@@ -49,12 +49,23 @@ cps:
       objectId: 207732
       concept: scorecard-77147/objectives/objective-207732
       weight: 25
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Dec-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77147/data/objective-207727-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-11-12T18:41:00.747Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Janice Jones
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2021-11-12T18:41:00.617Z
+      at: "2021-11-12T18:41:00.617Z"
 ---
 
 ## Overview

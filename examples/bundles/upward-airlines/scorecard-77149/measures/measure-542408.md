@@ -10,12 +10,36 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77149
   periodicity: Quarterly
+  measure:
+    series:
+    - name: Number of calls
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: Target
+      seriesDataTypeId: 9
+      aggregateType: SUM
+    - name: YTD Calls
+      seriesDataTypeId: 5
+      aggregateType: SUM
+      calculation: "CASE \n    WHEN [m542408][Number of calls][CurrentPeriod] IS NULL THEN NULL \n    ELSE [m542408][Number of calls][CalendarYTDAverage] \nEND\n"
+    dataResource: scorecard-77149/data/measure-542408-series.json
+  status:
+    currentPeriod:
+      periodId: 189846
+      period: Q4-25
+      periodDate: "2025-12-31"
+      statusId: 18578
+      status: Above Target
+    statusResource: scorecard-77149/data/measure-542408-status.json
   provenance:
+    lastUpdatedBy:
+      at: "2021-01-25T20:15:30.227Z"
+      name: Clarice Strong (Operations)
     owner:
       name: Kimberly Kupcha
     lastEditedBy:
       name: Clarice Strong (Operations)
-      at: 2024-06-05T21:49:26.340Z
+      at: "2024-06-05T21:49:26.340Z"
 ---
 
 ## Overview

@@ -15,10 +15,32 @@ Each user's account-wide baseline access (their profile type).
 
 | Profile | Users |
 | --- | --- |
-| Administrator | Lance Cummins (Police Chief), Ted Jackson, Joseph Lucco, ClearPoint Support |
-| No Access | Mark Cutler, Richard Grayson, Jerry Johnson, Steve Lombard, Maggie Sawyer, John Smith |
+| Administrator | Lance Cummins (Police Chief), Ted Jackson, Brandon Kline, Joseph Lucco, ClearPoint Support |
+| No Access | Melanie Burton, Mark Cutler, Richard Grayson, Jerry Johnson, Steve Lombard, Dylan Miyake, Maggie Sawyer, John Smith |
 | Editor | Rhonda Fields (Assistant City Manager), Jimmy Olsen (Director of Parks and Recreation), Neil Patel (Director of Economic Development), Catherine Yochum |
-| Scorecard Admin | Ron Troupe (Director of Public Safety) |
+| Assign Group | Andrew Foley, Andy Foley, Cat Grant, Perry White |
+| Browser | Alex Hilleary, Ted test user |
+| By Scorecard | Neil Patel |
+| Scorecard Admin | Moira Reilly, Ron Troupe (Director of Public Safety) |
+| Updater | ClearPoint Browser Support |
+
+### By-Scorecard
+
+Users whose profile grants a different access level per scorecard.
+
+| User | Scorecard | Level |
+| --- | --- | --- |
+| Neil Patel | Metropolis City Scorecard (7612) | Scorecard Admin |
+| Neil Patel | Airport (7631) | Browser |
+| Neil Patel | Police Department (7805) | Scorecard Admin |
+| Neil Patel | Fire Department (7807) | No Access |
+| Neil Patel | Parks and Recreation (149811) | Browser |
+| Neil Patel | Police Department (149812) | Scorecard Admin |
+| Neil Patel | Fire Department (149813) | No Access |
+| Neil Patel | Scorecard Template (111676) | No Access |
+| Neil Patel | ClearPoint Implementation (114119) | No Access |
+| Neil Patel | Metropolis City Scorecard (Demo Rewrite) (149810) | Scorecard Admin |
+| Neil Patel | Manassas, VA (155558) | No Access |
 
 ### Groups
 
