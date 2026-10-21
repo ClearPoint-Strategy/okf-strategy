@@ -10,6 +10,33 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2664688
+    series:
+    - name: Actual
+      seriesId: 2664688
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2664689
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: .9
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2664689
+        sortOrder: 3
   provenance:
     owner:
       name: Janice Jones

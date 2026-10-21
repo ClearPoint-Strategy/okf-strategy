@@ -10,6 +10,33 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Default
+  evaluation:
+    enabled: true
+    bands:
+    - status: Above Target
+      statusId: 18578
+      compare: eq
+      calculation: 3
+      sortOrder: 1
+    - status: Caution
+      statusId: 18579
+      compare: eq
+      calculation: 2
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 18580
+      compare: eq
+      calculation: 1
+      sortOrder: 3
+    - status: No Information
+      statusId: 18581
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: measure
+      objectId: 423490
+      concept: scorecard-77146/measures/measure-423490
+      weight: 100
   provenance:
     owner:
       name: Janice Jones

@@ -15,6 +15,61 @@ cps:
     - group: No Finances
       level: No Access
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2224700
+    series:
+    - name: Actual
+      seriesId: 2224700
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224701
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: "*.95"
+        referenceSeries: Target
+        referenceSeriesId: 2224701
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224701
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
+    - name: Variance
+      seriesId: 2224702
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: =0
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: =-50
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: =0
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Clarice Strong (Operations)

@@ -10,6 +10,39 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Monthly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2224725
+    series:
+    - name: Actual
+      seriesId: 2224725
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224726
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gt
+        calculation: "*.95"
+        referenceSeries: Target
+        referenceSeriesId: 2224726
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224726
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Lawrence Sito

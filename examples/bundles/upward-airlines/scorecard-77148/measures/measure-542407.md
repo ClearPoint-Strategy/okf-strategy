@@ -10,6 +10,35 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77148
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2664690
+    series:
+    - name: Actual
+      seriesId: 2664690
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2664691
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: "*1.2"
+        referenceSeries: Target
+        referenceSeriesId: 2664691
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2664691
+        sortOrder: 3
   provenance:
     owner:
       name: Lawrence Sito

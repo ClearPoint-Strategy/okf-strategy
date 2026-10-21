@@ -10,6 +10,37 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Default
+  evaluation:
+    enabled: true
+    bands:
+    - status: Above Target
+      statusId: 18578
+      compare: gte
+      calculation: 2.5
+      sortOrder: 1
+    - status: Caution
+      statusId: 18579
+      compare: gte
+      calculation: 1.5
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 18580
+      compare: gte
+      calculation: 0.5
+      sortOrder: 3
+    - status: No Information
+      statusId: 18581
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: objective
+      objectId: 207735
+      concept: scorecard-77148/objectives/objective-207735
+      weight: 50
+    - object: objective
+      objectId: 207744
+      concept: scorecard-77149/objectives/objective-207744
+      weight: 50
   provenance:
     owner:
       name: Greg Garcia

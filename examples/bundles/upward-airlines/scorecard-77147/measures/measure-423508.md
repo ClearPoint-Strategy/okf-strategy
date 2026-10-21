@@ -10,6 +10,39 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: Actual
+    statusSeriesId: 2224712
+    series:
+    - name: Actual
+      seriesId: 2224712
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: lte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224713
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: "*1.1"
+        referenceSeries: Target
+        referenceSeriesId: 2224713
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224713
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Kimberly Kupcha

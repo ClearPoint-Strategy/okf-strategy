@@ -10,6 +10,35 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Quarterly
+  evaluation:
+    enabled: true
+    statusSeries: Employee Ownership
+    statusSeriesId: 2224695
+    series:
+    - name: Employee Ownership
+      seriesId: 2224695
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224696
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: "*.9"
+        referenceSeries: Target
+        referenceSeriesId: 2224696
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224696
+        sortOrder: 3
   provenance:
     owner:
       name: Greg Garcia

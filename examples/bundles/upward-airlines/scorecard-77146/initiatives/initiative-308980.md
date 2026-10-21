@@ -14,6 +14,57 @@ cps:
   periodicity: Monthly 2025-26
   startDate: 2025-10-04
   endDate: 2026-12-09
+  evaluation:
+    enabled: true
+    statusSeries: Actual % Complete
+    statusSeriesId: 3482820
+    series:
+    - name: Actual % Complete
+      seriesId: 3482820
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 3482821
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gte
+        calculation: "*.9"
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 3482821
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Planned % Complete
+        referenceSeriesId: 3482821
+        sortOrder: 3
+    - name: "% Variance"
+      seriesId: 3482824
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: lte
+        calculation: =0
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: lte
+        calculation: =5
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: gt
+        calculation: =5
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Greg Garcia

@@ -121,10 +121,11 @@
                     "description": "Metric detail. Any element type may carry series + data — measure, initiative, milestone, actionItem, and risk all can. (ClearPoint links non-measures via an internal shadowMeasureId; that is backend detail and is NOT captured here — the element simply carries its own series/data.) The GROUNDING projection lives inline in the body; this carries series definitions + evaluation rules + the analytical sidecar pointer (§6).",
                     "properties": {
                         "series": { "type": "array", "items": { "$ref": "#/$defs/series" } },
-                        "evaluation": { "type": "array", "items": { "$ref": "#/$defs/evaluationRule" }, "description": "Rules that turn a series value into a status (objectiveEvaluation). Carries direction-of-good / thresholds." },
+                        "evaluation": { "type": "array", "items": { "$ref": "#/$defs/evaluationRule" }, "description": "Earlier rule shape, kept valid for compatibility. Not written by current producers: evaluation rules live in cps.evaluation (SPEC §6.2)." },
                         "dataResource": { "type": "string", "description": "Bundle-relative path or URI of the full series sidecar (data/*)." }
                     }
-                }
+                },
+                "evaluation": { "$ref": "#/$defs/evaluation", "description": "Evaluation rules in effect for this element (SPEC §6.2): per-series status bands for any series-bearing element, or bands plus weighted children for an objective. Omitted when evaluation is off." }
             }
         }
     },
@@ -179,6 +180,55 @@
                 "statusId": { "type": "integer" },
                 "statusName": { "type": "string" },
                 "measureSeries": { "type": "string" }
+            }
+        },
+        "evaluation": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "SPEC §6.2. Series-bearing elements carry statusSeries / statusSeriesId and series[]; objectives carry bands[] and weights[].",
+            "required": ["enabled"],
+            "properties": {
+                "enabled": { "type": "boolean", "description": "True when the source evaluates this element automatically. A block is only emitted when true." },
+                "statusSeries": { "type": "string", "description": "Name of the series whose status the element reports, or 'best' / 'worst' when statusSeriesId is -1 / -2." },
+                "statusSeriesId": { "type": ["integer", "null"], "description": "Id of that series; -1 = best status across evaluated series, -2 = worst." },
+                "series": { "type": "array", "items": { "$ref": "#/$defs/evaluatedSeries" }, "description": "Each evaluated series with its ordered bands." },
+                "bands": { "type": "array", "items": { "$ref": "#/$defs/evaluationBand" }, "description": "Objective bands over the weighted average status score." },
+                "weights": { "type": "array", "items": { "$ref": "#/$defs/evaluationWeight" }, "description": "Objective children and their weights." }
+            }
+        },
+        "evaluatedSeries": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "bands"],
+            "properties": {
+                "name": { "type": "string" },
+                "seriesId": { "type": ["integer", "null"] },
+                "bands": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evaluationBand" } }
+            }
+        },
+        "evaluationBand": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["statusId", "compare"],
+            "properties": {
+                "status": { "type": "string", "description": "Status name, resolved from statuses.md." },
+                "statusId": { "type": "integer" },
+                "compare": { "type": "string", "enum": ["any", "eq", "neq", "lt", "lte", "gt", "gte", "btw"] },
+                "calculation": { "type": ["string", "number"], "description": "Threshold grammar (SPEC §6.2): a number or '=<number>' is a literal; '' is the reference value itself; any other string is an arithmetic suffix on the reference value; 'low,high' for btw." },
+                "referenceSeries": { "type": "string" },
+                "referenceSeriesId": { "type": ["integer", "null"] },
+                "sortOrder": { "type": ["integer", "null"], "description": "Evaluation order; the first band that holds wins." }
+            }
+        },
+        "evaluationWeight": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["object", "objectId", "weight"],
+            "properties": {
+                "object": { "$ref": "common.schema.json#/$defs/objectType" },
+                "objectId": { "type": "integer" },
+                "concept": { "type": "string", "description": "The child's Concept ID when resolvable." },
+                "weight": { "type": "number" }
             }
         },
         "periodRef": {

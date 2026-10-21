@@ -10,6 +10,39 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77146
   periodicity: Annual
+  evaluation:
+    enabled: true
+    statusSeries: best
+    statusSeriesId: -1
+    series:
+    - name: Actual
+      seriesId: 2224660
+      bands:
+      - status: Above Target
+        statusId: 18578
+        compare: gte
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224661
+        sortOrder: 1
+      - status: Caution
+        statusId: 18579
+        compare: gt
+        calculation: "*.8"
+        referenceSeries: Target
+        referenceSeriesId: 2224661
+        sortOrder: 2
+      - status: Below Plan
+        statusId: 18580
+        compare: lt
+        calculation: ""
+        referenceSeries: Target
+        referenceSeriesId: 2224661
+        sortOrder: 3
+      - status: No Information
+        statusId: 18581
+        compare: any
+        sortOrder: 4
   provenance:
     owner:
       name: Izzy Moreno (Sales)

@@ -10,6 +10,41 @@ cps:
   access:
     derivedFrom: clearpoint://scorecard/77147
   periodicity: Default
+  evaluation:
+    enabled: true
+    bands:
+    - status: Above Target
+      statusId: 18578
+      compare: gte
+      calculation: 2.5
+      sortOrder: 1
+    - status: Caution
+      statusId: 18579
+      compare: gte
+      calculation: 1.5
+      sortOrder: 2
+    - status: Below Plan
+      statusId: 18580
+      compare: lt
+      calculation: 1.5
+      sortOrder: 3
+    - status: No Information
+      statusId: 18581
+      compare: any
+      sortOrder: 4
+    weights:
+    - object: initiative
+      objectId: 163372
+      concept: scorecard-77147/initiatives/initiative-163372
+      weight: 34
+    - object: measure
+      objectId: 423502
+      concept: scorecard-77147/measures/measure-423502
+      weight: 33
+    - object: measure
+      objectId: 423503
+      concept: scorecard-77147/measures/measure-423503
+      weight: 33
   provenance:
     owner:
       name: Mark Cutler
