@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://clearpointstrategy.com/okf-strategy/concept.schema.json",
-    "title": "okf-strategy — Concept frontmatter (OKF-Strategy profile v0.1)",
+    "title": "okf-strategy — Concept frontmatter (OKF-Strategy profile v1.0)",
     "description": "The YAML frontmatter of a single OKF concept, for OKF-Strategy. Grounded in the real ClearPoint OpenAPI (cps-lucee/api/v1/doc/schema): the `cps` block is the portable, on-disk superset of ClearPoint's own AI-grounding projection (_mcpElement / _mcpElementStatus / _mcpLink). A conforming concept is ALSO a valid base-OKF concept — the only hard requirement is a non-empty `type`, and every extension lives under `cps`, so a base-OKF consumer ignores it. The five axes (structure, access, time, provenance, vocabulary) all live under `cps`.",
     "type": "object",
     "required": ["type"],
@@ -9,7 +9,7 @@
         "type": {
             "type": "string",
             "minLength": 1,
-            "description": "Base-OKF required field. Human/canonical kind, e.g. 'Objective'. May be glossary-aliased via cps.alias. Machine-canonical type is cps.object."
+            "description": "Base-OKF required field. Human/canonical kind, e.g. 'Objective'. Machine-canonical type is cps.object; the organization's term for it is in glossary.md."
         },
         "title": { "type": "string" },
         "description": { "type": "string" },
@@ -39,7 +39,6 @@
                 "objectId": { "type": ["integer", "null"], "description": "AXIS 1. element.objectId; null before creation. Round-trip identity." },
                 "scorecardId": { "type": ["integer", "null"], "description": "AXIS 1. Owning scorecard id." },
                 "scorecard": { "type": "string", "description": "AXIS 1. Owning scorecard NAME (grounding; _mcpElement.scorecard)." },
-                "measureId": { "type": ["integer", "null"], "description": "AXIS 1. For measures / shadow-linked elements." },
                 "initiativeId": { "type": ["integer", "null"], "description": "AXIS 1. Parent initiative for a milestone." },
                 "startDate": { "type": "string", "format": "date" },
                 "endDate": { "type": "string", "format": "date" },
@@ -47,21 +46,10 @@
                 "completedDate": { "type": "string", "format": "date" },
                 "priority": { "type": "integer", "minimum": 1, "maximum": 1000 },
                 "sortOrder": { "type": ["number", "null"] },
-                "weight": { "type": ["integer", "null"], "description": "Rollup weight (element.weight / link weight)." },
-                "score": { "type": ["number", "null"], "description": "Current roll-up score (read-only)." },
                 "periodicity": { "type": "string", "description": "AXIS 3 — reporting periodicity: the periodGroup NAME (e.g. 'Monthly', 'Quarterly', 'Annual'). Its periods are grouped in the root periodicities.md lookup." },
-                "lookup": { "type": "string", "description": "For a root lookup concept (type: Lookup) — the lookup name it holds (users, statuses, tags, periods, periodicities, customFields, glossary, userAccess)." },
-                "glossary": {
-                    "type": "object",
-                    "additionalProperties": false,
-                    "description": "AXIS 5 — Vocabulary (bundle-level; lives on the Glossary concept, not in index frontmatter). Org nomenclature bound to canonical vocabulary, built from /language.",
-                    "properties": {
-                        "types": { "type": "object", "additionalProperties": { "$ref": "common.schema.json#/$defs/objectType" } },
-                        "labels": { "type": "object", "additionalProperties": { "type": "string" } },
-                        "statuses": { "type": "object", "additionalProperties": { "type": "string" } },
-                        "fields": { "type": "object", "additionalProperties": { "type": "string" } }
-                    }
-                },
+                "lookup": { "type": "string", "enum": ["users", "statuses", "tags", "periods", "periodicities", "customFields", "glossary", "userAccess"], "description": "For a root lookup concept (type: Lookup): the lookup it holds. Its required table columns are SPEC §2.1." },
+                "profile": { "type": "string", "pattern": "^1\\.[0-9]+$", "description": "The OKF-Strategy profile version, <major>.<minor>. Carried by the root glossary.md (SPEC §9)." },
+                "layoutResource": { "type": "string", "description": "Bundle-relative path of the element's optional presentation data, data/layout-<hash>.json (SPEC §6.3)." },
                 "access": {
                     "type": "object",
                     "additionalProperties": false,
@@ -93,10 +81,8 @@
                     "additionalProperties": false,
                     "description": "AXIS 3 — Time/Status. The element's current reporting status + cadence. Bitemporal: grounding reads VALID time (reporting period); 'current' is PER-ELEMENT at its own cadence.",
                     "properties": {
-                        "periodicity": { "type": "string", "description": "Reporting periodicity — the periodGroup NAME (e.g. 'Monthly', 'Quarterly', 'Annual'), resolved from periodGroupId. Its periods are grouped in the root periodicities.md lookup." },
-                        "periodGroupId": { "type": ["integer", "null"] },
                         "currentPeriod": { "anyOf": [{ "$ref": "#/$defs/periodRef" }, { "type": "null" }], "description": "Latest relevant reporting period (element.displayPeriodId / elementStatus.period), with its status snapshot. Narrative (analysis/recommendations) stays in the body period section." },
-                        "statusResource": { "type": "string", "description": "Bundle-relative path of the status-history sidecar (<object>-<id>-status.json): structured per-period status, analysis, recommendations, period-scoped custom fields. Body period sections are the grounding view; this is the query view." }
+                        "statusResource": { "type": "string", "description": "Bundle-relative path of the status history sidecar, data/<object>-<objectId>-status.json (SPEC §4.3.1). Omitted when no period has a status or narrative." }
                     }
                 },
                 "provenance": {
@@ -104,24 +90,20 @@
                     "additionalProperties": false,
                     "description": "AXIS 4 — Provenance. EDITORIAL (native ClearPoint audit) + RESOLUTION (parse confidence).",
                     "properties": {
-                        "scorecard": { "$ref": "#/$defs/scorecardRef", "description": "Editorial: home scorecard (also origin of the primary access marking)." },
                         "owner": { "$ref": "#/$defs/personStamp" },
                         "ownerType": { "type": "string", "description": "element.ownerType (e.g. user, group)." },
                         "collaborators": { "type": "array", "items": { "type": "string" }, "description": "Resolved collaborator names." },
                         "lastEditedBy": { "$ref": "#/$defs/personStamp", "description": "element.lastEdited / lastEditedBy — DEFINITION/structure change." },
-                        "lastUpdatedBy": { "$ref": "#/$defs/personStamp", "description": "element.lastUpdated / lastUpdatedBy — period-scoped STATUS/DATA update. Distinct from lastEditedBy." },
-                        "lastCalculated": { "type": "string", "format": "date-time" },
+                        "lastUpdatedBy": { "$ref": "#/$defs/personStamp", "description": "Who last reported on the element: the stamp of the current period's status entry. Distinct from lastEditedBy." },
                         "resolved": { "$ref": "common.schema.json#/$defs/resolution", "description": "Resolution: only on parsed/derived nodes — selector + confidence + evidence, or a ref." }
                     }
                 },
-                "alias": { "type": "string", "description": "AXIS 5 — Vocabulary. The org's own word for this concept (glossary). `type` stays canonical for interop; `alias` is what the MCP speaks back." },
                 "measure": {
                     "type": "object",
                     "additionalProperties": false,
-                    "description": "Metric detail. Any element type may carry series + data — measure, initiative, milestone, actionItem, and risk all can. (ClearPoint links non-measures via an internal shadowMeasureId; that is backend detail and is NOT captured here — the element simply carries its own series/data.) The GROUNDING projection lives inline in the body; this carries series definitions + evaluation rules + the analytical sidecar pointer (§6).",
+                    "description": "Series definitions and the sidecar pointer (SPEC §6). Any series-bearing element carries it: measure, initiative, milestone, actionItem, risk. A producer that keeps a non-measure's series on an internal helper object resolves it to the owning element.",
                     "properties": {
                         "series": { "type": "array", "items": { "$ref": "#/$defs/series" } },
-                        "evaluation": { "type": "array", "items": { "$ref": "#/$defs/evaluationRule" }, "description": "Earlier rule shape, kept valid for compatibility. Not written by current producers: evaluation rules live in cps.evaluation (SPEC §6.2)." },
                         "dataResource": { "type": "string", "description": "Bundle-relative path or URI of the full series sidecar (data/*)." }
                     }
                 },
@@ -130,22 +112,6 @@
         }
     },
     "$defs": {
-        "capability": {
-            "type": "string",
-            "enum": ["No Access", "Browser", "Updater", "Editor", "Scorecard Admin", "Administrator"],
-            "description": "Verb ladder (ascending). Mirrors _mcpElement.access / cps-next use-access. (_elementAccess also carries 'Limited', which projects to Browser-level here.)"
-        },
-        "customField": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["name", "value"],
-            "properties": {
-                "fieldId": { "type": ["string", "integer"] },
-                "name": { "type": "string", "description": "Org's field label (vocabulary)." },
-                "fieldType": { "type": "string", "description": "Value type as ClearPoint projects it (e.g. 'html', 'kanban', 'text', 'number', 'date'). The edit-vs-update MODE (element-level vs period-scoped) is carried by WHERE the field lives: cps.customFields = element-level; period sections / history sidecar = period-scoped." },
-                "value": { "type": "string", "description": "Always a string (serialize non-strings)." }
-            }
-        },
         "series": {
             "type": "object",
             "additionalProperties": false,
@@ -168,18 +134,6 @@
                 "decimal": { "type": "string" },
                 "symbol": { "type": "string" },
                 "thousand": { "type": "string" }
-            }
-        },
-        "evaluationRule": {
-            "type": "object",
-            "additionalProperties": false,
-            "description": "Mirrors objectiveEvaluation item — the rule that yields a status from a series.",
-            "properties": {
-                "compare": { "type": "string" },
-                "calculation": { "type": "string" },
-                "statusId": { "type": "integer" },
-                "statusName": { "type": "string" },
-                "measureSeries": { "type": "string" }
             }
         },
         "evaluation": {
@@ -241,14 +195,6 @@
                 "statusId": { "type": ["integer", "null"] },
                 "status": { "type": "string", "description": "Resolved status name for this period (short; full narrative in the body)." },
                 "percentComplete": { "type": ["integer", "null"] }
-            }
-        },
-        "scorecardRef": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "id": { "type": ["integer", "null"] },
-                "name": { "type": "string" }
             }
         },
         "personStamp": {

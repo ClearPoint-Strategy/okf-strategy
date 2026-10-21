@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://clearpointstrategy.com/okf-strategy/series.schema.json",
-    "title": "okf-strategy — numeric series sidecar (OKF-Strategy profile v0.1)",
+    "title": "okf-strategy — numeric series sidecar (OKF-Strategy profile v1.0)",
     "description": "The analytical sidecar data/<object>-<id>-series.json referenced by cps.measure.dataResource (SPEC §6.1). Columnar: one shared, ascending period axis, and one value array per series aligned to it by index. Not a concept — it has no frontmatter and no `type`.",
     "type": "object",
     "additionalProperties": false,
@@ -18,7 +18,7 @@
         },
         "periods": {
             "type": "array",
-            "description": "The shared period axis, oldest first. Every series' values[i] belongs to periods[i].",
+            "description": "The shared period axis, oldest first: every period in which at least one series has a value. Every series' values[i] belongs to periods[i].",
             "items": {
                 "type": "object",
                 "additionalProperties": false,

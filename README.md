@@ -30,16 +30,14 @@ five things as first-class, portable data:
 ```
 bundle/
   index.md            # okf_version only (base OKF §6)
-  glossary.md         # the organization's vocabulary (Glossary concept)
-  user-access.md      # the access model: principals, per-scorecard grants, group rules (portable)
+  glossary.md         # vocabulary; carries the profile version (cps.profile)
+  user-access.md      # the access model: profiles, per-scorecard grants, group rules (portable)
   users.md · statuses.md · tags.md · periods.md · periodicities.md · custom-fields.md   # reference lookups
-  log.md              # change history, newest-first
   scorecard-<id>/
-    index.md
-    objectives/objective-<id>.md      # one Concept per element; ID = path minus .md
-    measures/measure-<id>.md
-    data/measure-<id>-series.json      # numeric series (columnar sidecar)
-    data/objective-<id>-status.json    # per-period status/analysis history
+    objectives/objective-<id>.md          # one Concept per element; ID = path minus .md
+    measures/measure-<id>.md               # also categories/, initiatives/, milestones/, action-items/, risks/
+    data/<object>-<id>-series.json         # numeric series (columnar sidecar)
+    data/<object>-<id>-status.json         # per-period status and narrative history
 ```
 
 A concept's **frontmatter** is the machine spine (identity, status, provenance, series); its **body** is
@@ -57,11 +55,13 @@ Schemas.
 ## Conformance & validation
 
 A bundle conforms when every non-reserved `.md` has parseable frontmatter with a non-empty `type`, and the
-reserved files (`index.md`, `log.md`) follow base OKF. The included validator checks the profile:
+reserved files (`index.md`, `log.md`) follow base OKF. The included validator checks the rest of the profile
+(SPEC §7), over the examples or over any bundle you pass it:
 
 ```bash
 npm install
-npm run validate    # validates the example bundles against the schemas
+npm run validate                 # every bundle under examples/bundles/
+npm run validate -- path/to/bundle   # your own bundle
 ```
 
 Two worked bundles live in [`examples/bundles/`](examples/bundles/) (Upward Airlines and a larger,
@@ -75,9 +75,9 @@ extensions. Base OKF's non-goal of a fixed type taxonomy is exactly the seam thi
 
 ## Status
 
-**v0.1 — early and evolving.** The spec, schemas, and example bundles are usable today; the profile may
-still change as real bundles exercise it. Breaking changes are tracked in `okf_version` and called out in
-[SPEC.md](SPEC.md). Feedback and real-world bundles are the fastest way to harden it.
+**v1.0.** The profile is additive within `1.x`: new optional keys, lookup columns, and conventions only.
+A breaking change bumps the major and is documented in [SPEC.md](SPEC.md) §9, which also lists what a
+0.1 bundle changes to reach 1.0. A bundle declares its profile version as `cps.profile` on `glossary.md`.
 
 ## Contributing
 
