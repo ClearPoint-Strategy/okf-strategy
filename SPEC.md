@@ -431,8 +431,8 @@ numeric float real money`. An expression that fails to evaluate yields null.
 `COUNT`, or `STDEV`; `includeNulls` (default false) counts missing values as zero.
 
 - `scorecards`: `all`, `current` (the element's scorecard), `children` (its immediate child
-  scorecards), `list` with `scorecardList` (scorecard folder names, e.g. `scorecard-184937`), or `tag`
-  with `scorecardTag` (a tag name).
+  scorecards), `list` with a non-empty `scorecardList` (scorecard folder names, e.g.
+  `scorecard-184937`), or `tag` with `scorecardTag` (a tag name).
 - `elementType`: `measure`, `initiative`, `milestone`, `actionItem`, or `risk`. `elements`: `all`,
   `linkedChildren`, `nameEquals` or `nameContains` with `elementName`, `initiativeMilestones`,
   `childMilestones`, or `tag` with `elementTag`.
@@ -443,15 +443,28 @@ numeric float real money`. An expression that fails to evaluate yields null.
 including `objective`; `scorecards` and `scorecardList` / `scorecardTag` are as for aggregate;
 `elements` is `all`, `nameEquals` or `nameContains` with `elementName`, or `tag` with `elementTag`.
 
-**Reference.** A value read each period from an element's field: `field` is `percentComplete`,
-`elapsedPercentComplete`, `elapsedDays`, or `customField` with `customField` (the field's name; its
-element type is the target's). `concept` names the target; omitted means the series' own element.
+**Reference.** A value computed each period from an element's field. `field` is one of:
+
+- `percentComplete`: the element's percent complete in that period.
+- `elapsedPercentComplete`: the share of the schedule elapsed by the period's end (or today, if
+  sooner), in percent, minus percent complete. Positive means behind schedule.
+- `elapsedDays`: days from the start date to the period's end, or today if sooner.
+- `totalDays`: days from the start date to the end date.
+- `customField`, with `customField` naming the field; its element type is the target's.
+
+`concept` names the target; omitted means the series' own element.
 
 Rules for all four:
 
 - Names, tags, statuses, and Concept IDs are the portable handles; numeric ids are bundle-scoped (§3).
 - A derivation may name a concept outside the bundle. An importer resolves every handle in the target
   account and creates the series without its derivation, reporting it, when one does not resolve.
+  A scorecard in `scorecardList` resolves only to a scorecard the same import creates or maps.
+- A producer omits a handle it cannot express (a deleted tag, field, or scorecard) rather than writing
+  a placeholder; the importer then reports the derivation as unresolved. `[missing]` is the one
+  placeholder, and only as a formula target.
+- A source configuration that computes nothing is not a derivation: the series is emitted as entered
+  values.
 - The sidecar still holds every value, so a consumer that does not evaluate derivations reads the
   numbers the source computed.
 - Cross-account benchmark ("peer") series are never emitted.
