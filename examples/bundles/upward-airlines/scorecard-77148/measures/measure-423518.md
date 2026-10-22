@@ -47,15 +47,14 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
       calculation: "8.12"
+      derivation: formula
     - name: YTD Avg
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: "[m423518][Actual][CalendarYTDAverage]"
+      calculation: "[scorecard-77148/measures/measure-423518][Actual][CalendarYTDAverage]"
+      derivation: formula
     dataResource: scorecard-77148/data/measure-423518-series.json
   status:
     currentPeriod:

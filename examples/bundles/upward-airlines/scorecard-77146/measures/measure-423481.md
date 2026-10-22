@@ -52,12 +52,12 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 6
-      aggregateType: AVERAGE
-      calculation: (([m423496][Actual][CurrentPeriod]-[m423497][Actual][CurrentPeriod])/[m423497][Actual][CurrentPeriod])*100
+      calculation: (([scorecard-77146/measures/measure-423496][Actual][CurrentPeriod]-[scorecard-77146/measures/measure-423497][Actual][CurrentPeriod])/[scorecard-77146/measures/measure-423497][Actual][CurrentPeriod])*100
+      derivation: formula
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: AVERAGE
-      calculation: ([m423496][Target][CurrentPeriod]-[m423497][Target][CurrentPeriod])/[m423497][Target][CurrentPeriod]*100
+      calculation: ([scorecard-77146/measures/measure-423496][Target][CurrentPeriod]-[scorecard-77146/measures/measure-423497][Target][CurrentPeriod])/[scorecard-77146/measures/measure-423497][Target][CurrentPeriod]*100
+      derivation: formula
     dataResource: scorecard-77146/data/measure-423481-series.json
   status:
     currentPeriod:

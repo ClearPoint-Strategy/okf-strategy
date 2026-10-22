@@ -37,21 +37,48 @@ cps:
     series:
     - name: Above Target Strategic Projects
       seriesDataTypeId: 9
-      aggregateType: SUM
+      derivation: status
+      status:
+        scorecardList:
+        - scorecard-77146
+        elementType: initiative
+        statuses:
+        - statusId: 18578
+          status: Above Target
+        scorecards: list
+        elements: all
     - name: Caution Strategic Projects
       seriesDataTypeId: 9
-      aggregateType: SUM
+      derivation: status
+      status:
+        scorecardList:
+        - scorecard-77146
+        elementType: initiative
+        statuses:
+        - statusId: 18579
+          status: Caution
+        scorecards: list
+        elements: all
     - name: Below Target Strategic Projects
       seriesDataTypeId: 9
-      aggregateType: SUM
+      derivation: status
+      status:
+        scorecardList:
+        - scorecard-77146
+        elementType: initiative
+        statuses:
+        - statusId: 18580
+          status: Below Plan
+        scorecards: list
+        elements: all
     - name: Total
       seriesDataTypeId: 9
-      aggregateType: SUM
-      calculation: "[m533944][Above Target Strategic Projects][CurrentPeriod]+[m533944][Caution Strategic Projects][CurrentPeriod]+[m533944][Below Target Strategic Projects][CurrentPeriod]"
+      calculation: "[scorecard-77146/measures/measure-533944][Above Target Strategic Projects][CurrentPeriod]+[scorecard-77146/measures/measure-533944][Caution Strategic Projects][CurrentPeriod]+[scorecard-77146/measures/measure-533944][Below Target Strategic Projects][CurrentPeriod]"
+      derivation: formula
     - name: "% Green"
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: "[m533944][Above Target Strategic Projects][CurrentPeriod]/[m533944][Total][CurrentPeriod]*100"
+      calculation: "[scorecard-77146/measures/measure-533944][Above Target Strategic Projects][CurrentPeriod]/[scorecard-77146/measures/measure-533944][Total][CurrentPeriod]*100"
+      derivation: formula
     dataResource: scorecard-77146/data/measure-533944-series.json
   status:
     currentPeriod:

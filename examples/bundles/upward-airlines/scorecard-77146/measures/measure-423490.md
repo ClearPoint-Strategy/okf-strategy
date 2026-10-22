@@ -70,28 +70,42 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: ([m423509][A][CurrentPeriod]+[m423522][A][CurrentPeriod]+[m423533][A][CurrentPeriod])/3
+      derivation: aggregate
+      aggregate:
+        series: nameEquals
+        includeNulls: true
+        seriesName: Actual
+        elementType: measure
+        scorecards: children
+        elements: linkedChildren
+        function: SUM
     - name: Target
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: (([m423509][T][CurrentPeriod]+[m423522][T][CurrentPeriod]+[m423533][T][CurrentPeriod])/3)
+      derivation: aggregate
+      aggregate:
+        series: nameEquals
+        includeNulls: true
+        seriesName: Target
+        elementType: measure
+        scorecards: children
+        elements: linkedChildren
+        function: SUM
     - name: YTD
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423490][Actual][CalendarYTDSum]"
+      calculation: "[scorecard-77146/measures/measure-423490][Actual][CalendarYTDSum]"
+      derivation: formula
     - name: Eastern Division
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423509][Actual][CurrentPeriod]"
+      calculation: "[scorecard-77147/measures/measure-423509][Actual][CurrentPeriod]"
+      derivation: formula
     - name: Central Division
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423522][Actual][CurrentPeriod]"
+      calculation: "[scorecard-77148/measures/measure-423522][Actual][CurrentPeriod]"
+      derivation: formula
     - name: Western Division
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423533][Actual][CurrentPeriod]"
+      calculation: "[scorecard-77149/measures/measure-423533][Actual][CurrentPeriod]"
+      derivation: formula
     dataResource: scorecard-77146/data/measure-423490-series.json
   status:
     currentPeriod:

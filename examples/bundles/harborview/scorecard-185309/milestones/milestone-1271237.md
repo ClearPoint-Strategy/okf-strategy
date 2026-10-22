@@ -18,10 +18,8 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 4
-      aggregateType: SUM
   status:
     currentPeriod:
       periodId: 385651

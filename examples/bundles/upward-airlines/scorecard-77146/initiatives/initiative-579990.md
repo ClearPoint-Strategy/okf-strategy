@@ -17,7 +17,6 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 4
-      aggregateType: SUM
   status:
     currentPeriod:
       periodId: 189846

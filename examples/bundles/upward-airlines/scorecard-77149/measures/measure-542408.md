@@ -14,14 +14,12 @@ cps:
     series:
     - name: Number of calls
       seriesDataTypeId: 9
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 9
-      aggregateType: SUM
     - name: YTD Calls
       seriesDataTypeId: 5
-      aggregateType: SUM
-      calculation: "CASE \n    WHEN [m542408][Number of calls][CurrentPeriod] IS NULL THEN NULL \n    ELSE [m542408][Number of calls][CalendarYTDAverage] \nEND\n"
+      calculation: "CASE \n    WHEN [scorecard-77149/measures/measure-542408][Number of calls][CurrentPeriod] IS NULL THEN NULL \n    ELSE [scorecard-77149/measures/measure-542408][Number of calls][CalendarYTDAverage] \nEND\n"
+      derivation: formula
     dataResource: scorecard-77149/data/measure-542408-series.json
   status:
     currentPeriod:

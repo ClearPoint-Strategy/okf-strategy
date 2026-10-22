@@ -18,16 +18,18 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Percent Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: percentComplete
     - name: Calculated Percent Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: elapsedPercentComplete
     dataResource: scorecard-185058/data/initiative-745862-series.json
   status:
     currentPeriod:

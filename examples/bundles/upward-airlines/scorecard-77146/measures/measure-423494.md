@@ -43,10 +43,8 @@ cps:
     series:
     - name: Job Descriptions
       seriesDataTypeId: 5
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 5
-      aggregateType: SUM
     dataResource: scorecard-77146/data/measure-423494-series.json
   status:
     currentPeriod:

@@ -47,10 +47,8 @@ cps:
     series:
     - name: Utilization Percentage
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
     dataResource: scorecard-77146/data/measure-423492-series.json
   status:
     currentPeriod:

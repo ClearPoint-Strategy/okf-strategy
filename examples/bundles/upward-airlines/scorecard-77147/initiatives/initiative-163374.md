@@ -43,13 +43,22 @@ cps:
     series:
     - name: Budget
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Elapsed Days
       seriesDataTypeId: 9
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: elapsedDays
     - name: Initiative Percent Complete
       seriesDataTypeId: 6
-      aggregateType: AVERAGE
+      derivation: aggregate
+      aggregate:
+        series: nameEquals
+        includeNulls: true
+        seriesName: Milestone Percent Complete
+        elementType: measure
+        scorecards: current
+        elements: initiativeMilestones
+        function: AVERAGE
     dataResource: scorecard-77147/data/initiative-163374-series.json
   status:
     currentPeriod:

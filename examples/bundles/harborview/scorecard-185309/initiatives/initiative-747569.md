@@ -20,15 +20,13 @@ cps:
     series:
     - name: Actual Budget
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Expenditure
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: "% of Budget Expended"
       seriesDataTypeId: 5
-      aggregateType: SUM
-      calculation: ([i747569][Expenditure][CurrentPeriod]/[i747569][Actual Budget][CurrentPeriod])*100
       currency: USD
+      calculation: ([scorecard-185309/initiatives/initiative-747569][Expenditure][CurrentPeriod]/[scorecard-185309/initiatives/initiative-747569][Actual Budget][CurrentPeriod])*100
+      derivation: formula
     dataResource: scorecard-185309/data/initiative-747569-series.json
   status:
     currentPeriod:

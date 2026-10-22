@@ -47,13 +47,10 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Benchmark
       seriesDataTypeId: 6
-      aggregateType: SUM
     dataResource: scorecard-77149/data/measure-423530-series.json
   status:
     currentPeriod:
