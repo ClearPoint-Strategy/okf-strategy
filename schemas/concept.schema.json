@@ -120,9 +120,78 @@
                 "name": { "type": "string" },
                 "seriesDataTypeId": { "type": "integer", "enum": [4, 5, 6, 8, 9, 10, 11], "description": "4=Currency 5=Number 6=Percentage 8=Accounting 9=Integer 10=Custom 11=Text." },
                 "currency": { "type": "string" },
-                "aggregateType": { "type": "string", "enum": ["STDEV", "AVERAGE", "SUM", "COUNT"] },
-                "calculation": { "type": "string" },
-                "numberFormat": { "$ref": "#/$defs/numberFormat" }
+                "numberFormat": { "$ref": "#/$defs/numberFormat" },
+                "derivation": { "type": "string", "enum": ["formula", "aggregate", "status", "reference"], "description": "How the source computes this series (SPEC §6.4). Omitted for entered values." },
+                "calculation": { "type": "string", "description": "derivation formula: an expression over [<Concept ID>|missing][<series name>][<period selector>] references (SPEC §6.4)." },
+                "aggregate": { "$ref": "#/$defs/aggregateDerivation" },
+                "status": { "$ref": "#/$defs/statusDerivation" },
+                "reference": { "$ref": "#/$defs/referenceDerivation" }
+            },
+            "allOf": [
+                { "if": { "required": ["derivation"], "properties": { "derivation": { "const": "formula" } } }, "then": { "required": ["calculation"] } },
+                { "if": { "required": ["derivation"], "properties": { "derivation": { "const": "aggregate" } } }, "then": { "required": ["aggregate"] } },
+                { "if": { "required": ["derivation"], "properties": { "derivation": { "const": "status" } } }, "then": { "required": ["status"] } },
+                { "if": { "required": ["derivation"], "properties": { "derivation": { "const": "reference" } } }, "then": { "required": ["reference"] } }
+            ]
+        },
+        "scorecardScope": {
+            "type": "string",
+            "enum": ["all", "current", "children", "list", "tag"],
+            "description": "Scorecards a roll-up reads: all, the element's own, its immediate children, scorecardList, or those tagged scorecardTag."
+        },
+        "aggregateDerivation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["function", "scorecards", "elementType", "elements", "series"],
+            "description": "SPEC §6.4 aggregate: a roll-up of matching series across matching elements.",
+            "properties": {
+                "function": { "type": "string", "enum": ["SUM", "AVERAGE", "COUNT", "STDEV"] },
+                "includeNulls": { "type": "boolean" },
+                "scorecards": { "$ref": "#/$defs/scorecardScope" },
+                "scorecardList": { "type": "array", "items": { "type": "string", "pattern": "^scorecard-[0-9]+$" } },
+                "scorecardTag": { "type": "string" },
+                "elementType": { "type": "string", "enum": ["measure", "initiative", "milestone", "actionItem", "risk"] },
+                "elements": { "type": "string", "enum": ["all", "linkedChildren", "nameEquals", "nameContains", "initiativeMilestones", "childMilestones", "tag"] },
+                "elementName": { "type": "string" },
+                "elementTag": { "type": "string" },
+                "series": { "type": "string", "enum": ["nameEquals", "nameContains", "tag"] },
+                "seriesName": { "type": "string" },
+                "seriesTag": { "type": "string" }
+            }
+        },
+        "statusDerivation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["elementType", "scorecards", "elements", "statuses"],
+            "description": "SPEC §6.4 status: a count of matching elements whose status is one of statuses.",
+            "properties": {
+                "elementType": { "$ref": "common.schema.json#/$defs/objectType" },
+                "scorecards": { "$ref": "#/$defs/scorecardScope" },
+                "scorecardList": { "type": "array", "items": { "type": "string", "pattern": "^scorecard-[0-9]+$" } },
+                "scorecardTag": { "type": "string" },
+                "elements": { "type": "string", "enum": ["all", "nameEquals", "nameContains", "tag"] },
+                "elementName": { "type": "string" },
+                "elementTag": { "type": "string" },
+                "statuses": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["statusId"],
+                        "properties": { "statusId": { "type": "integer" }, "status": { "type": "string" } }
+                    }
+                }
+            }
+        },
+        "referenceDerivation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["field"],
+            "description": "SPEC §6.4 reference: a field of an element read each period.",
+            "properties": {
+                "concept": { "type": "string", "description": "Concept ID of the target; omitted means the series' own element." },
+                "field": { "type": "string", "enum": ["percentComplete", "elapsedPercentComplete", "elapsedDays", "customField"] },
+                "customField": { "type": "string", "description": "Custom field name when field is customField." }
             }
         },
         "numberFormat": {
