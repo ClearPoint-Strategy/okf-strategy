@@ -47,10 +47,8 @@ cps:
     series:
     - name: Avg. Wage / Hr
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 4
-      aggregateType: SUM
     dataResource: scorecard-77146/data/measure-423493-series.json
   status:
     currentPeriod:

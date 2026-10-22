@@ -47,14 +47,12 @@ cps:
     series:
     - name: Maintenance Cost
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: "% of Target"
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: "[m423491][Maintenance Cost][CurrentPeriod]/[m423491][Target][CurrentPeriod]*100"
+      calculation: "[scorecard-77146/measures/measure-423491][Maintenance Cost][CurrentPeriod]/[scorecard-77146/measures/measure-423491][Target][CurrentPeriod]*100"
+      derivation: formula
     dataResource: scorecard-77146/data/measure-423491-series.json
   status:
     currentPeriod:

@@ -14,13 +14,10 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 9
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 9
-      aggregateType: SUM
     - name: Baseline
       seriesDataTypeId: 9
-      aggregateType: SUM
     dataResource: scorecard-77149/data/measure-542536-series.json
   status:
     currentPeriod:

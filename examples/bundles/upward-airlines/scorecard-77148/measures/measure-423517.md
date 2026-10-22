@@ -47,14 +47,12 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Actual Previous Period
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: "[m423517][Actual][PreviousPeriod]"
+      calculation: "[scorecard-77148/measures/measure-423517][Actual][PreviousPeriod]"
+      derivation: formula
     dataResource: scorecard-77148/data/measure-423517-series.json
   status:
     currentPeriod:

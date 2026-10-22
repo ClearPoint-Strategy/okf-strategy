@@ -16,34 +16,31 @@ cps:
     series:
     - name: Total Budget
       seriesDataTypeId: 10
-      aggregateType: SUM
     - name: Planned Spend (Cumulative)
       seriesDataTypeId: 10
-      aggregateType: SUM
     - name: Actual Spend (Cumulative)
       seriesDataTypeId: 10
-      aggregateType: SUM
     - name: Forecast at Completion
       seriesDataTypeId: 10
-      aggregateType: SUM
     - name: Budget Variance
       seriesDataTypeId: 10
-      aggregateType: SUM
-      calculation: "[i753443][Planned Spend (Cumulative)][CurrentPeriod] - [i753443][Actual Spend (Cumulative)][CurrentPeriod]"
+      calculation: "[scorecard-185052/initiatives/initiative-753443][Planned Spend (Cumulative)][CurrentPeriod] - [scorecard-185052/initiatives/initiative-753443][Actual Spend (Cumulative)][CurrentPeriod]"
+      derivation: formula
     - name: "% of Budget Spent"
       seriesDataTypeId: 10
-      aggregateType: SUM
-      calculation: ROUND([i753443][Actual Spend (Cumulative)][CurrentPeriod] / [i753443][Total Budget][CurrentPeriod] * 100, 1)
+      calculation: ROUND([scorecard-185052/initiatives/initiative-753443][Actual Spend (Cumulative)][CurrentPeriod] / [scorecard-185052/initiatives/initiative-753443][Total Budget][CurrentPeriod] * 100, 1)
+      derivation: formula
     - name: Planned % Complete
       seriesDataTypeId: 10
-      aggregateType: SUM
     - name: Actual % Complete
       seriesDataTypeId: 10
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: percentComplete
     - name: Schedule Variance (pts)
       seriesDataTypeId: 5
-      aggregateType: SUM
-      calculation: "[i753443][Actual % Complete][CurrentPeriod] - [i753443][Planned % Complete][CurrentPeriod]"
+      calculation: "[scorecard-185052/initiatives/initiative-753443][Actual % Complete][CurrentPeriod] - [scorecard-185052/initiatives/initiative-753443][Planned % Complete][CurrentPeriod]"
+      derivation: formula
     dataResource: scorecard-185052/data/initiative-753443-series.json
   status:
     currentPeriod:

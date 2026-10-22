@@ -69,35 +69,33 @@ cps:
     series:
     - name: Design Costs To Date
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Construction Costs To Date
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Total Spending To Date
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[i308980][Design Costs To Date][CurrentPeriod]+[i308980][Construction Costs To Date][CurrentPeriod]"
+      calculation: "[scorecard-77146/initiatives/initiative-308980][Design Costs To Date][CurrentPeriod]+[scorecard-77146/initiatives/initiative-308980][Construction Costs To Date][CurrentPeriod]"
+      derivation: formula
     - name: Project Budget
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Actual % Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: percentComplete
     - name: Planned % Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Budget based on % complete
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: ([i308980][Project Budget][CurrentPeriod]*[i308980][Actual % Complete][CurrentPeriod])/100
+      calculation: ([scorecard-77146/initiatives/initiative-308980][Project Budget][CurrentPeriod]*[scorecard-77146/initiatives/initiative-308980][Actual % Complete][CurrentPeriod])/100
+      derivation: formula
     - name: Variance from Target
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[i308980][Total Spending To Date][CurrentPeriod]-[i308980][Budget based on % complete][CurrentPeriod]"
+      calculation: "[scorecard-77146/initiatives/initiative-308980][Total Spending To Date][CurrentPeriod]-[scorecard-77146/initiatives/initiative-308980][Budget based on % complete][CurrentPeriod]"
+      derivation: formula
     - name: "% Variance"
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: (([i308980][Total Spending To Date][CurrentPeriod]/[i308980][Budget based on % complete][CurrentPeriod])-1)*100
+      calculation: (([scorecard-77146/initiatives/initiative-308980][Total Spending To Date][CurrentPeriod]/[scorecard-77146/initiatives/initiative-308980][Budget based on % complete][CurrentPeriod])-1)*100
+      derivation: formula
     dataResource: scorecard-77146/data/initiative-308980-series.json
   status:
     currentPeriod:

@@ -241,8 +241,8 @@ producer that stores a non-measure's series on an internal helper object resolve
 the series, the sidecar, and the evaluation rules sit on the element that owns them.
 
 - **`cps.measure.series`** lists the series definitions: `name`, `seriesDataTypeId`, and optionally
-  `aggregateType`, `calculation` (producer syntax, opaque to other consumers), `currency`, and
-  `numberFormat`.
+  `currency` and `numberFormat`. A series whose values the source computes carries its `derivation`
+  (§6.4); a series without one holds entered values.
 - **`cps.measure.dataResource`** names the sidecar holding every value (§6.1).
 - **The grounding projection** is the body's `## Status` value line, `- **Value:** <value> (target <target>)`.
   It shows the current period's value of the series that drives status (`cps.evaluation.statusSeries`,
@@ -377,6 +377,85 @@ A producer MAY attach an element's detail-page layout as `data/layout-<hash>.jso
 a consumer that does not know the producer ignores it. Elements sharing a layout share the file, which is
 why the name is a content hash.
 
+### 6.4 Derived series — `derivation`
+
+Most strategy numbers are computed: a ratio of two measures, a roll-up across child scorecards, a count
+of red initiatives, a project's percent complete. A bundle that carried only the values would import as
+frozen numbers that stop updating. So a derived series carries **how** it is computed, in a form that
+names other concepts rather than source ids. `derivation` is one of `formula`, `aggregate`, `status`,
+or `reference`, and the matching key holds its definition:
+
+```yaml
+cps:
+  measure:
+    series:
+      - name: Actual
+        seriesDataTypeId: 5
+        derivation: formula
+        calculation: "([scorecard-184937/measures/measure-2123929][Actual][CurrentPeriod]+[scorecard-184938/measures/measure-2123962][Actual][CurrentPeriod])/2"
+      - name: Regional Average
+        seriesDataTypeId: 5
+        derivation: aggregate
+        aggregate: { function: AVERAGE, scorecards: children, elementType: measure, elements: nameEquals, elementName: Revenue, series: nameEquals, seriesName: Actual }
+      - name: Red Projects
+        seriesDataTypeId: 9
+        derivation: status
+        status: { elementType: initiative, scorecards: current, elements: all, statuses: [{ statusId: 18580, status: Below Plan }] }
+      - name: Percent Complete
+        seriesDataTypeId: 6
+        derivation: reference
+        reference: { field: percentComplete }
+```
+
+**Formula.** `calculation` is an arithmetic expression over references. A reference is three adjacent
+bracket groups, `[<target>][<series name>][<period selector>]`:
+
+- **target** is the Concept ID of the element that owns the referenced series, the series' own element
+  included. A target the producer cannot express, such as a deleted element, is written `[missing]`, and
+  the reference evaluates to null, as it does in the source.
+- **series name** is the referenced series' `name`, exactly as written in its definition.
+- **period selector** is one of `CurrentPeriod`, `PreviousPeriod`, `PreviousYear` (the latest period at
+  least 364 days earlier), `NextPeriod`, `Back<N>` (the period N back), `Last<N>` (the last N periods,
+  current included), `CalendarYTD`, `QuarterToDate`, `SemesterToDate`, `Calendar` (the calendar year),
+  `FiscalYTD`, `Fiscal` (the fiscal year), or the name of a period in `periods.md`. A selector that
+  spans several periods takes a suffix `Sum`, `Average`, or `Count`; no suffix means `Sum`. Periods are
+  those of the referenced element's periodicity.
+
+Outside references the expression uses numbers, parentheses, `+ - * / %`, comparisons, and these
+words, case-insensitive: `abs acos and asin atan avg between case cast ceiling coalesce convert cos count
+else end exp floor iif in is isnull log log10 max min not null nullif or pi power round sign sin sqrt
+square sum tan then try_cast when`, with the numeric type names `int bigint smallint tinyint decimal
+numeric float real money`. An expression that fails to evaluate yields null.
+
+**Aggregate.** A roll-up of matching series across a set of elements: `function` is `SUM`, `AVERAGE`,
+`COUNT`, or `STDEV`; `includeNulls` (default false) counts missing values as zero.
+
+- `scorecards`: `all`, `current` (the element's scorecard), `children` (its immediate child
+  scorecards), `list` with `scorecardList` (scorecard folder names, e.g. `scorecard-184937`), or `tag`
+  with `scorecardTag` (a tag name).
+- `elementType`: `measure`, `initiative`, `milestone`, `actionItem`, or `risk`. `elements`: `all`,
+  `linkedChildren`, `nameEquals` or `nameContains` with `elementName`, `initiativeMilestones`,
+  `childMilestones`, or `tag` with `elementTag`.
+- `series`: `nameEquals` or `nameContains` with `seriesName`, or `tag` with `seriesTag`.
+
+**Status.** A count, each period, of elements whose status is one of `statuses`
+(`[{statusId, status}]`, names resolving through `statuses.md`). `elementType` is any element type
+including `objective`; `scorecards` and `scorecardList` / `scorecardTag` are as for aggregate;
+`elements` is `all`, `nameEquals` or `nameContains` with `elementName`, or `tag` with `elementTag`.
+
+**Reference.** A value read each period from an element's field: `field` is `percentComplete`,
+`elapsedPercentComplete`, `elapsedDays`, or `customField` with `customField` (the field's name; its
+element type is the target's). `concept` names the target; omitted means the series' own element.
+
+Rules for all four:
+
+- Names, tags, statuses, and Concept IDs are the portable handles; numeric ids are bundle-scoped (§3).
+- A derivation may name a concept outside the bundle. An importer resolves every handle in the target
+  account and creates the series without its derivation, reporting it, when one does not resolve.
+- The sidecar still holds every value, so a consumer that does not evaluate derivations reads the
+  numbers the source computed.
+- Cross-account benchmark ("peer") series are never emitted.
+
 ---
 
 ## 7. Conformance & the validator
@@ -414,6 +493,7 @@ What 1.0 carries across accounts, and what it carries for reading only:
 | `## Details` values, by element type and field name through `custom-fields.md` | Ids of every kind (§3) |
 | Relationship headings as links | |
 | `cps.measure.series` and the series sidecar's values, periods matched by name | |
+| Series derivations (§6.4), after every element exists, then recalculated | |
 | `## Status` for its period: status by name, analysis, recommendations | |
 | `cps.layoutResource`, when the importer knows the producer | |
 
@@ -443,5 +523,7 @@ is a candidate for a later minor version, which would add it without changing it
   `cps.alias`, `cps.measureId`, `cps.score`, `cps.weight` (weights live in `cps.evaluation`),
   `cps.provenance.scorecard` (duplicate of `cps.scorecard`), `cps.provenance.lastCalculated`, and
   `cps.measure.evaluation` (replaced by `cps.evaluation`).
+- A series' `calculation` and `aggregateType` in producer syntax are replaced by `derivation` with its
+  portable definition (§6.4).
 - Removed from the layout: per-scorecard `index.md` and `glossary.md`, and per-period `## <Period>` body
   sections. History is the status sidecar.

@@ -47,15 +47,14 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423531][Actual][CurrentPeriod] - [m423532][Actual][CurrentPeriod]"
+      calculation: "[scorecard-77149/measures/measure-423531][Actual][CurrentPeriod] - [scorecard-77149/measures/measure-423532][Actual][CurrentPeriod]"
+      derivation: formula
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Actual %
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: "[m423529][Actual][CurrentPeriod] / [m423531][Actual][CurrentPeriod] *100"
+      calculation: "[scorecard-77149/measures/measure-423529][Actual][CurrentPeriod] / [scorecard-77149/measures/measure-423531][Actual][CurrentPeriod] *100"
+      derivation: formula
     dataResource: scorecard-77149/data/measure-423529-series.json
   status:
     currentPeriod:

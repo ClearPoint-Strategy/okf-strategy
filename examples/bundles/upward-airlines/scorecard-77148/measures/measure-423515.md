@@ -47,14 +47,12 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Unsatisfied Employees
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: 100-[m423515][Actual][CurrentPeriod]
+      calculation: 100-[scorecard-77148/measures/measure-423515][Actual][CurrentPeriod]
+      derivation: formula
     dataResource: scorecard-77148/data/measure-423515-series.json
   status:
     currentPeriod:

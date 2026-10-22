@@ -57,22 +57,20 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423484][Industry][CurrentPeriod]*.9"
+      calculation: "[scorecard-77146/measures/measure-423484][Industry][CurrentPeriod]*.9"
+      derivation: formula
     - name: Industry
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Differential vs. Target
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423484][Target][CurrentPeriod]-[m423484][Actual][CurrentPeriod]"
+      calculation: "[scorecard-77146/measures/measure-423484][Target][CurrentPeriod]-[scorecard-77146/measures/measure-423484][Actual][CurrentPeriod]"
+      derivation: formula
     - name: Differential vs. Industry
       seriesDataTypeId: 4
-      aggregateType: SUM
-      calculation: "[m423484][Industry][CurrentPeriod]-[m423484][Actual][CurrentPeriod]"
+      calculation: "[scorecard-77146/measures/measure-423484][Industry][CurrentPeriod]-[scorecard-77146/measures/measure-423484][Actual][CurrentPeriod]"
+      derivation: formula
     dataResource: scorecard-77146/data/measure-423484-series.json
   status:
     currentPeriod:

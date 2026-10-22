@@ -43,13 +43,16 @@ cps:
     series:
     - name: Budget
       seriesDataTypeId: 4
-      aggregateType: SUM
     - name: Elapsed Days
       seriesDataTypeId: 9
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: elapsedDays
     - name: Milestone Percent Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: percentComplete
     dataResource: scorecard-77147/data/milestone-281266-series.json
   status:
     currentPeriod:

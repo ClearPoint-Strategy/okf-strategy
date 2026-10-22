@@ -47,14 +47,12 @@ cps:
     series:
     - name: Actual
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: Target
       seriesDataTypeId: 6
-      aggregateType: SUM
     - name: "% Not Served"
       seriesDataTypeId: 6
-      aggregateType: SUM
-      calculation: 100-[m423486][Actual][CurrentPeriod]
+      calculation: 100-[scorecard-77146/measures/measure-423486][Actual][CurrentPeriod]
+      derivation: formula
     dataResource: scorecard-77146/data/measure-423486-series.json
   status:
     currentPeriod:

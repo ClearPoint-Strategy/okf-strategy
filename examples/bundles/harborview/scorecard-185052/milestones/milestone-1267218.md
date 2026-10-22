@@ -49,10 +49,14 @@ cps:
     series:
     - name: Milestone Percent Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: percentComplete
     - name: Milestone Calculated Percent Complete
       seriesDataTypeId: 6
-      aggregateType: SUM
+      derivation: reference
+      reference:
+        field: elapsedPercentComplete
     dataResource: scorecard-185052/data/milestone-1267218-series.json
   status:
     currentPeriod:
