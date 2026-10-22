@@ -148,7 +148,7 @@
                 "function": { "type": "string", "enum": ["SUM", "AVERAGE", "COUNT", "STDEV"] },
                 "includeNulls": { "type": "boolean" },
                 "scorecards": { "$ref": "#/$defs/scorecardScope" },
-                "scorecardList": { "type": "array", "items": { "type": "string", "pattern": "^scorecard-[0-9]+$" } },
+                "scorecardList": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^scorecard-[0-9]+$" } },
                 "scorecardTag": { "type": "string" },
                 "elementType": { "type": "string", "enum": ["measure", "initiative", "milestone", "actionItem", "risk"] },
                 "elements": { "type": "string", "enum": ["all", "linkedChildren", "nameEquals", "nameContains", "initiativeMilestones", "childMilestones", "tag"] },
@@ -167,7 +167,7 @@
             "properties": {
                 "elementType": { "$ref": "common.schema.json#/$defs/objectType" },
                 "scorecards": { "$ref": "#/$defs/scorecardScope" },
-                "scorecardList": { "type": "array", "items": { "type": "string", "pattern": "^scorecard-[0-9]+$" } },
+                "scorecardList": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^scorecard-[0-9]+$" } },
                 "scorecardTag": { "type": "string" },
                 "elements": { "type": "string", "enum": ["all", "nameEquals", "nameContains", "tag"] },
                 "elementName": { "type": "string" },
@@ -190,7 +190,7 @@
             "description": "SPEC §6.4 reference: a field of an element read each period.",
             "properties": {
                 "concept": { "type": "string", "description": "Concept ID of the target; omitted means the series' own element." },
-                "field": { "type": "string", "enum": ["percentComplete", "elapsedPercentComplete", "elapsedDays", "customField"] },
+                "field": { "type": "string", "enum": ["percentComplete", "elapsedPercentComplete", "elapsedDays", "totalDays", "customField"] },
                 "customField": { "type": "string", "description": "Custom field name when field is customField." }
             }
         },
