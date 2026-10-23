@@ -372,10 +372,55 @@ cps:
 
 ### 6.3 Presentation data — `cps.layoutResource`
 
-A producer MAY attach an element's detail-page layout as `data/layout-<hash>.json`, named by
-`cps.layoutResource`, when the request asks for it. The file is producer-specific presentation data:
-a consumer that does not know the producer ignores it. Elements sharing a layout share the file, which is
-why the name is a content hash.
+A producer MAY attach the detail-page layout in effect for an element as `data/layout-<hash>.json` in
+the element's scorecard folder, named by `cps.layoutResource` as a bundle-relative path, when the export
+request asks for layouts. `<hash>` is the first ten hexadecimal characters, lower case, of a hash of the
+file content, so elements sharing a layout share one file. The file is producer-specific presentation
+data: a consumer that does not know the producer ignores it, and the validator does not check it (§7).
+
+The file is a JSON object holding one or both of:
+
+- **`layout`**, the page: an ordered list of areas, `{area, page, class, pods}`. Each pod names what it
+  shows in `fieldId` and carries the producer's display settings as written (`template`, `title`,
+  `podWidth`, `sortOrder`, `updateMode`, `readOnly`, `podStyleId`, the `hide*` flags, and `chartName` for
+  a chart pod). `title` is a display string or the producer's localization key.
+- **`cardLayout`**, the card grid: `{coordinates, visualSettings}`, two lists keyed by `i`, the pod id.
+  `coordinates` holds the grid position (`x`, `y`, `w`, `h`, `minW`, `minH`); `visualSettings` holds the
+  same display settings as a page pod.
+
+A pod id (`fieldId` or `i`) is one of:
+
+- a built-in field or relationship of the element type, by name (`owner`, `analysis`,
+  `recommendations`, `chartData`, `gantt`, `measures`, `children`, `pageBreak<n>`, ...);
+- `custom<customFieldId>`, a custom field, the id as in `custom-fields.md`;
+- `chart<chartId>`, a chart of the element.
+
+```json
+{
+  "layout": [
+    { "area": 1, "page": 0, "class": "area1", "pods": [
+      { "fieldId": "owner", "template": "owner", "title": "defaultFields.edit.objective.owner",
+        "podWidth": "col-xs-12", "sortOrder": 0, "updateMode": false, "readOnly": false, "podStyleId": 0,
+        "hideBorder": false, "hideLevel": 0, "hideOnline": false, "hidePadding": false, "hidePrint": false, "hidePublish": false },
+      { "fieldId": "custom276419", "template": "custom", "title": "Description", "podWidth": "col-xs-12", "sortOrder": 1 },
+      { "fieldId": "chart3066803", "template": "chart", "title": "Average Wage", "chartName": "Average Wage", "podWidth": "col-xs-12", "sortOrder": 2 }
+    ]}
+  ],
+  "cardLayout": {
+    "coordinates": [ { "i": "ownerId", "x": 0, "y": 0, "w": 6, "h": 3, "minW": 2, "minH": 2 } ],
+    "visualSettings": [ { "i": "ownerId", "template": "owner", "hideBorder": false } ]
+  }
+}
+```
+
+Rules:
+
+- The ids inside a layout are bundle-scoped like every other id (§3). A consumer that reproduces the
+  layout resolves `custom<id>` through its custom-field mapping and drops a pod whose target it did not
+  create or map. A `chart<id>` pod is dropped: charts are not in the bundle. Built-in pods are kept as
+  written.
+- The layout applies to the imported element alone, never to the scorecard or account defaults.
+- A producer that cannot read an element's layout omits the file and `cps.layoutResource`.
 
 ### 6.4 Derived series — `derivation`
 
