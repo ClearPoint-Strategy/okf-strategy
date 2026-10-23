@@ -38,6 +38,7 @@ bundle/
     measures/measure-<id>.md               # also categories/, initiatives/, milestones/, action-items/, risks/
     data/<object>-<id>-series.json         # numeric series (columnar sidecar)
     data/<object>-<id>-status.json         # per-period status and narrative history
+    data/layout-<hash>.json                # optional detail-page layout (SPEC §6.3)
 ```
 
 A concept's **frontmatter** is the machine spine (identity, status, provenance, series); its **body** is
